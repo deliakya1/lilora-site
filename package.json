@@ -1,0 +1,13 @@
+{
+  "name": "lilora-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "python3 scripts/import-content.py && node scripts/build.mjs",
+    "test": "node --test scripts/site.test.mjs",
+    "check": "npm run build && npm test"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

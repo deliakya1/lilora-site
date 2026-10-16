@@ -1,2 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://lilora.app/</loc></url><url><loc>https://lilora.app/privacy/</loc></url><url><loc>https://lilora.app/support/</loc></url><url><loc>https://lilora.app/en/</loc></url><url><loc>https://lilora.app/en/privacy/</loc></url><url><loc>https://lilora.app/en/support/</loc></url></urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://lilora.app/</loc></url>
+  <url><loc>https://lilora.app/compare/</loc></url>
+  <url><loc>https://lilora.app/compare/lilora-vs-picturethis/</loc></url>
+  <url><loc>https://lilora.app/compare/lilora-vs-planta/</loc></url>
+  <url><loc>https://lilora.app/editorial/</loc></url>
+  <url><loc>https://lilora.app/en/</loc></url>
+  <url><loc>https://lilora.app/en/compare/</loc></url>
+  <url><loc>https://lilora.app/en/compare/lilora-vs-picturethis/</loc></url>
+  <url><loc>https://lilora.app/en/compare/lilora-vs-planta/</loc></url>
+  <url><loc>https://lilora.app/en/editorial/</loc></url>
+  <url><loc>https://lilora.app/en/guides/</loc></url>
+  <url><loc>https://lilora.app/en/guides/indoor-plant-light-guide/</loc></url>
+  <url><loc>https://lilora.app/en/guides/watering-houseplants/</loc></url>
+  <url><loc>https://lilora.app/en/guides/when-to-repot-houseplants/</loc></url>
+  <url><loc>https://lilora.app/en/guides/yellow-houseplant-leaves/</loc></url>
+  <url><loc>https://lilora.app/en/journal/</loc></url>
+  <url><loc>https://lilora.app/en/privacy/</loc></url>
+  <url><loc>https://lilora.app/en/support/</loc></url>
+  <url><loc>https://lilora.app/guides/</loc></url>
+  <url><loc>https://lilora.app/guides/indoor-plant-light-guide/</loc></url>
+  <url><loc>https://lilora.app/guides/watering-houseplants/</loc></url>
+  <url><loc>https://lilora.app/guides/when-to-repot-houseplants/</loc></url>
+  <url><loc>https://lilora.app/guides/yellow-houseplant-leaves/</loc></url>
+  <url><loc>https://lilora.app/journal/</loc></url>
+  <url><loc>https://lilora.app/privacy/</loc></url>
+  <url><loc>https://lilora.app/support/</loc></url>
+</urlset>

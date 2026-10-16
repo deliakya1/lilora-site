@@ -1,0 +1,626 @@
+[
+  {
+    "slug": "watering-houseplants",
+    "type": "guide",
+    "published": "2026-10-16",
+    "reviewed": "2026-10-16",
+    "sources": [
+      {
+        "name": "University of Maryland Extension",
+        "url": "https://extension.umd.edu/resource/watering-indoor-plants"
+      },
+      {
+        "name": "Illinois Extension",
+        "url": "https://extension.illinois.edu/houseplants/watering"
+      },
+      {
+        "name": "University of Maryland Extension: overwatering",
+        "url": "https://extension.umd.edu/resource/overwatered-indoor-plants"
+      },
+      {
+        "name": "New York Botanical Garden",
+        "url": "https://libguides.nybg.org/c.php?g=655008&p=4597484"
+      },
+      {
+        "name": "RHS: how plants lose water",
+        "url": "https://www.rhs.org.uk/advice/understanding-plants/how-plants-lose-water"
+      }
+    ],
+    "related": [
+      "yellow-houseplant-leaves",
+      "indoor-plant-light-guide",
+      "when-to-repot-houseplants"
+    ],
+    "en": {
+      "title": "How to water houseplants without a rigid schedule",
+      "description": "Check potting mix, pot weight and drainage to decide when to water. A practical routine that follows your plant, not a rigid calendar.",
+      "answer": "Water a houseplant when its potting mix has reached the moisture level that suits that plant. Check below the surface, compare the pot’s weight, and make sure excess water can escape. A reminder is useful for checking; it cannot tell you that every plant needs a drink today. University of Maryland Extension",
+      "sections": [
+        {
+          "title": "Start with the plant, then check the pot",
+          "html": "<p>Find the plant’s name and look up its moisture preference. Some plants need a consistently lightly moist root zone. Others need the mix to dry partly between waterings. Many drought-adapted succulents need a more substantial dry-down. Even plants sold together can have different requirements. <a href=\"https://extension.illinois.edu/houseplants/watering\">Illinois Extension</a></p>\n<p>Write that preference in plain language beside the plant’s name. For example, record the recommended moisture condition rather than copying a number of days. This gives you something to check against when the room, weather, or pot changes.</p>\n<p>For many common foliage houseplants, checking the upper inch or two of mix is a useful starting point. Gently insert a finger into an accessible patch, avoiding the stem and obvious roots. Is it wet, lightly moist, or dry? Do not assume a dry surface means the whole pot is dry, or apply the same test depth to every species and container. <a href=\"https://extension.umd.edu/resource/watering-indoor-plants\">University of Maryland Extension</a></p>"
+        },
+        {
+          "title": "Use a second clue when the answer is unclear",
+          "html": "<p>Lift a manageable pot after watering and draining it, then compare its weight as the mix dries. The difference is often easier to recognize than a change in surface color. For a deep container, a wooden dowel inserted gently into the mix can help: adhering damp mix or a moisture mark suggests water remains lower down. Avoid forcing it through roots. <a href=\"https://extension.umd.edu/resource/overwatered-indoor-plants\">University of Maryland Extension: overwatering</a></p>\n<p>A moisture meter can provide another observation, but it should not overrule everything else. Illinois Extension notes that probes are not always reliable. If the reading conflicts with a heavy pot and visibly wet mix, investigate before adding water. <a href=\"https://extension.illinois.edu/houseplants/watering\">Illinois Extension</a></p>"
+        },
+        {
+          "title": "Water the root zone and let it drain",
+          "html": "<p>For an ordinary houseplant in potting mix:</p>\n<ol><li>Take the nursery pot out of its decorative outer pot, if practical.</li><li>Apply room-temperature water slowly over the mix.</li><li>Wet the root zone thoroughly and allow surplus water to leave through the drainage holes.</li><li>Let the pot drain, then empty the saucer or outer pot.</li></ol>\n<p>Avoid leaving the base standing in the runoff. Bottom watering is another option, but the pot still needs to come out of the water and drain afterward. These instructions concern ordinary potted houseplants; aquatic plants and specialist growing systems need different routines. <a href=\"https://libguides.nybg.org/c.php?g=655008&amp;p=4597484\">New York Botanical Garden</a></p>"
+        },
+        {
+          "title": "If water runs straight through, check what happened",
+          "html": "<p>Runoff alone does not prove that a very dry root ball became evenly wet. Mix that has shrunk away from the container may need repeated, slow applications to rehydrate. Check the mix again instead of immediately returning the plant to its shelf. <a href=\"https://extension.umd.edu/resource/overwatered-indoor-plants\">University of Maryland Extension: overwatering</a></p>\n<p>If this keeps happening, investigate the mix and root crowding. Make a note of the problem rather than compensating with increasingly frequent splashes.</p>"
+        },
+        {
+          "title": "Let your checking routine change",
+          "html": "<p>Warmth and moving air can increase water loss; cooler or more humid conditions can reduce it. A plant’s water use also changes with growth and its surroundings. A routine that worked in one room may stop working after a move. <a href=\"https://www.rhs.org.uk/advice/understanding-plants/how-plants-lose-water\">RHS: how plants lose water</a></p>\n<p>Record three things when you check: the moisture you found, whether you watered, and anything that changed. “Still moist; skipped watering; moved away from heater” is more useful than a row of watering dates alone. Over time, your checks become better informed without becoming a fixed calendar rule.</p>"
+        },
+        {
+          "title": "Common questions",
+          "html": "<h3>Should I water a drooping plant immediately?</h3>\n<p>Check the mix first. Both drought and excessively wet roots can cause wilting. Adding water to an already saturated pot can make the problem worse. <a href=\"https://extension.umd.edu/resource/overwatered-indoor-plants\">University of Maryland Extension: overwatering</a></p>\n<h3>Can all my plants share one watering day?</h3>\n<p>They can share a check-in day. Decide separately whether each plant needs water, using its species needs and current conditions. <a href=\"https://extension.illinois.edu/houseplants/watering\">Illinois Extension</a></p>\n<h3>What should a watering reminder tell me?</h3>\n<p>“Check the potting mix” is a useful prompt. Add water only after the check supports it. Keep a short note when you skip watering so the record reflects what actually happened.</p>"
+        }
+      ]
+    },
+    "tr": {
+      "title": "Ev bitkilerini sabit bir takvime bağlı kalmadan sulamak",
+      "description": "Saksı harcını, ağırlığı ve drenajı kontrol ederek sulama zamanını belirle. Sabit takvim yerine bitkini izleyen pratik bir rutin.",
+      "answer": "Bitkini, saksı harcının nemi o türün ihtiyacına uygun seviyeye geldiğinde sula. Yüzeyin altını kontrol et, saksının ağırlığını karşılaştır ve fazla suyun çıkabildiğinden emin ol. Hatırlatma, kontrol zamanını söyler; her bitkinin o gün su istediğini söylemez.",
+      "sections": [
+        {
+          "title": "Önce türü, sonra saksıyı tanı",
+          "html": "<p>Bitkinin adını ve nem ihtiyacını araştır. Bazı türler kök çevresinin hafif nemli kalmasını ister; bazılarında sulamalar arasında kısmi kuruma gerekir. Kuraklığa uyum sağlamış sukulentlerin önemli bir bölümü daha belirgin kuruma ister. Yan yana satılan bitkiler bile aynı ihtiyaca sahip olmayabilir. <a href=\"https://extension.illinois.edu/houseplants/watering\">Illinois Extension</a></p>\n<p>Bitkinin yanına bir gün sayısı yerine kontrol edeceğin nem koşulunu yaz. Oda, hava veya saksı değiştiğinde bu not daha işe yarar.</p>\n<p>Yaygın yapraklı ev bitkilerinde harcın üst birkaç santimetresini kontrol etmek başlangıç olabilir. Gövdeye ve belirgin köklere zarar vermeden erişilebilir bir noktaya parmağını sok: ıslak mı, hafif nemli mi, kuru mu? Kuru yüzey bütün saksının kuruduğunu göstermez. Her tür ve saksı için aynı derinliği kullanma. <a href=\"https://extension.umd.edu/resource/watering-indoor-plants\">Maryland Üniversitesi</a></p>"
+        },
+        {
+          "title": "Emin değilsen ikinci bir ipucu ara",
+          "html": "<p>Taşıyabileceğin bir saksıyı sulayıp süzdükten sonra kaldır; kurudukça ağırlığını karşılaştır. Derin saksılarda dikkatle yerleştirilmiş tahta bir çubuk, alt kısımdaki nem hakkında ipucu verebilir. Üzerine yapışan nemli harç veya nem izi su kaldığını gösterebilir. Çubuğu köklerin arasından zorla geçirme. <a href=\"https://extension.umd.edu/resource/overwatered-indoor-plants\">Maryland Üniversitesi: fazla sulama</a></p>\n<p>Nem ölçer yardımcı bir gözlem olabilir, ancak diğer bulguları geçersiz kılmaz. Illinois Extension probların her zaman güvenilir olmadığını belirtir. Ölçüm kuru diyorsa ama saksı ağır ve harç ıslaksa, su eklemeden önce araştır. <a href=\"https://extension.illinois.edu/houseplants/watering\">Illinois Extension</a></p>"
+        },
+        {
+          "title": "Kök bölgesini ıslat, fazla suyu süzdür",
+          "html": "<p>Normal saksı harcındaki yaygın ev bitkileri için:</p>\n<ol><li>Mümkünse iç saksıyı dekoratif dış saksıdan çıkar.</li><li>Oda sıcaklığındaki suyu harcın üzerine yavaşça dök.</li><li>Kök bölgesini iyice ıslat ve fazla suyun deliklerden çıkmasını bekle.</li><li>Süzülme tamamlanınca tabağı veya dış saksıyı boşalt.</li></ol>\n<p>Saksının dibini biriken suda bırakma. Alttan sulama da bir seçenektir; ardından saksıyı sudan çıkarıp süzdürmek gerekir. Su bitkileri ve özel yetiştirme sistemleri farklı rutinler ister. <a href=\"https://libguides.nybg.org/c.php?g=655008&amp;p=4597484\">New York Botanik Bahçesi</a></p>"
+        },
+        {
+          "title": "Su hemen akıp gidiyorsa kontrol et",
+          "html": "<p>Alttan su çıkması, çok kuru kök topunun eşit biçimde ıslandığını kanıtlamaz. Saksının kenarından ayrılmış harç, yeniden ıslanmak için yavaş ve tekrarlı uygulama gerektirebilir. Bitkiyi yerine koymadan nemi tekrar kontrol et. <a href=\"https://extension.umd.edu/resource/overwatered-indoor-plants\">Maryland Üniversitesi</a></p>\n<p>Bu sık tekrarlanıyorsa harcı ve kök sıkışıklığını incele. Daha sık küçük miktarlar eklemek yerine sorunu not et.</p>"
+        },
+        {
+          "title": "Kontrol rutinini koşullarla birlikte değiştir",
+          "html": "<p>Sıcaklık ve hava hareketi su kaybını artırabilir; serinlik ve yüksek nem azaltabilir. Büyüme ve konum da su kullanımını etkiler. Bir odada işe yarayan düzen, taşındıktan sonra değişebilir. <a href=\"https://www.rhs.org.uk/advice/understanding-plants/how-plants-lose-water\">RHS: bitkiler nasıl su kaybeder?</a></p>\n<p>Üç şeyi kaydet: bulduğun nem, sulayıp sulamadığın ve değişen koşullar. “Hâlâ nemli; sulamadım; kaloriferden uzaklaştırdım” notu yalnızca sulama tarihlerinden daha açıklayıcıdır.</p>"
+        },
+        {
+          "title": "Sık sorulanlar",
+          "html": "<h3>Yaprakları sarkan bitkiyi hemen sulamalı mıyım?</h3>\n<p>Önce harcı kontrol et. Kuruluk da aşırı ıslak kökler de sarkmaya neden olabilir. Doygun saksıya su eklemek sorunu ağırlaştırabilir. <a href=\"https://extension.umd.edu/resource/overwatered-indoor-plants\">Maryland Üniversitesi</a></p>\n<h3>Bütün bitkiler için tek bir sulama günü olur mu?</h3>\n<p>Ortak bir kontrol günü olabilir. Su kararını her bitkinin türü ve o anki koşulları için ayrı ver. <a href=\"https://extension.illinois.edu/houseplants/watering\">Illinois Extension</a></p>\n<h3>Hatırlatmada ne yazmalı?</h3>\n<p>“Saksı harcını kontrol et” iyi bir başlangıçtır. Kontrol su ihtiyacını destekliyorsa sula. Sulamadığında da kısa bir not bırak.</p>"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "yellow-houseplant-leaves",
+    "type": "guide",
+    "published": "2026-10-16",
+    "reviewed": "2026-10-16",
+    "sources": [
+      {
+        "name": "RHS: leaf damage",
+        "url": "https://www.rhs.org.uk/prevention-protection/leaf-damage-on-houseplants"
+      },
+      {
+        "name": "RHS: helping a poorly houseplant",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/how-to-help-a-poorly-houseplant"
+      },
+      {
+        "name": "University of Maryland Extension",
+        "url": "https://www.extension.umd.edu/resource/diagnose-indoor-plant-problems"
+      },
+      {
+        "name": "Iowa State University Extension",
+        "url": "https://yardandgarden.extension.iastate.edu/faq/what-causes-leaves-my-houseplant-turn-yellow-or-brown-and-drop"
+      },
+      {
+        "name": "RHS: chlorosis",
+        "url": "https://www.rhs.org.uk/problems/chlorosis"
+      }
+    ],
+    "related": [
+      "watering-houseplants",
+      "indoor-plant-light-guide",
+      "when-to-repot-houseplants"
+    ],
+    "en": {
+      "title": "Yellow houseplant leaves: what to check before you act",
+      "description": "Check leaf patterns, root-zone moisture, light, temperature and pests before changing care for a yellowing houseplant.",
+      "answer": "Yellow leaves have several possible causes. Check which leaves changed, the root-zone moisture, and recent changes around the plant. One aging lower leaf can be normal; widespread yellowing, soft stems or rapid decline need closer attention.",
+      "sections": [
+        {
+          "title": "First, record the pattern",
+          "html": "<p>Before watering, feeding, repotting or moving anything, take a clear photograph in natural light. Include the whole plant, affected leaves and pot. Note:</p>\n<ul><li>Whether old leaves, new leaves or both are affected</li><li>Whether the change is uniform yellowing, pale areas, dots or patches</li><li>Whether leaves feel firm, limp or dry</li><li>When you first noticed it</li><li>Any recent move, repotting, feeding or temperature change</li></ul>\n<p>Compare future photographs with this record. An occasional old leaf falling from an otherwise healthy mature plant differs from several leaves changing together. Aging is a possibility, not a reason to ignore a worsening pattern. <a href=\"https://www.rhs.org.uk/prevention-protection/leaf-damage-on-houseplants\">RHS: leaf damage</a></p>"
+        },
+        {
+          "title": "Check moisture before adding water",
+          "html": "<p>Feel the mix below its surface. Lift the inner pot and look for trapped water in the decorative container. Wilting does not prove thirst: excessively wet roots can also leave a plant drooping. Check moisture and growing conditions before applying treatments. <a href=\"https://www.rhs.org.uk/plants/types/houseplants/how-to-help-a-poorly-houseplant\">RHS: helping a poorly houseplant</a></p>\n<p>If the mix is genuinely dry relative to the species’ needs, correct the watering and let the pot drain. If saturated, empty standing water, check drainage and pause unnecessary watering. Do not compensate by putting a shade-adapted plant into harsh sun.</p>\n<p>Persistent wetness with declining foliage warrants a root inspection. Gently slide out a manageable root ball. Dark, softened roots are a warning; firmness and condition are more informative than color alone. Severe decay needs plant-specific help. <a href=\"https://www.extension.umd.edu/resource/diagnose-indoor-plant-problems\">University of Maryland Extension</a></p>"
+        },
+        {
+          "title": "Reconstruct changes in light and temperature",
+          "html": "<p>Was the plant moved to a sunnier window? Did heating or air conditioning start? Was it carried through cold air? Too much or too little light, temperature extremes and sudden changes can contribute to leaf loss. Keep foliage away from vent blasts and drafty doors. Adjust light gradually, according to the species. <a href=\"https://yardandgarden.extension.iastate.edu/faq/what-causes-leaves-my-houseplant-turn-yellow-or-brown-and-drop\">Iowa State University Extension</a></p>\n<p>Record one considered change: “Moved clear of heating vent; kept similar window exposure.” This is easier to interpret than moving the plant between rooms while changing water and fertilizer too.</p>"
+        },
+        {
+          "title": "Inspect leaf undersides and stem joints",
+          "html": "<p>Look for fine webbing, clusters of insects, cotton-like material or raised bumps. Photograph unusual signs and seek identification before treatment. A yellow leaf alone does not identify a pest. <a href=\"https://www.extension.umd.edu/resource/diagnose-indoor-plant-problems\">University of Maryland Extension</a></p>\n<p>Separate a plant with suspected pests or unexplained decline while investigating, keeping its light and temperature needs in mind. <a href=\"https://www.rhs.org.uk/plants/types/houseplants/how-to-help-a-poorly-houseplant\">RHS: helping a poorly houseplant</a></p>"
+        },
+        {
+          "title": "Fertilizer is a question, not a rescue button",
+          "html": "<p>Nutrient problems can cause yellowing, but root damage and unsuitable growing conditions can affect nutrient uptake too. Yellow tissue between greener veins is worth documenting; it does not prove which nutrient to add. Check the species, feeding history and roots first. <a href=\"https://www.rhs.org.uk/problems/chlorosis\">RHS: chlorosis</a></p>\n<p>If decline continues, send photographs and the care history to a horticultural advice service. Include the plant name, drainage, light, moisture observations and recent changes. These tell more than one leaf close-up.</p>"
+        },
+        {
+          "title": "Common questions",
+          "html": "<h3>Does yellow mean overwatered?</h3>\n<p>No. Too much or too little water, light, temperature changes and aging can overlap. Use several clues. <a href=\"https://www.rhs.org.uk/prevention-protection/leaf-damage-on-houseplants\">RHS: leaf damage</a></p>\n<h3>Should I repot immediately?</h3>\n<p>Only if evidence points to a potting or root problem. Repotting cannot resolve every cause of yellowing.</p>\n<h3>What should I watch next?</h3>\n<p>Look for additional affected leaves, continued stem decline and the condition of new growth. Record care changes so you can explain the sequence.</p>"
+        }
+      ]
+    },
+    "tr": {
+      "title": "Sararan yapraklar: bir şey yapmadan önce neleri kontrol etmeli?",
+      "description": "Sararan yapraklarda bakımını değiştirmeden önce yaprak desenini, kök nemini, ışığı, sıcaklığı ve zararlı belirtilerini kontrol et.",
+      "answer": "Sararma tek bir nedeni göstermez. Hangi yaprakların değiştiğine, kök çevresinin nemine ve yakın zamanda değişen koşullara bak. Yaşlanan tek bir alt yaprak normal olabilir; yaygın sararma, yumuşayan gövde veya hızlı kötüleşme daha dikkatli inceleme ister.",
+      "sections": [
+        {
+          "title": "Önce değişimi kaydet",
+          "html": "<p>Sulamadan, gübrelemeden, saksı veya yer değiştirmeden önce doğal ışıkta fotoğraf çek. Bitkinin tamamı, etkilenen yapraklar ve saksı görünsün. Şunları not et:</p>\n<ul><li>Eski yapraklar mı, yeniler mi, ikisi de mi etkilenmiş?</li><li>Sararma eşit mi; noktalar veya lekeler var mı?</li><li>Yapraklar diri, gevşek veya kuru mu?</li><li>Sorunu ilk ne zaman gördün?</li><li>Yakın zamanda konum, saksı, gübre veya sıcaklık değişti mi?</li></ul>\n<p>Sonraki fotoğrafı bu kayıtla karşılaştır. Sağlıklı, olgun bir bitkide ara sıra eski yaprak kaybı, birçok yaprağın birlikte değişmesinden farklıdır. Yaşlanma olasılığı kötüleşen durumu görmezden gelmek için neden değildir. <a href=\"https://www.rhs.org.uk/prevention-protection/leaf-damage-on-houseplants\">RHS: yaprak hasarı</a></p>"
+        },
+        {
+          "title": "Su eklemeden önce nemi kontrol et",
+          "html": "<p>Yüzeyin altındaki harca dokun. İç saksıyı kaldırıp dış saksıda su birikip birikmediğine bak. Sarkma susuzluğu kanıtlamaz; aşırı ıslak köklerde de görülür. Önce nemi ve ortamı değerlendir. <a href=\"https://www.rhs.org.uk/plants/types/houseplants/how-to-help-a-poorly-houseplant\">RHS: sorun yaşayan ev bitkileri</a></p>\n<p>Harç türün ihtiyacına göre gerçekten kuruysa uygun şekilde sula ve süzdür. Suya doymuşsa biriken suyu boşalt, drenajı kontrol et ve gereksiz sulamayı durdur. Gölgeli koşullara uyumlu bitkiyi telafi amacıyla sert güneşe koyma.</p>\n<p>Sürekli ıslaklık ve kötüleşme varsa kökleri incelemek gerekebilir. Taşınabilir kök topunu dikkatle çıkar. Koyu ve yumuşamış kökler uyarıcıdır; yalnız renkten çok doku ve sağlamlık önemlidir. Ciddi çürümede türe özel yardım al. <a href=\"https://www.extension.umd.edu/resource/diagnose-indoor-plant-problems\">Maryland Üniversitesi</a></p>"
+        },
+        {
+          "title": "Işık ve sıcaklık değişimlerini hatırla",
+          "html": "<p>Daha güneşli bir pencereye mi taşındı? Isıtma veya klima mı açıldı? Eve gelirken soğukta mı kaldı? Fazla veya az ışık, aşırı sıcaklıklar ve ani değişimler yaprak kaybına katkıda bulunabilir. Havalandırma akımından ve cereyanlı kapılardan uzak tut. Işığı türe uygun biçimde, kademeli değiştir. <a href=\"https://yardandgarden.extension.iastate.edu/faq/what-causes-leaves-my-houseplant-turn-yellow-or-brown-and-drop\">Iowa State Üniversitesi</a></p>\n<p>Düşünülmüş bir değişiklik yap ve kaydet. “Kaloriferden uzaklaştırdım; pencere ışığı benzer” notu, aynı anda yer, su ve gübreyi değiştirmekten daha kolay yorumlanır.</p>"
+        },
+        {
+          "title": "Yaprak altlarına ve gövde birleşimlerine bak",
+          "html": "<p>İnce ağlar, küçük böcek kümeleri, pamuksu oluşumlar veya kabarıklıklar ara. Olağandışı bulguyu fotoğraflayıp tedaviden önce ne olduğunu araştır. Sarı yaprak tek başına zararlıyı tanımlamaz. <a href=\"https://www.extension.umd.edu/resource/diagnose-indoor-plant-problems\">Maryland Üniversitesi</a></p>\n<p>Şüpheli zararlı veya açıklanamayan kötüleşme varsa bitkiyi geçici olarak ayır; yeni yerin ışık ve sıcaklık ihtiyacını karşılamasına dikkat et. <a href=\"https://www.rhs.org.uk/plants/types/houseplants/how-to-help-a-poorly-houseplant\">RHS</a></p>"
+        },
+        {
+          "title": "Gübreyi otomatik çözüm sayma",
+          "html": "<p>Besin sorunları sararma yapabilir; kök hasarı ve uygunsuz koşullar da besin alımını etkileyebilir. Yeşil damarlar arasındaki sararmayı kaydet, ancak bundan hangi besinin eksik olduğunu çıkarma. Önce türü, gübre geçmişini ve kökleri kontrol et. <a href=\"https://www.rhs.org.uk/problems/chlorosis\">RHS: kloroz</a></p>\n<p>Kötüleşme sürerse bir bahçecilik danışmanına fotoğrafları ve bakım geçmişini ilet. Tür, drenaj, ışık, nem ve son değişimleri ekle.</p>"
+        },
+        {
+          "title": "Sık sorulanlar",
+          "html": "<h3>Sarı yaprak fazla su demek mi?</h3>\n<p>Hayır. Az veya fazla su, ışık, sıcaklık ve yaşlanma benzer belirtiler verebilir. Birden fazla bulguyu birlikte değerlendir. <a href=\"https://www.rhs.org.uk/prevention-protection/leaf-damage-on-houseplants\">RHS</a></p>\n<h3>Hemen saksı değiştirmeli miyim?</h3>\n<p>Ancak bulgular kök veya harç sorununa işaret ediyorsa. Saksı değiştirmek her sararma nedenini çözmez.</p>\n<h3>Sonra neyi izlemeliyim?</h3>\n<p>Yeni etkilenen yaprakları, gövdedeki kötüleşmeyi ve yeni büyümenin durumunu izle. Bakım değişikliklerinin sırasını kaydet.</p>"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "indoor-plant-light-guide",
+    "type": "guide",
+    "published": "2026-10-16",
+    "reviewed": "2026-10-16",
+    "sources": [
+      {
+        "name": "University of Minnesota Extension",
+        "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/lighting-for-indoor-plants"
+      },
+      {
+        "name": "University of Maryland Extension",
+        "url": "https://www.extension.umd.edu/resource/lighting-indoor-plants"
+      },
+      {
+        "name": "Missouri Botanical Garden",
+        "url": "https://www.missouribotanicalgarden.org/Portals/0/Kemper%20Gardens/Fact%20Sheets/Houseplants%202022-pdf.pdf"
+      },
+      {
+        "name": "RHS: artificial lighting",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/artificial-lighting"
+      }
+    ],
+    "related": [
+      "watering-houseplants",
+      "yellow-houseplant-leaves",
+      "when-to-repot-houseplants"
+    ],
+    "en": {
+      "title": "Indoor plant light: a beginner’s guide to choosing a spot",
+      "description": "Understand direct sunlight, bright indirect light and low light. Observe your window and choose a position around your plant’s needs.",
+      "answer": "Choose a position by the light reaching the leaves throughout the day. Bright indirect light means a well-lit position without direct sun striking foliage. Low light still requires usable light. Window direction is a clue; obstructions, distance and season change the result.",
+      "sections": [
+        {
+          "title": "Understand the three labels",
+          "html": "<p>Direct sunlight reaches leaves as a sunbeam, including through a window. Glass does not automatically make sunlight indirect. Some houseplants suit this exposure; strong sun can damage others.</p>\n<p>Bright indirect light describes a bright location outside direct sunbeams, or light softened by shading. Beside a sunny window or behind a sheer curtain may work, but check: a wall or dense curtain can remove more light than expected.</p>\n<p>Low light is less intense light that some species tolerate, not a promise of growth in a dark corner. Plants need light for growth; lower light may mean slower growth or less flowering. <a href=\"https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/lighting-for-indoor-plants\">University of Minnesota Extension</a></p>"
+        },
+        {
+          "title": "Observe the place before choosing a plant",
+          "html": "<p>Inspect a candidate spot in the morning, near midday and later afternoon, at the height the leaves will occupy. Record:</p>\n<ol><li>Whether direct sun reaches the position</li><li>Roughly when it arrives and leaves</li><li>What blocks the window inside and outside</li><li>Whether curtains normally stay open</li><li>How far the foliage will sit from the glass</li></ol>\n<p>Repeat if the first day was unusually overcast. You are describing a place, not giving the room a permanent rating from one glance.</p>\n<p>Light decreases away from a window. Curtains, screens, trees, buildings and glass affect what reaches the plant. A bright-looking room can contain a much darker shelf. <a href=\"https://www.extension.umd.edu/resource/lighting-indoor-plants\">University of Maryland Extension</a></p>"
+        },
+        {
+          "title": "Use compass directions carefully",
+          "html": "<p>In much of the Northern Hemisphere, an unobstructed south-facing window receives substantial direct sun; north-facing windows usually receive less. East and west often receive direct sun for part of the day. The sun-facing north/south relationship changes in the Southern Hemisphere; tropical locations need their own seasonal assessment.</p>\n<p>A neighboring building, overhang or seasonally leafy tree may matter more than direction. Use the compass to decide where to look, then verify what reaches the foliage. <a href=\"https://www.missouribotanicalgarden.org/Portals/0/Kemper%20Gardens/Fact%20Sheets/Houseplants%202022-pdf.pdf\">Missouri Botanical Garden</a></p>"
+        },
+        {
+          "title": "Match a species to the observations",
+          "html": "<p>Houseplants come from different habitats. Look up the species, match its needs to the recorded conditions, and check its other requirements too.</p>\n<p>Long, weak stems with unusually large gaps between leaves can indicate insufficient light. Bleached or scorched areas can suggest excessive exposure. These are clues, not diagnoses: water and temperature problems can overlap. <a href=\"https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/lighting-for-indoor-plants\">University of Minnesota Extension</a></p>\n<p>Make a considered adjustment and record it. Avoid repeated moves before you can observe a response.</p>"
+        },
+        {
+          "title": "When natural light is insufficient",
+          "html": "<p>A suitable grow light can support plants where daylight falls short. Choose for the species and area to illuminate. Check coverage and operating guidance; every lamp does not suit every shelf.</p>\n<p>Intensity and duration both matter. Moving a lamp changes what reaches the leaves. Follow the maker’s placement guidance, use an appropriate timer setting and observe the response. <a href=\"https://www.rhs.org.uk/plants/types/houseplants/artificial-lighting\">RHS: artificial lighting</a></p>"
+        },
+        {
+          "title": "Common questions",
+          "html": "<h3>Can a low-light plant live in a windowless room?</h3>\n<p>Only with sufficient artificial light. Low light does not mean no light. <a href=\"https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/lighting-for-indoor-plants\">University of Minnesota Extension</a></p>\n<h3>Is there one correct distance from a window?</h3>\n<p>No. Window size, shading, direction, season and species all matter. Assess the actual position. <a href=\"https://www.extension.umd.edu/resource/lighting-indoor-plants\">University of Maryland Extension</a></p>\n<h3>How should I review the position later?</h3>\n<p>Photograph the plant and note when you choose the spot. Recheck as seasons, curtains or outdoor shade change. Compare new growth as well as older leaves.</p>"
+        }
+      ]
+    },
+    "tr": {
+      "title": "Ev bitkilerinde ışık: doğru yeri seçme rehberi",
+      "description": "Doğrudan güneşi, parlak dolaylı ışığı ve az ışığı ayırt et. Pencereyi gözlemle, bitkinin ihtiyacına göre yer seç.",
+      "answer": "Yeri, gün boyunca yapraklara ulaşan ışığa göre seç. Parlak dolaylı ışık, güneş ışınlarının yaprağa doğrudan vurmadığı aydınlık konumdur. Az ışık, kullanılabilir ışığın hiç olmadığı anlamına gelmez. Pencerenin yönü başlangıç ipucudur; engeller, uzaklık ve mevsim sonucu değiştirir.",
+      "sections": [
+        {
+          "title": "Üç yaygın tanımı ayıralım",
+          "html": "<p>Doğrudan güneş, pencerenin arkasında olsa bile yapraklara güneş ışınının ulaşmasıdır. Cam, ışığı kendiliğinden dolaylı hale getirmez. Bazı türler bu koşula uygundur; bazılarında güçlü güneş hasar oluşturabilir.</p>\n<p>Parlak dolaylı ışık, doğrudan ışının dışında kalan veya uygun biçimde yumuşatılan aydınlıktır. Güneşli pencerenin yanı ya da ince perde arkası uygun olabilir, ama kontrol et: duvar veya yoğun perde beklediğinden fazla ışığı kesebilir.</p>\n<p>Az ışık, bazı türlerin dayanabildiği düşük yoğunluktur; karanlık köşede iyi büyüme vaadi değildir. Bitkiler büyümek için ışığa ihtiyaç duyar. Düşük ışık daha yavaş büyüme veya az çiçeklenmeyle birlikte gelebilir. <a href=\"https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/lighting-for-indoor-plants\">Minnesota Üniversitesi</a></p>"
+        },
+        {
+          "title": "Bitkiyi seçmeden önce yeri gözlemle",
+          "html": "<p>Aday konumu sabah, öğleye yakın ve öğleden sonra kontrol et. Yaprakların bulunacağı yükseklikte şunları kaydet:</p>\n<ol><li>Doğrudan güneş geliyor mu?</li><li>Yaklaşık ne zaman başlayıp bitiyor?</li><li>İçeride ve dışarıda pencereyi ne engelliyor?</li><li>Perdeler gündüz genellikle açık mı?</li><li>Yapraklar camdan ne kadar uzakta olacak?</li></ol>\n<p>İlk gün olağandışı bulutluysa başka gün tekrar bak. Bir bakışla odaya kalıcı puan vermek yerine konumu tarif ediyorsun.</p>\n<p>Pencereden uzaklaştıkça ışık azalır. Perde, sineklik, ağaç, bina ve cam miktarı etkiler. Aydınlık görünen odada çok daha karanlık bir raf olabilir. <a href=\"https://www.extension.umd.edu/resource/lighting-indoor-plants\">Maryland Üniversitesi</a></p>"
+        },
+        {
+          "title": "Pusulayı ipucu olarak kullan",
+          "html": "<p>Kuzey Yarımküre’nin büyük bölümünde engelsiz güney penceresi belirgin doğrudan güneş alır; kuzey genellikle daha az alır. Doğu ve batı günün bir bölümünde doğrudan güneş alabilir. Güney Yarımküre’de kuzey-güney ilişkisi değişir; tropik bölgelerde mevsim ayrıca değerlendirilmelidir.</p>\n<p>Komşu bina, saçak veya mevsimle yapraklanan ağaç yön bilgisinden daha etkili olabilir. Pusulayı nereye bakacağını seçmek için kullan; yaprağa gerçekten ulaşanı doğrula. <a href=\"https://www.missouribotanicalgarden.org/Portals/0/Kemper%20Gardens/Fact%20Sheets/Houseplants%202022-pdf.pdf\">Missouri Botanik Bahçesi</a></p>"
+        },
+        {
+          "title": "Türün ihtiyacını gözlemlerinle eşleştir",
+          "html": "<p>Ev bitkileri farklı doğal ortamlardan gelir. Türü araştır, ışık isteğini konumunla karşılaştır ve diğer ihtiyaçlarını da değerlendir.</p>\n<p>Uzayan zayıf gövdeler ve yapraklar arasındaki geniş aralıklar yetersiz ışığı düşündürebilir. Solmuş veya yanmış alanlar fazla ışığa işaret edebilir. Bunlar tek başına teşhis değildir; sulama ve sıcaklık sorunları benzer olabilir. <a href=\"https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/lighting-for-indoor-plants\">Minnesota Üniversitesi</a></p>\n<p>Düşünülmüş bir ayarlama yapıp kaydet. Tepkiyi gözlemleyemeden sürekli yer değiştirme.</p>"
+        },
+        {
+          "title": "Doğal ışık yetmiyorsa",
+          "html": "<p>Uygun yetiştirme lambası, gün ışığının yetersiz olduğu yerde yardımcı olabilir. Türü ve aydınlatılacak alanı dikkate al. Her lamba her rafa uygun değildir; kapsama alanını ve kullanım talimatını oku.</p>\n<p>Yoğunluk ve süre birlikte önemlidir. Lambanın yerini değiştirmek yaprağa ulaşan ışığı değiştirir. Üreticinin konumlandırma önerisini, uygun zamanlayıcı ayarını ve bitkinin tepkisini birlikte değerlendir. <a href=\"https://www.rhs.org.uk/plants/types/houseplants/artificial-lighting\">RHS: yapay aydınlatma</a></p>"
+        },
+        {
+          "title": "Sık sorulanlar",
+          "html": "<h3>Az ışık bitkisi penceresiz odada yaşar mı?</h3>\n<p>Ancak yeterli yapay ışık varsa. Az ışık, hiç ışık değildir. <a href=\"https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/lighting-for-indoor-plants\">Minnesota Üniversitesi</a></p>\n<h3>Pencereye tek bir doğru uzaklık var mı?</h3>\n<p>Hayır. Pencerenin boyutu, engeller, yön, mevsim ve tür önemlidir. Gerçek konumu kontrol et. <a href=\"https://www.extension.umd.edu/resource/lighting-indoor-plants\">Maryland Üniversitesi</a></p>\n<h3>Konumu ne zaman yeniden değerlendirmeli?</h3>\n<p>Yer seçtiğinde fotoğraf ve tarih kaydet. Mevsim, perde veya dışarıdaki gölge değişince tekrar bak. Eski yapraklarla birlikte yeni büyümeyi de karşılaştır.</p>"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "when-to-repot-houseplants",
+    "type": "guide",
+    "published": "2026-10-16",
+    "reviewed": "2026-10-16",
+    "sources": [
+      {
+        "name": "Illinois Extension",
+        "url": "https://extension.illinois.edu/houseplants/repotting"
+      },
+      {
+        "name": "RHS: repotting",
+        "url": "https://www.rhs.org.uk/container-gardening/how-to-repot-a-plant"
+      },
+      {
+        "name": "Penn State Extension",
+        "url": "https://extension.psu.edu/repotting-houseplants"
+      },
+      {
+        "name": "Iowa State University Extension",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/how-care-houseplants"
+      },
+      {
+        "name": "University of Maryland Extension",
+        "url": "https://extension.umd.edu/resource/potting-and-repotting-indoor-plants"
+      }
+    ],
+    "related": [
+      "watering-houseplants",
+      "yellow-houseplant-leaves",
+      "indoor-plant-light-guide"
+    ],
+    "en": {
+      "title": "When to repot a houseplant, and how to do it carefully",
+      "description": "Inspect roots, choose a sensible pot size and preserve planting depth. A careful repotting guide for common foliage houseplants.",
+      "answer": "Repot when roots or potting mix need attention, rather than after a fixed interval. Dense circling roots, difficult watering or degraded mix can justify repotting. Inspect first, choose a modest size increase if needed, and keep the original planting depth.",
+      "sections": [
+        {
+          "title": "Has the plant outgrown its pot?",
+          "html": "<p>Roots through a drainage hole are a reason to investigate, not the whole decision. Other clues include unusually fast drying, smaller new leaves and wilting between waterings. Species differ: some need more frequent repotting; others stay in one container longer. <a href=\"https://extension.illinois.edu/houseplants/repotting\">Illinois Extension</a></p>\n<p>If manageable, support the plant and slide out the root ball gently. Are roots densely circling the sides and bottom, or is there plenty of mix among them? Photograph what you find. Record the current pot size and reason for changing it. “Roots tightly circling the base” tells more than “it has been a year.”</p>"
+        },
+        {
+          "title": "Choose the timing and size deliberately",
+          "html": "<p>Active growth is a good time for routine repotting, often spring or early summer under seasonal daylight. Those months are not a worldwide rule; growth and conditions matter. <a href=\"https://extension.illinois.edu/houseplants/repotting\">Illinois Extension</a></p>\n<p>Increase size modestly. For containers below 25 cm in diameter and depth, the RHS suggests roughly 2.5–5 cm wider and deeper. Consider the species and root ball instead of choosing an enormous pot to avoid future work. <a href=\"https://www.rhs.org.uk/container-gardening/how-to-repot-a-plant\">RHS: repotting</a></p>\n<p>Sometimes refreshing worn-out mix is the useful change. Root pruning or division needs species-specific guidance, not an automatic extra step.</p>"
+        },
+        {
+          "title": "Prepare before removing the plant",
+          "html": "<p>Gather a clean draining pot, species-appropriate fresh mix, a tray and tools. Use a container mix; orchids, cacti and other specialist plants may need different media. Pre-moisten a suitable mix to help it wet evenly. <a href=\"https://extension.psu.edu/repotting-houseplants\">Penn State Extension</a></p>\n<p>For a decorative container without a hole, use a removable draining inner pot. Gravel is not a substitute for drainage: it does not give water an escape route. <a href=\"https://yardandgarden.extension.iastate.edu/how-to/how-care-houseplants\">Iowa State University Extension</a></p>"
+        },
+        {
+          "title": "Repot a common foliage houseplant",
+          "html": "<ol><li>Support the root ball and ease the plant out. Squeeze a flexible nursery pot rather than pulling delicate leaves.</li><li>Examine roots and gently loosen accessible circling ones. Avoid tearing through the root system; substantial cutting needs species-specific advice.</li><li>Put a little fresh mix in the new pot, set in the root ball and check the height.</li><li>Fill around the sides. Keep the previous growing depth, leave watering space below the rim and firm gently.</li><li>For a typical healthy foliage plant, water the new mix and drain thoroughly. Specialist plants and significant root damage may require different aftercare.</li></ol>\n<p>Based on <a href=\"https://extension.umd.edu/resource/potting-and-repotting-indoor-plants\">University of Maryland Extension</a> and <a href=\"https://extension.illinois.edu/houseplants/repotting\">Illinois Extension</a>.</p>\n<p>Extensively soft or decaying roots are a root-health problem. Pause a routine pot-up; surrounding damaged roots with more wet mix will not address the cause.</p>"
+        },
+        {
+          "title": "Reset your observations afterward",
+          "html": "<p>Record the date, new pot dimensions and mix. Check moisture before the next watering; the old interval may no longer fit.</p>\n<p>Read the mix label before feeding. Many mixes already contain fertilizer, so more may be unnecessary. Iowa State advises waiting before restarting regular feeding. Follow species needs and product guidance. <a href=\"https://yardandgarden.extension.iastate.edu/how-to/how-care-houseplants\">Iowa State University Extension</a></p>"
+        },
+        {
+          "title": "Common questions",
+          "html": "<h3>Does every houseplant need repotting each year?</h3>\n<p>No. Growth, species, container and mix determine the interval. Inspect rather than automatically replacing the pot. <a href=\"https://extension.illinois.edu/houseplants/repotting\">Illinois Extension</a></p>\n<h3>Should I remove all old mix?</h3>\n<p>Not routinely. Assess roots and medium gently and follow species-specific instructions for extensive work.</p>\n<h3>What if the plant is too heavy?</h3>\n<p>Get help and protect the workspace. Inspection should not require balancing a heavy pot or pulling hard on stems.</p>"
+        }
+      ]
+    },
+    "tr": {
+      "title": "Saksı ne zaman değiştirilmeli, nasıl dikkatli yapılmalı?",
+      "description": "Kökleri incele, uygun saksı boyutunu seç ve dikim derinliğini koru. Yaygın yapraklı ev bitkileri için dikkatli saksı değiştirme rehberi.",
+      "answer": "Saksıyı sabit süre dolduğu için değil, kökler veya harç ihtiyaç gösterdiğinde değiştir. Yoğun dolanan kökler, zorlaşan sulama veya bozulmuş harç gerekçe olabilir. Önce incele, gerekiyorsa ölçülü büyüt ve önceki dikim derinliğini koru.",
+      "sections": [
+        {
+          "title": "Bitki saksısına sığmıyor mu?",
+          "html": "<p>Delikten çıkan kökler inceleme nedenidir; tek başına karar değildir. Çok hızlı kuruma, küçük yeni yapraklar ve sulamalar arasında solma da ipucu olabilir. Türler farklıdır; bazıları daha sık, bazıları uzun aralıklarla değişim ister. <a href=\"https://extension.illinois.edu/houseplants/repotting\">Illinois Extension</a></p>\n<p>Taşınabiliyorsa bitkiyi destekleyip kök topunu nazikçe çıkar. Kenar ve tabanda yoğun dolanma mı var, yoksa kökler arasında bol harç mı? Fotoğraf çek; mevcut ölçüyü ve değişim nedenini yaz. “Tabanda sık dolanan kökler” notu, “bir yıl oldu”dan daha açıklayıcıdır.</p>"
+        },
+        {
+          "title": "Zamanı ve boyutu düşünerek seç",
+          "html": "<p>Rutin değişim için aktif büyüme uygundur; mevsimsel gün ışığında çoğu yaygın tür için ilkbahar veya yaz başı olabilir. Bu aylar dünya çapında kural değildir; büyüme ve koşullar önemlidir. <a href=\"https://extension.illinois.edu/houseplants/repotting\">Illinois Extension</a></p>\n<p>Boyutu ölçülü artır. RHS, çap ve derinliği 25 cm’nin altındaki kaplarda yaklaşık 2,5–5 cm daha geniş ve derin kap önerir. Türü ve kök topunu dikkate al; uzun süre uğraşmamak için aşırı büyük saksı seçme. <a href=\"https://www.rhs.org.uk/container-gardening/how-to-repot-a-plant\">RHS: saksı değiştirme</a></p>\n<p>Bazen gereken yalnızca yıpranmış harcı yenilemektir. Kök budama veya bölme, her bitkiye uygulanacak ek adım değil, türe özel bilgi gerektiren işlemdir.</p>"
+        },
+        {
+          "title": "Bitkiyi çıkarmadan hazırlan",
+          "html": "<p>Temiz, delikli saksı; türe uygun taze harç; tepsi ve araçları hazırla. Orkide, kaktüs ve özel türler farklı ortamlar ister. Uygun harcı önceden hafif nemlendirmek eşit ıslanmasına yardımcı olur. <a href=\"https://extension.psu.edu/repotting-houseplants\">Penn State Extension</a></p>\n<p>Deliksiz dekoratif saksı için çıkarılabilir, delikli iç saksı kullan. Çakıl tabakası drenajın yerine geçmez; suya çıkış sağlamaz. <a href=\"https://yardandgarden.extension.iastate.edu/how-to/how-care-houseplants\">Iowa State Üniversitesi</a></p>"
+        },
+        {
+          "title": "Yaygın yapraklı bitkiler için adımlar",
+          "html": "<ol><li>Kök topunu destekleyerek bitkiyi çıkar. Esnek üretim saksısını sıkıp gevşet; hassas yapraklardan çekme.</li><li>Kökleri incele, erişilebilir dolanmış kökleri nazikçe gevşet. Bütün kök sistemini parçalama; kapsamlı kesim için türe özel bilgi al.</li><li>Yeni kaba az miktarda harç koy, kök topunu yerleştir ve yüksekliği kontrol et.</li><li>Yanları doldur. Önceki dikim derinliğini koru, kenarda sulama boşluğu bırak ve hafifçe sıkıştır.</li><li>Tipik sağlıklı yapraklı bitkide yeni harcı sula ve iyice süzdür. Özel türler veya ciddi kök hasarı farklı bakım isteyebilir.</li></ol>\n<p>Kaynaklar: <a href=\"https://extension.umd.edu/resource/potting-and-repotting-indoor-plants\">Maryland Üniversitesi</a> ve <a href=\"https://extension.illinois.edu/houseplants/repotting\">Illinois Extension</a>.</p>\n<p>Yaygın yumuşama veya çürüme varsa rutin büyütmeyi durdur. Hasarlı kökü daha fazla ıslak harçla çevrelemek nedeni çözmez.</p>"
+        },
+        {
+          "title": "Sonraki gözlemleri yeniden düzenle",
+          "html": "<p>Tarihi, yeni ölçüleri ve harcı kaydet. Sonraki sulamadan önce nemi kontrol et; eski aralık yeni saksıya uymayabilir.</p>\n<p>Gübrelemeden önce harcın etiketini oku. Hazır karışımlarda zaten gübre bulunabilir. Iowa State düzenli beslemeye dönmeden önce beklemeyi önerir. Türün ihtiyacına ve ürün talimatına uy. <a href=\"https://yardandgarden.extension.iastate.edu/how-to/how-care-houseplants\">Iowa State Üniversitesi</a></p>"
+        },
+        {
+          "title": "Sık sorulanlar",
+          "html": "<h3>Her yıl saksı değiştirmek gerekir mi?</h3>\n<p>Hayır. Büyüme, tür, kap ve harç belirleyicidir. Otomatik değiştirmek yerine incele. <a href=\"https://extension.illinois.edu/houseplants/repotting\">Illinois Extension</a></p>\n<h3>Eski harcın tamamını çıkarmalı mıyım?</h3>\n<p>Rutin olarak hayır. Kökleri ve harcı nazikçe değerlendir; kapsamlı işlem için türe özel yönlendirme kullan.</p>\n<h3>Bitki çok ağırsa?</h3>\n<p>Yardım al ve çalışma alanını koru. İnceleme ağır bir saksıyı dengede tutmayı veya gövdeyi zorla çekmeyi gerektirmemeli.</p>"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "lilora-vs-planta",
+    "type": "comparison",
+    "published": "2026-10-16",
+    "reviewed": "2026-10-16",
+    "sources": [
+      {
+        "name": "Planta on the App Store",
+        "url": "https://apps.apple.com/us/app/planta-plant-garden-care/id1410126781"
+      },
+      {
+        "name": "Lilora overview",
+        "url": "https://lilora.app/en/"
+      },
+      {
+        "name": "Lilora support",
+        "url": "https://lilora.app/en/support/"
+      },
+      {
+        "name": "Planta’s official feature overview",
+        "url": "https://getplanta.com/"
+      },
+      {
+        "name": "Planta Help Center",
+        "url": "https://support.getplanta.com/"
+      },
+      {
+        "name": "Free and premium access",
+        "url": "https://support.getplanta.com/do-planta-offer-a-free-trial-of-premium/"
+      },
+      {
+        "name": "Subscription billing",
+        "url": "https://support.getplanta.com/how-are-subscriptions-billed/"
+      }
+    ],
+    "related": [
+      "watering-houseplants",
+      "yellow-houseplant-leaves",
+      "indoor-plant-light-guide"
+    ],
+    "image": "/assets/editorial/lilora-collection-en.webp",
+    "imageWidth": 553,
+    "imageHeight": 1200,
+    "en": {
+      "title": "Lilora vs Planta: choosing a plant care routine",
+      "description": "Compare Lilora and Planta for reminders, shared records, identification and prices, with official sources and honest launch-status information.",
+      "answer": "Lilora centres on a household plant notebook: keeping plants, photos and care records together. Planta describes a wider care toolkit, including personalized schedules and a light meter. Both describe ways to share plant care. Choose around your daily workflow, rather than the longest feature list.",
+      "sections": [
+        {
+          "title": "What this comparison covers",
+          "html": "<p>As of 16 October 2026, Lilora is awaiting App Store review. Planta has a public U.S. App Store listing. This article compares documented features; it is not a hands-on performance test. It is published by Lilora, one of the products discussed. Features and offers may change by country, platform and plan. <a href=\"https://apps.apple.com/us/app/planta-plant-garden-care/id1410126781\">Planta on the App Store</a></p>"
+        },
+        {
+          "title": "Start with the job you want help doing",
+          "html": "<p>Imagine two people looking after the same living-room plant. One checks it before work. The other comes home and wonders whether it needs attention. They need a record of what happened, and a habit of reading it first.</p>\n<p>Another owner might want to explore several tools in one app: schedules, identification, light estimates and guidance about a struggling plant. These scenarios lead to different questions when choosing software.</p>"
+        },
+        {
+          "title": "What each app describes",
+          "html": "<p>Lilora describes photos, notes and care history, optional Pl@ntNet-powered identification, reminders to check plants and a private household with shared records. Its first-release focus is inventory, care and identification; it does not include a light meter or disease diagnosis. <a href=\"https://lilora.app/en/\">Lilora overview</a> · <a href=\"https://lilora.app/en/support/\">Lilora support</a></p>\n<p>Planta describes plant organization, a journal, photo identification, personalized care schedules, a light meter and Dr. Planta symptom guidance. It also offers Care Share for family members and plant sitters. Availability depends on the feature and plan. <a href=\"https://getplanta.com/\">Planta’s official feature overview</a></p>"
+        },
+        {
+          "title": "Reminders and records answer different questions",
+          "html": "<p>A reminder answers “When should I look?” A completed care entry answers “What did I actually do?” Lilora distinguishes a check from watering: after looking at the plant and soil, record watering or a check that needed no water. <a href=\"https://lilora.app/en/support/\">How Lilora’s checks work</a></p>\n<p>When evaluating any app, open one plant, find its most recent care entry, record today’s actual outcome, and return to the overview. Ask whether you can understand the record without remembering the day yourself. This is a suggested personal test, not a test result for either app.</p>"
+        },
+        {
+          "title": "Shared care deserves a closer look",
+          "html": "<p>Lilora’s household model shares plants, photos and care history with members. Planta also supports shared care: its help centre describes premium invitations for family and plant sitters, with different capabilities for each role. Sharing is an overlap, not an exclusive Lilora feature. <a href=\"https://lilora.app/en/support/\">Lilora support</a> · <a href=\"https://support.getplanta.com/\">Planta Help Center</a></p>\n<p>Decide who needs to see the plants, who should change them, and how you will check the latest record. A household member and a friend helping for a weekend may need different access.</p>"
+        },
+        {
+          "title": "Compare the offer you can actually buy",
+          "html": "<p>Lilora describes free manual species entry, three initial photo identifications, a pack of 10 and a Plus monthly allowance of 30. Its support page directs readers to Apple for local prices. There is no verified public checkout price to compare while launch is pending. <a href=\"https://lilora.app/en/support/\">Lilora purchases</a></p>\n<p>Planta’s U.S. listing includes one-month prices of $7.99 and $9.99 and 12-month prices of $35.99 and $47.99. These are listing examples, not a promise of eligibility. Its help centre identifies identification and the light meter among premium features. <a href=\"https://apps.apple.com/us/app/planta-plant-garden-care/id1410126781\">App Store listing</a> · <a href=\"https://support.getplanta.com/do-planta-offer-a-free-trial-of-premium/\">Free and premium access</a></p>\n<p>Check the total charge, renewal period and included features on your purchase screen. Do not confuse a monthly-equivalent figure with the amount charged upfront. Planta explains that the subscription period is billed in advance. <a href=\"https://support.getplanta.com/how-are-subscriptions-billed/\">Subscription billing</a></p>"
+        },
+        {
+          "title": "Which approach belongs on your shortlist?",
+          "html": "<ul><li>To evaluate a broad care toolkit now, inspect Planta’s current listing and the features available to you.</li><li>If a household notebook, check-first routine and shared record match your needs, explore Lilora’s described workflow while review is pending.</li><li>Write down three essential tasks before comparing paid plans. Give them more weight than features you are unlikely to use.</li></ul>"
+        },
+        {
+          "title": "Common questions",
+          "html": "<h3>Does Lilora replace Planta’s entire feature set?</h3>\n<p>No. Lilora’s described first release focuses on plant inventory, shared records, reminders and optional identification. It does not offer the same range of tools.</p>\n<h3>Can more than one person help care for plants?</h3>\n<p>Both products describe sharing. Compare actual membership rules and paid-plan requirements before choosing.</p>\n<h3>Can I download Lilora today?</h3>\n<p>As of this article’s review date, Lilora is awaiting App Store review. No release date is promised. <a href=\"https://lilora.app/en/support/\">Explore Lilora’s current product description</a>.</p>"
+        }
+      ],
+      "image": "/assets/editorial/lilora-collection-en.webp",
+      "imageAlt": "Lilora store artwork with a real collection screen and sample plant records",
+      "caption": "Lilora store artwork, using a real app screen with sample records. This is not a screenshot of the competing app."
+    },
+    "tr": {
+      "title": "Lilora ve Planta: bakım rutinine göre seçim yapmak",
+      "description": "Lilora ve Planta’yı hatırlatma, ortak kayıt, tanımlama ve fiyat açısından karşılaştır. Resmi kaynaklar ve açık yayın durumu bilgisi.",
+      "answer": "Lilora, bitkileri, fotoğrafları ve bakım kayıtlarını bir arada tutan ortak ev günlüğüne odaklanır. Planta kişiselleştirilmiş programlar ve ışık ölçer dahil daha geniş araçlar tanımlar. İkisinde de ortak bakım seçenekleri vardır. Seçimi özellik sayısına değil, evde tekrar edeceğin işlere göre yap.",
+      "sections": [
+        {
+          "title": "Bu karşılaştırmanın kapsamı",
+          "html": "<p>16 Ekim 2026 itibarıyla Lilora App Store incelemesini bekliyor. Planta’nın ABD App Store sayfası yayında. Bu yazı belgelenmiş özellikleri karşılaştırır; uygulamalı performans testi değildir. Yayıncı, karşılaştırılan ürünlerden biri olan Lilora’dır. Özellik ve teklifler ülkeye, platforma ve plana göre değişebilir. <a href=\"https://apps.apple.com/us/app/planta-plant-garden-care/id1410126781\">Planta App Store sayfası</a></p>"
+        },
+        {
+          "title": "Hangi iş için yardım istiyorsun?",
+          "html": "<p>Aynı salon bitkisine bakan iki kişiyi düşün. Biri işe gitmeden kontrol ediyor; diğeri akşam bakım gerekip gerekmediğini merak ediyor. Önce okuyabilecekleri bir kayıt ve onu okuma alışkanlığı gerekiyor.</p>\n<p>Başka biri program, tanımlama, ışık tahmini ve sorun yaşayan bitki için yönlendirmeyi tek yerde isteyebilir. Bu iki durum farklı seçim soruları doğurur.</p>"
+        },
+        {
+          "title": "Uygulamalar neler tanımlıyor?",
+          "html": "<p>Lilora fotoğraf, not ve bakım geçmişi; isteğe bağlı Pl@ntNet tanımlama önerileri; kontrol hatırlatmaları ve ortak kayıtları olan özel ev sunmayı amaçlar. İlk sürümün kapsamı envanter, bakım ve tanımlamadır; ışık ölçer veya hastalık teşhisi içermez. <a href=\"https://lilora.app/\">Lilora</a> · <a href=\"https://lilora.app/support/\">Destek</a></p>\n<p>Planta bitki düzenleme, günlük, fotoğraftan tanımlama, kişiselleştirilmiş bakım programları, ışık ölçer ve Dr. Planta yönlendirmesini tanımlar. Care Share, aile ve bitki bakıcısıyla paylaşımı destekler. Erişim özellik ve plana bağlıdır. <a href=\"https://getplanta.com/\">Planta resmi özellikleri</a></p>"
+        },
+        {
+          "title": "Hatırlatma ve kayıt farklı soruları yanıtlar",
+          "html": "<p>Hatırlatma “Ne zaman bakmalıyım?”, kayıt ise “Gerçekte ne yaptım?” sorusuna yanıt verir. Lilora kontrolü sulamadan ayırır: bitkiye ve harca baktıktan sonra sulamayı veya su gerekmeyen kontrolü kaydedebilirsin. <a href=\"https://lilora.app/support/\">Lilora bakım rehberi</a></p>\n<p>Herhangi bir uygulamayı değerlendirirken bir bitkinin son kaydını bul, bugünkü gerçek sonucu kaydet ve genel görünüme dön. Günü hatırlamana gerek kalmadan kaydı anlayabiliyor musun? Bu önerilen bir kişisel denemedir, burada yapılmış test sonucu değildir.</p>"
+        },
+        {
+          "title": "Ortak bakımı ayrıntılı incele",
+          "html": "<p>Lilora’nın ev modeli bitki, fotoğraf ve geçmişi üyelerle paylaşır. Planta da paylaşım sunar; yardım merkezi aile ve geçici bakıcı davetleri için premium erişim ve farklı yetkiler tanımlar. Paylaşım Lilora’ya özgü değildir. <a href=\"https://lilora.app/support/\">Lilora destek</a> · <a href=\"https://support.getplanta.com/\">Planta yardım merkezi</a></p>\n<p>Kimin bitkileri göreceğini, kimin değiştireceğini ve son kaydı nasıl kontrol edeceğinizi belirleyin. Evde yaşayan biriyle hafta sonu yardım eden arkadaşın erişim ihtiyacı farklı olabilir.</p>"
+        },
+        {
+          "title": "Gerçek satın alma teklifini karşılaştır",
+          "html": "<p>Lilora ücretsiz elle tür girişi, ilk üç fotoğraf tanımlaması, 10 tanımlamalık paket ve aylık 30 tanımlama içeren Plus seçeneğini açıklar. Yerel fiyat Apple ekranında gösterilir. Yayın beklenirken karşılaştırılabilecek doğrulanmış herkese açık satın alma fiyatı yoktur. <a href=\"https://lilora.app/support/\">Lilora satın almaları</a></p>\n<p>Planta’nın ABD listesinde bir aylık 7,99 ve 9,99 ABD doları; 12 aylık 35,99 ve 47,99 ABD doları örnekleri bulunur. Bunlar herkese sunulacağı garanti edilen teklifler değildir. Tanımlama ve ışık ölçer premium özellikler arasındadır. <a href=\"https://apps.apple.com/us/app/planta-plant-garden-care/id1410126781\">App Store</a> · <a href=\"https://support.getplanta.com/do-planta-offer-a-free-trial-of-premium/\">Ücretsiz ve premium erişim</a></p>\n<p>Toplam ücret, yenileme süresi ve dahil özellikleri ödeme ekranında oku. Aylık eşdeğer tutarı peşin çekilen tutarla karıştırma. Planta abonelik döneminin peşin tahsil edildiğini açıklar. <a href=\"https://support.getplanta.com/how-are-subscriptions-billed/\">Faturalandırma</a></p>"
+        },
+        {
+          "title": "Kısa listeni nasıl oluşturmalı?",
+          "html": "<ul><li>Geniş bakım araçlarını şimdi değerlendirmek için Planta’nın güncel sayfasını ve erişebildiğin özellikleri incele.</li><li>Ortak günlük, önce kontrol etme alışkanlığı ve bakım geçmişi sana uygunsa Lilora’nın açıklanan işleyişine bak; mağaza incelemesi sürüyor.</li><li>Ücretli planlardan önce üç temel işini yaz. Kullanmayacağın özelliklerden daha fazla ağırlık ver.</li></ul>"
+        },
+        {
+          "title": "Sık sorulanlar",
+          "html": "<h3>Lilora Planta’nın tüm özelliklerinin yerini alır mı?</h3>\n<p>Hayır. Açıklanan ilk sürüm bitki envanteri, ortak kayıtlar, hatırlatmalar ve isteğe bağlı tanımlamaya odaklanır.</p>\n<h3>Birden fazla kişi bakım yapabilir mi?</h3>\n<p>İki ürün de paylaşım tanımlar. Üyelik kurallarını ve ücretli plan koşullarını karşılaştır.</p>\n<h3>Lilora bugün indirilebilir mi?</h3>\n<p>Bu yazının gözden geçirme tarihinde App Store incelemesini bekliyor. Yayın tarihi sözü verilmiyor. <a href=\"https://lilora.app/support/\">Güncel ürün açıklaması</a>.</p>"
+        }
+      ],
+      "image": "/assets/editorial/lilora-collection-tr.webp",
+      "imageAlt": "Lilora mağaza görselinde gerçek koleksiyon ekranı ve örnek bitki kayıtları",
+      "caption": "Örnek kayıtlarla gerçek Lilora ekranı içeren mağaza görseli. Rakip uygulamanın ekranı değildir."
+    }
+  },
+  {
+    "slug": "lilora-vs-picturethis",
+    "type": "comparison",
+    "published": "2026-10-16",
+    "reviewed": "2026-10-16",
+    "sources": [
+      {
+        "name": "PictureThis on the App Store",
+        "url": "https://apps.apple.com/us/app/picturethis-plant-identifier/id1252497129"
+      },
+      {
+        "name": "Lilora overview",
+        "url": "https://lilora.app/en/"
+      },
+      {
+        "name": "Lilora support",
+        "url": "https://lilora.app/en/support/"
+      },
+      {
+        "name": "PictureThis product page",
+        "url": "https://www.picturethisai.com/app"
+      },
+      {
+        "name": "FAQ",
+        "url": "https://www.picturethisai.com/faq"
+      }
+    ],
+    "related": [
+      "watering-houseplants",
+      "yellow-houseplant-leaves",
+      "indoor-plant-light-guide"
+    ],
+    "image": "/assets/editorial/lilora-collection-en.webp",
+    "imageWidth": 553,
+    "imageHeight": 1200,
+    "en": {
+      "title": "Lilora vs PictureThis: identification and everyday plant care",
+      "description": "Compare Lilora and PictureThis for identification, reminders, collections and household care, with official sources and pricing caveats.",
+      "answer": "PictureThis is worth examining when recognizing plants and exploring plant information are central to your needs. Lilora is designed around a household notebook, with optional identification alongside care records. PictureThis also documents collections and care reminders. Choose by what you want to do after learning a plant’s name.",
+      "sections": [
+        {
+          "title": "What this comparison covers",
+          "html": "<p>As of 16 October 2026, Lilora is awaiting App Store review. PictureThis has a public U.S. App Store listing. This compares documented capabilities, not hands-on accuracy. It is published by Lilora, one of the products discussed. Features, prices and offers may change. <a href=\"https://apps.apple.com/us/app/picturethis-plant-identifier/id1252497129\">PictureThis on the App Store</a></p>"
+        },
+        {
+          "title": "A name is the beginning of a plant’s story",
+          "html": "<p>You bring home a plant without a label. Your first question is its identity. Weeks later: When did you last check it? What changed after moving it? Did someone else already care for it?</p>\n<p>An identification result helps you investigate a name. A notebook helps you remember observations and actions. Thinking about both moments makes it easier to decide what you need.</p>"
+        },
+        {
+          "title": "The documented features",
+          "html": "<p>Lilora describes optional Pl@ntNet-powered suggestions, reviewed before saving; photos, notes and history; check-first reminders; and a private household that shares plant records. Disease diagnosis is outside its described first release. <a href=\"https://lilora.app/en/\">Lilora overview</a> · <a href=\"https://lilora.app/en/support/\">Lilora support</a></p>\n<p>PictureThis describes photo identification, a collection and wishlist, watering and fertilizing reminders, problem-assessment tools and expert consultation. Check its current sharing options for your particular needs: a capability not established by our sources is not necessarily absent. <a href=\"https://www.picturethisai.com/app\">PictureThis product page</a> · <a href=\"https://www.picturethisai.com/faq\">FAQ</a></p>"
+        },
+        {
+          "title": "Identification: compare the process, not a headline number",
+          "html": "<p>This article does not rank accuracy. A fair performance comparison would need a defined set of plants, consistent photographs, verified reference identifications and a disclosed method. We have not conducted that test.</p>\n<p>Ask practical questions: Can you review a result before accepting it? Correct a name? Keep records without running another identification? What happens when the image is unclear?</p>\n<p>Lilora allows free manual species entry and asks you to review suggestions. PictureThis’s FAQ explains identification corrections and says identification needs a network connection. These details help you plan a workflow without assuming either product always gets a photo right. <a href=\"https://lilora.app/en/support/\">Lilora identification</a> · <a href=\"https://www.picturethisai.com/faq\">PictureThis FAQ</a></p>\n<p>Do not use an app result as permission to eat an unfamiliar plant or mushroom. PictureThis’s FAQ also cautions against tasting unfamiliar plants without professional help. <a href=\"https://www.picturethisai.com/faq\">PictureThis safety guidance</a></p>"
+        },
+        {
+          "title": "Everyday care: look beyond the camera",
+          "html": "<p>It would be misleading to call PictureThis only an identifier. Its FAQ documents watering and fertilizing reminders; its listing describes a collection. <a href=\"https://www.picturethisai.com/faq\">PictureThis FAQ</a> · <a href=\"https://apps.apple.com/us/app/picturethis-plant-identifier/id1252497129\">App Store description</a></p>\n<p>Lilora puts photos, notes and care history in a notebook that can belong to a private household. Guest records stay on the device; signed-in household records are shared with members. Its check-first wording asks you to look before deciding what to record. <a href=\"https://lilora.app/en/support/\">Lilora storage and care</a></p>\n<p>For your own evaluation, choose an ordinary week. Can you find a plant quickly? Can another carer understand the latest record? Can you tell a completed action from a reminder? These are suggested questions, not results from our testing.</p>"
+        },
+        {
+          "title": "Understand the paid offer before committing",
+          "html": "<p>The U.S. PictureThis listing includes multiple products named “PictureThis Pro,” including $39.99 entries. The label alone does not establish a billing period. Read the offer shown to your Apple account. <a href=\"https://apps.apple.com/us/app/picturethis-plant-identifier/id1252497129\">PictureThis App Store listing</a></p>\n<p>Lilora describes three initial identifications, a pack of 10 and a monthly Plus allowance of 30. Manual entry remains available without buying identifications. Regional prices are shown by Apple; we do not claim Lilora is less expensive. <a href=\"https://lilora.app/en/support/\">Lilora purchases</a></p>\n<p>Check what the first charge covers, whether it renews, and what remains usable without a paid plan. A free download and a free trial are not the same promise.</p>"
+        },
+        {
+          "title": "A practical way to choose",
+          "html": "<ul><li>For “What plant is this, and where can I learn more?”, investigate PictureThis’s identification and reference tools.</li><li>For “What happened to our plants, and who cared for them?”, explore Lilora’s household-notebook approach while launch is pending.</li><li>If both matter, compare the full process from photo to record to next care check. Do not choose entirely from a camera demonstration.</li></ul>"
+        },
+        {
+          "title": "Common questions",
+          "html": "<h3>Is PictureThis just a plant identifier?</h3>\n<p>No. It also describes care information, collections, reminders and other tools.</p>\n<h3>Is Lilora more accurate than PictureThis?</h3>\n<p>We have no comparative test supporting that claim and make no accuracy ranking.</p>\n<h3>Where can I get Lilora?</h3>\n<p>Lilora is awaiting App Store review as of 16 October 2026. A public download will be linked when availability is verified. <a href=\"https://lilora.app/en/support/\">See how Lilora works</a>.</p>"
+        }
+      ],
+      "image": "/assets/editorial/lilora-collection-en.webp",
+      "imageAlt": "Lilora store artwork with a real collection screen and sample plant records",
+      "caption": "Lilora store artwork, using a real app screen with sample records. This is not a screenshot of the competing app."
+    },
+    "tr": {
+      "title": "Lilora ve PictureThis: tanımlama ve günlük bitki bakımı",
+      "description": "Lilora ve PictureThis’i tanımlama, hatırlatma, koleksiyon ve ortak bakım açısından karşılaştır. Resmi kaynaklar ve fiyat açıklamaları.",
+      "answer": "Bitkileri tanımak ve onlar hakkında bilgi edinmek önceliğinse PictureThis’i inceleyebilirsin. Lilora, bakım kayıtlarına isteğe bağlı tanımlama ekleyen ortak ev günlüğüne odaklanır. PictureThis de koleksiyon ve bakım hatırlatmaları tanımlar. Seçimi, bitkinin adını öğrendikten sonra ne yapacağına göre yap.",
+      "sections": [
+        {
+          "title": "Bu karşılaştırmanın kapsamı",
+          "html": "<p>16 Ekim 2026 itibarıyla Lilora App Store incelemesini bekliyor. PictureThis’in ABD App Store sayfası yayında. Bu, belgelenen yeteneklerin karşılaştırmasıdır; uygulamalı doğruluk testi değildir. Yayıncı, karşılaştırılan ürünlerden biri olan Lilora’dır. Özellik, fiyat ve teklifler değişebilir. <a href=\"https://apps.apple.com/us/app/picturethis-plant-identifier/id1252497129\">PictureThis App Store sayfası</a></p>"
+        },
+        {
+          "title": "Bir isim hikâyenin başlangıcıdır",
+          "html": "<p>Etiketsiz bir bitki getirdiğinde ilk sorunun türüdür. Birkaç hafta sonra sorular değişir: En son ne zaman kontrol ettin? Yeri değişince ne oldu? Başkası bakım yaptı mı?</p>\n<p>Tanımlama sonucu bir adı araştırmana, günlük ise gözlem ve eylemleri hatırlamana yardımcı olur. İki anı birlikte düşünmek ihtiyacını belirginleştirir.</p>"
+        },
+        {
+          "title": "Belgelenen özellikler",
+          "html": "<p>Lilora kaydetmeden önce gözden geçirilen Pl@ntNet önerileri, fotoğraf, not ve geçmiş; kontrol hatırlatmaları ve bitki kayıtlarını paylaşan özel ev tanımlar. Hastalık teşhisi ilk sürüm kapsamının dışındadır. <a href=\"https://lilora.app/\">Lilora</a> · <a href=\"https://lilora.app/support/\">Destek</a></p>\n<p>PictureThis fotoğraftan tanımlama, koleksiyon ve istek listesi, sulama ve gübreleme hatırlatmaları, sorun değerlendirme araçları ve uzman danışmanlığı tanımlar. Belirli paylaşım ihtiyacın için güncel seçeneklerini incele: kaynaklarımızın doğrulamadığı özellik mutlaka yok demek değildir. <a href=\"https://www.picturethisai.com/app\">PictureThis ürün sayfası</a> · <a href=\"https://www.picturethisai.com/faq\">Sık sorulanlar</a></p>"
+        },
+        {
+          "title": "Tanımlamada iddiadan çok işleyişe bak",
+          "html": "<p>Bu yazı doğruluğu sıralamaz. Adil bir karşılaştırma, belirli bitki seti, tutarlı fotoğraflar, doğrulanmış türler ve açıklanmış yöntem gerektirir. Böyle bir test yapmadık.</p>\n<p>Sonucu kabul etmeden inceleyebiliyor musun? Adı düzeltebiliyor musun? Yeniden tanımlamadan kayıt tutabiliyor musun? Belirsiz fotoğrafta ne oluyor?</p>\n<p>Lilora elle ücretsiz tür girişine izin verir ve önerilerin gözden geçirilmesini ister. PictureThis’in yardım sayfası tanımlamayı düzeltmeyi açıklar; tanımlama için ağ bağlantısı gerektiğini belirtir. Bunlar her fotoğrafın doğru tanınacağını varsaymaktan daha kullanışlı bilgilerdir. <a href=\"https://lilora.app/support/\">Lilora</a> · <a href=\"https://www.picturethisai.com/faq\">PictureThis</a></p>\n<p>Bir uygulama sonucunu bilmediğin bitki veya mantarı yemek için izin sayma. PictureThis de profesyonel yardım olmadan bilinmeyen bitkileri tatmaya karşı uyarır. <a href=\"https://www.picturethisai.com/faq\">PictureThis güvenlik bilgisi</a></p>"
+        },
+        {
+          "title": "Kameranın dışındaki günlük bakıma bak",
+          "html": "<p>PictureThis’e yalnızca tanımlayıcı demek yanıltıcı olur. Yardım sayfasında sulama ve gübreleme hatırlatmaları, mağaza açıklamasında koleksiyon bulunur. <a href=\"https://www.picturethisai.com/faq\">PictureThis yardım</a> · <a href=\"https://apps.apple.com/us/app/picturethis-plant-identifier/id1252497129\">App Store</a></p>\n<p>Lilora fotoğraf, not ve geçmişi özel eve ait olabilen bir günlükte tutar. Misafir kayıtları cihazda kalır; giriş yapılmış ev kayıtları üyelerle paylaşılır. Önce kontrol et yaklaşımı, kayıttan önce bitkiye bakmayı ister. <a href=\"https://lilora.app/support/\">Lilora veri ve bakım açıklaması</a></p>\n<p>Kendi değerlendirmen için sıradan bir hafta seç. Bitkiyi hızlı bulabiliyor musun? Diğer kişi son kaydı anlayabiliyor mu? Tamamlanmış eylemi hatırlatmadan ayırabiliyor musun? Bunlar deneme önerileridir, test sonuçlarımız değildir.</p>"
+        },
+        {
+          "title": "Ücretli teklifi anlamadan karar verme",
+          "html": "<p>PictureThis’in ABD listesinde 39,99 ABD doları örnekleri dahil “PictureThis Pro” adlı birden fazla ürün vardır. Ad tek başına ödeme dönemini göstermez. Apple hesabına sunulan teklifi oku. <a href=\"https://apps.apple.com/us/app/picturethis-plant-identifier/id1252497129\">PictureThis App Store</a></p>\n<p>Lilora ilk üç tanımlama, 10’luk paket ve aylık 30 tanımlamalık Plus seçeneğini açıklar. Elle giriş, tanımlama satın almadan kullanılabilir. Yerel fiyatları Apple gösterir; Lilora’nın daha ucuz olduğunu iddia etmiyoruz. <a href=\"https://lilora.app/support/\">Lilora satın almaları</a></p>\n<p>İlk ücretin kapsamını, yenilemeyi ve ücretsiz kalan işlevleri kontrol et. Ücretsiz indirme ile ücretsiz deneme aynı vaat değildir.</p>"
+        },
+        {
+          "title": "Pratik seçim yöntemi",
+          "html": "<ul><li>“Bu hangi bitki, nereden bilgi edinirim?” sorusu için PictureThis’in tanımlama ve bilgi araçlarını incele.</li><li>“Bitkilerimize ne oldu, kim bakım yaptı?” sorusu için Lilora’nın ortak günlük yaklaşımına bak; yayın bekleniyor.</li><li>İkisi de önemliyse fotoğraftan kayda ve sonraki kontrole kadar bütün akışı değerlendir.</li></ul>"
+        },
+        {
+          "title": "Sık sorulanlar",
+          "html": "<h3>PictureThis yalnızca bitki tanımlar mı?</h3>\n<p>Hayır. Bakım bilgisi, koleksiyon, hatırlatma ve başka araçlar da tanımlar.</p>\n<h3>Lilora daha doğru mu?</h3>\n<p>Bu iddiayı destekleyen karşılaştırmalı testimiz yok; doğruluk sıralaması yapmıyoruz.</p>\n<h3>Lilora’yı nereden indirebilirim?</h3>\n<p>16 Ekim 2026 itibarıyla App Store incelemesi sürüyor. Erişim doğrulandığında indirme bağlantısı eklenecek. <a href=\"https://lilora.app/support/\">Lilora nasıl çalışır?</a></p>"
+        }
+      ],
+      "image": "/assets/editorial/lilora-collection-tr.webp",
+      "imageAlt": "Lilora mağaza görselinde gerçek koleksiyon ekranı ve örnek bitki kayıtları",
+      "caption": "Örnek kayıtlarla gerçek Lilora ekranı içeren mağaza görseli. Rakip uygulamanın ekranı değildir."
+    }
+  }
+]
