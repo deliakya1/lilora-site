@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {readFileSync,readdirSync,existsSync} from 'node:fs';
 import {resolve,dirname} from 'node:path';
 const root=process.cwd();
-const crawl=(dir)=>readdirSync(dir,{withFileTypes:true}).flatMap(x=>x.name.startsWith('.')||['node_modules','editorial','scripts'].includes(x.name)?[]:x.isDirectory()?crawl(dir+'/'+x.name):x.name.endsWith('.html')?[dir+'/'+x.name]:[]);
+const crawl=(dir)=>readdirSync(dir,{withFileTypes:true}).flatMap(x=>x.name.startsWith('.')||['node_modules','scripts'].includes(x.name)?[]:x.isDirectory()?crawl(dir+'/'+x.name):x.name.endsWith('.html')?[dir+'/'+x.name]:[]);
 const files=crawl(root);
 const content=JSON.parse(readFileSync('editorial/articles.json'));
 test('six substantial source-backed articles have complete English and Turkish counterparts',()=>{
@@ -30,8 +30,8 @@ test('canonical, reciprocal hreflang, truthful JSON-LD and sitemap',()=>{
  for(const [,raw] of s.matchAll(/<script type="application\/ld\+json">(.*?)<\/script>/gs)){const schema=JSON.parse(raw);assert.equal(schema['@context'],'https://schema.org');assert.ok(!['Review','AggregateRating','Product','FAQPage'].includes(schema['@type']));if(schema['@type']==='Article'){assert.equal(schema.mainEntityOfPage,canonical);assert.ok(s.includes(schema.headline.replace(/&/g,'&amp;')));assert.equal(schema.dateModified,'2026-10-16');}}
  }
 });
-test('availability and disabled analytics are explicit',()=>{
- assert.match(readFileSync('assets/analytics-config.js','utf8'),/LILORA_ANALYTICS_ID = null/);
+test('availability and owner-supplied consent-gated analytics are explicit',()=>{
+ assert.match(readFileSync('assets/analytics-config.js','utf8'),/LILORA_ANALYTICS_ID = 'G-2CYS6B75ET'/);
  for(const lang of ['en','tr']){const home=lang==='en'?'en/':'';assert.match(readFileSync(home+'index.html','utf8'),lang==='en'?/awaiting App Store review/:/App Store incelemesini bekliyor/);}
  assert.doesNotMatch(files.map(f=>readFileSync(f,'utf8')).join(''),/Download on the App Store|AggregateRating|gtag\/js\?id=/);
 });

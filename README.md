@@ -66,34 +66,46 @@ Newsreader remains under its existing SIL Open Font License in
 files without changing glyph coverage. Artwork is 34–35 KB each; it includes
 explicit dimensions and lazy loading below the first screen.
 
-## Optional Google Analytics
+## Google Analytics and custom cookie preferences
 
-**Disabled:** `assets/analytics-config.js` contains a null measurement ID.
-No Google tag is requested and no analytics consent UI appears in this state.
-The mobile app's separate privacy statements remain intact.
+The owner supplied GA4 web measurement ID `G-2CYS6B75ET` on 16 October 2026.
+`assets/analytics-config.js` configures that ID. The custom bilingual manager in
+`assets/analytics.js` does not load Google or send requests until explicit opt-in.
+The initial banner offers equal-weight accept/reject controls and preferences.
+The footer always reopens the native modal dialog; keyboard focus is contained,
+Escape closes it, and focus returns to its opener. Necessary preference storage is
+separate from optional analytics. No marketing category is invented.
 
-Activation requires the owner's verified GA4 **web** measurement ID and access to
-confirm that the data stream is the intended Lilora property. Do not invent an ID,
-create credentials, or enable advertising features. Before activation:
+Preferences are stored as a versioned object under `lilora.cookie-preferences.v2`
+with a choice and timestamp, valid for 180 days. A changed version or expired choice
+asks again. If storage is blocked, a memory fallback applies only to the current
+page and the next navigation defaults off. Both languages use the same preference.
+Cross-tab withdrawal stops the other tab's integration too.
 
-1. Verify the ID and stream. Disable Enhanced Measurement in that stream so it
-   does not add uncontrolled outbound-link, form, search, scroll or history events.
-2. Update both website privacy sections from the current disabled-state wording to
-   accurate active-service disclosure: Google Analytics provider, page/CTA events,
-   cookie identifiers such as `_ga`, consent preference stored in localStorage,
-   retention/property choices and Google's privacy information. Confirm those
-   property choices instead of inventing retention settings.
-3. Set only the verified ID in `assets/analytics-config.js`; repeat consent tests.
-   Production activation is a separate coherent commit after those values exist.
+Withdrawal sets GA's disable flag, clears the pending queue, removes accessible
+owned `_ga` cookies where possible, and reloads without Google. It does not claim
+to erase data previously processed by the provider. Cookie deletion does not touch
+unrelated cookies. Both website privacy sections document actual behavior; the
+mobile app's no-analytics-SDK statement remains explicitly scoped to the app.
 
-Basic consent loads the Google script only after an explicit opt-in; declining
-sends no Google requests. The footer offers a preference control and withdrawal.
-Withdrawal disables GA, clears visible `_ga` cookies and reloads without the tag.
-URLs exclude query strings and fragments; referrer is blank; Google signals and
-ad personalization are disabled. Static navigation sends one manual page view.
-Information CTAs use `app_info_click`, not a download event. `app_store_click` is
-reserved for a real `apps.apple.com` link; neither event claims an installation.
-Consent tests use a synthetic ID and intercept all Google network requests.
+Basic consent permits analytics storage only after opt-in and denies ad storage,
+ad user data and ad personalization. Google signals and ad personalization are
+disabled. URLs omit queries/fragments and referrer text is blank. Manual pageviews
+are emitted once per static navigation. Information CTAs use `app_info_click`;
+`app_store_click` is reserved for a verified App Store destination, and neither
+claims an installation. Cookie lifetime is configured to 180 days without renewal
+on each visit. No visitor-provided text is included in custom events.
+
+The GA property dashboard, Enhanced Measurement settings, and server-side retention
+were not accessible from this environment. The owner should review those property
+settings, including disabling unwanted Enhanced Measurement events. No dashboard
+receipt or end-to-end Google collection result is claimed. The static site has no
+visitor-text forms or search fields; activation tests intercept Google requests.
+
+Run `node scripts/consent-check.cjs` with Playwright/Chromium available. It tests
+initial, reject, accept, reload, revoke, cookies, both languages at 320/1440 pixels,
+keyboard focus, duplicate script/listeners, sanitized events, blocked storage and
+cross-tab changes. Tests do not send production analytics hits.
 
 ## Initial validation and limits
 
@@ -101,14 +113,16 @@ Consent tests use a synthetic ID and intercept all Google network requests.
 - Browser: all 26 URLs at 360, 768 and 1440 pixels (78 layout checks); no horizontal
   overflow, missing images or JavaScript errors. Local screenshots reviewed.
 - Consent: default-off, decline, persistence, opt-in, withdrawal, sanitized URL,
-  single page view and disabled advertising signals passed with intercepted requests.
+  single page view and disabled advertising signals passed with intercepted requests; the custom manager also passed both languages,
+  320/1440-pixel layouts, focus return/trapping, blocked storage and cross-tab revocation.
 - Existing support/privacy URLs and content retained; website analytics disclosure
   added separately. Error page is noindex and no longer canonicalizes to the home page.
 - Institutional and competitor sources were researched externally. Some source
   hosts and the public custom domain are blocked by this execution gateway, so a
   complete external HTTP sweep and direct production rendering remain separate
   verification limits. A gateway failure is not evidence that a public site is down.
-- No GA4 measurement ID has been supplied; analytics is not active.
+- GA4 is configured with the owner-supplied ID and gated by consent. Receipt in the
+  Google Analytics dashboard remains unverified; no analytics result is fabricated.
 
 CI impact: existing GitHub Pages build/deploy only; no heavy/native/macOS workflows;
 changes are confined to the standalone public website repository.
