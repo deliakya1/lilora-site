@@ -7,7 +7,7 @@ const base='http://127.0.0.1:4173';
  const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',headless:true,args:['--no-sandbox']});
  let checks=0;
  for(const lang of ['en','tr']) for(const width of [320,1440]){
-  const context=await browser.newContext({viewport:{width,height:850}});const requests=[];const errors=[];
+  const context=await browser.newContext({locale:lang==='tr'?'tr-TR':'en-US',viewport:{width,height:850}});const requests=[];const errors=[];
   await context.route(/https:\/\/.*google.*/,route=>{requests.push(route.request().url());return route.fulfill({contentType:'text/javascript',body:''});});
   const page=await context.newPage();page.on('pageerror',e=>errors.push(e.message));
   const home=lang==='en'?'/en/':'/';

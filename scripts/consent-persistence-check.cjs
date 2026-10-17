@@ -6,7 +6,7 @@ const base='http://127.0.0.1:4173';
  const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',headless:true,args:['--no-sandbox']});
  let cases=0;
  for(const lang of ['en','tr'])for(const failure of ['throw','silent']){
-  const context=await browser.newContext();const requests=[];const errors=[];
+  const context=await browser.newContext({locale:'tr-TR'});const requests=[];const errors=[];
   await context.route(/https:\/\/.*google.*/,r=>{requests.push(r.request().url());return r.fulfill({body:''});});
   await context.addInitScript(({key,failure})=>{
    if(!localStorage.getItem(key))localStorage.setItem(key,JSON.stringify({version:2,analytics:true,savedAt:Date.now()}));
@@ -46,7 +46,7 @@ const base='http://127.0.0.1:4173';
   assert.equal(errors.length,0);await context.close();cases++;
  }
  // When only localStorage writes fail, a verified tab denial makes reload/navigation safe.
- const context=await browser.newContext();let calls=0;
+ const context=await browser.newContext({locale:'tr-TR'});let calls=0;
  await context.route(/https:\/\/.*google.*/,r=>{calls++;return r.fulfill({body:''});});
  await context.addInitScript(key=>{
   if(!localStorage.getItem(key))localStorage.setItem(key,JSON.stringify({version:2,analytics:true,savedAt:Date.now()}));

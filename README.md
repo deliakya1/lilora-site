@@ -172,6 +172,37 @@ languages, six widths (320–1440px), normal/200% text/long copy, keyboard Prefe
 and direct opt-in. Existing consent and failed-storage regression suites and
 `npm run check` also pass. Google requests are intercepted in all consent tests.
 
-Language is selected by URL (`/` Turkish, `/en/` English) and explicit language
-links. There is no country/IP detection, browser-language redirect or saved
-language preference. This update does not introduce automatic routing.
+At the time of the compact-banner update, language followed the URL only.
+The later approved language-selection update below supersedes that behavior.
+
+
+## Maintenance — 17 October 2026: first-entry language selection
+
+`assets/language.js` negotiates only an unchosen first entry to `/`. A saved manual
+choice takes priority; otherwise a primary browser language of `tr` or `tr-*`
+selects Turkish, and all other/missing languages select English. `/en/`, article
+URLs and all other deep links remain authoritative, even against a saved choice.
+Internal visits, reloads, back/forward navigation and later visits in the same tab
+are not redirected. The automatic move uses `location.replace`, avoiding an extra
+history entry. No country detection or external requests are used.
+
+Native language anchors retain their real paired paths in static HTML. JavaScript
+adds the current query/hash and a temporary `lilora_lang` marker to the switch URL;
+the destination consumes that marker and cleans it from the address bar. This
+protects deliberate switches even when storage is blocked. Local and session
+storage use `lilora.language.v1`; a separate session marker prevents repeat entry
+negotiation. Language preferences are independent of optional analytics. If both
+stores are unavailable, switches work but future visits cannot reliably remember
+the choice. Without JavaScript, each URL renders its complete static language and
+native links still work. Canonicals, hreflang and sitemap are unchanged.
+
+The language script runs before analytics; a redirecting source page skips consent
+initialization to avoid a duplicate pageview for a previously consenting visitor.
+The compact prompt and consent persistence/withdrawal code are otherwise unchanged.
+Both website privacy sections explain necessary language preference storage.
+
+Validation: `node scripts/language-check.cjs` covers 44 scenarios, including every
+paired page, browser/missing language, saved choice, toggles, reload/back, blocked
+storage, query/hash, no-JavaScript rendering and one analytics tag after negotiation.
+Existing consent tests explicitly set browser locale to retain their TR/EN coverage.
+CI impact remains the existing lightweight GitHub Pages build/deploy only.

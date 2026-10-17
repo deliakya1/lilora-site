@@ -1,7 +1,7 @@
 /* Lilora basic consent: Google is entirely blocked until optional analytics opt-in. */
 (() => {
   'use strict';
-  if (window.liloraConsentReady) return;
+  if (window.liloraConsentReady || window.liloraLanguageRedirecting) return;
   window.liloraConsentReady = true;
   const id = window.LILORA_ANALYTICS_ID;
   const configured = /^G-[A-Z0-9]{6,20}$/.test(id || '');

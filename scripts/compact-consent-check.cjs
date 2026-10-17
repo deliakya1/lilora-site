@@ -1,7 +1,7 @@
 const {chromium}=require('playwright');const assert=require('node:assert/strict');
 (async()=>{const b=await chromium.launch({executablePath:'/usr/bin/chromium',headless:true,args:['--no-sandbox']});let cases=0;
 for(const lang of ['tr','en'])for(const width of [320,375,390,430,768,1440])for(const stress of ['normal','200%-text','long-copy']){
-const p=await b.newPage({viewport:{width,height:844}});await p.route(/https:\/\/.*google.*/,r=>r.fulfill({body:''}));await p.goto('http://127.0.0.1:4173/'+(lang==='en'?'en/':''));
+const p=await b.newPage({locale:lang==='tr'?'tr-TR':'en-US',viewport:{width,height:844}});await p.route(/https:\/\/.*google.*/,r=>r.fulfill({body:''}));await p.goto('http://127.0.0.1:4173/'+(lang==='en'?'en/':''));
 if(stress==='200%-text')await p.addStyleTag({content:'.cookie-banner p,.cookie-banner button{font-size:28px!important}'});
 if(stress==='long-copy')await p.locator('.cookie-banner p').evaluate(e=>e.textContent+=' '+e.textContent+' '+e.textContent);
 const result=await p.locator('.cookie-banner').evaluate(e=>{const r=e.getBoundingClientRect();return {height:r.height,inViewport:r.left>=0&&r.right<=innerWidth&&r.top>=0&&r.bottom<=innerHeight,noOverflow:e.scrollWidth<=e.clientWidth,buttons:[...e.querySelectorAll('button')].map(b=>({w:b.offsetWidth,h:b.offsetHeight,overflow:b.scrollWidth>b.clientWidth}))}});

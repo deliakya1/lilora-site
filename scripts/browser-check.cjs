@@ -7,7 +7,7 @@ const assert=require('node:assert/strict');
  fs.mkdirSync('.test-results',{recursive:true});
  let count=0;let requests=[];let errors=[];
  for(const width of [360,768,1440]){
-  const context=await browser.newContext({viewport:{width,height:1000},reducedMotion:'reduce'});
+  const context=await browser.newContext({locale:'tr-TR',viewport:{width,height:1000},reducedMotion:'reduce'});
   await context.addInitScript(()=>localStorage.setItem('lilora.cookie-preferences.v2',JSON.stringify({version:2,analytics:false,savedAt:Date.now()})));
   const page=await context.newPage();
   page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>requests.push(r.url()));
