@@ -206,3 +206,37 @@ paired page, browser/missing language, saved choice, toggles, reload/back, block
 storage, query/hash, no-JavaScript rendering and one analytics tag after negotiation.
 Existing consent tests explicitly set browser locale to retain their TR/EN coverage.
 CI impact remains the existing lightweight GitHub Pages build/deploy only.
+
+## Maintenance — 17 October 2026: shared plant-care guide
+
+Published complete English and Turkish guides at `/en/guides/shared-plant-care/`
+and `/guides/shared-plant-care/`, with visible FAQ answers, organization byline,
+real publication/review dates, Article/BreadcrumbList data, reciprocal language
+links and sitemap entries. Both hubs include the guide; watering articles link
+back to it. No FAQ rich-result claims or invented author credentials are used.
+
+The four linked UMD, Illinois Extension and RHS source pages were opened and
+checked on 17 October 2026. They support species/condition-dependent watering,
+drainage and runoff disposal, root damage/wilting from excess moisture, and the
+limits of holiday watering systems. The household workflow, records and handover
+checklist are explicitly original editorial advice, not tested customer outcomes.
+
+Product wording was checked against existing care, care-event, plant-detail and
+household-store source. Checked/watered care supports notes and actor/time history;
+snoozing updates the plant's reminder and does not create a completed care entry.
+The article states this distinction. Caretaker/backup arrangements are household
+agreements. Existing awaiting-review availability copy and information CTAs remain.
+No app, backend, hosting, consent or language-selection implementation changed.
+
+`shared-care-diagram.mjs` creates an original accessible HTML/CSS diagram using
+existing Paper, Ink, Fern and Terracotta tokens, Newsreader headings and system
+body text. Text reflows on narrow screens; pending checks use a dashed border and
+explicit words, with no completion symbol. It is labeled as an educational diagram,
+not an app screenshot. No generated image, stock photo or external asset is used.
+
+Validation passed: build/static SEO/link checks; all 28 pages at three widths
+(84 responsive checks); 46 language-selection scenarios including the new pair;
+consent lifecycle and stale-grant/failed-storage regressions. New article and diagram
+screenshots were inspected in both languages at 320/390/1440px, with additional
+FAQ/outcome and enlarged-text checks at 320/1440px. Direct production HTTP probing
+was blocked by this environment's CONNECT 403 gateway; it is not site-response evidence.

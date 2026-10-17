@@ -27,6 +27,7 @@
       }
     ],
     "related": [
+      "shared-plant-care",
       "yellow-houseplant-leaves",
       "indoor-plant-light-guide",
       "when-to-repot-houseplants"
@@ -58,7 +59,7 @@
         },
         {
           "title": "Common questions",
-          "html": "<h3>Should I water a drooping plant immediately?</h3>\n<p>Check the mix first. Both drought and excessively wet roots can cause wilting. Adding water to an already saturated pot can make the problem worse. <a href=\"https://extension.umd.edu/resource/overwatered-indoor-plants\">University of Maryland Extension: overwatering</a></p>\n<h3>Can all my plants share one watering day?</h3>\n<p>They can share a check-in day. Decide separately whether each plant needs water, using its species needs and current conditions. <a href=\"https://extension.illinois.edu/houseplants/watering\">Illinois Extension</a></p>\n<h3>What should a watering reminder tell me?</h3>\n<p>“Check the potting mix” is a useful prompt. Add water only after the check supports it. Keep a short note when you skip watering so the record reflects what actually happened.</p>"
+          "html": "<h3>Should I water a drooping plant immediately?</h3>\n<p>Check the mix first. Both drought and excessively wet roots can cause wilting. Adding water to an already saturated pot can make the problem worse. <a href=\"https://extension.umd.edu/resource/overwatered-indoor-plants\">University of Maryland Extension: overwatering</a></p>\n<h3>Can all my plants share one watering day?</h3>\n<p>They can share a check-in day. Decide separately whether each plant needs water, using its species needs and current conditions. <a href=\"https://extension.illinois.edu/houseplants/watering\">Illinois Extension</a></p>\n<h3>What should a watering reminder tell me?</h3>\n<p>“Check the potting mix” is a useful prompt. Add water only after the check supports it. Keep a short note when you skip watering so the record reflects what actually happened.</p>\n<p>If someone else also cares for your plants, use one record and agree who checks next. Our <a href=\"https://lilora.app/en/guides/shared-plant-care/\">shared plant-care guide</a> explains how to distinguish a check, watering, and a postponed reminder.</p>"
         }
       ]
     },
@@ -89,7 +90,7 @@
         },
         {
           "title": "Sık sorulanlar",
-          "html": "<h3>Yaprakları sarkan bitkiyi hemen sulamalı mıyım?</h3>\n<p>Önce harcı kontrol et. Kuruluk da aşırı ıslak kökler de sarkmaya neden olabilir. Doygun saksıya su eklemek sorunu ağırlaştırabilir. <a href=\"https://extension.umd.edu/resource/overwatered-indoor-plants\">Maryland Üniversitesi</a></p>\n<h3>Bütün bitkiler için tek bir sulama günü olur mu?</h3>\n<p>Ortak bir kontrol günü olabilir. Su kararını her bitkinin türü ve o anki koşulları için ayrı ver. <a href=\"https://extension.illinois.edu/houseplants/watering\">Illinois Extension</a></p>\n<h3>Hatırlatmada ne yazmalı?</h3>\n<p>“Saksı harcını kontrol et” iyi bir başlangıçtır. Kontrol su ihtiyacını destekliyorsa sula. Sulamadığında da kısa bir not bırak.</p>"
+          "html": "<h3>Yaprakları sarkan bitkiyi hemen sulamalı mıyım?</h3>\n<p>Önce harcı kontrol et. Kuruluk da aşırı ıslak kökler de sarkmaya neden olabilir. Doygun saksıya su eklemek sorunu ağırlaştırabilir. <a href=\"https://extension.umd.edu/resource/overwatered-indoor-plants\">Maryland Üniversitesi</a></p>\n<h3>Bütün bitkiler için tek bir sulama günü olur mu?</h3>\n<p>Ortak bir kontrol günü olabilir. Su kararını her bitkinin türü ve o anki koşulları için ayrı ver. <a href=\"https://extension.illinois.edu/houseplants/watering\">Illinois Extension</a></p>\n<h3>Hatırlatmada ne yazmalı?</h3>\n<p>“Saksı harcını kontrol et” iyi bir başlangıçtır. Kontrol su ihtiyacını destekliyorsa sula. Sulamadığında da kısa bir not bırak.</p>\n<p>Bitkilerinle başka biri de ilgileniyorsa ortak bir kayıt kullanın ve sıradaki kontrolü kimin yapacağını belirleyin. <a href=\"https://lilora.app/guides/shared-plant-care/\">Birlikte bitki bakımı rehberimiz</a> kontrol, sulama ve ertelenen hatırlatmayı nasıl ayıracağınızı anlatıyor.</p>"
         }
       ]
     }
@@ -621,6 +622,124 @@
       "image": "/assets/editorial/lilora-collection-tr.webp",
       "imageAlt": "Lilora mağaza görselinde gerçek koleksiyon ekranı ve örnek bitki kayıtları",
       "caption": "Örnek kayıtlarla gerçek Lilora ekranı içeren mağaza görseli. Rakip uygulamanın ekranı değildir."
+    }
+  },
+  {
+    "slug": "shared-plant-care",
+    "type": "guide",
+    "published": "2026-10-17",
+    "reviewed": "2026-10-17",
+    "diagram": "shared-care",
+    "sources": [
+      {
+        "name": "University of Maryland Extension: watering indoor plants",
+        "url": "https://www.extension.umd.edu/resource/watering-indoor-plants"
+      },
+      {
+        "name": "Illinois Extension: watering",
+        "url": "https://extension.illinois.edu/houseplants/watering"
+      },
+      {
+        "name": "University of Maryland Extension: overwatered indoor plants",
+        "url": "https://extension.umd.edu/resource/overwatered-indoor-plants"
+      },
+      {
+        "name": "RHS: holiday care",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/holiday-care"
+      }
+    ],
+    "related": [
+      "watering-houseplants",
+      "yellow-houseplant-leaves",
+      "when-to-repot-houseplants"
+    ],
+    "en": {
+      "title": "Share Plant Care Without Watering Twice",
+      "description": "Share plant care with a partner or housemate using clear check and watering records, a simple division of care, and a practical handover before travel.",
+      "answer": "Keep one shared record for each plant, distinguish checking from watering, and agree who will handle the next check. Before adding water, read the latest entry and inspect the plant. This gives partners, housemates, and plant sitters a clear way to help without relying on memory.",
+      "sections": [
+        {
+          "title": "Give every plant one recognizable identity",
+          "html": "<p>This guide offers a practical household workflow. Its plant-care principles draw on the horticultural sources linked below. The workflow, example records, and handover checklist are original editorial advice, not a scientific trial or a real customer case.</p>\n<p>“The plant by the window” becomes confusing when there are three. Use a name, room, and current photo that everyone can recognize: “Pothos, living room, white pot.” Keep everyone’s observations together rather than making separate records for the same plant.</p>\n<p>If you move a pot or change its container, update the description. Walk through the collection together once, opening each record beside the actual plant. A photo helps someone find the right pot; it does not replace checking its condition.</p>"
+        },
+        {
+          "title": "Agree on a main person and a backup",
+          "html": "<p>Decide who normally checks each plant or room, and who steps in when that person is unavailable. Make this a household agreement, with a clear handover when plans change.</p>\n<p>Anyone can notice a problem or help. The useful question is who is handling the next check. If you are both home and about to care for the same plant, say so before starting. A care history can clarify past actions, but it cannot prevent two people acting at the same moment.</p>"
+        },
+        {
+          "title": "Separate “checked,” “watered,” and “snoozed”",
+          "html": "<p>Use a small, consistent vocabulary:</p>\n<ul><li>Checked: someone inspected the plant. Record what they found and whether any water was added.</li><li>Watered: someone actually added water. Record the action after completing it.</li><li>Snoozed: a reminder was deferred. Add whether the plant was checked or the task was simply postponed. A postponed reminder is not a completed check.</li></ul>\n<p>This distinction matters because a reminder's date cannot establish that a plant needs water. Moisture requirements and growing conditions vary, so check the potting mix against the needs of that plant. <a href=\"https://www.extension.umd.edu/resource/watering-indoor-plants\">University of Maryland Extension: watering indoor plants</a></p>\n<p>For a practical moisture-check routine, see our guide to <a href=\"https://lilora.app/en/guides/watering-houseplants/\">watering houseplants without a rigid schedule</a>.</p>\n<p>For ordinary draining pots, finish by letting surplus water escape and emptying collected runoff. A short note such as “watered; outer pot emptied” records the completed job. <a href=\"https://extension.illinois.edu/houseplants/watering\">Illinois Extension: watering</a></p>"
+        },
+        {
+          "title": "Make the record useful to the next person",
+          "html": "<p>Compare these illustrative entries:</p>\n<ul><li>Vague: “Done.”</li><li>Clear: “Ece, Tuesday 09:10: checked the mix; still moist; no water added.”</li><li>Clear: “Can, Friday 18:20: watered after checking; drained and emptied the outer pot.”</li></ul>\n<p>Keep the observation brief and specific. If you enter it later, state when the care actually happened. If an action was logged incorrectly, correct or clarify the record so the next person does not have to guess.</p>\n<p>A photo can show a change in a leaf or the pot's location. Include a short description of what changed; do not ask the next person to infer moisture from a photograph.</p>"
+        },
+        {
+          "title": "When you are unsure, resolve the uncertainty",
+          "html": "<p>If nobody remembers the last watering, inspect the mix and ask the other caretaker. Avoid a precautionary splash. Excessively wet conditions can damage roots, and a plant can wilt even while its mix is wet. <a href=\"https://extension.umd.edu/resource/overwatered-indoor-plants\">University of Maryland Extension: overwatered indoor plants</a></p>\n<p>An overdue reminder also needs a fresh check. Do not try to compensate for missed dates with several waterings. Record the current observation, decide what the plant needs now, and agree who will check next.</p>\n<p>If a leaf has changed colour, work through these <a href=\"https://lilora.app/en/guides/yellow-houseplant-leaves/\">yellow-leaf checks</a> before deciding what to change.</p>"
+        },
+        {
+          "title": "Leave a short handover before going away",
+          "html": "<p>Walk through the routine with your helper before departure. Leave these details for each plant:</p>\n<ol><li>Name, location, and photo</li><li>What moisture condition to look for, based on that species</li><li>The last actual check and watering</li><li>How to water and drain this particular pot</li><li>Who to contact if something looks different</li></ol>\n<p>Agree on visits separately from watering decisions. Ask the helper to record “checked, no water needed” as readily as “watered.” Mark specialist setups and plants requiring different care clearly.</p>\n<p>Longer absences may warrant help from someone you trust. The RHS also cautions that holiday watering systems can fail or leave plants too wet, and advises against repotting into a reservoir system solely for a brief trip. <a href=\"https://www.rhs.org.uk/plants/types/houseplants/holiday-care\">RHS: holiday care</a></p>\n<p>On your return, read the handover record before doing a round of watering. Confirm who is taking over again and note any changes in position or condition.</p>"
+        },
+        {
+          "title": "Common questions",
+          "html": "<h3>Can two people care for the same plant?</h3>\n<p>Yes. Agree who handles the next check, use the same record, and log actions clearly. Coordinate directly if you are both about to act.</p>\n<h3>Should I mark a plant as watered when I only checked it?</h3>\n<p>No. Record the check and what you found. Reserve “watered” for water actually added; otherwise the next person receives an inaccurate history.</p>\n<h3>Does postponing a reminder mean the plant is fine?</h3>\n<p>No. A postponed reminder says nothing about its condition unless someone inspected it. Record that distinction and arrange the next check.</p>"
+        },
+        {
+          "title": "Bring the shared record together with Lilora",
+          "html": "<p>Lilora brings shared plants, rooms, photos, notes, and care history together, including who recorded care and when. Match checked and watered entries to what happened. Snoozing postpones a reminder; it does not create a completed care entry. The main caretaker and backup remain your household agreement. <a href=\"https://lilora.app/en/\">Explore Lilora</a> for product information and current availability.</p>"
+        },
+        {
+          "title": "Related reading",
+          "html": "<p><a href=\"https://lilora.app/en/guides/\">Explore all plant-care guides</a> for practical advice on watering, light, repotting, and observing changes.</p>"
+        }
+      ],
+      "category": "Shared plant care"
+    },
+    "tr": {
+      "title": "Bitki Bakımını Paylaşırken Aynı Bitkiyi İki Kez Sulamayın",
+      "description": "Partneriniz veya ev arkadaşınızla bitki bakımını paylaşın. Kontrol ile sulamayı ayıran kayıtlar, görev paylaşımı ve seyahat öncesi devir planı oluşturun.",
+      "answer": "Her bitki için ortak bir kayıt tutun, kontrol etmeyi sulamadan ayrı kaydedin ve bir sonraki kontrolü kimin yapacağını belirleyin. Su vermeden önce son kayda bakın ve bitkiyi kontrol edin. Böylece partneriniz, ev arkadaşınız veya siz yokken bitkilerle ilgilenen kişi, yalnızca hafızasına güvenmek zorunda kalmaz.",
+      "sections": [
+        {
+          "title": "Her bitkiyi herkesin tanıyacağı şekilde kaydedin",
+          "html": "<p>Bu rehber, evde bitki bakımını paylaşmayı kolaylaştıran pratik bir düzen öneriyor. Bitki bakımıyla ilgili bilgiler için aşağıda bağlantı verdiğimiz bahçecilik kaynaklarından yararlandık. İş akışı, örnek kayıtlar ve devir listesi özgün yayın önerileridir; bilimsel bir deney veya gerçek bir müşteri hikâyesi değildir.</p>\n<p>Pencere önünde üç saksı varsa “pencerenin yanındaki bitki” yeterince açık değildir. Bitkinin adı, bulunduğu oda ve güncel fotoğrafı birlikte işe yarar: “Salon sarmaşığı, oturma odası, beyaz saksı.” Aynı bitki için ayrı ayrı kayıtlar açmak yerine herkesin gözlemlerini bir arada tutun.</p>\n<p>Bitkinin yerini veya saksısını değiştirirseniz açıklamayı güncelleyin. Bir kez birlikte bütün bitkilere bakın ve her kaydı ilgili saksının yanında açın. Fotoğraf doğru bitkiyi bulmaya yardımcı olur; bitkinin o anki durumunu kontrol etmenin yerini tutmaz.</p>"
+        },
+        {
+          "title": "Asıl ilgilenecek kişiyi ve yedeğini belirleyin",
+          "html": "<p>Hangi bitkiyi veya odayı normalde kimin kontrol edeceğine, o kişi uygun olmadığında kimin devralacağına karar verin. Bunu ev içinde bir anlaşma olarak belirleyin. Planlar değiştiğinde bunu birbirinize açıkça söyleyin.</p>\n<p>Herkes bir sorunu fark edebilir veya yardıma katılabilir. Önemli olan, sıradaki kontrolü kimin üstlendiğinin belli olmasıdır. İkiniz de evdeyseniz ve aynı bitkiyle ilgilenecekseniz başlamadan önce haberleşin. Bakım geçmişi önceki işlemleri gösterir; iki kişinin aynı anda harekete geçmesini tek başına önleyemez.</p>"
+        },
+        {
+          "title": "“Kontrol edildi”, “sulandı” ve “ertelendi” ayrı şeyler olsun",
+          "html": "<p>Kayıtlarda aynı ifadeleri kullanın:</p>\n<ul><li>Kontrol edildi: Birisi bitkiye baktı. Ne gördüğünü ve su verip vermediğini yazsın.</li><li>Sulandı: Bitkiye gerçekten su verildi. İşlem bittikten sonra kaydedilsin.</li><li>Ertelendi: Hatırlatma ileri alındı. Bitki kontrol edildi mi, yoksa yalnızca iş mi ertelendi, belirtin. Ertelenen hatırlatma, tamamlanmış kontrol değildir.</li></ul>\n<p>Bu ayrım önemli; hatırlatmanın tarihi bitkinin suya ihtiyacı olduğunu göstermez. Nem ihtiyacı ve yetişme koşulları değişir. Saksı harcını o bitkinin ihtiyacına göre kontrol edin. <a href=\"https://www.extension.umd.edu/resource/watering-indoor-plants\">Maryland Üniversitesi Extension: ev bitkilerini sulama</a></p>\n<p>Nem kontrolünü adım adım uygulamak için <a href=\"https://lilora.app/guides/watering-houseplants/\">sabit takvime bağlı kalmadan sulama rehberimize</a> bakın.</p>\n<p>Standart, drenaj delikli saksılarda sulamayı fazla suyun süzülmesi ve biriken suyun boşaltılmasıyla tamamlayın. “Sulandı; dış saksıdaki su boşaltıldı” gibi kısa bir not, yapılan işi açıkça anlatır. <a href=\"https://extension.illinois.edu/houseplants/watering\">Illinois Üniversitesi Extension: sulama</a></p>"
+        },
+        {
+          "title": "Bir sonraki kişiye yarayacak kadar açık yazın",
+          "html": "<p>Örnek kayıtları karşılaştırın:</p>\n<ul><li>Belirsiz: “Tamam.”</li><li>Açık: “Ece, salı 09.10: Harcı kontrol ettim, hâlâ nemli. Su vermedim.”</li><li>Açık: “Can, cuma 18.20: Kontrol ettikten sonra suladım. Süzülmesini bekledim, dış saksıyı boşalttım.”</li></ul>\n<p>Gözleminiz kısa ve somut olsun. Kaydı sonradan giriyorsanız bakımın gerçekte ne zaman yapıldığını belirtin. Yanlış bir işlem kaydedildiyse düzeltin veya açıklayıcı bir not ekleyin; sonraki kişi ne olduğunu tahmin etmek zorunda kalmasın.</p>\n<p>Bir fotoğraf, yapraktaki değişimi veya saksının yeni yerini gösterebilir. Neyin değiştiğini de kısaca yazın. Toprağın nemini yalnızca fotoğraftan anlamayı beklemeyin.</p>"
+        },
+        {
+          "title": "Emin değilseniz önce belirsizliği giderin",
+          "html": "<p>Son sulamayı kimse hatırlamıyorsa harcı kontrol edin ve diğer kişiye sorun. Tedbir olsun diye biraz su eklemeyin. Aşırı ıslak koşullar köklere zarar verebilir; harcı ıslak olan bir bitkide de pörsüme görülebilir. <a href=\"https://extension.umd.edu/resource/overwatered-indoor-plants\">Maryland Üniversitesi Extension: aşırı sulanan ev bitkileri</a></p>\n<p>Gecikmiş bir hatırlatma da yeniden kontrol gerektirir. Kaçırılan günleri telafi etmek için art arda sulama yapmayın. Bitkinin bugünkü durumunu kaydedin, mevcut ihtiyacına göre karar verin ve sonraki kontrolü kimin yapacağını netleştirin.</p>\n<p>Yapraklarda renk değişimi varsa bakımda değişiklik yapmadan önce <a href=\"https://lilora.app/guides/yellow-houseplant-leaves/\">sararan yapraklar için kontrol adımlarına</a> bakın.</p>"
+        },
+        {
+          "title": "Seyahat öncesinde kısa bir bakım devri yapın",
+          "html": "<p>Gitmeden önce yardım edecek kişiyle rutini bir kez birlikte uygulayın. Her bitki için şu bilgileri bırakın:</p>\n<ol><li>Adı, yeri ve fotoğrafı</li><li>Türüne göre kontrol edilecek nem durumu</li><li>Gerçekleşen son kontrol ve sulama</li><li>Bu saksının nasıl sulanıp süzdürüleceği</li><li>Farklı bir durum görülürse kime haber verileceği</li></ol>\n<p>Ziyaret günleriyle sulama kararını ayrı tutun. Yardım eden kişiden “kontrol edildi, su gerekmedi” kaydını da “sulandı” kadar rahat kullanmasını isteyin. Özel yetiştirme düzeneklerini ve farklı bakım gerektiren bitkileri açıkça belirtin.</p>\n<p>Uzun süre evde olmayacaksanız güvendiğiniz birinden destek almak uygun olabilir. RHS, tatil için kullanılan sulama düzeneklerinin aksayabileceğini veya bitkileri fazla ıslak bırakabileceğini de belirtiyor. Yalnızca kısa bir seyahat için su hazneli bir sisteme saksı değişimi yapmayı önermiyor. <a href=\"https://www.rhs.org.uk/plants/types/houseplants/holiday-care\">RHS: tatilde ev bitkilerinin bakımı</a></p>\n<p>Döndüğünüzde bütün bitkileri sulamaya başlamadan önce kayıtları okuyun. Bakımı yeniden kimin devraldığını netleştirin; yer veya görünüm değişikliklerini not edin.</p>"
+        },
+        {
+          "title": "Sık sorulan sorular",
+          "html": "<h3>Aynı bitkiye iki kişi bakabilir mi?</h3>\n<p>Evet. Sıradaki kontrolü kimin yapacağını belirleyin, ortak kaydı kullanın ve işlemleri açıkça yazın. İkiniz de harekete geçmek üzereyseniz doğrudan haberleşin.</p>\n<h3>Yalnızca kontrol ettiğim bitkiyi sulandı olarak işaretlemeli miyim?</h3>\n<p>Hayır. Kontrolü ve gözleminizi kaydedin. “Sulandı” ifadesini gerçekten su verdiğiniz işlemler için kullanın; aksi durumda diğer kişi yanlış bir bakım geçmişi görür.</p>\n<h3>Hatırlatmayı ertelemek bitkinin iyi olduğu anlamına gelir mi?</h3>\n<p>Hayır. Birisi kontrol etmediyse ertelenen hatırlatma bitkinin durumu hakkında bilgi vermez. Bu ayrımı kayda yazın ve bir sonraki kontrolü planlayın.</p>"
+        },
+        {
+          "title": "Ortak bakım kaydını Lilora'da bir araya getirin",
+          "html": "<p>Lilora; paylaşılan bitkileri, odaları, fotoğrafları, notları ve bakım geçmişini bir araya getirir. Geçmişte bakımı kimin, ne zaman kaydettiğini görebilirsiniz. Kontrol ve sulama kayıtlarını gerçekten yapılan işlemle eşleştirin. Erteleme, hatırlatmayı ileri alır; tamamlanmış bir bakım kaydı oluşturmaz. Asıl ilgilenecek kişi ve yedeği, ev içinde yaptığınız anlaşmayla belirlenir. Ürün bilgisi ve güncel erişim durumu için <a href=\"https://lilora.app/\">Lilora'yı keşfedin</a>.</p>"
+        },
+        {
+          "title": "İlgili rehberler",
+          "html": "<p>Sulama, ışık, saksı değişimi ve bitkideki değişimleri gözlemleme hakkında pratik bilgiler için <a href=\"https://lilora.app/guides/\">Tüm bitki bakım rehberleri</a> sayfasını ziyaret edin.</p>"
+        }
+      ],
+      "category": "Birlikte bitki bakımı"
     }
   }
 ]
