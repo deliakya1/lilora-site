@@ -155,3 +155,23 @@ and destinations. This is a local model, not production-response evidence.
 `npm run check` and the existing 78-check responsive audit also passed.
 The production error-page probe remains blocked by the execution gateway's CONNECT
 403 response; the site's own status cannot be inferred from that failure.
+
+## Maintenance — 17 October 2026: compact consent prompt
+
+The initial prompt now uses one short localized sentence, equal Allow/Reject
+buttons and a Preferences control. Details and the privacy link remain in the
+accessible preferences dialog. All controls retain at least 44px touch targets;
+only banner copy/markup and scoped presentation changed. The GA configuration,
+consent state machine and failed-storage safeguards are unchanged.
+
+At 390px viewport width, the banner height decreased from 424px to 121px in both
+languages; at 320px it decreased from 473px TR / 479px EN to 121px, and at 1440px
+from 265px to 100px. Measurements use Chromium, normal text and an 844px viewport
+height. `node scripts/compact-consent-check.cjs` passes 36 cases across both
+languages, six widths (320–1440px), normal/200% text/long copy, keyboard Preferences
+and direct opt-in. Existing consent and failed-storage regression suites and
+`npm run check` also pass. Google requests are intercepted in all consent tests.
+
+Language is selected by URL (`/` Turkish, `/en/` English) and explicit language
+links. There is no country/IP detection, browser-language redirect or saved
+language preference. This update does not introduce automatic routing.
