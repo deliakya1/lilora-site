@@ -78,12 +78,19 @@ separate from optional analytics. No marketing category is invented.
 
 Preferences are stored as a versioned object under `lilora.cookie-preferences.v2`
 with a choice and timestamp, valid for 180 days. A changed version or expired choice
-asks again. If storage is blocked, a memory fallback applies only to the current
-page and the next navigation defaults off. Both languages use the same preference.
-Cross-tab withdrawal stops the other tab's integration too.
+asks again. A new in-page choice outranks any stale saved grant. Denials also use a tab-scoped
+`lilora.cookie-preferences.v2.denied` sessionStorage record, so a read-only
+localStorage grant cannot reactivate analytics on same-tab navigation. If neither
+store can persist denial, tracking is stopped in place and no automatic reload
+occurs; the UI asks the visitor to clear saved site data before leaving/reloading. Both languages use the same preference.
+Cross-tab withdrawal uses storage events and, where supported, a same-origin
+BroadcastChannel for denials even when writes fail. Another tab's grant cannot
+overwrite a denial already made in the current document/tab.
 
 Withdrawal sets GA's disable flag, clears the pending queue, removes accessible
-owned `_ga` cookies where possible, and reloads without Google. It does not claim
+owned `_ga` cookies where possible, and reloads without Google only when denial persistence has been verified.
+Without durable denial it stays on the current page with GA disabled; a later
+explicit re-grant requires recovered persistence and a clean load. It does not claim
 to erase data previously processed by the provider. Cookie deletion does not touch
 unrelated cookies. Both website privacy sections document actual behavior; the
 mobile app's no-analytics-SDK statement remains explicitly scoped to the app.
@@ -105,7 +112,10 @@ visitor-text forms or search fields; activation tests intercept Google requests.
 Run `node scripts/consent-check.cjs` with Playwright/Chromium available. It tests
 initial, reject, accept, reload, revoke, cookies, both languages at 320/1440 pixels,
 keyboard focus, duplicate script/listeners, sanitized events, blocked storage and
-cross-tab changes. Tests do not send production analytics hits.
+cross-tab changes. Run `node scripts/consent-persistence-check.cjs` for readable-stale-grant
+regressions: throwing and silently ignored writes, preference reopening, no unsafe
+reload, cross-tab denial, persistence recovery and tab-scoped denial across pages.
+Tests do not send production analytics hits.
 
 ## Initial validation and limits
 
