@@ -1,0 +1,14 @@
+/* Recovery page only; the shared site and consent styles are unchanged. */
+.document-heading{max-width:none;padding-bottom:24px}
+.translated-heading{display:block;color:var(--color-text-secondary);margin-top:12px}
+.recovery-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:64px;padding-bottom:64px}
+.recovery-grid section{border-top:2px solid var(--color-action-primary);padding-top:24px;scroll-margin-top:24px;min-width:0}
+.recovery-grid h2{font-size:30px;line-height:1.2}
+.recovery-grid p{color:var(--color-text-secondary)}
+.recovery-links{list-style:none;padding:0;margin:24px 0}
+.recovery-links li{padding:12px 0;border-top:1px solid var(--color-border-subtle)}
+.recovery-links a{display:inline-flex;align-items:center;min-height:44px;font-weight:600;color:var(--color-action-primary)}
+.recovery-links span{display:block;color:var(--color-text-secondary);font-size:15px}
+.recovery-help{font-size:15px;overflow-wrap:anywhere}
+@media(max-width:700px){.recovery-grid{grid-template-columns:1fr;gap:40px;padding-bottom:40px}.document-heading{padding-bottom:16px}.recovery-grid h2{font-size:28px}}
+@media print{.recovery-grid{display:block}.recovery-grid section{break-inside:avoid}}

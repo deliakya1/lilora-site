@@ -136,3 +136,22 @@ Tests do not send production analytics hits.
 
 CI impact: existing GitHub Pages build/deploy only; no heavy/native/macOS workflows;
 changes are confined to the standalone public website repository.
+
+## Maintenance — 17 October 2026: bilingual missing-page recovery
+
+`404.html` now provides clear Turkish and English recovery links to home, guides,
+journal, comparisons and support, with language annotations and an English section
+anchor. All destinations/assets are absolute site paths, so recovery works from
+missing nested URLs. It retains `noindex, follow`, no false canonical or hreflang,
+and no sitemap entry. Existing GA/consent code, hosting and app availability copy
+are unchanged. The existing root-file convention follows
+[GitHub's custom 404 documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site).
+
+`node scripts/not-found-check.cjs` models Pages error responses locally: twelve
+scenarios cover TR/EN missing paths, 320/768/1440px, JavaScript on/off, ten working
+recovery links, language annotations and no overflow. Keyboard skip/section-link
+checks run with JavaScript enabled; no-JavaScript checks verify rendered content
+and destinations. This is a local model, not production-response evidence.
+`npm run check` and the existing 78-check responsive audit also passed.
+The production error-page probe remains blocked by the execution gateway's CONNECT
+403 response; the site's own status cannot be inferred from that failure.
