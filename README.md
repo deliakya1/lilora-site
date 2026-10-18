@@ -240,3 +240,36 @@ consent lifecycle and stale-grant/failed-storage regressions. New article and di
 screenshots were inspected in both languages at 320/390/1440px, with additional
 FAQ/outcome and enlarged-text checks at 320/1440px. Direct production HTTP probing
 was blocked by this environment's CONNECT 403 gateway; it is not site-response evidence.
+
+## Maintenance — 18 October 2026: expandable article contents
+
+Audit started from clean `main` commit `3dcd2ea`; no concurrent website edits or
+additional local skill instructions were present. Static checks cover all 28 routes,
+internal links/assets/fragments, canonical and reciprocal language metadata,
+Article/BreadcrumbList data, sitemap and availability/analytics assertions. This
+pass adds no care, product, pricing or availability claims and does not change
+article review dates. Existing primary-source citations and approved artwork stay
+in place; no new imagery is needed for this navigation improvement.
+
+The contents list previously occupied 447px TR / 424px EN on the shared-care guide
+at a 390px viewport. All fourteen article pages now use a native `details`/`summary`
+control, initially closed on mobile and desktop, occupying 50px in that check.
+Section links remain in the HTML. Readers can open and close the list by keyboard
+or pointer without JavaScript; summary and section links have at least 44px touch
+targets. Existing focus styling uses Lilora tokens. The native interaction follows
+[MDN's details element documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details),
+checked 18 October 2026. No new client script or third-party service was added.
+
+`node scripts/contents-check.cjs` verifies all fourteen articles at 320/390/1440px,
+with JavaScript both on and off, keyboard toggling, source-section navigation,
+closed-state content, overflow and touch targets. Existing responsive, language,
+consent and failed-storage checks remain applicable. The direct public HTTPS probe
+still returns the execution gateway's CONNECT 403; this does not report the site's
+own HTTP status. CI impact: existing GitHub Pages build/deploy only.
+
+Results: 84 contents interaction checks passed, plus 84 whole-site responsive
+checks, 46 language-selection scenarios, consent lifecycle and failed-storage
+regressions, and build/static validation. Enlarged contents text was also checked
+at 200% on a narrow viewport. Open lists scroll naturally rather than remaining
+sticky beyond the viewport. All checks are local Chromium evidence; public delivery
+requires a separate successful production probe.
