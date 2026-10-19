@@ -36,3 +36,20 @@ test('availability and owner-supplied consent-gated analytics are explicit',()=>
  for(const lang of ['en','tr']){const home=lang==='en'?'en/':'';assert.match(readFileSync(home+'index.html','utf8'),lang==='en'?/awaiting App Store review/:/App Store incelemesini bekliyor/);}
  assert.doesNotMatch(files.map(f=>readFileSync(f,'utf8')).join(''),/Download on the App Store|AggregateRating|gtag\/js\?id=/);
 });
+
+test('published short answers retain Markdown source links as usable citations',()=>{
+ const manifest=JSON.parse(readFileSync('editorial/manifest.json'));
+ let citations=0;
+ for(const a of manifest)for(const lang of ['en','tr']){
+  const draft=readFileSync('editorial/drafts/'+a[lang].file,'utf8');
+  const intro=draft.split('\n').slice(1).join('\n').split(/^## /m)[0];
+  const path=(lang==='en'?'en/':'')+(a.type==='comparison'?'compare/':'guides/')+a.slug+'/index.html';
+  const html=readFileSync(path,'utf8');
+  const answer=html.match(/<div class="short-answer">([\s\S]*?)<\/div>/)[1];
+  for(const [,label,url] of intro.matchAll(/\[([^\]]+)\]\((https?:\/\/[^\s]+)\)/g)){
+   assert.ok(answer.includes(`href="${url.replaceAll('&','&amp;')}"`),`${path}: missing answer citation ${label}`);citations++;
+  }
+  assert.doesNotMatch(answer,/\[[^\]]+\]\(https?:/,'raw Markdown must not reach the answer');
+ }
+ assert.ok(citations>=2,'both watering translations contain source citations');
+});

@@ -1,6 +1,6 @@
 # Ev bitkilerini sabit bir takvime bağlı kalmadan sulamak
 
-Bitkini, saksı harcının nemi o türün ihtiyacına uygun seviyeye geldiğinde sula. Yüzeyin altını kontrol et, saksının ağırlığını karşılaştır ve fazla suyun çıkabildiğinden emin ol. Hatırlatma, kontrol zamanını söyler; her bitkinin o gün su istediğini söylemez.
+Bitkini, saksı harcının nemi o türün ihtiyacına uygun seviyeye geldiğinde sula. Yüzeyin altını kontrol et, saksının ağırlığını karşılaştır ve fazla suyun çıkabildiğinden emin ol. Hatırlatma, kontrol zamanını söyler; her bitkinin o gün su istediğini söylemez. [Maryland Üniversitesi Extension](https://extension.umd.edu/resource/watering-indoor-plants)
 
 ## Önce türü, sonra saksıyı tanı
 

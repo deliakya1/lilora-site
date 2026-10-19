@@ -35,6 +35,7 @@
     "en": {
       "title": "How to water houseplants without a rigid schedule",
       "description": "Check potting mix, pot weight and drainage to decide when to water. A practical routine that follows your plant, not a rigid calendar.",
+      "answerHtml": "<p>Water a houseplant when its potting mix has reached the moisture level that suits that plant. Check below the surface, compare the pot’s weight, and make sure excess water can escape. A reminder is useful for checking; it cannot tell you that every plant needs a drink today. <a href=\"https://extension.umd.edu/resource/watering-indoor-plants\">University of Maryland Extension</a></p>",
       "answer": "Water a houseplant when its potting mix has reached the moisture level that suits that plant. Check below the surface, compare the pot’s weight, and make sure excess water can escape. A reminder is useful for checking; it cannot tell you that every plant needs a drink today. University of Maryland Extension",
       "sections": [
         {
@@ -66,7 +67,8 @@
     "tr": {
       "title": "Ev bitkilerini sabit bir takvime bağlı kalmadan sulamak",
       "description": "Saksı harcını, ağırlığı ve drenajı kontrol ederek sulama zamanını belirle. Sabit takvim yerine bitkini izleyen pratik bir rutin.",
-      "answer": "Bitkini, saksı harcının nemi o türün ihtiyacına uygun seviyeye geldiğinde sula. Yüzeyin altını kontrol et, saksının ağırlığını karşılaştır ve fazla suyun çıkabildiğinden emin ol. Hatırlatma, kontrol zamanını söyler; her bitkinin o gün su istediğini söylemez.",
+      "answerHtml": "<p>Bitkini, saksı harcının nemi o türün ihtiyacına uygun seviyeye geldiğinde sula. Yüzeyin altını kontrol et, saksının ağırlığını karşılaştır ve fazla suyun çıkabildiğinden emin ol. Hatırlatma, kontrol zamanını söyler; her bitkinin o gün su istediğini söylemez. <a href=\"https://extension.umd.edu/resource/watering-indoor-plants\">Maryland Üniversitesi Extension</a></p>",
+      "answer": "Bitkini, saksı harcının nemi o türün ihtiyacına uygun seviyeye geldiğinde sula. Yüzeyin altını kontrol et, saksının ağırlığını karşılaştır ve fazla suyun çıkabildiğinden emin ol. Hatırlatma, kontrol zamanını söyler; her bitkinin o gün su istediğini söylemez. Maryland Üniversitesi Extension",
       "sections": [
         {
           "title": "Önce türü, sonra saksıyı tanı",
@@ -130,6 +132,7 @@
     "en": {
       "title": "Yellow houseplant leaves: what to check before you act",
       "description": "Check leaf patterns, root-zone moisture, light, temperature and pests before changing care for a yellowing houseplant.",
+      "answerHtml": "<p>Yellow leaves have several possible causes. Check which leaves changed, the root-zone moisture, and recent changes around the plant. One aging lower leaf can be normal; widespread yellowing, soft stems or rapid decline need closer attention.</p>",
       "answer": "Yellow leaves have several possible causes. Check which leaves changed, the root-zone moisture, and recent changes around the plant. One aging lower leaf can be normal; widespread yellowing, soft stems or rapid decline need closer attention.",
       "sections": [
         {
@@ -161,6 +164,7 @@
     "tr": {
       "title": "Sararan yapraklar: bir şey yapmadan önce neleri kontrol etmeli?",
       "description": "Sararan yapraklarda bakımını değiştirmeden önce yaprak desenini, kök nemini, ışığı, sıcaklığı ve zararlı belirtilerini kontrol et.",
+      "answerHtml": "<p>Sararma tek bir nedeni göstermez. Hangi yaprakların değiştiğine, kök çevresinin nemine ve yakın zamanda değişen koşullara bak. Yaşlanan tek bir alt yaprak normal olabilir; yaygın sararma, yumuşayan gövde veya hızlı kötüleşme daha dikkatli inceleme ister.</p>",
       "answer": "Sararma tek bir nedeni göstermez. Hangi yaprakların değiştiğine, kök çevresinin nemine ve yakın zamanda değişen koşullara bak. Yaşlanan tek bir alt yaprak normal olabilir; yaygın sararma, yumuşayan gövde veya hızlı kötüleşme daha dikkatli inceleme ister.",
       "sections": [
         {
@@ -221,6 +225,7 @@
     "en": {
       "title": "Indoor plant light: a beginner’s guide to choosing a spot",
       "description": "Understand direct sunlight, bright indirect light and low light. Observe your window and choose a position around your plant’s needs.",
+      "answerHtml": "<p>Choose a position by the light reaching the leaves throughout the day. Bright indirect light means a well-lit position without direct sun striking foliage. Low light still requires usable light. Window direction is a clue; obstructions, distance and season change the result.</p>",
       "answer": "Choose a position by the light reaching the leaves throughout the day. Bright indirect light means a well-lit position without direct sun striking foliage. Low light still requires usable light. Window direction is a clue; obstructions, distance and season change the result.",
       "sections": [
         {
@@ -252,6 +257,7 @@
     "tr": {
       "title": "Ev bitkilerinde ışık: doğru yeri seçme rehberi",
       "description": "Doğrudan güneşi, parlak dolaylı ışığı ve az ışığı ayırt et. Pencereyi gözlemle, bitkinin ihtiyacına göre yer seç.",
+      "answerHtml": "<p>Yeri, gün boyunca yapraklara ulaşan ışığa göre seç. Parlak dolaylı ışık, güneş ışınlarının yaprağa doğrudan vurmadığı aydınlık konumdur. Az ışık, kullanılabilir ışığın hiç olmadığı anlamına gelmez. Pencerenin yönü başlangıç ipucudur; engeller, uzaklık ve mevsim sonucu değiştirir.</p>",
       "answer": "Yeri, gün boyunca yapraklara ulaşan ışığa göre seç. Parlak dolaylı ışık, güneş ışınlarının yaprağa doğrudan vurmadığı aydınlık konumdur. Az ışık, kullanılabilir ışığın hiç olmadığı anlamına gelmez. Pencerenin yönü başlangıç ipucudur; engeller, uzaklık ve mevsim sonucu değiştirir.",
       "sections": [
         {
@@ -316,6 +322,7 @@
     "en": {
       "title": "When to repot a houseplant, and how to do it carefully",
       "description": "Inspect roots, choose a sensible pot size and preserve planting depth. A careful repotting guide for common foliage houseplants.",
+      "answerHtml": "<p>Repot when roots or potting mix need attention, rather than after a fixed interval. Dense circling roots, difficult watering or degraded mix can justify repotting. Inspect first, choose a modest size increase if needed, and keep the original planting depth.</p>",
       "answer": "Repot when roots or potting mix need attention, rather than after a fixed interval. Dense circling roots, difficult watering or degraded mix can justify repotting. Inspect first, choose a modest size increase if needed, and keep the original planting depth.",
       "sections": [
         {
@@ -347,6 +354,7 @@
     "tr": {
       "title": "Saksı ne zaman değiştirilmeli, nasıl dikkatli yapılmalı?",
       "description": "Kökleri incele, uygun saksı boyutunu seç ve dikim derinliğini koru. Yaygın yapraklı ev bitkileri için dikkatli saksı değiştirme rehberi.",
+      "answerHtml": "<p>Saksıyı sabit süre dolduğu için değil, kökler veya harç ihtiyaç gösterdiğinde değiştir. Yoğun dolanan kökler, zorlaşan sulama veya bozulmuş harç gerekçe olabilir. Önce incele, gerekiyorsa ölçülü büyüt ve önceki dikim derinliğini koru.</p>",
       "answer": "Saksıyı sabit süre dolduğu için değil, kökler veya harç ihtiyaç gösterdiğinde değiştir. Yoğun dolanan kökler, zorlaşan sulama veya bozulmuş harç gerekçe olabilir. Önce incele, gerekiyorsa ölçülü büyüt ve önceki dikim derinliğini koru.",
       "sections": [
         {
@@ -422,6 +430,7 @@
     "en": {
       "title": "Lilora vs Planta: choosing a plant care routine",
       "description": "Compare Lilora and Planta for reminders, shared records, identification and prices, with official sources and honest launch-status information.",
+      "answerHtml": "<p>Lilora centres on a household plant notebook: keeping plants, photos and care records together. Planta describes a wider care toolkit, including personalized schedules and a light meter. Both describe ways to share plant care. Choose around your daily workflow, rather than the longest feature list.</p>",
       "answer": "Lilora centres on a household plant notebook: keeping plants, photos and care records together. Planta describes a wider care toolkit, including personalized schedules and a light meter. Both describe ways to share plant care. Choose around your daily workflow, rather than the longest feature list.",
       "sections": [
         {
@@ -464,6 +473,7 @@
     "tr": {
       "title": "Lilora ve Planta: bakım rutinine göre seçim yapmak",
       "description": "Lilora ve Planta’yı hatırlatma, ortak kayıt, tanımlama ve fiyat açısından karşılaştır. Resmi kaynaklar ve açık yayın durumu bilgisi.",
+      "answerHtml": "<p>Lilora, bitkileri, fotoğrafları ve bakım kayıtlarını bir arada tutan ortak ev günlüğüne odaklanır. Planta kişiselleştirilmiş programlar ve ışık ölçer dahil daha geniş araçlar tanımlar. İkisinde de ortak bakım seçenekleri vardır. Seçimi özellik sayısına değil, evde tekrar edeceğin işlere göre yap.</p>",
       "answer": "Lilora, bitkileri, fotoğrafları ve bakım kayıtlarını bir arada tutan ortak ev günlüğüne odaklanır. Planta kişiselleştirilmiş programlar ve ışık ölçer dahil daha geniş araçlar tanımlar. İkisinde de ortak bakım seçenekleri vardır. Seçimi özellik sayısına değil, evde tekrar edeceğin işlere göre yap.",
       "sections": [
         {
@@ -542,6 +552,7 @@
     "en": {
       "title": "Lilora vs PictureThis: identification and everyday plant care",
       "description": "Compare Lilora and PictureThis for identification, reminders, collections and household care, with official sources and pricing caveats.",
+      "answerHtml": "<p>PictureThis is worth examining when recognizing plants and exploring plant information are central to your needs. Lilora is designed around a household notebook, with optional identification alongside care records. PictureThis also documents collections and care reminders. Choose by what you want to do after learning a plant’s name.</p>",
       "answer": "PictureThis is worth examining when recognizing plants and exploring plant information are central to your needs. Lilora is designed around a household notebook, with optional identification alongside care records. PictureThis also documents collections and care reminders. Choose by what you want to do after learning a plant’s name.",
       "sections": [
         {
@@ -584,6 +595,7 @@
     "tr": {
       "title": "Lilora ve PictureThis: tanımlama ve günlük bitki bakımı",
       "description": "Lilora ve PictureThis’i tanımlama, hatırlatma, koleksiyon ve ortak bakım açısından karşılaştır. Resmi kaynaklar ve fiyat açıklamaları.",
+      "answerHtml": "<p>Bitkileri tanımak ve onlar hakkında bilgi edinmek önceliğinse PictureThis’i inceleyebilirsin. Lilora, bakım kayıtlarına isteğe bağlı tanımlama ekleyen ortak ev günlüğüne odaklanır. PictureThis de koleksiyon ve bakım hatırlatmaları tanımlar. Seçimi, bitkinin adını öğrendikten sonra ne yapacağına göre yap.</p>",
       "answer": "Bitkileri tanımak ve onlar hakkında bilgi edinmek önceliğinse PictureThis’i inceleyebilirsin. Lilora, bakım kayıtlarına isteğe bağlı tanımlama ekleyen ortak ev günlüğüne odaklanır. PictureThis de koleksiyon ve bakım hatırlatmaları tanımlar. Seçimi, bitkinin adını öğrendikten sonra ne yapacağına göre yap.",
       "sections": [
         {
@@ -656,6 +668,7 @@
     "en": {
       "title": "Share Plant Care Without Watering Twice",
       "description": "Share plant care with a partner or housemate using clear check and watering records, a simple division of care, and a practical handover before travel.",
+      "answerHtml": "<p>Keep one shared record for each plant, distinguish checking from watering, and agree who will handle the next check. Before adding water, read the latest entry and inspect the plant. This gives partners, housemates, and plant sitters a clear way to help without relying on memory.</p>",
       "answer": "Keep one shared record for each plant, distinguish checking from watering, and agree who will handle the next check. Before adding water, read the latest entry and inspect the plant. This gives partners, housemates, and plant sitters a clear way to help without relying on memory.",
       "sections": [
         {
@@ -700,6 +713,7 @@
     "tr": {
       "title": "Bitki Bakımını Paylaşırken Aynı Bitkiyi İki Kez Sulamayın",
       "description": "Partneriniz veya ev arkadaşınızla bitki bakımını paylaşın. Kontrol ile sulamayı ayıran kayıtlar, görev paylaşımı ve seyahat öncesi devir planı oluşturun.",
+      "answerHtml": "<p>Her bitki için ortak bir kayıt tutun, kontrol etmeyi sulamadan ayrı kaydedin ve bir sonraki kontrolü kimin yapacağını belirleyin. Su vermeden önce son kayda bakın ve bitkiyi kontrol edin. Böylece partneriniz, ev arkadaşınız veya siz yokken bitkilerle ilgilenen kişi, yalnızca hafızasına güvenmek zorunda kalmaz.</p>",
       "answer": "Her bitki için ortak bir kayıt tutun, kontrol etmeyi sulamadan ayrı kaydedin ve bir sonraki kontrolü kimin yapacağını belirleyin. Su vermeden önce son kayda bakın ve bitkiyi kontrol edin. Böylece partneriniz, ev arkadaşınız veya siz yokken bitkilerle ilgilenen kişi, yalnızca hafızasına güvenmek zorunda kalmaz.",
       "sections": [
         {

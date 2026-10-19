@@ -16,7 +16,7 @@ def parse(file,description):
  text=(ROOT/'editorial/drafts'/file).read_text()
  title,rest=text.split('\n',1)
  sections=re.split(r'^## ',rest,flags=re.M)
- return {'title':title.lstrip('# '),'description':description,'answer':re.sub(r'\[([^\]]+)\]\([^)]+\)',r'\1',sections[0]).strip(),'sections':[{'title':x.split('\n',1)[0],'html':blocks(x.split('\n',1)[1])} for x in sections[1:]]}
+ return {'title':title.lstrip('# '),'description':description,'answerHtml':blocks(sections[0]),'answer':re.sub(r'\[([^\]]+)\]\([^)]+\)',r'\1',sections[0]).strip(),'sections':[{'title':x.split('\n',1)[0],'html':blocks(x.split('\n',1)[1])} for x in sections[1:]]}
 manifest=json.loads((ROOT/'editorial/manifest.json').read_text())
 articles=[]
 for item in manifest:

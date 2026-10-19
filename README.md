@@ -273,3 +273,31 @@ regressions, and build/static validation. Enlarged contents text was also checke
 at 200% on a narrow viewport. Open lists scroll naturally rather than remaining
 sticky beyond the viewport. All checks are local Chromium evidence; public delivery
 requires a separate successful production probe.
+
+## Maintenance — 19 October 2026: preserve answer citations
+
+Started from clean website `main` commit `008f6ea`, with no concurrent edits or
+additional local skill instructions. The audit found that the importer removed
+Markdown links from short answers: the English watering summary named its source
+but did not let readers follow it. Short answers now use the same HTML paragraph
+and link conversion as article sections, while retaining their plain-text form in
+the data. The matching citation was added to the Turkish summary. A regression
+check compares published summary links against the original Markdown destinations.
+
+The existing University of Maryland Extension watering page was opened on
+19 October 2026 and checked against the unchanged summary's needs-based watering,
+moisture/weight observation and drainage claims. This is a citation/rendering fix,
+not a new horticultural recommendation or an article-wide re-review; publication
+and review dates remain unchanged. No app launch, feature or price claim changed.
+Existing awaiting-review copy, approved artwork and brand tokens remain in place.
+
+Changed public pages:
+- https://lilora.app/guides/watering-houseplants/
+- https://lilora.app/en/guides/watering-houseplants/
+
+Build/static validation includes canonical/hreflang, schema, sitemap, links and
+availability assertions. Both citation layouts and focus were checked at 320 and
+1440px with JavaScript on/off. The direct public HTTPS probe remains blocked by
+this environment's CONNECT 403 gateway; that response is not the site's status.
+CI impact: existing GitHub Pages build/deploy only. Consent, GA configuration,
+language selection, expandable contents, hosting and security settings are unchanged.
