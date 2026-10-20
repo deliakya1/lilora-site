@@ -1,0 +1,689 @@
+{
+  "width": 1200,
+  "height": 630,
+  "defaults": [
+    {
+      "lang": "tr",
+      "title": "lilora",
+      "image": "/assets/brand/share/tr-default.png"
+    },
+    {
+      "lang": "en",
+      "title": "lilora",
+      "image": "/assets/brand/share/en-default.png"
+    },
+    {
+      "lang": "es",
+      "title": "lilora",
+      "image": "/assets/brand/share/es-default.png"
+    },
+    {
+      "lang": "de",
+      "title": "lilora",
+      "image": "/assets/brand/share/de-default.png"
+    },
+    {
+      "lang": "pt",
+      "title": "lilora",
+      "image": "/assets/brand/share/pt-default.png"
+    },
+    {
+      "lang": "fr",
+      "title": "lilora",
+      "image": "/assets/brand/share/fr-default.png"
+    }
+  ],
+  "pages": [
+    {
+      "path": "/",
+      "lang": "tr",
+      "title": "Birlikte yaşadığın bitkiler, ortak bir defter.",
+      "description": "Hangi bitki nerede, en son kim kontrol etti, ne zaman sulandı? Fotoğrafları, notları ve bakım geçmişini Lilora’da bir arada tut.",
+      "image": "/assets/brand/share/tr-home.png"
+    },
+    {
+      "path": "/404.html",
+      "lang": "en",
+      "title": "Page not found",
+      "description": "This address does not lead to a page. Choose a language to continue.",
+      "image": "/assets/brand/share/en-404.png"
+    },
+    {
+      "path": "/about/",
+      "lang": "tr",
+      "title": "Lilora hakkında",
+      "description": "Lilora, bilinçli bakım ve ortak evler için bir bitki günlüğüdür. Türkiye’de Umut OREN tarafından bağımsız olarak yayımlanır.",
+      "image": "/assets/brand/share/tr-about.png"
+    },
+    {
+      "path": "/compare/",
+      "lang": "tr",
+      "title": "Bitki uygulaması karşılaştırmaları",
+      "description": "Bitki uygulamaları için kaynaklı karşılaştırmalar.",
+      "image": "/assets/brand/share/tr-compare.png"
+    },
+    {
+      "path": "/compare/lilora-vs-picturethis/",
+      "lang": "tr",
+      "title": "Lilora ve PictureThis: tanıma ve günlük bitki bakımı",
+      "description": "Lilora ve PictureThis’i tanıma, hatırlatma, koleksiyon ve ortak bakım açısından karşılaştır. Resmi kaynaklar ve fiyat açıklamaları.",
+      "image": "/assets/brand/share/tr-compare--lilora-vs-picturethis.png"
+    },
+    {
+      "path": "/compare/lilora-vs-planta/",
+      "lang": "tr",
+      "title": "Lilora ve Planta: bakım rutinine göre seçim yapmak",
+      "description": "Lilora ve Planta’yı hatırlatma, ortak kayıt, tanıma ve fiyat açısından karşılaştır. Resmi kaynaklar ve açık yayın durumu bilgisi.",
+      "image": "/assets/brand/share/tr-compare--lilora-vs-planta.png"
+    },
+    {
+      "path": "/contact/",
+      "lang": "tr",
+      "title": "Lilora ile iletişim",
+      "description": "Uygulama desteği, gizlilik, basın, düzeltme veya iş birliği için Lilora ile iletişime geç.",
+      "image": "/assets/brand/share/tr-contact.png"
+    },
+    {
+      "path": "/de/",
+      "lang": "de",
+      "title": "Ein gemeinsames Notizbuch für eure Pflanzen.",
+      "description": "In welchem Zimmer, zuletzt von wem geprüft und wann gegossen? Lilora hält Fotos, Notizen und Pflegeeinträge eurer Pflanzen zusammen.",
+      "image": "/assets/brand/share/de-home.png"
+    },
+    {
+      "path": "/de/about/",
+      "lang": "de",
+      "title": "Über Lilora",
+      "description": "Lilora ist ein Pflanzennotizbuch für aufmerksame Pflege und gemeinsame Haushalte, unabhängig veröffentlicht von Umut OREN in Türkiye.",
+      "image": "/assets/brand/share/de-about.png"
+    },
+    {
+      "path": "/de/compare/",
+      "lang": "de",
+      "title": "Pflanzen-Apps im Vergleich",
+      "description": "Quellenbasierte Vergleiche von Pflanzen-Apps.",
+      "image": "/assets/brand/share/de-compare.png"
+    },
+    {
+      "path": "/de/contact/",
+      "lang": "de",
+      "title": "Kontakt zu Lilora",
+      "description": "Kontaktiere Lilora zu App-Hilfe, Datenschutz, Presse, Korrekturen oder Kooperationen.",
+      "image": "/assets/brand/share/de-contact.png"
+    },
+    {
+      "path": "/de/download/",
+      "lang": "de",
+      "title": "Ein gemeinsames Notizbuch für deine Pflanzen",
+      "description": "Lilora für iPhone und iPad: Pflanzen und Pflege kostenlos von Hand erfassen, gemeinsam betreuen und auf Wunsch per Foto bestimmen. Die App wird geprüft.",
+      "image": "/assets/brand/share/de-download.png"
+    },
+    {
+      "path": "/de/editorial/",
+      "lang": "de",
+      "title": "Redaktionelle Grundsätze",
+      "description": "So recherchiert, schreibt und aktualisiert Lilora Pflanzenratgeber und App-Vergleiche.",
+      "image": "/assets/brand/share/de-editorial.png"
+    },
+    {
+      "path": "/de/guides/",
+      "lang": "de",
+      "title": "Ratgeber zur Zimmerpflanzenpflege",
+      "description": "Praktische Hinweise: Pflanzen beobachten, bevor du die Pflege änderst.",
+      "image": "/assets/brand/share/de-guides.png"
+    },
+    {
+      "path": "/de/journal/",
+      "lang": "de",
+      "title": "Pflanzenjournal",
+      "description": "Notizen über Pflanzen und gemeinsame Pflege.",
+      "image": "/assets/brand/share/de-journal.png"
+    },
+    {
+      "path": "/de/legal/",
+      "lang": "de",
+      "title": "Rechtliche Hinweise",
+      "description": "Angaben zu Herausgeber, Kontakt und Hosting der Lilora-Website.",
+      "image": "/assets/brand/share/de-legal.png"
+    },
+    {
+      "path": "/de/plants/",
+      "lang": "de",
+      "title": "Zimmerpflanzen-Bibliothek",
+      "description": "Zimmerpflanzen nach Arten kennenlernen.",
+      "image": "/assets/brand/share/de-plants.png"
+    },
+    {
+      "path": "/de/press/",
+      "lang": "de",
+      "title": "Lilora für die Presse",
+      "description": "Beschreibungen, Produktdaten, echte App-Bilder und Druckvorlagen für Lilora. Die App befindet sich in Prüfung für den App Store.",
+      "image": "/assets/brand/share/de-press.png"
+    },
+    {
+      "path": "/de/privacy/",
+      "lang": "de",
+      "title": "Datenschutzerklärung",
+      "description": "Wie Lilora mit deinen Informationen umgeht.",
+      "image": "/assets/brand/share/de-privacy.png"
+    },
+    {
+      "path": "/de/support/",
+      "lang": "de",
+      "title": "Ein wenig Hilfe für deine Pflanzen.",
+      "description": "Antworten auf häufige Fragen und eine Möglichkeit, uns zu erreichen.",
+      "image": "/assets/brand/share/de-support.png"
+    },
+    {
+      "path": "/download/",
+      "lang": "tr",
+      "title": "Bitkilerin için ortak bir bakım defteri",
+      "description": "iPhone ve iPad için Lilora’yı tanı: ücretsiz elle bitki kaydı ve ortak bakım, isteğe bağlı fotoğrafla bitki tanıma. App Store incelemesi sürüyor.",
+      "image": "/assets/brand/share/tr-download.png"
+    },
+    {
+      "path": "/editorial/",
+      "lang": "tr",
+      "title": "Yayın ilkeleri",
+      "description": "Lilora bitki rehberlerini ve uygulama karşılaştırmalarını nasıl hazırlar ve günceller?",
+      "image": "/assets/brand/share/tr-editorial.png"
+    },
+    {
+      "path": "/en/",
+      "lang": "en",
+      "title": "A shared notebook for your plants.",
+      "description": "Which room, who last checked, when it was watered. Keep your plants’ photos, notes and care history together in Lilora.",
+      "image": "/assets/brand/share/en-home.png"
+    },
+    {
+      "path": "/en/about/",
+      "lang": "en",
+      "title": "About Lilora",
+      "description": "Lilora is a plant notebook for thoughtful care and shared households, independently published by Umut OREN in Türkiye.",
+      "image": "/assets/brand/share/en-about.png"
+    },
+    {
+      "path": "/en/compare/",
+      "lang": "en",
+      "title": "Plant app comparisons",
+      "description": "Source-backed comparisons of plant apps.",
+      "image": "/assets/brand/share/en-compare.png"
+    },
+    {
+      "path": "/en/compare/lilora-vs-picturethis/",
+      "lang": "en",
+      "title": "Lilora vs PictureThis: identification and everyday plant care",
+      "description": "Compare Lilora and PictureThis for identification, reminders, collections and household care, with official sources and pricing caveats.",
+      "image": "/assets/brand/share/en-compare--lilora-vs-picturethis.png"
+    },
+    {
+      "path": "/en/compare/lilora-vs-planta/",
+      "lang": "en",
+      "title": "Lilora vs Planta: choosing a plant care routine",
+      "description": "Compare Lilora and Planta for reminders, shared records, identification and prices, with official sources and honest launch-status information.",
+      "image": "/assets/brand/share/en-compare--lilora-vs-planta.png"
+    },
+    {
+      "path": "/en/contact/",
+      "lang": "en",
+      "title": "Contact Lilora",
+      "description": "Contact Lilora about app support, privacy, press, corrections or partnerships.",
+      "image": "/assets/brand/share/en-contact.png"
+    },
+    {
+      "path": "/en/download/",
+      "lang": "en",
+      "title": "A shared notebook for your plants",
+      "description": "Meet Lilora for iPhone and iPad: free manual plant records and shared care, with optional photo identification. App Store review is in progress.",
+      "image": "/assets/brand/share/en-download.png"
+    },
+    {
+      "path": "/en/editorial/",
+      "lang": "en",
+      "title": "Editorial approach",
+      "description": "How Lilora researches, writes and updates plant guides and app comparisons.",
+      "image": "/assets/brand/share/en-editorial.png"
+    },
+    {
+      "path": "/en/guides/",
+      "lang": "en",
+      "title": "Houseplant care guides",
+      "description": "Practical notes on observing plants before changing their care.",
+      "image": "/assets/brand/share/en-guides.png"
+    },
+    {
+      "path": "/en/guides/indoor-plant-light-guide/",
+      "lang": "en",
+      "title": "Indoor plant light: a beginner’s guide to choosing a spot",
+      "description": "Understand direct sunlight, bright indirect light and low light. Observe your window and choose a position around your plant’s needs.",
+      "image": "/assets/brand/share/en-guides--indoor-plant-light-guide.png"
+    },
+    {
+      "path": "/en/guides/shared-plant-care/",
+      "lang": "en",
+      "title": "Share plant care without watering twice",
+      "description": "Share plant care with a partner or housemate using clear check and watering records, a simple division of care, and a practical handover before travel.",
+      "image": "/assets/brand/share/en-guides--shared-plant-care.png"
+    },
+    {
+      "path": "/en/guides/watering-houseplants/",
+      "lang": "en",
+      "title": "How to water houseplants without a rigid schedule",
+      "description": "Check potting mix, pot weight and drainage to decide when to water. A practical routine that follows your plant, not a rigid calendar.",
+      "image": "/assets/brand/share/en-guides--watering-houseplants.png"
+    },
+    {
+      "path": "/en/guides/when-to-repot-houseplants/",
+      "lang": "en",
+      "title": "When to repot a houseplant, and how to do it carefully",
+      "description": "Inspect roots, choose a sensible pot size and preserve planting depth. A careful repotting guide for common foliage houseplants.",
+      "image": "/assets/brand/share/en-guides--when-to-repot-houseplants.png"
+    },
+    {
+      "path": "/en/guides/yellow-houseplant-leaves/",
+      "lang": "en",
+      "title": "Yellow houseplant leaves: what to check before you act",
+      "description": "Check leaf patterns, root-zone moisture, light, temperature and pests before changing care for a yellowing houseplant.",
+      "image": "/assets/brand/share/en-guides--yellow-houseplant-leaves.png"
+    },
+    {
+      "path": "/en/journal/",
+      "lang": "en",
+      "title": "Plant journal",
+      "description": "Notes on plants and shared care.",
+      "image": "/assets/brand/share/en-journal.png"
+    },
+    {
+      "path": "/en/legal/",
+      "lang": "en",
+      "title": "Legal notice",
+      "description": "Publisher, contact and hosting information for the Lilora website.",
+      "image": "/assets/brand/share/en-legal.png"
+    },
+    {
+      "path": "/en/plants/",
+      "lang": "en",
+      "title": "Houseplant library",
+      "description": "Houseplant profiles, organized by species.",
+      "image": "/assets/brand/share/en-plants.png"
+    },
+    {
+      "path": "/en/press/",
+      "lang": "en",
+      "title": "Lilora press resources",
+      "description": "Descriptions, product facts, real app artwork and printable Lilora cards for press and sharing. Lilora is in App Store review.",
+      "image": "/assets/brand/share/en-press.png"
+    },
+    {
+      "path": "/en/privacy/",
+      "lang": "en",
+      "title": "Privacy policy",
+      "description": "How Lilora handles your information.",
+      "image": "/assets/brand/share/en-privacy.png"
+    },
+    {
+      "path": "/en/support/",
+      "lang": "en",
+      "title": "A little help for your garden.",
+      "description": "Answers to common questions, and a way to reach us.",
+      "image": "/assets/brand/share/en-support.png"
+    },
+    {
+      "path": "/es/",
+      "lang": "es",
+      "title": "Las plantas de casa, en un cuaderno compartido.",
+      "description": "En qué habitación están, quién las revisó y cuándo se regaron. Reúne las fotos, las notas y el historial de cuidados de tus plantas en Lilora.",
+      "image": "/assets/brand/share/es-home.png"
+    },
+    {
+      "path": "/es/about/",
+      "lang": "es",
+      "title": "Acerca de Lilora",
+      "description": "Lilora es un cuaderno de plantas para cuidar con atención y compartir en casa, publicado de forma independiente por Umut OREN en Türkiye.",
+      "image": "/assets/brand/share/es-about.png"
+    },
+    {
+      "path": "/es/compare/",
+      "lang": "es",
+      "title": "Comparativas de aplicaciones para plantas",
+      "description": "Comparativas de apps basadas en fuentes.",
+      "image": "/assets/brand/share/es-compare.png"
+    },
+    {
+      "path": "/es/contact/",
+      "lang": "es",
+      "title": "Contacta con Lilora",
+      "description": "Contacta con Lilora para ayuda con la app, privacidad, prensa, correcciones o colaboraciones.",
+      "image": "/assets/brand/share/es-contact.png"
+    },
+    {
+      "path": "/es/download/",
+      "lang": "es",
+      "title": "Un cuaderno compartido para tus plantas",
+      "description": "Conoce Lilora para iPhone y iPad: registro manual gratuito y cuidados compartidos, con identificación opcional por foto. En revisión para el App Store.",
+      "image": "/assets/brand/share/es-download.png"
+    },
+    {
+      "path": "/es/editorial/",
+      "lang": "es",
+      "title": "Criterios editoriales",
+      "description": "Cómo investiga, redacta y actualiza Lilora sus guías de plantas y comparaciones de apps.",
+      "image": "/assets/brand/share/es-editorial.png"
+    },
+    {
+      "path": "/es/guides/",
+      "lang": "es",
+      "title": "Guías para cuidar plantas de interior",
+      "description": "Consejos para observar tus plantas antes de cambiar sus cuidados.",
+      "image": "/assets/brand/share/es-guides.png"
+    },
+    {
+      "path": "/es/journal/",
+      "lang": "es",
+      "title": "Diario de plantas",
+      "description": "Notas sobre plantas y cuidados compartidos.",
+      "image": "/assets/brand/share/es-journal.png"
+    },
+    {
+      "path": "/es/legal/",
+      "lang": "es",
+      "title": "Información legal",
+      "description": "Información sobre el editor, el contacto y el alojamiento del sitio web de Lilora.",
+      "image": "/assets/brand/share/es-legal.png"
+    },
+    {
+      "path": "/es/plants/",
+      "lang": "es",
+      "title": "Biblioteca de plantas para casa",
+      "description": "Fichas de plantas de interior por especie.",
+      "image": "/assets/brand/share/es-plants.png"
+    },
+    {
+      "path": "/es/press/",
+      "lang": "es",
+      "title": "Recursos de prensa de Lilora",
+      "description": "Descripciones, datos del producto, imágenes reales de la app y materiales imprimibles de Lilora. En revisión para el App Store.",
+      "image": "/assets/brand/share/es-press.png"
+    },
+    {
+      "path": "/es/privacy/",
+      "lang": "es",
+      "title": "Política de privacidad",
+      "description": "Cómo trata Lilora tu información.",
+      "image": "/assets/brand/share/es-privacy.png"
+    },
+    {
+      "path": "/es/support/",
+      "lang": "es",
+      "title": "Un poco de ayuda para tus plantas.",
+      "description": "Respuestas a preguntas frecuentes y una forma de contactar con nosotros.",
+      "image": "/assets/brand/share/es-support.png"
+    },
+    {
+      "path": "/fr/",
+      "lang": "fr",
+      "title": "Les plantes de la maison, un carnet partagé.",
+      "description": "Dans quelle pièce, vérifiée par qui, arrosée quand ? Gardez les photos, les notes et l’historique d’entretien de vos plantes au même endroit, dans Lilora.",
+      "image": "/assets/brand/share/fr-home.png"
+    },
+    {
+      "path": "/fr/about/",
+      "lang": "fr",
+      "title": "À propos de Lilora",
+      "description": "Lilora est un carnet de plantes pour des soins attentifs et partagés, publié de manière indépendante par Umut OREN en Türkiye.",
+      "image": "/assets/brand/share/fr-about.png"
+    },
+    {
+      "path": "/fr/compare/",
+      "lang": "fr",
+      "title": "Comparatifs des applications pour plantes",
+      "description": "Des comparaisons d’apps avec leurs sources.",
+      "image": "/assets/brand/share/fr-compare.png"
+    },
+    {
+      "path": "/fr/contact/",
+      "lang": "fr",
+      "title": "Contacter Lilora",
+      "description": "Contactez Lilora pour l’aide sur l’app, la confidentialité, la presse, les corrections ou les partenariats.",
+      "image": "/assets/brand/share/fr-contact.png"
+    },
+    {
+      "path": "/fr/download/",
+      "lang": "fr",
+      "title": "Un carnet partagé pour vos plantes",
+      "description": "Découvrez Lilora pour iPhone et iPad : suivi manuel gratuit et soins partagés, avec identification photo facultative. En cours d’examen pour l’App Store.",
+      "image": "/assets/brand/share/fr-download.png"
+    },
+    {
+      "path": "/fr/editorial/",
+      "lang": "fr",
+      "title": "Principes éditoriaux",
+      "description": "Comment Lilora recherche, rédige et met à jour ses guides sur les plantes et ses comparatifs d’apps.",
+      "image": "/assets/brand/share/fr-editorial.png"
+    },
+    {
+      "path": "/fr/guides/",
+      "lang": "fr",
+      "title": "Guides de soin des plantes",
+      "description": "Des conseils pour observer vos plantes avant de changer leurs soins.",
+      "image": "/assets/brand/share/fr-guides.png"
+    },
+    {
+      "path": "/fr/journal/",
+      "lang": "fr",
+      "title": "Journal des plantes",
+      "description": "Notes sur les plantes et les soins partagés.",
+      "image": "/assets/brand/share/fr-journal.png"
+    },
+    {
+      "path": "/fr/legal/",
+      "lang": "fr",
+      "title": "Mentions légales",
+      "description": "Informations sur l’éditeur, le contact et l’hébergement du site de Lilora.",
+      "image": "/assets/brand/share/fr-legal.png"
+    },
+    {
+      "path": "/fr/plants/",
+      "lang": "fr",
+      "title": "Bibliothèque des plantes",
+      "description": "Des fiches de plantes d’intérieur par espèce.",
+      "image": "/assets/brand/share/fr-plants.png"
+    },
+    {
+      "path": "/fr/press/",
+      "lang": "fr",
+      "title": "Lilora : ressources presse",
+      "description": "Descriptions, fiche produit, véritables visuels de l’app et supports Lilora à imprimer. En cours d’examen pour l’App Store.",
+      "image": "/assets/brand/share/fr-press.png"
+    },
+    {
+      "path": "/fr/privacy/",
+      "lang": "fr",
+      "title": "Politique de confidentialité",
+      "description": "Comment Lilora traite vos informations.",
+      "image": "/assets/brand/share/fr-privacy.png"
+    },
+    {
+      "path": "/fr/support/",
+      "lang": "fr",
+      "title": "Un peu d’aide pour vos plantes.",
+      "description": "Des réponses aux questions fréquentes et un moyen de nous contacter.",
+      "image": "/assets/brand/share/fr-support.png"
+    },
+    {
+      "path": "/guides/",
+      "lang": "tr",
+      "title": "Bitki bakım rehberleri",
+      "description": "Bakımını değiştirmeden önce bitkini gözlemlemek için pratik notlar.",
+      "image": "/assets/brand/share/tr-guides.png"
+    },
+    {
+      "path": "/guides/indoor-plant-light-guide/",
+      "lang": "tr",
+      "title": "Ev bitkilerinde ışık: doğru yeri seçme rehberi",
+      "description": "Doğrudan güneşi, parlak dolaylı ışığı ve az ışığı ayırt et. Pencereyi gözlemle, bitkinin ihtiyacına göre yer seç.",
+      "image": "/assets/brand/share/tr-guides--indoor-plant-light-guide.png"
+    },
+    {
+      "path": "/guides/shared-plant-care/",
+      "lang": "tr",
+      "title": "Bitki bakımını paylaşırken aynı bitkiyi iki kez sulama",
+      "description": "Partnerin veya ev arkadaşınla bitki bakımını paylaş. Kontrol ile sulamayı ayıran kayıtlar, görev paylaşımı ve seyahat öncesi devir planı oluştur.",
+      "image": "/assets/brand/share/tr-guides--shared-plant-care.png"
+    },
+    {
+      "path": "/guides/watering-houseplants/",
+      "lang": "tr",
+      "title": "Ev bitkilerini sabit bir takvime bağlı kalmadan sulamak",
+      "description": "Saksı harcını, ağırlığı ve drenajı kontrol ederek sulama zamanını belirle. Sabit takvim yerine bitkini izleyen pratik bir rutin.",
+      "image": "/assets/brand/share/tr-guides--watering-houseplants.png"
+    },
+    {
+      "path": "/guides/when-to-repot-houseplants/",
+      "lang": "tr",
+      "title": "Saksı ne zaman değiştirilmeli, nasıl dikkatli yapılmalı?",
+      "description": "Kökleri incele, uygun saksı boyutunu seç ve dikim derinliğini koru. Yaygın yapraklı ev bitkileri için dikkatli saksı değiştirme rehberi.",
+      "image": "/assets/brand/share/tr-guides--when-to-repot-houseplants.png"
+    },
+    {
+      "path": "/guides/yellow-houseplant-leaves/",
+      "lang": "tr",
+      "title": "Sararan yapraklar: bir şey yapmadan önce neleri kontrol etmeli?",
+      "description": "Sararan yapraklarda bakımını değiştirmeden önce yaprak desenini, kök nemini, ışığı, sıcaklığı ve zararlı belirtilerini kontrol et.",
+      "image": "/assets/brand/share/tr-guides--yellow-houseplant-leaves.png"
+    },
+    {
+      "path": "/journal/",
+      "lang": "tr",
+      "title": "Bitki günlüğü",
+      "description": "Bitkiler ve ortak bakım üzerine notlar.",
+      "image": "/assets/brand/share/tr-journal.png"
+    },
+    {
+      "path": "/legal/",
+      "lang": "tr",
+      "title": "Yasal bilgiler",
+      "description": "Lilora web sitesinin yayıncı, iletişim ve barındırma bilgileri.",
+      "image": "/assets/brand/share/tr-legal.png"
+    },
+    {
+      "path": "/plants/",
+      "lang": "tr",
+      "title": "Bitki kütüphanesi",
+      "description": "Türlerine göre ev bitkileri.",
+      "image": "/assets/brand/share/tr-plants.png"
+    },
+    {
+      "path": "/press/",
+      "lang": "tr",
+      "title": "Lilora basın kaynakları",
+      "description": "Basın ve paylaşım için Lilora açıklamaları, ürün bilgileri, gerçek uygulama görselleri ve yazdırılabilir kartlar. Lilora, App Store incelemesinde.",
+      "image": "/assets/brand/share/tr-press.png"
+    },
+    {
+      "path": "/privacy/",
+      "lang": "tr",
+      "title": "Gizlilik politikası",
+      "description": "Lilora bilgilerini nasıl işler?",
+      "image": "/assets/brand/share/tr-privacy.png"
+    },
+    {
+      "path": "/pt/",
+      "lang": "pt",
+      "title": "As plantas da casa, num caderno compartilhado.",
+      "description": "Em qual cômodo, quem conferiu por último e quando recebeu água. Reúna fotos, anotações e o histórico de cuidados das suas plantas no Lilora.",
+      "image": "/assets/brand/share/pt-home.png"
+    },
+    {
+      "path": "/pt/about/",
+      "lang": "pt",
+      "title": "Sobre o Lilora",
+      "description": "O Lilora é um caderno de plantas para cuidar com atenção e compartilhar em casa, publicado de forma independente por Umut OREN na Türkiye.",
+      "image": "/assets/brand/share/pt-about.png"
+    },
+    {
+      "path": "/pt/compare/",
+      "lang": "pt",
+      "title": "Comparativos de aplicativos de plantas",
+      "description": "Comparações de apps com fontes identificadas.",
+      "image": "/assets/brand/share/pt-compare.png"
+    },
+    {
+      "path": "/pt/contact/",
+      "lang": "pt",
+      "title": "Fale com o Lilora",
+      "description": "Fale com o Lilora sobre suporte ao app, privacidade, imprensa, correções ou parcerias.",
+      "image": "/assets/brand/share/pt-contact.png"
+    },
+    {
+      "path": "/pt/download/",
+      "lang": "pt",
+      "title": "Um caderno compartilhado para suas plantas",
+      "description": "Conheça o Lilora para iPhone e iPad: registros manuais gratuitos e cuidados compartilhados, com identificação opcional por foto. Em análise para a App Store.",
+      "image": "/assets/brand/share/pt-download.png"
+    },
+    {
+      "path": "/pt/editorial/",
+      "lang": "pt",
+      "title": "Princípios editoriais",
+      "description": "Como o Lilora pesquisa, escreve e atualiza guias de plantas e comparações de apps.",
+      "image": "/assets/brand/share/pt-editorial.png"
+    },
+    {
+      "path": "/pt/guides/",
+      "lang": "pt",
+      "title": "Guias de cuidados com plantas",
+      "description": "Dicas para observar suas plantas antes de mudar os cuidados.",
+      "image": "/assets/brand/share/pt-guides.png"
+    },
+    {
+      "path": "/pt/journal/",
+      "lang": "pt",
+      "title": "Diário de plantas",
+      "description": "Notas sobre plantas e cuidados compartilhados.",
+      "image": "/assets/brand/share/pt-journal.png"
+    },
+    {
+      "path": "/pt/legal/",
+      "lang": "pt",
+      "title": "Informações legais",
+      "description": "Informações sobre o responsável pela publicação, contato e hospedagem do site do Lilora.",
+      "image": "/assets/brand/share/pt-legal.png"
+    },
+    {
+      "path": "/pt/plants/",
+      "lang": "pt",
+      "title": "Biblioteca de plantas de interior",
+      "description": "Perfis de plantas de interior por espécie.",
+      "image": "/assets/brand/share/pt-plants.png"
+    },
+    {
+      "path": "/pt/press/",
+      "lang": "pt",
+      "title": "Lilora para a imprensa",
+      "description": "Descrições, informações do produto, imagens reais do app e materiais do Lilora para impressão. Em análise para a App Store.",
+      "image": "/assets/brand/share/pt-press.png"
+    },
+    {
+      "path": "/pt/privacy/",
+      "lang": "pt",
+      "title": "Política de privacidade",
+      "description": "Como o Lilora trata suas informações.",
+      "image": "/assets/brand/share/pt-privacy.png"
+    },
+    {
+      "path": "/pt/support/",
+      "lang": "pt",
+      "title": "Uma ajuda para suas plantas.",
+      "description": "Respostas às dúvidas frequentes e uma forma de falar com a gente.",
+      "image": "/assets/brand/share/pt-support.png"
+    },
+    {
+      "path": "/support/",
+      "lang": "tr",
+      "title": "Bitkilerin için biraz yardım.",
+      "description": "Sık sorulan sorular ve bize ulaşmanın yolu.",
+      "image": "/assets/brand/share/tr-support.png"
+    }
+  ]
+}

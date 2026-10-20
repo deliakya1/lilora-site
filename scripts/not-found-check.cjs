@@ -1,5 +1,5 @@
 // Model GitHub Pages' custom 404 handling locally; this is not a production probe.
-const {chromium}=require('playwright');
+const {chromium}=require('playwright-core');
 const http=require('node:http');
 const fs=require('node:fs');
 const path=require('node:path');

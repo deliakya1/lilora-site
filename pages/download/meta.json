@@ -1,26 +1,26 @@
 {
   "en": {
-    "title": "Lilora is awaiting App Store review",
-    "description": "Lilora for iPhone and iPad is awaiting App Store review. A public download is not yet available."
+    "title": "A shared notebook for your plants",
+    "description": "Meet Lilora for iPhone and iPad: free manual plant records and shared care, with optional photo identification. App Store review is in progress."
   },
   "tr": {
-    "title": "Lilora, App Store incelemesini bekliyor",
-    "description": "iPhone ve iPad için Lilora, App Store incelemesini bekliyor. Henüz herkese açık bir indirme bağlantısı yok."
-  },
-  "es": {
-    "title": "Lilora está pendiente de revisión en el App Store",
-    "description": "Lilora para iPhone y iPad está pendiente de revisión en el App Store. Aún no hay una descarga pública disponible."
+    "title": "Bitkilerin için ortak bir bakım defteri",
+    "description": "iPhone ve iPad için Lilora’yı tanı: ücretsiz elle bitki kaydı ve ortak bakım, isteğe bağlı fotoğrafla bitki tanıma. App Store incelemesi sürüyor."
   },
   "de": {
-    "title": "Lilora wartet auf die Prüfung durch den App Store",
-    "description": "Lilora für iPhone und iPad wartet auf die Prüfung durch den App Store. Ein öffentlicher Download ist noch nicht verfügbar."
+    "title": "Ein gemeinsames Notizbuch für deine Pflanzen",
+    "description": "Lilora für iPhone und iPad: Pflanzen und Pflege kostenlos von Hand erfassen, gemeinsam betreuen und auf Wunsch per Foto bestimmen. Die App wird geprüft."
+  },
+  "es": {
+    "title": "Un cuaderno compartido para tus plantas",
+    "description": "Conoce Lilora para iPhone y iPad: registro manual gratuito y cuidados compartidos, con identificación opcional por foto. En revisión para el App Store."
   },
   "pt": {
-    "title": "O Lilora está aguardando a análise da App Store",
-    "description": "O Lilora para iPhone e iPad está aguardando a análise da App Store. O download público ainda não está disponível."
+    "title": "Um caderno compartilhado para suas plantas",
+    "description": "Conheça o Lilora para iPhone e iPad: registros manuais gratuitos e cuidados compartilhados, com identificação opcional por foto. Em análise para a App Store."
   },
   "fr": {
-    "title": "Lilora attend la validation de l’App Store",
-    "description": "Lilora pour iPhone et iPad est en attente de validation par l’App Store. Aucun téléchargement public n’est encore disponible."
+    "title": "Un carnet partagé pour vos plantes",
+    "description": "Découvrez Lilora pour iPhone et iPad : suivi manuel gratuit et soins partagés, avec identification photo facultative. En cours d’examen pour l’App Store."
   }
 }

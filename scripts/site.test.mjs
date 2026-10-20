@@ -34,7 +34,7 @@ test('canonical, reciprocal hreflang, truthful JSON-LD and sitemap',()=>{
 });
 test('availability and owner-supplied consent-gated analytics are explicit',()=>{
  assert.match(readFileSync('assets/analytics-config.js','utf8'),/LILORA_ANALYTICS_ID = 'G-2CYS6B75ET'/);
- for(const lang of ['en','tr']){const home=lang==='en'?'en/':'';assert.match(readFileSync(home+'index.html','utf8'),lang==='en'?/awaiting App Store review/:/App Store incelemesini bekliyor/);}
+ for(const lang of ['en','tr']){const home=lang==='en'?'en/':'';assert.match(readFileSync(home+'index.html','utf8'),lang==='en'?/(?:awaiting|in) App Store review/i:/App Store inceleme(?:sinde|sini bekliyor)/);}
  assert.doesNotMatch(files.map(f=>readFileSync(f,'utf8')).join(''),/Download on the App Store|AggregateRating|gtag\/js\?id=/);
 });
 

@@ -3,11 +3,18 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "python3 scripts/import-content.py && node scripts/build.mjs",
-    "test": "node --test scripts/site.test.mjs",
-    "check": "npm run build && npm test"
+    "build": "node scripts/home-promotion.mjs && python3 scripts/import-content.py && node scripts/build.mjs && node scripts/promotion-assets.mjs",
+    "test": "node --test scripts/*.test.mjs",
+    "check": "npm run build && npm test",
+    "build:assets": "node scripts/promotion-assets.mjs"
   },
   "engines": {
     "node": ">=22"
+  },
+  "devDependencies": {
+    "jsqr": "1.4.0",
+    "playwright-core": "1.62.1",
+    "pngjs": "7.0.0",
+    "qrcode": "1.5.4"
   }
 }

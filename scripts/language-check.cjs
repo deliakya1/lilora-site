@@ -1,4 +1,4 @@
-const {chromium}=require('playwright');
+const {chromium}=require('playwright-core');
 const assert=require('node:assert/strict');
 const base='http://127.0.0.1:4173',key='lilora.language.v1';
 const languages=['tr','en','es','de','pt','fr'],prefix=l=>l==='tr'?'/':`/${l}/`;

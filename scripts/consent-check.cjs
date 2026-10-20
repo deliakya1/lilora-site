@@ -1,4 +1,4 @@
-const {chromium}=require('playwright');
+const {chromium}=require('playwright-core');
 const fs=require('node:fs');
 const assert=require('node:assert/strict');
 const key='lilora.cookie-preferences.v2';

@@ -1,0 +1,548 @@
+{
+  "exported": "2026-10-20",
+  "figmaFile": "bPJXvFWNCgxgyrSM4JVtam",
+  "figmaPage": "178:5921",
+  "source": "Approved Build 12 populated store artwork, superseding page 171:2. Real app screens with sample records. No new app build or production writes.",
+  "items": [
+    {
+      "language": "tr",
+      "device": "iphone",
+      "feature": "identify",
+      "nodeId": "180:2",
+      "sourceUrl": "https://www.figma.com/design/bPJXvFWNCgxgyrSM4JVtam/Lilora?node-id=180-2",
+      "path": "/assets/brand/artwork/lilora-iphone-tr-identify.png",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 844020,
+      "sha256": "24620d93a3707060ca65664601fb3261f3fb3e150ffb8bdc77c66bef37de975b",
+      "webVariants": [
+        {
+          "path": "/assets/images/home/app-tr-identify-320.webp",
+          "width": 320,
+          "height": 695,
+          "bytes": 20808
+        },
+        {
+          "path": "/assets/images/home/app-tr-identify-480.webp",
+          "width": 480,
+          "height": 1043,
+          "bytes": 35002
+        },
+        {
+          "path": "/assets/images/home/app-tr-identify-720.webp",
+          "width": 720,
+          "height": 1564,
+          "bytes": 57818
+        }
+      ]
+    },
+    {
+      "language": "tr",
+      "device": "iphone",
+      "feature": "collection",
+      "nodeId": "180:11",
+      "sourceUrl": "https://www.figma.com/design/bPJXvFWNCgxgyrSM4JVtam/Lilora?node-id=180-11",
+      "path": "/assets/brand/artwork/lilora-iphone-tr-collection.png",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 749328,
+      "sha256": "bdffbe51a19711e2ee1faa32b8f91bc5ba4db96bfc00513e57fda7e13de2024a",
+      "webVariants": [
+        {
+          "path": "/assets/images/home/app-tr-collection-320.webp",
+          "width": 320,
+          "height": 695,
+          "bytes": 18304
+        },
+        {
+          "path": "/assets/images/home/app-tr-collection-480.webp",
+          "width": 480,
+          "height": 1043,
+          "bytes": 32766
+        },
+        {
+          "path": "/assets/images/home/app-tr-collection-720.webp",
+          "width": 720,
+          "height": 1564,
+          "bytes": 55944
+        }
+      ]
+    },
+    {
+      "language": "tr",
+      "device": "iphone",
+      "feature": "care",
+      "nodeId": "180:20",
+      "sourceUrl": "https://www.figma.com/design/bPJXvFWNCgxgyrSM4JVtam/Lilora?node-id=180-20",
+      "path": "/assets/brand/artwork/lilora-iphone-tr-care.png",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 630488,
+      "sha256": "a962337340eafc407643eefe0077bfce89242683e4e7c6bdd2cf79a0c0eab1d4",
+      "webVariants": [
+        {
+          "path": "/assets/images/home/app-tr-care-320.webp",
+          "width": 320,
+          "height": 695,
+          "bytes": 17660
+        },
+        {
+          "path": "/assets/images/home/app-tr-care-480.webp",
+          "width": 480,
+          "height": 1043,
+          "bytes": 30924
+        },
+        {
+          "path": "/assets/images/home/app-tr-care-720.webp",
+          "width": 720,
+          "height": 1564,
+          "bytes": 51702
+        }
+      ]
+    },
+    {
+      "language": "tr",
+      "device": "iphone",
+      "feature": "history",
+      "nodeId": "180:29",
+      "sourceUrl": "https://www.figma.com/design/bPJXvFWNCgxgyrSM4JVtam/Lilora?node-id=180-29",
+      "path": "/assets/brand/artwork/lilora-iphone-tr-history.png",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 563588,
+      "sha256": "449506fa885b848cd79aeddaefc18a858889c7cf71de8800831692993ce76393",
+      "webVariants": [
+        {
+          "path": "/assets/images/home/app-tr-history-320.webp",
+          "width": 320,
+          "height": 695,
+          "bytes": 18352
+        },
+        {
+          "path": "/assets/images/home/app-tr-history-480.webp",
+          "width": 480,
+          "height": 1043,
+          "bytes": 32026
+        },
+        {
+          "path": "/assets/images/home/app-tr-history-720.webp",
+          "width": 720,
+          "height": 1564,
+          "bytes": 53118
+        }
+      ]
+    },
+    {
+      "language": "tr",
+      "device": "iphone",
+      "feature": "reminders",
+      "nodeId": "180:38",
+      "sourceUrl": "https://www.figma.com/design/bPJXvFWNCgxgyrSM4JVtam/Lilora?node-id=180-38",
+      "path": "/assets/brand/artwork/lilora-iphone-tr-reminders.png",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 553564,
+      "sha256": "e0fccccf7822b668e8e8e53bd5dabda677195d4ae9915c815a9b914ae8c29343",
+      "webVariants": [
+        {
+          "path": "/assets/images/home/app-tr-reminders-320.webp",
+          "width": 320,
+          "height": 695,
+          "bytes": 18354
+        },
+        {
+          "path": "/assets/images/home/app-tr-reminders-480.webp",
+          "width": 480,
+          "height": 1043,
+          "bytes": 31324
+        },
+        {
+          "path": "/assets/images/home/app-tr-reminders-720.webp",
+          "width": 720,
+          "height": 1564,
+          "bytes": 53120
+        }
+      ]
+    },
+    {
+      "language": "tr",
+      "device": "iphone",
+      "feature": "shared-care",
+      "nodeId": "180:47",
+      "sourceUrl": "https://www.figma.com/design/bPJXvFWNCgxgyrSM4JVtam/Lilora?node-id=180-47",
+      "path": "/assets/brand/artwork/lilora-iphone-tr-shared-care.png",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 549786,
+      "sha256": "fa297e427fbe66286ea90526cb5feda32385220f8d430240d50c00d64a09485f",
+      "webVariants": [
+        {
+          "path": "/assets/images/home/app-tr-shared-care-320.webp",
+          "width": 320,
+          "height": 695,
+          "bytes": 17132
+        },
+        {
+          "path": "/assets/images/home/app-tr-shared-care-480.webp",
+          "width": 480,
+          "height": 1043,
+          "bytes": 27194
+        },
+        {
+          "path": "/assets/images/home/app-tr-shared-care-720.webp",
+          "width": 720,
+          "height": 1564,
+          "bytes": 44630
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "device": "iphone",
+      "feature": "identify",
+      "nodeId": "180:56",
+      "sourceUrl": "https://www.figma.com/design/bPJXvFWNCgxgyrSM4JVtam/Lilora?node-id=180-56",
+      "path": "/assets/brand/artwork/lilora-iphone-en-identify.png",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 849864,
+      "sha256": "d0c2aaf55d674df502f33c2593378e4b07b4db2c2950e71f8795f17d03af17b1",
+      "webVariants": [
+        {
+          "path": "/assets/images/home/app-en-identify-320.webp",
+          "width": 320,
+          "height": 695,
+          "bytes": 21350
+        },
+        {
+          "path": "/assets/images/home/app-en-identify-480.webp",
+          "width": 480,
+          "height": 1043,
+          "bytes": 35668
+        },
+        {
+          "path": "/assets/images/home/app-en-identify-720.webp",
+          "width": 720,
+          "height": 1564,
+          "bytes": 59236
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "device": "iphone",
+      "feature": "collection",
+      "nodeId": "180:65",
+      "sourceUrl": "https://www.figma.com/design/bPJXvFWNCgxgyrSM4JVtam/Lilora?node-id=180-65",
+      "path": "/assets/brand/artwork/lilora-iphone-en-collection.png",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 754073,
+      "sha256": "86e073d784c55b6d4096ee084cb1752abfdccf06ad98eb2b329328a98c4c8638",
+      "webVariants": [
+        {
+          "path": "/assets/images/home/app-en-collection-320.webp",
+          "width": 320,
+          "height": 695,
+          "bytes": 19060
+        },
+        {
+          "path": "/assets/images/home/app-en-collection-480.webp",
+          "width": 480,
+          "height": 1043,
+          "bytes": 33632
+        },
+        {
+          "path": "/assets/images/home/app-en-collection-720.webp",
+          "width": 720,
+          "height": 1564,
+          "bytes": 56608
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "device": "iphone",
+      "feature": "care",
+      "nodeId": "180:74",
+      "sourceUrl": "https://www.figma.com/design/bPJXvFWNCgxgyrSM4JVtam/Lilora?node-id=180-74",
+      "path": "/assets/brand/artwork/lilora-iphone-en-care.png",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 652797,
+      "sha256": "45fbf47f82d7ec8b8a311a6a8904199e0f7664c7cf0f08a84214caa58f750ee9",
+      "webVariants": [
+        {
+          "path": "/assets/images/home/app-en-care-320.webp",
+          "width": 320,
+          "height": 695,
+          "bytes": 19138
+        },
+        {
+          "path": "/assets/images/home/app-en-care-480.webp",
+          "width": 480,
+          "height": 1043,
+          "bytes": 33372
+        },
+        {
+          "path": "/assets/images/home/app-en-care-720.webp",
+          "width": 720,
+          "height": 1564,
+          "bytes": 56698
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "device": "iphone",
+      "feature": "history",
+      "nodeId": "180:83",
+      "sourceUrl": "https://www.figma.com/design/bPJXvFWNCgxgyrSM4JVtam/Lilora?node-id=180-83",
+      "path": "/assets/brand/artwork/lilora-iphone-en-history.png",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 575501,
+      "sha256": "f8142ea1e08875f126316885d8fc5bb88ff02be0a088f611f6451c628539fc4b",
+      "webVariants": [
+        {
+          "path": "/assets/images/home/app-en-history-320.webp",
+          "width": 320,
+          "height": 695,
+          "bytes": 18432
+        },
+        {
+          "path": "/assets/images/home/app-en-history-480.webp",
+          "width": 480,
+          "height": 1043,
+          "bytes": 31820
+        },
+        {
+          "path": "/assets/images/home/app-en-history-720.webp",
+          "width": 720,
+          "height": 1564,
+          "bytes": 54694
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "device": "iphone",
+      "feature": "reminders",
+      "nodeId": "180:92",
+      "sourceUrl": "https://www.figma.com/design/bPJXvFWNCgxgyrSM4JVtam/Lilora?node-id=180-92",
+      "path": "/assets/brand/artwork/lilora-iphone-en-reminders.png",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 572787,
+      "sha256": "7913cb85ac6fb6c76bc4893932080cffc34d6616a14c1c2d57024d6aee888611",
+      "webVariants": [
+        {
+          "path": "/assets/images/home/app-en-reminders-320.webp",
+          "width": 320,
+          "height": 695,
+          "bytes": 18348
+        },
+        {
+          "path": "/assets/images/home/app-en-reminders-480.webp",
+          "width": 480,
+          "height": 1043,
+          "bytes": 31696
+        },
+        {
+          "path": "/assets/images/home/app-en-reminders-720.webp",
+          "width": 720,
+          "height": 1564,
+          "bytes": 54210
+        }
+      ]
+    },
+    {
+      "language": "en",
+      "device": "iphone",
+      "feature": "shared-care",
+      "nodeId": "180:101",
+      "sourceUrl": "https://www.figma.com/design/bPJXvFWNCgxgyrSM4JVtam/Lilora?node-id=180-101",
+      "path": "/assets/brand/artwork/lilora-iphone-en-shared-care.png",
+      "width": 1320,
+      "height": 2868,
+      "bytes": 563442,
+      "sha256": "07283b237e8d28aaa5f553d7160a73463da1bef7801197ac1d389cebf74b77d8",
+      "webVariants": [
+        {
+          "path": "/assets/images/home/app-en-shared-care-320.webp",
+          "width": 320,
+          "height": 695,
+          "bytes": 17552
+        },
+        {
+          "path": "/assets/images/home/app-en-shared-care-480.webp",
+          "width": 480,
+          "height": 1043,
+          "bytes": 27972
+        },
+        {
+          "path": "/assets/images/home/app-en-shared-care-720.webp",
+          "width": 720,
+          "height": 1564,
+          "bytes": 46392
+        }
+      ]
+    },
+    {
+      "language": "tr",
+      "device": "ipad",
+      "feature": "identify",
+      "nodeId": "180:110",
+      "sourceUrl": "https://www.figma.com/design/bPJXvFWNCgxgyrSM4JVtam/Lilora?node-id=180-110",
+      "path": "/assets/brand/artwork/lilora-ipad-tr-identify.png",
+      "width": 2064,
+      "height": 2752,
+      "bytes": 742093,
+      "sha256": "2059cce0e937b4f582e1a3db7ef7c458a9c32746d15ec531dd439ef6c86e4162",
+      "webVariants": []
+    },
+    {
+      "language": "tr",
+      "device": "ipad",
+      "feature": "collection",
+      "nodeId": "180:119",
+      "sourceUrl": "https://www.figma.com/design/bPJXvFWNCgxgyrSM4JVtam/Lilora?node-id=180-119",
+      "path": "/assets/brand/artwork/lilora-ipad-tr-collection.png",
+      "width": 2064,
+      "height": 2752,
+      "bytes": 722325,
+      "sha256": "b4d5d473997d35ed18e0598bfef05ca65aee57dce7e72c140c41e20309c76d86",
+      "webVariants": []
+    },
+    {
+      "language": "tr",
+      "device": "ipad",
+      "feature": "care",
+      "nodeId": "180:128",
+      "sourceUrl": "https://www.figma.com/design/bPJXvFWNCgxgyrSM4JVtam/Lilora?node-id=180-128",
+      "path": "/assets/brand/artwork/lilora-ipad-tr-care.png",
+      "width": 2064,
+      "height": 2752,
+      "bytes": 641271,
+      "sha256": "8147505335d287dad94d6e616bbf73345696d9b2aaf37ce5cd06afa532f9e40a",
+      "webVariants": []
+    },
+    {
+      "language": "tr",
+      "device": "ipad",
+      "feature": "history",
+      "nodeId": "180:137",
+      "sourceUrl": "https://www.figma.com/design/bPJXvFWNCgxgyrSM4JVtam/Lilora?node-id=180-137",
+      "path": "/assets/brand/artwork/lilora-ipad-tr-history.png",
+      "width": 2064,
+      "height": 2752,
+      "bytes": 646041,
+      "sha256": "e97ac329600e88a8e0f24b3cd0dcb8558f41e46ee9557f7974adcb7842822825",
+      "webVariants": []
+    },
+    {
+      "language": "tr",
+      "device": "ipad",
+      "feature": "reminders",
+      "nodeId": "180:146",
+      "sourceUrl": "https://www.figma.com/design/bPJXvFWNCgxgyrSM4JVtam/Lilora?node-id=180-146",
+      "path": "/assets/brand/artwork/lilora-ipad-tr-reminders.png",
+      "width": 2064,
+      "height": 2752,
+      "bytes": 636872,
+      "sha256": "24a1f2e99a5913798f374455ae0376029fcc75a62b403566ae0ec7e084d1c14e",
+      "webVariants": []
+    },
+    {
+      "language": "tr",
+      "device": "ipad",
+      "feature": "shared-care",
+      "nodeId": "180:155",
+      "sourceUrl": "https://www.figma.com/design/bPJXvFWNCgxgyrSM4JVtam/Lilora?node-id=180-155",
+      "path": "/assets/brand/artwork/lilora-ipad-tr-shared-care.png",
+      "width": 2064,
+      "height": 2752,
+      "bytes": 579741,
+      "sha256": "09ce0e3693ea612e75d6a68c02897c724a62c52d71c5753a581b59e257f3da28",
+      "webVariants": []
+    },
+    {
+      "language": "en",
+      "device": "ipad",
+      "feature": "identify",
+      "nodeId": "180:164",
+      "sourceUrl": "https://www.figma.com/design/bPJXvFWNCgxgyrSM4JVtam/Lilora?node-id=180-164",
+      "path": "/assets/brand/artwork/lilora-ipad-en-identify.png",
+      "width": 2064,
+      "height": 2752,
+      "bytes": 748154,
+      "sha256": "ed48db3b482c5705ee46a1be2bea9034069fac0a74ab24736835f3a18782663c",
+      "webVariants": []
+    },
+    {
+      "language": "en",
+      "device": "ipad",
+      "feature": "collection",
+      "nodeId": "180:173",
+      "sourceUrl": "https://www.figma.com/design/bPJXvFWNCgxgyrSM4JVtam/Lilora?node-id=180-173",
+      "path": "/assets/brand/artwork/lilora-ipad-en-collection.png",
+      "width": 2064,
+      "height": 2752,
+      "bytes": 726683,
+      "sha256": "68f6013f0127aebeef1e41a319bc1e270536b2ecd607a7efb11c43b5d663837a",
+      "webVariants": []
+    },
+    {
+      "language": "en",
+      "device": "ipad",
+      "feature": "care",
+      "nodeId": "180:182",
+      "sourceUrl": "https://www.figma.com/design/bPJXvFWNCgxgyrSM4JVtam/Lilora?node-id=180-182",
+      "path": "/assets/brand/artwork/lilora-ipad-en-care.png",
+      "width": 2064,
+      "height": 2752,
+      "bytes": 660978,
+      "sha256": "36f456db90d411ba9cc698e9233b1e36fac6e26fcde3db25be5e8a82db757dba",
+      "webVariants": []
+    },
+    {
+      "language": "en",
+      "device": "ipad",
+      "feature": "history",
+      "nodeId": "180:191",
+      "sourceUrl": "https://www.figma.com/design/bPJXvFWNCgxgyrSM4JVtam/Lilora?node-id=180-191",
+      "path": "/assets/brand/artwork/lilora-ipad-en-history.png",
+      "width": 2064,
+      "height": 2752,
+      "bytes": 654853,
+      "sha256": "5cdccd659b7fb8e005ed7a2c268f92b09a5d2a9a76455a97a6438e6ed59423d9",
+      "webVariants": []
+    },
+    {
+      "language": "en",
+      "device": "ipad",
+      "feature": "reminders",
+      "nodeId": "180:200",
+      "sourceUrl": "https://www.figma.com/design/bPJXvFWNCgxgyrSM4JVtam/Lilora?node-id=180-200",
+      "path": "/assets/brand/artwork/lilora-ipad-en-reminders.png",
+      "width": 2064,
+      "height": 2752,
+      "bytes": 655027,
+      "sha256": "7071586bebe126ff2fbe117622a3dab95448343eab1df3fc90c0200f81d9fa36",
+      "webVariants": []
+    },
+    {
+      "language": "en",
+      "device": "ipad",
+      "feature": "shared-care",
+      "nodeId": "180:209",
+      "sourceUrl": "https://www.figma.com/design/bPJXvFWNCgxgyrSM4JVtam/Lilora?node-id=180-209",
+      "path": "/assets/brand/artwork/lilora-ipad-en-shared-care.png",
+      "width": 2064,
+      "height": 2752,
+      "bytes": 595219,
+      "sha256": "16fb49f2b8af5a0485a8e96f078a366fe4bf9ffe1104775d9f358ef22c9199f3",
+      "webVariants": []
+    }
+  ]
+}
