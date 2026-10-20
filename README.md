@@ -532,10 +532,30 @@ address was invented; a publishable address for the legal notice remains owner i
 The earlier environment's Chromium/server/Lighthouse blockers are resolved. Direct
 HTTPS checks of lilora.app still fail at this environment's CONNECT gateway with
 403; the web retrieval tool also cannot open the domain. This is not the website's
-HTTP status and is not direct production-content evidence. Record the actual Pages
-run and production verification separately after merge; the completion marker is
-reserved for that final receipt.
+HTTP status and is not direct production-content evidence. The post-merge receipt
+below records deployment and the owner's independent live-browser verification.
 
 CI impact: one consolidated follow-up push to the existing PR, then the existing
 GitHub Pages build/deploy after squash; no heavy/native/macOS workflow, new service,
 repository dependency or hosting/security configuration change.
+
+### Completion receipt — 20 October 2026
+
+[PR #2](https://github.com/deliakya1/lilora-site/pull/2) was squash-merged as
+`3620a0ecfc59a92979c4765a4cb1bd3b880e4c20`. The existing GitHub Pages
+[run 39440833390](https://github.com/deliakya1/lilora-site/actions/runs/39440833390)
+completed successfully for that exact commit; build, deploy and status-report
+checks all passed. The merged HTML/CSS/JS matched the Lighthouse-measured hashes.
+
+After deployment, Umut independently opened <https://lilora.app/contact/> and
+<https://lilora.app/de/> in his browser and confirmed that the new pages and
+six-language navigation are visible. This owner-provided verification closes the
+live-content check that the execution gateway prevented here; it is not represented
+as an automated production HTTP sweep. Prompt 03 is complete and prompts 04–06 may
+start from the merged foundation. No App Store release is implied.
+
+This receipt changes README only. Existing source, generated-page, browser and
+Lighthouse evidence remains applicable. CI impact: the existing Pages pipeline
+after the documentation squash; no mobile, native, macOS or new workflow.
+
+<!-- site-prompt-03: done -->
