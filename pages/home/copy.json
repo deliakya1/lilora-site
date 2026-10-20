@@ -1,0 +1,770 @@
+{
+  "tr": {
+    "eyebrow": "Evdeki bitkilerin için bir defter",
+    "title": "Birlikte yaşadığın bitkiler, ortak bir defter.",
+    "dek": "Hangi bitki nerede, en son kim kontrol etti, ne zaman sulandı? Fotoğrafları, notları ve bakım geçmişini Lilora’da bir arada tut.",
+    "getApp": "Uygulamayı edin",
+    "seeHow": "Nasıl çalıştığını gör",
+    "status": "App Store incelemesinde",
+    "devices": "iPhone ve iPad",
+    "appLanguages": "Uygulama Türkçe ve İngilizce",
+    "artCaptionEN": "Uygulama Türkçe gösteriliyor.",
+    "sampleCaption": "Gerçek uygulama ekranından hazırlanmış mağaza görseli; örnek bitki kayıtları içerir.",
+    "heroImageAlt": "Pencereden gelen doğal ışıkta, sade bir ev köşesindeki saksı bitkileri",
+    "howEyebrow": "Evde bakımın akışı",
+    "howTitle": "Önce bak. Sonra yaptığını kaydet.",
+    "howIntro": "Bir hatırlatma, bitkinin su istediği anlamına gelmez. Lilora, gözlemini ve yaptığın bakımı evdekilerle paylaşabileceğin bir kayda dönüştürür.",
+    "steps": [
+      {
+        "title": "Bitkiyi ve toprağı kontrol et",
+        "text": "Bugün ekranında kontrol zamanı gelen bitkileri gör. Sulamaya karar vermeden önce bitkine bak."
+      },
+      {
+        "title": "Gerçekte yaptığını kaydet",
+        "text": "“Suladım” ve “Suya ihtiyacı yok” ayrı kayıtlardır. Yalnızca kontrol ettiysen sulama kaydı oluşturmazsın."
+      },
+      {
+        "title": "Evdekiler de bilsin",
+        "text": "Özel ev grubunda kimin ne zaman bakım yaptığını gör. Bir sonraki kişi aynı bitkiyle ilgilenmeden önce geçmişe bakabilir."
+      }
+    ],
+    "featuresTitle": "Bitkinin yeri de, geçmişi de belli.",
+    "features": [
+      {
+        "id": "collection",
+        "title": "Her bitkiye bir yer",
+        "text": "Bitkilerini odalara ayır. Adını, fotoğraflarını ve notlarını aynı yerde tut; türünü bilmiyorsan da bitki ekleyebilirsin.",
+        "imageAlt": "Lilora’da örnek bitki fotoğrafları ve oda adlarıyla bitki koleksiyonu"
+      },
+      {
+        "id": "reminders",
+        "title": "Sulamayı değil, bakmayı hatırla",
+        "text": "Hatırlatmalar bitkini kontrol etmene yardımcı olur. Toprak hâlâ nemliyse sırf bildirim geldi diye sulaman gerekmez.",
+        "imageAlt": "Lilora’da bir bitkinin hatırlatma ayarlarını gösteren gerçek uygulama ekranı"
+      },
+      {
+        "id": "history",
+        "title": "Kontrol ve sulama, ayrı ayrı",
+        "text": "Bir bakışta son bakımı bul. Sulama ve kontrol kayıtlarını, kimin ne zaman yaptığını gösteren bir geçmişte takip et.",
+        "imageAlt": "Lilora’da sulama ve kontrol kayıtlarını ayrı gösteren örnek bakım geçmişi"
+      },
+      {
+        "id": "shared-care",
+        "title": "Aynı ev, ortak bakım",
+        "text": "Hesabınla özel bir ev oluştur veya davet edildiğin eve katıl. Bitkileri ve bakım kayıtlarını ev grubundaki kişilerle paylaş.",
+        "imageAlt": "Lilora’da özel ev grubuyla bakım paylaşımını anlatan gerçek tanıtım ekranı"
+      },
+      {
+        "id": "identify",
+        "title": "Adını bulmak için bir seçenek",
+        "text": "İstersen hesabınla fotoğraftan bitki tanımayı kullan. Pl@ntNet’in önerilerini gözden geçir; bitkini eklemeden önce sonucu sen onayla.",
+        "imageAlt": "Lilora’da isteğe bağlı fotoğraftan bitki tanımayı anlatan gerçek tanıtım ekranı"
+      },
+      {
+        "id": "guest",
+        "title": "Hesap açmadan başla",
+        "text": "Bitkilerini kendin ekleyebilir, fotoğraf, not ve bakım kaydı tutabilirsin. Misafir kayıtları yalnızca bu cihazda kalır; uygulamayı silersen bu kayıtlar da silinir.",
+        "imageAlt": "Lilora’nın gerçek koleksiyon ekranında örnek bitki kayıtları"
+      }
+    ],
+    "freeTitle": "Günlük bakım ücretsiz.",
+    "freeIntro": "Bitkilerini kendin eklemek, odalara ayırmak, fotoğraf, not ve bakım geçmişi tutmak için satın alma gerekmez. Ücretli seçenekler, isteğe bağlı fotoğraftan bitki tanıma içindir.",
+    "plans": [
+      {
+        "title": "Ücretsiz bitki defteri",
+        "text": "Bitkiler, odalar, fotoğraflar, notlar ve bakım kayıtları."
+      },
+      {
+        "title": "Hesap başına 3 ücretsiz tanıma",
+        "text": "Fotoğraftan bitki tanımayı denemek için. Her ay yenilenen bir hak değildir."
+      },
+      {
+        "title": "10 bitki tanıma paketi",
+        "text": "Daha fazla bitki tanıma hakkı için isteğe bağlı tek seferlik satın alma."
+      },
+      {
+        "title": "Lilora Plus Aylık",
+        "text": "Aylık yenilenen abonelikle her ay 30 bitki tanıma hakkı. Kullanılmayan haklar sonraki aya devretmez."
+      }
+    ],
+    "pricingNote": "Fiyatlar App Store’da kendi para biriminde gösterilir.",
+    "faqTitle": "Başlamadan önce",
+    "faq": [
+      {
+        "question": "Lilora’yı şu anda indirebilir miyim?",
+        "answer": "Henüz değil. Lilora, App Store incelemesinde. Uygulama yayımlandığında bu sitenin indirme sayfası seni doğrudan App Store’a götürecek."
+      },
+      {
+        "question": "Hangi cihazlarda ve dillerde çalışıyor?",
+        "answer": "Lilora, iPhone ve iPad için hazırlanıyor. Uygulama Türkçe ve İngilizce; web sitesi altı dilde."
+      },
+      {
+        "question": "Bitki bakımı için abonelik gerekiyor mu?",
+        "answer": "Hayır. Bitkilerini kendin eklemek ve bakım kaydı tutmak ücretsiz. Satın alma seçenekleri yalnızca isteğe bağlı fotoğraftan bitki tanıma hakkı sağlar."
+      },
+      {
+        "question": "Hesap açmak zorunda mıyım?",
+        "answer": "Kendi cihazında misafir olarak başlayabilirsin. Ev paylaşımı, fotoğraftan bitki tanıma ve satın alma için hesap gerekir. Misafir kayıtları cihazda tutulur ve uygulama silinince silinir."
+      },
+      {
+        "question": "Hatırlatma geldiğinde sulamalı mıyım?",
+        "answer": "Önce bitkiyi ve toprağı kontrol et. Bir hatırlatma sulama talimatı değildir. Su gerekmiyorsa bunu ayrı bir kontrol kaydı olarak kaydedebilirsin."
+      }
+    ],
+    "supportLink": "Destek sayfasındaki tüm yanıtlar",
+    "closingTitle": "Bir sonraki kontrol, iyi bir kayıtla başlasın.",
+    "closingText": "Lilora’nın indirme sayfasını telefonunda aç. Uygulama yayımlandığında aynı adres seni App Store’a götürecek.",
+    "qrAlt": "Türkçe Lilora indirme sayfasını açan QR kodu",
+    "qrCaption": "Telefonunla tara; indirme sayfasını aç.",
+    "illustrationCaption": "Yapay zekâyla oluşturulmuş illüstrasyon.",
+    "imageAlts": {
+      "hero": "Doğal pencere ışığında, sade bir ev köşesindeki saksı bitkileri",
+      "careCorner": "Pencere yanındaki ahşap masada bir saksı bitkisi ve mavi sulama kabı",
+      "leafStudy": "Sıcak ışık alan bir evde parlak yeşil yaprakların yakın plan görünümü",
+      "shelf": "Alçak bir ahşap bank üzerinde sarkan ve dik büyüyen saksı bitkileri",
+      "sharedTable": "Pencere yanındaki masada tek bir saksı bitkisi ve iki kupa"
+    },
+    "todayImageAlt": "Lilora’nın Bugün ekranında kontrol zamanı gelen bitkiler ve “Suladım” ile “Suya ihtiyacı yok” seçenekleri",
+    "introCaption": "Gerçek uygulamanın tanıtım ekranı."
+  },
+  "en": {
+    "eyebrow": "A houseplant notebook",
+    "title": "A shared notebook for your plants.",
+    "dek": "Which room, who last checked, when it was watered. Keep your plants’ photos, notes and care history together in Lilora.",
+    "getApp": "Get the app",
+    "seeHow": "See how it works",
+    "status": "In App Store review",
+    "devices": "iPhone & iPad",
+    "appLanguages": "App in English and Turkish",
+    "artCaptionEN": "App shown in English.",
+    "sampleCaption": "Store artwork made from a real app screen with sample plant records.",
+    "heroImageAlt": "Potted houseplants in a quiet home corner lit by natural window light",
+    "howEyebrow": "How a household uses it",
+    "howTitle": "Look first. Record what you did.",
+    "howIntro": "A reminder does not mean a plant needs water. Lilora gives your observations and care a shared record that the next person can read.",
+    "steps": [
+      {
+        "title": "Check the plant and its soil",
+        "text": "See which plants are due for a check in Today. Take a look before deciding whether to water."
+      },
+      {
+        "title": "Record what actually happened",
+        "text": "“Watered” and “Checked, no water needed” are different care records. A check on its own does not become a watering."
+      },
+      {
+        "title": "Let the household know",
+        "text": "In your private household, see who cared for each plant and when. The next person can read the history before doing the same job."
+      }
+    ],
+    "featuresTitle": "A place for the plant. A record of its care.",
+    "features": [
+      {
+        "id": "collection",
+        "title": "Plants, with a room of their own",
+        "text": "Organise plants by room. Keep their names, photos and notes together, even when you do not know the species.",
+        "imageAlt": "Lilora plant collection showing sample plant photos and room names"
+      },
+      {
+        "id": "reminders",
+        "title": "A reminder to look",
+        "text": "Reminders bring you back to the plant. They prompt a check, not an automatic watering when the soil is still wet.",
+        "imageAlt": "Real Lilora app screen showing reminder settings for a plant"
+      },
+      {
+        "id": "history",
+        "title": "Checks and waterings, kept apart",
+        "text": "Find the last care entry at a glance. Separate watering and check records show who did what and when.",
+        "imageAlt": "Sample Lilora care history with separate watering and check records"
+      },
+      {
+        "id": "shared-care",
+        "title": "One home, shared care",
+        "text": "Use an account to create a private household or accept an invitation. Share plants and care records with the people in that household.",
+        "imageAlt": "Real Lilora introduction screen presenting shared care in a private household"
+      },
+      {
+        "id": "identify",
+        "title": "A little help with the name",
+        "text": "With an account, you can choose photo identification. Review the suggestions from Pl@ntNet and confirm the result before adding your plant.",
+        "imageAlt": "Real Lilora introduction screen presenting optional plant identification from a photo"
+      },
+      {
+        "id": "guest",
+        "title": "Start without an account",
+        "text": "Add plants yourself and keep photos, notes and care records. Guest records stay on this device; deleting the app deletes those records too.",
+        "imageAlt": "Sample plant records in Lilora’s real collection screen"
+      }
+    ],
+    "freeTitle": "Everyday care is free.",
+    "freeIntro": "Adding plants yourself, organising rooms and keeping photos, notes and care history require no purchase. Paid options are for optional photo identification.",
+    "plans": [
+      {
+        "title": "A free plant notebook",
+        "text": "Plants, rooms, photos, notes and care records."
+      },
+      {
+        "title": "3 free identifications per account",
+        "text": "A starting allowance to try photo identification. It does not renew each month."
+      },
+      {
+        "title": "10-identification pack",
+        "text": "An optional one-off purchase when you want more identifications."
+      },
+      {
+        "title": "Lilora Plus Monthly",
+        "text": "An auto-renewing monthly subscription with 30 identifications per month. Unused identifications do not roll over."
+      }
+    ],
+    "pricingNote": "Prices are shown on the App Store in your currency.",
+    "faqTitle": "Before you begin",
+    "faq": [
+      {
+        "question": "Can I download Lilora now?",
+        "answer": "Not yet. Lilora is in App Store review. When it is released, this site’s download page will take you straight to the App Store."
+      },
+      {
+        "question": "Which devices and languages does it support?",
+        "answer": "Lilora is being prepared for iPhone and iPad. The app is in English and Turkish; the website is in six languages."
+      },
+      {
+        "question": "Do I need a subscription for plant care?",
+        "answer": "No. Adding plants yourself and recording care are free. Purchases only provide allowances for optional photo identification."
+      },
+      {
+        "question": "Do I need an account?",
+        "answer": "You can start as a guest on your own device. Sharing a household, photo identification and purchases require an account. Guest records are stored on the device and are deleted when you delete the app."
+      },
+      {
+        "question": "Should I water when a reminder arrives?",
+        "answer": "Check the plant and its soil first. A reminder is not an instruction to water. If water is not needed, you can record that as a separate check."
+      }
+    ],
+    "supportLink": "Find more answers in support",
+    "closingTitle": "Give the next check a useful history.",
+    "closingText": "Open Lilora’s download page on your phone. When the app is released, the same address will take you to the App Store.",
+    "qrAlt": "QR code opening Lilora’s English download page",
+    "qrCaption": "Scan with your phone to open the download page.",
+    "illustrationCaption": "AI-generated illustration.",
+    "imageAlts": {
+      "hero": "Potted houseplants in a quiet home corner with natural window light",
+      "careCorner": "A potted plant and blue watering can on a wooden table beside a window",
+      "leafStudy": "A close-up of glossy green leaves in a warmly lit home",
+      "shelf": "Trailing and upright potted plants on a low wooden bench",
+      "sharedTable": "One potted plant and two mugs on a table beside a window"
+    },
+    "todayImageAlt": "Lilora Today screen showing plants due for a check and the “Watered” and “No water needed” actions",
+    "introCaption": "Real app introduction screen."
+  },
+  "es": {
+    "eyebrow": "Un cuaderno para tus plantas",
+    "title": "Las plantas de casa, en un cuaderno compartido.",
+    "dek": "En qué habitación están, quién las revisó y cuándo se regaron. Reúne las fotos, las notas y el historial de cuidados de tus plantas en Lilora.",
+    "getApp": "Obtener la app",
+    "seeHow": "Ver cómo funciona",
+    "status": "En revisión en el App Store",
+    "devices": "iPhone y iPad",
+    "appLanguages": "La app está en inglés y turco",
+    "artCaptionEN": "App mostrada en inglés.",
+    "sampleCaption": "Imagen para la tienda creada a partir de una pantalla real de la app, con registros de plantas de ejemplo.",
+    "heroImageAlt": "Plantas en macetas en un rincón tranquilo de casa, iluminado por una ventana",
+    "howEyebrow": "Así se cuidan las plantas en casa",
+    "howTitle": "Primero observa. Después registra.",
+    "howIntro": "Un recordatorio no significa que la planta necesite agua. Lilora reúne tus observaciones y cuidados en un historial que puede consultar la siguiente persona.",
+    "steps": [
+      {
+        "title": "Revisa la planta y el sustrato",
+        "text": "En “Today”, consulta qué plantas tienen una revisión pendiente. Obsérvalas antes de decidir si necesitan agua."
+      },
+      {
+        "title": "Registra lo que hiciste",
+        "text": "“Watered” y “Checked, no water needed” son registros distintos: riego o revisión sin necesidad de agua. Una revisión no se cuenta como riego."
+      },
+      {
+        "title": "Comparte el cuidado",
+        "text": "En tu hogar privado, consulta quién cuidó cada planta y cuándo. Así, la siguiente persona puede revisar el historial antes de repetir la tarea."
+      }
+    ],
+    "featuresTitle": "Cada planta en su lugar. Cada cuidado anotado.",
+    "features": [
+      {
+        "id": "collection",
+        "title": "Plantas organizadas por habitación",
+        "text": "Guarda sus nombres, fotos y notas en un mismo lugar. Puedes añadir una planta aunque todavía no sepas qué especie es.",
+        "imageAlt": "Colección de Lilora con fotos de plantas de ejemplo y nombres de habitaciones"
+      },
+      {
+        "id": "reminders",
+        "title": "Un recordatorio para observar",
+        "text": "Los recordatorios te ayudan a volver a mirar la planta. Invitan a revisarla, no a regar automáticamente cuando el sustrato aún está húmedo.",
+        "imageAlt": "Pantalla real de Lilora con los ajustes de recordatorios de una planta"
+      },
+      {
+        "id": "history",
+        "title": "Revisiones y riegos por separado",
+        "text": "Encuentra el último cuidado de un vistazo. El historial distingue entre riegos y revisiones e indica quién los hizo y cuándo.",
+        "imageAlt": "Historial de ejemplo de Lilora con registros separados de riego y revisión"
+      },
+      {
+        "id": "shared-care",
+        "title": "Una casa, cuidados compartidos",
+        "text": "Con una cuenta, crea un hogar privado o acepta una invitación. Comparte las plantas y sus cuidados con las personas de ese hogar.",
+        "imageAlt": "Pantalla real de presentación de Lilora sobre los cuidados compartidos en un hogar privado"
+      },
+      {
+        "id": "identify",
+        "title": "Una ayuda para encontrar su nombre",
+        "text": "Si lo deseas, usa la identificación por foto con tu cuenta. Revisa las sugerencias de Pl@ntNet y confirma el resultado antes de añadir la planta.",
+        "imageAlt": "Pantalla real de presentación de Lilora sobre la identificación opcional de plantas por foto"
+      },
+      {
+        "id": "guest",
+        "title": "Empieza sin crear una cuenta",
+        "text": "Añade tus plantas manualmente y guarda fotos, notas y cuidados. Los registros de invitado se quedan en este dispositivo; si eliminas la app, también se eliminan.",
+        "imageAlt": "Registros de plantas de ejemplo en la pantalla real de colección de Lilora"
+      }
+    ],
+    "freeTitle": "El cuidado cotidiano es gratis.",
+    "freeIntro": "Añadir plantas manualmente, organizar habitaciones y guardar fotos, notas e historial de cuidados no requiere ninguna compra. Las opciones de pago son para la identificación opcional por foto.",
+    "plans": [
+      {
+        "title": "Un cuaderno de plantas gratuito",
+        "text": "Plantas, habitaciones, fotos, notas y registros de cuidados."
+      },
+      {
+        "title": "3 identificaciones gratis por cuenta",
+        "text": "Una asignación inicial para probar la identificación por foto. No se renueva cada mes."
+      },
+      {
+        "title": "Paquete de 10 identificaciones",
+        "text": "Una compra puntual y opcional para obtener más identificaciones."
+      },
+      {
+        "title": "Lilora Plus Monthly",
+        "text": "Una suscripción mensual con renovación automática y 30 identificaciones al mes. Las que no uses no se acumulan para el mes siguiente."
+      }
+    ],
+    "pricingNote": "Los precios se muestran en el App Store en tu moneda.",
+    "faqTitle": "Antes de empezar",
+    "faq": [
+      {
+        "question": "¿Ya puedo descargar Lilora?",
+        "answer": "Todavía no. Lilora está en revisión en el App Store. Cuando se publique, la página de descarga de este sitio te llevará directamente al App Store."
+      },
+      {
+        "question": "¿En qué dispositivos e idiomas funciona?",
+        "answer": "Lilora se está preparando para iPhone y iPad. La app está en inglés y turco; el sitio web está en seis idiomas."
+      },
+      {
+        "question": "¿Necesito una suscripción para cuidar mis plantas?",
+        "answer": "No. Añadir plantas manualmente y registrar sus cuidados es gratis. Las compras solo ofrecen identificaciones adicionales por foto, una función opcional."
+      },
+      {
+        "question": "¿Tengo que crear una cuenta?",
+        "answer": "Puedes empezar como invitado en tu dispositivo. Necesitas una cuenta para compartir un hogar, identificar plantas por foto o hacer compras. Los registros de invitado son locales y se borran si eliminas la app."
+      },
+      {
+        "question": "¿Debo regar cuando llegue un recordatorio?",
+        "answer": "Primero revisa la planta y el sustrato. Un recordatorio no es una instrucción de riego. Si no necesita agua, puedes anotarlo como una revisión independiente."
+      }
+    ],
+    "supportLink": "Más respuestas en soporte",
+    "closingTitle": "Que la próxima revisión tenga un buen historial.",
+    "closingText": "Abre la página de descarga de Lilora en tu teléfono. Cuando se publique la app, la misma dirección te llevará al App Store.",
+    "qrAlt": "Código QR que abre la página de descarga de Lilora en español",
+    "qrCaption": "Escanea con tu teléfono para abrir la página de descarga.",
+    "illustrationCaption": "Ilustración generada con IA.",
+    "imageAlts": {
+      "hero": "Plantas en macetas en un rincón tranquilo con luz natural de una ventana",
+      "careCorner": "Una planta en maceta y una regadera azul sobre una mesa de madera junto a una ventana",
+      "leafStudy": "Primer plano de hojas verdes brillantes en una casa con luz cálida",
+      "shelf": "Plantas colgantes y de crecimiento vertical en macetas sobre un banco bajo de madera",
+      "sharedTable": "Una planta en maceta y dos tazas sobre una mesa junto a una ventana"
+    },
+    "todayImageAlt": "Pantalla “Today” de Lilora con plantas pendientes de revisión y las opciones “Watered” y “No water needed”",
+    "introCaption": "Pantalla real de presentación de la app."
+  },
+  "de": {
+    "eyebrow": "Ein Notizbuch für Zimmerpflanzen",
+    "title": "Ein gemeinsames Notizbuch für eure Pflanzen.",
+    "dek": "In welchem Zimmer, zuletzt von wem geprüft und wann gegossen? Lilora hält Fotos, Notizen und Pflegeeinträge eurer Pflanzen zusammen.",
+    "getApp": "Zur App",
+    "seeHow": "So funktioniert’s",
+    "status": "In Prüfung im App Store",
+    "devices": "iPhone und iPad",
+    "appLanguages": "Die App ist auf Englisch und Türkisch",
+    "artCaptionEN": "Die App wird auf Englisch gezeigt.",
+    "sampleCaption": "Store-Grafik aus einem echten App-Bildschirm mit beispielhaften Pflanzeneinträgen.",
+    "heroImageAlt": "Zimmerpflanzen in Töpfen in einer ruhigen Ecke mit natürlichem Fensterlicht",
+    "howEyebrow": "So klappt die Pflege zu Hause",
+    "howTitle": "Erst nachsehen. Dann eintragen.",
+    "howIntro": "Eine Erinnerung bedeutet nicht, dass die Pflanze Wasser braucht. Lilora hält Beobachtungen und Pflege fest, damit auch die nächste Person Bescheid weiß.",
+    "steps": [
+      {
+        "title": "Pflanze und Erde prüfen",
+        "text": "Unter „Today“ siehst du, welche Pflanzen zur Kontrolle anstehen. Schau erst nach, bevor du dich fürs Gießen entscheidest."
+      },
+      {
+        "title": "Eintragen, was du gemacht hast",
+        "text": "„Watered“ und „Checked, no water needed“ sind getrennte Einträge: gegossen oder geprüft und kein Wasser nötig. Eine Kontrolle zählt nicht als Gießen."
+      },
+      {
+        "title": "Den Haushalt auf dem Laufenden halten",
+        "text": "Im privaten Haushalt seht ihr, wer sich wann um eine Pflanze gekümmert hat. Die nächste Person kann nachsehen, bevor sie dieselbe Arbeit noch einmal macht."
+      }
+    ],
+    "featuresTitle": "Jede Pflanze hat ihren Platz. Jede Pflege ihren Eintrag.",
+    "features": [
+      {
+        "id": "collection",
+        "title": "Pflanzen nach Zimmern ordnen",
+        "text": "Halte Namen, Fotos und Notizen zusammen. Du kannst eine Pflanze auch dann eintragen, wenn du ihre Art noch nicht kennst.",
+        "imageAlt": "Lilora-Pflanzensammlung mit beispielhaften Pflanzenfotos und Zimmernamen"
+      },
+      {
+        "id": "reminders",
+        "title": "Eine Erinnerung zum Nachsehen",
+        "text": "Erinnerungen lenken deinen Blick wieder auf die Pflanze. Sie regen zum Prüfen an, nicht zum automatischen Gießen bei noch feuchter Erde.",
+        "imageAlt": "Echter Lilora-Bildschirm mit den Erinnerungseinstellungen einer Pflanze"
+      },
+      {
+        "id": "history",
+        "title": "Prüfen und Gießen getrennt festhalten",
+        "text": "Finde den letzten Pflegeeintrag auf einen Blick. Der Verlauf zeigt getrennt, wer wann gegossen oder nachgesehen hat.",
+        "imageAlt": "Beispielhafter Lilora-Pflegeverlauf mit getrennten Einträgen für Gießen und Prüfen"
+      },
+      {
+        "id": "shared-care",
+        "title": "Ein Zuhause, gemeinsame Pflege",
+        "text": "Mit einem Konto kannst du einen privaten Haushalt erstellen oder einer Einladung folgen. Teilt Pflanzen und Pflegeeinträge innerhalb dieses Haushalts.",
+        "imageAlt": "Echter Lilora-Einführungsbildschirm zur gemeinsamen Pflege in einem privaten Haushalt"
+      },
+      {
+        "id": "identify",
+        "title": "Hilfe bei der Namenssuche",
+        "text": "Mit einem Konto kannst du auf Wunsch eine Pflanze per Foto bestimmen lassen. Prüfe die Vorschläge von Pl@ntNet und bestätige das Ergebnis, bevor du die Pflanze hinzufügst.",
+        "imageAlt": "Echter Lilora-Einführungsbildschirm zur optionalen Pflanzenbestimmung per Foto"
+      },
+      {
+        "id": "guest",
+        "title": "Ohne Konto anfangen",
+        "text": "Trage Pflanzen selbst ein und halte Fotos, Notizen und Pflege fest. Gasteinträge bleiben auf diesem Gerät; wenn du die App löschst, werden auch diese Einträge gelöscht.",
+        "imageAlt": "Beispielhafte Pflanzeneinträge auf dem echten Sammlungsbildschirm von Lilora"
+      }
+    ],
+    "freeTitle": "Die tägliche Pflege ist kostenlos.",
+    "freeIntro": "Pflanzen selbst einzutragen, Zimmer zu ordnen und Fotos, Notizen sowie Pflegeverläufe zu führen, erfordert keinen Kauf. Kostenpflichtige Angebote betreffen die optionale Pflanzenbestimmung per Foto.",
+    "plans": [
+      {
+        "title": "Ein kostenloses Pflanzenbuch",
+        "text": "Pflanzen, Zimmer, Fotos, Notizen und Pflegeeinträge."
+      },
+      {
+        "title": "3 kostenlose Bestimmungen pro Konto",
+        "text": "Ein Startguthaben zum Ausprobieren der Fotobestimmung. Es wird nicht jeden Monat erneuert."
+      },
+      {
+        "title": "Paket mit 10 Bestimmungen",
+        "text": "Ein optionaler Einzelkauf, wenn du weitere Pflanzen bestimmen möchtest."
+      },
+      {
+        "title": "Lilora Plus Monthly",
+        "text": "Ein monatlich automatisch verlängerbares Abo mit 30 Bestimmungen pro Monat. Ungenutzte Bestimmungen werden nicht in den Folgemonat übertragen."
+      }
+    ],
+    "pricingNote": "Die Preise werden im App Store in deiner Währung angezeigt.",
+    "faqTitle": "Bevor du anfängst",
+    "faq": [
+      {
+        "question": "Kann ich Lilora schon herunterladen?",
+        "answer": "Noch nicht. Lilora wird derzeit im App Store geprüft. Nach der Veröffentlichung führt dich die Downloadseite dieser Website direkt zum App Store."
+      },
+      {
+        "question": "Welche Geräte und Sprachen werden unterstützt?",
+        "answer": "Lilora wird für iPhone und iPad vorbereitet. Die App ist auf Englisch und Türkisch, die Website in sechs Sprachen."
+      },
+      {
+        "question": "Brauche ich für die Pflanzenpflege ein Abo?",
+        "answer": "Nein. Pflanzen selbst einzutragen und Pflege festzuhalten ist kostenlos. Käufe stellen nur zusätzliche Bestimmungen für die optionale Fotofunktion bereit."
+      },
+      {
+        "question": "Brauche ich ein Konto?",
+        "answer": "Du kannst als Gast auf deinem Gerät anfangen. Für einen gemeinsamen Haushalt, Fotobestimmungen und Käufe brauchst du ein Konto. Gasteinträge werden lokal gespeichert und beim Löschen der App ebenfalls gelöscht."
+      },
+      {
+        "question": "Soll ich bei einer Erinnerung gießen?",
+        "answer": "Prüfe zuerst die Pflanze und ihre Erde. Eine Erinnerung ist keine Aufforderung zum Gießen. Wenn kein Wasser nötig ist, kannst du das als eigene Kontrolle festhalten."
+      }
+    ],
+    "supportLink": "Weitere Antworten im Support",
+    "closingTitle": "Damit die nächste Kontrolle auf Erfahrung aufbaut.",
+    "closingText": "Öffne Liloras Downloadseite auf deinem Telefon. Sobald die App veröffentlicht ist, führt dich dieselbe Adresse zum App Store.",
+    "qrAlt": "QR-Code zur deutschen Downloadseite von Lilora",
+    "qrCaption": "Mit dem Telefon scannen und die Downloadseite öffnen.",
+    "illustrationCaption": "Mit KI erstellte Illustration.",
+    "imageAlts": {
+      "hero": "Zimmerpflanzen in Töpfen in einer ruhigen Ecke mit natürlichem Fensterlicht",
+      "careCorner": "Eine Topfpflanze und eine blaue Gießkanne auf einem Holztisch am Fenster",
+      "leafStudy": "Nahaufnahme glänzender grüner Blätter in einem warm beleuchteten Wohnraum",
+      "shelf": "Hängende und aufrecht wachsende Topfpflanzen auf einer niedrigen Holzbank",
+      "sharedTable": "Eine Topfpflanze und zwei Becher auf einem Tisch am Fenster"
+    },
+    "todayImageAlt": "Lilora-Bildschirm „Today“ mit Pflanzen zur Kontrolle und den Aktionen „Watered“ und „No water needed“",
+    "introCaption": "Echter Einführungsbildschirm der App."
+  },
+  "pt": {
+    "eyebrow": "Um caderno para suas plantas",
+    "title": "As plantas da casa, num caderno compartilhado.",
+    "dek": "Em qual cômodo, quem conferiu por último e quando recebeu água. Reúna fotos, anotações e o histórico de cuidados das suas plantas no Lilora.",
+    "getApp": "Obter o app",
+    "seeHow": "Veja como funciona",
+    "status": "Em análise na App Store",
+    "devices": "iPhone e iPad",
+    "appLanguages": "O app está em inglês e turco",
+    "artCaptionEN": "App exibido em inglês.",
+    "sampleCaption": "Imagem para a loja criada a partir de uma tela real do app, com registros de plantas de exemplo.",
+    "heroImageAlt": "Plantas em vasos num canto tranquilo de casa, iluminado pela luz natural da janela",
+    "howEyebrow": "Como a casa cuida das plantas",
+    "howTitle": "Primeiro observe. Depois registre.",
+    "howIntro": "Um lembrete não significa que a planta precisa de água. O Lilora reúne observações e cuidados num histórico que a próxima pessoa pode consultar.",
+    "steps": [
+      {
+        "title": "Confira a planta e o substrato",
+        "text": "Em “Today”, veja quais plantas precisam ser conferidas. Observe antes de decidir se é hora de regar."
+      },
+      {
+        "title": "Registre o que você fez",
+        "text": "“Watered” e “Checked, no water needed” são registros diferentes: regada ou conferida, sem necessidade de água. Uma verificação não vira uma rega."
+      },
+      {
+        "title": "Deixe a casa por dentro",
+        "text": "No grupo privado da casa, veja quem cuidou de cada planta e quando. A próxima pessoa pode consultar o histórico antes de repetir o cuidado."
+      }
+    ],
+    "featuresTitle": "Cada planta no seu lugar. Cada cuidado registrado.",
+    "features": [
+      {
+        "id": "collection",
+        "title": "Plantas organizadas por cômodo",
+        "text": "Guarde nomes, fotos e anotações num só lugar. Você pode adicionar uma planta mesmo sem saber a espécie.",
+        "imageAlt": "Coleção do Lilora com fotos de plantas de exemplo e nomes de cômodos"
+      },
+      {
+        "id": "reminders",
+        "title": "Um lembrete para observar",
+        "text": "Os lembretes ajudam você a olhar a planta de novo. São um convite para conferir, não para regar automaticamente enquanto o substrato ainda está úmido.",
+        "imageAlt": "Tela real do Lilora com as configurações de lembretes de uma planta"
+      },
+      {
+        "id": "history",
+        "title": "Verificações e regas, separadas",
+        "text": "Encontre o último cuidado num olhar. O histórico separa regas e verificações e mostra quem fez cada uma e quando.",
+        "imageAlt": "Histórico de exemplo do Lilora com registros separados de rega e verificação"
+      },
+      {
+        "id": "shared-care",
+        "title": "Uma casa, cuidados compartilhados",
+        "text": "Com uma conta, crie um grupo privado para sua casa ou aceite um convite. Compartilhe plantas e registros de cuidados com as pessoas desse grupo.",
+        "imageAlt": "Tela real de apresentação do Lilora sobre cuidados compartilhados num grupo privado da casa"
+      },
+      {
+        "id": "identify",
+        "title": "Uma ajuda para descobrir o nome",
+        "text": "Se quiser, use a identificação por foto com sua conta. Confira as sugestões do Pl@ntNet e confirme o resultado antes de adicionar a planta.",
+        "imageAlt": "Tela real de apresentação do Lilora sobre a identificação opcional de plantas por foto"
+      },
+      {
+        "id": "guest",
+        "title": "Comece sem criar uma conta",
+        "text": "Adicione suas plantas manualmente e guarde fotos, anotações e cuidados. Os registros de visitante ficam só neste dispositivo; apagar o app também apaga esses registros.",
+        "imageAlt": "Registros de plantas de exemplo na tela real de coleção do Lilora"
+      }
+    ],
+    "freeTitle": "O cuidado do dia a dia é gratuito.",
+    "freeIntro": "Adicionar plantas manualmente, organizar cômodos e guardar fotos, anotações e histórico de cuidados não exige nenhuma compra. As opções pagas são para a identificação opcional por foto.",
+    "plans": [
+      {
+        "title": "Um caderno de plantas gratuito",
+        "text": "Plantas, cômodos, fotos, anotações e registros de cuidados."
+      },
+      {
+        "title": "3 identificações gratuitas por conta",
+        "text": "Uma quantidade inicial para experimentar a identificação por foto. Ela não se renova todo mês."
+      },
+      {
+        "title": "Pacote com 10 identificações",
+        "text": "Uma compra avulsa e opcional para quando você quiser mais identificações."
+      },
+      {
+        "title": "Lilora Plus Monthly",
+        "text": "Uma assinatura mensal com renovação automática e 30 identificações por mês. As identificações não usadas não passam para o mês seguinte."
+      }
+    ],
+    "pricingNote": "Os preços aparecem na App Store na sua moeda.",
+    "faqTitle": "Antes de começar",
+    "faq": [
+      {
+        "question": "Já posso baixar o Lilora?",
+        "answer": "Ainda não. O Lilora está em análise na App Store. Quando o app for lançado, a página de download deste site levará você diretamente à App Store."
+      },
+      {
+        "question": "Quais dispositivos e idiomas são compatíveis?",
+        "answer": "O Lilora está sendo preparado para iPhone e iPad. O app está em inglês e turco; o site está em seis idiomas."
+      },
+      {
+        "question": "Preciso de uma assinatura para cuidar das plantas?",
+        "answer": "Não. Adicionar plantas manualmente e registrar cuidados é gratuito. As compras oferecem apenas identificações extras por foto, uma função opcional."
+      },
+      {
+        "question": "Preciso criar uma conta?",
+        "answer": "Você pode começar como visitante no seu dispositivo. Para compartilhar a casa, identificar por foto ou fazer compras, precisa de uma conta. Os registros de visitante ficam no dispositivo e são apagados quando o app é removido."
+      },
+      {
+        "question": "Devo regar quando chegar um lembrete?",
+        "answer": "Confira primeiro a planta e o substrato. Um lembrete não é uma ordem para regar. Se não precisar de água, você pode registrar isso como uma verificação separada."
+      }
+    ],
+    "supportLink": "Mais respostas no suporte",
+    "closingTitle": "Que o próximo cuidado comece com um bom histórico.",
+    "closingText": "Abra a página de download do Lilora no seu telefone. Quando o app for lançado, o mesmo endereço levará você à App Store.",
+    "qrAlt": "Código QR que abre a página de download do Lilora em português",
+    "qrCaption": "Escaneie com o telefone para abrir a página de download.",
+    "illustrationCaption": "Ilustração gerada com IA.",
+    "imageAlts": {
+      "hero": "Plantas em vasos num canto tranquilo com luz natural da janela",
+      "careCorner": "Uma planta em vaso e um regador azul sobre uma mesa de madeira perto da janela",
+      "leafStudy": "Folhas verdes brilhantes vistas de perto numa casa com iluminação quente",
+      "shelf": "Plantas pendentes e de crescimento vertical em vasos sobre um banco baixo de madeira",
+      "sharedTable": "Uma planta em vaso e duas canecas sobre uma mesa perto da janela"
+    },
+    "todayImageAlt": "Tela “Today” do Lilora com plantas que precisam ser conferidas e as opções “Watered” e “No water needed”",
+    "introCaption": "Tela real de apresentação do app."
+  },
+  "fr": {
+    "eyebrow": "Un carnet pour vos plantes",
+    "title": "Les plantes de la maison, un carnet partagé.",
+    "dek": "Dans quelle pièce, vérifiée par qui, arrosée quand ? Gardez les photos, les notes et l’historique d’entretien de vos plantes au même endroit, dans Lilora.",
+    "getApp": "Obtenir l’app",
+    "seeHow": "Voir comment ça marche",
+    "status": "En cours d’examen sur l’App Store",
+    "devices": "iPhone et iPad",
+    "appLanguages": "L’app est en anglais et en turc",
+    "artCaptionEN": "App présentée en anglais.",
+    "sampleCaption": "Visuel pour la boutique créé à partir d’un véritable écran de l’app, avec des fiches de plantes d’exemple.",
+    "heroImageAlt": "Des plantes en pot dans un coin calme de la maison, éclairé par la lumière d’une fenêtre",
+    "howEyebrow": "L’entretien à plusieurs, au quotidien",
+    "howTitle": "Observer d’abord. Noter ensuite.",
+    "howIntro": "Un rappel ne signifie pas qu’une plante a besoin d’eau. Lilora réunit observations et soins dans un historique que la personne suivante peut consulter.",
+    "steps": [
+      {
+        "title": "Vérifier la plante et le terreau",
+        "text": "Dans « Today », retrouvez les plantes à vérifier. Prenez le temps de les observer avant de décider s’il faut arroser."
+      },
+      {
+        "title": "Noter ce qui a été fait",
+        "text": "« Watered » et « Checked, no water needed » sont deux entrées distinctes : arrosée, ou vérifiée sans besoin d’eau. Une vérification ne compte pas comme un arrosage."
+      },
+      {
+        "title": "Tenir la maisonnée au courant",
+        "text": "Dans votre foyer privé, voyez qui s’est occupé de chaque plante et quand. La personne suivante peut consulter l’historique avant de refaire le même geste."
+      }
+    ],
+    "featuresTitle": "Une place pour chaque plante. Une trace de chaque soin.",
+    "features": [
+      {
+        "id": "collection",
+        "title": "Des plantes classées par pièce",
+        "text": "Gardez leurs noms, photos et notes ensemble. Vous pouvez ajouter une plante même si vous ne connaissez pas encore son espèce.",
+        "imageAlt": "Collection Lilora avec des photos de plantes d’exemple et des noms de pièces"
+      },
+      {
+        "id": "reminders",
+        "title": "Un rappel pour observer",
+        "text": "Les rappels vous invitent à regarder la plante. Ils proposent de vérifier, pas d’arroser automatiquement un terreau encore humide.",
+        "imageAlt": "Véritable écran de Lilora montrant les réglages de rappel d’une plante"
+      },
+      {
+        "id": "history",
+        "title": "Vérifications et arrosages, séparément",
+        "text": "Retrouvez le dernier soin en un coup d’œil. L’historique distingue les arrosages des vérifications et indique qui les a faits et quand.",
+        "imageAlt": "Historique d’exemple de Lilora avec des entrées distinctes pour l’arrosage et la vérification"
+      },
+      {
+        "id": "shared-care",
+        "title": "Une maison, des soins partagés",
+        "text": "Avec un compte, créez un foyer privé ou acceptez une invitation. Partagez les plantes et leur historique avec les personnes de ce foyer.",
+        "imageAlt": "Véritable écran de présentation de Lilora consacré aux soins partagés dans un foyer privé"
+      },
+      {
+        "id": "identify",
+        "title": "Un coup de main pour trouver son nom",
+        "text": "Avec votre compte, vous pouvez choisir l’identification par photo. Examinez les suggestions de Pl@ntNet et confirmez le résultat avant d’ajouter la plante.",
+        "imageAlt": "Véritable écran de présentation de Lilora consacré à l’identification facultative des plantes par photo"
+      },
+      {
+        "id": "guest",
+        "title": "Commencer sans compte",
+        "text": "Ajoutez vos plantes vous-même et gardez photos, notes et soins. Les données du mode invité restent sur cet appareil ; supprimer l’app les supprime aussi.",
+        "imageAlt": "Fiches de plantes d’exemple dans le véritable écran de collection de Lilora"
+      }
+    ],
+    "freeTitle": "Les soins du quotidien sont gratuits.",
+    "freeIntro": "Ajouter ses plantes soi-même, organiser les pièces et conserver photos, notes et historique ne nécessite aucun achat. Les options payantes concernent l’identification facultative par photo.",
+    "plans": [
+      {
+        "title": "Un carnet de plantes gratuit",
+        "text": "Plantes, pièces, photos, notes et historique des soins."
+      },
+      {
+        "title": "3 identifications gratuites par compte",
+        "text": "Un quota de départ pour essayer l’identification par photo. Il n’est pas renouvelé chaque mois."
+      },
+      {
+        "title": "Un pack de 10 identifications",
+        "text": "Un achat ponctuel et facultatif pour disposer d’identifications supplémentaires."
+      },
+      {
+        "title": "Lilora Plus Monthly",
+        "text": "Un abonnement mensuel à renouvellement automatique comprenant 30 identifications par mois. Les identifications inutilisées ne sont pas reportées au mois suivant."
+      }
+    ],
+    "pricingNote": "Les prix sont indiqués sur l’App Store dans votre devise.",
+    "faqTitle": "Avant de commencer",
+    "faq": [
+      {
+        "question": "Puis-je déjà télécharger Lilora ?",
+        "answer": "Pas encore. Lilora est en cours d’examen sur l’App Store. Dès sa publication, la page de téléchargement de ce site vous conduira directement à l’App Store."
+      },
+      {
+        "question": "Quels appareils et quelles langues sont pris en charge ?",
+        "answer": "Lilora est conçue pour iPhone et iPad. L’app est en anglais et en turc ; le site est proposé en six langues."
+      },
+      {
+        "question": "Faut-il un abonnement pour l’entretien des plantes ?",
+        "answer": "Non. Ajouter ses plantes soi-même et noter les soins est gratuit. Les achats donnent uniquement accès à des identifications supplémentaires par photo, une fonction facultative."
+      },
+      {
+        "question": "Dois-je créer un compte ?",
+        "answer": "Vous pouvez commencer en mode invité sur votre appareil. Un compte est nécessaire pour partager un foyer, identifier une plante par photo ou effectuer des achats. Les données du mode invité sont locales et sont effacées si vous supprimez l’app."
+      },
+      {
+        "question": "Faut-il arroser à chaque rappel ?",
+        "answer": "Vérifiez d’abord la plante et le terreau. Un rappel n’est pas une consigne d’arrosage. Si la plante n’a pas besoin d’eau, vous pouvez enregistrer une vérification distincte."
+      }
+    ],
+    "supportLink": "Plus de réponses dans l’aide",
+    "closingTitle": "Un historique utile pour le prochain soin.",
+    "closingText": "Ouvrez la page de téléchargement de Lilora sur votre téléphone. Une fois l’app publiée, la même adresse vous conduira à l’App Store.",
+    "qrAlt": "Code QR ouvrant la page de téléchargement de Lilora en français",
+    "qrCaption": "Scannez avec votre téléphone pour ouvrir la page de téléchargement.",
+    "illustrationCaption": "Illustration générée par IA.",
+    "imageAlts": {
+      "hero": "Des plantes en pot dans un coin calme, à la lumière naturelle d’une fenêtre",
+      "careCorner": "Une plante en pot et un arrosoir bleu sur une table en bois près d’une fenêtre",
+      "leafStudy": "Gros plan sur des feuilles vertes brillantes dans un intérieur à la lumière chaude",
+      "shelf": "Des plantes retombantes et dressées en pot sur un banc bas en bois",
+      "sharedTable": "Une plante en pot et deux tasses sur une table près d’une fenêtre"
+    },
+    "todayImageAlt": "Écran « Today » de Lilora montrant les plantes à vérifier et les actions « Watered » et « No water needed »",
+    "introCaption": "Véritable écran de présentation de l’app."
+  }
+}

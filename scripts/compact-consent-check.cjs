@@ -1,4 +1,4 @@
-const {chromium}=require('playwright');const assert=require('node:assert/strict');
+const {chromium}=require('playwright-core');const assert=require('node:assert/strict');
 (async()=>{const b=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',headless:true,args:['--no-sandbox']});let cases=0;
 for(const lang of ['tr','en','es','de','pt','fr'])for(const width of [320,375,390,430,768,1440])for(const stress of ['normal','200%-text','long-copy']){
 const p=await b.newPage({locale:lang==='tr'?'tr-TR':'en-US',viewport:{width,height:844}});await p.route(/https:\/\/.*google.*/,r=>r.fulfill({body:''}));await p.goto('http://127.0.0.1:4173/'+(lang==='tr'?'':lang+'/'));

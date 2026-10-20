@@ -8,6 +8,11 @@ import {
 import { dirname } from "node:path";
 import { sharedCareDiagram } from "./shared-care-diagram.mjs";
 import {
+  promotionCopy,
+  shareImagePath,
+  defaultShareImagePath,
+} from "./promotion-shared.mjs";
+import {
   languages,
   names,
   prefix,
@@ -23,6 +28,7 @@ import {
 const articles = JSON.parse(readFileSync("editorial/articles.json", "utf8"));
 const plants = JSON.parse(readFileSync("editorial/plants.json", "utf8"));
 const routes = [];
+const sharePages = [];
 const staticSlugs = readdirSync("pages").filter((p) =>
   existsSync(`pages/${p}/meta.json`),
 );
@@ -37,15 +43,25 @@ const write = (path, html, alternates) => {
   writeFileSync(file, html);
   if (path !== "404.html") routes.push({ path, alternates });
 };
-const render = (opts) =>
-  write(
+const recordShareImage = ({ path, lang, title, description }) =>
+  sharePages.push({
+    path,
+    lang,
+    title,
+    description,
+    image: shareImagePath(path, lang),
+  });
+const render = (opts) => {
+  recordShareImage(opts);
+  return write(
     opts.path,
     page({ ...opts, plantCount: plants.filter((p) => p[opts.lang]).length }),
     opts.alternates,
   );
-const card = (a, l, kind = "articles") => {
+};
+const card = (a, l, kind = "articles", heading = "h2") => {
   const c = a[l];
-  return `<article class="story-card" lang="${l === "pt" ? "pt-BR" : l}"><a href="${kind === "plants" ? plantPath(a, l) : articlePath(a, l)}">${a.image ? `<img src="${c.image || a.image}" width="${a.imageWidth || 553}" height="${a.imageHeight || 1200}" alt="${escape(c.imageAlt || "")}" loading="lazy" decoding="async">` : ""}<h2>${escape(c.title)}</h2></a><p>${escape(c.description)}</p></article>`;
+  return `<article class="story-card" lang="${l === "pt" ? "pt-BR" : l}"><a href="${kind === "plants" ? plantPath(a, l) : articlePath(a, l)}">${a.image ? `<img src="${c.image || a.image}" width="${a.imageWidth || 553}" height="${a.imageHeight || 1200}" alt="${escape(c.imageAlt || "")}" loading="lazy" decoding="async">` : ""}<${heading}>${escape(c.title)}</${heading}></a><p>${escape(c.description)}</p></article>`;
 };
 const related = (a, l) => {
   const all = articles.filter((x) => x.slug !== a.slug && x[l]),
@@ -56,7 +72,28 @@ const related = (a, l) => {
   ].slice(0, 3);
 };
 const appNote = (l) =>
-  `<aside class="app-note"><h2>${locales[l].app}</h2><p>${locales[l].status}</p>${!["tr", "en"].includes(l) ? `<p>${locales[l].appLanguages}</p>` : ""}<a class="button" data-analytics-cta="app-info" href="${prefix(l)}download/">${locales[l].getApp}</a></aside>`;
+  `<aside class="app-note"><p class="eyebrow">lilora</p><h2>${escape(promotionCopy[l].recordTitle)}</h2><p>${escape(promotionCopy[l].recordBody)}</p><p>${locales[l].status}</p>${!["tr", "en"].includes(l) ? `<p>${locales[l].appLanguages}</p>` : ""}<a class="button" data-analytics-cta="app-info" href="${prefix(l)}download/">${locales[l].getApp}</a></aside>`;
+const homeEditorial = (l) => {
+  const t = locales[l], copy = promotionCopy[l];
+  const latest = articles
+    .filter((article) => article.type === "guide")
+    .sort(
+      (a, b) =>
+        b.published.localeCompare(a.published) || a.slug.localeCompare(b.slug),
+    );
+  const own = latest.filter((article) => article[l]).slice(0, 3);
+  const english = l !== "en" && own.length < 3
+    ? latest.filter((article) => article.en && !article[l]).slice(0, 3 - own.length)
+    : [];
+  const plantSelection = plants.filter((plant) => plant[l]).slice(0, 3);
+  const guides = own.length || english.length
+    ? `<section class="home-editorial wrap"><h2>${escape(copy.guidesTitle)}</h2>${own.length ? `<div class="story-grid">${own.map((article) => card(article, l, "articles", "h3")).join("")}</div>` : ""}${english.length ? `<div class="also-english"><p class="eyebrow">${escape(t.alsoEnglish)}</p><div class="story-grid">${english.map((article) => card(article, "en", "articles", "h3")).join("")}</div></div>` : ""}<a class="text-link" href="${prefix(l)}guides/">${escape(t.guides)}</a></section>`
+    : "";
+  const plantTeaser = plantSelection.length
+    ? `<section class="home-plants wrap"><h2>${escape(copy.plantsTitle)}</h2><div class="story-grid">${plantSelection.map((plant) => card(plant, l, "plants", "h3")).join("")}</div><a class="text-link" href="${prefix(l)}plants/">${escape(t.plants)}</a></section>`
+    : "";
+  return guides + plantTeaser;
+};
 for (const a of articles)
   for (const l of languages) {
     if (!a[l]) continue;
@@ -124,7 +161,7 @@ for (const a of plants)
       title: c.title,
       description: c.description,
       alternates: counterparts(a, plantPath),
-      body: `<div class="wrap document"><header class="specimen-header"><p>${escape(a.family)}</p><h1>${escape(c.title)}</h1><p class="botanical-name"><em>${escape(a.botanicalName)}</em></p></header><section class="at-a-glance"><h2>${t.atAGlance}</h2><dl>${["light", "watering", "humidity", "temperature", "petSafety", "careLevel"].map((k) => `<div><dt>${t[k]}</dt><dd>${escape(g[k])}${k === "petSafety" && g.petSafetySource ? ` <a href="${escape(g.petSafetySource)}">${t.sources}</a>` : ""}</dd></div>`).join("")}</dl></section><article class="prose">${c.answerHtml}${c.sections.map((s) => `<section><h2>${escape(s.title)}</h2>${s.html}</section>`).join("")}<section id="sources"><h2>${t.sources}</h2><ul>${(a.sources || []).map((s) => `<li><a href="${escape(s.url)}">${escape(s.name)}</a></li>`).join("")}</ul></section></article></div>`,
+      body: `<div class="wrap document"><header class="specimen-header"><p>${escape(a.family)}</p><h1>${escape(c.title)}</h1><p class="botanical-name"><em>${escape(a.botanicalName)}</em></p></header><section class="at-a-glance"><h2>${t.atAGlance}</h2><dl>${["light", "watering", "humidity", "temperature", "petSafety", "careLevel"].map((k) => `<div><dt>${t[k]}</dt><dd>${escape(g[k])}${k === "petSafety" && g.petSafetySource ? ` <a href="${escape(g.petSafetySource)}">${t.sources}</a>` : ""}</dd></div>`).join("")}</dl></section><article class="prose">${c.answerHtml}${c.sections.map((s) => `<section><h2>${escape(s.title)}</h2>${s.html}</section>`).join("")}<section id="sources"><h2>${t.sources}</h2><ul>${(a.sources || []).map((s) => `<li><a href="${escape(s.url)}">${escape(s.name)}</a></li>`).join("")}</ul></section>${appNote(l)}</article></div>`,
     });
   }
 for (const slug of staticSlugs) {
@@ -142,7 +179,10 @@ for (const slug of staticSlugs) {
       path: staticPath(slug, l),
       ...meta[l],
       alternates,
-      body: readFileSync(`pages/${slug}/${l}.md`, "utf8"),
+      body: readFileSync(`pages/${slug}/${l}.md`, "utf8").replace(
+        "{{HOME_EDITORIAL}}",
+        () => homeEditorial(l),
+      ),
     });
   }
 }
@@ -175,15 +215,22 @@ for (const kind of ["guides", "plants", "journal", "compare"])
       body: `<section class="collection-heading wrap"><p class="eyebrow">LILORA / ${escape(title)}</p><h1>${escape(title)}</h1><p class="dek">${escape(t.hubDescription[kind])}</p></section><div class="wrap collection"><div class="story-grid">${selection.map((a) => card(a, l, kind === "plants" ? "plants" : "articles")).join("")}</div>${!selection.length ? `<p>${t.empty}</p>` : ""}${english.length ? `<section class="also-english"><h2>${t.alsoEnglish}</h2><div class="story-grid">${english.map((a) => card(a, "en", kind === "plants" ? "plants" : "articles")).join("")}</div></section>` : ""}${kind === "compare" && existsSync(`pages/compare/${l}.html`) ? readFileSync(`pages/compare/${l}.html`, "utf8") : ""}${appNote(l)}</div>`,
     });
   }
+const notFound = {
+  lang: "en",
+  path: "/404.html",
+  title: locales.en.notFoundTitle,
+  description: locales.en.notFoundDescription,
+};
+recordShareImage(notFound);
+const notFoundImage = existsSync("assets/images/home/notebook-404-v1-640.webp")
+  ? '<img class="promo-404-art" src="/assets/images/home/notebook-404-v1-640.webp" width="640" height="427" alt="" loading="lazy" decoding="async">'
+  : "";
 write(
   "404.html",
   page({
-    lang: "en",
-    path: "/404.html",
-    title: locales.en.notFoundTitle,
-    description: locales.en.notFoundDescription,
+    ...notFound,
     noindex: true,
-    body: `<section class="document wrap"><h1>${locales.en.notFoundTitle}</h1><p>${locales.en.notFoundDescription}</p><div class="error-languages">${languages.map((l) => `<section lang="${l === "pt" ? "pt-BR" : l}" id="${l}"><h2>${names[l]}</h2><p>${locales[l].notFoundDescription}</p><a href="${prefix(l)}">${locales[l].home}</a> · <a href="${prefix(l)}guides/">${locales[l].guides}</a> · <a href="${prefix(l)}support/">${locales[l].support}</a></section>`).join("")}</div></section>`,
+    body: `<section class="document wrap"><h1>${locales.en.notFoundTitle}</h1><p>${locales.en.notFoundDescription}</p>${notFoundImage}<div class="error-languages">${languages.map((l) => `<section lang="${l === "pt" ? "pt-BR" : l}" id="${l}"><h2>${names[l]}</h2><p>${locales[l].notFoundDescription}</p><a href="${prefix(l)}">${locales[l].home}</a> · <a href="${prefix(l)}guides/">${locales[l].guides}</a> · <a href="${prefix(l)}support/">${locales[l].support}</a></section>`).join("")}</div></section>`,
   }),
   {},
 );
@@ -214,6 +261,24 @@ if (existsSync(record))
       );
     }
 writeFileSync(record, json(routes.map((r) => r.path)) + "\n");
+mkdirSync("assets/brand", { recursive: true });
+writeFileSync(
+  "assets/brand/share-manifest.json",
+  JSON.stringify(
+    {
+      width: 1200,
+      height: 630,
+      defaults: languages.map((lang) => ({
+        lang,
+        title: "lilora",
+        image: defaultShareImagePath(lang),
+      })),
+      pages: sharePages.sort((a, b) => a.path.localeCompare(b.path)),
+    },
+    null,
+    2,
+  ) + "\n",
+);
 console.log(
   `Built ${routes.length} indexable pages in ${languages.length} languages.`,
 );

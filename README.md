@@ -7,9 +7,12 @@ GitHub Pages deployment serves committed static files from `main`. `CNAME` stays
 
 ## Edit and verify
 
-Requires Node 22+ and Python 3; production has no runtime dependency or client framework.
+Requires Node 22+, Python 3, an existing Chromium installation and `npm ci`.
+Set `CHROMIUM_PATH` if needed. Production has no runtime dependency or client framework.
 
-1. Edit static page bodies in `pages/<page>/<lang>.md` (HTML is supported) and their
+1. Home-page copy lives in `pages/home/copy.json`; `scripts/home-promotion.mjs`
+   generates its six page bodies and metadata. Edit other static page bodies in
+   `pages/<page>/<lang>.md` (HTML is supported) and their
    localized titles/descriptions in `pages/<page>/meta.json`. Never edit generated HTML.
 2. Edit each article independently in `content/articles/<slug>/meta.json` and
    `<lang>.md`. Metadata keeps type (`guide`, `post`, `comparison`), genuine dates,
@@ -55,10 +58,14 @@ hreflang and does not automatically move the visitor.
 
 ## How the generator works
 
-`npm run build` first compiles each independent article and plant directory with
+`npm run build` first prepares the six home pages, then compiles each independent article and plant directory with
 `scripts/import-content.py`, then `scripts/build.mjs` renders those records, static
 page bodies and content hubs through `scripts/layout.mjs`. Outputs are committed
-HTML, `editorial/*.json` and `sitemap.xml`; GitHub Pages serves them directly.
+HTML, `editorial/*.json` and `sitemap.xml`. Finally `scripts/promotion-assets.mjs`
+creates offline QR SVGs, Playwright-rendered print PDFs and page-specific share
+cards using local fonts and assets. Content fingerprints reuse unchanged renders.
+GitHub Pages serves these committed files directly and does not run the asset
+renderer. [Promotion asset instructions](assets/brand/README.md).
 
 To add an article, create `content/articles/<slug>/meta.json` and one Markdown file
 per reviewed translation. Use `guide`, `post` or `comparison`; the matching hub and
@@ -559,3 +566,88 @@ Lighthouse evidence remains applicable. CI impact: the existing Pages pipeline
 after the documentation squash; no mobile, native, macOS or new workflow.
 
 <!-- site-prompt-03: done -->
+
+## Maintenance — 20 October 2026 — prompt 04 home and promotion
+
+The six home pages now introduce Lilora through an editorial product layout:
+real app artwork alongside clearly disclosed illustrative plant scenes, a
+check/record/share walkthrough, six product features, the verified free and
+optional identification model, three real guide links, a short support FAQ and
+localized download calls to action. Plant-library teasers appear only when real
+profiles exist in that language. No article translation or plant profile was
+invented for this promotion change.
+
+The six stable `/download/` routes explain the review status and show a QR on wide
+screens or a status button on phones. New localized `/press/` pages provide short
+and long descriptions, verified facts, 24 real iPhone/iPad artwork downloads, the
+existing icon, photo credits, and A6/A4 PDFs. Each plant is described as having one
+photo, matching the current app. No separate approved wordmark file was found or
+redrawn.
+
+Assets and provenance:
+
+- 24 original PNGs exported from the approved populated Figma page `178:5921`,
+  which supersedes the earlier `171:2` set in current app `docs/STATUS.md`.
+  36 responsive WebP derivatives preserve the complete original compositions.
+  Identification and sharing images are real onboarding screens, not live results.
+- Seven built-in `image_gen` illustrations, one attempt each: hero, four section
+  scenes, download portrait and 404 drawing. Each was visually reviewed;
+  `assets/images/CREDITS.md` records date, prompt and use, and the image manifest
+  records sizes and hashes. No paid image API was used.
+- 24 offline QR SVGs with four-module quiet zones and stable localized
+  `/download/` destinations; 12 single-page A6/A4 PDFs with 30/48 mm QR sizes.
+- 99 page/default share images at 1200×630, with Open Graph and Twitter metadata.
+  The 180 px touch icon and browser-mode web manifest derive from the existing icon.
+  Share images and press originals are not eager page resources.
+
+The shared layout changes are isolated from promotion content: localized Press
+footer links, metadata/icon links, the scoped promotion stylesheet and a
+contextual download box in article/plant templates. Editorial-approach pages in
+all six languages disclose generated illustrations and real app screenshots.
+Existing privacy/support bodies, article source dates, consent behavior and all
+public URLs remain intact. No app, backend, store, DNS or hosting settings changed.
+
+Validation before publication:
+
+- `npm run check`: **11/11** tests passed, including links, anchors, unique metadata,
+  canonical/hreflang, truthful schema, QR decoding, PDF dimensions and share cards.
+- Existing Playwright suites: **368** responsive checks across 92 routes at
+  320/390/768/1440; **108** compact-consent cases; **12** consent lifecycle cases
+  plus storage/cross-tab checks; **12** stale-grant cases; **84** article-contents
+  checks including no-JS; **96** foundation layouts; **41** language scenarios;
+  **16** 404 scenarios and 18 recovery links.
+  The suites use the project's pinned `playwright-core` package and existing
+  Chromium, without a global `NODE_PATH` dependency or browser download.
+- New promotion suite: **92** routes, **36** six-language home/download/press
+  layouts at 390/1440, **24** independently decoded QR images, seven credited
+  illustrations, and successful broken-illustration fallback. No JavaScript
+  errors or third-party requests before consent.
+- TR/EN/DE/PT home and download pages were visually reviewed at 390/1440, together
+  with all print layouts and share cards. All 12 QR codes also decoded correctly
+  from rasterized final PDFs.
+- Mobile Lighthouse **13.5.0** on 20 October 2026, 15:10:23–15:10:58 UTC:
+  TR home **92/100/100/100**, EN home **92/100/100/100**, watering guide
+  **99/100/100/100**, support **98/100/100/100** (performance/accessibility/best
+  practices/SEO). No failed accessibility audits.
+- Actual full-page mobile transfers after scrolling every section, fresh
+  390 px/DPR 2 contexts: TR **666,794 bytes**, EN **670,470 bytes**, both below
+  1 MB. Image transfer: TR 453,799 bytes, EN 458,723 bytes. The hidden desktop QR
+  is not fetched on mobile. No visible image failed. Measured source hashes were
+  unchanged through the final 15:12:28 UTC measurement.
+- Rebuilding cached promotion assets changed zero bytes. Local evidence remains
+  in ignored `.test-results/`; it contains no production analytics traffic.
+
+Prelaunch remains explicit. Current app main records build 12 as awaiting review
+with manual release; no public release was verified. No Apple badge, Smart App
+Banner or Lilora App Store link was activated. Launch should use original local
+Apple badges, including **PT-BR**, not the supplied PT-PT variant.
+
+CI impact: one consolidated implementation push and the existing GitHub Pages
+build/deploy after squash. All image/QR/PDF/card generation and browser/Lighthouse
+checks run locally. Four pinned development packages support offline generation
+and repeatable tests; no new workflow, browser download, service, paid API or
+native/mobile build is triggered.
+
+Publication receipt and the prompt-04 completion marker will be added after the
+merged Pages deployment and a live-content check. The execution gateway blocked
+direct lilora.app requests during preparation; this is not a website HTTP result.

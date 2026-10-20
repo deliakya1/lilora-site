@@ -1,0 +1,64 @@
+import { existsSync, readFileSync, writeFileSync } from "node:fs";
+
+// The six reviewed copy records are the source for these page bodies.
+const copy = JSON.parse(readFileSync("pages/home/copy.json", "utf8"));
+const esc = (s) => String(s).replace(/[&<>"']/g, (c) =>
+  ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+const prefix = (l) => l === "tr" ? "/" : `/${l}/`;
+const illustration = (name, alt, caption, eager = false) => {
+  const path = `/assets/images/home/${name}-640.webp`;
+  if (!existsSync(`.${path}`)) return "";
+  const sizes = eager ? "(min-width: 900px) 305px, (min-width: 600px) 360px, 50vw" : "(min-width: 900px) 430px, 90vw";
+  return `<figure class="promo-atmosphere"><img src="${path}" srcset="/assets/images/home/${name}-320.webp 320w, ${path} 640w, /assets/images/home/${name}-960.webp 960w" sizes="${sizes}" width="640" height="427" alt="${esc(alt)}" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"><figcaption>${esc(caption)}</figcaption></figure>`;
+};
+const artwork = (lang, feature, alt, caption, eager = false) => {
+  const locale = lang === "tr" ? "tr" : "en";
+  const name = feature === "guest" ? "collection" : feature;
+  const stem = `/assets/images/home/app-${locale}-${name}`;
+  const original = `/assets/brand/artwork/lilora-iphone-${locale}-${name}.png`;
+  if (!existsSync(`.${stem}-480.webp`)) return "";
+  return `<figure class="promo-app"><picture><source type="image/webp" srcset="${stem}-320.webp 320w, ${stem}-480.webp 480w, ${stem}-720.webp 720w" sizes="(min-width: 900px) 260px, (min-width: 600px) 240px, 56vw"><img src="${original}" width="1320" height="2868" alt="${esc(alt)}" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"></picture><figcaption>${esc(caption)}</figcaption></figure>`;
+};
+const metadata = {};
+for (const [lang, t] of Object.entries(copy)) {
+  const home = prefix(lang);
+  const note = `<small class="promo-language">${esc(t.appLanguages)}</small>`;
+  const cta = (place) => `<div class="promo-cta"><a class="button" href="${home}download/" data-analytics-cta="home-${place}">${esc(t.getApp)}<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>${note}</div>`;
+  const caption = `${t.artCaptionEN} ${t.sampleCaption}`;
+  const art = (id, alt, eager) => artwork(lang, id, alt,
+    ["identify", "shared-care"].includes(id) ? `${t.artCaptionEN} ${t.introCaption}` : caption, eager);
+  const atmosphere = (id, alt) => illustration(id, alt, t.illustrationCaption);
+  const extras = {
+    collection: ["plant-shelf-v1", t.imageAlts.shelf],
+    reminders: ["care-corner-v1", t.imageAlts.careCorner],
+    history: ["leaf-study-v1", t.imageAlts.leafStudy],
+    "shared-care": ["shared-table-v1", t.imageAlts.sharedTable],
+  };
+  const featureRows = t.features.map((f, i) => `<article class="promo-feature">
+    <div class="promo-feature-copy"><p class="promo-index">${String(i + 1).padStart(2, "0")}</p><h3>${esc(f.title)}</h3><p>${esc(f.text)}</p>${extras[f.id] ? atmosphere(...extras[f.id]) : ""}</div>
+    ${art(f.id, f.imageAlt)}
+  </article>`).join("");
+  const howImages = [t.features.find(f => f.id === "reminders"), t.features.find(f => f.id === "history")];
+  const body = `<div class="promo-home">
+  <section class="promo-hero wrap">
+    <div class="promo-hero-copy"><p class="eyebrow">${esc(t.eyebrow)}</p><h1>${esc(t.title)}</h1><p class="promo-dek">${esc(t.dek)}</p>
+    <div class="promo-actions">${cta("hero")}<a class="text-link" href="#how-it-works">${esc(t.seeHow)} <span aria-hidden="true">↓</span></a></div>
+    <p class="promo-status"><span class="promo-status-dot" aria-hidden="true"></span>${esc(t.status)}</p><p class="promo-platform">${esc(t.devices)}</p></div>
+    <div class="promo-hero-media">${illustration("window-hero-v1", t.imageAlts.hero, t.illustrationCaption, true)}${art("collection", t.features[0].imageAlt, true)}</div>
+  </section>
+  <section class="promo-how" id="how-it-works"><div class="wrap promo-how-inner">
+    <div class="promo-section-heading"><p class="eyebrow">${esc(t.howEyebrow)}</p><h2>${esc(t.howTitle)}</h2><p>${esc(t.howIntro)}</p>
+    <ol class="promo-steps">${t.steps.map((s, i) => `<li><span class="promo-step-number" aria-hidden="true">${i + 1}</span><div><h3>${esc(s.title)}</h3><p>${esc(s.text)}</p></div></li>`).join("")}</ol></div>
+    <div class="promo-screen-pair">${art("care", t.todayImageAlt)}${art("history", howImages[1].imageAlt)}</div>
+  </div></section>
+  <section class="wrap promo-features" id="features"><header class="promo-section-heading"><p class="eyebrow">Lilora</p><h2>${esc(t.featuresTitle)}</h2></header>${featureRows}</section>
+  <section class="promo-free"><div class="wrap promo-free-inner"><header class="promo-section-heading"><h2>${esc(t.freeTitle)}</h2><p>${esc(t.freeIntro)}</p></header><div><dl class="promo-plan-list">${t.plans.map(p => `<div><dt>${esc(p.title)}</dt><dd>${esc(p.text)}</dd></div>`).join("")}</dl><p class="promo-pricing-note">${esc(t.pricingNote)}</p></div></div></section>
+  {{HOME_EDITORIAL}}
+  <section class="wrap promo-faq"><h2>${esc(t.faqTitle)}</h2><div>${t.faq.map(f => `<details><summary>${esc(f.question)}</summary><p>${esc(f.answer)}</p></details>`).join("")}<a class="text-link" href="${home}support/">${esc(t.supportLink)} <span aria-hidden="true">→</span></a></div></section>
+  <section class="promo-band"><div class="wrap promo-band-inner"><div><h2>${esc(t.closingTitle)}</h2><p>${esc(t.closingText)}</p>${cta("closing")}<p class="promo-status">${esc(t.status)}</p></div><figure class="promo-qr"><img src="/assets/brand/qr/${lang}-home.svg" width="256" height="256" alt="${esc(t.qrAlt)}" loading="lazy"><figcaption>${esc(t.qrCaption)}</figcaption></figure></div></section>
+  </div>`;
+  writeFileSync(`pages/home/${lang}.md`, body + "\n");
+  metadata[lang] = { title: t.title, description: t.dek };
+}
+writeFileSync("pages/home/meta.json", JSON.stringify(metadata, null, 2) + "\n");
+console.log(`Prepared ${Object.keys(copy).length} localized home pages.`);

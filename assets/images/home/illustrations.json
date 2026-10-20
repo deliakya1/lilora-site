@@ -1,0 +1,233 @@
+[
+  {
+    "name": "window-hero-v1",
+    "tool": "OpenAI built-in image_gen",
+    "date": "2026-10-20",
+    "attempts": 1,
+    "prompt": "Natural window light on a Monstera and rubber plant in a quiet warm home; no people, text or devices.",
+    "usedOn": "Six home pages; share cards and print materials",
+    "originalSha256": "878a34268085fc3183cc05c26d3613e975ed23034940006116eed101e9ce2a54",
+    "variants": [
+      {
+        "file": "/assets/images/home/window-hero-v1-320.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 13194,
+        "sha256": "ac9f46d822bd007a5540124c31b3f0a2df48a019c38004a50242de6b05c3b5b8"
+      },
+      {
+        "file": "/assets/images/home/window-hero-v1-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 37754,
+        "sha256": "fbd3757b31eaa4347f6262c0f937b1ef5c8972af04d31d0bcffe6bd5960d0d73"
+      },
+      {
+        "file": "/assets/images/home/window-hero-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 70046,
+        "sha256": "4e3f9be1612c9897992700ac7f55e164701f0f30b99e8468e31e8ac91b0f11b4"
+      },
+      {
+        "file": "/assets/images/home/window-hero-v1-1280.webp",
+        "width": 1280,
+        "height": 853,
+        "bytes": 106728,
+        "sha256": "ed9bc6cef6bdb34bf6d49b605c6af9fb01fedc3919811edcda0b0329903310db"
+      }
+    ]
+  },
+  {
+    "name": "care-corner-v1",
+    "tool": "OpenAI built-in image_gen",
+    "date": "2026-10-20",
+    "attempts": 1,
+    "prompt": "A young potted Monstera beside a blue watering can on a wooden table in natural window light.",
+    "usedOn": "Six home pages: reminders section",
+    "originalSha256": "d9cad7b9a6938a22188c4d19fc2193cfdac2dc5117372c59bfb38a77fe111b8f",
+    "variants": [
+      {
+        "file": "/assets/images/home/care-corner-v1-320.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 10788,
+        "sha256": "54a9e45fb35670bddfc533ff071b9c59e6a82bf01bfbcaae39e1fceb8f6acfc2"
+      },
+      {
+        "file": "/assets/images/home/care-corner-v1-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 26618,
+        "sha256": "3ec49441d352598b90f2e64d1fb843bf9c03be567dba8f1b3aa72f65128c45ac"
+      },
+      {
+        "file": "/assets/images/home/care-corner-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 46694,
+        "sha256": "d8e7e8be311250fc146b18233238f0eb84ed495d7866274b2ad9775398fc5d0b"
+      }
+    ]
+  },
+  {
+    "name": "leaf-study-v1",
+    "tool": "OpenAI built-in image_gen",
+    "date": "2026-10-20",
+    "attempts": 1,
+    "prompt": "Close view of naturally attached rubber-plant leaves in a quiet warm home.",
+    "usedOn": "Six home pages: care history section",
+    "originalSha256": "079fd9d19a543f522036dde92f56af4f87c47495bf8b38c12cfa750a4c37befe",
+    "variants": [
+      {
+        "file": "/assets/images/home/leaf-study-v1-320.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 8406,
+        "sha256": "2a3248b513e1d4a3d032a6f4d865ade3404af64cfa1218012987d147b1551e3e"
+      },
+      {
+        "file": "/assets/images/home/leaf-study-v1-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 22336,
+        "sha256": "6cdb47c59048b532a90efac25b03aafe1c3185d71c294488813ea825cdf47c25"
+      },
+      {
+        "file": "/assets/images/home/leaf-study-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 42580,
+        "sha256": "5277f6f2c0c3bcb7a9eb7707d20402f52dbeb811dbcc2be42225d1ae165b3776"
+      }
+    ]
+  },
+  {
+    "name": "plant-shelf-v1",
+    "tool": "OpenAI built-in image_gen",
+    "date": "2026-10-20",
+    "attempts": 1,
+    "prompt": "Pothos and rubber plants in chalk and terracotta pots on a low oak shelf.",
+    "usedOn": "Six home pages: plants and rooms section",
+    "originalSha256": "5056a319bf00628f76809ea1a3432f48934319b60b9f319b2f79e8b59e858c2e",
+    "variants": [
+      {
+        "file": "/assets/images/home/plant-shelf-v1-320.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 10130,
+        "sha256": "1810affe7d12052bd7b6debf5c3f1b91f8b443b48f505d8170505e6e9f989aab"
+      },
+      {
+        "file": "/assets/images/home/plant-shelf-v1-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 30232,
+        "sha256": "2c78224555658c9003538e2f3109a178bec128c2eefd9bccd51c81ae33fad268"
+      },
+      {
+        "file": "/assets/images/home/plant-shelf-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 59350,
+        "sha256": "3a6123e8740390d72979c8dc87b69196bfaf71a559cffde976817d517ad3530e"
+      }
+    ]
+  },
+  {
+    "name": "shared-table-v1",
+    "tool": "OpenAI built-in image_gen",
+    "date": "2026-10-20",
+    "attempts": 1,
+    "prompt": "A potted rubber plant and two plain ceramic mugs on a shared wooden table beside a window.",
+    "usedOn": "Six home pages: shared care section",
+    "originalSha256": "7d4e93cac6ed11e602dc0a3bafed910a22227c35d162be94ce00ab2ed28624d6",
+    "variants": [
+      {
+        "file": "/assets/images/home/shared-table-v1-320.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 12862,
+        "sha256": "f9db30a5718cf8f34898b1f0a86b8a8949cd5321b3f1f2bd8fe663722e028c6b"
+      },
+      {
+        "file": "/assets/images/home/shared-table-v1-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 32240,
+        "sha256": "d7a23c55691d22973cdf172de21f8d8fd5b0170e61c305bc3e16b98383a61089"
+      },
+      {
+        "file": "/assets/images/home/shared-table-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 57306,
+        "sha256": "aaea538c0d99b585d2c480d4bf14b0cb500704e77d941d1ac6f5d64382bee90f"
+      }
+    ]
+  },
+  {
+    "name": "notebook-404-v1",
+    "tool": "OpenAI built-in image_gen",
+    "date": "2026-10-20",
+    "attempts": 1,
+    "prompt": "Herbarium-style ink and restrained watercolor illustration of a potted pothos on warm Paper, without labels or text.",
+    "usedOn": "404 recovery page",
+    "originalSha256": "6e99ea4860694f818e35621cfe7660f136874cbfd9352c340f71d4e42234ed9d",
+    "variants": [
+      {
+        "file": "/assets/images/home/notebook-404-v1-320.webp",
+        "width": 320,
+        "height": 213,
+        "bytes": 5676,
+        "sha256": "05df5ae9a516fc8430810f09c02fbfa42f3d2628011f36d1a94dfbe77702e0f7"
+      },
+      {
+        "file": "/assets/images/home/notebook-404-v1-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 17564,
+        "sha256": "1e316a79e918ca1ac5c91b9e6ca7a6348bc0961824f01f5feb63fb3a4e5038f7"
+      },
+      {
+        "file": "/assets/images/home/notebook-404-v1-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 36496,
+        "sha256": "0a0a06e25704e1ffff3cb6cdcfc929cd6beb7fda113dae21c7f79e98c0710652"
+      }
+    ]
+  },
+  {
+    "name": "download-window-v1",
+    "tool": "OpenAI built-in image_gen",
+    "date": "2026-10-20",
+    "attempts": 1,
+    "prompt": "Portrait of rubber plant and pothos beside an oak stool and linen curtain in natural window light.",
+    "usedOn": "Six download pages",
+    "originalSha256": "fc7441d28fd101ee9a41ad1e855541e3c20527dd3dfb7958d3e1d5ba624bbd95",
+    "variants": [
+      {
+        "file": "/assets/images/home/download-window-v1-320.webp",
+        "width": 320,
+        "height": 480,
+        "bytes": 22472,
+        "sha256": "e371d49ce51e594716903321bc55d61822a2bb5045b9b14b8faa91f3d5eb0619"
+      },
+      {
+        "file": "/assets/images/home/download-window-v1-640.webp",
+        "width": 640,
+        "height": 960,
+        "bytes": 63334,
+        "sha256": "9420133d241c64e6ab3acff82d4924a3c8aff725c08b2470d9e798448f470935"
+      },
+      {
+        "file": "/assets/images/home/download-window-v1-960.webp",
+        "width": 960,
+        "height": 1440,
+        "bytes": 117990,
+        "sha256": "9c2927204f49d809d6943a59ff3a617edb3b240f3d1ac12a5e1949d075b3d8ed"
+      }
+    ]
+  }
+]

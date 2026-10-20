@@ -1,26 +1,26 @@
 {
-  "en": {
-    "title": "Your plants, a little closer.",
-    "description": "A quiet place for your house plants. Keep their stories, remember their care, and grow together."
-  },
   "tr": {
-    "title": "Bitkilerine biraz<br>daha yakın.",
-    "description": "Ev bitkilerin için sakin bir günlük. Hikâyelerini sakla, bakımlarını hatırla, birlikte büyüyün."
+    "title": "Birlikte yaşadığın bitkiler, ortak bir defter.",
+    "description": "Hangi bitki nerede, en son kim kontrol etti, ne zaman sulandı? Fotoğrafları, notları ve bakım geçmişini Lilora’da bir arada tut."
+  },
+  "en": {
+    "title": "A shared notebook for your plants.",
+    "description": "Which room, who last checked, when it was watered. Keep your plants’ photos, notes and care history together in Lilora."
   },
   "es": {
-    "title": "Tus plantas, un poco más cerca.",
-    "description": "Un espacio tranquilo para tus plantas de interior. Guarda sus historias, recuerda sus cuidados y creced juntos."
+    "title": "Las plantas de casa, en un cuaderno compartido.",
+    "description": "En qué habitación están, quién las revisó y cuándo se regaron. Reúne las fotos, las notas y el historial de cuidados de tus plantas en Lilora."
   },
   "de": {
-    "title": "Deinen Pflanzen ein Stück näher.",
-    "description": "Ein ruhiger Ort für deine Zimmerpflanzen. Bewahre ihre Geschichten, behalte ihre Pflege im Blick und wachst gemeinsam."
+    "title": "Ein gemeinsames Notizbuch für eure Pflanzen.",
+    "description": "In welchem Zimmer, zuletzt von wem geprüft und wann gegossen? Lilora hält Fotos, Notizen und Pflegeeinträge eurer Pflanzen zusammen."
   },
   "pt": {
-    "title": "Suas plantas, um pouco mais perto.",
-    "description": "Um espaço tranquilo para suas plantas de casa. Guarde suas histórias, lembre dos cuidados e cresçam juntos."
+    "title": "As plantas da casa, num caderno compartilhado.",
+    "description": "Em qual cômodo, quem conferiu por último e quando recebeu água. Reúna fotos, anotações e o histórico de cuidados das suas plantas no Lilora."
   },
   "fr": {
-    "title": "Vos plantes, un peu plus près.",
-    "description": "Un espace paisible pour vos plantes d’intérieur. Gardez leur histoire, suivez leurs soins et grandissez ensemble."
+    "title": "Les plantes de la maison, un carnet partagé.",
+    "description": "Dans quelle pièce, vérifiée par qui, arrosée quand ? Gardez les photos, les notes et l’historique d’entretien de vos plantes au même endroit, dans Lilora."
   }
 }
