@@ -324,3 +324,93 @@ unchanged. Both card layouts, keyboard focus and the shared-care destination wer
 checked at 320/1440px. Build checks cover links, schema, canonical/hreflang and sitemap.
 The public HTTPS probe still fails at the environment gateway with CONNECT 403;
 this is not the public site's HTTP status. Existing GitHub Pages deployment only.
+
+## Prompt 01 — 20 October 2026: legal and support corrections
+
+Source branch: `codex/site-01-legal`, based on clean `main` `c8c0254`.
+No open PRs or remote `codex/site-*` branches existed at the ownership check.
+This prompt owns the two privacy and two support pages and editorial Markdown
+text corrections; the existing build generated the affected articles and hubs.
+Global templates, CSS files, language logic and manifest metadata remain owned
+by prompt 03. The existing GitHub Pages route is retained.
+
+Privacy now has one dated update, seven plain summary points, the controller,
+separate KVKK/GDPR rights and complaint routes, purpose/data/legal-basis and
+retention tables, and a provider-by-provider transfer table. Both languages have
+matching section anchors, including `#rights`, `#rights-kvkk`, `#rights-gdpr`,
+`#retention` and `#international-transfers`. Contact is last. Tables have captions,
+scoped headers, a visible horizontal-scroll hint and keyboard-focusable overflow
+regions. Styles are local to the owned privacy documents.
+
+Read-only verification on 20 October 2026 confirmed the verified `lilora.app`
+Resend sending domain, sending enabled, tracking off, and `eu-west-1`; both
+Supabase projects report `eu-central-1`. App labels, AI permission text and the
+09:00 device-local reminder implementation were read against app `main`
+`e67a024`. The app status still records build 12 awaiting review with manual
+release. No public availability is inferred.
+
+Sources checked: [Resend GDPR](https://resend.com/security/gdpr),
+[Resend DPA](https://resend.com/legal/dpa),
+[Supabase DPA](https://supabase.com/legal/dpa),
+[Supabase plan retention](https://supabase.com/pricing),
+[Pl@ntNet API terms](https://my.plantnet.org/terms_of_use),
+[KVKK rights/application guidance](https://www.kvkk.gov.tr/Icerik/6938/Kurumumuza-Yapilan-Sikayetlerin-Usul-Sartlarina-Iliskin-Kamuoyu-Duyurusu),
+[EDPB rights](https://www.edpb.europa.eu/sme/be-compliant/respect-individuals-rights_en),
+[EDPB legal bases](https://www.edpb.europa.eu/sme/be-compliant/process-personal-data-lawfully_en),
+[GitHub privacy](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement),
+[Google transfers](https://policies.google.com/privacy/frameworks),
+[Google retention](https://support.google.com/analytics/answer/7667196),
+[Apple privacy](https://www.apple.com/legal/privacy/en-ww/) and
+[Namecheap privacy](https://www.namecheap.com/legal/general/privacy-policy/).
+Resend states US storage despite Ireland sending, 30-day email/log retention on
+standard plans, EU SCCs/DPF, and refusal of Türkiye-specific standard contracts.
+Pl@ntNet receives JPEG bytes and language from the current adapter, not image URLs.
+No claim of EU-only processing, Supabase DPF certification or KVKK contracts is made.
+
+Owner follow-up: confirm the proposed processing legal bases. Purchase fulfillment
+uses contract; fraud prevention is separate legitimate-interest processing, following
+the EDPB distinction. Optional identification permission is described by the actual
+app explanation, without inventing legal-transfer consent. Resolve KVKK Art. 9
+routine-transfer grounds, provide a postal address for written requests, decide
+whether GDPR Art. 27 representation is required, and review the 4+ store rating
+alongside the unchanged under-13 audience statement. Legal review is recommended
+before broad launch; drafting is not legal advice.
+
+Verification limits: no authenticated Chrome/GA dashboard tool is exposed here.
+The tools do not expose Supabase Auth SMTP configuration, current billing-plan/log
+retention settings or GA4 property retention. Thus SMTP in each project, effective
+Supabase operational/auth log durations and the GA4 setting need dashboard checks.
+The policy describes plan/configuration-dependent retention without assumed numbers.
+No dashboard settings changed. The production HTTPS probe is blocked by the
+execution gateway's CONNECT 403; this is not the site's HTTP status. Deployment
+and any direct production-page checks must be reported separately.
+
+Support now matches the actual identification entry and purchase route, 09:00 local
+reminders, language selection, DELETE/SİL confirmation, subscription cancellation
+and permanent household-wide plant deletion. Both languages link to privacy rights.
+Shared-care titles use sentence case; Turkish uses the sen voice; snoozing creates
+no care entry to annotate. Drafts use the requested outcome/identification terms;
+the watering guide is metric first. Editorial research dates are unchanged.
+
+Prompt 03 handoff: replace remaining `tanımlama` in the two comparison descriptions
+in `editorial/manifest.json`; align the generated diagram's outcome labels in
+`scripts/shared-care-diagram.mjs`; implement the owner-confirmed NO for automatic
+first-visit redirects with the planned suggestion/dropdown language controls. Those
+paths were not rewritten by prompt 01.
+
+Validation: `npm run check` passes build plus six static tests, including links,
+metadata, schema, sitemap and availability. All seven existing `scripts/*.cjs`
+suites are required; responsive (84), compact consent (36), consent lifecycle,
+failed-storage consent, language (46), 404 (12) and article contents (84) cover the
+site. The default contents run and isolated default rerun timed out on a native
+no-JavaScript anchor click. All 84 checks passed using `CHROMIUM_PATH` with a
+Chromium wrapper enabling the system reduced-motion preference. Targeted native
+anchor checks passed with both baseline and current HTML; no repository test or
+assertion was changed. The default-mode timing issue remains a prompt 03 test
+harness follow-up. The four legal/support
+pages were visually inspected at 390/1440px; eight additional layout checks verify
+anchors, table keyboard scrolling, enlarged text and zero third-party requests.
+CI impact: one coherent PR/squash publication through the existing Pages pipeline;
+no workflow, hosting, DNS, app, backend, billing or store change.
+
+<!-- site-prompt-01: done -->
