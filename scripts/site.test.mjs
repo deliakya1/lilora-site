@@ -53,3 +53,21 @@ test('published short answers retain Markdown source links as usable citations',
  }
  assert.ok(citations>=2,'both watering translations contain source citations');
 });
+
+test('related reading follows editorial priority with valid distinct destinations',()=>{
+ const slugs=new Set(content.map(a=>a.slug));
+ for(const article of content){
+  const priority=article.related||[];
+  assert.equal(new Set(priority).size,priority.length,'duplicate recommendation');
+  for(const slug of priority){assert.ok(slugs.has(slug),`unknown recommendation ${slug}`);assert.notEqual(slug,article.slug);}
+  for(const lang of ['tr','en']){
+   const prefix=lang==='en'?'en/':'';
+   const path=prefix+(article.type==='comparison'?'compare/':'guides/')+article.slug+'/index.html';
+   const related=readFileSync(path,'utf8').split('<section class="related">')[1];
+   const links=[...related.matchAll(/<article class="story-card"><a href="([^"]+)"/g)].map(x=>x[1]);
+   const expected=priority.slice(0,3).map(slug=>{const a=content.find(x=>x.slug===slug);return '/'+prefix+(a.type==='comparison'?'compare/':'guides/')+slug+'/';});
+   assert.deepEqual(links.slice(0,expected.length),expected,path);
+   assert.equal(new Set(links).size,links.length);assert.equal(links.length,Math.min(3,content.length-1));
+  }
+ }
+});

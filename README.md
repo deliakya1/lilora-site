@@ -301,3 +301,26 @@ availability assertions. Both citation layouts and focus were checked at 320 and
 this environment's CONNECT 403 gateway; that response is not the site's status.
 CI impact: existing GitHub Pages build/deploy only. Consent, GA configuration,
 language selection, expandable contents, hosting and security settings are unchanged.
+
+## Maintenance — 20 October 2026: honor related-reading priority
+
+Started from clean website `main` commit `e09fa71`; no concurrent edits or additional
+local skills were present. The recommendation builder treated every listed related
+article as equally ranked, retaining publication order instead of editorial order.
+Consequently, the watering guide's first recommendation, shared plant care, was
+omitted from the three published cards. The builder now honors manifest order,
+excludes the current article, and fills remaining slots in publication order.
+Regression checks verify published priorities in both languages and reject unknown,
+duplicate or self-referencing recommendations.
+
+Changed public pages:
+- https://lilora.app/guides/watering-houseplants/
+- https://lilora.app/en/guides/watering-houseplants/
+
+The original editorial choices, care/product claims, dates, imagery and metadata
+are unchanged. No new factual content or launch claim was added. Consent, GA ID
+`G-2CYS6B75ET`, denial safeguards, language selection and expandable contents remain
+unchanged. Both card layouts, keyboard focus and the shared-care destination were
+checked at 320/1440px. Build checks cover links, schema, canonical/hreflang and sitemap.
+The public HTTPS probe still fails at the environment gateway with CONNECT 403;
+this is not the public site's HTTP status. Existing GitHub Pages deployment only.
