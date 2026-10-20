@@ -1,0 +1,35 @@
+{
+  "slug": "indoor-plant-light-guide",
+  "type": "guide",
+  "published": "2026-10-16",
+  "reviewed": "2026-10-16",
+  "sources": [
+    {
+      "name": "University of Minnesota Extension",
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/lighting-for-indoor-plants"
+    },
+    {
+      "name": "University of Maryland Extension",
+      "url": "https://www.extension.umd.edu/resource/lighting-indoor-plants"
+    },
+    {
+      "name": "Missouri Botanical Garden",
+      "url": "https://www.missouribotanicalgarden.org/Portals/0/Kemper%20Gardens/Fact%20Sheets/Houseplants%202022-pdf.pdf"
+    },
+    {
+      "name": "RHS: artificial lighting",
+      "url": "https://www.rhs.org.uk/plants/types/houseplants/artificial-lighting"
+    }
+  ],
+  "related": [
+    "watering-houseplants",
+    "yellow-houseplant-leaves",
+    "when-to-repot-houseplants"
+  ],
+  "en": {
+    "description": "Understand direct sunlight, bright indirect light and low light. Observe your window and choose a position around your plant’s needs."
+  },
+  "tr": {
+    "description": "Doğrudan güneşi, parlak dolaylı ışığı ve az ışığı ayırt et. Pencereyi gözlemle, bitkinin ihtiyacına göre yer seç."
+  }
+}

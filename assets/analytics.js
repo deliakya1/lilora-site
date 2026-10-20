@@ -9,14 +9,8 @@
   const version = 2;
   const denialKey = key + '.denied';
   const lifetime = 180 * 24 * 60 * 60 * 1000;
-  const tr = document.documentElement.lang === 'tr';
-  const t = tr ? {
-    shortIntro:'İzin verirsen Google Analytics ile site kullanımını ölçeriz.', shortAccept:'İzin ver', shortReject:'Reddet', shortPreferences:'Tercihler', title:'Çerez tercihlerin', intro:'Tercihini hatırlamak için gerekli yerel depolamayı kullanırız. İzin verirsen Google Analytics, okunan sayfaları ve uygulama bilgi bağlantılarını anlamamıza yardımcı olur. Reddetsen de site çalışır.',
-    accept:'Analitiğe izin ver', reject:'Analitiği reddet', preferences:'Tercihleri düzenle', footer:'Çerez tercihleri', close:'Kapat', save:'Seçimimi kaydet', necessary:'Gerekli tercih depolaması', necessaryText:'Bu seçimi 180 gün boyunca tarayıcında hatırlar. Reklam veya izleme amacıyla kullanılmaz.', analytics:'İsteğe bağlı analitik', analyticsText:'Google Analytics; sayfa görüntülemelerini, cihaz/tarayıcı bilgilerini ve uygulama bilgi bağlantısı tıklamalarını ölçer. Google reklam sinyalleri ve reklam kişiselleştirmesi kapalıdır.', privacy:'Web sitesi gizlilik açıklaması', withdraw:'Analitik iznini geri al', unavailable:'Tarayıcın normal tercihi saklayamıyor. Seçimin yalnızca bu sayfa veya sekme için geçerli olabilir.', denialUnavailable:'Tarayıcın reddini kaydedemedi. Bu sayfada analitik kapalı. Ayrılmadan veya yeniden yüklemeden önce tarayıcından bu sitenin kayıtlı verilerini temizle.', disabled:'Analitik şu anda yapılandırılmamış; hiçbir Google isteği gönderilmez.', saved:'Tercihin kaydedildi.'
-  } : {
-    shortIntro:'With your permission, Google Analytics measures site usage.', shortAccept:'Allow', shortReject:'Reject', shortPreferences:'Preferences', title:'Your cookie preferences', intro:'We use necessary local storage to remember your choice. If you agree, Google Analytics helps us understand pages read and app information links used. The site works if you decline.',
-    accept:'Allow analytics', reject:'Reject analytics', preferences:'Manage preferences', footer:'Cookie preferences', close:'Close', save:'Save my choice', necessary:'Necessary preference storage', necessaryText:'Remembers this choice in your browser for 180 days. It is not used for advertising or tracking.', analytics:'Optional analytics', analyticsText:'Google Analytics measures page views, device/browser information and app information link clicks. Google advertising signals and ad personalization are disabled.', privacy:'Website privacy explanation', withdraw:'Withdraw analytics consent', unavailable:'Your browser cannot save the usual preference. Your choice may only apply to this page or tab.', denialUnavailable:'Your browser could not save your rejection. Analytics is off on this page. Clear this site’s saved data in your browser before leaving or reloading.', disabled:'Analytics is not configured; no Google requests are sent.', saved:'Your preference was saved.'
-  };
+  const locale = JSON.parse(document.getElementById('site-locale').textContent);
+  const t = locale.cookie;
   let memory = null;
   let storageAvailable = true;
   let started = false;
@@ -115,17 +109,18 @@
     script.src='https://www.googletagmanager.com/gtag/js?id='+id;
     document.head.append(script);
   }
-  const privacy=(tr?'/':'/en/')+'privacy/#website-analytics';
+  const privacy=(locale.language==='tr'?'/':'/'+locale.language+'/')+'privacy/#website-analytics';
   const banner=document.createElement('section');
   banner.className='cookie-banner';banner.setAttribute('aria-label',t.title);
   banner.innerHTML=`<p>${t.shortIntro}</p><div class="cookie-actions"><button type="button" data-action="accept" aria-label="${t.accept}">${t.shortAccept}</button><button type="button" data-action="reject" aria-label="${t.reject}">${t.shortReject}</button><button type="button" data-action="preferences" aria-label="${t.preferences}" aria-haspopup="dialog">${t.shortPreferences}</button></div>`;
   const dialog=document.createElement('dialog');
   dialog.className='cookie-dialog';dialog.setAttribute('aria-labelledby','cookie-dialog-title');dialog.setAttribute('aria-describedby','cookie-dialog-intro');
   dialog.innerHTML=`<div class="cookie-dialog-heading"><p class="eyebrow">lilora</p><button type="button" data-action="close" aria-label="${t.close}">×</button></div><h2 id="cookie-dialog-title" tabindex="-1">${t.title}</h2><p id="cookie-dialog-intro">${t.intro}</p><div class="cookie-category"><label><input type="checkbox" checked disabled> <strong>${t.necessary}</strong></label><p>${t.necessaryText}</p></div><div class="cookie-category"><label><input id="cookie-analytics-choice" type="checkbox" ${configured?'':'disabled'}> <strong>${t.analytics}</strong></label><p>${t.analyticsText}</p>${configured?'':`<p>${t.disabled}</p>`}</div><p class="cookie-storage-message" role="status"></p><p><a href="${privacy}">${t.privacy}</a></p><div class="cookie-actions"><button type="button" data-action="accept">${t.accept}</button><button type="button" data-action="reject">${t.reject}</button><button type="button" data-action="save">${t.save}</button></div><button class="cookie-withdraw" type="button" data-action="withdraw">${t.withdraw}</button>`;
-  const footer=document.createElement('button');footer.type='button';footer.className='cookie-settings';footer.textContent=t.footer;
+  const footer=document.querySelector('.cookie-settings')||document.createElement('button');footer.type='button';footer.className='cookie-settings';footer.textContent=t.footer;
   const status=document.createElement('p');status.className='cookie-status';status.setAttribute('role','status');
   document.body.append(banner,dialog);
-  (document.querySelector('.footer')||document.body).append(footer,status);
+  if(!footer.isConnected)(document.querySelector('.footer')||document.body).append(footer);
+  (document.querySelector('.footer')||document.body).append(status);
   const checkbox=dialog.querySelector('#cookie-analytics-choice');
   function refresh() {
     const preference=read();banner.hidden=!!preference;

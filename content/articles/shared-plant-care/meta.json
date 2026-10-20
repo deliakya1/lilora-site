@@ -1,0 +1,38 @@
+{
+  "slug": "shared-plant-care",
+  "type": "guide",
+  "published": "2026-10-17",
+  "reviewed": "2026-10-17",
+  "diagram": "shared-care",
+  "sources": [
+    {
+      "name": "University of Maryland Extension: watering indoor plants",
+      "url": "https://www.extension.umd.edu/resource/watering-indoor-plants"
+    },
+    {
+      "name": "Illinois Extension: watering",
+      "url": "https://extension.illinois.edu/houseplants/watering"
+    },
+    {
+      "name": "University of Maryland Extension: overwatered indoor plants",
+      "url": "https://extension.umd.edu/resource/overwatered-indoor-plants"
+    },
+    {
+      "name": "RHS: holiday care",
+      "url": "https://www.rhs.org.uk/plants/types/houseplants/holiday-care"
+    }
+  ],
+  "related": [
+    "watering-houseplants",
+    "yellow-houseplant-leaves",
+    "when-to-repot-houseplants"
+  ],
+  "en": {
+    "category": "Shared plant care",
+    "description": "Share plant care with a partner or housemate using clear check and watering records, a simple division of care, and a practical handover before travel."
+  },
+  "tr": {
+    "category": "Birlikte bitki bakımı",
+    "description": "Partneriniz veya ev arkadaşınızla bitki bakımını paylaşın. Kontrol ile sulamayı ayıran kayıtlar, görev paylaşımı ve seyahat öncesi devir planı oluşturun."
+  }
+}

@@ -6,11 +6,11 @@ const base='http://127.0.0.1:4173';
 (async()=>{
  const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',headless:true,args:['--no-sandbox']});
  let checks=0;
- for(const lang of ['en','tr']) for(const width of [320,1440]){
+ for(const lang of ['en','tr','es','de','pt','fr']) for(const width of [320,1440]){
   const context=await browser.newContext({locale:lang==='tr'?'tr-TR':'en-US',viewport:{width,height:850}});const requests=[];const errors=[];
   await context.route(/https:\/\/.*google.*/,route=>{requests.push(route.request().url());return route.fulfill({contentType:'text/javascript',body:''});});
   const page=await context.newPage();page.on('pageerror',e=>errors.push(e.message));
-  const home=lang==='en'?'/en/':'/';
+  const home=lang==='tr'?'/':'/'+lang+'/';
   await page.goto(base+home+'?email=private@example.com#secret');
   assert.equal(requests.length,0);assert.ok(await page.locator('.cookie-banner').isVisible());
   assert.equal(await page.locator('#lilora-google-tag').count(),0);
@@ -41,7 +41,7 @@ const base='http://127.0.0.1:4173';
   events=await page.evaluate(()=>window.dataLayer.map(x=>Array.from(x)));
   assert.equal(events.filter(x=>x[1]==='app_info_click').length,1);assert.equal(events.filter(x=>x[1]==='app_store_click').length,0);assert.equal(events.filter(x=>x[1]==='page_view').length,1);
   await page.reload();await page.waitForFunction(()=>window.dataLayer?.length>=4);assert.equal(await page.evaluate(()=>window.dataLayer.filter(x=>x[1]==='page_view').length),1);
-  await page.goto(base+home+'guides/watering-houseplants/');assert.equal(await page.locator('.cookie-banner').isVisible(),false);assert.equal(await page.locator('#lilora-google-tag').count(),1);
+  await page.goto(base+home+'support/');assert.equal(await page.locator('.cookie-banner').isVisible(),false);assert.equal(await page.locator('#lilora-google-tag').count(),1);
   await page.evaluate(()=>{document.cookie='_ga=owned; path=/';document.cookie='_ga_2CYS6B75ET=owned; path=/';document.cookie='unrelated=keep; path=/';});
   await page.locator('.cookie-settings').click();
   const before=requests.length;
@@ -67,6 +67,6 @@ const base='http://127.0.0.1:4173';
  const b=await tabs.newPage();await b.goto(base+'/');assert.equal(await b.locator('#lilora-google-tag').count(),1);
  await a.locator('.cookie-settings').click();await Promise.all([b.waitForEvent('load'),a.locator('[data-action="withdraw"]').click()]);assert.equal(await b.locator('#lilora-google-tag').count(),0);
  await browser.close();
- const report={localeAndViewportRuns:checks,locales:['en','tr'],widths:[320,1440],tests:['no requests initially or after rejection','equal accept/reject paths','versioned saved preference','native dialog focus containment and Escape restoration','opt-in loads one tag','one pageview per navigation','no duplicate handlers','sanitized page URL','advertising consent denied','withdrawal and owned-cookie cleanup','cross-page persistence','storage-unavailable fallback','cross-tab revocation'],googleRequests:'Intercepted locally; no production analytics hits sent'};
+ const report={localeAndViewportRuns:checks,locales:['en','tr','es','de','pt','fr'],widths:[320,1440],tests:['no requests initially or after rejection','equal accept/reject paths','versioned saved preference','native dialog focus containment and Escape restoration','opt-in loads one tag','one pageview per navigation','no duplicate handlers','sanitized page URL','advertising consent denied','withdrawal and owned-cookie cleanup','cross-page persistence','storage-unavailable fallback','cross-tab revocation'],googleRequests:'Intercepted locally; no production analytics hits sent'};
  fs.mkdirSync('.test-results',{recursive:true});fs.writeFileSync('.test-results/consent-report.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));
 })().catch(e=>{console.error(e);process.exit(1)});

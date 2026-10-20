@@ -1,0 +1,1 @@
+<section class="document-heading wrap"><p class="eyebrow">LILORA</p><h1>Lilora is awaiting App Store review</h1></section><article class="document wrap prose"><p class="availability">Lilora for iPhone and iPad is awaiting App Store review. A public download is not yet available.</p></article>

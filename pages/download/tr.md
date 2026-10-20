@@ -1,0 +1,1 @@
+<section class="document-heading wrap"><p class="eyebrow">LILORA</p><h1>Lilora, App Store incelemesini bekliyor</h1></section><article class="document wrap prose"><p class="availability">iPhone ve iPad için Lilora, App Store incelemesini bekliyor. Henüz herkese açık bir indirme bağlantısı yok.</p></article>

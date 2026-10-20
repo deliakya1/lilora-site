@@ -1,0 +1,39 @@
+{
+  "slug": "yellow-houseplant-leaves",
+  "type": "guide",
+  "published": "2026-10-16",
+  "reviewed": "2026-10-16",
+  "sources": [
+    {
+      "name": "RHS: leaf damage",
+      "url": "https://www.rhs.org.uk/prevention-protection/leaf-damage-on-houseplants"
+    },
+    {
+      "name": "RHS: helping a poorly houseplant",
+      "url": "https://www.rhs.org.uk/plants/types/houseplants/how-to-help-a-poorly-houseplant"
+    },
+    {
+      "name": "University of Maryland Extension",
+      "url": "https://www.extension.umd.edu/resource/diagnose-indoor-plant-problems"
+    },
+    {
+      "name": "Iowa State University Extension",
+      "url": "https://yardandgarden.extension.iastate.edu/faq/what-causes-leaves-my-houseplant-turn-yellow-or-brown-and-drop"
+    },
+    {
+      "name": "RHS: chlorosis",
+      "url": "https://www.rhs.org.uk/problems/chlorosis"
+    }
+  ],
+  "related": [
+    "watering-houseplants",
+    "indoor-plant-light-guide",
+    "when-to-repot-houseplants"
+  ],
+  "en": {
+    "description": "Check leaf patterns, root-zone moisture, light, temperature and pests before changing care for a yellowing houseplant."
+  },
+  "tr": {
+    "description": "Sararan yapraklarda bakımını değiştirmeden önce yaprak desenini, kök nemini, ışığı, sıcaklığı ve zararlı belirtilerini kontrol et."
+  }
+}

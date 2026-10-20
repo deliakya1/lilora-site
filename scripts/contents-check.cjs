@@ -5,7 +5,7 @@ const fs=require('node:fs');
  const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',args:['--no-sandbox']});let checks=0;
  const articles=JSON.parse(fs.readFileSync('editorial/articles.json','utf8'));
  for(const javaScriptEnabled of [true,false])for(const width of [320,390,1440]){
-  const context=await browser.newContext({javaScriptEnabled,viewport:{width,height:900}});
+  const context=await browser.newContext({reducedMotion:'reduce',javaScriptEnabled,viewport:{width,height:900}});
   await context.addInitScript(()=>localStorage.setItem('lilora.cookie-preferences.v2',JSON.stringify({version:2,analytics:false,savedAt:Date.now()})));
   const page=await context.newPage();
   for(const article of articles)for(const lang of ['tr','en']){

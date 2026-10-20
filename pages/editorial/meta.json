@@ -1,0 +1,26 @@
+{
+  "en": {
+    "title": "Editorial approach",
+    "description": "How Lilora researches, writes and updates plant guides and app comparisons."
+  },
+  "tr": {
+    "title": "Yayın ilkeleri",
+    "description": "Lilora bitki rehberlerini ve uygulama karşılaştırmalarını nasıl hazırlar ve günceller?"
+  },
+  "es": {
+    "title": "Criterios editoriales",
+    "description": "Cómo investiga, redacta y actualiza Lilora sus guías de plantas y comparaciones de apps."
+  },
+  "de": {
+    "title": "Redaktionelle Grundsätze",
+    "description": "So recherchiert, schreibt und aktualisiert Lilora Pflanzenratgeber und App-Vergleiche."
+  },
+  "pt": {
+    "title": "Princípios editoriais",
+    "description": "Como o Lilora pesquisa, escreve e atualiza guias de plantas e comparações de apps."
+  },
+  "fr": {
+    "title": "Principes éditoriaux",
+    "description": "Comment Lilora recherche, rédige et met à jour ses guides sur les plantes et ses comparatifs d’apps."
+  }
+}
