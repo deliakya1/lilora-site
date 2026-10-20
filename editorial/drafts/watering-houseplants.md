@@ -8,7 +8,7 @@ Find the plant’s name and look up its moisture preference. Some plants need a 
 
 Write that preference in plain language beside the plant’s name. For example, record the recommended moisture condition rather than copying a number of days. This gives you something to check against when the room, weather, or pot changes.
 
-For many common foliage houseplants, checking the upper inch or two of mix is a useful starting point. Gently insert a finger into an accessible patch, avoiding the stem and obvious roots. Is it wet, lightly moist, or dry? Do not assume a dry surface means the whole pot is dry, or apply the same test depth to every species and container. [University of Maryland Extension](https://extension.umd.edu/resource/watering-indoor-plants)
+For many common foliage houseplants, checking the top 2–5 cm (1–2 in) of mix is a useful starting point. Gently insert a finger into an accessible patch, avoiding the stem and obvious roots. Is it wet, lightly moist, or dry? Do not assume a dry surface means the whole pot is dry, or apply the same test depth to every species and container. [University of Maryland Extension](https://extension.umd.edu/resource/watering-indoor-plants)
 
 ## Use a second clue when the answer is unclear
 

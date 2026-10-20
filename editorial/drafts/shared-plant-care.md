@@ -1,4 +1,4 @@
-# Share Plant Care Without Watering Twice
+# Share plant care without watering twice
 
 Keep one shared record for each plant, distinguish checking from watering, and agree who will handle the next check. Before adding water, read the latest entry and inspect the plant. This gives partners, housemates, and plant sitters a clear way to help without relying on memory.
 
@@ -16,13 +16,13 @@ Decide who normally checks each plant or room, and who steps in when that person
 
 Anyone can notice a problem or help. The useful question is who is handling the next check. If you are both home and about to care for the same plant, say so before starting. A care history can clarify past actions, but it cannot prevent two people acting at the same moment.
 
-## Separate “checked,” “watered,” and “snoozed”
+## Separate “Checked, no water needed”, “Watered” and snoozing
 
 Use a small, consistent vocabulary:
 
-- Checked: someone inspected the plant. Record what they found and whether any water was added.
+- Checked, no water needed: someone inspected the plant and did not add water. Record what they found.
 - Watered: someone actually added water. Record the action after completing it.
-- Snoozed: a reminder was deferred. Add whether the plant was checked or the task was simply postponed. A postponed reminder is not a completed check.
+- Snoozed: a reminder was deferred. Snoozing creates no care entry to annotate. If you inspected the plant, record “Checked, no water needed” or “Watered” according to what you did; postponing alone is not a completed check.
 
 This distinction matters because a reminder's date cannot establish that a plant needs water. Moisture requirements and growing conditions vary, so check the potting mix against the needs of that plant. [University of Maryland Extension: watering indoor plants](https://www.extension.umd.edu/resource/watering-indoor-plants)
 
@@ -60,7 +60,7 @@ Walk through the routine with your helper before departure. Leave these details 
 4. How to water and drain this particular pot
 5. Who to contact if something looks different
 
-Agree on visits separately from watering decisions. Ask the helper to record “checked, no water needed” as readily as “watered.” Mark specialist setups and plants requiring different care clearly.
+Agree on visits separately from watering decisions. Ask the helper to record “Checked, no water needed” as readily as “Watered”. Mark specialist setups and plants requiring different care clearly.
 
 Longer absences may warrant help from someone you trust. The RHS also cautions that holiday watering systems can fail or leave plants too wet, and advises against repotting into a reservoir system solely for a brief trip. [RHS: holiday care](https://www.rhs.org.uk/plants/types/houseplants/holiday-care)
 
@@ -74,11 +74,11 @@ Yes. Agree who handles the next check, use the same record, and log actions clea
 
 ### Should I mark a plant as watered when I only checked it?
 
-No. Record the check and what you found. Reserve “watered” for water actually added; otherwise the next person receives an inaccurate history.
+No. Record “Checked, no water needed” and what you found. Reserve “Watered” for water actually added; otherwise the next person receives an inaccurate history.
 
 ### Does postponing a reminder mean the plant is fine?
 
-No. A postponed reminder says nothing about its condition unless someone inspected it. Record that distinction and arrange the next check.
+No. A postponed reminder says nothing about its condition unless someone inspected it. Snoozing creates no care entry. Arrange the next check; if you inspect the plant, record the actual care outcome separately.
 
 ## Bring the shared record together with Lilora
 

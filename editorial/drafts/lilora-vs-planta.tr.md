@@ -10,13 +10,13 @@ Lilora, bitkileri, fotoğrafları ve bakım kayıtlarını bir arada tutan ortak
 
 Aynı salon bitkisine bakan iki kişiyi düşün. Biri işe gitmeden kontrol ediyor; diğeri akşam bakım gerekip gerekmediğini merak ediyor. Önce okuyabilecekleri bir kayıt ve onu okuma alışkanlığı gerekiyor.
 
-Başka biri program, tanımlama, ışık tahmini ve sorun yaşayan bitki için yönlendirmeyi tek yerde isteyebilir. Bu iki durum farklı seçim soruları doğurur.
+Başka biri program, tanıma, ışık tahmini ve sorun yaşayan bitki için yönlendirmeyi tek yerde isteyebilir. Bu iki durum farklı seçim soruları doğurur.
 
 ## Uygulamalar neler tanımlıyor?
 
-Lilora fotoğraf, not ve bakım geçmişi; isteğe bağlı Pl@ntNet tanımlama önerileri; kontrol hatırlatmaları ve ortak kayıtları olan özel ev sunmayı amaçlar. İlk sürümün kapsamı envanter, bakım ve tanımlamadır; ışık ölçer veya hastalık teşhisi içermez. [Lilora](https://lilora.app/) · [Destek](https://lilora.app/support/)
+Lilora fotoğraf, not ve bakım geçmişi; isteğe bağlı Pl@ntNet tanıma önerileri; kontrol hatırlatmaları ve ortak kayıtları olan özel ev sunmayı amaçlar. İlk sürümün kapsamı envanter, bakım ve tanımadır; ışık ölçer veya hastalık teşhisi içermez. [Lilora](https://lilora.app/) · [Destek](https://lilora.app/support/)
 
-Planta bitki düzenleme, günlük, fotoğraftan tanımlama, kişiselleştirilmiş bakım programları, ışık ölçer ve Dr. Planta yönlendirmesini tanımlar. Care Share, aile ve bitki bakıcısıyla paylaşımı destekler. Erişim özellik ve plana bağlıdır. [Planta resmi özellikleri](https://getplanta.com/)
+Planta bitki düzenleme, günlük, fotoğraftan tanıma, kişiselleştirilmiş bakım programları, ışık ölçer ve Dr. Planta yönlendirmesini tanımlar. Care Share, aile ve bitki bakıcısıyla paylaşımı destekler. Erişim özellik ve plana bağlıdır. [Planta resmi özellikleri](https://getplanta.com/)
 
 ## Hatırlatma ve kayıt farklı soruları yanıtlar
 
@@ -32,9 +32,9 @@ Kimin bitkileri göreceğini, kimin değiştireceğini ve son kaydı nasıl kont
 
 ## Gerçek satın alma teklifini karşılaştır
 
-Lilora ücretsiz elle tür girişi, ilk üç fotoğraf tanımlaması, 10 tanımlamalık paket ve aylık 30 tanımlama içeren Plus seçeneğini açıklar. Yerel fiyat Apple ekranında gösterilir. Yayın beklenirken karşılaştırılabilecek doğrulanmış herkese açık satın alma fiyatı yoktur. [Lilora satın almaları](https://lilora.app/support/)
+Lilora ücretsiz elle tür girişi, ilk üç fotoğraftan bitki tanıma hakkı, 10 tanıma hakkı içeren paket ve aylık 30 tanıma içeren Plus seçeneğini açıklar. Yerel fiyat Apple ekranında gösterilir. Yayın beklenirken karşılaştırılabilecek doğrulanmış herkese açık satın alma fiyatı yoktur. [Lilora satın almaları](https://lilora.app/support/)
 
-Planta’nın ABD listesinde bir aylık 7,99 ve 9,99 ABD doları; 12 aylık 35,99 ve 47,99 ABD doları örnekleri bulunur. Bunlar herkese sunulacağı garanti edilen teklifler değildir. Tanımlama ve ışık ölçer premium özellikler arasındadır. [App Store](https://apps.apple.com/us/app/planta-plant-garden-care/id1410126781) · [Ücretsiz ve premium erişim](https://support.getplanta.com/do-planta-offer-a-free-trial-of-premium/)
+Planta’nın ABD listesinde bir aylık 7,99 ve 9,99 ABD doları; 12 aylık 35,99 ve 47,99 ABD doları örnekleri bulunur. Bunlar herkese sunulacağı garanti edilen teklifler değildir. Tanıma ve ışık ölçer premium özellikler arasındadır. [App Store](https://apps.apple.com/us/app/planta-plant-garden-care/id1410126781) · [Ücretsiz ve premium erişim](https://support.getplanta.com/do-planta-offer-a-free-trial-of-premium/)
 
 Toplam ücret, yenileme süresi ve dahil özellikleri ödeme ekranında oku. Aylık eşdeğer tutarı peşin çekilen tutarla karıştırma. Planta abonelik döneminin peşin tahsil edildiğini açıklar. [Faturalandırma](https://support.getplanta.com/how-are-subscriptions-billed/)
 
@@ -48,7 +48,7 @@ Toplam ücret, yenileme süresi ve dahil özellikleri ödeme ekranında oku. Ayl
 
 ### Lilora Planta’nın tüm özelliklerinin yerini alır mı?
 
-Hayır. Açıklanan ilk sürüm bitki envanteri, ortak kayıtlar, hatırlatmalar ve isteğe bağlı tanımlamaya odaklanır.
+Hayır. Açıklanan ilk sürüm bitki envanteri, ortak kayıtlar, hatırlatmalar ve isteğe bağlı tanımaya odaklanır.
 
 ### Birden fazla kişi bakım yapabilir mi?
 
