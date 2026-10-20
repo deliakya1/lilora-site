@@ -1,56 +1,219 @@
-import {sharedCareDiagram} from './shared-care-diagram.mjs';
-import {readFileSync, writeFileSync, mkdirSync, readdirSync} from 'node:fs';
-import {dirname} from 'node:path';
-const settings=JSON.parse(readFileSync('editorial/settings.json','utf8'));
-const articles=JSON.parse(readFileSync('editorial/articles.json','utf8'));
-const origin=settings.origin;
-const competitors=JSON.parse(readFileSync('editorial/competitors.json','utf8'));
-const matrix=lang=>`<section class="wrap comparison-matrix"><h2>${lang==='en'?'Five apps, different care tools':'Beş uygulama, farklı bakım araçları'}</h2><p>${lang==='en'?'Official descriptions checked on 16 October 2026 in the U.S. storefront. Desk research by Lilora, not hands-on testing. All five listings describe free downloads with in-app purchases. Availability and offers vary; read your purchase screen.':'Resmi açıklamalar 16 Ekim 2026 tarihinde ABD mağazası için kontrol edildi. Lilora tarafından kaynak araştırmasıdır; uygulamalı test değildir. Beş liste de uygulama içi satın alımlı ücretsiz indirme tanımlar. Erişim ve teklifler değişir; ödeme ekranını oku.'}</p><div class="table-wrap" tabindex="0" role="region" aria-label="${lang==='en'?'Plant app feature comparison':'Bitki uygulaması özellik karşılaştırması'}"><table><caption>${lang==='en'?'Developer-described features and limitations':'Geliştiricilerin açıkladığı özellikler ve sınırlar'}</caption><thead><tr><th scope="col">${lang==='en'?'App':'Uygulama'}</th><th scope="col">${lang==='en'?'Documented tools':'Belgelenen araçlar'}</th><th scope="col">${lang==='en'?'Before choosing':'Seçmeden önce'}</th></tr></thead><tbody>${competitors.map(a=>`<tr><th scope="row"><a href="${a.store}">${a.name}</a></th><td>${a[lang].features}</td><td>${a[lang].note} <a href="${a.source}">${lang==='en'?'Official source':'Resmi kaynak'}</a></td></tr>`).join('')}</tbody></table></div></section>`;
-const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const json=s=>JSON.stringify(s).replace(/</g,'\\u003c');
-const labels={en:{home:'/en/',journal:'Journal',guides:'Care guides',compare:'App comparisons',about:'Editorial approach',support:'Support',privacy:'Privacy',read:'Read the guide',sources:'Sources and further reading',related:'Keep reading',contents:'On this page',answer:'A short answer',updated:'Reviewed',by:'Published by Lilora',app:'A notebook for shared care',cta:'Meet Lilora',status:'Lilora for iPhone and iPad is awaiting App Store review. A public download is not yet available.',note:'A reminder is a reason to check your plant, not an instruction to water it.',skip:'Skip to content'},tr:{home:'/',journal:'Günlük',guides:'Bakım rehberleri',compare:'Uygulama karşılaştırmaları',about:'Yayın ilkeleri',support:'Destek',privacy:'Gizlilik',read:'Rehberi oku',sources:'Kaynaklar ve ek okuma',related:'Okumaya devam et',contents:'Bu sayfada',answer:'Kısa yanıt',updated:'Gözden geçirildi',by:'Yayıncı: Lilora',app:'Birlikte bakım için bir günlük',cta:'Lilora’yı tanı',status:'iPhone ve iPad için Lilora, App Store incelemesini bekliyor. Henüz herkese açık bir indirme bağlantısı yok.',note:'Hatırlatma, bitkini kontrol etmek içindir; hemen sulamak için değil.',skip:'İçeriğe geç'}};
-const prefix=lang=>lang==='en'?'/en/':'/';
-const route=(a,lang)=>`${prefix(lang)}${a.type==='comparison'?'compare':'guides'}/${a.slug}/`;
-const routes=[];
-const write=(path,html)=>{mkdirSync(dirname('.'+path),{recursive:true});writeFileSync('.'+path,html)};
-const cta=lang=>{const l=labels[lang];return `<aside class="app-note"><p class="eyebrow">lilora</p><h2>${l.app}</h2><p>${l.note}</p><p class="availability">${l.status}</p><a class="button" data-analytics-cta="app-info" href="${l.home}support/">${l.cta} <span aria-hidden="true">→</span></a></aside>`};
-function page({lang='en',path,title,description,body,alternate,type='website',image='/assets/icon.png',schema=[]}){
- const l=labels[lang],home=l.home,other=lang==='en'?'tr':'en';
- routes.push(path);
- const alternates=alternate?`<link rel="alternate" hreflang="${lang}" href="${origin}${path}"><link rel="alternate" hreflang="${other}" href="${origin}${alternate}"><link rel="alternate" hreflang="x-default" href="${origin}${lang==='tr'?path:alternate}">`:'';
- return `<!doctype html><html lang="${lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${escape(title)} — Lilora</title><meta name="description" content="${escape(description)}"><link rel="canonical" href="${origin}${path}">${alternates}<meta name="theme-color" content="#33613F"><link rel="icon" href="/assets/icon.png"><link rel="stylesheet" href="/assets/site.css"><link rel="stylesheet" href="/assets/editorial.css"><meta property="og:type" content="${type}"><meta property="og:site_name" content="Lilora"><meta property="og:title" content="${escape(title)}"><meta property="og:description" content="${escape(description)}"><meta property="og:url" content="${origin}${path}"><meta property="og:image" content="${origin}${image}"><meta property="og:locale" content="${lang==='en'?'en_US':'tr_TR'}"><meta name="twitter:card" content="summary_large_image">${schema.map(x=>`<script type="application/ld+json">${json(x)}</script>`).join('')}<script defer src="/assets/language.js"></script><script defer src="/assets/analytics-config.js"></script><script defer src="/assets/analytics.js"></script></head><body><a class="skip" href="#main">${l.skip}</a><header class="header wrap"><a class="brand" href="${home}" aria-label="Lilora"><img src="/assets/icon.png" width="40" height="40" alt="">lilora</a><nav aria-label="${lang==='en'?'Main navigation':'Ana menü'}"><a href="${home}journal/">${l.journal}</a><a href="${home}guides/">${l.guides}</a><a href="${home}compare/">${l.compare}</a><a href="${home}support/">${l.support}</a><a class="language" href="${alternate||labels[other].home+'journal/'}" lang="${other}" hreflang="${other}">${other==='en'?'English':'Türkçe'}</a></nav></header><main id="main">${body}</main><footer class="footer wrap"><div><a class="footer-brand" href="${home}">lilora</a><p>${l.note}</p></div><div class="footer-links"><a href="${home}editorial/">${l.about}</a><a href="${home}support/">${l.support}</a><a href="${home}privacy/">${l.privacy}</a><a href="mailto:support@lilora.app">support@lilora.app</a></div><p class="copyright">© 2026 Umut OREN</p></footer></body></html>`;
-}
-// Respect editorial priority before filling unused slots in publication order.
-const relatedArticles=article=>{
- const priority=article.related||[];
- const rank=slug=>{const index=priority.indexOf(slug);return index<0?priority.length:index;};
- return articles.filter(candidate=>candidate.slug!==article.slug)
-  .sort((left,right)=>rank(left.slug)-rank(right.slug)).slice(0,3);
+import {
+  readFileSync,
+  writeFileSync,
+  mkdirSync,
+  readdirSync,
+  existsSync,
+} from "node:fs";
+import { dirname } from "node:path";
+import { sharedCareDiagram } from "./shared-care-diagram.mjs";
+import {
+  languages,
+  names,
+  prefix,
+  locales,
+  page,
+  escape,
+  json,
+  formatDate,
+  articlePath,
+  plantPath,
+  origin,
+} from "./layout.mjs";
+const articles = JSON.parse(readFileSync("editorial/articles.json", "utf8"));
+const plants = JSON.parse(readFileSync("editorial/plants.json", "utf8"));
+const routes = [];
+const staticSlugs = readdirSync("pages").filter((p) =>
+  existsSync(`pages/${p}/meta.json`),
+);
+const staticPath = (slug, l) => prefix(l) + (slug === "home" ? "" : `${slug}/`);
+const counterparts = (item, route) =>
+  Object.fromEntries(
+    languages.filter((l) => item[l]).map((l) => [l, route(item, l)]),
+  );
+const write = (path, html, alternates) => {
+  const file = path === "404.html" ? path : "." + path + "index.html";
+  mkdirSync(dirname(file), { recursive: true });
+  writeFileSync(file, html);
+  if (path !== "404.html") routes.push({ path, alternates });
 };
-const card=(a,lang)=>{const c=a[lang]||a.en,actual=a[lang]?lang:'en';return `<article class="story-card"><a href="${route(a,actual)}">${a.image?`<img src="${c.image||a.image}" width="${a.imageWidth||537}" height="${a.imageHeight||566}" alt="${escape(c.imageAlt||a.en.imageAlt||'')}" loading="lazy" decoding="async">`:''}<p class="eyebrow">${a.type==='comparison'?labels[lang].compare:labels[lang].guides}${actual!==lang?' · English':''}</p><h2>${escape(c.title)}</h2></a><p>${escape(c.description)}</p><span class="reading-time">${Math.max(2,Math.ceil(JSON.stringify(c.sections).split(/\s+/).length/200))} ${lang==='en'?'min read':'dk okuma'}</span></article>`};
-for(const a of articles){
- for(const lang of ['en','tr']){
-  if(!a[lang])continue;
-  const c=a[lang],l=labels[lang],path=route(a,lang),section=a.type==='comparison'?'compare':'guides',sectionLabel=a.type==='comparison'?l.compare:l.guides;
-  const schema=[{'@context':'https://schema.org','@type':'Article',headline:c.title,description:c.description,inLanguage:lang,datePublished:a.published,dateModified:a.reviewed,mainEntityOfPage:origin+path,author:{'@type':'Organization',name:'Lilora',url:origin+l.home+'editorial/'},publisher:{'@type':'Organization',name:'Lilora',url:origin},...(a.image?{image:origin+(c.image||a.image)}:{}),citation:a.sources.map(s=>s.url)}, {'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[{name:'Lilora',item:origin+l.home},{name:sectionLabel,item:origin+l.home+section+'/'},{name:c.title,item:origin+path}].map((x,i)=>({'@type':'ListItem',position:i+1,...x}))}];
-  const body=`<div class="wrap"><nav class="breadcrumbs" aria-label="${lang==='en'?'Breadcrumb':'Sayfa yolu'}"><a href="${l.home}">Lilora</a><span aria-hidden="true">/</span><a href="${l.home}${section}/">${sectionLabel}</a></nav><header class="article-heading"><p class="eyebrow">${escape(c.category||sectionLabel)}</p><h1>${escape(c.title)}</h1><p class="dek">${escape(c.description)}</p><p class="byline">${l.by} · ${l.updated} <time datetime="${a.reviewed}">${a.reviewed}</time></p></header>${a.image?`<figure class="article-image"><img src="${c.image||a.image}" width="${a.imageWidth||537}" height="${a.imageHeight||566}" alt="${escape(c.imageAlt||a.en.imageAlt||'')}" fetchpriority="high"><figcaption>${c.caption||a.en.caption||''}</figcaption></figure>`:''}<div class="article-layout"><details class="toc"><summary>${l.contents}</summary><nav aria-label="${l.contents}"><ol>${c.sections.map((s,i)=>`<li><a href="#section-${i+1}">${escape(s.title)}</a></li>`).join('')}<li><a href="#sources">${l.sources}</a></li></ol></nav></details><article class="prose"><div class="short-answer"><p class="eyebrow">${l.answer}</p>${c.answerHtml}</div>${a.diagram==='shared-care'?sharedCareDiagram(lang):''}${c.sections.map((s,i)=>`<section id="section-${i+1}"><h2>${escape(s.title)}</h2>${s.html}</section>`).join('')}<section id="sources" class="sources"><h2>${l.sources}</h2><ol>${a.sources.map(s=>`<li><a href="${escape(s.url)}">${escape(s.name)}</a>${s.note?` — ${escape(s.note)}`:''}</li>`).join('')}</ol><p>${lang==='en'?'General guidance, not a diagnosis. Check the needs of your particular species and growing conditions.':'Genel rehberliktir; teşhis değildir. Bitkinin türüne ve yetişme koşullarına göre değerlendirin.'}</p></section>${cta(lang)}</article></div><section class="related"><p class="eyebrow">${l.related}</p><div class="story-grid">${relatedArticles(a).map(x=>card(x,lang)).join('')}</div></section></div>`;
-  write(path+'index.html',page({lang,path,title:c.title,description:c.description,body,alternate:a[lang==='en'?'tr':'en']?route(a,lang==='en'?'tr':'en'):null,type:'article',image:c.image||a.image,schema}));
- }
+const render = (opts) =>
+  write(
+    opts.path,
+    page({ ...opts, plantCount: plants.filter((p) => p[opts.lang]).length }),
+    opts.alternates,
+  );
+const card = (a, l, kind = "articles") => {
+  const c = a[l];
+  return `<article class="story-card" lang="${l === "pt" ? "pt-BR" : l}"><a href="${kind === "plants" ? plantPath(a, l) : articlePath(a, l)}">${a.image ? `<img src="${c.image || a.image}" width="${a.imageWidth || 553}" height="${a.imageHeight || 1200}" alt="${escape(c.imageAlt || "")}" loading="lazy" decoding="async">` : ""}<h2>${escape(c.title)}</h2></a><p>${escape(c.description)}</p></article>`;
+};
+const related = (a, l) => {
+  const all = articles.filter((x) => x.slug !== a.slug && x[l]),
+    ids = a.related || [];
+  return [
+    ...ids.map((id) => all.find((x) => x.slug === id)).filter(Boolean),
+    ...all.filter((x) => !ids.includes(x.slug)),
+  ].slice(0, 3);
+};
+const appNote = (l) =>
+  `<aside class="app-note"><h2>${locales[l].app}</h2><p>${locales[l].status}</p>${!["tr", "en"].includes(l) ? `<p>${locales[l].appLanguages}</p>` : ""}<a class="button" data-analytics-cta="app-info" href="${prefix(l)}download/">${locales[l].getApp}</a></aside>`;
+for (const a of articles)
+  for (const l of languages) {
+    if (!a[l]) continue;
+    const c = a[l],
+      t = locales[l],
+      path = articlePath(a, l),
+      hub =
+        a.type === "comparison"
+          ? "compare"
+          : a.type === "post"
+            ? "journal"
+            : "guides";
+    const schema = [
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        headline: c.title,
+        description: c.description,
+        inLanguage: l,
+        datePublished: a.published,
+        dateModified: a.reviewed,
+        mainEntityOfPage: origin + path,
+        author: {
+          "@type": "Organization",
+          name: "Lilora",
+          url: origin + prefix(l) + "editorial/",
+        },
+        publisher: { "@type": "Organization", name: "Lilora" },
+        citation: a.sources.map((s) => s.url),
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { name: t.home, item: origin + prefix(l) },
+          { name: t[hub], item: origin + prefix(l) + hub + "/" },
+          { name: c.title, item: origin + path },
+        ].map((x, i) => ({ "@type": "ListItem", position: i + 1, ...x })),
+      },
+    ];
+    render({
+      lang: l,
+      path,
+      title: c.title,
+      description: c.description,
+      alternates: counterparts(a, articlePath),
+      schema,
+      body: `<div class="wrap"><nav class="breadcrumbs" aria-label="${t.home}"><a href="${prefix(l)}">lilora</a><span>/</span><a href="${prefix(l)}${hub}/">${t[hub]}</a></nav><header class="article-heading"><h1>${escape(c.title)}</h1><p class="dek">${escape(c.description)}</p><p class="byline">${t.published} <time datetime="${a.published}">${formatDate(a.published, l)}</time> · ${t.reviewed} <time datetime="${a.reviewed}">${formatDate(a.reviewed, l)}</time></p></header>${a.image ? `<figure class="article-image"><img src="${c.image || a.image}" width="${a.imageWidth || 553}" height="${a.imageHeight || 1200}" alt="${escape(c.imageAlt || "")}"><figcaption>${c.caption || ""}</figcaption></figure>` : ""}<div class="article-layout"><details class="toc"><summary>${t.contents}</summary><nav aria-label="${t.contents}"><ol>${c.sections.map((s, i) => `<li><a href="#section-${i + 1}">${escape(s.title)}</a></li>`).join("")}<li><a href="#sources">${t.sources}</a></li></ol></nav></details><article class="prose"><div class="short-answer"><p class="eyebrow">${t.shortAnswer}</p>${c.answerHtml}</div>${a.diagram === "shared-care" ? sharedCareDiagram(l) : ""}${c.sections.map((s, i) => `<section id="section-${i + 1}"><h2>${escape(s.title)}</h2>${s.html}</section>`).join("")}<section id="sources" class="sources"><h2>${t.sources}</h2><ol>${a.sources.map((s) => `<li><a href="${escape(s.url)}">${escape(s.name)}</a>${s.note ? " — " + escape(s.note) : ""}</li>`).join("")}</ol><p>${t.generalNote}</p></section>${appNote(l)}</article></div><section class="related"><h2>${t.related}</h2><div class="story-grid">${related(
+        a,
+        l,
+      )
+        .map((x) => card(x, l))
+        .join("")}</div></section></div>`,
+    });
+  }
+for (const a of plants)
+  for (const l of languages) {
+    if (!a[l]) continue;
+    const c = a[l],
+      t = locales[l],
+      g = c.atAGlance || {};
+    render({
+      lang: l,
+      path: plantPath(a, l),
+      title: c.title,
+      description: c.description,
+      alternates: counterparts(a, plantPath),
+      body: `<div class="wrap document"><header class="specimen-header"><p>${escape(a.family)}</p><h1>${escape(c.title)}</h1><p class="botanical-name"><em>${escape(a.botanicalName)}</em></p></header><section class="at-a-glance"><h2>${t.atAGlance}</h2><dl>${["light", "watering", "humidity", "temperature", "petSafety", "careLevel"].map((k) => `<div><dt>${t[k]}</dt><dd>${escape(g[k])}${k === "petSafety" && g.petSafetySource ? ` <a href="${escape(g.petSafetySource)}">${t.sources}</a>` : ""}</dd></div>`).join("")}</dl></section><article class="prose">${c.answerHtml}${c.sections.map((s) => `<section><h2>${escape(s.title)}</h2>${s.html}</section>`).join("")}<section id="sources"><h2>${t.sources}</h2><ul>${(a.sources || []).map((s) => `<li><a href="${escape(s.url)}">${escape(s.name)}</a></li>`).join("")}</ul></section></article></div>`,
+    });
+  }
+for (const slug of staticSlugs) {
+  const meta = JSON.parse(readFileSync(`pages/${slug}/meta.json`));
+  const available = languages.filter((l) =>
+    existsSync(`pages/${slug}/${l}.md`),
+  );
+  const alternates = Object.fromEntries(
+    available.map((l) => [l, staticPath(slug, l)]),
+  );
+  for (const l of available) {
+    if (!meta[l]) throw Error(`Missing ${slug}/${l} metadata`);
+    render({
+      lang: l,
+      path: staticPath(slug, l),
+      ...meta[l],
+      alternates,
+      body: readFileSync(`pages/${slug}/${l}.md`, "utf8"),
+    });
+  }
 }
-for(const lang of ['en','tr']){
- const l=labels[lang],other=lang==='en'?'tr':'en';
- for(const kind of ['journal','guides','compare']){
-  const path=l.home+kind+'/',selection=articles.filter(a=>kind==='journal'||(kind==='compare')===(a.type==='comparison'));
-  const title={journal:lang==='en'?'A little closer to your plants':'Bitkilerine biraz daha yakın',guides:l.guides,compare:l.compare}[kind];
-  const description=kind==='compare'?(lang==='en'?'Choose a plant app around the care you actually do. Source-backed comparisons, clear limits, and no invented scores.':'Bitki uygulamanı günlük bakımına göre seç. Kaynaklı karşılaştırmalar, açık sınırlar; uydurma puanlar yok.'):(lang==='en'?'Practical notes on houseplants, shared routines, and knowing when to check before you water.':'Ev bitkileri, ortak bakım rutinleri ve sulamadan önce kontrol etmek üzerine pratik notlar.');
-  const body=`<section class="collection-heading wrap"><p class="eyebrow">LILORA / ${l.journal}</p><h1>${title}</h1><p class="dek">${description}</p><nav class="topic-nav" aria-label="${lang==='en'?'Browse topics':'Konular'}">${['journal','guides','compare'].map(k=>`<a href="${l.home}${k}/" ${k===kind?'aria-current="page"':''}>${l[k]}</a>`).join('')}</nav></section><section class="wrap story-grid collection" aria-label="${l.journal}">${selection.map(a=>card(a,lang)).join('')}</section>${kind==='compare'?matrix(lang):''}<div class="wrap">${cta(lang)}</div>`;
-  write(path+'index.html',page({lang,path,title,description,body,alternate:l.home=== '/'?'/en/'+kind+'/':'/'+kind+'/',schema:[{'@context':'https://schema.org','@type':'CollectionPage',name:title,url:origin+path,inLanguage:lang}]}));
- }
- const path=l.home+'editorial/';
- const en=lang==='en';
- write(path+'index.html',page({lang,path,alternate:prefix(other)+'editorial/',title:l.about,description:en?'How Lilora researches, writes and updates plant guides and app comparisons.':'Lilora bitki rehberlerini ve uygulama karşılaştırmalarını nasıl hazırlar ve günceller?',body:`<div class="wrap document-heading"><p class="eyebrow">LILORA</p><h1>${l.about}</h1></div><div class="wrap document"><h2>${en?'Useful notes, with sources':'Kaynaklı, işe yarayan notlar'}</h2><p>${en?'Lilora publishes these guides to help people observe their plants and coordinate care. We link to horticultural institutions and official product documentation. Articles distinguish published product claims from our own suggestions; they are not hands-on product tests unless explicitly described as such.':'Lilora bu rehberleri bitkileri gözlemlemeyi ve ortak bakımı kolaylaştırmak için yayımlar. Bahçecilik kurumlarına ve resmi ürün belgelerine bağlantı veririz. Ürünlerin yayımladığı bilgilerle kendi önerilerimizi ayırırız; açıkça belirtilmedikçe karşılaştırmalar uygulamalı test değildir.'}</p><h2>${en?'A clear commercial relationship':'Açık bir ticari ilişki'}</h2><p>${en?'This is the Lilora website, so we have an interest in our own app. Comparisons identify that relationship, describe alternatives fairly, and avoid invented ratings or absent-feature claims. There are no affiliate links in this collection. Store features, prices and availability can change by country and version.':'Bu Lilora’nın sitesidir; kendi uygulamamızla ticari bağımız vardır. Karşılaştırmalarda bunu açıklarız, alternatifleri adil biçimde anlatırız ve uydurma puanlar kullanmayız. Bu içeriklerde satış ortaklığı bağlantısı yoktur. Mağaza özellikleri, fiyatlar ve erişim ülkeye ve sürüme göre değişebilir.'}</p><h2>${en?'Care and uncertainty':'Bakım ve belirsizlik'}</h2><p>${en?'A due check is not an instruction to water. Plant identification suggestions need confirmation. General articles cannot diagnose a particular plant or establish that it is safe for a person or pet. We do not claim horticultural qualifications or guaranteed outcomes.':'Kontrol zamanı gelmesi sulama gerektiği anlamına gelmez. Bitki tanımlama önerileri doğrulanmalıdır. Genel yazılar tek bir bitkiye teşhis koyamaz veya insanlar ve hayvanlar için güvenli olduğunu kanıtlayamaz. Bahçecilik uzmanlığı ya da kesin sonuç iddiasında bulunmayız.'}</p><h2>${en?'Corrections and updates':'Düzeltmeler ve güncellemeler'}</h2><p>${en?'Each article shows its review date and sources. Dates change when content is substantively checked or revised. Send a correction with the page URL and supporting source to':'Her yazının gözden geçirme tarihi ve kaynakları bulunur. Tarih, içerik gerçekten kontrol edildiğinde veya değiştirildiğinde güncellenir. Düzeltme için sayfa bağlantısını ve destekleyici kaynağı şu adrese gönderebilirsiniz:'} <a href="mailto:support@lilora.app">support@lilora.app</a>.</p>${cta(lang)}</div>`}));
-}
-// Preserve existing public URLs and add every generated, indexable editorial page.
-const all=['/','/en/','/support/','/en/support/','/privacy/','/en/privacy/',...routes];
-writeFileSync('sitemap.xml',`<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${[...new Set(all)].sort().map(p=>`  <url><loc>${origin}${p}</loc></url>`).join('\n')}\n</urlset>\n`);
-console.log(`Built ${routes.length} editorial pages; sitemap contains ${new Set(all).size} URLs.`);
+for (const kind of ["guides", "plants", "journal", "compare"])
+  for (const l of languages) {
+    const t = locales[l],
+      source = kind === "plants" ? plants : articles,
+      match = (a) =>
+        kind === "plants" ||
+        a.type ===
+          (kind === "journal"
+            ? "post"
+            : kind === "compare"
+              ? "comparison"
+              : "guide"),
+      selection = source.filter((a) => a[l] && match(a));
+    const english =
+      selection.length < 3 && l !== "en"
+        ? source.filter((a) => a.en && !a[l] && match(a)).slice(0, 3)
+        : [];
+    const title = t[kind];
+    render({
+      lang: l,
+      path: prefix(l) + kind + "/",
+      title: t.hubTitles[kind],
+      description: t.hubDescription[kind],
+      alternates: Object.fromEntries(
+        languages.map((v) => [v, prefix(v) + kind + "/"]),
+      ),
+      body: `<section class="collection-heading wrap"><p class="eyebrow">LILORA / ${escape(title)}</p><h1>${escape(title)}</h1><p class="dek">${escape(t.hubDescription[kind])}</p></section><div class="wrap collection"><div class="story-grid">${selection.map((a) => card(a, l, kind === "plants" ? "plants" : "articles")).join("")}</div>${!selection.length ? `<p>${t.empty}</p>` : ""}${english.length ? `<section class="also-english"><h2>${t.alsoEnglish}</h2><div class="story-grid">${english.map((a) => card(a, "en", kind === "plants" ? "plants" : "articles")).join("")}</div></section>` : ""}${kind === "compare" && existsSync(`pages/compare/${l}.html`) ? readFileSync(`pages/compare/${l}.html`, "utf8") : ""}${appNote(l)}</div>`,
+    });
+  }
+write(
+  "404.html",
+  page({
+    lang: "en",
+    path: "/404.html",
+    title: locales.en.notFoundTitle,
+    description: locales.en.notFoundDescription,
+    noindex: true,
+    body: `<section class="document wrap"><h1>${locales.en.notFoundTitle}</h1><p>${locales.en.notFoundDescription}</p><div class="error-languages">${languages.map((l) => `<section lang="${l === "pt" ? "pt-BR" : l}" id="${l}"><h2>${names[l]}</h2><p>${locales[l].notFoundDescription}</p><a href="${prefix(l)}">${locales[l].home}</a> · <a href="${prefix(l)}guides/">${locales[l].guides}</a> · <a href="${prefix(l)}support/">${locales[l].support}</a></section>`).join("")}</div></section>`,
+  }),
+  {},
+);
+writeFileSync(
+  "sitemap.xml",
+  `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${routes
+    .sort((a, b) => a.path.localeCompare(b.path))
+    .map(
+      (r) =>
+        `<url><loc>${origin}${r.path}</loc>${Object.entries({
+          ...r.alternates,
+          ...(r.alternates.en ? { "x-default": r.alternates.en } : {}),
+        })
+          .map(
+            ([l, p]) =>
+              `<xhtml:link rel="alternate" hreflang="${l}" href="${origin}${p}"/>`,
+          )
+          .join("")}</url>`,
+    )
+    .join("\n")}\n</urlset>\n`,
+);
+const record = "editorial/routes.json";
+if (existsSync(record))
+  for (const old of JSON.parse(readFileSync(record)))
+    if (!routes.some((r) => r.path === old)) {
+      throw Error(
+        `Refusing to remove public URL ${old}; keep its source or provide a reviewed redirect.`,
+      );
+    }
+writeFileSync(record, json(routes.map((r) => r.path)) + "\n");
+console.log(
+  `Built ${routes.length} indexable pages in ${languages.length} languages.`,
+);

@@ -1,0 +1,26 @@
+{
+  "en": {
+    "title": "A little help for your garden.",
+    "description": "Answers to common questions, and a way to reach us."
+  },
+  "tr": {
+    "title": "Bitkilerin için biraz yardım.",
+    "description": "Sık sorulan sorular ve bize ulaşmanın yolu."
+  },
+  "es": {
+    "title": "Un poco de ayuda para tus plantas.",
+    "description": "Respuestas a preguntas frecuentes y una forma de contactar con nosotros."
+  },
+  "de": {
+    "title": "Ein wenig Hilfe für deine Pflanzen.",
+    "description": "Antworten auf häufige Fragen und eine Möglichkeit, uns zu erreichen."
+  },
+  "pt": {
+    "title": "Uma ajuda para suas plantas.",
+    "description": "Respostas às dúvidas frequentes e uma forma de falar com a gente."
+  },
+  "fr": {
+    "title": "Un peu d’aide pour vos plantes.",
+    "description": "Des réponses aux questions fréquentes et un moyen de nous contacter."
+  }
+}

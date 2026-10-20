@@ -1,0 +1,48 @@
+{
+  "slug": "lilora-vs-picturethis",
+  "type": "comparison",
+  "published": "2026-10-16",
+  "reviewed": "2026-10-16",
+  "sources": [
+    {
+      "name": "PictureThis on the App Store",
+      "url": "https://apps.apple.com/us/app/picturethis-plant-identifier/id1252497129"
+    },
+    {
+      "name": "Lilora overview",
+      "url": "https://lilora.app/en/"
+    },
+    {
+      "name": "Lilora support",
+      "url": "https://lilora.app/en/support/"
+    },
+    {
+      "name": "PictureThis product page",
+      "url": "https://www.picturethisai.com/app"
+    },
+    {
+      "name": "FAQ",
+      "url": "https://www.picturethisai.com/faq"
+    }
+  ],
+  "related": [
+    "watering-houseplants",
+    "yellow-houseplant-leaves",
+    "indoor-plant-light-guide"
+  ],
+  "en": {
+    "description": "Compare Lilora and PictureThis for identification, reminders, collections and household care, with official sources and pricing caveats.",
+    "image": "/assets/editorial/lilora-collection-en.webp",
+    "imageAlt": "Lilora store artwork with a real collection screen and sample plant records",
+    "caption": "Lilora store artwork, using a real app screen with sample records. This is not a screenshot of the competing app."
+  },
+  "tr": {
+    "description": "Lilora ve PictureThis’i tanıma, hatırlatma, koleksiyon ve ortak bakım açısından karşılaştır. Resmi kaynaklar ve fiyat açıklamaları.",
+    "image": "/assets/editorial/lilora-collection-tr.webp",
+    "imageAlt": "Lilora mağaza görselinde gerçek koleksiyon ekranı ve örnek bitki kayıtları",
+    "caption": "Örnek kayıtlarla gerçek Lilora ekranı içeren mağaza görseli. Rakip uygulamanın ekranı değildir."
+  },
+  "image": "/assets/editorial/lilora-collection-en.webp",
+  "imageWidth": 553,
+  "imageHeight": 1200
+}

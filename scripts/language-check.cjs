@@ -1,55 +1,17 @@
 const {chromium}=require('playwright');
 const assert=require('node:assert/strict');
-const base='http://127.0.0.1:4173';
-const key='lilora.language.v1';
+const base='http://127.0.0.1:4173',key='lilora.language.v1';
+const languages=['tr','en','es','de','pt','fr'],prefix=l=>l==='tr'?'/':`/${l}/`;
 (async()=>{
- const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',headless:true,args:['--no-sandbox']});
- let cases=0;
- async function context(language,saved,blocked=false,js=true){
-  const c=await browser.newContext({javaScriptEnabled:js});
-  await c.route(/https:\/\/.*google.*/,r=>r.fulfill({body:''}));
-  await c.addInitScript(({language,saved,blocked,key})=>{
-   Object.defineProperty(navigator,'language',{get:()=>language});
-   Object.defineProperty(navigator,'languages',{get:()=>language?[language]:[]});
-   if(saved&&!localStorage.getItem(key))localStorage.setItem(key,saved);
-   if(blocked){Storage.prototype.getItem=()=>{throw Error('blocked')};Storage.prototype.setItem=()=>{throw Error('blocked')};}
-  },{language,saved,blocked,key});return c;
- }
- for(const [language,saved,expected] of [['tr-TR',null,'tr'],['tr',null,'tr'],['en-US',null,'en'],['de-DE',null,'en'],['',null,'en'],['tr-TR','en','en'],['en-US','tr','tr'],['tr-TR','invalid','tr']]){
-  const c=await context(language,saved);const p=await c.newPage();
-  await p.goto(base+'/?campaign=care#main');await p.waitForURL(base+(expected==='en'?'/en/':'/')+'?campaign=care#main');
-  assert.equal(await p.locator('html').getAttribute('lang'),expected);
-  const initial=p.url();await p.reload();assert.equal(p.url(),initial);
-  await p.locator('a.language').click();await p.waitForURL(base+(expected==='en'?'/':'/en/')+'?campaign=care#main');
-  assert.equal(await p.evaluate(k=>localStorage.getItem(k),key),expected==='en'?'tr':'en');
-  await p.goBack();assert.equal(p.url(),initial);await p.reload();assert.equal(p.url(),initial);
-  // A fresh tab entering root uses the remembered manual choice.
-  const q=await c.newPage();await q.goto(base+'/');await q.waitForURL(base+(expected==='en'?'/':'/en/'));
-  await c.close();cases++;
- }
- for(const path of ['/en/','/guides/','/en/guides/','/privacy/','/en/privacy/']){
-  const c=await context('en-US','tr');const p=await c.newPage();await p.goto(base+path);assert.equal(new URL(p.url()).pathname,path);await c.close();cases++;
- }
- const fs=require('node:fs');const urls=[...fs.readFileSync('sitemap.xml','utf8').matchAll(/<loc>https:\/\/lilora.app(.*?)<\/loc>/g)].map(x=>x[1]);
- for(const path of urls.filter(p=>p!=='/')){
-  const c=await context('en-US');const p=await c.newPage();await p.goto(base+path+'?utm_source=test#main');const target=new URL(await p.locator('a.language').getAttribute('href'));target.searchParams.delete('lilora_lang');
-  await p.locator('a.language').click();await p.waitForURL(target.href);assert.equal(new URL(p.url()).search,'?utm_source=test');assert.equal(new URL(p.url()).hash,'#main');await c.close();cases++;
- }
- for(const language of ['tr-TR','en-US']){
-  const c=await context(language,null,true);const p=await c.newPage();await p.goto(base+'/');await p.waitForURL(base+(language==='tr-TR'?'/':'/en/'));
-  await p.locator('a.language').click();await p.waitForURL(base+(language==='tr-TR'?'/en/':'/'));const switched=p.url();await p.reload();assert.equal(p.url(),switched);
-  await p.locator('a.language').click();await p.waitForURL(base+(language==='tr-TR'?'/':'/en/'));await p.goBack();assert.equal(p.url(),switched);await c.close();cases++;
- }
- for(const path of ['/','/en/','/guides/']){
-  const c=await context('en-US',null,false,false);const p=await c.newPage();await p.goto(base+path);assert.equal(new URL(p.url()).pathname,path);assert.ok(await p.locator('h1').isVisible());assert.ok(await p.locator('a.language').getAttribute('href'));await c.close();cases++;
- }
- // A negotiated entry with existing analytics consent must load Google only on its destination.
- {
-  const c=await context('en-US');let tags=0;
-  await c.route(/https:\/\/.*google.*/,r=>{tags++;return r.fulfill({body:''});});
-  await c.addInitScript(()=>localStorage.setItem('lilora.cookie-preferences.v2',JSON.stringify({version:2,analytics:true,savedAt:Date.now()})));
-  const p=await c.newPage();await p.goto(base+'/');await p.waitForURL(base+'/en/');await p.waitForFunction(()=>window.dataLayer?.some(x=>x[0]==='event'&&x[1]==='page_view'));
-  assert.equal(tags,1);await c.close();cases++;
- }
- await browser.close();console.log(`${cases} language scenarios passed: browser/saved choice, paired paths, query/hash, manual switches, reload/back, blocked storage and no-JS.`);
+ const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',headless:true,args:['--no-sandbox']});let cases=0;
+ async function context(browserLanguages,{saved,blocked=false,js=true,userAgent}={}){const c=await browser.newContext({javaScriptEnabled:js,...(userAgent?{userAgent}:{})});await c.route(/https:\/\/.*google.*/,r=>r.fulfill({body:''}));await c.addInitScript(({browserLanguages,saved,blocked,key})=>{Object.defineProperty(navigator,'languages',{get:()=>browserLanguages});Object.defineProperty(navigator,'language',{get:()=>browserLanguages[0]||''});if(saved)localStorage.setItem(key,saved);if(blocked){Storage.prototype.getItem=()=>{throw Error('blocked')};Storage.prototype.setItem=()=>{throw Error('blocked')};}},{browserLanguages,saved,blocked,key});return c;}
+ try{
+ // The requested URL always wins, for humans and crawlers, in every supported locale.
+ for(const l of languages)for(const userAgent of [undefined,'Googlebot','Bingbot']){const c=await context(['pt-PT','en-US'],{userAgent});const p=await c.newPage();const path=prefix(l)+'support/';await p.goto(base+path+'?campaign=care#main');assert.equal(p.url(),base+path+'?campaign=care#main');assert.equal(await p.locator('html').getAttribute('lang'),l==='pt'?'pt-BR':l);await c.close();cases++;}
+ for(const [prefs,expected] of [[['es-MX'],'es'],[['pt-PT'],'pt'],[['pt-BR'],'pt'],[['zh-CN','fr-CA','de-DE'],'fr'],[['de-AT'],'de'],[['tr-TR'],'tr'],[['ja-JP'],'en'],[[],'en']]){const c=await context(prefs);const p=await c.newPage();await p.goto(base+'/');assert.equal(new URL(p.url()).pathname,'/');const bar=p.locator('.language-suggestion');if(expected==='tr')assert.equal(await bar.count(),0);else {assert.equal(await bar.getAttribute('lang'),expected==='pt'?'pt-BR':expected);assert.equal(new URL(await bar.locator('a').getAttribute('href')).pathname,prefix(expected));await bar.locator('button').click();await p.reload();assert.equal(await bar.count(),0);}await c.close();cases++;}
+ for(const l of languages)for(const blocked of [false,true]){const c=await context(['fr-FR'],{blocked});const p=await c.newPage();await p.goto(base+'/?campaign=care#main');await p.locator('.language-picker summary').click();await p.locator(`.language-picker a[hreflang="${l}"]`).click();await p.waitForURL(u=>u.pathname===prefix(l));assert.equal(new URL(p.url()).search,'?campaign=care');assert.equal(new URL(p.url()).hash,'#main');await p.reload();assert.equal(new URL(p.url()).pathname,prefix(l));if(!blocked){assert.equal(await p.evaluate(k=>localStorage.getItem(k),key),l);await p.goto(base+'/');assert.equal(new URL(p.url()).pathname,'/');assert.equal(await p.locator('.language-suggestion').count(),0);}await c.close();cases++;}
+ {const c=await context(['de-DE']);const p=await c.newPage();await p.goto(base+'/en/guides/watering-houseplants/');const a=p.locator('.language-suggestion a');assert.equal(new URL(await a.getAttribute('href')).pathname,'/de/');assert.equal(await a.textContent(),require('../locales/de.json').suggestionHome);await c.close();cases++;}
+ for(const js of [true,false]){const c=await context(['en-US'],{js});const p=await c.newPage();await p.goto(base+'/de/support/');await p.locator('.language-picker summary').click();await p.locator('.language-picker a[hreflang="tr"]').click();await p.waitForURL(u=>u.pathname==='/support/');assert.ok(await p.locator('h1').isVisible());await c.close();cases++;}
+ console.log(`${cases} language scenarios passed: six routes, crawler UAs, ordered browser preferences, regional variants, no redirect, manual persistence, blocked storage, missing counterpart and no JavaScript.`);
+ }finally{await browser.close();}
 })().catch(e=>{console.error(e);process.exit(1)});

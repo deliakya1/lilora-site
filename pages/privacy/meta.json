@@ -1,0 +1,26 @@
+{
+  "en": {
+    "title": "Privacy policy",
+    "description": "How Lilora handles your information."
+  },
+  "tr": {
+    "title": "Gizlilik politikası",
+    "description": "Lilora bilgilerini nasıl işler?"
+  },
+  "es": {
+    "title": "Política de privacidad",
+    "description": "Cómo trata Lilora tu información."
+  },
+  "de": {
+    "title": "Datenschutzerklärung",
+    "description": "Wie Lilora mit deinen Informationen umgeht."
+  },
+  "pt": {
+    "title": "Política de privacidade",
+    "description": "Como o Lilora trata suas informações."
+  },
+  "fr": {
+    "title": "Politique de confidentialité",
+    "description": "Comment Lilora traite vos informations."
+  }
+}

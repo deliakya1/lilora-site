@@ -1,0 +1,40 @@
+{
+  "slug": "watering-houseplants",
+  "type": "guide",
+  "published": "2026-10-16",
+  "reviewed": "2026-10-16",
+  "sources": [
+    {
+      "name": "University of Maryland Extension",
+      "url": "https://extension.umd.edu/resource/watering-indoor-plants"
+    },
+    {
+      "name": "Illinois Extension",
+      "url": "https://extension.illinois.edu/houseplants/watering"
+    },
+    {
+      "name": "University of Maryland Extension: overwatering",
+      "url": "https://extension.umd.edu/resource/overwatered-indoor-plants"
+    },
+    {
+      "name": "New York Botanical Garden",
+      "url": "https://libguides.nybg.org/c.php?g=655008&p=4597484"
+    },
+    {
+      "name": "RHS: how plants lose water",
+      "url": "https://www.rhs.org.uk/advice/understanding-plants/how-plants-lose-water"
+    }
+  ],
+  "related": [
+    "shared-plant-care",
+    "yellow-houseplant-leaves",
+    "indoor-plant-light-guide",
+    "when-to-repot-houseplants"
+  ],
+  "en": {
+    "description": "Check potting mix, pot weight and drainage to decide when to water. A practical routine that follows your plant, not a rigid calendar."
+  },
+  "tr": {
+    "description": "Saksı harcını, ağırlığı ve drenajı kontrol ederek sulama zamanını belirle. Sabit takvim yerine bitkini izleyen pratik bir rutin."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "lilora-vs-planta",
+  "type": "comparison",
+  "published": "2026-10-16",
+  "reviewed": "2026-10-16",
+  "sources": [
+    {
+      "name": "Planta on the App Store",
+      "url": "https://apps.apple.com/us/app/planta-plant-garden-care/id1410126781"
+    },
+    {
+      "name": "Lilora overview",
+      "url": "https://lilora.app/en/"
+    },
+    {
+      "name": "Lilora support",
+      "url": "https://lilora.app/en/support/"
+    },
+    {
+      "name": "Planta’s official feature overview",
+      "url": "https://getplanta.com/"
+    },
+    {
+      "name": "Planta Help Center",
+      "url": "https://support.getplanta.com/"
+    },
+    {
+      "name": "Free and premium access",
+      "url": "https://support.getplanta.com/do-planta-offer-a-free-trial-of-premium/"
+    },
+    {
+      "name": "Subscription billing",
+      "url": "https://support.getplanta.com/how-are-subscriptions-billed/"
+    }
+  ],
+  "related": [
+    "watering-houseplants",
+    "yellow-houseplant-leaves",
+    "indoor-plant-light-guide"
+  ],
+  "en": {
+    "description": "Compare Lilora and Planta for reminders, shared records, identification and prices, with official sources and honest launch-status information.",
+    "image": "/assets/editorial/lilora-collection-en.webp",
+    "imageAlt": "Lilora store artwork with a real collection screen and sample plant records",
+    "caption": "Lilora store artwork, using a real app screen with sample records. This is not a screenshot of the competing app."
+  },
+  "tr": {
+    "description": "Lilora ve Planta’yı hatırlatma, ortak kayıt, tanıma ve fiyat açısından karşılaştır. Resmi kaynaklar ve açık yayın durumu bilgisi.",
+    "image": "/assets/editorial/lilora-collection-tr.webp",
+    "imageAlt": "Lilora mağaza görselinde gerçek koleksiyon ekranı ve örnek bitki kayıtları",
+    "caption": "Örnek kayıtlarla gerçek Lilora ekranı içeren mağaza görseli. Rakip uygulamanın ekranı değildir."
+  },
+  "image": "/assets/editorial/lilora-collection-en.webp",
+  "imageWidth": 553,
+  "imageHeight": 1200
+}

@@ -1,33 +1,87 @@
 # Lilora website
 
-Official bilingual Lilora website, journal, care guides, comparison articles,
-support and privacy information. Turkish is rooted at `/`; English at `/en/`.
-The existing GitHub Pages deployment serves the repository root from `main`.
-`CNAME` remains `lilora.app`; `.nojekyll` keeps this a plain static site.
+Official Lilora website in Turkish (root), English (`/en/`), Spanish (`/es/`),
+German (`/de/`), Brazilian Portuguese (`/pt/`) and French (`/fr/`). The existing
+GitHub Pages deployment serves committed static files from `main`. `CNAME` stays
+`lilora.app`; `.nojekyll` stays in place.
 
 ## Edit and verify
 
 Requires Node 22+ and Python 3; production has no runtime dependency or client framework.
 
-1. Edit reviewed article Markdown in `editorial/drafts/` and its metadata in
-   `editorial/manifest.json`. The directory name is a working-source convention:
-   every entry in the manifest is published. Unlisted drafts are not rendered.
-2. Include both complete `en` and `tr` bodies. Use sentence case, plain language,
-   inline primary-source links, a meaningful answer, and distinct sections.
-3. Run `npm run check`. This imports Markdown, builds static pages and sitemap,
-   then checks routes, local links/fragments, languages, metadata and JSON-LD.
-4. Serve with `python3 -m http.server 4173 --bind 127.0.0.1` and inspect mobile and
-   desktop. With Playwright and Chromium available, run
-   `node scripts/browser-check.cjs`. `CHROMIUM_PATH` can override the browser binary.
-5. Review `git diff`, commit sources **and generated HTML**, then push one coherent
-   update to the existing `main` route. Verify GitHub Pages deployment and public
-   URLs. Do not change Pages settings, DNS, app code or store records.
+1. Edit static page bodies in `pages/<page>/<lang>.md` (HTML is supported) and their
+   localized titles/descriptions in `pages/<page>/meta.json`. Never edit generated HTML.
+2. Edit each article independently in `content/articles/<slug>/meta.json` and
+   `<lang>.md`. Metadata keeps type (`guide`, `post`, `comparison`), genuine dates,
+   sources, image provenance, related slugs and per-language descriptions. Markdown
+   starts with one `# Title`; intro is the short answer, `##` creates sections and
+   `###` creates subheadings/visible FAQ questions. English/Turkish articles migrated
+   with their original slugs, sources, related order and research dates.
+3. Plant profiles use `content/plants/<slug>/meta.json` plus `<lang>.md`. Metadata
+   requires `slug`, `botanicalName`, `family`, `sources`; each language requires
+   `description` and `atAGlance` with `light`, `watering` (check before watering),
+   `humidity`, `temperature`, `petSafety` (cats and dogs), `petSafetySource` (primary
+   citation URL) and `careLevel`. Body sections include care, visible FAQ and sources.
+   The specimen header renders the common name, italic Newsreader botanical name
+   and family. No placeholder plant is published. Header library links appear only
+   after three real profiles exist in that language.
+4. UI/cookie/recovery strings are in `locales/<lang>.json`. Shared HTML is generated
+   by `scripts/layout.mjs`; `scripts/build.mjs` assembles pages/hubs/sitemap. Generated
+   `editorial/{articles,plants,routes}.json` are outputs, not shared editing surfaces.
+5. Run `npm run check`, serve with `python3 -m http.server 4173 --bind 127.0.0.1`,
+   then execute every `scripts/*.cjs` with Playwright/Chromium available.
+   `CHROMIUM_PATH` selects a browser binary. Inspect TR/DE at 320/390/768/1440px.
+   Obtain mobile Lighthouse reports for home, guide and support: performance >=90,
+   accessibility/best-practices >=95, SEO 100. Record actual reports before merge.
+6. Commit sources and generated outputs together. Use one coherent PR; squash only
+   after gates pass and the branch is current. Verify Pages and public routes after
+   merge. Keep the existing hosting, DNS, app and store configuration.
 
-`editorial/articles.json` is generated from Markdown, not a second editing surface.
-The static generator is `scripts/build.mjs`; existing home/support/privacy pages
-remain explicitly maintained HTML. Generated editorial URLs are stable. Removing
-an article from the manifest does not delete its existing HTML: decide whether to
-retain, update, or intentionally retire that URL, then update the sitemap and links.
+`AUTO_REDIRECT_ON_FIRST_VISIT = NO`: requested language URLs always win. Browser
+preferences can show a dismissible suggestion, never an automatic navigation.
+The first supported `navigator.languages` entry is used; regional Portuguese and
+Spanish map to their shared prefix, unsupported preferences fall back to English.
+Manual choices use local/session storage; session dismissal is separate. A temporary
+URL marker lets deliberate switches survive blocked storage. There is no IP lookup
+or crawler special case. Native language links and disclosures work without JS.
+
+Only real article/plant translations receive reciprocal hreflang. `html lang` is
+`pt-BR` for `/pt/`, hreflang remains `pt`, and x-default uses the English counterpart.
+Sitemap alternates use the XHTML namespace. Hubs contain their own-language items;
+when fewer than three exist, explicitly marked English fallback cards may appear.
+The journal lists `post` articles; guides and comparisons have their own hubs. New translations
+must not invent localized article URLs. The six-language 404 has no canonical or
+hreflang and does not automatically move the visitor.
+
+## How the generator works
+
+`npm run build` first compiles each independent article and plant directory with
+`scripts/import-content.py`, then `scripts/build.mjs` renders those records, static
+page bodies and content hubs through `scripts/layout.mjs`. Outputs are committed
+HTML, `editorial/*.json` and `sitemap.xml`; GitHub Pages serves them directly.
+
+To add an article, create `content/articles/<slug>/meta.json` and one Markdown file
+per reviewed translation. Use `guide`, `post` or `comparison`; the matching hub and
+URL follow the type. Preserve published slugs and genuine research dates. To add a
+plant, use the plant metadata fields described above and provide sourced care
+summaries and body text. A missing translation receives no invented URL or hreflang.
+
+To add another website language, extend `languages`, `names`, `htmlLang` and
+`prefix` in `scripts/layout.mjs`, the importer's language list and
+`assets/language.js`. Add the complete `locales/<lang>.json`, translated static
+bodies and metadata, then extend the locale lists in the validation scripts.
+Rebuild and check native dropdown links, suggestion/storage behavior, consent,
+404 recovery, reciprocal alternates and sitemap before publication. Current UI
+strings are centralized in locale dictionaries; the app itself remains EN/TR.
+
+## Prompt ownership
+
+Prompt 03 owns the shared layout, CSS, language logic, locale dictionaries and
+source/generator structure. Prompts 04–06 must wait until this PR is merged.
+Prompt 02's mobile URL work is independent. No mobile build/upload is needed.
+Keep prompt 01's full privacy/support corrections, consent denial safeguards,
+analytics ID, approved icon, existing artwork and fonts. New content should be
+reviewed before claiming a translation counterpart or changing research dates.
 
 ## Editorial rules
 
@@ -46,7 +100,11 @@ retain, update, or intentionally retire that URL, then update the sitemap and li
 - Turkish translations belong at root; English belongs under `/en/`. Keep reciprocal
   hreflang only for real counterparts. Do not put an English body under a Turkish title.
 - Use the approved Paper/Ink/Fern/Terracotta palette, Newsreader and system body font.
-  No AI-generated final imagery, copied competitor graphics or unlicensed photos.
+  No copied competitor graphics or unlicensed photos. Umut’s 20 October 2026
+  exception allows generated website atmosphere imagery in natural window light or
+  herbarium-style ink, without faces, embedded text, gradients, glow or mascots.
+  Logos, app screenshots, icons, diagrams and QR codes are never image-generated.
+  This foundation change adds no images; record future permitted imagery in CREDITS.md.
 - All six articles in the initial expansion have original editorial copy and complete
   Turkish counterparts. Source facts should be rechecked before material updates.
 
@@ -69,7 +127,7 @@ explicit dimensions and lazy loading below the first screen.
 ## Google Analytics and custom cookie preferences
 
 The owner supplied GA4 web measurement ID `G-2CYS6B75ET` on 16 October 2026.
-`assets/analytics-config.js` configures that ID. The custom bilingual manager in
+`assets/analytics-config.js` configures that ID. The custom six-language manager in
 `assets/analytics.js` does not load Google or send requests until explicit opt-in.
 The initial banner offers equal-weight accept/reject controls and preferences.
 The footer always reopens the native modal dialog; keyboard focus is contained,
@@ -82,7 +140,7 @@ asks again. A new in-page choice outranks any stale saved grant. Denials also us
 `lilora.cookie-preferences.v2.denied` sessionStorage record, so a read-only
 localStorage grant cannot reactivate analytics on same-tab navigation. If neither
 store can persist denial, tracking is stopped in place and no automatic reload
-occurs; the UI asks the visitor to clear saved site data before leaving/reloading. Both languages use the same preference.
+occurs; the UI asks the visitor to clear saved site data before leaving/reloading. All six languages use the same preference.
 Cross-tab withdrawal uses storage events and, where supported, a same-origin
 BroadcastChannel for denials even when writes fail. Another tab's grant cannot
 overwrite a denial already made in the current document/tab.
@@ -414,3 +472,70 @@ CI impact: one coherent PR/squash publication through the existing Pages pipelin
 no workflow, hosting, DNS, app, backend, billing or store change.
 
 <!-- site-prompt-01: done -->
+
+## Prompt 03 — 20 October 2026: six-language foundation
+
+Based on website main `f2a6d2a5247c10345c5dc1c4e8d6a94311647069`, continued on
+`codex/site-03-foundation` in PR #2. Prompt 01's completion marker was present;
+the only open website PR was this foundation branch. No other prompt's branch
+was modified. Hosting remains GitHub Pages from committed main, with the existing
+CNAME and DNS. Mobile, backend, billing and App Store review are untouched.
+
+Shared layout, six locale dictionaries and independent article/plant source folders
+now generate 86 indexable routes. Existing 28 index URLs remain present. Static
+home/support/privacy/editorial translations, contact/about/legal/download pages,
+hubs and 404 recovery cover TR/EN/ES/DE/PT-BR/FR. English/Turkish articles retain
+slugs, sources and genuine dates. Journal now selects `post`; guides/comparisons
+use their own hubs. Missing translations receive explicitly labelled English links,
+not invented counterparts. URL removal fails the build rather than silently deleting
+an existing public page. The generator/add-language instructions are above.
+
+Native language and mobile disclosures work without JavaScript. With JavaScript,
+mobile focus is contained, Escape restores focus, and browser-language suggestions
+are dismissible. Automatic redirects are disabled for everyone. No IP lookup or
+third-party page-load request was added. Cookie controls use localized visible names;
+existing default-off analytics, rejection persistence and withdrawal rules remain.
+New-language download CTAs disclose the app's English/Turkish interface. Support
+translations quote verified English app labels. Privacy versions preserve all rights
+sections, tables, links and anchors; translated cookie-control names match the UI.
+
+Validation completed on 20 October 2026 in local Chromium:
+
+- `npm run check`: build plus **8 passing static tests**, including local links and
+  fragments, metadata, schema, reciprocal hreflang, x-default, sitemap, source
+  citations, related priority and correct hub types. All original 28 index URLs
+  were independently compared with main. `git diff --check` passed.
+- All **8 scripts/*.cjs suites passed**: **344 responsive checks** (86 routes at
+  320/390/768/1440), **108 compact-consent checks**, **12 locale/viewport consent
+  lifecycle runs**, **12 stale-grant failure cases**, **84 article-contents checks**
+  with JS on/off, **96 TR/DE foundation layouts**, **41 language scenarios**, and
+  **16 local Pages-style 404 scenarios** with 18 recovery links each.
+- Foundation screenshots were inspected across TR/DE and four widths. Visual QA
+  fixed static prose button contrast and improved menu touch targets/disclosure
+  cues. Six additional native mobile-menu checks passed without JavaScript.
+- An isolated, unpublished fixture build verified three plant profiles in TR/EN/DE
+  (95 routes, 8 passing tests), all summary fields, botanical italic, family,
+  FAQ/sources, reciprocal alternates and the language-specific 0/2/3-profile header
+  threshold. No fixture content is included in this repository.
+- Final mobile Lighthouse **13.5.0**: home **96/100/100/100**, watering guide
+  **98/100/100/100**, support **98/100/100/100** (performance/accessibility/best
+  practices/SEO). Measured 14:34:10–14:34:35 UTC, 20 October 2026; no failing
+  accessibility audits. HTML/CSS/JS hashes were unchanged during measurement.
+  Local JSON/HTML evidence is in `.test-results/lighthouse/`; screenshots and test
+  reports are ignored QA artifacts. Lighthouse was installed in `/tmp` only.
+
+Translation review found no intentionally unresolved translation passage. The
+English and Turkish legal versions take precedence in the newer translations.
+Umut approved the processing legal-basis mapping on 20 October 2026. No postal
+address was invented; a publishable address for the legal notice remains owner input.
+
+The earlier environment's Chromium/server/Lighthouse blockers are resolved. Direct
+HTTPS checks of lilora.app still fail at this environment's CONNECT gateway with
+403; the web retrieval tool also cannot open the domain. This is not the website's
+HTTP status and is not direct production-content evidence. Record the actual Pages
+run and production verification separately after merge; the completion marker is
+reserved for that final receipt.
+
+CI impact: one consolidated follow-up push to the existing PR, then the existing
+GitHub Pages build/deploy after squash; no heavy/native/macOS workflow, new service,
+repository dependency or hosting/security configuration change.

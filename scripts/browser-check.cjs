@@ -6,7 +6,7 @@ const assert=require('node:assert/strict');
  const urls=[...fs.readFileSync('sitemap.xml','utf8').matchAll(/<loc>https:\/\/lilora.app(.*?)<\/loc>/g)].map(x=>x[1]);
  fs.mkdirSync('.test-results',{recursive:true});
  let count=0;let requests=[];let errors=[];
- for(const width of [360,768,1440]){
+ for(const width of [320,390,768,1440]){
   const context=await browser.newContext({locale:'tr-TR',viewport:{width,height:1000},reducedMotion:'reduce'});
   await context.addInitScript(()=>localStorage.setItem('lilora.cookie-preferences.v2',JSON.stringify({version:2,analytics:false,savedAt:Date.now()})));
   const page=await context.newPage();
@@ -21,13 +21,13 @@ const assert=require('node:assert/strict');
    await page.waitForFunction(()=>[...document.images].every(i=>i.complete));
    assert.equal(await page.locator('img').evaluateAll(imgs=>imgs.filter(i=>!i.complete||i.naturalWidth===0).length),0,path);
    assert.equal(await page.locator('.cookie-banner').isVisible(),false,'saved rejection hides banner');
-   if(['/en/','/en/journal/','/en/guides/watering-houseplants/','/en/compare/lilora-vs-planta/','/'].includes(path))await page.screenshot({path:'.test-results/'+width+'-'+(path.replaceAll('/','_')||'home')+'.png',fullPage:true});
+   if(['/en/','/en/journal/','/en/guides/watering-houseplants/','/en/compare/lilora-vs-planta/','/','/de/','/de/support/','/de/privacy/'].includes(path))await page.screenshot({path:'.test-results/'+width+'-'+(path.replaceAll('/','_')||'home')+'.png',fullPage:true});
    count++;
   }
   await context.close();
  }
  assert.equal(errors.length,0,errors.join('\n'));assert.equal(requests.filter(u=>/google-analytics|googletagmanager/.test(u)).length,0);
  await browser.close();
- const report={pages:urls.length,responsiveChecks:count,widths:[360,768,1440],consoleErrors:errors.length,googleRequestsWithoutConsent:0,consentTests:'Run scripts/consent-check.cjs for the consent lifecycle'};
+ const report={pages:urls.length,responsiveChecks:count,widths:[320,390,768,1440],consoleErrors:errors.length,googleRequestsWithoutConsent:0,consentTests:'Run scripts/consent-check.cjs for the consent lifecycle'};
  fs.writeFileSync('.test-results/browser-report.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));
 })().catch(e=>{console.error(e);process.exit(1)});
