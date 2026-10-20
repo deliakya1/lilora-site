@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync,readdirSync,existsSync} from 'node:fs';
 import {resolve,dirname} from 'node:path';
+import {articlePath} from './layout.mjs';
 const root=process.cwd();
 const crawl=(dir)=>readdirSync(dir,{withFileTypes:true}).flatMap(x=>x.name.startsWith('.')||['node_modules','scripts','pages'].includes(x.name)?[]:x.isDirectory()?crawl(dir+'/'+x.name):x.name.endsWith('.html')?[dir+'/'+x.name]:[]);
 const files=crawl(root);
@@ -43,7 +44,7 @@ test('published short answers retain Markdown source links as usable citations',
  for(const a of manifest)for(const lang of ['en','tr']){
   const draft=readFileSync('content/articles/'+a.slug+'/'+lang+'.md','utf8');
   const intro=draft.split('\n').slice(1).join('\n').split(/^## /m)[0];
-  const path=(lang==='en'?'en/':'')+(a.type==='comparison'?'compare/':'guides/')+a.slug+'/index.html';
+  const path='.'+articlePath(a,lang)+'index.html';
   const html=readFileSync(path,'utf8');
   const answer=html.match(/<div class="short-answer">([\s\S]*?)<\/div>/)[1];
   for(const [,label,url] of intro.matchAll(/\[([^\]]+)\]\((https?:\/\/[^\s]+)\)/g)){
@@ -62,10 +63,10 @@ test('related reading follows editorial priority with valid distinct destination
   for(const slug of priority){assert.ok(slugs.has(slug),`unknown recommendation ${slug}`);assert.notEqual(slug,article.slug);}
   for(const lang of ['tr','en']){
    const prefix=lang==='en'?'en/':'';
-   const path=prefix+(article.type==='comparison'?'compare/':'guides/')+article.slug+'/index.html';
+   const path='.'+articlePath(article,lang)+'index.html';
    const related=readFileSync(path,'utf8').split('<section class="related">')[1];
    const links=[...related.matchAll(/<article class="story-card"[^>]*><a href="([^"]+)"/g)].map(x=>x[1]);
-   const expected=priority.slice(0,3).map(slug=>{const a=content.find(x=>x.slug===slug);return '/'+prefix+(a.type==='comparison'?'compare/':'guides/')+slug+'/';});
+   const expected=priority.slice(0,3).map(slug=>{const a=content.find(x=>x.slug===slug);return articlePath(a,lang);});
    assert.deepEqual(links.slice(0,expected.length),expected,path);
    assert.equal(new Set(links).size,links.length);assert.equal(links.length,Math.min(3,content.length-1));
   }
@@ -78,4 +79,14 @@ test('titles and descriptions are unique, source routes complete, and locale dic
  const dictionaries=['tr','en','es','de','pt','fr'].map(l=>JSON.parse(readFileSync('locales/'+l+'.json')));
  for(const d of dictionaries)assert.deepEqual(Object.keys(d).sort(),Object.keys(dictionaries[0]).sort());
  for(const l of ['tr','en','es','de','pt','fr'])for(const slug of ['','support/','privacy/','contact/','about/','legal/','download/','editorial/','guides/','plants/','journal/','compare/'])assert.ok(existsSync((l==='tr'?'':l+'/')+slug+'index.html'));
+});
+
+
+test('content hubs list only their article type and preserve real fallback languages',()=>{
+ for(const lang of ['tr','en','es','de','pt','fr'])for(const [hub,type] of [['guides','guide'],['journal','post'],['compare','comparison']]){
+  const html=readFileSync((lang==='tr'?'':lang+'/')+hub+'/index.html','utf8');
+  const cards=[...html.matchAll(/<article class="story-card" lang="([^"]+)"><a href="([^"]+)"/g)];
+  for(const [,cardLang,path] of cards){const a=content.find(a=>path.endsWith('/'+a.slug+'/'));assert.equal(a?.type,type,path);assert.ok(cardLang===(lang==='pt'?'pt-BR':lang)||cardLang==='en');assert.equal(path,articlePath(a,cardLang==='pt-BR'?'pt':cardLang));}
+  assert.equal(cards.filter(c=>c[1]===(lang==='pt'?'pt-BR':lang)).length,content.filter(a=>a.type===type&&a[lang]).length);
+ }
 });

@@ -49,9 +49,30 @@ Only real article/plant translations receive reciprocal hreflang. `html lang` is
 `pt-BR` for `/pt/`, hreflang remains `pt`, and x-default uses the English counterpart.
 Sitemap alternates use the XHTML namespace. Hubs contain their own-language items;
 when fewer than three exist, explicitly marked English fallback cards may appear.
-The current article archive remains available in the journal. New translations
+The journal lists `post` articles; guides and comparisons have their own hubs. New translations
 must not invent localized article URLs. The six-language 404 has no canonical or
 hreflang and does not automatically move the visitor.
+
+## How the generator works
+
+`npm run build` first compiles each independent article and plant directory with
+`scripts/import-content.py`, then `scripts/build.mjs` renders those records, static
+page bodies and content hubs through `scripts/layout.mjs`. Outputs are committed
+HTML, `editorial/*.json` and `sitemap.xml`; GitHub Pages serves them directly.
+
+To add an article, create `content/articles/<slug>/meta.json` and one Markdown file
+per reviewed translation. Use `guide`, `post` or `comparison`; the matching hub and
+URL follow the type. Preserve published slugs and genuine research dates. To add a
+plant, use the plant metadata fields described above and provide sourced care
+summaries and body text. A missing translation receives no invented URL or hreflang.
+
+To add another website language, extend `languages`, `names`, `htmlLang` and
+`prefix` in `scripts/layout.mjs`, the importer's language list and
+`assets/language.js`. Add the complete `locales/<lang>.json`, translated static
+bodies and metadata, then extend the locale lists in the validation scripts.
+Rebuild and check native dropdown links, suggestion/storage behavior, consent,
+404 recovery, reciprocal alternates and sitemap before publication. Current UI
+strings are centralized in locale dictionaries; the app itself remains EN/TR.
 
 ## Prompt ownership
 
@@ -79,7 +100,11 @@ reviewed before claiming a translation counterpart or changing research dates.
 - Turkish translations belong at root; English belongs under `/en/`. Keep reciprocal
   hreflang only for real counterparts. Do not put an English body under a Turkish title.
 - Use the approved Paper/Ink/Fern/Terracotta palette, Newsreader and system body font.
-  No AI-generated final imagery, copied competitor graphics or unlicensed photos.
+  No copied competitor graphics or unlicensed photos. Umut’s 20 October 2026
+  exception allows generated website atmosphere imagery in natural window light or
+  herbarium-style ink, without faces, embedded text, gradients, glow or mascots.
+  Logos, app screenshots, icons, diagrams and QR codes are never image-generated.
+  This foundation change adds no images; record future permitted imagery in CREDITS.md.
 - All six articles in the initial expansion have original editorial copy and complete
   Turkish counterparts. Source facts should be rechecked before material updates.
 
@@ -448,39 +473,69 @@ no workflow, hosting, DNS, app, backend, billing or store change.
 
 <!-- site-prompt-01: done -->
 
-## Prompt 03 — 20 October 2026: six-language foundation (awaiting QA)
+## Prompt 03 — 20 October 2026: six-language foundation
 
-Based on website main `f2a6d2a5247c10345c5dc1c4e8d6a94311647069`. Shared header/footer,
-progressively enhanced native mobile/language disclosures, browser-language
-suggestion, source folders, plant template and all six language hubs are prepared.
-Home/support/full privacy/editorial now have ES/DE/PT-BR/FR translations; contact,
-about, legal and review-only download pages exist in all six languages. Contact
-uses five email subjects and no form. Four newer locales explicitly state that the
-app itself supports English and Turkish. Existing articles remain English/Turkish;
-English fallback links are labelled and point to real pages. The old shared manifest
-and drafts were replaced by independent article folders. No new imagery was used.
+Based on website main `f2a6d2a5247c10345c5dc1c4e8d6a94311647069`, continued on
+`codex/site-03-foundation` in PR #2. Prompt 01's completion marker was present;
+the only open website PR was this foundation branch. No other prompt's branch
+was modified. Hosting remains GitHub Pages from committed main, with the existing
+CNAME and DNS. Mobile, backend, billing and App Store review are untouched.
 
-The seven static tests pass on 86 indexable routes, including one H1, unique
-titles/descriptions, local links/assets/anchors, real reciprocal language pairs,
-English x-default, sitemap, citations, schema dates and related order. All original
-public routes remain present. JavaScript syntax checks are separate from behavior.
+Shared layout, six locale dictionaries and independent article/plant source folders
+now generate 86 indexable routes. Existing 28 index URLs remain present. Static
+home/support/privacy/editorial translations, contact/about/legal/download pages,
+hubs and 404 recovery cover TR/EN/ES/DE/PT-BR/FR. English/Turkish articles retain
+slugs, sources and genuine dates. Journal now selects `post`; guides/comparisons
+use their own hubs. Missing translations receive explicitly labelled English links,
+not invented counterparts. URL removal fails the build rather than silently deleting
+an existing public page. The generator/add-language instructions are above.
 
-Browser suites were updated and attempted, but this execution environment denies
-local TCP binding (`Operation not permitted`) and Chromium aborts at process startup.
-Thus responsive/consent/language/contents/404 interaction suites have no passing
-result for this revision. Lighthouse is not installed; registry access is blocked,
-and no Lighthouse scores are claimed. A script-free local-file preview is useful
-only for limited visual review, not a substitute for those gates.
+Native language and mobile disclosures work without JavaScript. With JavaScript,
+mobile focus is contained, Escape restores focus, and browser-language suggestions
+are dismissible. Automatic redirects are disabled for everyone. No IP lookup or
+third-party page-load request was added. Cookie controls use localized visible names;
+existing default-off analytics, rejection persistence and withdrawal rules remain.
+New-language download CTAs disclose the app's English/Turkish interface. Support
+translations quote verified English app labels. Privacy versions preserve all rights
+sections, tables, links and anchors; translated cookie-control names match the UI.
 
-Do not merge or add the prompt-03 completion marker until all browser tests and
-Lighthouse gates pass, required layout captures are reviewed, and production is
-verified after publication. No public deployment is claimed by this PR. Existing
-GitHub Pages deployment is the only CI impact; no workflow/dependency change.
-Mobile build 12/review/manual-release state is untouched.
+Validation completed on 20 October 2026 in local Chromium:
 
-Translation review: all full-policy sections, tables, links, anchors, dates and
-legal caveats were preserved and self-reviewed. No intentionally uncertain passage
-is presented as settled; legal-basis/transfer/address questions from prompt 01
-remain unresolved. English/Turkish legal text takes precedence in the four newer
-translations. A German-facing legal page may need a postal address: obtain the
-owner's publishable address before adding one; no address or registration was invented.
+- `npm run check`: build plus **8 passing static tests**, including local links and
+  fragments, metadata, schema, reciprocal hreflang, x-default, sitemap, source
+  citations, related priority and correct hub types. All original 28 index URLs
+  were independently compared with main. `git diff --check` passed.
+- All **8 scripts/*.cjs suites passed**: **344 responsive checks** (86 routes at
+  320/390/768/1440), **108 compact-consent checks**, **12 locale/viewport consent
+  lifecycle runs**, **12 stale-grant failure cases**, **84 article-contents checks**
+  with JS on/off, **96 TR/DE foundation layouts**, **41 language scenarios**, and
+  **16 local Pages-style 404 scenarios** with 18 recovery links each.
+- Foundation screenshots were inspected across TR/DE and four widths. Visual QA
+  fixed static prose button contrast and improved menu touch targets/disclosure
+  cues. Six additional native mobile-menu checks passed without JavaScript.
+- An isolated, unpublished fixture build verified three plant profiles in TR/EN/DE
+  (95 routes, 8 passing tests), all summary fields, botanical italic, family,
+  FAQ/sources, reciprocal alternates and the language-specific 0/2/3-profile header
+  threshold. No fixture content is included in this repository.
+- Final mobile Lighthouse **13.5.0**: home **96/100/100/100**, watering guide
+  **98/100/100/100**, support **98/100/100/100** (performance/accessibility/best
+  practices/SEO). Measured 14:34:10–14:34:35 UTC, 20 October 2026; no failing
+  accessibility audits. HTML/CSS/JS hashes were unchanged during measurement.
+  Local JSON/HTML evidence is in `.test-results/lighthouse/`; screenshots and test
+  reports are ignored QA artifacts. Lighthouse was installed in `/tmp` only.
+
+Translation review found no intentionally unresolved translation passage. The
+English and Turkish legal versions take precedence in the newer translations.
+Umut approved the processing legal-basis mapping on 20 October 2026. No postal
+address was invented; a publishable address for the legal notice remains owner input.
+
+The earlier environment's Chromium/server/Lighthouse blockers are resolved. Direct
+HTTPS checks of lilora.app still fail at this environment's CONNECT gateway with
+403; the web retrieval tool also cannot open the domain. This is not the website's
+HTTP status and is not direct production-content evidence. Record the actual Pages
+run and production verification separately after merge; the completion marker is
+reserved for that final receipt.
+
+CI impact: one consolidated follow-up push to the existing PR, then the existing
+GitHub Pages build/deploy after squash; no heavy/native/macOS workflow, new service,
+repository dependency or hosting/security configuration change.

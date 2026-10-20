@@ -36,8 +36,8 @@ const base='http://127.0.0.1:4173';
   const config=events.find(x=>x[0]==='config')[2];assert.equal(config.allow_google_signals,false);assert.equal(config.allow_ad_personalization_signals,false);assert.equal(config.send_page_view,false);
   // Script reinsertion must not duplicate listeners or page views.
   await page.addScriptTag({path:'assets/analytics.js'});
-  await page.locator('a[data-analytics-cta]').first().evaluate(a=>a.addEventListener('click',e=>e.preventDefault(),{once:true}));
-  await page.locator('a[data-analytics-cta]').first().click();
+  await page.locator('a[data-analytics-cta]:visible').first().evaluate(a=>a.addEventListener('click',e=>e.preventDefault(),{once:true}));
+  await page.locator('a[data-analytics-cta]:visible').first().click();
   events=await page.evaluate(()=>window.dataLayer.map(x=>Array.from(x)));
   assert.equal(events.filter(x=>x[1]==='app_info_click').length,1);assert.equal(events.filter(x=>x[1]==='app_store_click').length,0);assert.equal(events.filter(x=>x[1]==='page_view').length,1);
   await page.reload();await page.waitForFunction(()=>window.dataLayer?.length>=4);assert.equal(await page.evaluate(()=>window.dataLayer.filter(x=>x[1]==='page_view').length),1);
