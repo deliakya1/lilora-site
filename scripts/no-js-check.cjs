@@ -1,0 +1,96 @@
+// SEO-03: every page template is complete in its initial HTML. Needs the README server on 127.0.0.1:4173.
+// JavaScript off: source metadata, headings, answers, citations, navigation, language links and CTAs.
+// JavaScript on: the same main text with and without a consent choice, and no client-side API request.
+const {chromium}=require('playwright-core'),assert=require('node:assert/strict');
+const origin='http://127.0.0.1:4173',languages=['tr','en','es','de','pt','fr'];
+const prefix=lang=>lang==='tr'?'/':'/'+lang+'/';
+const templates={home:'',guidesHub:'guides/',guide:'guides/watering-houseplants/',plantsHub:'plants/',plant:'plants/monstera-deliciosa/',journalHub:'journal/',post:'journal/check-before-you-water/',compareHub:'compare/',comparison:'compare/lilora-vs-planta/',support:'support/',privacy:'privacy/',contact:'contact/',about:'about/',legal:'legal/',download:'download/',editorial:'editorial/',press:'press/'};
+const representative=['home','guide','plantsHub','plant','post','support'];
+const articles=['guide','post','comparison'],hubs=['guidesHub','plantsHub','journalHub','compareHub'];
+const pages=languages.flatMap(lang=>Object.keys(templates).filter(name=>['tr','en'].includes(lang)||representative.includes(name)).map(name=>({lang,name,path:prefix(lang)+templates[name]})));
+const consent=analytics=>localStorage.setItem('lilora.cookie-preferences.v2',JSON.stringify({version:2,analytics,savedAt:Date.now()}));
+// Visible main text, one trimmed line per entry; closed <details> bodies stay in the HTML but are not counted here.
+const mainLines=page=>page.locator('main').evaluate(main=>main.innerText.split('\n').map(line=>line.trim()).filter(Boolean));
+(async()=>{
+ const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',headless:true,args:['--no-sandbox']});
+ let checks=0;
+ try{
+  const off=await browser.newContext({javaScriptEnabled:false,viewport:{width:1440,height:900}});
+  await off.route(url=>!url.href.startsWith(origin),route=>route.abort());
+  const page=await off.newPage();const offText={};
+  for(const {lang,name,path} of pages){
+   const label=`${path} (${name}, JS off)`,response=await page.goto(origin+path);assert.equal(response.status(),200,label);
+   const html=await response.text();
+   // Source HTML: metadata and structured data are present before any script runs.
+   assert.match(html,/<title>[^<]{10,}<\/title>/,label+' title');
+   assert.match(html,/<meta name="description" content="[^"]{100,}">/,label+' description');
+   assert.ok(html.includes(`<link rel="canonical" href="https://lilora.app${path}">`),label+' canonical');
+   assert.ok(html.includes(`hreflang="${lang==='pt'?'pt-BR':lang}" href="https://lilora.app${path}"`),label+' self hreflang');
+   if(html.includes('hreflang="en" href'))assert.ok(html.includes('hreflang="x-default"'),label+' x-default');
+   const schema=[...html.matchAll(/<script type="application\/ld\+json">(.*?)<\/script>/gs)].map(m=>JSON.parse(m[1]));
+   if(name!=='home')assert.ok(schema.some(s=>s['@type']==='BreadcrumbList'),label+' BreadcrumbList');
+   if(name==='home')assert.ok(['Organization','WebSite'].every(type=>schema.some(s=>s['@type']===type)),label+' home schema');
+   if(articles.includes(name)||name==='plant')assert.ok(schema.some(s=>/Article|BlogPosting/.test(s['@type'])),label+' article schema');
+   assert.doesNotMatch(html,/<a\b(?![^>]*\bhref=)[^>]*>|\bonclick=/i,label+' links need a native href');
+   // Rendered without JavaScript: one visible H1 that is in the source, and substantive main text.
+   const h1=page.locator('main h1');assert.equal(await h1.count(),1,label);assert.ok(await h1.isVisible(),label+' h1 visible');
+   const lines=await mainLines(page);offText[path]=lines;
+   assert.ok(lines.join(' ').length>=(name==='legal'?200:400),label+' main text');
+   // Navigation: same-language header links, all six native language links and a working cookie-preferences fallback.
+   const nav=await page.locator('.desktop-nav a[href]:visible').evaluateAll(as=>as.map(a=>a.getAttribute('href')));
+   assert.ok(nav.length>=4&&nav.every(href=>lang==='tr'?!/^\/(en|es|de|pt|fr)\//.test(href):href.startsWith(prefix(lang))),label+' header nav');
+   const languageLinks=await page.locator('.language-picker a.language[hreflang]').evaluateAll(as=>as.map(a=>a.getAttribute('href')));
+   assert.equal(languageLinks.length,6,label+' language links');assert.ok(languageLinks.every(href=>href.startsWith('/')),label+' language hrefs');
+   assert.equal(await page.locator('.footer a.cookie-settings').getAttribute('href'),prefix(lang)+'privacy/#website-analytics',label+' cookie link');
+   const internal=await page.locator('main a[href^="/"]:visible').count();assert.ok(internal>=(articles.includes(name)?2:1),label+' contextual internal links');
+   // Template content: answers, citations, care summaries, hub listings and an honest app CTA.
+   if(articles.includes(name)){
+    const answer=page.locator('main .short-answer');assert.ok(await answer.isVisible(),label+' short answer');
+    assert.ok((await answer.innerText()).length>=80,label+' short answer text');
+   }
+   if(articles.includes(name)||name==='plant'){
+    const sources=page.locator(name==='plant'?'main':'main .sources');assert.ok(await sources.isVisible(),label+' sources');
+    assert.ok(await sources.locator('a[href^="https://"]:visible').count()>=3,label+' cited sources');
+   }
+   if(name==='plant'){
+    const glance=page.locator('main .at-a-glance');assert.ok(await glance.isVisible(),label+' at a glance');
+    assert.ok((await glance.innerText()).split('\n').filter(Boolean).length>=6,label+' care summary rows');
+   }
+   if(hubs.includes(name))assert.ok(await page.locator(`main a[href^="${prefix(lang)}${templates[name]}"]:visible`).count()>=2,label+' hub items');
+   if(['home','download','guide','plant'].includes(name))assert.ok(await page.locator(`a[data-analytics-cta][href^="${prefix(lang)}"]:visible`).count()>=1,label+' app CTA');
+   assert.equal(await page.locator('a[href*="id6818604360"]').count(),0,label+' no store link before launch');
+   checks++;
+  }
+  // Native disclosures still open the phone menu and the language list without JavaScript.
+  await page.setViewportSize({width:390,height:900});
+  for(const lang of ['tr','en'])for(const name of ['home','guide']){
+   const path=prefix(lang)+templates[name];await page.goto(origin+path);
+   await page.locator('.mobile-menu summary').click();
+   assert.ok(await page.locator('.mobile-nav a[href]:visible').count()>=4,path+' mobile nav');
+   assert.equal(await page.locator('.mobile-languages a.language[hreflang]:visible').count(),6,path+' mobile languages');
+   await page.locator('.mobile-menu summary').click();checks++;
+  }
+  await off.close();
+  // JavaScript on: main text matches the static render whether or not a consent choice exists.
+  for(const choice of [null,false]){
+   const on=await browser.newContext({viewport:{width:1440,height:900}});
+   await on.route(url=>!url.href.startsWith(origin),route=>route.abort());
+   if(choice!==null)await on.addInitScript(consent,choice);
+   const live=await on.newPage();const errors=[];live.on('pageerror',e=>errors.push(e.message));
+   for(const {name,path} of pages){
+    const requests=[];const track=request=>{if(['fetch','xhr'].includes(request.resourceType()))requests.push(request.url());};
+    live.on('request',track);await live.goto(origin+path,{waitUntil:'networkidle'});live.off('request',track);
+    const label=`${path} (${name}, JS on, ${choice===null?'no consent choice':'analytics declined'})`;
+    assert.deepEqual(requests,[],label+' client-side API request');
+    const lines=await mainLines(live);
+    // The plant hub hides its static filter lists once the chips filter in place; everything else is identical.
+    if(name==='plantsHub')assert.deepEqual(lines.filter(line=>!offText[path].includes(line)),[],label);
+    else assert.deepEqual(lines,offText[path],label);
+    assert.equal(await live.locator('.footer button.cookie-settings').count(),1,label+' cookie button upgrade');
+    checks++;
+   }
+   assert.deepEqual(errors,[]);await on.close();
+  }
+ }finally{await browser.close();}
+ console.log(`${checks} no-JavaScript checks passed: ${pages.length} pages (17 templates in TR/EN, 6 in ES/DE/PT/FR), source metadata, rendered content, mobile disclosures and JS-on parity.`);
+})().catch(e=>{console.error(e);process.exit(1);});

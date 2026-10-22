@@ -903,3 +903,17 @@ and `/es/guides/houseplant-pests/` all returned HTTP 200, checked through `pg_ne
 from the staging database as for prompts 04 and 06.
 
 <!-- site-prompt-07: done -->
+
+## SEO-03 — 22 October 2026: complete HTML without JavaScript
+
+Audit: all 17 page templates in TR/EN and home, guide, plant hub, plant, post and
+support in ES/DE/PT/FR render the same main text with JavaScript off as with it on
+(with and without a consent choice); headings, short answers, sources, care
+summaries, navigation, language links, CTAs, canonical, hreflang and JSON-LD are in
+the initial HTML, and no page makes a client-side API request. One gap fixed: the
+footer "Cookie preferences" control was a JavaScript-only button; it is now a link to
+`privacy/#website-analytics` that `assets/analytics.js` upgrades to the dialog
+button. `node scripts/no-js-check.cjs` covers this. Known limit: after a no-JS
+contact-form post the `?form=` status is shown only with JavaScript (the redirect is
+set by the app repo's `website-contact` function). This does not guarantee indexing
+or AI citations.
