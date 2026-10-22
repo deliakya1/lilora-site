@@ -26,6 +26,12 @@ Orta nem yeterlidir; çok kuru havada nemlendirici veya çakıllı tepsi yardım
 
 İlkbahar ve yazın hafifçe besle. NC State, fazla gübrenin yavru oluşumunu azalttığı konusunda uyarıyor. [NC State Extension](https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/)
 
+## Mevsime göre bakım
+
+NC State kışın sulamanın azaltılmasını ve bitkinin 7 °C'nin üstünde tutulmasını öneriyor. En iyi eşit nemli harçta büyür ama kuraklığa dayanır; serin aylarda sulamadan önce kontrol et ve üst kısmın biraz daha kurumasına izin ver. [NC State Extension](https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/)
+
+Kısa günlerin yararlı bir yanı var: NC State, bitki en az üç hafta boyunca günde 12 saatten az ışık aldığında sürgün oluştuğunu belirtiyor; bu yüzden yavrular çoğu zaman sonbahardan sonra görünür. Yazın dayanamadığı doğrudan güneşten uzak tut. [Kış bakımı rehberine](/guides/winter-houseplant-care/) bak. Lilora'da hatırlatma bir kontrol çağrısıdır, sulama emri değil: suladığını ya da ertelediğini kaydedersin; böylece soğuk aylarda harcın daha yavaş kuruduğu kendi geçmişinde görünür.
+
 ## Sık görülen sorunlar
 
 - **Kahverengi yaprak uçları:** NC State bunu musluk suyundaki klor ve florüre bağlıyor. Yağmur ya da filtre suyu dene ve gübre birikiminden kaçın.
@@ -40,7 +46,7 @@ Yavrularla ya da bölerek kolayca çoğalır. Yavruyu ana bitkiye bağlıyken ne
 
 ## Evcil hayvanlar ve insanlar
 
-[ASPCA Animal Poison Control Center](https://www.aspca.org/), kurdele çiçeğini kedi ve köpekler için toksik değil olarak listeler; NC State Extension da aynı şekilde etiketler. Toksik değil, evcil hayvanın onu serbestçe yiyebileceği anlamına gelmez: bitki çiğnemek yine de mideyi bozabilir ve kediler sarkan yapraklara sık sık ilgi gösterir. Kedin çiğniyorsa bitkiyi ulaşamayacağı bir yere as. Evcil hayvanın rahatsız görünürse veterinere başvur. İnsanlarda zehirlenme şüphesinde Türkiye'de 114 UZEM'i ara. Bu genel bilgidir; veteriner veya tıbbi tavsiye değildir.
+[ASPCA Animal Poison Control Center](https://www.aspca.org/), kurdele çiçeğini kedi ve köpekler için toksik değil olarak listeler; NC State Extension da aynı şekilde etiketler. Toksik değil, evcil hayvanın onu serbestçe yiyebileceği anlamına gelmez: bitki çiğnemek yine de mideyi bozabilir ve kediler sarkan yapraklara sık sık ilgi gösterir. Kedin çiğniyorsa bitkiyi ulaşamayacağı bir yere as. Evcil hayvanın rahatsız görünürse veterinere başvur. İnsanlarda zehirlenme şüphesinde Türkiye'de 114 UZEM'i ara. Bu genel bilgidir; veteriner veya tıbbi tavsiye değildir. Başka bitkilerle karşılaştırmak için [evcil hayvan dostu bitkiler rehberine](/guides/pet-safe-houseplants/) ya da [bitki kütüphanesindeki toksik olmayan profillere](/plants/#petNonToxic) bak.
 
 ## Sık sorulan sorular
 
@@ -55,3 +61,7 @@ Birkaç santimetrelik kökleri olduğunda; daha gür bir asma saksı istersen ü
 ### Kediler için güvenli mi?
 
 ASPCA kedi ve köpekler için toksik değil olarak listeliyor. Yine de çiğnemesine izin verme.
+
+### Kurdele çiçeğim neden yavru vermiyor?
+
+Sürgünler genellikle birkaç hafta boyunca günde 12 saatten az ışık aldıktan sonra oluşur. NC State'e göre fazla gübre de yavru sayısını azaltır.
