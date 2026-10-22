@@ -1,0 +1,115 @@
+{
+  "slug": "spathiphyllum",
+  "botanicalName": "Spathiphyllum",
+  "family": "Araceae",
+  "published": "2026-10-22",
+  "reviewed": "2026-10-22",
+  "tags": [
+    "lowLight"
+  ],
+  "image": "/assets/images/plants/spathiphyllum-v1.webp",
+  "imageWidth": 406,
+  "imageHeight": 720,
+  "sources": [
+    {
+      "name": "NC State Extension Gardener Plant Toolbox: Spathiphyllum",
+      "url": "https://plants.ces.ncsu.edu/plants/spathiphyllum/"
+    },
+    {
+      "name": "Royal Botanic Gardens, Kew, Plants of the World Online: Spathiphyllum wallisii",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:89011-1"
+    },
+    {
+      "name": "RHS: indoor plants resource (aloes and peace lily)",
+      "url": "https://www.rhs.org.uk/getmedia/d02059a1-4e2c-45c3-956b-da5cc90db7f1/Indoor-plants-resources.pdf"
+    },
+    {
+      "name": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/"
+    }
+  ],
+  "tr": {
+    "description": "Barış çiçeği (Spatifilum) bakımı: doğrudan güneş görmeyen gölge, eşit nemli ama asla çamurlaşmayan harç, hafif besleme ve ASPCA kaydı.",
+    "imageAlt": "Geniş yeşil yaprakların üzerinde, krem renkli başağı saran beyaz kapşonlu çiçeğiyle barış çiçeği",
+    "caption": "Fotoğraf: <a href=\"https://www.inaturalist.org/observations/259532560\"><em>Spathiphyllum wallisii</em></a>, Jeffry Cubero, iNaturalist üzerinden, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Yeniden boyutlandırıldı.",
+    "atAGlance": {
+      "light": "Yarı gölge ile gölge; doğrudan güneş yok",
+      "watering": "Sık kontrol et; harç tamamen kurumadan sula ama asla çamurlaştırma",
+      "humidity": "Nemli havayı sever; kuru hava yaprak uçlarını kahverengileştirebilir",
+      "temperature": "Gündüz yaklaşık 20–29 °C; 16 °C'nin altında büyüme yavaşlar",
+      "petSafety": "ASPCA kedi ve köpekler için toksik olarak listeler",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Kolay–orta"
+    }
+  },
+  "en": {
+    "description": "Peace lily care: shade without direct sun, evenly moist but never soggy mix, gentle feeding and ASPCA pet status.",
+    "imageAlt": "Peace lily with a white, hooded flower bract around a cream spike, above broad green leaves",
+    "caption": "Photo: <a href=\"https://www.inaturalist.org/observations/259532560\"><em>Spathiphyllum wallisii</em></a> by Jeffry Cubero, via iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Resized.",
+    "atAGlance": {
+      "light": "Partial to deep shade; no direct sun",
+      "watering": "Check often; water before the mix dries out but never leave it soggy",
+      "humidity": "Likes humid air; dry air can brown leaf tips",
+      "temperature": "About 20–29 °C (68–85 °F) by day; growth slows below 16 °C (60 °F)",
+      "petSafety": "Listed as toxic to cats and dogs by the ASPCA",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Easy to moderate"
+    }
+  },
+  "es": {
+    "description": "Cuidados del espatifilo: sombra sin sol directo, sustrato húmedo pero nunca encharcado, abono suave y estado según la ASPCA.",
+    "imageAlt": "Espatifilo con una espata blanca que envuelve una espiga crema, sobre hojas verdes anchas",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/259532560\"><em>Spathiphyllum wallisii</em></a> de Jeffry Cubero, vía iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Redimensionada.",
+    "atAGlance": {
+      "light": "Semisombra a sombra; nada de sol directo",
+      "watering": "Compruébalo a menudo; riega antes de que se seque, pero sin encharcar",
+      "humidity": "Le gusta el aire húmedo; el aire seco puede quemar las puntas",
+      "temperature": "Unos 20–29 °C de día; por debajo de 16 °C crece mucho más lento",
+      "petSafety": "La ASPCA lo incluye como tóxico para gatos y perros",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Fácil a media"
+    }
+  },
+  "de": {
+    "description": "Einblatt pflegen: Schatten ohne direkte Sonne, gleichmäßig feucht, aber nie nass, sparsam düngen und Einstufung durch die ASPCA.",
+    "imageAlt": "Einblatt mit weißem Hochblatt um einen cremefarbenen Kolben über breiten grünen Blättern",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/259532560\"><em>Spathiphyllum wallisii</em></a> von Jeffry Cubero, über iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Verkleinert.",
+    "atAGlance": {
+      "light": "Halbschatten bis Schatten; keine direkte Sonne",
+      "watering": "Oft prüfen; gießen, bevor es austrocknet, aber nie nass stehen lassen",
+      "humidity": "Mag feuchte Luft; trockene Luft lässt Blattspitzen braun werden",
+      "temperature": "Tagsüber etwa 20–29 °C; unter 16 °C wächst es deutlich langsamer",
+      "petSafety": "Von der ASPCA als giftig für Katzen und Hunde geführt",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Leicht bis mittel"
+    }
+  },
+  "pt": {
+    "description": "Cuidados com o lírio-da-paz: sombra sem sol direto, substrato úmido mas nunca encharcado, adubação leve e a classificação da ASPCA.",
+    "imageAlt": "Lírio-da-paz com uma espata branca envolvendo uma espiga creme, acima de folhas verdes largas",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/259532560\"><em>Spathiphyllum wallisii</em></a> de Jeffry Cubero, via iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Redimensionada.",
+    "atAGlance": {
+      "light": "Meia-sombra a sombra; sem sol direto",
+      "watering": "Confira com frequência; regue antes de secar, mas sem encharcar",
+      "humidity": "Gosta de ar úmido; ar seco pode queimar as pontas",
+      "temperature": "Cerca de 20–29 °C de dia; abaixo de 16 °C o crescimento fica bem lento",
+      "petSafety": "A ASPCA lista como tóxico para gatos e cães",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Fácil a médio"
+    }
+  },
+  "fr": {
+    "description": "Entretien du spathiphyllum : ombre sans soleil direct, substrat frais mais jamais détrempé, engrais léger et statut selon l’ASPCA.",
+    "imageAlt": "Spathiphyllum avec une spathe blanche autour d’un spadice crème, au-dessus de larges feuilles vertes",
+    "caption": "Photo : <a href=\"https://www.inaturalist.org/observations/259532560\"><em>Spathiphyllum wallisii</em></a> de Jeffry Cubero, via iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Redimensionnée.",
+    "atAGlance": {
+      "light": "Mi-ombre à ombre ; pas de soleil direct",
+      "watering": "Vérifier souvent ; arroser avant le dessèchement, sans jamais détremper",
+      "humidity": "Aime l’air humide ; l’air sec peut brunir les pointes",
+      "temperature": "Environ 20–29 °C le jour ; sous 16 °C la croissance ralentit nettement",
+      "petSafety": "Classé toxique pour les chats et les chiens par l’ASPCA",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Facile à moyen"
+    }
+  }
+}

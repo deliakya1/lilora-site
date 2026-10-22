@@ -35,5 +35,17 @@
   },
   "tr": {
     "description": "Sararan yapraklarda bakımını değiştirmeden önce yaprak desenini, kök nemini, ışığı, sıcaklığı ve zararlı belirtilerini kontrol et."
+  },
+  "es": {
+    "description": "Revisa el patrón de las hojas, la humedad de las raíces, la luz, la temperatura y las plagas antes de cambiar los cuidados de una planta que amarillea."
+  },
+  "de": {
+    "description": "Prüf Blattmuster, Feuchte im Wurzelbereich, Licht, Temperatur und Schädlinge, bevor du die Pflege einer vergilbenden Zimmerpflanze änderst."
+  },
+  "pt": {
+    "description": "Confira o padrão das folhas, a umidade nas raízes, a luz, a temperatura e as pragas antes de mudar os cuidados de uma planta amarelando."
+  },
+  "fr": {
+    "description": "Vérifiez l’aspect des feuilles, l’humidité des racines, la lumière, la température et les ravageurs avant de modifier l’entretien d’une plante qui jaunit."
   }
 }

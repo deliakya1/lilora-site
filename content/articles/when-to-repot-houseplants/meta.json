@@ -35,5 +35,17 @@
   },
   "tr": {
     "description": "Kökleri incele, uygun saksı boyutunu seç ve dikim derinliğini koru. Yaygın yapraklı ev bitkileri için dikkatli saksı değiştirme rehberi."
+  },
+  "es": {
+    "description": "Trasplanta cuando las raíces o el sustrato lo piden, no por calendario. Cómo revisar, elegir el tamaño de maceta y trasplantar con cuidado."
+  },
+  "de": {
+    "description": "Topf um, wenn Wurzeln oder Substrat es verlangen, nicht nach Kalender. So prüfst du, wählst die Topfgröße und topfst schonend um."
+  },
+  "pt": {
+    "description": "Troque de vaso quando as raízes ou o substrato pedirem, não pelo calendário. Como conferir, escolher o tamanho do vaso e fazer a troca com cuidado."
+  },
+  "fr": {
+    "description": "Rempotez quand les racines ou le terreau le demandent, pas selon un calendrier. Comment vérifier, choisir la taille du pot et rempoter avec soin."
   }
 }

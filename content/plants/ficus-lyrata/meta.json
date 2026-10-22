@@ -1,0 +1,113 @@
+{
+  "slug": "ficus-lyrata",
+  "botanicalName": "Ficus lyrata",
+  "family": "Moraceae",
+  "published": "2026-10-22",
+  "reviewed": "2026-10-22",
+  "tags": [],
+  "image": "/assets/images/plants/ficus-lyrata-v1.webp",
+  "imageWidth": 628,
+  "imageHeight": 720,
+  "sources": [
+    {
+      "name": "NC State Extension Gardener Plant Toolbox: Ficus lyrata",
+      "url": "https://plants.ces.ncsu.edu/plants/ficus-lyrata/"
+    },
+    {
+      "name": "Royal Botanic Gardens, Kew, Plants of the World Online: Ficus lyrata",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:853158-1"
+    },
+    {
+      "name": "RHS: how to grow ornamental figs",
+      "url": "https://www.rhs.org.uk/plants/ornamental-figs/growing-guide"
+    },
+    {
+      "name": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/"
+    }
+  ],
+  "tr": {
+    "description": "Keman yapraklı kauçuk (Ficus lyrata) bakımı: parlak dolaylı ışık, sabit koşullar, dikkatli sulama ve evcil hayvan kaynaklarının neden ayrıştığı.",
+    "imageAlt": "Mavi gökyüzü önünde büyük, dalgalı, keman biçimli yapraklarıyla Ficus lyrata",
+    "caption": "Fotoğraf: <a href=\"https://www.inaturalist.org/observations/61359233\"><em>Ficus lyrata</em></a>, Diogo Luiz, iNaturalist üzerinden, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Kırpıldı ve yeniden boyutlandırıldı.",
+    "atAGlance": {
+      "light": "Parlak dolaylı ışık; sert öğleden sonra güneşinden koru",
+      "watering": "Sulamalar arasında harç biraz kurusun; fazla suya hassastır",
+      "humidity": "Orta–yüksek nem",
+      "temperature": "13 °C'nin üstünde tut; cereyandan ve ani değişimlerden koru",
+      "petSafety": "ASPCA veritabanında adıyla yok; bir ASPCA yazısı hafif toksik der",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Orta"
+    }
+  },
+  "en": {
+    "description": "Fiddle-leaf fig care: bright indirect light, steady conditions, careful watering and why pet-safety sources disagree.",
+    "imageAlt": "Fiddle-leaf fig with large, wavy, violin-shaped leaves against a blue sky",
+    "caption": "Photo: <a href=\"https://www.inaturalist.org/observations/61359233\"><em>Ficus lyrata</em></a> by Diogo Luiz, via iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Cropped and resized.",
+    "atAGlance": {
+      "light": "Bright indirect light; shade it from strong afternoon sun",
+      "watering": "Let the mix dry slightly between waterings; it is sensitive to overwatering",
+      "humidity": "Medium to high humidity",
+      "temperature": "Keep above 13 °C (55 °F); avoid draughts and sudden swings",
+      "petSafety": "Not in the ASPCA plant database by name; an ASPCA article calls it mildly toxic",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Moderate"
+    }
+  },
+  "es": {
+    "description": "Cuidados del ficus lira: luz indirecta brillante, condiciones estables, riego prudente y por qué las fuentes sobre mascotas no coinciden.",
+    "imageAlt": "Ficus lira con grandes hojas onduladas en forma de violín contra un cielo azul",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/61359233\"><em>Ficus lyrata</em></a> de Diogo Luiz, vía iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Recortada y redimensionada.",
+    "atAGlance": {
+      "light": "Luz indirecta brillante; protégelo del sol fuerte de la tarde",
+      "watering": "Deja secar un poco el sustrato entre riegos; no tolera el exceso de agua",
+      "humidity": "Humedad media a alta",
+      "temperature": "Por encima de 13 °C; evita corrientes y cambios bruscos",
+      "petSafety": "No aparece por su nombre en la base de la ASPCA; un artículo de la ASPCA lo describe como levemente tóxico",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Media"
+    }
+  },
+  "de": {
+    "description": "Geigenfeige pflegen: helles indirektes Licht, stabile Bedingungen, vorsichtig gießen und warum Quellen zu Haustieren voneinander abweichen.",
+    "imageAlt": "Geigenfeige mit großen, gewellten, geigenförmigen Blättern vor blauem Himmel",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/61359233\"><em>Ficus lyrata</em></a> von Diogo Luiz, über iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Zugeschnitten und verkleinert.",
+    "atAGlance": {
+      "light": "Hell und indirekt; vor greller Nachmittagssonne schützen",
+      "watering": "Zwischen den Wassergaben leicht antrocknen lassen; reagiert empfindlich auf Staunässe",
+      "humidity": "Mittlere bis hohe Luftfeuchtigkeit",
+      "temperature": "Über 13 °C; Zugluft und plötzliche Wechsel vermeiden",
+      "petSafety": "Nicht namentlich in der ASPCA-Datenbank; ein ASPCA-Artikel nennt sie leicht giftig",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Mittel"
+    }
+  },
+  "pt": {
+    "description": "Cuidados com a figueira-lira: luz indireta clara, condições estáveis, rega cuidadosa e por que as fontes sobre pets não concordam.",
+    "imageAlt": "Figueira-lira com folhas grandes, onduladas e em forma de violino contra o céu azul",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/61359233\"><em>Ficus lyrata</em></a> de Diogo Luiz, via iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Recortada e redimensionada.",
+    "atAGlance": {
+      "light": "Luz indireta clara; proteja do sol forte da tarde",
+      "watering": "Deixe o substrato secar um pouco entre regas; é sensível ao excesso de água",
+      "humidity": "Umidade média a alta",
+      "temperature": "Acima de 13 °C; evite correntes de ar e mudanças bruscas",
+      "petSafety": "Não aparece pelo nome no banco da ASPCA; um artigo da ASPCA a descreve como levemente tóxica",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Médio"
+    }
+  },
+  "fr": {
+    "description": "Entretien du Ficus lyrata : lumière vive indirecte, conditions stables, arrosage prudent et pourquoi les sources sur les animaux divergent.",
+    "imageAlt": "Ficus lyrata aux grandes feuilles ondulées en forme de violon sur un ciel bleu",
+    "caption": "Photo : <a href=\"https://www.inaturalist.org/observations/61359233\"><em>Ficus lyrata</em></a> de Diogo Luiz, via iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Recadrée et redimensionnée.",
+    "atAGlance": {
+      "light": "Lumière vive indirecte ; à l’abri du fort soleil d’après-midi",
+      "watering": "Laisser légèrement sécher entre deux arrosages ; craint l’excès d’eau",
+      "humidity": "Humidité moyenne à élevée",
+      "temperature": "Au-dessus de 13 °C ; éviter courants d’air et écarts brusques",
+      "petSafety": "Absent nommément de la base de l’ASPCA ; un article de l’ASPCA le dit légèrement toxique",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Moyen"
+    }
+  }
+}

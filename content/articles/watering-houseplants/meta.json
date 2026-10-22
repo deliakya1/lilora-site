@@ -36,5 +36,17 @@
   },
   "tr": {
     "description": "Saksı harcını, ağırlığı ve drenajı kontrol ederek sulama zamanını belirle. Sabit takvim yerine bitkini izleyen pratik bir rutin."
+  },
+  "es": {
+    "description": "Comprueba el sustrato, el peso de la maceta y el drenaje para decidir cuándo regar. Una rutina práctica que sigue a tu planta, no un calendario rígido."
+  },
+  "de": {
+    "description": "Prüf Substrat, Topfgewicht und Abzug, um zu entscheiden, wann du gießt. Eine praktische Routine, die sich nach der Pflanze richtet, nicht nach einem starren Kalender."
+  },
+  "pt": {
+    "description": "Confira o substrato, o peso do vaso e a drenagem para decidir quando regar. Uma rotina prática que segue a sua planta, não um calendário rígido."
+  },
+  "fr": {
+    "description": "Vérifiez le terreau, le poids du pot et le drainage pour décider quand arroser. Une routine pratique qui suit votre plante, pas un calendrier rigide."
   }
 }

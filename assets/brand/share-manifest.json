@@ -105,6 +105,20 @@
       "image": "/assets/brand/share/de-compare.png"
     },
     {
+      "path": "/de/compare/lilora-vs-picturethis/",
+      "lang": "de",
+      "title": "Lilora vs. PictureThis: Bestimmen und pflegen",
+      "description": "Lilora und PictureThis im Vergleich: Bestimmung, Erinnerungen, Sammlungen und gemeinsame Pflege, mit offiziellen Quellen und Hinweisen zu Preisen.",
+      "image": "/assets/brand/share/de-compare--lilora-vs-picturethis.png"
+    },
+    {
+      "path": "/de/compare/lilora-vs-planta/",
+      "lang": "de",
+      "title": "Lilora vs. Planta: die passende Pflegeroutine wählen",
+      "description": "Lilora und Planta im Vergleich: Erinnerungen, gemeinsame Einträge, Bestimmung und Preise, mit offiziellen Quellen und ehrlichen Angaben zum Startstatus.",
+      "image": "/assets/brand/share/de-compare--lilora-vs-planta.png"
+    },
+    {
       "path": "/de/contact/",
       "lang": "de",
       "title": "Kontakt zu Lilora",
@@ -133,6 +147,48 @@
       "image": "/assets/brand/share/de-guides.png"
     },
     {
+      "path": "/de/guides/indoor-plant-light-guide/",
+      "lang": "de",
+      "title": "Licht für Zimmerpflanzen: den richtigen Platz finden",
+      "description": "Lerne, direkte Sonne, helles indirektes Licht und wenig Licht zu unterscheiden, und beobachte einen Platz über den Tag, bevor du eine Zimmerpflanze wählst.",
+      "image": "/assets/brand/share/de-guides--indoor-plant-light-guide.png"
+    },
+    {
+      "path": "/de/guides/pet-safe-houseplants/",
+      "lang": "de",
+      "title": "Zimmerpflanzen und Haustiere: was du vor dem Kauf prüfen solltest",
+      "description": "Bevor eine Pflanze einzieht: botanischen Namen finden, die ASPCA-Liste prüfen und einen Platz außer Reichweite deines Tieres wählen. Was giftig, ungiftig und nicht gelistet bedeutet.",
+      "image": "/assets/brand/share/de-guides--pet-safe-houseplants.png"
+    },
+    {
+      "path": "/de/guides/shared-plant-care/",
+      "lang": "de",
+      "title": "Pflanzenpflege teilen, ohne doppelt zu gießen",
+      "description": "Teil die Pflanzenpflege mit Partner oder Mitbewohnern: klare Einträge für Prüfen und Gießen, eine einfache Aufteilung und eine praktische Übergabe vor der Reise.",
+      "image": "/assets/brand/share/de-guides--shared-plant-care.png"
+    },
+    {
+      "path": "/de/guides/watering-houseplants/",
+      "lang": "de",
+      "title": "Zimmerpflanzen gießen ohne starren Plan",
+      "description": "Prüf Substrat, Topfgewicht und Abzug, um zu entscheiden, wann du gießt. Eine praktische Routine, die sich nach der Pflanze richtet, nicht nach einem starren Kalender.",
+      "image": "/assets/brand/share/de-guides--watering-houseplants.png"
+    },
+    {
+      "path": "/de/guides/when-to-repot-houseplants/",
+      "lang": "de",
+      "title": "Wann du eine Zimmerpflanze umtopfst und wie es schonend gelingt",
+      "description": "Topf um, wenn Wurzeln oder Substrat es verlangen, nicht nach Kalender. So prüfst du, wählst die Topfgröße und topfst schonend um.",
+      "image": "/assets/brand/share/de-guides--when-to-repot-houseplants.png"
+    },
+    {
+      "path": "/de/guides/yellow-houseplant-leaves/",
+      "lang": "de",
+      "title": "Gelbe Blätter an Zimmerpflanzen: was du vor dem Handeln prüfen solltest",
+      "description": "Prüf Blattmuster, Feuchte im Wurzelbereich, Licht, Temperatur und Schädlinge, bevor du die Pflege einer vergilbenden Zimmerpflanze änderst.",
+      "image": "/assets/brand/share/de-guides--yellow-houseplant-leaves.png"
+    },
+    {
       "path": "/de/journal/",
       "lang": "de",
       "title": "Pflanzenjournal",
@@ -152,6 +208,90 @@
       "title": "Zimmerpflanzen-Bibliothek",
       "description": "Zimmerpflanzen nach Arten kennenlernen.",
       "image": "/assets/brand/share/de-plants.png"
+    },
+    {
+      "path": "/de/plants/aloe-vera/",
+      "lang": "de",
+      "title": "Aloe vera pflegen",
+      "description": "Aloe vera pflegen: sonniges Fenster, mineralisches Substrat, zwischen den Wassergaben ganz trocken und warum die ASPCA sie als giftig führt.",
+      "image": "/assets/brand/share/de-plants--aloe-vera.png"
+    },
+    {
+      "path": "/de/plants/chlorophytum-comosum/",
+      "lang": "de",
+      "title": "Grünlilie pflegen",
+      "description": "Grünlilie pflegen: mittleres Licht, feucht und gut durchlässig, einfache Kindel und laut ASPCA ungiftig für Katzen und Hunde.",
+      "image": "/assets/brand/share/de-plants--chlorophytum-comosum.png"
+    },
+    {
+      "path": "/de/plants/dracaena-trifasciata/",
+      "lang": "de",
+      "title": "Bogenhanf (Sansevieria) pflegen",
+      "description": "Bogenhanf pflegen: kommt mit wenig Licht aus, braucht zwischen den Wassergaben trockenes Substrat und gilt laut ASPCA als giftig für Haustiere.",
+      "image": "/assets/brand/share/de-plants--dracaena-trifasciata.png"
+    },
+    {
+      "path": "/de/plants/epipremnum-aureum/",
+      "lang": "de",
+      "title": "Efeutute pflegen",
+      "description": "Efeutute pflegen: helles indirektes Licht, vor jedem Gießen prüfen, Stecklinge bewurzeln und was die ASPCA zu Katzen und Hunden angibt.",
+      "image": "/assets/brand/share/de-plants--epipremnum-aureum.png"
+    },
+    {
+      "path": "/de/plants/ficus-elastica/",
+      "lang": "de",
+      "title": "Gummibaum pflegen",
+      "description": "Gummibaum pflegen: helles indirektes Licht, vor dem Gießen leicht antrocknen lassen, Vorsicht beim Milchsaft, Abmoosen und ASPCA-Einstufung.",
+      "image": "/assets/brand/share/de-plants--ficus-elastica.png"
+    },
+    {
+      "path": "/de/plants/ficus-lyrata/",
+      "lang": "de",
+      "title": "Geigenfeige pflegen",
+      "description": "Geigenfeige pflegen: helles indirektes Licht, stabile Bedingungen, vorsichtig gießen und warum Quellen zu Haustieren voneinander abweichen.",
+      "image": "/assets/brand/share/de-plants--ficus-lyrata.png"
+    },
+    {
+      "path": "/de/plants/goeppertia/",
+      "lang": "de",
+      "title": "Korbmarante (Calathea) pflegen",
+      "description": "Korbmarante (Calathea, Goeppertia) pflegen: mittleres bis wenig indirektes Licht, gleichmäßige Feuchte, weiches Wasser und ASPCA-Einstufung.",
+      "image": "/assets/brand/share/de-plants--goeppertia.png"
+    },
+    {
+      "path": "/de/plants/monstera-deliciosa/",
+      "lang": "de",
+      "title": "Monstera pflegen",
+      "description": "Monstera pflegen: mittelhelles Licht ohne pralle Sonne, das obere Drittel des Substrats prüfen, Stütze und Einstufung durch die ASPCA.",
+      "image": "/assets/brand/share/de-plants--monstera-deliciosa.png"
+    },
+    {
+      "path": "/de/plants/phalaenopsis/",
+      "lang": "de",
+      "title": "Schmetterlingsorchidee (Phalaenopsis) pflegen",
+      "description": "Schmetterlingsorchidee pflegen: helles indirektes Licht, Rindensubstrat, tauchen und abtropfen lassen, neue Blütenrispen und ASPCA-Einstufung.",
+      "image": "/assets/brand/share/de-plants--phalaenopsis.png"
+    },
+    {
+      "path": "/de/plants/philodendron-hederaceum/",
+      "lang": "de",
+      "title": "Kletter-Philodendron pflegen",
+      "description": "Kletter-Philodendron pflegen: mittleres Licht, leicht feuchtes Substrat, einfache Stecklinge und Einstufung durch die ASPCA.",
+      "image": "/assets/brand/share/de-plants--philodendron-hederaceum.png"
+    },
+    {
+      "path": "/de/plants/spathiphyllum/",
+      "lang": "de",
+      "title": "Einblatt (Spathiphyllum) pflegen",
+      "description": "Einblatt pflegen: Schatten ohne direkte Sonne, gleichmäßig feucht, aber nie nass, sparsam düngen und Einstufung durch die ASPCA.",
+      "image": "/assets/brand/share/de-plants--spathiphyllum.png"
+    },
+    {
+      "path": "/de/plants/zamioculcas-zamiifolia/",
+      "lang": "de",
+      "title": "Glücksfeder (Zamioculcas) pflegen",
+      "description": "Glücksfeder (Zamioculcas) pflegen: helles indirektes Licht, vor dem Gießen ganz trocken, selten düngen und warum sie nicht auf der ASPCA-Liste steht.",
+      "image": "/assets/brand/share/de-plants--zamioculcas-zamiifolia.png"
     },
     {
       "path": "/de/press/",
@@ -259,6 +399,13 @@
       "image": "/assets/brand/share/en-guides--indoor-plant-light-guide.png"
     },
     {
+      "path": "/en/guides/pet-safe-houseplants/",
+      "lang": "en",
+      "title": "Houseplants and pets: what to check before bringing a plant home",
+      "description": "Before a new plant comes home, find its botanical name, check the ASPCA list and plan a spot your pet cannot reach. What toxic, non-toxic and not listed really mean.",
+      "image": "/assets/brand/share/en-guides--pet-safe-houseplants.png"
+    },
+    {
       "path": "/en/guides/shared-plant-care/",
       "lang": "en",
       "title": "Share plant care without watering twice",
@@ -308,6 +455,90 @@
       "image": "/assets/brand/share/en-plants.png"
     },
     {
+      "path": "/en/plants/aloe-vera/",
+      "lang": "en",
+      "title": "Aloe vera care",
+      "description": "Aloe vera care: a sunny window, gritty mix, a full dry-down between waterings and why the ASPCA lists it as toxic to pets.",
+      "image": "/assets/brand/share/en-plants--aloe-vera.png"
+    },
+    {
+      "path": "/en/plants/chlorophytum-comosum/",
+      "lang": "en",
+      "title": "Spider plant care",
+      "description": "Spider plant care: medium light, moist but drained mix, easy plantlets, and its listing as non-toxic to cats and dogs by the ASPCA.",
+      "image": "/assets/brand/share/en-plants--chlorophytum-comosum.png"
+    },
+    {
+      "path": "/en/plants/dracaena-trifasciata/",
+      "lang": "en",
+      "title": "Snake plant care",
+      "description": "Snake plant care: tolerates low light, needs a full dry-down between waterings, and is listed as toxic to cats and dogs by the ASPCA.",
+      "image": "/assets/brand/share/en-plants--dracaena-trifasciata.png"
+    },
+    {
+      "path": "/en/plants/epipremnum-aureum/",
+      "lang": "en",
+      "title": "Pothos care",
+      "description": "Pothos care: bright indirect light, a check before every watering, trailing-stem cuttings and what the ASPCA lists for cats and dogs.",
+      "image": "/assets/brand/share/en-plants--epipremnum-aureum.png"
+    },
+    {
+      "path": "/en/plants/ficus-elastica/",
+      "lang": "en",
+      "title": "Rubber plant care",
+      "description": "Rubber plant care: bright indirect light, a slight dry-down before watering, sap safety, air layering and ASPCA pet status.",
+      "image": "/assets/brand/share/en-plants--ficus-elastica.png"
+    },
+    {
+      "path": "/en/plants/ficus-lyrata/",
+      "lang": "en",
+      "title": "Fiddle-leaf fig care",
+      "description": "Fiddle-leaf fig care: bright indirect light, steady conditions, careful watering and why pet-safety sources disagree.",
+      "image": "/assets/brand/share/en-plants--ficus-lyrata.png"
+    },
+    {
+      "path": "/en/plants/goeppertia/",
+      "lang": "en",
+      "title": "Calathea (prayer plant) care",
+      "description": "Calathea (Goeppertia) care: low to medium indirect light, steady moisture, soft water, humidity and the ASPCA non-toxic listing.",
+      "image": "/assets/brand/share/en-plants--goeppertia.png"
+    },
+    {
+      "path": "/en/plants/monstera-deliciosa/",
+      "lang": "en",
+      "title": "Monstera care",
+      "description": "Monstera care: moderate light without hot sun, checking the top third of the mix, support for climbing stems and ASPCA pet status.",
+      "image": "/assets/brand/share/en-plants--monstera-deliciosa.png"
+    },
+    {
+      "path": "/en/plants/phalaenopsis/",
+      "lang": "en",
+      "title": "Moth orchid care",
+      "description": "Moth orchid care: bright indirect light, bark mix, soak-and-drain watering, rebloom cues and its ASPCA non-toxic listing.",
+      "image": "/assets/brand/share/en-plants--phalaenopsis.png"
+    },
+    {
+      "path": "/en/plants/philodendron-hederaceum/",
+      "lang": "en",
+      "title": "Heartleaf philodendron care",
+      "description": "Heartleaf philodendron care: medium light, slightly moist mix, simple stem cuttings and ASPCA pet status.",
+      "image": "/assets/brand/share/en-plants--philodendron-hederaceum.png"
+    },
+    {
+      "path": "/en/plants/spathiphyllum/",
+      "lang": "en",
+      "title": "Peace lily care",
+      "description": "Peace lily care: shade without direct sun, evenly moist but never soggy mix, gentle feeding and ASPCA pet status.",
+      "image": "/assets/brand/share/en-plants--spathiphyllum.png"
+    },
+    {
+      "path": "/en/plants/zamioculcas-zamiifolia/",
+      "lang": "en",
+      "title": "ZZ plant care",
+      "description": "ZZ plant care: bright indirect light, full dry-down before watering, rare feeding and why it is not on the ASPCA list.",
+      "image": "/assets/brand/share/en-plants--zamioculcas-zamiifolia.png"
+    },
+    {
       "path": "/en/press/",
       "lang": "en",
       "title": "Lilora press resources",
@@ -350,6 +581,20 @@
       "image": "/assets/brand/share/es-compare.png"
     },
     {
+      "path": "/es/compare/lilora-vs-picturethis/",
+      "lang": "es",
+      "title": "Lilora vs PictureThis: identificación y cuidado diario de las plantas",
+      "description": "Compara Lilora y PictureThis en identificación, recordatorios, colecciones y cuidado compartido, con fuentes oficiales y advertencias sobre precios.",
+      "image": "/assets/brand/share/es-compare--lilora-vs-picturethis.png"
+    },
+    {
+      "path": "/es/compare/lilora-vs-planta/",
+      "lang": "es",
+      "title": "Lilora vs Planta: elegir una rutina de cuidado de plantas",
+      "description": "Compara Lilora y Planta en recordatorios, registros compartidos, identificación y precios, con fuentes oficiales e información honesta sobre el lanzamiento.",
+      "image": "/assets/brand/share/es-compare--lilora-vs-planta.png"
+    },
+    {
       "path": "/es/contact/",
       "lang": "es",
       "title": "Contacta con Lilora",
@@ -378,6 +623,48 @@
       "image": "/assets/brand/share/es-guides.png"
     },
     {
+      "path": "/es/guides/indoor-plant-light-guide/",
+      "lang": "es",
+      "title": "Luz para plantas de interior: guía para principiantes para elegir un sitio",
+      "description": "Aprende a distinguir sol directo, luz indirecta brillante y poca luz, y a observar un sitio a lo largo del día antes de elegir una planta de interior.",
+      "image": "/assets/brand/share/es-guides--indoor-plant-light-guide.png"
+    },
+    {
+      "path": "/es/guides/pet-safe-houseplants/",
+      "lang": "es",
+      "title": "Plantas de interior y mascotas: qué comprobar antes de llevar una planta a casa",
+      "description": "Antes de llevar una planta a casa, busca su nombre botánico, consulta la lista de la ASPCA y elige un sitio fuera del alcance de tu mascota. Qué significan tóxica, no tóxica y no figura.",
+      "image": "/assets/brand/share/es-guides--pet-safe-houseplants.png"
+    },
+    {
+      "path": "/es/guides/shared-plant-care/",
+      "lang": "es",
+      "title": "Compartir el cuidado de las plantas sin regar dos veces",
+      "description": "Comparte el cuidado de las plantas con tu pareja o compañeros de piso con registros claros de comprobación y riego, un reparto sencillo y un relevo práctico antes de viajar.",
+      "image": "/assets/brand/share/es-guides--shared-plant-care.png"
+    },
+    {
+      "path": "/es/guides/watering-houseplants/",
+      "lang": "es",
+      "title": "Cómo regar las plantas de interior sin un calendario rígido",
+      "description": "Comprueba el sustrato, el peso de la maceta y el drenaje para decidir cuándo regar. Una rutina práctica que sigue a tu planta, no un calendario rígido.",
+      "image": "/assets/brand/share/es-guides--watering-houseplants.png"
+    },
+    {
+      "path": "/es/guides/when-to-repot-houseplants/",
+      "lang": "es",
+      "title": "Cuándo trasplantar una planta de interior y cómo hacerlo con cuidado",
+      "description": "Trasplanta cuando las raíces o el sustrato lo piden, no por calendario. Cómo revisar, elegir el tamaño de maceta y trasplantar con cuidado.",
+      "image": "/assets/brand/share/es-guides--when-to-repot-houseplants.png"
+    },
+    {
+      "path": "/es/guides/yellow-houseplant-leaves/",
+      "lang": "es",
+      "title": "Hojas amarillas en plantas de interior: qué comprobar antes de actuar",
+      "description": "Revisa el patrón de las hojas, la humedad de las raíces, la luz, la temperatura y las plagas antes de cambiar los cuidados de una planta que amarillea.",
+      "image": "/assets/brand/share/es-guides--yellow-houseplant-leaves.png"
+    },
+    {
       "path": "/es/journal/",
       "lang": "es",
       "title": "Diario de plantas",
@@ -397,6 +684,90 @@
       "title": "Biblioteca de plantas para casa",
       "description": "Fichas de plantas de interior por especie.",
       "image": "/assets/brand/share/es-plants.png"
+    },
+    {
+      "path": "/es/plants/aloe-vera/",
+      "lang": "es",
+      "title": "Cuidados del aloe vera",
+      "description": "Cuidados del aloe vera: ventana soleada, sustrato arenoso, secado total entre riegos y por qué la ASPCA lo incluye como tóxico para mascotas.",
+      "image": "/assets/brand/share/es-plants--aloe-vera.png"
+    },
+    {
+      "path": "/es/plants/chlorophytum-comosum/",
+      "lang": "es",
+      "title": "Cuidados de la cinta",
+      "description": "Cuidados de la cinta: luz media, sustrato húmedo pero bien drenado, hijuelos fáciles y la clasificación de la ASPCA como no tóxica para gatos y perros.",
+      "image": "/assets/brand/share/es-plants--chlorophytum-comosum.png"
+    },
+    {
+      "path": "/es/plants/dracaena-trifasciata/",
+      "lang": "es",
+      "title": "Cuidados de la lengua de suegra (sansevieria)",
+      "description": "Cuidados de la lengua de suegra: tolera poca luz, necesita que el sustrato se seque del todo entre riegos y la ASPCA la incluye como tóxica.",
+      "image": "/assets/brand/share/es-plants--dracaena-trifasciata.png"
+    },
+    {
+      "path": "/es/plants/epipremnum-aureum/",
+      "lang": "es",
+      "title": "Cuidados del potos",
+      "description": "Cuidados del potos: luz indirecta brillante, comprobar el sustrato antes de regar, esquejes de tallo y qué dice la ASPCA sobre perros y gatos.",
+      "image": "/assets/brand/share/es-plants--epipremnum-aureum.png"
+    },
+    {
+      "path": "/es/plants/ficus-elastica/",
+      "lang": "es",
+      "title": "Cuidados del ficus elástica (árbol del caucho)",
+      "description": "Cuidados del ficus elástica: luz indirecta brillante, secado ligero antes de regar, precaución con el látex, acodo aéreo y estado según la ASPCA.",
+      "image": "/assets/brand/share/es-plants--ficus-elastica.png"
+    },
+    {
+      "path": "/es/plants/ficus-lyrata/",
+      "lang": "es",
+      "title": "Cuidados del ficus lira",
+      "description": "Cuidados del ficus lira: luz indirecta brillante, condiciones estables, riego prudente y por qué las fuentes sobre mascotas no coinciden.",
+      "image": "/assets/brand/share/es-plants--ficus-lyrata.png"
+    },
+    {
+      "path": "/es/plants/goeppertia/",
+      "lang": "es",
+      "title": "Cuidados de la calathea",
+      "description": "Cuidados de la calathea (Goeppertia): luz indirecta media o baja, humedad constante, agua blanda, ambiente húmedo y estado según la ASPCA.",
+      "image": "/assets/brand/share/es-plants--goeppertia.png"
+    },
+    {
+      "path": "/es/plants/monstera-deliciosa/",
+      "lang": "es",
+      "title": "Cuidados de la costilla de Adán (Monstera)",
+      "description": "Cuidados de la costilla de Adán: luz media sin sol fuerte, comprobar el tercio superior del sustrato, tutor para trepar y estado según la ASPCA.",
+      "image": "/assets/brand/share/es-plants--monstera-deliciosa.png"
+    },
+    {
+      "path": "/es/plants/phalaenopsis/",
+      "lang": "es",
+      "title": "Cuidados de la orquídea mariposa (Phalaenopsis)",
+      "description": "Cuidados de la orquídea mariposa: luz indirecta brillante, corteza, riego por inmersión y drenaje, pistas para refloración y estado según la ASPCA.",
+      "image": "/assets/brand/share/es-plants--phalaenopsis.png"
+    },
+    {
+      "path": "/es/plants/philodendron-hederaceum/",
+      "lang": "es",
+      "title": "Cuidados del filodendro trepador",
+      "description": "Cuidados del filodendro trepador: luz media, sustrato ligeramente húmedo, esquejes sencillos y estado según la ASPCA.",
+      "image": "/assets/brand/share/es-plants--philodendron-hederaceum.png"
+    },
+    {
+      "path": "/es/plants/spathiphyllum/",
+      "lang": "es",
+      "title": "Cuidados del espatifilo",
+      "description": "Cuidados del espatifilo: sombra sin sol directo, sustrato húmedo pero nunca encharcado, abono suave y estado según la ASPCA.",
+      "image": "/assets/brand/share/es-plants--spathiphyllum.png"
+    },
+    {
+      "path": "/es/plants/zamioculcas-zamiifolia/",
+      "lang": "es",
+      "title": "Cuidados de la zamioculca",
+      "description": "Cuidados de la zamioculca: luz indirecta brillante, sustrato totalmente seco antes de regar, poco abono y por qué no figura en la lista de la ASPCA.",
+      "image": "/assets/brand/share/es-plants--zamioculcas-zamiifolia.png"
     },
     {
       "path": "/es/press/",
@@ -441,6 +812,20 @@
       "image": "/assets/brand/share/fr-compare.png"
     },
     {
+      "path": "/fr/compare/lilora-vs-picturethis/",
+      "lang": "fr",
+      "title": "Lilora vs PictureThis : identification et entretien des plantes au quotidien",
+      "description": "Comparez Lilora et PictureThis pour l’identification, les rappels, les collections et l’entretien partagé, avec des sources officielles et des réserves sur les prix.",
+      "image": "/assets/brand/share/fr-compare--lilora-vs-picturethis.png"
+    },
+    {
+      "path": "/fr/compare/lilora-vs-planta/",
+      "lang": "fr",
+      "title": "Lilora vs Planta : choisir une routine d’entretien des plantes",
+      "description": "Comparez Lilora et Planta pour les rappels, l’historique partagé, l’identification et les prix, avec des sources officielles et un statut de lancement honnête.",
+      "image": "/assets/brand/share/fr-compare--lilora-vs-planta.png"
+    },
+    {
       "path": "/fr/contact/",
       "lang": "fr",
       "title": "Contacter Lilora",
@@ -469,6 +854,48 @@
       "image": "/assets/brand/share/fr-guides.png"
     },
     {
+      "path": "/fr/guides/indoor-plant-light-guide/",
+      "lang": "fr",
+      "title": "La lumière pour les plantes d’intérieur : guide pour bien choisir l’emplacement",
+      "description": "Apprenez à distinguer soleil direct, lumière vive indirecte et faible luminosité, et observez un emplacement au fil de la journée avant de choisir une plante.",
+      "image": "/assets/brand/share/fr-guides--indoor-plant-light-guide.png"
+    },
+    {
+      "path": "/fr/guides/pet-safe-houseplants/",
+      "lang": "fr",
+      "title": "Plantes d’intérieur et animaux : ce qu’il faut vérifier avant d’adopter une plante",
+      "description": "Avant d’adopter une plante, trouvez son nom botanique, consultez la liste de l’ASPCA et choisissez un emplacement hors de portée de votre animal. Ce que veulent dire toxique, non toxique et non répertoriée.",
+      "image": "/assets/brand/share/fr-guides--pet-safe-houseplants.png"
+    },
+    {
+      "path": "/fr/guides/shared-plant-care/",
+      "lang": "fr",
+      "title": "Partager l’entretien des plantes sans arroser deux fois",
+      "description": "Partagez l’entretien des plantes avec un partenaire ou des colocataires grâce à un historique clair des vérifications et arrosages, une répartition simple et une passation avant de partir.",
+      "image": "/assets/brand/share/fr-guides--shared-plant-care.png"
+    },
+    {
+      "path": "/fr/guides/watering-houseplants/",
+      "lang": "fr",
+      "title": "Arroser ses plantes d’intérieur sans calendrier rigide",
+      "description": "Vérifiez le terreau, le poids du pot et le drainage pour décider quand arroser. Une routine pratique qui suit votre plante, pas un calendrier rigide.",
+      "image": "/assets/brand/share/fr-guides--watering-houseplants.png"
+    },
+    {
+      "path": "/fr/guides/when-to-repot-houseplants/",
+      "lang": "fr",
+      "title": "Quand rempoter une plante d’intérieur, et comment le faire avec soin",
+      "description": "Rempotez quand les racines ou le terreau le demandent, pas selon un calendrier. Comment vérifier, choisir la taille du pot et rempoter avec soin.",
+      "image": "/assets/brand/share/fr-guides--when-to-repot-houseplants.png"
+    },
+    {
+      "path": "/fr/guides/yellow-houseplant-leaves/",
+      "lang": "fr",
+      "title": "Feuilles jaunes sur les plantes d’intérieur : que vérifier avant d’agir",
+      "description": "Vérifiez l’aspect des feuilles, l’humidité des racines, la lumière, la température et les ravageurs avant de modifier l’entretien d’une plante qui jaunit.",
+      "image": "/assets/brand/share/fr-guides--yellow-houseplant-leaves.png"
+    },
+    {
       "path": "/fr/journal/",
       "lang": "fr",
       "title": "Journal des plantes",
@@ -488,6 +915,90 @@
       "title": "Bibliothèque des plantes",
       "description": "Des fiches de plantes d’intérieur par espèce.",
       "image": "/assets/brand/share/fr-plants.png"
+    },
+    {
+      "path": "/fr/plants/aloe-vera/",
+      "lang": "fr",
+      "title": "Entretien de l’aloe vera",
+      "description": "Entretien de l’aloe vera : fenêtre ensoleillée, substrat drainant, séchage complet entre deux arrosages et pourquoi l’ASPCA le classe toxique.",
+      "image": "/assets/brand/share/fr-plants--aloe-vera.png"
+    },
+    {
+      "path": "/fr/plants/chlorophytum-comosum/",
+      "lang": "fr",
+      "title": "Entretien de la plante araignée (chlorophytum)",
+      "description": "Entretien de la plante araignée : lumière moyenne, substrat frais et drainé, rejets faciles et son classement non toxique par l’ASPCA.",
+      "image": "/assets/brand/share/fr-plants--chlorophytum-comosum.png"
+    },
+    {
+      "path": "/fr/plants/dracaena-trifasciata/",
+      "lang": "fr",
+      "title": "Entretien de la sansevière",
+      "description": "Entretien de la sansevière : tolère peu de lumière, demande un substrat bien sec entre deux arrosages et l’ASPCA la classe toxique.",
+      "image": "/assets/brand/share/fr-plants--dracaena-trifasciata.png"
+    },
+    {
+      "path": "/fr/plants/epipremnum-aureum/",
+      "lang": "fr",
+      "title": "Entretien du pothos",
+      "description": "Entretien du pothos : lumière vive indirecte, vérification avant chaque arrosage, boutures de tige et ce que l’ASPCA indique pour chats et chiens.",
+      "image": "/assets/brand/share/fr-plants--epipremnum-aureum.png"
+    },
+    {
+      "path": "/fr/plants/ficus-elastica/",
+      "lang": "fr",
+      "title": "Entretien du caoutchouc (Ficus elastica)",
+      "description": "Entretien du caoutchouc : lumière vive indirecte, léger séchage avant d’arroser, prudence avec le latex, marcottage aérien et statut ASPCA.",
+      "image": "/assets/brand/share/fr-plants--ficus-elastica.png"
+    },
+    {
+      "path": "/fr/plants/ficus-lyrata/",
+      "lang": "fr",
+      "title": "Entretien du Ficus lyrata",
+      "description": "Entretien du Ficus lyrata : lumière vive indirecte, conditions stables, arrosage prudent et pourquoi les sources sur les animaux divergent.",
+      "image": "/assets/brand/share/fr-plants--ficus-lyrata.png"
+    },
+    {
+      "path": "/fr/plants/goeppertia/",
+      "lang": "fr",
+      "title": "Entretien du calathea",
+      "description": "Entretien du calathea (Goeppertia) : lumière indirecte moyenne à faible, humidité régulière, eau douce, air humide et classement ASPCA.",
+      "image": "/assets/brand/share/fr-plants--goeppertia.png"
+    },
+    {
+      "path": "/fr/plants/monstera-deliciosa/",
+      "lang": "fr",
+      "title": "Entretien du monstera",
+      "description": "Entretien du monstera : lumière moyenne sans soleil brûlant, vérifier le tiers supérieur du substrat, tuteur pour grimper et statut selon l’ASPCA.",
+      "image": "/assets/brand/share/fr-plants--monstera-deliciosa.png"
+    },
+    {
+      "path": "/fr/plants/phalaenopsis/",
+      "lang": "fr",
+      "title": "Entretien de l’orchidée papillon (Phalaenopsis)",
+      "description": "Entretien de l’orchidée papillon : lumière vive indirecte, écorce, trempage puis égouttage, conseils de refloraison et classement ASPCA.",
+      "image": "/assets/brand/share/fr-plants--phalaenopsis.png"
+    },
+    {
+      "path": "/fr/plants/philodendron-hederaceum/",
+      "lang": "fr",
+      "title": "Entretien du philodendron grimpant",
+      "description": "Entretien du philodendron grimpant : lumière moyenne, substrat légèrement frais, boutures simples et statut selon l’ASPCA.",
+      "image": "/assets/brand/share/fr-plants--philodendron-hederaceum.png"
+    },
+    {
+      "path": "/fr/plants/spathiphyllum/",
+      "lang": "fr",
+      "title": "Entretien du spathiphyllum",
+      "description": "Entretien du spathiphyllum : ombre sans soleil direct, substrat frais mais jamais détrempé, engrais léger et statut selon l’ASPCA.",
+      "image": "/assets/brand/share/fr-plants--spathiphyllum.png"
+    },
+    {
+      "path": "/fr/plants/zamioculcas-zamiifolia/",
+      "lang": "fr",
+      "title": "Entretien du zamioculcas",
+      "description": "Entretien du zamioculcas : lumière vive indirecte, substrat entièrement sec avant d’arroser, peu d’engrais et pourquoi il n’est pas sur la liste de l’ASPCA.",
+      "image": "/assets/brand/share/fr-plants--zamioculcas-zamiifolia.png"
     },
     {
       "path": "/fr/press/",
@@ -523,6 +1034,13 @@
       "title": "Ev bitkilerinde ışık: doğru yeri seçme rehberi",
       "description": "Doğrudan güneşi, parlak dolaylı ışığı ve az ışığı ayırt et. Pencereyi gözlemle, bitkinin ihtiyacına göre yer seç.",
       "image": "/assets/brand/share/tr-guides--indoor-plant-light-guide.png"
+    },
+    {
+      "path": "/guides/pet-safe-houseplants/",
+      "lang": "tr",
+      "title": "Ev bitkileri ve evcil hayvanlar: bitkiyi eve getirmeden önce neye bakmalı?",
+      "description": "Yeni bir bitkiyi eve getirmeden önce botanik adını bul, ASPCA listesini kontrol et ve evcil hayvanların ulaşamayacağı bir yer seç. Toksik, toksik değil ve listede yok farkı.",
+      "image": "/assets/brand/share/tr-guides--pet-safe-houseplants.png"
     },
     {
       "path": "/guides/shared-plant-care/",
@@ -574,6 +1092,90 @@
       "image": "/assets/brand/share/tr-plants.png"
     },
     {
+      "path": "/plants/aloe-vera/",
+      "lang": "tr",
+      "title": "Aloe vera (sarısabır) bakımı",
+      "description": "Aloe vera (sarısabır) bakımı: güneşli pencere, süzek harç, sulamalar arasında tam kuruma ve ASPCA'nın evcil hayvanlar için toksik kaydı.",
+      "image": "/assets/brand/share/tr-plants--aloe-vera.png"
+    },
+    {
+      "path": "/plants/chlorophytum-comosum/",
+      "lang": "tr",
+      "title": "Kurdele çiçeği bakımı",
+      "description": "Kurdele çiçeği bakımı: orta ışık, nemli ama süzülen harç, kolay yavrular ve ASPCA'nın kedi-köpek için toksik değil kaydı.",
+      "image": "/assets/brand/share/tr-plants--chlorophytum-comosum.png"
+    },
+    {
+      "path": "/plants/dracaena-trifasciata/",
+      "lang": "tr",
+      "title": "Paşa kılıcı bakımı",
+      "description": "Paşa kılıcı bakımı: az ışığa dayanır, sulamalar arasında harcın tamamen kuruması gerekir; ASPCA kedi ve köpekler için toksik listeler.",
+      "image": "/assets/brand/share/tr-plants--dracaena-trifasciata.png"
+    },
+    {
+      "path": "/plants/epipremnum-aureum/",
+      "lang": "tr",
+      "title": "Salon sarmaşığı (potos) bakımı",
+      "description": "Salon sarmaşığı (potos) bakımı: parlak dolaylı ışık, her sulamadan önce kontrol, çelikle çoğaltma ve ASPCA'nın kedi-köpek kaydı.",
+      "image": "/assets/brand/share/tr-plants--epipremnum-aureum.png"
+    },
+    {
+      "path": "/plants/ficus-elastica/",
+      "lang": "tr",
+      "title": "Kauçuk bitkisi bakımı",
+      "description": "Kauçuk bitkisi bakımı: parlak dolaylı ışık, sulamadan önce hafif kuruma, süt özsuyuna dikkat, hava daldırması ve ASPCA kaydı.",
+      "image": "/assets/brand/share/tr-plants--ficus-elastica.png"
+    },
+    {
+      "path": "/plants/ficus-lyrata/",
+      "lang": "tr",
+      "title": "Keman yapraklı kauçuk (Ficus lyrata) bakımı",
+      "description": "Keman yapraklı kauçuk (Ficus lyrata) bakımı: parlak dolaylı ışık, sabit koşullar, dikkatli sulama ve evcil hayvan kaynaklarının neden ayrıştığı.",
+      "image": "/assets/brand/share/tr-plants--ficus-lyrata.png"
+    },
+    {
+      "path": "/plants/goeppertia/",
+      "lang": "tr",
+      "title": "Kalatya (Calathea) bakımı",
+      "description": "Kalatya (Calathea, Goeppertia) bakımı: az–orta dolaylı ışık, düzenli nem, yumuşak su, yüksek nem ve ASPCA'nın toksik değil kaydı.",
+      "image": "/assets/brand/share/tr-plants--goeppertia.png"
+    },
+    {
+      "path": "/plants/monstera-deliciosa/",
+      "lang": "tr",
+      "title": "Deve tabanı (Monstera) bakımı",
+      "description": "Deve tabanı (Monstera) bakımı: sert güneş olmadan aydınlık yer, harcın üçte birini kontrol etme, destek ve ASPCA'nın evcil hayvan kaydı.",
+      "image": "/assets/brand/share/tr-plants--monstera-deliciosa.png"
+    },
+    {
+      "path": "/plants/phalaenopsis/",
+      "lang": "tr",
+      "title": "Orkide (Phalaenopsis) bakımı",
+      "description": "Orkide (Phalaenopsis) bakımı: parlak dolaylı ışık, kabuk harcı, ıslat-süzdür sulama, yeniden çiçek için ipuçları ve ASPCA kaydı.",
+      "image": "/assets/brand/share/tr-plants--phalaenopsis.png"
+    },
+    {
+      "path": "/plants/philodendron-hederaceum/",
+      "lang": "tr",
+      "title": "Kalp yapraklı filodendron bakımı",
+      "description": "Kalp yapraklı filodendron bakımı: orta ışık, hafif nemli harç, kolay gövde çeliği ve ASPCA'nın evcil hayvan kaydı.",
+      "image": "/assets/brand/share/tr-plants--philodendron-hederaceum.png"
+    },
+    {
+      "path": "/plants/spathiphyllum/",
+      "lang": "tr",
+      "title": "Barış çiçeği (Spatifilum) bakımı",
+      "description": "Barış çiçeği (Spatifilum) bakımı: doğrudan güneş görmeyen gölge, eşit nemli ama asla çamurlaşmayan harç, hafif besleme ve ASPCA kaydı.",
+      "image": "/assets/brand/share/tr-plants--spathiphyllum.png"
+    },
+    {
+      "path": "/plants/zamioculcas-zamiifolia/",
+      "lang": "tr",
+      "title": "ZZ bitkisi (Zamia) bakımı",
+      "description": "ZZ bitkisi (Zamia) bakımı: parlak dolaylı ışık, sulamadan önce tamamen kuruyan harç, seyrek besleme ve ASPCA listesinde neden yer almadığı.",
+      "image": "/assets/brand/share/tr-plants--zamioculcas-zamiifolia.png"
+    },
+    {
       "path": "/press/",
       "lang": "tr",
       "title": "Lilora basın kaynakları",
@@ -609,6 +1211,20 @@
       "image": "/assets/brand/share/pt-compare.png"
     },
     {
+      "path": "/pt/compare/lilora-vs-picturethis/",
+      "lang": "pt",
+      "title": "Lilora vs PictureThis: identificação e cuidado das plantas no dia a dia",
+      "description": "Compare Lilora e PictureThis em identificação, lembretes, coleções e cuidado compartilhado, com fontes oficiais e ressalvas sobre preços.",
+      "image": "/assets/brand/share/pt-compare--lilora-vs-picturethis.png"
+    },
+    {
+      "path": "/pt/compare/lilora-vs-planta/",
+      "lang": "pt",
+      "title": "Lilora vs Planta: como escolher uma rotina de cuidado de plantas",
+      "description": "Compare Lilora e Planta em lembretes, registros compartilhados, identificação e preços, com fontes oficiais e informação honesta sobre o lançamento.",
+      "image": "/assets/brand/share/pt-compare--lilora-vs-planta.png"
+    },
+    {
       "path": "/pt/contact/",
       "lang": "pt",
       "title": "Fale com o Lilora",
@@ -637,6 +1253,48 @@
       "image": "/assets/brand/share/pt-guides.png"
     },
     {
+      "path": "/pt/guides/indoor-plant-light-guide/",
+      "lang": "pt",
+      "title": "Luz para plantas de interior: guia para iniciantes escolherem o lugar",
+      "description": "Aprenda a diferenciar sol direto, luz indireta clara e pouca luz, e a observar um lugar ao longo do dia antes de escolher uma planta de interior.",
+      "image": "/assets/brand/share/pt-guides--indoor-plant-light-guide.png"
+    },
+    {
+      "path": "/pt/guides/pet-safe-houseplants/",
+      "lang": "pt",
+      "title": "Plantas de interior e pets: o que conferir antes de levar uma planta para casa",
+      "description": "Antes de levar uma planta para casa, descubra o nome botânico, confira a lista da ASPCA e escolha um lugar fora do alcance do seu pet. O que significam tóxica, não tóxica e não listada.",
+      "image": "/assets/brand/share/pt-guides--pet-safe-houseplants.png"
+    },
+    {
+      "path": "/pt/guides/shared-plant-care/",
+      "lang": "pt",
+      "title": "Dividir o cuidado das plantas sem regar duas vezes",
+      "description": "Divida o cuidado das plantas com parceiros ou colegas de casa usando registros claros de conferência e rega, uma divisão simples e uma passagem prática antes de viajar.",
+      "image": "/assets/brand/share/pt-guides--shared-plant-care.png"
+    },
+    {
+      "path": "/pt/guides/watering-houseplants/",
+      "lang": "pt",
+      "title": "Como regar plantas de interior sem um calendário rígido",
+      "description": "Confira o substrato, o peso do vaso e a drenagem para decidir quando regar. Uma rotina prática que segue a sua planta, não um calendário rígido.",
+      "image": "/assets/brand/share/pt-guides--watering-houseplants.png"
+    },
+    {
+      "path": "/pt/guides/when-to-repot-houseplants/",
+      "lang": "pt",
+      "title": "Quando trocar uma planta de interior de vaso e como fazer isso com cuidado",
+      "description": "Troque de vaso quando as raízes ou o substrato pedirem, não pelo calendário. Como conferir, escolher o tamanho do vaso e fazer a troca com cuidado.",
+      "image": "/assets/brand/share/pt-guides--when-to-repot-houseplants.png"
+    },
+    {
+      "path": "/pt/guides/yellow-houseplant-leaves/",
+      "lang": "pt",
+      "title": "Folhas amarelas em plantas de interior: o que conferir antes de agir",
+      "description": "Confira o padrão das folhas, a umidade nas raízes, a luz, a temperatura e as pragas antes de mudar os cuidados de uma planta amarelando.",
+      "image": "/assets/brand/share/pt-guides--yellow-houseplant-leaves.png"
+    },
+    {
       "path": "/pt/journal/",
       "lang": "pt",
       "title": "Diário de plantas",
@@ -656,6 +1314,90 @@
       "title": "Biblioteca de plantas de interior",
       "description": "Perfis de plantas de interior por espécie.",
       "image": "/assets/brand/share/pt-plants.png"
+    },
+    {
+      "path": "/pt/plants/aloe-vera/",
+      "lang": "pt",
+      "title": "Cuidados com a babosa (aloe vera)",
+      "description": "Cuidados com a babosa: janela ensolarada, substrato arenoso, secagem total entre regas e por que a ASPCA a lista como tóxica para pets.",
+      "image": "/assets/brand/share/pt-plants--aloe-vera.png"
+    },
+    {
+      "path": "/pt/plants/chlorophytum-comosum/",
+      "lang": "pt",
+      "title": "Cuidados com o clorofito",
+      "description": "Cuidados com o clorofito: luz média, substrato úmido e drenado, mudinhas fáceis e a classificação da ASPCA como não tóxico para cães e gatos.",
+      "image": "/assets/brand/share/pt-plants--chlorophytum-comosum.png"
+    },
+    {
+      "path": "/pt/plants/dracaena-trifasciata/",
+      "lang": "pt",
+      "title": "Cuidados com a espada-de-são-jorge",
+      "description": "Cuidados com a espada-de-são-jorge: tolera pouca luz, precisa secar o substrato entre regas e a ASPCA a lista como tóxica para pets.",
+      "image": "/assets/brand/share/pt-plants--dracaena-trifasciata.png"
+    },
+    {
+      "path": "/pt/plants/epipremnum-aureum/",
+      "lang": "pt",
+      "title": "Cuidados com a jiboia",
+      "description": "Cuidados com a jiboia: luz indireta clara, conferir o substrato antes de regar, mudas por estaca e o que a ASPCA informa sobre cães e gatos.",
+      "image": "/assets/brand/share/pt-plants--epipremnum-aureum.png"
+    },
+    {
+      "path": "/pt/plants/ficus-elastica/",
+      "lang": "pt",
+      "title": "Cuidados com a falsa-seringueira",
+      "description": "Cuidados com a falsa-seringueira: luz indireta clara, secagem leve antes de regar, cuidado com o látex, alporquia e a classificação da ASPCA.",
+      "image": "/assets/brand/share/pt-plants--ficus-elastica.png"
+    },
+    {
+      "path": "/pt/plants/ficus-lyrata/",
+      "lang": "pt",
+      "title": "Cuidados com a figueira-lira",
+      "description": "Cuidados com a figueira-lira: luz indireta clara, condições estáveis, rega cuidadosa e por que as fontes sobre pets não concordam.",
+      "image": "/assets/brand/share/pt-plants--ficus-lyrata.png"
+    },
+    {
+      "path": "/pt/plants/goeppertia/",
+      "lang": "pt",
+      "title": "Cuidados com a calathea",
+      "description": "Cuidados com a calathea (Goeppertia): luz indireta média a baixa, umidade constante, água sem cloro, ar úmido e a classificação da ASPCA.",
+      "image": "/assets/brand/share/pt-plants--goeppertia.png"
+    },
+    {
+      "path": "/pt/plants/monstera-deliciosa/",
+      "lang": "pt",
+      "title": "Cuidados com a costela-de-adão",
+      "description": "Cuidados com a costela-de-adão: luz média sem sol forte, conferir o terço de cima do substrato, tutor para escalar e a classificação da ASPCA.",
+      "image": "/assets/brand/share/pt-plants--monstera-deliciosa.png"
+    },
+    {
+      "path": "/pt/plants/phalaenopsis/",
+      "lang": "pt",
+      "title": "Cuidados com a orquídea-borboleta (Phalaenopsis)",
+      "description": "Cuidados com a orquídea-borboleta: luz indireta clara, casca de pinus, rega com drenagem total, dicas para refloração e a classificação da ASPCA.",
+      "image": "/assets/brand/share/pt-plants--phalaenopsis.png"
+    },
+    {
+      "path": "/pt/plants/philodendron-hederaceum/",
+      "lang": "pt",
+      "title": "Cuidados com o filodendro-cordato",
+      "description": "Cuidados com o filodendro-cordato: luz média, substrato levemente úmido, estacas simples e a classificação da ASPCA.",
+      "image": "/assets/brand/share/pt-plants--philodendron-hederaceum.png"
+    },
+    {
+      "path": "/pt/plants/spathiphyllum/",
+      "lang": "pt",
+      "title": "Cuidados com o lírio-da-paz",
+      "description": "Cuidados com o lírio-da-paz: sombra sem sol direto, substrato úmido mas nunca encharcado, adubação leve e a classificação da ASPCA.",
+      "image": "/assets/brand/share/pt-plants--spathiphyllum.png"
+    },
+    {
+      "path": "/pt/plants/zamioculcas-zamiifolia/",
+      "lang": "pt",
+      "title": "Cuidados com a zamioculca",
+      "description": "Cuidados com a zamioculca: luz indireta clara, substrato totalmente seco antes de regar, pouca adubação e por que ela não aparece na lista da ASPCA.",
+      "image": "/assets/brand/share/pt-plants--zamioculcas-zamiifolia.png"
     },
     {
       "path": "/pt/press/",

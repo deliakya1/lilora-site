@@ -1,0 +1,116 @@
+{
+  "slug": "philodendron-hederaceum",
+  "botanicalName": "Philodendron hederaceum",
+  "family": "Araceae",
+  "published": "2026-10-22",
+  "reviewed": "2026-10-22",
+  "tags": [
+    "lowLight",
+    "beginner"
+  ],
+  "image": "/assets/images/plants/philodendron-hederaceum-v1.webp",
+  "imageWidth": 540,
+  "imageHeight": 720,
+  "sources": [
+    {
+      "name": "NC State Extension Gardener Plant Toolbox: Philodendron hederaceum",
+      "url": "https://plants.ces.ncsu.edu/plants/philodendron-hederaceum/"
+    },
+    {
+      "name": "Royal Botanic Gardens, Kew, Plants of the World Online: Philodendron hederaceum",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:87797-1"
+    },
+    {
+      "name": "Missouri Botanical Garden Plant Finder: Philodendron hederaceum",
+      "url": "https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=b611"
+    },
+    {
+      "name": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/"
+    }
+  ],
+  "tr": {
+    "description": "Kalp yapraklı filodendron bakımı: orta ışık, hafif nemli harç, kolay gövde çeliği ve ASPCA'nın evcil hayvan kaydı.",
+    "imageAlt": "Bir ağaç gövdesine tırmanan, parlak kalp biçimli yapraklarıyla kalp yapraklı filodendron",
+    "caption": "Fotoğraf: <a href=\"https://www.inaturalist.org/observations/395545545\"><em>Philodendron hederaceum</em></a>, Marcio Santos Ferreira, iNaturalist üzerinden, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Yeniden boyutlandırıldı.",
+    "atAGlance": {
+      "light": "Orta, dolaylı ışık; az ışıkta yaşar ama gövdeleri uzar",
+      "watering": "Büyüme döneminde hafif nemli tut; harcın üstünü kontrol et, kışın daha az sula",
+      "humidity": "Kuru havaya dayanır; orta nemi tercih eder",
+      "temperature": "Ortalama ev sıcaklıkları",
+      "petSafety": "ASPCA kedi ve köpekler için toksik olarak listeler",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Kolay"
+    }
+  },
+  "en": {
+    "description": "Heartleaf philodendron care: medium light, slightly moist mix, simple stem cuttings and ASPCA pet status.",
+    "imageAlt": "Heartleaf philodendron vine with glossy, heart-shaped leaves climbing a tree trunk",
+    "caption": "Photo: <a href=\"https://www.inaturalist.org/observations/395545545\"><em>Philodendron hederaceum</em></a> by Marcio Santos Ferreira, via iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Resized.",
+    "atAGlance": {
+      "light": "Medium, indirect light; survives low light but stems get leggy",
+      "watering": "Keep slightly moist in growth; check the top of the mix and water less in winter",
+      "humidity": "Tolerates dry air; prefers medium humidity",
+      "temperature": "Average indoor temperatures",
+      "petSafety": "Listed as toxic to cats and dogs by the ASPCA",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Easy"
+    }
+  },
+  "es": {
+    "description": "Cuidados del filodendro trepador: luz media, sustrato ligeramente húmedo, esquejes sencillos y estado según la ASPCA.",
+    "imageAlt": "Filodendro trepador con hojas brillantes en forma de corazón subiendo por un tronco",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/395545545\"><em>Philodendron hederaceum</em></a> de Marcio Santos Ferreira, vía iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Redimensionada.",
+    "atAGlance": {
+      "light": "Luz indirecta media; aguanta poca luz, pero los tallos se alargan",
+      "watering": "Ligeramente húmedo en crecimiento; revisa la parte superior y riega menos en invierno",
+      "humidity": "Tolera el aire seco; prefiere humedad media",
+      "temperature": "Temperaturas normales de interior",
+      "petSafety": "La ASPCA lo incluye como tóxico para gatos y perros",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Fácil"
+    }
+  },
+  "de": {
+    "description": "Kletter-Philodendron pflegen: mittleres Licht, leicht feuchtes Substrat, einfache Stecklinge und Einstufung durch die ASPCA.",
+    "imageAlt": "Kletter-Philodendron mit glänzenden, herzförmigen Blättern an einem Baumstamm",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/395545545\"><em>Philodendron hederaceum</em></a> von Marcio Santos Ferreira, über iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Verkleinert.",
+    "atAGlance": {
+      "light": "Mittleres, indirektes Licht; überlebt wenig Licht, wird dann aber lang",
+      "watering": "Im Wachstum leicht feucht; oben prüfen, im Winter weniger gießen",
+      "humidity": "Verträgt trockene Luft; mag mittlere Luftfeuchtigkeit",
+      "temperature": "Normale Zimmertemperaturen",
+      "petSafety": "Von der ASPCA als giftig für Katzen und Hunde geführt",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Leicht"
+    }
+  },
+  "pt": {
+    "description": "Cuidados com o filodendro-cordato: luz média, substrato levemente úmido, estacas simples e a classificação da ASPCA.",
+    "imageAlt": "Filodendro-cordato com folhas brilhantes em forma de coração subindo por um tronco",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/395545545\"><em>Philodendron hederaceum</em></a> de Marcio Santos Ferreira, via iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Redimensionada.",
+    "atAGlance": {
+      "light": "Luz indireta média; sobrevive com pouca luz, mas os ramos esticam",
+      "watering": "Levemente úmido no crescimento; confira a parte de cima e regue menos no inverno",
+      "humidity": "Tolera ar seco; prefere umidade média",
+      "temperature": "Temperaturas comuns de dentro de casa",
+      "petSafety": "A ASPCA lista como tóxico para gatos e cães",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Fácil"
+    }
+  },
+  "fr": {
+    "description": "Entretien du philodendron grimpant : lumière moyenne, substrat légèrement frais, boutures simples et statut selon l’ASPCA.",
+    "imageAlt": "Philodendron grimpant aux feuilles brillantes en forme de cœur, le long d’un tronc",
+    "caption": "Photo : <a href=\"https://www.inaturalist.org/observations/395545545\"><em>Philodendron hederaceum</em></a> de Marcio Santos Ferreira, via iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Redimensionnée.",
+    "atAGlance": {
+      "light": "Lumière indirecte moyenne ; survit avec peu de lumière mais s’étiole",
+      "watering": "Légèrement frais en croissance ; vérifier le haut du substrat, moins en hiver",
+      "humidity": "Supporte l’air sec ; préfère une humidité moyenne",
+      "temperature": "Températures intérieures habituelles",
+      "petSafety": "Classé toxique pour les chats et les chiens par l’ASPCA",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Facile"
+    }
+  }
+}

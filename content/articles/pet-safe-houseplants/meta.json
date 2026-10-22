@@ -1,0 +1,35 @@
+{
+  "slug": "pet-safe-houseplants",
+  "type": "guide",
+  "published": "2026-10-22",
+  "reviewed": "2026-10-22",
+  "sources": [
+    {
+      "name": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/"
+    },
+    {
+      "name": "NC State Extension: Zamioculcas zamiifolia",
+      "url": "https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/"
+    },
+    {
+      "name": "NC State Extension: Ficus lyrata",
+      "url": "https://plants.ces.ncsu.edu/plants/ficus-lyrata/"
+    },
+    {
+      "name": "Kew, Plants of the World Online: Dracaena trifasciata",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77164235-1"
+    }
+  ],
+  "related": [
+    "watering-houseplants",
+    "shared-plant-care",
+    "indoor-plant-light-guide"
+  ],
+  "tr": {"description": "Yeni bir bitkiyi eve getirmeden önce botanik adını bul, ASPCA listesini kontrol et ve evcil hayvanların ulaşamayacağı bir yer seç. Toksik, toksik değil ve listede yok farkı."},
+  "en": {"description": "Before a new plant comes home, find its botanical name, check the ASPCA list and plan a spot your pet cannot reach. What toxic, non-toxic and not listed really mean."},
+  "es": {"description": "Antes de llevar una planta a casa, busca su nombre botánico, consulta la lista de la ASPCA y elige un sitio fuera del alcance de tu mascota. Qué significan tóxica, no tóxica y no figura."},
+  "de": {"description": "Bevor eine Pflanze einzieht: botanischen Namen finden, die ASPCA-Liste prüfen und einen Platz außer Reichweite deines Tieres wählen. Was giftig, ungiftig und nicht gelistet bedeutet."},
+  "pt": {"description": "Antes de levar uma planta para casa, descubra o nome botânico, confira a lista da ASPCA e escolha um lugar fora do alcance do seu pet. O que significam tóxica, não tóxica e não listada."},
+  "fr": {"description": "Avant d’adopter une plante, trouvez son nom botanique, consultez la liste de l’ASPCA et choisissez un emplacement hors de portée de votre animal. Ce que veulent dire toxique, non toxique et non répertoriée."}
+}
