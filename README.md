@@ -865,7 +865,8 @@ mirrors GitHub Pages (gzip, `max-age=600`), 22 October 2026:
 Search engines: the Google Search Console ownership file
 `google88b6d1815865db5c.html` (HTML-file method, supplied by the owner on
 22 October 2026) is at the site root; keep it byte-exact and do not delete it.
-Bing Webmaster Tools verification still needs the owner's `BingSiteAuth.xml` token.
+The Bing Webmaster Tools ownership file `BingSiteAuth.xml` (XML-file method, supplied by
+the owner the same day) is also at the root; keep it unchanged.
 
 CI impact: one push and the existing GitHub Pages build/deploy after squash; one
 pinned dev dependency (`axe-core` 4.14.0) for local checks; no new workflow,

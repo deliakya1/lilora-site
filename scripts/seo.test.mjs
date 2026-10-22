@@ -164,3 +164,7 @@ test("search engine ownership files stay byte-exact", () => {
   for (const name of readdirSync(".").filter((n) => /^google[0-9a-f]+\.html$/.test(n)))
     assert.equal(read(name), `google-site-verification: ${name}`, name);
 });
+
+test("Bing ownership file names one user token", () => {
+  assert.match(read("BingSiteAuth.xml"), /<users>\s*<user>[0-9A-F]{32}<\/user>\s*<\/users>/);
+});
