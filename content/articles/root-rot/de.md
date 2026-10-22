@@ -47,7 +47,7 @@ Fungizide empfehlen wir hier nicht. Mittel und ihre Zulassung unterscheiden sich
 - Rechne im Winterlicht und in kühlen Räumen mit langsamerem Abtrocknen; siehe [Zimmerpflanzen im Winter](/de/guides/winter-houseplant-care/).
 - Topfe nur in einen etwas größeren Topf um, wenn die Wurzeln es brauchen, wie in [Wann umtopfen?](/de/guides/when-to-repot-houseplants/) beschrieben.
 
-<p>Hier hilft es, jede Kontrolle festzuhalten. In Lilora sind „<span lang=“en">Checked, no water needed</span>“ und „<span lang=“en">Watered</span>“ getrennte Einträge. Ein Topf, der zehn Tage nass blieb, verschwindet so nicht aus dem Gedächtnis, sondern zeigt sich als Reihe von Kontrollen. Die App ist derzeit auf Englisch und Türkisch verfügbar.</p>
+<p>Hier hilft es, jede Kontrolle festzuhalten. In Lilora sind „<span lang="en">Checked, no water needed</span>“ und „<span lang="en">Watered</span>“ getrennte Einträge. Ein Topf, der zehn Tage nass blieb, verschwindet so nicht aus dem Gedächtnis, sondern zeigt sich als Reihe von Kontrollen. Die App ist derzeit auf Englisch und Türkisch verfügbar.</p>
 
 ## Häufige Fragen
 

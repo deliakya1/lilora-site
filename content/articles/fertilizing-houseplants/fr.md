@@ -41,7 +41,7 @@ Les engrais à libération lente en granulés ou en bâtonnets diffusent les nut
 
 ## Les signes d’un excès d’engrais
 
-L’engrais se dissout sous forme de sels. Quand l’eau s’évapore, ces sels restent et peuvent s’accumuler dans le substrat, parfois sous la forme d’une croûte jaune ou blanche en surface ou sur le bord du pot. [University of California : sels solubles](https://cagardenweb.ucanr.edu/Houseplants/Soluble_Salts/)
+L’engrais se dissout sous forme de sels. Quand l’eau s’évapore, ces sels restent et peuvent s’accumuler dans le substrat, parfois sous la forme d’une croûte jaune ou blanche en surface ou sur le bord du pot. [University of California : sels solubles](https://ucanr.edu/blog/stanislaus-sprout/article/leach-your-houseplants-avoid-salt-problems)
 
 Parmi les signes possibles : pointes et bords des feuilles bruns, flétrissement, feuilles mal formées, extrémités des racines abîmées et cette croûte blanche. Ils peuvent aussi avoir d’autres causes ; interprétez-les avec le substrat et les racines. [UConn : fertiliser les plantes d’intérieur](https://homegarden.cahnr.uconn.edu/wp-content/uploads/sites/3479/2022/08/Houseplant-Fertilization.pdf)
 

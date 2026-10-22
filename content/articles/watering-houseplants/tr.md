@@ -53,4 +53,4 @@ Ortak bir kontrol günü olabilir. Su kararını her bitkinin türü ve o anki k
 
 “Saksı harcını kontrol et” iyi bir başlangıçtır. Kontrol su ihtiyacını destekliyorsa sula. Sulamadığında da kısa bir not bırak.
 
-Bitkilerinle başka biri de ilgileniyorsa ortak bir kayıt kullanın ve sıradaki kontrolü kimin yapacağını belirleyin. [Birlikte bitki bakımı rehberimiz](https://lilora.app/guides/shared-plant-care/) kontrol, sulama ve ertelenen hatırlatmayı nasıl ayıracağınızı anlatıyor.
+Bitkilerinle başka biri de ilgileniyorsa ortak bir kayıt kullan ve sıradaki kontrolü kimin yapacağını netleştir. [Birlikte bitki bakımı rehberimiz](https://lilora.app/guides/shared-plant-care/) kontrol, sulama ve ertelenen hatırlatmayı nasıl ayırabileceğini anlatıyor.

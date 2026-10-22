@@ -141,3 +141,21 @@ test("security.txt names the support contact and a future expiry", () => {
   assert.ok(expires > new Date() && expires - new Date() < 366 * 864e5, "expires within a year");
   assert.ok(existsSync(".nojekyll"), ".well-known is served only without Jekyll");
 });
+
+test("lang attributes are valid language tags", () => {
+  for (const f of pages)
+    for (const [, value] of read(f).matchAll(/\slang="([^"]*)"/g))
+      assert.match(value, /^[a-z]{2}(-[A-Z]{2})?$/, `${f}: lang="${value}"`);
+});
+
+test("images over 250 KB are only fallbacks behind a WebP source or press downloads", () => {
+  for (const f of pages) {
+    const s = read(f);
+    for (const m of s.matchAll(/<img\b[^>]*\bsrc="(\/[^"]+)"[^>]*>/g)) {
+      const file = "." + m[1];
+      if (!existsSync(file) || statSync(file).size <= 250 * 1024) continue;
+      const before = s.slice(Math.max(0, m.index - 400), m.index);
+      assert.match(before, /<picture><source type="image\/webp"[^<]*$/, `${f}: ${m[1]} is ${statSync(file).size} bytes without a WebP source`);
+    }
+  }
+});

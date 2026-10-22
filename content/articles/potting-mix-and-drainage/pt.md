@@ -12,7 +12,7 @@ A Penn State Extension também lembra que os vasos precisam de furos para o subs
 
 ## O mito da camada de drenagem
 
-Muitos livros ainda recomendam uma camada de brita, pedras ou cacos no fundo “para drenar”. A ciência do solo mostra o contrário. A água não passa com facilidade de um material fino para outro mais grosso embaixo, então ela se acumula no substrato logo acima da brita. A zona encharcada sobe dentro do vaso, mais perto das raízes, e a brita ocupa espaço que as raízes poderiam usar. [Washington State University: o mito do material de drenagem em vasos](https://puyallup.wsu.edu/wp-content/uploads/sites/403/2015/03/container-drainage.pdf)
+Muitos livros ainda recomendam uma camada de brita, pedras ou cacos no fundo “para drenar”. A ciência do solo mostra o contrário. A água não passa com facilidade de um material fino para outro mais grosso embaixo, então ela se acumula no substrato logo acima da brita. A zona encharcada sobe dentro do vaso, mais perto das raízes, e a brita ocupa espaço que as raízes poderiam usar. [University of Missouri IPM: mitos de jardinagem, incluindo a camada de drenagem em vasos](https://ipm.missouri.edu/meg/2023/1/gardeningMyths-DT/)
 
 A Clemson recomenda dispensar a camada de brita pelo mesmo motivo. Se o substrato escapa por um furo grande, cubra-o com um pedacinho de tela ou um único caco, não com uma camada. [Clemson Cooperative Extension: replantio de plantas de interior](https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/) A RHS também sugere cobrir apenas furos com mais de uns 2,5 cm. [RHS: como plantar em vasos](https://www.rhs.org.uk/container-gardening/how-to-plant-up-a-container)
 

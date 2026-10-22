@@ -22,5 +22,7 @@
  const link=document.createElement('a');const target=new URL(config.alternates[browser]||(browser==='tr'?'/':'/'+browser+'/'),location.origin);target.search=location.search;target.searchParams.set(marker,browser);if(config.alternates[browser])target.hash=location.hash;
  link.href=target.href;link.textContent=config.alternates[browser]?t.suggestion:t.suggestionHome;link.addEventListener('click',()=>remember(browser));
  const close=document.createElement('button');close.type='button';close.textContent='×';close.setAttribute('aria-label',t.dismiss);close.addEventListener('click',()=>{bar.remove();try{sessionStorage.setItem(dismissKey,'1');}catch{}});
- bar.append(link,close);document.body.insertBefore(bar,document.querySelector('.header'));
+ bar.append(link,close);const header=document.querySelector('.header');document.body.insertBefore(bar,header);
+ // The bar floats just below the header, so showing it never shifts the page (CLS).
+ bar.style.top=(header.offsetTop+header.offsetHeight+8)+'px';
 })();

@@ -41,7 +41,7 @@ Adubos de liberação lenta em grânulos ou bastões liberam nutrientes por sema
 
 ## Sinais de adubo demais
 
-O adubo se dissolve na forma de sais. Quando a água evapora, esses sais ficam e podem se acumular no substrato, às vezes como uma crosta amarela ou branca na superfície ou na borda do vaso. [University of California: sais solúveis](https://cagardenweb.ucanr.edu/Houseplants/Soluble_Salts/)
+O adubo se dissolve na forma de sais. Quando a água evapora, esses sais ficam e podem se acumular no substrato, às vezes como uma crosta amarela ou branca na superfície ou na borda do vaso. [University of California: sais solúveis](https://ucanr.edu/blog/stanislaus-sprout/article/leach-your-houseplants-avoid-salt-problems)
 
 Entre os sinais possíveis estão pontas e bordas das folhas marrons, murcha, folhas malformadas, pontas de raiz danificadas e a crosta branca. Eles também podem ter outras causas, então avalie junto com o substrato e as raízes. [UConn: adubação de plantas de interior](https://homegarden.cahnr.uconn.edu/wp-content/uploads/sites/3479/2022/08/Houseplant-Fertilization.pdf)
 

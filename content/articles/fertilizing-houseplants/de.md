@@ -41,7 +41,7 @@ Langzeitdünger in Form von Granulat oder Stäbchen gibt Nährstoffe über Woche
 
 ## Anzeichen für zu viel Dünger
 
-Dünger löst sich als Salz. Verdunstet Wasser, bleiben die Salze zurück und können sich in der Erde anreichern, manchmal sichtbar als gelbe oder weiße Kruste auf der Oberfläche oder am Topfrand. [University of California: lösliche Salze](https://cagardenweb.ucanr.edu/Houseplants/Soluble_Salts/)
+Dünger löst sich als Salz. Verdunstet Wasser, bleiben die Salze zurück und können sich in der Erde anreichern, manchmal sichtbar als gelbe oder weiße Kruste auf der Oberfläche oder am Topfrand. [University of California: lösliche Salze](https://ucanr.edu/blog/stanislaus-sprout/article/leach-your-houseplants-avoid-salt-problems)
 
 Mögliche Anzeichen sind braune Blattspitzen und -ränder, Welken, verformte Blätter, geschädigte Wurzelspitzen und eben diese weiße Kruste. Sie können auch andere Ursachen haben; betrachte sie deshalb zusammen mit Erde und Wurzeln. [UConn: Zimmerpflanzen düngen](https://homegarden.cahnr.uconn.edu/wp-content/uploads/sites/3479/2022/08/Houseplant-Fertilization.pdf)
 

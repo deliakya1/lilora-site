@@ -115,6 +115,39 @@ reviewed before claiming a translation counterpart or changing research dates.
 - All six articles in the initial expansion have original editorial copy and complete
   Turkish counterparts. Source facts should be rechecked before material updates.
 
+## SEO rules
+
+Checked by `scripts/seo.test.mjs` (part of `npm test`) and `scripts/a11y-check.cjs`.
+
+- `<title>` is unique and at most 60 characters. The " — Lilora" suffix is added only
+  when it fits; a long H1 gets a shorter `seoTitle` in the piece's `meta.json`.
+  Meta descriptions are unique, 120–155 characters and in the page language.
+- One H1 per page and no skipped heading levels inside `<main>`.
+- Canonicals are self-referencing and slash-terminated; no internal links to
+  `index.html` or with query strings. hreflang lists only real counterparts, with
+  `x-default` pointing at English.
+- `sitemap.xml` is a sitemap index of `sitemap-{tr,en,es,de,pt,fr}.xml`. Each URL
+  carries its alternates, image entries and a `lastmod` from the last git commit that
+  touched its sources (files changed but not yet committed use the commit day).
+  `robots.txt` points at the index.
+- Structured data is limited to `Organization`, `WebSite` (home, no SearchAction),
+  `Article`/`BlogPosting` (guides, posts, comparisons, plant profiles; author is the
+  Lilora organisation; real published/reviewed dates) and `BreadcrumbList`. No Review,
+  Rating, FAQPage, HowTo or MobileApplication markup before launch.
+- Every guide, post and comparison links back to its hub and to three related pages;
+  every page has at least one inbound internal link.
+- One Atom feed per language at `/{lang}/feed.xml` (Turkish at `/feed.xml`) for
+  guides and journal posts, linked from every page's `<head>`.
+- `/.well-known/security.txt` names support@lilora.app; renew its `Expires` date
+  before 22 October 2027 (the test fails within a year of expiry being exceeded).
+- `lang` attributes must be valid tags; inline English UI labels use `lang="en"`.
+- Images over 250 KB appear only as fallbacks behind a WebP `<source>` (press
+  downloads link the originals). Newsreader is served as subset WOFF2 (Latin,
+  Latin Extended-A incl. Turkish and French) with the WOFF as fallback; the medium
+  weight is preloaded and both use `font-display: swap`.
+- No on-site search: a static index such as Pagefind would add a build dependency and
+  generated bundle for a 270-page site; revisit when the hubs need pagination.
+
 ## Assets
 
 `assets/editorial/*.webp` are optimized exports of existing owner-approved Lilora
@@ -781,3 +814,57 @@ an Edge Function secret; until then they are kept in
 section `#website-contact` documents this. `node scripts/contact-check.cjs`
 intercepts the endpoint and checks six languages at 390/1440 px, validation,
 sending, rate limit, redirect status and the no-JS post.
+
+## Prompt 07 — 22 October 2026: SEO, quality and launch readiness
+
+Before: 91 titles over 60 characters, 108 descriptions outside 120–155 characters,
+one flat sitemap without `lastmod` or images, structured data only on articles, no
+feeds or security.txt, WOFF fonts without preload, four German pages with an invalid
+`lang` attribute, a language bar that shifted the page (CLS 0.12) and two broken
+source links. After: every rule in **SEO rules** above holds and is tested.
+
+- Metadata: 60 shorter `seoTitle` values (H1s unchanged) and 108 rewritten
+  descriptions across the six languages; hub and legal/support/contact/privacy
+  descriptions now say what the page contains.
+- Sitemap index plus six language sitemaps with git-based `lastmod` and image
+  entries; `Organization`/`WebSite` on home pages, `Article`/`BlogPosting` with logo
+  and images, `BreadcrumbList` on every page; Atom feeds; `/.well-known/security.txt`.
+- Performance: Newsreader subset to WOFF2 (Latin + Latin Extended-A; 28 KB instead
+  of 64 KB) and preloaded; the language suggestion floats below the header instead of
+  pushing content down.
+- Accessibility: `scripts/a11y-check.cjs` runs axe (WCAG 2.0/2.1/2.2 A and AA) on 17
+  page types plus 404 in TR/DE/EN at 390/1440 px, and checks the skip link, visible
+  focus, keyboard menus, 200% text and reduced motion. No violations remain.
+- Editorial: an "About our content" section on the editorial page in all six
+  languages (research, AI-assisted drafting, fact-checking, dates, images).
+- Content: invalid `lang=“en"` attributes fixed in four German pieces; Turkish
+  "siz" forms changed to "sen" in five places; all 140 external links were re-requested
+  (102 HTTP 200, 28 bot challenges, the rest TLS/timeouts from the test host). Broken:
+  the WSU drainage PDF (replaced by University of Missouri IPM on drainage layers)
+  and the UC soluble-salts page (replaced by UC Cooperative Extension's leaching
+  article). English UI labels on ES/DE/PT/FR pages all match app `en.ts` at
+  botanumo `782adb4`; pet-toxicity statements agree between profiles and the pets
+  guide. No content was removed.
+- Not done: on-site search (see SEO rules). A full native-speaker read of all 270
+  pages was not repeated; the pass above was automated plus targeted reading.
+
+Lighthouse 13.5.0, mobile, simulated throttling, against a local server that
+mirrors GitHub Pages (gzip, `max-age=600`), 22 October 2026:
+
+| Page | Perf | A11y | Best pr. | SEO | LCP | CLS |
+|---|---|---|---|---|---|---|
+| TR home `/` | 99 | 100 | 100 | 100 | 2.0 s | 0 |
+| EN home `/en/` | 99 | 100 | 100 | 100 | 2.0 s | 0 |
+| Download `/en/download/` | 99 | 100 | 100 | 100 | 2.1 s | 0 |
+| Guide `/en/guides/watering-houseplants/` | 100 | 100 | 100 | 100 | 1.5 s | 0 |
+| Plant `/en/plants/monstera-deliciosa/` | 99 | 100 | 100 | 100 | 2.0 s | 0 |
+| Support `/en/support/` | 100 | 100 | 100 | 100 | 1.4 s | 0 |
+| German `/de/guides/root-rot/` | 100 | 100 | 100 | 100 | 1.4 s | 0 |
+| Turkish `/guides/watering-houseplants/` | 100 | 100 | 100 | 100 | 1.5 s | 0 |
+
+Search engines: Google Search Console and Bing Webmaster Tools verification files
+are not committed yet; they need the owner's HTML-file tokens.
+
+CI impact: one push and the existing GitHub Pages build/deploy after squash; one
+pinned dev dependency (`axe-core` 4.14.0) for local checks; no new workflow,
+service or paid API.

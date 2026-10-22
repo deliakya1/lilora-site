@@ -51,7 +51,7 @@ Auch das Umtopfen lässt man besser für die Wachstumszeit, sofern kein dringend
 
 Auf der Südhalbkugel fallen diese Bedingungen meist auf Juni bis August. In milden oder tropischen Klimazonen ohne Heizung sind kürzere Tage, bewölkte Jahreszeiten oder Klimaanlagen die wichtigsten Veränderungen. Richte dich nach dem Prinzip, nicht nach dem Monat: Wenn Licht und Wachstum abnehmen, weniger gießen, weniger düngen und weiter prüfen.
 
-<p>Genau deshalb sagen die Erinnerungen in Lilora „prüfen“ statt „gießen“. Im Winter „<span lang=“en">Checked, no water needed</span>“ zu erfassen ist ein normales Ergebnis, und der Verlauf zeigt, wie sich der Bedarf der Pflanze mit der Jahreszeit ändert. Die App ist derzeit auf Englisch und Türkisch verfügbar.</p>
+<p>Genau deshalb sagen die Erinnerungen in Lilora „prüfen“ statt „gießen“. Im Winter „<span lang="en">Checked, no water needed</span>“ zu erfassen ist ein normales Ergebnis, und der Verlauf zeigt, wie sich der Bedarf der Pflanze mit der Jahreszeit ändert. Die App ist derzeit auf Englisch und Türkisch verfügbar.</p>
 
 ## Häufige Fragen
 

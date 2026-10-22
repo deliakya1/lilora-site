@@ -60,7 +60,7 @@ Für verfärbte Blätter gibt es eine eigene Checkliste: [gelbe Blätter bei Zim
 
 Eine Pflanze im schwachen Winterlicht oder in einem kühlen Raum verbraucht weniger Wasser; ein Rhythmus, der im Sommer passte, lässt die Erde dann länger nass. Auf der Nordhalbkugel dauert diese ruhigere Phase meist von Spätherbst bis Ende Winter, auf der Südhalbkugel etwa von Juni bis August. Die Heizung kann Töpfe wiederum schneller austrocknen. Deshalb ist Prüfen besser als Tagezählen. Mehr dazu unter [Zimmerpflanzen im Winter](/de/guides/winter-houseplant-care/) und [Luftfeuchtigkeit für Zimmerpflanzen](/de/guides/houseplant-humidity/).
 
-<p>Lilora speichert eine Kontrolle und ein Gießen als zwei verschiedene Einträge: „<span lang=“en">Checked, no water needed</span>“ und „<span lang=“en">Watered</span>“. Nach ein paar Wochen siehst du, wie oft eine Pflanze tatsächlich Wasser brauchte, statt wie oft eine Erinnerung kam. Die App ist derzeit auf Englisch und Türkisch verfügbar.</p>
+<p>Lilora speichert eine Kontrolle und ein Gießen als zwei verschiedene Einträge: „<span lang="en">Checked, no water needed</span>“ und „<span lang="en">Watered</span>“. Nach ein paar Wochen siehst du, wie oft eine Pflanze tatsächlich Wasser brauchte, statt wie oft eine Erinnerung kam. Die App ist derzeit auf Englisch und Türkisch verfügbar.</p>
 
 ## Häufige Fragen
 
