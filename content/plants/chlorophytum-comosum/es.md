@@ -40,7 +40,7 @@ Se multiplica fácilmente por hijuelos o por división. Sujeta un hijuelo sobre 
 
 ## Mascotas y personas
 
-El [ASPCA Animal Poison Control Center](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant) incluye la cinta (spider plant) como no tóxica para gatos y perros, y NC State Extension la clasifica igual. No tóxica no quiere decir que tu mascota pueda comérsela sin más: masticar materia vegetal puede sentar mal al estómago, y a los gatos les atraen mucho las hojas colgantes. Cuélgala fuera de su alcance si tu gato la mordisquea. Si tu mascota parece encontrarse mal, contacta con un veterinario. Si una persona tiene síntomas tras ingerir una planta, llama a tu centro de información toxicológica local. Esto es información general, no consejo veterinario ni médico.
+El [ASPCA Animal Poison Control Center](https://www.aspca.org/) incluye la cinta (spider plant) como no tóxica para gatos y perros, y NC State Extension la clasifica igual. No tóxica no quiere decir que tu mascota pueda comérsela sin más: masticar materia vegetal puede sentar mal al estómago, y a los gatos les atraen mucho las hojas colgantes. Cuélgala fuera de su alcance si tu gato la mordisquea. Si tu mascota parece encontrarse mal, contacta con un veterinario. Si una persona tiene síntomas tras ingerir una planta, llama a tu centro de información toxicológica local. Esto es información general, no consejo veterinario ni médico.
 
 ## Preguntas frecuentes
 

@@ -46,7 +46,7 @@ Divide a crowded clump when repotting, keeping roots and several leaves on each 
 
 ## Pets and people
 
-The [ASPCA Animal Poison Control Center](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peace-lily) lists peace lily as toxic to cats and dogs because of insoluble calcium oxalates. It lists oral irritation, burning and irritation of the mouth, tongue and lips, excessive drooling, vomiting and difficulty swallowing. Despite the common name, it is not a true lily (*Lilium*). If a pet chews it, contact a veterinarian or an animal poison control service. For people in Türkiye, the poison information line is 114 (UZEM). This is general information, not veterinary or medical advice. To compare other plants, see the [pet-safe houseplants guide](/en/guides/pet-safe-houseplants/) or the [non-toxic profiles in the plant library](/en/plants/#petNonToxic).
+The [ASPCA Animal Poison Control Center](https://www.aspca.org/) lists peace lily as toxic to cats and dogs because of insoluble calcium oxalates. It lists oral irritation, burning and irritation of the mouth, tongue and lips, excessive drooling, vomiting and difficulty swallowing. Despite the common name, it is not a true lily (*Lilium*). If a pet chews it, contact a veterinarian or an animal poison control service. For people in Türkiye, the poison information line is 114 (UZEM). This is general information, not veterinary or medical advice. To compare other plants, see the [pet-safe houseplants guide](/en/guides/pet-safe-houseplants/) or the [non-toxic profiles in the plant library](/en/plants/#petNonToxic).
 
 ## Common questions
 

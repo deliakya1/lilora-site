@@ -40,7 +40,7 @@ A NC State cita estacas de caule e alporquia. A estaca precisa de um nó, de pre
 
 ## Animais e pessoas
 
-O [ASPCA Animal Poison Control Center](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cutleaf-philodendron) lista a costela-de-adão (monstera) como tóxica para gatos e cães por causa dos oxalatos de cálcio insolúveis. Os sinais listados são irritação oral, ardência intensa e irritação da boca, língua e lábios, salivação excessiva, vômito e dificuldade para engolir. A NC State acrescenta que a seiva pode irritar a pele. Se o seu animal mastigar a planta, procure um veterinário ou um serviço de informação toxicológica veterinária. Se uma pessoa ingerir a planta, ligue para o centro de informação toxicológica da sua região. Isto é informação geral, não orientação veterinária nem médica.
+O [ASPCA Animal Poison Control Center](https://www.aspca.org/) lista a costela-de-adão (monstera) como tóxica para gatos e cães por causa dos oxalatos de cálcio insolúveis. Os sinais listados são irritação oral, ardência intensa e irritação da boca, língua e lábios, salivação excessiva, vômito e dificuldade para engolir. A NC State acrescenta que a seiva pode irritar a pele. Se o seu animal mastigar a planta, procure um veterinário ou um serviço de informação toxicológica veterinária. Se uma pessoa ingerir a planta, ligue para o centro de informação toxicológica da sua região. Isto é informação geral, não orientação veterinária nem médica.
 
 ## Perguntas frequentes
 

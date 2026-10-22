@@ -40,7 +40,7 @@ A jiboia enraíza fácil por estaca. Corte um pedaço com pelo menos um nó (o c
 
 ## Animais e pessoas
 
-O [ASPCA Animal Poison Control Center](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos) lista a jiboia (golden pothos) como tóxica para gatos e cães. A NC State Extension aponta os cristais de oxalato de cálcio como princípio tóxico e cita sinais como irritação e inchaço na boca, salivação, dificuldade para engolir e vômito; a seiva pode irritar a pele. Mantenha os ramos pendentes fora de alcance. Se o seu animal mastigar a planta, procure um veterinário ou um serviço de informação toxicológica veterinária. Se uma pessoa ingerir a planta, ligue para o centro de informação toxicológica da sua região. Isto é informação geral, não orientação veterinária nem médica.
+O [ASPCA Animal Poison Control Center](https://www.aspca.org/) lista a jiboia (golden pothos) como tóxica para gatos e cães. A NC State Extension aponta os cristais de oxalato de cálcio como princípio tóxico e cita sinais como irritação e inchaço na boca, salivação, dificuldade para engolir e vômito; a seiva pode irritar a pele. Mantenha os ramos pendentes fora de alcance. Se o seu animal mastigar a planta, procure um veterinário ou um serviço de informação toxicológica veterinária. Se uma pessoa ingerir a planta, ligue para o centro de informação toxicológica da sua região. Isto é informação geral, não orientação veterinária nem médica.
 
 ## Perguntas frequentes
 

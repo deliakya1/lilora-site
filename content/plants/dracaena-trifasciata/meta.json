@@ -21,8 +21,8 @@
       "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77164235-1"
     },
     {
-      "name": "ASPCA Animal Poison Control Center: Mother-in-law’s tongue (Sansevieria trifasciata)",
-      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mother-laws-tongue"
+      "name": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/"
     }
   ],
   "tr": {
@@ -35,7 +35,7 @@
       "humidity": "Kuru ev havasına dayanır",
       "temperature": "Oda sıcaklığı; 10 °C civarındaki serinliğe dayanır",
       "petSafety": "ASPCA kedi ve köpekler için toksik olarak listeler",
-      "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mother-laws-tongue",
+      "petSafetySource": "https://www.aspca.org/",
       "careLevel": "Kolay"
     }
   },
@@ -49,7 +49,7 @@
       "humidity": "Tolerates dry indoor air",
       "temperature": "Room temperature; tolerates cool spells around 10 °C (50 °F)",
       "petSafety": "Listed as toxic to cats and dogs by the ASPCA",
-      "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mother-laws-tongue",
+      "petSafetySource": "https://www.aspca.org/",
       "careLevel": "Easy"
     }
   },
@@ -63,7 +63,7 @@
       "humidity": "Tolera el aire seco de interior",
       "temperature": "Temperatura ambiente; soporta periodos frescos de unos 10 °C",
       "petSafety": "La ASPCA la incluye como tóxica para gatos y perros",
-      "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mother-laws-tongue",
+      "petSafetySource": "https://www.aspca.org/",
       "careLevel": "Fácil"
     }
   },
@@ -77,7 +77,7 @@
       "humidity": "Verträgt trockene Heizungsluft",
       "temperature": "Zimmertemperatur; verträgt kühle Phasen um 10 °C",
       "petSafety": "Von der ASPCA als giftig für Katzen und Hunde geführt",
-      "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mother-laws-tongue",
+      "petSafetySource": "https://www.aspca.org/",
       "careLevel": "Leicht"
     }
   },
@@ -91,7 +91,7 @@
       "humidity": "Tolera o ar seco de dentro de casa",
       "temperature": "Temperatura ambiente; aguenta períodos frescos por volta de 10 °C",
       "petSafety": "A ASPCA lista como tóxica para gatos e cães",
-      "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mother-laws-tongue",
+      "petSafetySource": "https://www.aspca.org/",
       "careLevel": "Fácil"
     }
   },
@@ -105,7 +105,7 @@
       "humidity": "Supporte l’air sec des intérieurs",
       "temperature": "Température ambiante ; supporte des périodes fraîches vers 10 °C",
       "petSafety": "Classée toxique pour les chats et les chiens par l’ASPCA",
-      "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mother-laws-tongue",
+      "petSafetySource": "https://www.aspca.org/",
       "careLevel": "Facile"
     }
   }

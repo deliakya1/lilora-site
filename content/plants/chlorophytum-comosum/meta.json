@@ -21,8 +21,8 @@
       "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:532810-1"
     },
     {
-      "name": "ASPCA Animal Poison Control Center: Spider plant (Chlorophytum comosum)",
-      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant"
+      "name": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/"
     }
   ],
   "tr": {
@@ -35,7 +35,7 @@
       "humidity": "Orta nem",
       "temperature": "7 °C'nin üstünde tut",
       "petSafety": "ASPCA kedi ve köpekler için toksik değil olarak listeler",
-      "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant",
+      "petSafetySource": "https://www.aspca.org/",
       "careLevel": "Kolay"
     }
   },
@@ -49,7 +49,7 @@
       "humidity": "Medium humidity",
       "temperature": "Keep above 7 °C (45 °F)",
       "petSafety": "Listed as non-toxic to cats and dogs by the ASPCA",
-      "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant",
+      "petSafetySource": "https://www.aspca.org/",
       "careLevel": "Easy"
     }
   },
@@ -63,7 +63,7 @@
       "humidity": "Humedad media",
       "temperature": "Mantenla por encima de 7 °C",
       "petSafety": "La ASPCA la incluye como no tóxica para gatos y perros",
-      "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant",
+      "petSafetySource": "https://www.aspca.org/",
       "careLevel": "Fácil"
     }
   },
@@ -77,7 +77,7 @@
       "humidity": "Mittlere Luftfeuchtigkeit",
       "temperature": "Über 7 °C halten",
       "petSafety": "Von der ASPCA als ungiftig für Katzen und Hunde geführt",
-      "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant",
+      "petSafetySource": "https://www.aspca.org/",
       "careLevel": "Leicht"
     }
   },
@@ -91,7 +91,7 @@
       "humidity": "Umidade média",
       "temperature": "Mantenha acima de 7 °C",
       "petSafety": "A ASPCA lista como não tóxico para gatos e cães",
-      "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant",
+      "petSafetySource": "https://www.aspca.org/",
       "careLevel": "Fácil"
     }
   },
@@ -105,7 +105,7 @@
       "humidity": "Humidité moyenne",
       "temperature": "Au-dessus de 7 °C",
       "petSafety": "Classée non toxique pour les chats et les chiens par l’ASPCA",
-      "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant",
+      "petSafetySource": "https://www.aspca.org/",
       "careLevel": "Facile"
     }
   }

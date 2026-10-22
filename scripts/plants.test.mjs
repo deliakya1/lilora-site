@@ -5,9 +5,6 @@ const languages=['tr','en','es','de','pt','fr'];
 const prefix=(lang)=>lang==='tr'?'/':`/${lang}/`;
 const plants=JSON.parse(readFileSync('editorial/plants.json'));
 const articles=JSON.parse(readFileSync('editorial/articles.json'));
-// SEO-06 profiles cite the species-matched ASPCA page; the others still cite the ASPCA homepage.
-const aspcaSpecies={'monstera-deliciosa':'cutleaf-philodendron',spathiphyllum:'peace-lily','epipremnum-aureum':'golden-pothos','dracaena-trifasciata':'mother-laws-tongue','chlorophytum-comosum':'spider-plant'};
-const aspcaUrl=(slug)=>aspcaSpecies[slug]?`https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/${aspcaSpecies[slug]}`:'https://www.aspca.org/';
 const credits=readFileSync('assets/images/plants/CREDITS.md','utf8');
 const text=(item)=>[item.answer,...item.sections.map(s=>s.html)].join(' ').replace(/<[^>]+>/g,' ');
 // Share of common English function words; translated bodies stay far below an English page.
@@ -16,15 +13,15 @@ test('twelve plant profiles exist in all six languages with botanical name, fami
  assert.equal(plants.length,12);
  for(const p of plants){
   assert.match(p.botanicalName,/^[A-Z][a-z]+( [a-z-]+)?$/,p.slug);assert.ok(p.family.endsWith('aceae'),p.slug);
-  assert.ok(p.sources.length>=3,p.slug);assert.ok(p.sources.some(s=>s.url===aspcaUrl(p.slug)),p.slug);
+  assert.ok(p.sources.length>=3,p.slug);assert.ok(p.sources.some(s=>s.url==='https://www.aspca.org/'),p.slug);
   for(const lang of languages){assert.ok(p[lang],`${p.slug}/${lang}`);assert.ok(p[lang].sections.length>=9,`${p.slug}/${lang}`);assert.ok(p[lang].sections.at(-1).html.split('<h3>').length-1>=3,`${p.slug}/${lang}: FAQ`);}
  }
 });
-test('every profile states an ASPCA listing or says it is not listed, cites only its expected ASPCA page and never claims a plant is pet-safe',()=>{
+test('every profile states an ASPCA listing or says it is not listed, cites the ASPCA homepage only and never claims a plant is pet-safe',()=>{
  for(const p of plants)for(const lang of languages){
-  const glance=p[lang].atAGlance;assert.equal(glance.petSafetySource,aspcaUrl(p.slug));assert.match(glance.petSafety,/ASPCA/,`${p.slug}/${lang}`);
+  const glance=p[lang].atAGlance;assert.equal(glance.petSafetySource,'https://www.aspca.org/');assert.match(glance.petSafety,/ASPCA/,`${p.slug}/${lang}`);
   const body=text(p[lang]);assert.match(body,/ASPCA Animal Poison Control Center/,`${p.slug}/${lang}`);
-  for(const [,url] of p[lang].sections.map(s=>s.html).join(' ').matchAll(/href="([^"]+)"/g))if(url.includes('aspca.org'))assert.equal(url,aspcaUrl(p.slug),`${p.slug}/${lang}`);
+  for(const [,url] of p[lang].sections.map(s=>s.html).join(' ').matchAll(/href="([^"]+)"/g))if(url.includes('aspca.org'))assert.equal(url,'https://www.aspca.org/',`${p.slug}/${lang}`);
   assert.doesNotMatch(body,/\b(?:is|are)\s+(?:completely\s+)?(?:pet[- ]safe|safe for pets)\b/i,`${p.slug}/${lang}`);
  }
 });

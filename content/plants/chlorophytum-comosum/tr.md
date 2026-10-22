@@ -46,7 +46,7 @@ Yavrularla ya da bölerek kolayca çoğalır. Yavruyu ana bitkiye bağlıyken ne
 
 ## Evcil hayvanlar ve insanlar
 
-[ASPCA Animal Poison Control Center](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant), kurdele çiçeğini kedi ve köpekler için toksik değil olarak listeler; NC State Extension da aynı şekilde etiketler. Toksik değil, evcil hayvanın onu serbestçe yiyebileceği anlamına gelmez: bitki çiğnemek yine de mideyi bozabilir ve kediler sarkan yapraklara sık sık ilgi gösterir. Kedin çiğniyorsa bitkiyi ulaşamayacağı bir yere as. Evcil hayvanın rahatsız görünürse veterinere başvur. İnsanlarda zehirlenme şüphesinde Türkiye'de 114 UZEM'i ara. Bu genel bilgidir; veteriner veya tıbbi tavsiye değildir. Başka bitkilerle karşılaştırmak için [evcil hayvan dostu bitkiler rehberine](/guides/pet-safe-houseplants/) ya da [bitki kütüphanesindeki toksik olmayan profillere](/plants/#petNonToxic) bak.
+[ASPCA Animal Poison Control Center](https://www.aspca.org/), kurdele çiçeğini kedi ve köpekler için toksik değil olarak listeler; NC State Extension da aynı şekilde etiketler. Toksik değil, evcil hayvanın onu serbestçe yiyebileceği anlamına gelmez: bitki çiğnemek yine de mideyi bozabilir ve kediler sarkan yapraklara sık sık ilgi gösterir. Kedin çiğniyorsa bitkiyi ulaşamayacağı bir yere as. Evcil hayvanın rahatsız görünürse veterinere başvur. İnsanlarda zehirlenme şüphesinde Türkiye'de 114 UZEM'i ara. Bu genel bilgidir; veteriner veya tıbbi tavsiye değildir. Başka bitkilerle karşılaştırmak için [evcil hayvan dostu bitkiler rehberine](/guides/pet-safe-houseplants/) ya da [bitki kütüphanesindeki toksik olmayan profillere](/plants/#petNonToxic) bak.
 
 ## Sık sorulan sorular
 

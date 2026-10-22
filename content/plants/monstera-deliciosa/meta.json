@@ -18,8 +18,8 @@
       "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:87478-1"
     },
     {
-      "name": "ASPCA Animal Poison Control Center: Cutleaf philodendron (Monstera deliciosa)",
-      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cutleaf-philodendron"
+      "name": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/"
     }
   ],
   "tr": {
@@ -32,7 +32,7 @@
       "humidity": "Yüksek nemi sever; kuru odada nemlendirici kullan",
       "temperature": "Yaklaşık 16–29 °C",
       "petSafety": "ASPCA kedi ve köpekler için toksik olarak listeler",
-      "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cutleaf-philodendron",
+      "petSafetySource": "https://www.aspca.org/",
       "careLevel": "Kolay–orta"
     }
   },
@@ -46,7 +46,7 @@
       "humidity": "Prefers high humidity; use a humidifier in dry rooms",
       "temperature": "About 16–29 °C (60–85 °F)",
       "petSafety": "Listed as toxic to cats and dogs by the ASPCA",
-      "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cutleaf-philodendron",
+      "petSafetySource": "https://www.aspca.org/",
       "careLevel": "Easy to moderate"
     }
   },
@@ -60,7 +60,7 @@
       "humidity": "Prefiere humedad alta; usa humidificador si el aire es seco",
       "temperature": "Entre unos 16 y 29 °C",
       "petSafety": "La ASPCA la incluye como tóxica para gatos y perros",
-      "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cutleaf-philodendron",
+      "petSafetySource": "https://www.aspca.org/",
       "careLevel": "Fácil a media"
     }
   },
@@ -74,7 +74,7 @@
       "humidity": "Mag hohe Luftfeuchtigkeit; in trockenen Räumen Luftbefeuchter nutzen",
       "temperature": "Etwa 16–29 °C",
       "petSafety": "Von der ASPCA als giftig für Katzen und Hunde geführt",
-      "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cutleaf-philodendron",
+      "petSafetySource": "https://www.aspca.org/",
       "careLevel": "Leicht bis mittel"
     }
   },
@@ -88,7 +88,7 @@
       "humidity": "Prefere umidade alta; use umidificador em ambientes secos",
       "temperature": "Cerca de 16–29 °C",
       "petSafety": "A ASPCA lista como tóxica para gatos e cães",
-      "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cutleaf-philodendron",
+      "petSafetySource": "https://www.aspca.org/",
       "careLevel": "Fácil a médio"
     }
   },
@@ -102,7 +102,7 @@
       "humidity": "Aime une humidité élevée ; humidificateur si l’air est sec",
       "temperature": "Environ 16–29 °C",
       "petSafety": "Classé toxique pour les chats et les chiens par l’ASPCA",
-      "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cutleaf-philodendron",
+      "petSafetySource": "https://www.aspca.org/",
       "careLevel": "Facile à moyen"
     }
   }

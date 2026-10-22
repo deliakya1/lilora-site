@@ -21,8 +21,8 @@
       "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:87014-1"
     },
     {
-      "name": "ASPCA Animal Poison Control Center: Golden pothos (Epipremnum aureum)",
-      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos"
+      "name": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/"
     }
   ],
   "tr": {
@@ -35,7 +35,7 @@
       "humidity": "Normal oda havası; çok kuru odada nemlendirici veya çakıllı tepsi işe yarar",
       "temperature": "Ilık oda sıcaklığı; dona dayanıksız tropik bir sarmaşık",
       "petSafety": "ASPCA kedi ve köpekler için toksik olarak listeler",
-      "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos",
+      "petSafetySource": "https://www.aspca.org/",
       "careLevel": "Kolay"
     }
   },
@@ -49,7 +49,7 @@
       "humidity": "Average room air; a humidifier or pebble tray helps in very dry rooms",
       "temperature": "Warm room temperatures; a tropical climber that is not frost-hardy",
       "petSafety": "Listed as toxic to cats and dogs by the ASPCA",
-      "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos",
+      "petSafetySource": "https://www.aspca.org/",
       "careLevel": "Easy"
     }
   },
@@ -63,7 +63,7 @@
       "humidity": "Humedad ambiente normal; en habitaciones muy secas ayuda un humidificador o una bandeja con guijarros",
       "temperature": "Temperatura cálida de interior; trepadora tropical que no resiste heladas",
       "petSafety": "La ASPCA lo incluye como tóxico para gatos y perros",
-      "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos",
+      "petSafetySource": "https://www.aspca.org/",
       "careLevel": "Fácil"
     }
   },
@@ -77,7 +77,7 @@
       "humidity": "Normale Raumluft; in sehr trockenen Räumen helfen Luftbefeuchter oder Kiesschale",
       "temperature": "Warme Zimmertemperatur; tropische Kletterpflanze, nicht frosthart",
       "petSafety": "Von der ASPCA als giftig für Katzen und Hunde geführt",
-      "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos",
+      "petSafetySource": "https://www.aspca.org/",
       "careLevel": "Leicht"
     }
   },
@@ -91,7 +91,7 @@
       "humidity": "Umidade normal da casa; em cômodos muito secos, umidificador ou bandeja com pedrinhas ajuda",
       "temperature": "Temperatura amena a quente; trepadeira tropical, não tolera geada",
       "petSafety": "A ASPCA lista como tóxica para gatos e cães",
-      "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos",
+      "petSafetySource": "https://www.aspca.org/",
       "careLevel": "Fácil"
     }
   },
@@ -105,7 +105,7 @@
       "humidity": "Air ambiant normal ; humidificateur ou plateau de billes dans une pièce très sèche",
       "temperature": "Pièce tempérée à chaude ; liane tropicale qui ne supporte pas le gel",
       "petSafety": "Classé toxique pour les chats et les chiens par l’ASPCA",
-      "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos",
+      "petSafetySource": "https://www.aspca.org/",
       "careLevel": "Facile"
     }
   }

@@ -40,7 +40,7 @@ NC State nennt Stecklinge und Absenker. Ein Steckling braucht einen Knoten, am b
 
 ## Haustiere und Menschen
 
-Das [ASPCA Animal Poison Control Center](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cutleaf-philodendron) führt die Monstera als giftig für Katzen und Hunde, wegen unlöslicher Calciumoxalate. Als Anzeichen nennt es Reizungen im Maul, starkes Brennen und Reizung an Maul, Zunge und Lippen, starkes Speicheln, Erbrechen und Schluckbeschwerden. NC State ergänzt, dass der Saft die Haut reizen kann. Knabbert dein Tier daran, wende dich an eine Tierarztpraxis oder einen tierärztlichen Giftnotruf. Hat ein Mensch etwas davon gegessen, wende dich an den Giftnotruf in deiner Region. Dies sind allgemeine Informationen, keine tierärztliche oder medizinische Beratung.
+Das [ASPCA Animal Poison Control Center](https://www.aspca.org/) führt die Monstera als giftig für Katzen und Hunde, wegen unlöslicher Calciumoxalate. Als Anzeichen nennt es Reizungen im Maul, starkes Brennen und Reizung an Maul, Zunge und Lippen, starkes Speicheln, Erbrechen und Schluckbeschwerden. NC State ergänzt, dass der Saft die Haut reizen kann. Knabbert dein Tier daran, wende dich an eine Tierarztpraxis oder einen tierärztlichen Giftnotruf. Hat ein Mensch etwas davon gegessen, wende dich an den Giftnotruf in deiner Region. Dies sind allgemeine Informationen, keine tierärztliche oder medizinische Beratung.
 
 ## Häufige Fragen
 

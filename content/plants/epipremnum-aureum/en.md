@@ -46,7 +46,7 @@ Pothos roots readily from stem cuttings. Cut a piece with at least one node (the
 
 ## Pets and people
 
-The [ASPCA Animal Poison Control Center](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos) lists golden pothos as toxic to cats and dogs. NC State Extension names calcium oxalate crystals as the toxic principle and lists signs such as mouth irritation and swelling, drooling, difficulty swallowing and vomiting; the sap can irritate skin. Keep trailing stems out of reach. If a pet chews the plant, contact a veterinarian or an animal poison control service. For people in Türkiye, the poison information line is 114 (UZEM). This is general information, not veterinary or medical advice. To compare other plants, see the [pet-safe houseplants guide](/en/guides/pet-safe-houseplants/) or the [non-toxic profiles in the plant library](/en/plants/#petNonToxic).
+The [ASPCA Animal Poison Control Center](https://www.aspca.org/) lists golden pothos as toxic to cats and dogs. NC State Extension names calcium oxalate crystals as the toxic principle and lists signs such as mouth irritation and swelling, drooling, difficulty swallowing and vomiting; the sap can irritate skin. Keep trailing stems out of reach. If a pet chews the plant, contact a veterinarian or an animal poison control service. For people in Türkiye, the poison information line is 114 (UZEM). This is general information, not veterinary or medical advice. To compare other plants, see the [pet-safe houseplants guide](/en/guides/pet-safe-houseplants/) or the [non-toxic profiles in the plant library](/en/plants/#petNonToxic).
 
 ## Common questions
 

@@ -46,7 +46,7 @@ Divide an overcrowded clump at repotting time, giving each piece roots and leave
 
 ## Pets and people
 
-The [ASPCA Animal Poison Control Center](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mother-laws-tongue) lists snake plant (mother-in-law’s tongue) as toxic to cats and dogs. It names saponins as the toxic principle and lists nausea, vomiting and diarrhoea as signs. If a pet chews it, contact a veterinarian or an animal poison control service. For people in Türkiye, the poison information line is 114 (UZEM). This is general information, not veterinary or medical advice. To compare other plants, see the [pet-safe houseplants guide](/en/guides/pet-safe-houseplants/) or the [non-toxic profiles in the plant library](/en/plants/#petNonToxic).
+The [ASPCA Animal Poison Control Center](https://www.aspca.org/) lists snake plant (mother-in-law’s tongue) as toxic to cats and dogs. It names saponins as the toxic principle and lists nausea, vomiting and diarrhoea as signs. If a pet chews it, contact a veterinarian or an animal poison control service. For people in Türkiye, the poison information line is 114 (UZEM). This is general information, not veterinary or medical advice. To compare other plants, see the [pet-safe houseplants guide](/en/guides/pet-safe-houseplants/) or the [non-toxic profiles in the plant library](/en/plants/#petNonToxic).
 
 ## Common questions
 

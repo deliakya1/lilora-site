@@ -40,7 +40,7 @@ Divisez une touffe serrée au rempotage, en gardant des racines et plusieurs feu
 
 ## Animaux et humains
 
-L’[ASPCA Animal Poison Control Center](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peace-lily) classe le spathiphyllum (peace lily) comme toxique pour les chats et les chiens en raison des oxalates de calcium insolubles. Il cite irritation buccale, brûlure et irritation de la bouche, de la langue et des lèvres, salivation excessive, vomissements et difficulté à avaler. Malgré son nom anglais, ce n’est pas un vrai lys (*Lilium*). Si votre animal mâchonne la plante, contactez un vétérinaire ou un centre antipoison vétérinaire. Si une personne en a avalé, appelez le centre antipoison de votre région. Ces informations sont générales et ne remplacent pas l’avis d’un vétérinaire ou d’un médecin.
+L’[ASPCA Animal Poison Control Center](https://www.aspca.org/) classe le spathiphyllum (peace lily) comme toxique pour les chats et les chiens en raison des oxalates de calcium insolubles. Il cite irritation buccale, brûlure et irritation de la bouche, de la langue et des lèvres, salivation excessive, vomissements et difficulté à avaler. Malgré son nom anglais, ce n’est pas un vrai lys (*Lilium*). Si votre animal mâchonne la plante, contactez un vétérinaire ou un centre antipoison vétérinaire. Si une personne en a avalé, appelez le centre antipoison de votre région. Ces informations sont générales et ne remplacent pas l’avis d’un vétérinaire ou d’un médecin.
 
 ## Questions fréquentes
 

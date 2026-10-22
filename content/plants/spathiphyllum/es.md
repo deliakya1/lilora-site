@@ -40,7 +40,7 @@ Divide una mata apretada al trasplantar, dejando raíces y varias hojas en cada 
 
 ## Mascotas y personas
 
-El [ASPCA Animal Poison Control Center](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peace-lily) incluye el espatifilo (peace lily) como tóxico para gatos y perros por sus oxalatos de calcio insolubles. Enumera irritación oral, ardor e irritación de boca, lengua y labios, babeo excesivo, vómitos y dificultad para tragar. Aunque en inglés se llame «lily», no es un lirio verdadero (*Lilium*). Si tu mascota lo mordisquea, contacta con un veterinario o con un servicio de toxicología animal. Si una persona lo ingiere, llama a tu centro de información toxicológica local. Esto es información general, no consejo veterinario ni médico.
+El [ASPCA Animal Poison Control Center](https://www.aspca.org/) incluye el espatifilo (peace lily) como tóxico para gatos y perros por sus oxalatos de calcio insolubles. Enumera irritación oral, ardor e irritación de boca, lengua y labios, babeo excesivo, vómitos y dificultad para tragar. Aunque en inglés se llame «lily», no es un lirio verdadero (*Lilium*). Si tu mascota lo mordisquea, contacta con un veterinario o con un servicio de toxicología animal. Si una persona lo ingiere, llama a tu centro de información toxicológica local. Esto es información general, no consejo veterinario ni médico.
 
 ## Preguntas frecuentes
 

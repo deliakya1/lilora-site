@@ -40,7 +40,7 @@ Divide una mata apretada al trasplantar, dejando raíces y hojas en cada parte. 
 
 ## Mascotas y personas
 
-El [ASPCA Animal Poison Control Center](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mother-laws-tongue) incluye la lengua de suegra (mother-in-law’s tongue) como tóxica para gatos y perros. Señala las saponinas como principio tóxico y enumera náuseas, vómitos y diarrea como signos. Si tu mascota la mordisquea, contacta con un veterinario o con un servicio de toxicología animal. Si una persona la ingiere, llama a tu centro de información toxicológica local. Esto es información general, no consejo veterinario ni médico.
+El [ASPCA Animal Poison Control Center](https://www.aspca.org/) incluye la lengua de suegra (mother-in-law’s tongue) como tóxica para gatos y perros. Señala las saponinas como principio tóxico y enumera náuseas, vómitos y diarrea como signos. Si tu mascota la mordisquea, contacta con un veterinario o con un servicio de toxicología animal. Si una persona la ingiere, llama a tu centro de información toxicológica local. Esto es información general, no consejo veterinario ni médico.
 
 ## Preguntas frecuentes
 
