@@ -201,12 +201,25 @@
     refresh();
     if(!read()?.analytics)stop();else start();
   });
+  // Only the exact listing may count as a store click; App Store is not live yet.
+  const storeListing=/^\/(?:[a-z]{2}\/)?app\/(?:[a-z0-9-]+\/)?id6818604360\/?$/;
+  function pageType(path) {
+    const rest=path.replace(/^\/(?:en|es|de|pt|fr)(?=\/)/,'');
+    if(rest==='/'||rest==='')return 'home';
+    const section=rest.split('/')[1];
+    const types={guides:'guide',plants:'plant',journal:'journal',compare:'compare',download:'download',support:'support',about:'about',editorial:'editorial',press:'press'};
+    if(!types[section])return 'other';
+    return rest.split('/').filter(Boolean).length>1?types[section]:types[section]+'_index';
+  }
   document.addEventListener('click',event=>{
     if(!started||!read()?.analytics)return;
     const link=event.target.closest('a[data-analytics-cta]');if(!link)return;
-    const target=new URL(link.href);
-    if(target.hostname==='apps.apple.com')window.gtag('event','app_store_click',{language:document.documentElement.lang,page_path:location.pathname});
-    else if(target.origin===location.origin)window.gtag('event','app_info_click',{language:document.documentElement.lang,page_path:location.pathname,destination_path:target.pathname});
+    let target;try{target=new URL(link.href);}catch{return;}
+    // Placement comes from fixed template values, never from visitor-entered text.
+    const placement=/^[a-z0-9-]{1,32}$/.test(link.dataset.analyticsCta)?link.dataset.analyticsCta:'other';
+    const params={language:document.documentElement.lang,page_path:location.pathname,page_type:pageType(location.pathname),cta_placement:placement};
+    if(target.protocol==='https:'&&target.hostname==='apps.apple.com'&&storeListing.test(target.pathname))window.gtag('event','app_store_click',params);
+    else if(target.origin===location.origin)window.gtag('event','app_info_click',{...params,destination_path:target.pathname});
   });
   refresh();
   if(!read()?.analytics)clearCookies();else start();
