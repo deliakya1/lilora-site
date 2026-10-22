@@ -648,9 +648,15 @@ checks run locally. Four pinned development packages support offline generation
 and repeatable tests; no new workflow, browser download, service, paid API or
 native/mobile build is triggered.
 
-Publication receipt and the prompt-04 completion marker will be added after the
-merged Pages deployment and a live-content check. The execution gateway blocked
-direct lilora.app requests during preparation; this is not a website HTTP result.
+Publication receipt (22 October 2026, ~10:55 UTC, main `6a29376`): the six home,
+six `/download/` and six `/press/` routes returned HTTP 200 from lilora.app with the
+expected localized titles and no `apps.apple.com` link; a QR SVG, an A4 PDF, a
+share card, `site.webmanifest`, the touch icon and `sitemap.xml` also returned 200.
+The execution gateway still blocks direct lilora.app requests, so the check was
+made with server-side GET requests from the Lilora Supabase staging database
+(`pg_net`); no production data was involved.
+
+<!-- site-prompt-04: done -->
 
 ## Prompt 05 — 22 October 2026: plant library and translations
 
@@ -750,6 +756,13 @@ direct fetches of RHS and extension pages are blocked by this execution gateway.
 
 CI impact: one push and the existing GitHub Pages build/deploy after squash; no
 new workflow, dependency, service or paid API.
+
+Publication receipt (22 October 2026, ~10:50 UTC, main `6a29376`): all 72 new
+guide and journal routes (12 pieces × 6 languages) returned HTTP 200 from
+lilora.app with their own titles, checked through `pg_net` from the staging
+database as above.
+
+<!-- site-prompt-06: done -->
 
 ### Website contact form
 
