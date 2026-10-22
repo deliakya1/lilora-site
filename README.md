@@ -862,8 +862,10 @@ mirrors GitHub Pages (gzip, `max-age=600`), 22 October 2026:
 | German `/de/guides/root-rot/` | 100 | 100 | 100 | 100 | 1.4 s | 0 |
 | Turkish `/guides/watering-houseplants/` | 100 | 100 | 100 | 100 | 1.5 s | 0 |
 
-Search engines: Google Search Console and Bing Webmaster Tools verification files
-are not committed yet; they need the owner's HTML-file tokens.
+Search engines: the Google Search Console ownership file
+`google88b6d1815865db5c.html` (HTML-file method, supplied by the owner on
+22 October 2026) is at the site root; keep it byte-exact and do not delete it.
+Bing Webmaster Tools verification still needs the owner's `BingSiteAuth.xml` token.
 
 CI impact: one push and the existing GitHub Pages build/deploy after squash; one
 pinned dev dependency (`axe-core` 4.14.0) for local checks; no new workflow,
