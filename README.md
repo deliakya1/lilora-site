@@ -750,3 +750,21 @@ direct fetches of RHS and extension pages are blocked by this execution gateway.
 
 CI impact: one push and the existing GitHub Pages build/deploy after squash; no
 new workflow, dependency, service or paid API.
+
+### Website contact form
+
+`/contact/` in all six languages has a form (topic, name, email, message,
+consent) that posts to the Supabase Edge Function `website-contact` in the
+production project (source and migration live in the app repository under
+`supabase/functions/website-contact` and `web_contact_messages`). With
+JavaScript the page sends JSON and shows a localized status; without it the
+browser posts the form and the function redirects back with `?form=<code>`.
+Nothing is requested from Supabase until the visitor presses Send. Abuse
+controls: honeypot `website`, a minimum fill time, and five messages per sender
+per hour keyed by a daily-salted IP hash; rows are deleted after 12 months.
+Messages are emailed to support@lilora.app only once `RESEND_API_KEY` is set as
+an Edge Function secret; until then they are kept in
+`website_contact_messages` with `email_status = 'skipped'`. The privacy policy
+section `#website-contact` documents this. `node scripts/contact-check.cjs`
+intercepts the endpoint and checks six languages at 390/1440 px, validation,
+sending, rate limit, redirect status and the no-JS post.
