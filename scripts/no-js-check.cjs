@@ -10,7 +10,8 @@ const articles=['guide','post','comparison'],hubs=['guidesHub','plantsHub','jour
 const pages=languages.flatMap(lang=>Object.keys(templates).filter(name=>['tr','en'].includes(lang)||representative.includes(name)).map(name=>({lang,name,path:prefix(lang)+templates[name]})));
 const consent=analytics=>localStorage.setItem('lilora.cookie-preferences.v2',JSON.stringify({version:2,analytics,savedAt:Date.now()}));
 // Visible main text, one trimmed line per entry; closed <details> bodies stay in the HTML but are not counted here.
-const mainLines=page=>page.locator('main').evaluate(main=>main.innerText.split('\n').map(line=>line.trim()).filter(Boolean));
+// The share control is a JavaScript-only enhancement (hidden without JS), so it is left out of the comparison.
+const mainLines=page=>page.locator('main').evaluate(main=>{for(const el of main.querySelectorAll('.share-tools'))el.hidden=true;return main.innerText.split('\n').map(line=>line.trim()).filter(Boolean);});
 (async()=>{
  const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',headless:true,args:['--no-sandbox']});
  let checks=0;
