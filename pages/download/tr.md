@@ -32,6 +32,6 @@
 </section>
 <section class="promo-band wrap" aria-labelledby="download-guides">
   <div><h2 id="download-guides">Beklerken okuyabileceğin rehberler</h2><p>Sulamadan önce nelere bakacağını, evdeki ışığı nasıl değerlendireceğini ve işe yarar bir bakım kaydını nasıl tutacağını öğren.</p></div>
-  <div class="promo-actions"><a class="button outline" href="/guides/">Rehberleri oku</a><a class="text-link" href="/support/">Lilora hakkında sorular</a></div>
+  <div class="promo-actions"><a class="button outline" href="/guides/">Rehberleri oku</a><a class="text-link" href="/support/">Lilora hakkında sorular</a><a class="text-link" href="/about/">Lilora hakkında</a></div>
 </section>
 </div>

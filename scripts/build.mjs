@@ -136,6 +136,28 @@ const plantGuides = (l) => {
     ? `<section class="related wrap"><h2>${locales[l].related}</h2><div class="story-grid">${picks.map((x) => card(x, l)).join("")}</div></section>`
     : "";
 };
+// Guides name the species profiles that genuinely apply (meta.json "plants"); plant pages list the same pairing in reverse.
+const topicLabels = {
+  tr: ["Bu konuyla ilgili bitki profilleri", "Bu bitki için bakım konuları"],
+  en: ["Plant profiles for this topic", "Care topics for this plant"],
+  es: ["Fichas de plantas sobre este tema", "Temas de cuidado para esta planta"],
+  de: ["Pflanzenprofile zu diesem Thema", "Pflegethemen für diese Pflanze"],
+  pt: ["Perfis de plantas sobre este tema", "Temas de cuidado para esta planta"],
+  fr: ["Fiches plantes sur ce sujet", "Sujets d’entretien pour cette plante"],
+};
+const guidePlants = (a, l) => {
+  const list = (a.plants || []).map((slug) => plants.find((p) => p.slug === slug && p[l])).filter(Boolean);
+  return list.length
+    ? `<section class="topic-links"><h2>${topicLabels[l][0]}</h2><ul class="plant-filter-links">${list.map((p) => `<li><a href="${plantPath(p, l)}">${escape(p[l].title)}</a> <em>${escape(p.botanicalName)}</em></li>`).join("")}</ul></section>`
+    : "";
+};
+const plantTopics = (p, l) => {
+  const shown = ["watering-houseplants", "indoor-plant-light-guide", "pet-safe-houseplants"];
+  const list = articles.filter((a) => a[l] && !shown.includes(a.slug) && (a.plants || []).includes(p.slug));
+  return list.length
+    ? `<section class="topic-links wrap"><h2>${topicLabels[l][1]}</h2><ul class="plant-filter-links">${list.map((a) => `<li><a href="${articlePath(a, l)}">${escape(a[l].title)}</a></li>`).join("")}</ul></section>`
+    : "";
+};
 const appNote = (l) =>
   `<aside class="app-note"><p class="eyebrow">lilora</p><h2>${escape(promotionCopy[l].recordTitle)}</h2><p>${escape(promotionCopy[l].recordBody)}</p><p>${locales[l].status}</p>${!["tr", "en"].includes(l) ? `<p>${locales[l].appLanguages}</p>` : ""}<a class="button" data-analytics-cta="app-info" href="${prefix(l)}download/">${locales[l].getApp}</a></aside>`;
 const homeEditorial = (l) => {
@@ -203,7 +225,7 @@ for (const a of articles)
       schema,
       sources: contentSources("articles", a.slug, l),
       images: images,
-      body: `<div class="wrap"><nav class="breadcrumbs" aria-label="${t.home}"><a href="${prefix(l)}">lilora</a><span>/</span><a href="${prefix(l)}${hub}/">${t[hub]}</a></nav><header class="article-heading"><h1>${escape(c.title)}</h1><p class="dek">${escape(c.description)}</p><p class="byline">${t.published} <time datetime="${a.published}">${formatDate(a.published, l)}</time> · ${t.reviewed} <time datetime="${a.reviewed}">${formatDate(a.reviewed, l)}</time></p></header>${a.image ? `<figure class="article-image"><img src="${c.image || a.image}" width="${a.imageWidth || 553}" height="${a.imageHeight || 1200}" alt="${escape(c.imageAlt || "")}" fetchpriority="high"><figcaption>${c.caption || ""}</figcaption></figure>` : ""}<div class="article-layout"><details class="toc"><summary>${t.contents}</summary><nav aria-label="${t.contents}"><ol>${c.sections.map((s, i) => `<li><a href="#section-${i + 1}">${escape(s.title)}</a></li>`).join("")}<li><a href="#sources">${t.sources}</a></li></ol></nav></details><article class="prose"><div class="short-answer"><p class="eyebrow">${t.shortAnswer}</p>${c.answerHtml}</div>${a.diagram === "shared-care" ? sharedCareDiagram(l) : ""}${c.sections.map((s, i) => `<section id="section-${i + 1}"><h2>${escape(s.title)}</h2>${s.html}</section>`).join("")}<section id="sources" class="sources"><h2>${t.sources}</h2><ol>${a.sources.map((s) => `<li><a href="${escape(s.url)}">${escape(s.name)}</a>${s.note ? " — " + escape(s.note) : ""}</li>`).join("")}</ol><p>${t.generalNote}</p></section>${appNote(l)}</article></div><section class="related"><h2>${t.related}</h2><div class="story-grid">${related(
+      body: `<div class="wrap"><nav class="breadcrumbs" aria-label="${t.home}"><a href="${prefix(l)}">lilora</a><span>/</span><a href="${prefix(l)}${hub}/">${t[hub]}</a></nav><header class="article-heading"><h1>${escape(c.title)}</h1><p class="dek">${escape(c.description)}</p><p class="byline">${t.published} <time datetime="${a.published}">${formatDate(a.published, l)}</time> · ${t.reviewed} <time datetime="${a.reviewed}">${formatDate(a.reviewed, l)}</time></p></header>${a.image ? `<figure class="article-image"><img src="${c.image || a.image}" width="${a.imageWidth || 553}" height="${a.imageHeight || 1200}" alt="${escape(c.imageAlt || "")}" fetchpriority="high"><figcaption>${c.caption || ""}</figcaption></figure>` : ""}<div class="article-layout"><details class="toc"><summary>${t.contents}</summary><nav aria-label="${t.contents}"><ol>${c.sections.map((s, i) => `<li><a href="#section-${i + 1}">${escape(s.title)}</a></li>`).join("")}<li><a href="#sources">${t.sources}</a></li></ol></nav></details><article class="prose"><div class="short-answer"><p class="eyebrow">${t.shortAnswer}</p>${c.answerHtml}</div>${a.diagram === "shared-care" ? sharedCareDiagram(l) : ""}${c.sections.map((s, i) => `<section id="section-${i + 1}"><h2>${escape(s.title)}</h2>${s.html}</section>`).join("")}<section id="sources" class="sources"><h2>${t.sources}</h2><ol>${a.sources.map((s) => `<li><a href="${escape(s.url)}">${escape(s.name)}</a>${s.note ? " — " + escape(s.note) : ""}</li>`).join("")}</ol><p>${t.generalNote}</p></section>${guidePlants(a, l)}${appNote(l)}</article></div><section class="related"><h2>${t.related}</h2><div class="story-grid">${related(
         a,
         l,
       )
@@ -248,7 +270,7 @@ for (const a of plants)
           [c.title, path],
         ]),
       ],
-      body: `<div class="wrap document"><nav class="breadcrumbs" aria-label="${t.home}"><a href="${prefix(l)}">lilora</a><span>/</span><a href="${prefix(l)}plants/">${t.plants}</a></nav><header class="specimen-header"><p>${escape(a.family)}</p><h1>${escape(c.title)}</h1><p class="botanical-name"><em>${escape(a.botanicalName)}</em></p><p class="byline">${t.published} <time datetime="${a.published}">${formatDate(a.published, l)}</time> · ${t.reviewed} <time datetime="${a.reviewed}">${formatDate(a.reviewed, l)}</time></p></header>${a.image ? `<figure class="article-image plant-image"><img src="${a.image}" width="${a.imageWidth}" height="${a.imageHeight}" alt="${escape(c.imageAlt || "")}" fetchpriority="high"><figcaption>${c.caption || ""}</figcaption></figure>` : ""}<section class="at-a-glance"><h2>${t.atAGlance}</h2><dl>${["light", "watering", "humidity", "temperature", "petSafety", "careLevel"].map((k) => `<div><dt>${t[k]}</dt><dd>${escape(g[k])}${k === "petSafety" && g.petSafetySource ? ` <a href="${escape(g.petSafetySource)}">${t.sources}</a>` : ""}</dd></div>`).join("")}</dl></section><article class="prose">${c.answerHtml}${c.sections.map((s) => `<section><h2>${escape(s.title)}</h2>${s.html}</section>`).join("")}<section id="sources"><h2>${t.sources}</h2><ul>${(a.sources || []).map((s) => `<li><a href="${escape(s.url)}">${escape(s.name)}</a></li>`).join("")}</ul></section>${appNote(l)}</article></div>${plantGuides(l)}`,
+      body: `<div class="wrap document"><nav class="breadcrumbs" aria-label="${t.home}"><a href="${prefix(l)}">lilora</a><span>/</span><a href="${prefix(l)}plants/">${t.plants}</a></nav><header class="specimen-header"><p>${escape(a.family)}</p><h1>${escape(c.title)}</h1><p class="botanical-name"><em>${escape(a.botanicalName)}</em></p><p class="byline">${t.published} <time datetime="${a.published}">${formatDate(a.published, l)}</time> · ${t.reviewed} <time datetime="${a.reviewed}">${formatDate(a.reviewed, l)}</time></p></header>${a.image ? `<figure class="article-image plant-image"><img src="${a.image}" width="${a.imageWidth}" height="${a.imageHeight}" alt="${escape(c.imageAlt || "")}" fetchpriority="high"><figcaption>${c.caption || ""}</figcaption></figure>` : ""}<section class="at-a-glance"><h2>${t.atAGlance}</h2><dl>${["light", "watering", "humidity", "temperature", "petSafety", "careLevel"].map((k) => `<div><dt>${t[k]}</dt><dd>${escape(g[k])}${k === "petSafety" && g.petSafetySource ? ` <a href="${escape(g.petSafetySource)}">${t.sources}</a>` : ""}</dd></div>`).join("")}</dl></section><article class="prose">${c.answerHtml}${c.sections.map((s) => `<section><h2>${escape(s.title)}</h2>${s.html}</section>`).join("")}<section id="sources"><h2>${t.sources}</h2><ul>${(a.sources || []).map((s) => `<li><a href="${escape(s.url)}">${escape(s.name)}</a></li>`).join("")}</ul></section>${appNote(l)}</article></div>${plantGuides(l)}${plantTopics(a, l)}`,
     });
   }
 for (const slug of staticSlugs) {

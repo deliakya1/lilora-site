@@ -30,6 +30,11 @@
     "indoor-plant-light-guide",
     "when-to-repot-houseplants"
   ],
+  "plants": [
+    "epipremnum-aureum",
+    "spathiphyllum",
+    "ficus-lyrata"
+  ],
   "en": {
     "description": "Check the leaf pattern, root-zone moisture, light, temperature and pests before you change the care of a houseplant with yellowing leaves."
   },

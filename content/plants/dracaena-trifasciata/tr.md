@@ -26,6 +26,12 @@ Kuru ev havası sorun değildir. 10 °C civarındaki serin dönemlere dayanır a
 
 Yavaş büyüdüğü için besin ihtiyacı azdır. Büyüme döneminde bir iki kez hafif saksı bitkisi gübresi yeter; kışın verme.
 
+## Mevsime göre bakım
+
+Büyüme mevsiminde harcın sulamalar arasında kurumasına izin ver. NC State kışın yalnızca bir iki ayda bir suya ihtiyaç duyabileceğini söylüyor; bunu takvim değil, ne kadar yavaş kuruduğunun bir işareti olarak gör ve yine de önce bütün kök bölgesinin kuru olduğunu kontrol et. Yaklaşık 10 °C'lik serin odalara ve kuru havaya dayanır ama aşırı sulama kökleri çürütür; soğuk ve ıslak harç en riskli birleşimdir. [NC State Extension](https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/)
+
+NC State günün bir bölümünde 2–6 saat doğrudan güneşi ideal sayıyor; bitki loş yerlere de dayanır ama orada daha yavaş büyür ve kurur. [Kış bakımı rehberine](/guides/winter-houseplant-care/) bak. Lilora'da hatırlatma bir kontrol çağrısıdır, sulama emri değil: suladığını ya da ertelediğini kaydedersin; böylece soğuk aylarda harcın daha yavaş kuruduğu kendi geçmişinde görünür.
+
 ## Sık görülen sorunlar
 
 - **Dipten yumuşayıp çöken yapraklar:** NC State fazla suyun kök çürümesine yol açtığını belirtiyor. Köksapları ve kökleri kontrol et; sert doku iyi bir işarettir.
@@ -40,7 +46,7 @@ Kalabalıklaşan bir öbeği saksı değişiminde böl; her parçada kök ve yap
 
 ## Evcil hayvanlar ve insanlar
 
-[ASPCA Animal Poison Control Center](https://www.aspca.org/), paşa kılıcını (mother-in-law's tongue) kedi ve köpekler için toksik olarak listeler. Toksik madde olarak saponinleri, belirti olarak bulantı, kusma ve ishali sayar. Evcil hayvanın bitkiyi çiğnerse bir veterinere veya hayvan zehir danışma hizmetine başvur. İnsanlarda zehirlenme şüphesinde Türkiye'de 114 UZEM'i ara. Bu genel bilgidir; veteriner veya tıbbi tavsiye değildir.
+[ASPCA Animal Poison Control Center](https://www.aspca.org/), paşa kılıcını (mother-in-law's tongue) kedi ve köpekler için toksik olarak listeler. Toksik madde olarak saponinleri, belirti olarak bulantı, kusma ve ishali sayar. Evcil hayvanın bitkiyi çiğnerse bir veterinere veya hayvan zehir danışma hizmetine başvur. İnsanlarda zehirlenme şüphesinde Türkiye'de 114 UZEM'i ara. Bu genel bilgidir; veteriner veya tıbbi tavsiye değildir. Başka bitkilerle karşılaştırmak için [evcil hayvan dostu bitkiler rehberine](/guides/pet-safe-houseplants/) ya da [bitki kütüphanesindeki toksik olmayan profillere](/plants/#petNonToxic) bak.
 
 ## Sık sorulan sorular
 
@@ -55,3 +61,7 @@ Işık olmadan yaşamaz. Az ışığa dayanır ama yine de bir pencere ya da bit
 ### Neden artık Dracaena deniyor?
 
 DNA çalışmaları *Sansevieria*'yı *Dracaena* içine yerleştirdi. Kew *Dracaena trifasciata* adını kabul ediyor; bakım aynı.
+
+### Paşa kılıcı doğrudan güneşe dayanır mı?
+
+Günün bir bölümünde evet. NC State 2–6 saat doğrudan güneşi ideal sayıyor; bitki loş iç mekânlara da dayanır.
