@@ -19,6 +19,9 @@
  // FAQ answers open when a link points at them (for example /support/#reminders).
  const openTarget=()=>{const id=decodeURIComponent(location.hash.slice(1));const item=id&&document.getElementById(id);if(item&&item.matches('details.faq-item'))item.open=true;};
  openTarget();addEventListener('hashchange',openTarget);
+ // Back to top appears after about one and a half screens of scrolling.
+ const top=document.querySelector('.back-to-top');
+ if(top){const update=()=>{top.hidden=scrollY<innerHeight*1.5;};update();addEventListener('scroll',update,{passive:true});addEventListener('resize',update);}
  // Language dropdowns: Escape closes, and a click elsewhere closes an open list.
  const pickers=[...document.querySelectorAll('.language-picker,.footer-language')];
  for(const picker of pickers)picker.addEventListener('keydown',event=>{if(event.key==='Escape'&&picker.open){picker.open=false;picker.querySelector('summary').focus();}});

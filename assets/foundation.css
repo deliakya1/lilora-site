@@ -442,3 +442,11 @@ summary {
 .faq-answer{padding:0 0 20px}
 .faq-answer>:last-child{margin-bottom:0}
 @media (max-width:640px){.faq-item>summary h3{font-size:20px}}
+/* Back to top: shown by navigation.js after scrolling; sits below the full-screen menu. */
+.back-to-top{position:fixed;right:max(16px,env(safe-area-inset-right));bottom:calc(20px + env(safe-area-inset-bottom));z-index:25;display:inline-flex;align-items:center;gap:8px;min-height:48px;padding:0 18px 0 14px;border-radius:999px;background:var(--color-action-primary);color:var(--color-text-onAccent);font-size:14px;font-weight:600;text-decoration:none;box-shadow:0 6px 18px #1e262033}
+.back-to-top[hidden]{display:none}
+.back-to-top:hover{background:var(--color-action-primaryPressed)}
+.back-to-top:focus-visible{outline:2px solid var(--color-border-focus);outline-offset:3px}
+body:has(.mobile-menu[open]) .back-to-top{display:none}
+@media (max-width:640px){.back-to-top{padding:0;width:48px;justify-content:center}.back-to-top span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}}
+@media print{.back-to-top{display:none!important}}
