@@ -1,0 +1,112 @@
+{
+  "slug": "epipremnum-aureum",
+  "botanicalName": "Epipremnum aureum",
+  "family": "Araceae",
+  "published": "2026-10-22",
+  "reviewed": "2026-10-22",
+  "tags": [
+    "lowLight",
+    "beginner"
+  ],
+  "image": "/assets/images/plants/epipremnum-aureum-v1.webp",
+  "imageWidth": 540,
+  "imageHeight": 720,
+  "sources": [
+    {
+      "name": "NC State Extension Gardener Plant Toolbox: Epipremnum aureum",
+      "url": "https://plants.ces.ncsu.edu/plants/epipremnum-aureum/"
+    },
+    {
+      "name": "Royal Botanic Gardens, Kew, Plants of the World Online: Epipremnum aureum",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:87014-1"
+    },
+    {
+      "name": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/"
+    }
+  ],
+  "tr": {
+    "description": "Salon sarmaşığı (potos) bakımı: parlak dolaylı ışık, her sulamadan önce kontrol, çelikle çoğaltma ve ASPCA'nın kedi-köpek kaydı.",
+    "imageAlt": "Dışarıda bir ağaç gövdesine tırmanan, sarı çizgili kalp biçimli yapraklarıyla salon sarmaşığı",
+    "caption": "Fotoğraf: <a href=\"https://www.inaturalist.org/observations/333665480\"><em>Epipremnum aureum</em></a>, Jenny Saito, iNaturalist üzerinden, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Yeniden boyutlandırıldı.",
+    "atAGlance": {
+      "light": "Parlak dolaylı ışık; daha az ışığa dayanır ama alacası solabilir",
+      "watering": "Harcın üst kısmı kuruduğunda ve saksı hafiflediğinde sula",
+      "humidity": "Normal oda havası; çok kuru odada nemlendirici veya çakıllı tepsi işe yarar",
+      "temperature": "Ilık oda sıcaklığı; dona dayanıksız tropik bir sarmaşık",
+      "petSafety": "ASPCA kedi ve köpekler için toksik olarak listeler",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Kolay"
+    }
+  },
+  "en": {
+    "description": "Pothos care: bright indirect light, a check before every watering, trailing-stem cuttings and what the ASPCA lists for cats and dogs.",
+    "imageAlt": "Pothos vines with heart-shaped, yellow-streaked leaves climbing a tree trunk outdoors",
+    "caption": "Photo: <a href=\"https://www.inaturalist.org/observations/333665480\"><em>Epipremnum aureum</em></a> by Jenny Saito, via iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Resized.",
+    "atAGlance": {
+      "light": "Bright indirect light; tolerates lower light but may lose variegation",
+      "watering": "Water when the upper part of the mix has dried; the pot feels lighter",
+      "humidity": "Average room air; a humidifier or pebble tray helps in very dry rooms",
+      "temperature": "Warm room temperatures; a tropical climber that is not frost-hardy",
+      "petSafety": "Listed as toxic to cats and dogs by the ASPCA",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Easy"
+    }
+  },
+  "es": {
+    "description": "Cuidados del potos: luz indirecta brillante, comprobar el sustrato antes de regar, esquejes de tallo y qué dice la ASPCA sobre perros y gatos.",
+    "imageAlt": "Tallos de potos con hojas acorazonadas y vetas amarillas trepando por un tronco al aire libre",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/333665480\"><em>Epipremnum aureum</em></a> de Jenny Saito, vía iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Redimensionada.",
+    "atAGlance": {
+      "light": "Luz indirecta brillante; tolera menos luz, pero puede perder el jaspeado",
+      "watering": "Riega cuando la parte superior del sustrato se ha secado y la maceta pesa menos",
+      "humidity": "Humedad ambiente normal; en habitaciones muy secas ayuda un humidificador o una bandeja con guijarros",
+      "temperature": "Temperatura cálida de interior; trepadora tropical que no resiste heladas",
+      "petSafety": "La ASPCA lo incluye como tóxico para gatos y perros",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Fácil"
+    }
+  },
+  "de": {
+    "description": "Efeutute pflegen: helles indirektes Licht, vor jedem Gießen prüfen, Stecklinge bewurzeln und was die ASPCA zu Katzen und Hunden angibt.",
+    "imageAlt": "Efeutute mit herzförmigen, gelb gestreiften Blättern, die im Freien an einem Baumstamm emporrankt",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/333665480\"><em>Epipremnum aureum</em></a> von Jenny Saito, über iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Verkleinert.",
+    "atAGlance": {
+      "light": "Hell, ohne direkte Sonne; verträgt weniger Licht, verliert dann aber oft die Musterung",
+      "watering": "Gießen, wenn der obere Teil des Substrats abgetrocknet ist und der Topf leichter wirkt",
+      "humidity": "Normale Raumluft; in sehr trockenen Räumen helfen Luftbefeuchter oder Kiesschale",
+      "temperature": "Warme Zimmertemperatur; tropische Kletterpflanze, nicht frosthart",
+      "petSafety": "Von der ASPCA als giftig für Katzen und Hunde geführt",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Leicht"
+    }
+  },
+  "pt": {
+    "description": "Cuidados com a jiboia: luz indireta clara, conferir o substrato antes de regar, mudas por estaca e o que a ASPCA informa sobre cães e gatos.",
+    "imageAlt": "Ramos de jiboia com folhas em forma de coração e listras amarelas subindo por um tronco ao ar livre",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/333665480\"><em>Epipremnum aureum</em></a> de Jenny Saito, via iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Redimensionada.",
+    "atAGlance": {
+      "light": "Luz indireta clara; tolera menos luz, mas pode perder o variegado",
+      "watering": "Regue quando a parte de cima do substrato secar e o vaso estiver mais leve",
+      "humidity": "Umidade normal da casa; em cômodos muito secos, umidificador ou bandeja com pedrinhas ajuda",
+      "temperature": "Temperatura amena a quente; trepadeira tropical, não tolera geada",
+      "petSafety": "A ASPCA lista como tóxica para gatos e cães",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Fácil"
+    }
+  },
+  "fr": {
+    "description": "Entretien du pothos : lumière vive indirecte, vérification avant chaque arrosage, boutures de tige et ce que l’ASPCA indique pour chats et chiens.",
+    "imageAlt": "Tiges de pothos aux feuilles en cœur striées de jaune grimpant le long d’un tronc en extérieur",
+    "caption": "Photo : <a href=\"https://www.inaturalist.org/observations/333665480\"><em>Epipremnum aureum</em></a> de Jenny Saito, via iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Redimensionnée.",
+    "atAGlance": {
+      "light": "Lumière vive indirecte ; tolère moins de lumière mais peut perdre sa panachure",
+      "watering": "Arroser quand le haut du substrat a séché et que le pot paraît plus léger",
+      "humidity": "Air ambiant normal ; humidificateur ou plateau de billes dans une pièce très sèche",
+      "temperature": "Pièce tempérée à chaude ; liane tropicale qui ne supporte pas le gel",
+      "petSafety": "Classé toxique pour les chats et les chiens par l’ASPCA",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Facile"
+    }
+  }
+}

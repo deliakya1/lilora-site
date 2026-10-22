@@ -52,5 +52,29 @@
   },
   "image": "/assets/editorial/lilora-collection-en.webp",
   "imageWidth": 553,
-  "imageHeight": 1200
+  "imageHeight": 1200,
+  "es": {
+    "description": "Compara Lilora y Planta en recordatorios, registros compartidos, identificación y precios, con fuentes oficiales e información honesta sobre el lanzamiento.",
+    "image": "/assets/editorial/lilora-collection-en.webp",
+    "imageAlt": "Imagen de tienda de Lilora con una pantalla real de colección y registros de ejemplo (app en inglés)",
+    "caption": "Imagen de tienda de Lilora con una pantalla real de la app y registros de ejemplo. La app está en inglés y turco. No es una captura de la app de la competencia."
+  },
+  "de": {
+    "description": "Lilora und Planta im Vergleich: Erinnerungen, gemeinsame Einträge, Bestimmung und Preise, mit offiziellen Quellen und ehrlichen Angaben zum Startstatus.",
+    "image": "/assets/editorial/lilora-collection-en.webp",
+    "imageAlt": "Lilora-Store-Grafik mit einem echten Sammlungsbildschirm und Beispieleinträgen (App auf Englisch)",
+    "caption": "Lilora-Store-Grafik mit einem echten App-Bildschirm und Beispieleinträgen. Die App ist auf Englisch und Türkisch verfügbar. Kein Screenshot der Konkurrenz-App."
+  },
+  "pt": {
+    "description": "Compare Lilora e Planta em lembretes, registros compartilhados, identificação e preços, com fontes oficiais e informação honesta sobre o lançamento.",
+    "image": "/assets/editorial/lilora-collection-en.webp",
+    "imageAlt": "Arte de loja do Lilora com uma tela real de coleção e registros de exemplo (app em inglês)",
+    "caption": "Arte de loja do Lilora com uma tela real do app e registros de exemplo. O app está em inglês e turco. Não é captura de tela do app concorrente."
+  },
+  "fr": {
+    "description": "Comparez Lilora et Planta pour les rappels, l’historique partagé, l’identification et les prix, avec des sources officielles et un statut de lancement honnête.",
+    "image": "/assets/editorial/lilora-collection-en.webp",
+    "imageAlt": "Visuel Lilora pour l’App Store avec un vrai écran de collection et des fiches d’exemple (app en anglais)",
+    "caption": "Visuel Lilora pour l’App Store avec un vrai écran de l’app et des fiches d’exemple. L’app est disponible en anglais et en turc. Ce n’est pas une capture de l’app concurrente."
+  }
 }

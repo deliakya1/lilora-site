@@ -1,0 +1,115 @@
+{
+  "slug": "aloe-vera",
+  "botanicalName": "Aloe vera",
+  "family": "Asphodelaceae",
+  "published": "2026-10-22",
+  "reviewed": "2026-10-22",
+  "tags": [
+    "beginner"
+  ],
+  "image": "/assets/images/plants/aloe-vera-v1.webp",
+  "imageWidth": 540,
+  "imageHeight": 720,
+  "sources": [
+    {
+      "name": "NC State Extension Gardener Plant Toolbox: Aloe vera",
+      "url": "https://plants.ces.ncsu.edu/plants/aloe-vera/"
+    },
+    {
+      "name": "Royal Botanic Gardens, Kew, Plants of the World Online: Aloe vera",
+      "url": "https://powo.science.kew.org/taxon/530017-1"
+    },
+    {
+      "name": "RHS: indoor plants resource (aloes and peace lily)",
+      "url": "https://www.rhs.org.uk/getmedia/d02059a1-4e2c-45c3-956b-da5cc90db7f1/Indoor-plants-resources.pdf"
+    },
+    {
+      "name": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/"
+    }
+  ],
+  "tr": {
+    "description": "Aloe vera (sarısabır) bakımı: güneşli pencere, süzek harç, sulamalar arasında tam kuruma ve ASPCA'nın evcil hayvanlar için toksik kaydı.",
+    "imageAlt": "Duvar önünde, dişli gri-yeşil aloe rozetleri ve uzun sarı çiçek başakları",
+    "caption": "Fotoğraf: <a href=\"https://www.inaturalist.org/observations/264795601\"><em>Aloe vera</em></a>, nebrooks, iNaturalist üzerinden, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Yeniden boyutlandırıldı.",
+    "atAGlance": {
+      "light": "Tam güneş ile yarı gölge; güneşli pencere önü",
+      "watering": "Yalnızca harç tamamen kuruduğunda sula; kışın neredeyse hiç",
+      "humidity": "Nemli havayı sevmez",
+      "temperature": "Ilık ve aydınlık oda; dona dayanamaz",
+      "petSafety": "ASPCA kedi ve köpekler için toksik olarak listeler",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Güneşli yerde kolay"
+    }
+  },
+  "en": {
+    "description": "Aloe vera care: a sunny window, gritty mix, a full dry-down between waterings and why the ASPCA lists it as toxic to pets.",
+    "imageAlt": "Clumps of grey-green aloe rosettes with toothed leaves and tall yellow flower spikes against a wall",
+    "caption": "Photo: <a href=\"https://www.inaturalist.org/observations/264795601\"><em>Aloe vera</em></a> by nebrooks, via iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Resized.",
+    "atAGlance": {
+      "light": "Full sun to partial shade; a sunny windowsill",
+      "watering": "Water only when the mix is completely dry; hardly at all in winter",
+      "humidity": "Dislikes humid air",
+      "temperature": "Warm, bright room; it cannot cope with frost",
+      "petSafety": "Listed as toxic to cats and dogs by the ASPCA",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Easy in a sunny spot"
+    }
+  },
+  "es": {
+    "description": "Cuidados del aloe vera: ventana soleada, sustrato arenoso, secado total entre riegos y por qué la ASPCA lo incluye como tóxico para mascotas.",
+    "imageAlt": "Rosetas de aloe gris verdosas con hojas dentadas y altas espigas de flores amarillas junto a un muro",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/264795601\"><em>Aloe vera</em></a> de nebrooks, vía iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Redimensionada.",
+    "atAGlance": {
+      "light": "Sol pleno a semisombra; un alféizar soleado",
+      "watering": "Riega solo con el sustrato totalmente seco; en invierno, casi nada",
+      "humidity": "No le gusta el aire húmedo",
+      "temperature": "Habitación cálida y luminosa; no soporta heladas",
+      "petSafety": "La ASPCA lo incluye como tóxico para gatos y perros",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Fácil en un lugar soleado"
+    }
+  },
+  "de": {
+    "description": "Aloe vera pflegen: sonniges Fenster, mineralisches Substrat, zwischen den Wassergaben ganz trocken und warum die ASPCA sie als giftig führt.",
+    "imageAlt": "Graugrüne Aloe-Rosetten mit gezähnten Blättern und hohen gelben Blütenständen vor einer Mauer",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/264795601\"><em>Aloe vera</em></a> von nebrooks, über iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Verkleinert.",
+    "atAGlance": {
+      "light": "Volle Sonne bis Halbschatten; sonnige Fensterbank",
+      "watering": "Nur gießen, wenn das Substrat ganz trocken ist; im Winter kaum",
+      "humidity": "Mag keine feuchte Luft",
+      "temperature": "Warmer, heller Raum; verträgt keinen Frost",
+      "petSafety": "Von der ASPCA als giftig für Katzen und Hunde geführt",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Leicht an einem sonnigen Platz"
+    }
+  },
+  "pt": {
+    "description": "Cuidados com a babosa: janela ensolarada, substrato arenoso, secagem total entre regas e por que a ASPCA a lista como tóxica para pets.",
+    "imageAlt": "Rosetas de babosa verde-acinzentadas com folhas serrilhadas e hastes altas de flores amarelas junto a um muro",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/264795601\"><em>Aloe vera</em></a> de nebrooks, via iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Redimensionada.",
+    "atAGlance": {
+      "light": "Sol pleno a meia-sombra; um peitoril ensolarado",
+      "watering": "Regue só com o substrato totalmente seco; quase nada no inverno",
+      "humidity": "Não gosta de ar úmido",
+      "temperature": "Ambiente quente e claro; não tolera geada",
+      "petSafety": "A ASPCA lista como tóxica para gatos e cães",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Fácil em local ensolarado"
+    }
+  },
+  "fr": {
+    "description": "Entretien de l’aloe vera : fenêtre ensoleillée, substrat drainant, séchage complet entre deux arrosages et pourquoi l’ASPCA le classe toxique.",
+    "imageAlt": "Rosettes d’aloe gris-vert aux feuilles dentées et hautes hampes de fleurs jaunes devant un mur",
+    "caption": "Photo : <a href=\"https://www.inaturalist.org/observations/264795601\"><em>Aloe vera</em></a> de nebrooks, via iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Redimensionnée.",
+    "atAGlance": {
+      "light": "Plein soleil à mi-ombre ; un rebord de fenêtre ensoleillé",
+      "watering": "Arroser seulement quand le substrat est complètement sec ; presque pas en hiver",
+      "humidity": "N’aime pas l’air humide",
+      "temperature": "Pièce chaude et lumineuse ; ne supporte pas le gel",
+      "petSafety": "Classé toxique pour les chats et les chiens par l’ASPCA",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Facile au soleil"
+    }
+  }
+}

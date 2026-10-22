@@ -31,5 +31,17 @@
   },
   "tr": {
     "description": "Doğrudan güneşi, parlak dolaylı ışığı ve az ışığı ayırt et. Pencereyi gözlemle, bitkinin ihtiyacına göre yer seç."
+  },
+  "es": {
+    "description": "Aprende a distinguir sol directo, luz indirecta brillante y poca luz, y a observar un sitio a lo largo del día antes de elegir una planta de interior."
+  },
+  "de": {
+    "description": "Lerne, direkte Sonne, helles indirektes Licht und wenig Licht zu unterscheiden, und beobachte einen Platz über den Tag, bevor du eine Zimmerpflanze wählst."
+  },
+  "pt": {
+    "description": "Aprenda a diferenciar sol direto, luz indireta clara e pouca luz, e a observar um lugar ao longo do dia antes de escolher uma planta de interior."
+  },
+  "fr": {
+    "description": "Apprenez à distinguer soleil direct, lumière vive indirecte et faible luminosité, et observez un emplacement au fil de la journée avant de choisir une plante."
   }
 }

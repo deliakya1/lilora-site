@@ -1,0 +1,112 @@
+{
+  "slug": "dracaena-trifasciata",
+  "botanicalName": "Dracaena trifasciata",
+  "family": "Asparagaceae",
+  "published": "2026-10-22",
+  "reviewed": "2026-10-22",
+  "tags": [
+    "lowLight",
+    "beginner"
+  ],
+  "image": "/assets/images/plants/dracaena-trifasciata-v1.webp",
+  "imageWidth": 480,
+  "imageHeight": 720,
+  "sources": [
+    {
+      "name": "NC State Extension Gardener Plant Toolbox: Dracaena trifasciata",
+      "url": "https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/"
+    },
+    {
+      "name": "Royal Botanic Gardens, Kew, Plants of the World Online: Dracaena trifasciata",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77164235-1"
+    },
+    {
+      "name": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/"
+    }
+  ],
+  "tr": {
+    "description": "Paşa kılıcı bakımı: az ışığa dayanır, sulamalar arasında harcın tamamen kuruması gerekir; ASPCA kedi ve köpekler için toksik listeler.",
+    "imageAlt": "Toprakta dik büyüyen, sarı kenarlı ve gri-yeşil bantlı kılıç biçimli paşa kılıcı yaprakları",
+    "caption": "Fotoğraf: <a href=\"https://www.inaturalist.org/observations/297571150\"><em>Dracaena trifasciata</em></a>, Bruno - Yolande Zanette, iNaturalist üzerinden, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Yeniden boyutlandırıldı.",
+    "atAGlance": {
+      "light": "Çok az ışığa dayanır; biraz daha aydınlıkta daha iyi büyür",
+      "watering": "Sulamalar arasında harç kurusun; kışın çok seyrek sula",
+      "humidity": "Kuru ev havasına dayanır",
+      "temperature": "Oda sıcaklığı; 10 °C civarındaki serinliğe dayanır",
+      "petSafety": "ASPCA kedi ve köpekler için toksik olarak listeler",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Kolay"
+    }
+  },
+  "en": {
+    "description": "Snake plant care: tolerates low light, needs a full dry-down between waterings, and is listed as toxic to cats and dogs by the ASPCA.",
+    "imageAlt": "Upright, sword-shaped snake plant leaves with yellow edges and grey-green bands, growing in soil outdoors",
+    "caption": "Photo: <a href=\"https://www.inaturalist.org/observations/297571150\"><em>Dracaena trifasciata</em></a> by Bruno - Yolande Zanette, via iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Resized.",
+    "atAGlance": {
+      "light": "Tolerates very low light; grows better with some brighter light",
+      "watering": "Let the mix dry out between waterings; water rarely in winter",
+      "humidity": "Tolerates dry indoor air",
+      "temperature": "Room temperature; tolerates cool spells around 10 °C (50 °F)",
+      "petSafety": "Listed as toxic to cats and dogs by the ASPCA",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Easy"
+    }
+  },
+  "es": {
+    "description": "Cuidados de la lengua de suegra: tolera poca luz, necesita que el sustrato se seque del todo entre riegos y la ASPCA la incluye como tóxica.",
+    "imageAlt": "Hojas erguidas en forma de espada, con bordes amarillos y bandas gris verdosas, creciendo en el suelo al aire libre",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/297571150\"><em>Dracaena trifasciata</em></a> de Bruno - Yolande Zanette, vía iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Redimensionada.",
+    "atAGlance": {
+      "light": "Tolera muy poca luz; crece mejor con algo más de claridad",
+      "watering": "Deja que el sustrato se seque entre riegos; en invierno, riega muy poco",
+      "humidity": "Tolera el aire seco de interior",
+      "temperature": "Temperatura ambiente; soporta periodos frescos de unos 10 °C",
+      "petSafety": "La ASPCA la incluye como tóxica para gatos y perros",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Fácil"
+    }
+  },
+  "de": {
+    "description": "Bogenhanf pflegen: kommt mit wenig Licht aus, braucht zwischen den Wassergaben trockenes Substrat und gilt laut ASPCA als giftig für Haustiere.",
+    "imageAlt": "Aufrechte, schwertförmige Bogenhanfblätter mit gelbem Rand und graugrünen Bändern im Boden im Freien",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/297571150\"><em>Dracaena trifasciata</em></a> von Bruno - Yolande Zanette, über iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Verkleinert.",
+    "atAGlance": {
+      "light": "Verträgt sehr wenig Licht; wächst heller besser",
+      "watering": "Substrat zwischen den Wassergaben austrocknen lassen; im Winter sehr selten gießen",
+      "humidity": "Verträgt trockene Heizungsluft",
+      "temperature": "Zimmertemperatur; verträgt kühle Phasen um 10 °C",
+      "petSafety": "Von der ASPCA als giftig für Katzen und Hunde geführt",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Leicht"
+    }
+  },
+  "pt": {
+    "description": "Cuidados com a espada-de-são-jorge: tolera pouca luz, precisa secar o substrato entre regas e a ASPCA a lista como tóxica para pets.",
+    "imageAlt": "Folhas eretas em forma de espada, com bordas amarelas e faixas verde-acinzentadas, crescendo no chão ao ar livre",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/297571150\"><em>Dracaena trifasciata</em></a> de Bruno - Yolande Zanette, via iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Redimensionada.",
+    "atAGlance": {
+      "light": "Tolera muito pouca luz; cresce melhor com mais claridade",
+      "watering": "Deixe o substrato secar entre as regas; no inverno, regue bem pouco",
+      "humidity": "Tolera o ar seco de dentro de casa",
+      "temperature": "Temperatura ambiente; aguenta períodos frescos por volta de 10 °C",
+      "petSafety": "A ASPCA lista como tóxica para gatos e cães",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Fácil"
+    }
+  },
+  "fr": {
+    "description": "Entretien de la sansevière : tolère peu de lumière, demande un substrat bien sec entre deux arrosages et l’ASPCA la classe toxique.",
+    "imageAlt": "Feuilles dressées en forme d’épée, bordées de jaune et barrées de gris-vert, poussant en pleine terre",
+    "caption": "Photo : <a href=\"https://www.inaturalist.org/observations/297571150\"><em>Dracaena trifasciata</em></a> de Bruno - Yolande Zanette, via iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Redimensionnée.",
+    "atAGlance": {
+      "light": "Tolère très peu de lumière ; pousse mieux avec un peu plus de clarté",
+      "watering": "Laisser sécher le substrat entre deux arrosages ; très peu en hiver",
+      "humidity": "Supporte l’air sec des intérieurs",
+      "temperature": "Température ambiante ; supporte des périodes fraîches vers 10 °C",
+      "petSafety": "Classée toxique pour les chats et les chiens par l’ASPCA",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Facile"
+    }
+  }
+}

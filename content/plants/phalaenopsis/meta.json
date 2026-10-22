@@ -1,0 +1,115 @@
+{
+  "slug": "phalaenopsis",
+  "botanicalName": "Phalaenopsis",
+  "family": "Orchidaceae",
+  "published": "2026-10-22",
+  "reviewed": "2026-10-22",
+  "tags": [
+    "petNonToxic"
+  ],
+  "image": "/assets/images/plants/phalaenopsis-v1.webp",
+  "imageWidth": 720,
+  "imageHeight": 480,
+  "sources": [
+    {
+      "name": "NC State Extension Gardener Plant Toolbox: Phalaenopsis",
+      "url": "https://plants.ces.ncsu.edu/plants/phalaenopsis/"
+    },
+    {
+      "name": "Royal Botanic Gardens, Kew, Plants of the World Online: Phalaenopsis",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30326-1"
+    },
+    {
+      "name": "RHS: how to grow Phalaenopsis (moth orchids)",
+      "url": "https://www.rhs.org.uk/plants/phalaenopsis/growing-guide"
+    },
+    {
+      "name": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/"
+    }
+  ],
+  "tr": {
+    "description": "Orkide (Phalaenopsis) bakımı: parlak dolaylı ışık, kabuk harcı, ıslat-süzdür sulama, yeniden çiçek için ipuçları ve ASPCA kaydı.",
+    "imageAlt": "Dışarıda bir ağaçta fotoğraflanmış, sarı işaretli dudaklı beyaz kelebek orkide çiçekleri",
+    "caption": "Fotoğraf: <a href=\"https://www.inaturalist.org/observations/208118863\"><em>Phalaenopsis amabilis</em></a>, Tom Heijnen, iNaturalist üzerinden, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Yeniden boyutlandırıldı.",
+    "atAGlance": {
+      "light": "Parlak dolaylı ışık; yaz güneşi doğrudan vurmasın",
+      "watering": "Kabuk kurumaya başlayınca sula; tamamen süzdür, asla suda bekletme",
+      "humidity": "Yüksek nem",
+      "temperature": "Gündüz 19–30 °C, gece 16–19 °C",
+      "petSafety": "ASPCA kedi ve köpekler için toksik değil olarak listeler",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Orta"
+    }
+  },
+  "en": {
+    "description": "Moth orchid care: bright indirect light, bark mix, soak-and-drain watering, rebloom cues and its ASPCA non-toxic listing.",
+    "imageAlt": "White moth orchid flowers with yellow-marked lips, photographed in a tree outdoors",
+    "caption": "Photo: <a href=\"https://www.inaturalist.org/observations/208118863\"><em>Phalaenopsis amabilis</em></a> by Tom Heijnen, via iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Resized.",
+    "atAGlance": {
+      "light": "Bright indirect light; keep out of direct summer sun",
+      "watering": "Water when the bark is starting to dry; drain fully and never leave it standing in water",
+      "humidity": "High humidity",
+      "temperature": "19–30 °C (66–86 °F) by day, 16–19 °C (61–66 °F) at night",
+      "petSafety": "Listed as non-toxic to cats and dogs by the ASPCA",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Moderate"
+    }
+  },
+  "es": {
+    "description": "Cuidados de la orquídea mariposa: luz indirecta brillante, corteza, riego por inmersión y drenaje, pistas para refloración y estado según la ASPCA.",
+    "imageAlt": "Flores blancas de orquídea mariposa con labelo marcado de amarillo, fotografiadas en un árbol al aire libre",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/208118863\"><em>Phalaenopsis amabilis</em></a> de Tom Heijnen, vía iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Redimensionada.",
+    "atAGlance": {
+      "light": "Luz indirecta brillante; sin sol directo en verano",
+      "watering": "Riega cuando la corteza empiece a secarse; escurre bien y nunca la dejes en agua",
+      "humidity": "Humedad alta",
+      "temperature": "19–30 °C de día y 16–19 °C de noche",
+      "petSafety": "La ASPCA la incluye como no tóxica para gatos y perros",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Media"
+    }
+  },
+  "de": {
+    "description": "Schmetterlingsorchidee pflegen: helles indirektes Licht, Rindensubstrat, tauchen und abtropfen lassen, neue Blütenrispen und ASPCA-Einstufung.",
+    "imageAlt": "Weiße Schmetterlingsorchideen mit gelb gezeichneter Lippe, im Freien an einem Baum fotografiert",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/208118863\"><em>Phalaenopsis amabilis</em></a> von Tom Heijnen, über iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Verkleinert.",
+    "atAGlance": {
+      "light": "Hell und indirekt; im Sommer keine direkte Sonne",
+      "watering": "Gießen, wenn die Rinde abzutrocknen beginnt; gut abtropfen lassen, nie im Wasser stehen lassen",
+      "humidity": "Hohe Luftfeuchtigkeit",
+      "temperature": "Tagsüber 19–30 °C, nachts 16–19 °C",
+      "petSafety": "Von der ASPCA als ungiftig für Katzen und Hunde geführt",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Mittel"
+    }
+  },
+  "pt": {
+    "description": "Cuidados com a orquídea-borboleta: luz indireta clara, casca de pinus, rega com drenagem total, dicas para refloração e a classificação da ASPCA.",
+    "imageAlt": "Flores brancas de orquídea-borboleta com labelo marcado de amarelo, fotografadas em uma árvore ao ar livre",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/208118863\"><em>Phalaenopsis amabilis</em></a> de Tom Heijnen, via iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Redimensionada.",
+    "atAGlance": {
+      "light": "Luz indireta clara; sem sol direto no verão",
+      "watering": "Regue quando a casca começar a secar; escorra bem e nunca deixe na água",
+      "humidity": "Umidade alta",
+      "temperature": "19–30 °C de dia e 16–19 °C à noite",
+      "petSafety": "A ASPCA lista como não tóxica para gatos e cães",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Médio"
+    }
+  },
+  "fr": {
+    "description": "Entretien de l’orchidée papillon : lumière vive indirecte, écorce, trempage puis égouttage, conseils de refloraison et classement ASPCA.",
+    "imageAlt": "Fleurs blanches d’orchidée papillon au labelle marqué de jaune, photographiées dans un arbre en extérieur",
+    "caption": "Photo : <a href=\"https://www.inaturalist.org/observations/208118863\"><em>Phalaenopsis amabilis</em></a> de Tom Heijnen, via iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Redimensionnée.",
+    "atAGlance": {
+      "light": "Lumière vive indirecte ; pas de soleil direct en été",
+      "watering": "Arroser quand l’écorce commence à sécher ; bien égoutter, jamais d’eau stagnante",
+      "humidity": "Humidité élevée",
+      "temperature": "19–30 °C le jour, 16–19 °C la nuit",
+      "petSafety": "Classée non toxique pour les chats et les chiens par l’ASPCA",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Moyen"
+    }
+  }
+}

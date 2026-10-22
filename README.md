@@ -651,3 +651,37 @@ native/mobile build is triggered.
 Publication receipt and the prompt-04 completion marker will be added after the
 merged Pages deployment and a live-content check. The execution gateway blocked
 direct lilora.app requests during preparation; this is not a website HTTP result.
+
+## Prompt 05 — 22 October 2026: plant library and translations
+
+The plant library now has 12 profiles in all six languages (72 pages): pothos,
+monstera, snake plant, ZZ plant, peace lily, spider plant, fiddle-leaf fig, rubber
+plant, aloe vera, moth orchid, calathea and heartleaf philodendron. Each profile
+gives the accepted botanical name in italics, the family, an at-a-glance block,
+nine care sections, a short FAQ and at least three institutional sources (NC State
+Extension, Kew POWO, RHS or Missouri Botanical Garden, and the ASPCA homepage).
+Pet status is written in our own words with credit to the ASPCA Animal Poison
+Control Center and a link to www.aspca.org only; "not listed" and source
+disagreements are stated plainly. Nothing is called pet-safe.
+
+- `/plants/` hubs have no-JavaScript anchor filters (`#petNonToxic`, `#lowLight`,
+  `#beginner`) from `content/plants/filters.json` and per-plant `tags`.
+- New guide `pet-safe-houseplants` in six languages links every profile. The
+  Türkiye 114 (UZEM) line appears only in Turkish and English and is described as
+  a service for people. Other languages name no phone numbers.
+- The seven existing articles now exist in es, de, pt-BR and fr. Comparison dates
+  (16 October 2026), USD prices and the publisher disclosure are kept; app buttons
+  are named in English in quotes and nearby copy says the app is in English and
+  Turkish. No local-language sources were added in this pass.
+- Photos: one real iNaturalist photo per plant (CC BY 4.0 or CC0), credited under
+  each image and in `assets/images/plants/CREDITS.md`. No generated images.
+- Template changes (separate commit): plant image figure, botanical name on cards,
+  hub filter sections, six-language shared-care diagram. `language-check.cjs` now
+  expects the German watering guide in the language suggestion, because the
+  "missing counterpart" fallback no longer exists for articles.
+- New `scripts/plants.test.mjs`: profile completeness, ASPCA line and link, photo
+  credit and alt text, no English bodies under other languages, filters and guide
+  links, and 114 wording.
+
+Validation: `npm run check` 17/17 tests passed; all nine `scripts/*.cjs` suites
+passed, including 792 responsive checks across 198 pages and 41 language scenarios.

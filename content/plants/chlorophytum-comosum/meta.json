@@ -1,0 +1,112 @@
+{
+  "slug": "chlorophytum-comosum",
+  "botanicalName": "Chlorophytum comosum",
+  "family": "Asparagaceae",
+  "published": "2026-10-22",
+  "reviewed": "2026-10-22",
+  "tags": [
+    "petNonToxic",
+    "beginner"
+  ],
+  "image": "/assets/images/plants/chlorophytum-comosum-v1.webp",
+  "imageWidth": 540,
+  "imageHeight": 720,
+  "sources": [
+    {
+      "name": "NC State Extension Gardener Plant Toolbox: Chlorophytum comosum",
+      "url": "https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/"
+    },
+    {
+      "name": "Royal Botanic Gardens, Kew, Plants of the World Online: Chlorophytum comosum",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:532810-1"
+    },
+    {
+      "name": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/"
+    }
+  ],
+  "tr": {
+    "description": "Kurdele çiçeği bakımı: orta ışık, nemli ama süzülen harç, kolay yavrular ve ASPCA'nın kedi-köpek için toksik değil kaydı.",
+    "imageAlt": "Taşların arasında büyüyen, krem kenarlı kavisli yapraklarıyla alacalı kurdele çiçeği",
+    "caption": "Fotoğraf: <a href=\"https://www.inaturalist.org/observations/319516448\"><em>Chlorophytum comosum</em></a>, Jenny Christianson, iNaturalist üzerinden, <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\">CC0 1.0</a>. Yeniden boyutlandırıldı.",
+    "atAGlance": {
+      "light": "Orta ışık; gölgeye dayanır; doğrudan güneşten koru",
+      "watering": "Büyüme döneminde hafif nemli tut; yüzey kurusun; kışın daha az sula",
+      "humidity": "Orta nem",
+      "temperature": "7 °C'nin üstünde tut",
+      "petSafety": "ASPCA kedi ve köpekler için toksik değil olarak listeler",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Kolay"
+    }
+  },
+  "en": {
+    "description": "Spider plant care: medium light, moist but drained mix, easy plantlets, and its listing as non-toxic to cats and dogs by the ASPCA.",
+    "imageAlt": "Variegated spider plant with arching green leaves edged in cream, growing between rocks",
+    "caption": "Photo: <a href=\"https://www.inaturalist.org/observations/319516448\"><em>Chlorophytum comosum</em></a> by Jenny Christianson, via iNaturalist, <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\">CC0 1.0</a>. Resized.",
+    "atAGlance": {
+      "light": "Medium light; tolerates shade; avoid direct sun",
+      "watering": "Keep lightly moist in growth; let the surface dry; water less in winter",
+      "humidity": "Medium humidity",
+      "temperature": "Keep above 7 °C (45 °F)",
+      "petSafety": "Listed as non-toxic to cats and dogs by the ASPCA",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Easy"
+    }
+  },
+  "es": {
+    "description": "Cuidados de la cinta: luz media, sustrato húmedo pero bien drenado, hijuelos fáciles y la clasificación de la ASPCA como no tóxica para gatos y perros.",
+    "imageAlt": "Cinta variegada con hojas arqueadas verdes de borde crema, creciendo entre rocas",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/319516448\"><em>Chlorophytum comosum</em></a> de Jenny Christianson, vía iNaturalist, <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\">CC0 1.0</a>. Redimensionada.",
+    "atAGlance": {
+      "light": "Luz media; tolera la sombra; evita el sol directo",
+      "watering": "Ligeramente húmeda en crecimiento; deja secar la superficie; menos agua en invierno",
+      "humidity": "Humedad media",
+      "temperature": "Mantenla por encima de 7 °C",
+      "petSafety": "La ASPCA la incluye como no tóxica para gatos y perros",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Fácil"
+    }
+  },
+  "de": {
+    "description": "Grünlilie pflegen: mittleres Licht, feucht und gut durchlässig, einfache Kindel und laut ASPCA ungiftig für Katzen und Hunde.",
+    "imageAlt": "Panaschierte Grünlilie mit überhängenden, cremeweiß gerandeten Blättern zwischen Steinen",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/319516448\"><em>Chlorophytum comosum</em></a> von Jenny Christianson, über iNaturalist, <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\">CC0 1.0</a>. Verkleinert.",
+    "atAGlance": {
+      "light": "Mittleres Licht; verträgt Schatten; keine direkte Sonne",
+      "watering": "Im Wachstum leicht feucht; Oberfläche abtrocknen lassen; im Winter weniger",
+      "humidity": "Mittlere Luftfeuchtigkeit",
+      "temperature": "Über 7 °C halten",
+      "petSafety": "Von der ASPCA als ungiftig für Katzen und Hunde geführt",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Leicht"
+    }
+  },
+  "pt": {
+    "description": "Cuidados com o clorofito: luz média, substrato úmido e drenado, mudinhas fáceis e a classificação da ASPCA como não tóxico para cães e gatos.",
+    "imageAlt": "Clorofito variegado com folhas arqueadas verdes de borda creme, crescendo entre pedras",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/319516448\"><em>Chlorophytum comosum</em></a> de Jenny Christianson, via iNaturalist, <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\">CC0 1.0</a>. Redimensionada.",
+    "atAGlance": {
+      "light": "Luz média; tolera sombra; evite sol direto",
+      "watering": "Levemente úmido no crescimento; deixe a superfície secar; menos água no inverno",
+      "humidity": "Umidade média",
+      "temperature": "Mantenha acima de 7 °C",
+      "petSafety": "A ASPCA lista como não tóxico para gatos e cães",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Fácil"
+    }
+  },
+  "fr": {
+    "description": "Entretien de la plante araignée : lumière moyenne, substrat frais et drainé, rejets faciles et son classement non toxique par l’ASPCA.",
+    "imageAlt": "Plante araignée panachée aux feuilles arquées vertes bordées de crème, entre des rochers",
+    "caption": "Photo : <a href=\"https://www.inaturalist.org/observations/319516448\"><em>Chlorophytum comosum</em></a> de Jenny Christianson, via iNaturalist, <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\">CC0 1.0</a>. Redimensionnée.",
+    "atAGlance": {
+      "light": "Lumière moyenne ; tolère l’ombre ; éviter le soleil direct",
+      "watering": "Légèrement frais en croissance ; laisser sécher la surface ; moins en hiver",
+      "humidity": "Humidité moyenne",
+      "temperature": "Au-dessus de 7 °C",
+      "petSafety": "Classée non toxique pour les chats et les chiens par l’ASPCA",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Facile"
+    }
+  }
+}

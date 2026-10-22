@@ -1,0 +1,111 @@
+{
+  "slug": "goeppertia",
+  "botanicalName": "Goeppertia",
+  "family": "Marantaceae",
+  "published": "2026-10-22",
+  "reviewed": "2026-10-22",
+  "tags": [
+    "petNonToxic"
+  ],
+  "image": "/assets/images/plants/goeppertia-v1.webp",
+  "imageWidth": 540,
+  "imageHeight": 720,
+  "sources": [
+    {
+      "name": "NC State Extension Gardener Plant Toolbox: Goeppertia",
+      "url": "https://plants.ces.ncsu.edu/plants/goeppertia/"
+    },
+    {
+      "name": "Royal Botanic Gardens, Kew, Plants of the World Online: Goeppertia",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30215678-2"
+    },
+    {
+      "name": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/"
+    }
+  ],
+  "tr": {
+    "description": "Kalatya (Calathea, Goeppertia) bakımı: az–orta dolaylı ışık, düzenli nem, yumuşak su, yüksek nem ve ASPCA'nın toksik değil kaydı.",
+    "imageAlt": "Orman zemininde büyüyen, koyu ve açık yeşil şeritli kalatya yaprakları",
+    "caption": "Fotoğraf: <a href=\"https://www.inaturalist.org/observations/228534999\"><em>Goeppertia zebrina</em></a>, Cricket Raspet, iNaturalist üzerinden, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Yeniden boyutlandırıldı.",
+    "atAGlance": {
+      "light": "Dolaylı, orta ile az ışık; doğrudan güneş yaprağı yakar",
+      "watering": "Harcı hafif nemli tut, asla çamurlaştırma; yüzeyi sık kontrol et",
+      "humidity": "Yüksek; çakıllı tepsi veya nemli oda yardımcı olur",
+      "temperature": "Yaklaşık 18–24 °C; cereyandan ve ani değişimlerden koru",
+      "petSafety": "ASPCA kedi ve köpekler için toksik değil olarak listeler (Calathea)",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Zor"
+    }
+  },
+  "en": {
+    "description": "Calathea (Goeppertia) care: low to medium indirect light, steady moisture, soft water, humidity and the ASPCA non-toxic listing.",
+    "imageAlt": "Calathea leaves striped with dark and light green bands, growing on the forest floor",
+    "caption": "Photo: <a href=\"https://www.inaturalist.org/observations/228534999\"><em>Goeppertia zebrina</em></a> by Cricket Raspet, via iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Resized.",
+    "atAGlance": {
+      "light": "Indirect, medium to low light; direct sun scorches leaves",
+      "watering": "Keep the mix lightly moist, never soggy; check the surface often",
+      "humidity": "High; a pebble tray or humid room helps",
+      "temperature": "About 18–24 °C (65–75 °F); avoid draughts and sudden changes",
+      "petSafety": "Listed as non-toxic to cats and dogs by the ASPCA (Calathea)",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Challenging"
+    }
+  },
+  "es": {
+    "description": "Cuidados de la calathea (Goeppertia): luz indirecta media o baja, humedad constante, agua blanda, ambiente húmedo y estado según la ASPCA.",
+    "imageAlt": "Hojas de calathea con franjas verde oscuro y verde claro, creciendo en el suelo del bosque",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/228534999\"><em>Goeppertia zebrina</em></a> de Cricket Raspet, vía iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Redimensionada.",
+    "atAGlance": {
+      "light": "Luz indirecta, de media a baja; el sol directo quema las hojas",
+      "watering": "Sustrato ligeramente húmedo, nunca encharcado; revisa la superficie a menudo",
+      "humidity": "Alta; ayuda una bandeja con guijarros o una habitación húmeda",
+      "temperature": "Unos 18–24 °C; evita corrientes y cambios bruscos",
+      "petSafety": "La ASPCA la incluye como no tóxica para gatos y perros (Calathea)",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Exigente"
+    }
+  },
+  "de": {
+    "description": "Korbmarante (Calathea, Goeppertia) pflegen: mittleres bis wenig indirektes Licht, gleichmäßige Feuchte, weiches Wasser und ASPCA-Einstufung.",
+    "imageAlt": "Calathea-Blätter mit dunkel- und hellgrünen Streifen auf dem Waldboden",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/228534999\"><em>Goeppertia zebrina</em></a> von Cricket Raspet, über iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Verkleinert.",
+    "atAGlance": {
+      "light": "Indirekt, mittel bis wenig Licht; direkte Sonne verbrennt die Blätter",
+      "watering": "Substrat leicht feucht halten, nie nass; Oberfläche oft prüfen",
+      "humidity": "Hoch; Kiesschale oder feuchter Raum hilft",
+      "temperature": "Etwa 18–24 °C; Zugluft und plötzliche Wechsel vermeiden",
+      "petSafety": "Von der ASPCA als ungiftig für Katzen und Hunde geführt (Calathea)",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Anspruchsvoll"
+    }
+  },
+  "pt": {
+    "description": "Cuidados com a calathea (Goeppertia): luz indireta média a baixa, umidade constante, água sem cloro, ar úmido e a classificação da ASPCA.",
+    "imageAlt": "Folhas de calathea com faixas verde-escuras e verde-claras, crescendo no chão da mata",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/228534999\"><em>Goeppertia zebrina</em></a> de Cricket Raspet, via iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Redimensionada.",
+    "atAGlance": {
+      "light": "Luz indireta, média a baixa; sol direto queima as folhas",
+      "watering": "Substrato levemente úmido, nunca encharcado; confira a superfície com frequência",
+      "humidity": "Alta; bandeja com pedrinhas ou cômodo úmido ajudam",
+      "temperature": "Cerca de 18–24 °C; evite correntes de ar e mudanças bruscas",
+      "petSafety": "A ASPCA lista como não tóxica para gatos e cães (Calathea)",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Exigente"
+    }
+  },
+  "fr": {
+    "description": "Entretien du calathea (Goeppertia) : lumière indirecte moyenne à faible, humidité régulière, eau douce, air humide et classement ASPCA.",
+    "imageAlt": "Feuilles de calathea rayées de vert foncé et de vert clair, au sol en sous-bois",
+    "caption": "Photo : <a href=\"https://www.inaturalist.org/observations/228534999\"><em>Goeppertia zebrina</em></a> de Cricket Raspet, via iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Redimensionnée.",
+    "atAGlance": {
+      "light": "Lumière indirecte, moyenne à faible ; le soleil direct brûle les feuilles",
+      "watering": "Substrat légèrement frais, jamais détrempé ; vérifier souvent la surface",
+      "humidity": "Élevée ; plateau de billes ou pièce humide",
+      "temperature": "Environ 18–24 °C ; éviter courants d’air et changements brusques",
+      "petSafety": "Classé non toxique pour les chats et les chiens par l’ASPCA (Calathea)",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Exigeant"
+    }
+  }
+}

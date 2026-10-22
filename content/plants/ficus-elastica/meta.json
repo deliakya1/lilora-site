@@ -1,0 +1,113 @@
+{
+  "slug": "ficus-elastica",
+  "botanicalName": "Ficus elastica",
+  "family": "Moraceae",
+  "published": "2026-10-22",
+  "reviewed": "2026-10-22",
+  "tags": [],
+  "image": "/assets/images/plants/ficus-elastica-v1.webp",
+  "imageWidth": 540,
+  "imageHeight": 720,
+  "sources": [
+    {
+      "name": "NC State Extension Gardener Plant Toolbox: Ficus elastica",
+      "url": "https://plants.ces.ncsu.edu/plants/ficus-elastica/"
+    },
+    {
+      "name": "Royal Botanic Gardens, Kew, Plants of the World Online: Ficus elastica",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:60458499-2"
+    },
+    {
+      "name": "RHS: how to grow ornamental figs",
+      "url": "https://www.rhs.org.uk/plants/ornamental-figs/growing-guide"
+    },
+    {
+      "name": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/"
+    }
+  ],
+  "tr": {
+    "description": "Kauçuk bitkisi bakımı: parlak dolaylı ışık, sulamadan önce hafif kuruma, süt özsuyuna dikkat, hava daldırması ve ASPCA kaydı.",
+    "imageAlt": "Kalın, koyu bordo yaprakları ve yeni yaprağı saran kırmızı kılıfıyla kauçuk bitkisi",
+    "caption": "Fotoğraf: <a href=\"https://www.inaturalist.org/observations/242572094\"><em>Ficus elastica</em></a>, Rosalinda Melendrez, iNaturalist üzerinden, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Yeniden boyutlandırıldı.",
+    "atAGlance": {
+      "light": "Parlak dolaylı ışık; alacalı formlar daha çok ışık ister",
+      "watering": "Sulamalar arasında harç biraz kurusun; kışın ancak hafif nemli tut",
+      "humidity": "Orta nem",
+      "temperature": "13 °C'nin üstünde tut; soğuk cereyan olmasın",
+      "petSafety": "ASPCA kedi ve köpekler için toksik olarak listeler (Indian rubber plant)",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Kolay–orta"
+    }
+  },
+  "en": {
+    "description": "Rubber plant care: bright indirect light, a slight dry-down before watering, sap safety, air layering and ASPCA pet status.",
+    "imageAlt": "Rubber plant with thick, dark burgundy leaves and a red sheath around a new leaf",
+    "caption": "Photo: <a href=\"https://www.inaturalist.org/observations/242572094\"><em>Ficus elastica</em></a> by Rosalinda Melendrez, via iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Resized.",
+    "atAGlance": {
+      "light": "Bright indirect light; variegated forms need more light",
+      "watering": "Let the mix dry slightly between waterings; keep it only just moist in winter",
+      "humidity": "Medium humidity",
+      "temperature": "Keep above 13 °C (55 °F); no cold draughts",
+      "petSafety": "Listed as toxic to cats and dogs by the ASPCA (Indian rubber plant)",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Easy to moderate"
+    }
+  },
+  "es": {
+    "description": "Cuidados del ficus elástica: luz indirecta brillante, secado ligero antes de regar, precaución con el látex, acodo aéreo y estado según la ASPCA.",
+    "imageAlt": "Ficus elástica de hojas gruesas color burdeos oscuro y una vaina roja alrededor de la hoja nueva",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/242572094\"><em>Ficus elastica</em></a> de Rosalinda Melendrez, vía iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Redimensionada.",
+    "atAGlance": {
+      "light": "Luz indirecta brillante; las formas variegadas necesitan más luz",
+      "watering": "Deja secar un poco el sustrato entre riegos; en invierno, apenas húmedo",
+      "humidity": "Humedad media",
+      "temperature": "Por encima de 13 °C; sin corrientes frías",
+      "petSafety": "La ASPCA lo incluye como tóxico para gatos y perros (Indian rubber plant)",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Fácil a media"
+    }
+  },
+  "de": {
+    "description": "Gummibaum pflegen: helles indirektes Licht, vor dem Gießen leicht antrocknen lassen, Vorsicht beim Milchsaft, Abmoosen und ASPCA-Einstufung.",
+    "imageAlt": "Gummibaum mit dicken, dunkel weinroten Blättern und roter Hülle um ein neues Blatt",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/242572094\"><em>Ficus elastica</em></a> von Rosalinda Melendrez, über iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Verkleinert.",
+    "atAGlance": {
+      "light": "Hell und indirekt; panaschierte Sorten brauchen mehr Licht",
+      "watering": "Leicht antrocknen lassen; im Winter nur knapp feucht halten",
+      "humidity": "Mittlere Luftfeuchtigkeit",
+      "temperature": "Über 13 °C; keine kalte Zugluft",
+      "petSafety": "Von der ASPCA als giftig für Katzen und Hunde geführt (Indian rubber plant)",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Leicht bis mittel"
+    }
+  },
+  "pt": {
+    "description": "Cuidados com a falsa-seringueira: luz indireta clara, secagem leve antes de regar, cuidado com o látex, alporquia e a classificação da ASPCA.",
+    "imageAlt": "Falsa-seringueira de folhas grossas cor vinho-escuro e uma bainha vermelha envolvendo a folha nova",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/242572094\"><em>Ficus elastica</em></a> de Rosalinda Melendrez, via iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Redimensionada.",
+    "atAGlance": {
+      "light": "Luz indireta clara; formas variegadas pedem mais luz",
+      "watering": "Deixe secar um pouco entre regas; no inverno, só levemente úmido",
+      "humidity": "Umidade média",
+      "temperature": "Acima de 13 °C; sem correntes de ar frio",
+      "petSafety": "A ASPCA lista como tóxica para gatos e cães (Indian rubber plant)",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Fácil a médio"
+    }
+  },
+  "fr": {
+    "description": "Entretien du caoutchouc : lumière vive indirecte, léger séchage avant d’arroser, prudence avec le latex, marcottage aérien et statut ASPCA.",
+    "imageAlt": "Caoutchouc aux feuilles épaisses bordeaux foncé et à la gaine rouge autour d’une nouvelle feuille",
+    "caption": "Photo : <a href=\"https://www.inaturalist.org/observations/242572094\"><em>Ficus elastica</em></a> de Rosalinda Melendrez, via iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Redimensionnée.",
+    "atAGlance": {
+      "light": "Lumière vive indirecte ; les formes panachées en demandent plus",
+      "watering": "Laisser sécher légèrement entre deux arrosages ; à peine frais en hiver",
+      "humidity": "Humidité moyenne",
+      "temperature": "Au-dessus de 13 °C ; pas de courants d’air froid",
+      "petSafety": "Classé toxique pour les chats et les chiens par l’ASPCA (Indian rubber plant)",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Facile à moyen"
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "slug": "monstera-deliciosa",
+  "botanicalName": "Monstera deliciosa",
+  "family": "Araceae",
+  "published": "2026-10-22",
+  "reviewed": "2026-10-22",
+  "tags": [],
+  "image": "/assets/images/plants/monstera-deliciosa-v1.webp",
+  "imageWidth": 720,
+  "imageHeight": 540,
+  "sources": [
+    {
+      "name": "NC State Extension Gardener Plant Toolbox: Monstera deliciosa",
+      "url": "https://plants.ces.ncsu.edu/plants/monstera-deliciosa/"
+    },
+    {
+      "name": "Royal Botanic Gardens, Kew, Plants of the World Online: Monstera deliciosa",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:87478-1"
+    },
+    {
+      "name": "ASPCA Animal Poison Control Center",
+      "url": "https://www.aspca.org/"
+    }
+  ],
+  "tr": {
+    "description": "Deve tabanı (Monstera) bakımı: sert güneş olmadan aydınlık yer, harcın üçte birini kontrol etme, destek ve ASPCA'nın evcil hayvan kaydı.",
+    "imageAlt": "Dışarıda başka bitkilerin arasında büyüyen, derin yarıklı ve delikli büyük deve tabanı yaprağı",
+    "caption": "Fotoğraf: <a href=\"https://www.inaturalist.org/observations/388706166\"><em>Monstera deliciosa</em></a>, Austen Armstrong, iNaturalist üzerinden, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Yeniden boyutlandırıldı.",
+    "atAGlance": {
+      "light": "Orta-parlak ışık; öğle güneşi doğrudan vurmasın",
+      "watering": "Harcın üstten yaklaşık dörtte biri ile üçte biri kuruyunca bol sula",
+      "humidity": "Yüksek nemi sever; kuru odada nemlendirici kullan",
+      "temperature": "Yaklaşık 16–29 °C",
+      "petSafety": "ASPCA kedi ve köpekler için toksik olarak listeler",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Kolay–orta"
+    }
+  },
+  "en": {
+    "description": "Monstera care: moderate light without hot sun, checking the top third of the mix, support for climbing stems and ASPCA pet status.",
+    "imageAlt": "Large Monstera deliciosa leaf with deep splits and holes, growing outdoors among other plants",
+    "caption": "Photo: <a href=\"https://www.inaturalist.org/observations/388706166\"><em>Monstera deliciosa</em></a> by Austen Armstrong, via iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Resized.",
+    "atAGlance": {
+      "light": "Moderate, bright light without direct midday sun",
+      "watering": "Let roughly the top quarter to third of the mix dry, then water thoroughly",
+      "humidity": "Prefers high humidity; use a humidifier in dry rooms",
+      "temperature": "About 16–29 °C (60–85 °F)",
+      "petSafety": "Listed as toxic to cats and dogs by the ASPCA",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Easy to moderate"
+    }
+  },
+  "es": {
+    "description": "Cuidados de la costilla de Adán: luz media sin sol fuerte, comprobar el tercio superior del sustrato, tutor para trepar y estado según la ASPCA.",
+    "imageAlt": "Gran hoja de Monstera deliciosa con cortes profundos y agujeros, creciendo al aire libre entre otras plantas",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/388706166\"><em>Monstera deliciosa</em></a> de Austen Armstrong, vía iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Redimensionada.",
+    "atAGlance": {
+      "light": "Luz media a brillante, sin sol directo del mediodía",
+      "watering": "Deja secar entre un cuarto y un tercio superior del sustrato y riega a fondo",
+      "humidity": "Prefiere humedad alta; usa humidificador si el aire es seco",
+      "temperature": "Entre unos 16 y 29 °C",
+      "petSafety": "La ASPCA la incluye como tóxica para gatos y perros",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Fácil a media"
+    }
+  },
+  "de": {
+    "description": "Monstera pflegen: mittelhelles Licht ohne pralle Sonne, das obere Drittel des Substrats prüfen, Stütze und Einstufung durch die ASPCA.",
+    "imageAlt": "Großes, tief geschlitztes und gelochtes Monstera-Blatt im Freien zwischen anderen Pflanzen",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/388706166\"><em>Monstera deliciosa</em></a> von Austen Armstrong, über iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Verkleinert.",
+    "atAGlance": {
+      "light": "Mittelhell bis hell, ohne direkte Mittagssonne",
+      "watering": "Oberes Viertel bis Drittel des Substrats abtrocknen lassen, dann durchdringend gießen",
+      "humidity": "Mag hohe Luftfeuchtigkeit; in trockenen Räumen Luftbefeuchter nutzen",
+      "temperature": "Etwa 16–29 °C",
+      "petSafety": "Von der ASPCA als giftig für Katzen und Hunde geführt",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Leicht bis mittel"
+    }
+  },
+  "pt": {
+    "description": "Cuidados com a costela-de-adão: luz média sem sol forte, conferir o terço de cima do substrato, tutor para escalar e a classificação da ASPCA.",
+    "imageAlt": "Folha grande de costela-de-adão com recortes fundos e furos, crescendo ao ar livre entre outras plantas",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/388706166\"><em>Monstera deliciosa</em></a> de Austen Armstrong, via iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Redimensionada.",
+    "atAGlance": {
+      "light": "Luz média a clara, sem sol direto do meio-dia",
+      "watering": "Deixe secar de um quarto a um terço do substrato e regue bem",
+      "humidity": "Prefere umidade alta; use umidificador em ambientes secos",
+      "temperature": "Cerca de 16–29 °C",
+      "petSafety": "A ASPCA lista como tóxica para gatos e cães",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Fácil a médio"
+    }
+  },
+  "fr": {
+    "description": "Entretien du monstera : lumière moyenne sans soleil brûlant, vérifier le tiers supérieur du substrat, tuteur pour grimper et statut selon l’ASPCA.",
+    "imageAlt": "Grande feuille de Monstera deliciosa profondément découpée et perforée, en extérieur parmi d’autres plantes",
+    "caption": "Photo : <a href=\"https://www.inaturalist.org/observations/388706166\"><em>Monstera deliciosa</em></a> de Austen Armstrong, via iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Redimensionnée.",
+    "atAGlance": {
+      "light": "Lumière moyenne à vive, sans soleil direct de midi",
+      "watering": "Laisser sécher environ le quart ou le tiers supérieur du substrat, puis arroser à fond",
+      "humidity": "Aime une humidité élevée ; humidificateur si l’air est sec",
+      "temperature": "Environ 16–29 °C",
+      "petSafety": "Classé toxique pour les chats et les chiens par l’ASPCA",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Facile à moyen"
+    }
+  }
+}
