@@ -144,3 +144,18 @@
  .promo-home,.promo-page{color:#1E2620}
  .promo-feature,.promo-panel{break-inside:avoid}
 }
+
+/* Hero v2 (22 October 2026): one aligned image pair, one quiet caption, one status line. */
+.promo-status{display:flex;flex-wrap:wrap;align-items:center;gap:4px 10px;margin:28px 0 0;font-size:14px}
+.promo-status-dot{margin:0}
+.promo-status-sep{color:var(--color-text-tertiary)}
+.promo-hero-media{display:block;margin:0;max-width:640px;width:100%;justify-self:end}
+.promo-hero-frames{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:14px;align-items:stretch}
+.promo-hero-frames>*{min-width:0}
+.promo-hero-scene{position:relative;overflow:hidden;border-radius:6px;background:var(--color-bg-sunken)}
+.promo-hero-scene img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:58% center}
+.promo-hero-app{border-radius:6px;overflow:hidden}
+.promo-hero-app picture,.promo-hero-app img{display:block;width:100%;height:auto}
+.promo-hero-caption{margin:12px 0 0;font-size:12px;line-height:1.55;color:var(--color-text-tertiary);max-width:560px}
+@media (max-width:1099px){.promo-hero-media{justify-self:start;max-width:560px}}
+@media (max-width:640px){.promo-hero-frames{gap:10px}.promo-status{margin-top:22px}}

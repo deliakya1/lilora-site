@@ -125,7 +125,8 @@
       "sharedTable": "Pencere yanındaki masada tek bir saksı bitkisi ve iki kupa"
     },
     "todayImageAlt": "Lilora’nın Bugün ekranında kontrol zamanı gelen bitkiler ve “Suladım” ile “Suya ihtiyacı yok” seçenekleri",
-    "introCaption": "Gerçek uygulamanın tanıtım ekranı."
+    "introCaption": "Gerçek uygulamanın tanıtım ekranı.",
+    "heroCaption": "Solda yapay zekâyla oluşturulmuş illüstrasyon; sağda gerçek uygulama ekranından hazırlanmış, örnek bitki kayıtları içeren mağaza görseli. Uygulama Türkçe gösteriliyor."
   },
   "en": {
     "eyebrow": "A houseplant notebook",
@@ -253,7 +254,8 @@
       "sharedTable": "One potted plant and two mugs on a table beside a window"
     },
     "todayImageAlt": "Lilora Today screen showing plants due for a check and the “Watered” and “No water needed” actions",
-    "introCaption": "Real app introduction screen."
+    "introCaption": "Real app introduction screen.",
+    "heroCaption": "Left: AI-generated illustration. Right: store artwork made from a real app screen with sample plant records. App shown in English."
   },
   "es": {
     "eyebrow": "Un cuaderno para tus plantas",
@@ -381,7 +383,8 @@
       "sharedTable": "Una planta en maceta y dos tazas sobre una mesa junto a una ventana"
     },
     "todayImageAlt": "Pantalla “Today” de Lilora con plantas pendientes de revisión y las opciones “Watered” y “No water needed”",
-    "introCaption": "Pantalla real de presentación de la app."
+    "introCaption": "Pantalla real de presentación de la app.",
+    "heroCaption": "Izquierda: ilustración generada con IA. Derecha: imagen para la tienda creada a partir de una pantalla real de la app, con registros de ejemplo. App mostrada en inglés."
   },
   "de": {
     "eyebrow": "Ein Notizbuch für Zimmerpflanzen",
@@ -509,7 +512,8 @@
       "sharedTable": "Eine Topfpflanze und zwei Becher auf einem Tisch am Fenster"
     },
     "todayImageAlt": "Lilora-Bildschirm „Today“ mit Pflanzen zur Kontrolle und den Aktionen „Watered“ und „No water needed“",
-    "introCaption": "Echter Einführungsbildschirm der App."
+    "introCaption": "Echter Einführungsbildschirm der App.",
+    "heroCaption": "Links: mit KI erstellte Illustration. Rechts: Store-Grafik aus einem echten App-Bildschirm mit Beispieleinträgen. Die App wird auf Englisch gezeigt."
   },
   "pt": {
     "eyebrow": "Um caderno para suas plantas",
@@ -637,7 +641,8 @@
       "sharedTable": "Uma planta em vaso e duas canecas sobre uma mesa perto da janela"
     },
     "todayImageAlt": "Tela “Today” do Lilora com plantas que precisam ser conferidas e as opções “Watered” e “No water needed”",
-    "introCaption": "Tela real de apresentação do app."
+    "introCaption": "Tela real de apresentação do app.",
+    "heroCaption": "À esquerda: ilustração gerada com IA. À direita: imagem para a loja criada a partir de uma tela real do app, com registros de exemplo. App exibido em inglês."
   },
   "fr": {
     "eyebrow": "Un carnet pour vos plantes",
@@ -765,6 +770,7 @@
       "sharedTable": "Une plante en pot et deux tasses sur une table près d’une fenêtre"
     },
     "todayImageAlt": "Écran « Today » de Lilora montrant les plantes à vérifier et les actions « Watered » et « No water needed »",
-    "introCaption": "Véritable écran de présentation de l’app."
+    "introCaption": "Véritable écran de présentation de l’app.",
+    "heroCaption": "À gauche : illustration générée par IA. À droite : visuel pour la boutique créé à partir d’un véritable écran de l’app, avec des fiches d’exemple. App présentée en anglais."
   }
 }
