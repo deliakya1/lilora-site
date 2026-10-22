@@ -162,6 +162,10 @@ the sitemap index. Deliberately not done:
   ChatGPT-User, Claude-SearchBot, Claude-User, PerplexityBot, Bingbot) and training
   bots (GPTBot, ClaudeBot, Google-Extended). Blocking training bots would not reduce
   search visibility; that is an owner decision, currently "allow".
+- GitHub Pages also serves repository sources (`/content/`, `/pages/`, `/scripts/`,
+  `/locales/`, `/editorial/*.json`, README and package files). `robots.txt` disallows
+  only those for every crawler; `scripts/seo.test.mjs` checks that sitemap URLs,
+  page assets and ownership files stay crawlable and that only 404 has `noindex`.
 
 IndexNow: the key file `/<32-hex key>.txt` at the root lets the site push changed URLs
 to Bing (which also supplies ChatGPT search and Copilot), Yandex, Naver, Seznam and
