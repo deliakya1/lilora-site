@@ -9,7 +9,8 @@ const prefix = (l) => (l === "tr" ? "/" : `/${l}/`);
 const pages = [];
 const walk = (dir) => {
   for (const name of readdirSync(dir)) {
-    if ([".git", "node_modules", "assets", "content", "pages", "scripts", "editorial", "locales", ".test-results"].includes(name)) continue;
+    // Source and generated-data folders exist only at the root; /{lang}/editorial/ pages are real routes.
+    if (dir === "." && [".git", "node_modules", "assets", "content", "pages", "scripts", "locales", ".test-results"].includes(name)) continue;
     const full = join(dir, name);
     if (statSync(full).isDirectory()) walk(full);
     else if (name === "index.html") pages.push(full.replace(/^\.\//, ""));
@@ -178,4 +179,106 @@ test("IndexNow key file holds exactly its own name", () => {
   const files = readdirSync(".").filter((n) => /^[0-9a-f]{32}\.txt$/.test(n));
   assert.equal(files.length, 1);
   assert.equal(read(files[0]), files[0].replace(/\.txt$/, ""));
+});
+
+// Minimal Google/Bing robots.txt matching: longest matching rule wins, Allow wins ties.
+const robotsRules = (txt) => {
+  const groups = [];
+  for (const line of txt.split("\n").map((l) => l.replace(/#.*/, "").trim()).filter(Boolean)) {
+    const [, key, value] = line.match(/^([^:]+):\s*(.*)$/);
+    const k = key.toLowerCase();
+    if (k === "user-agent") {
+      if (!groups.length || groups.at(-1).rules.length) groups.push({ agents: [], rules: [] });
+      groups.at(-1).agents.push(value.toLowerCase());
+    } else if (k === "allow" || k === "disallow") groups.at(-1).rules.push({ allow: k === "allow", value });
+  }
+  return groups;
+};
+const robotsAllows = (rules, path) => {
+  let best = { allow: true, length: -1 };
+  for (const r of rules) {
+    if (!r.value) continue;
+    const pattern = new RegExp("^" + r.value.replace(/[.+?^{}()|[\]\\]/g, "\\$&").replace(/\*/g, ".*").replace(/\\\$$|\$$/, "$"));
+    if (pattern.test(path) && (r.value.length > best.length || (r.value.length === best.length && r.allow)))
+      best = { allow: r.allow, length: r.value.length };
+  }
+  return best.allow;
+};
+
+test("robots.txt keeps one all-crawler group that allows public pages, assets and ownership files", () => {
+  const groups = robotsRules(read("robots.txt"));
+  // The owner-approved AI training policy is "allow": no crawler gets its own group.
+  assert.deepEqual(groups.map((g) => g.agents), [["*"]]);
+  const rules = groups[0].rules;
+  const paths = new Set();
+  for (const l of languages)
+    for (const [, url] of sitemaps[l].matchAll(/<(?:loc|image:loc)>https:\/\/lilora\.app([^<]*)<\//g)) paths.add(url);
+  for (const f of pages)
+    for (const [, url] of read(f).matchAll(/(?:href|src|srcset)="(\/[^"#? ,]*)/g)) paths.add(url);
+  for (const name of readdirSync(".").filter((n) => /^(google[0-9a-f]+\.html|[0-9a-f]{32}\.txt|BingSiteAuth\.xml|sitemap.*\.xml|feed\.xml|site\.webmanifest)$/.test(n)))
+    paths.add("/" + name);
+  for (const l of languages) paths.add(`${prefix(l)}feed.xml`);
+  paths.add("/.well-known/security.txt");
+  paths.add("/editorial/");
+  assert.ok(paths.size > 300, `only ${paths.size} paths collected`);
+  for (const p of paths) assert.ok(robotsAllows(rules, p), `robots.txt blocks ${p}`);
+});
+
+test("robots.txt excludes repository source files that GitHub Pages also serves", () => {
+  const rules = robotsRules(read("robots.txt"))[0].rules;
+  for (const p of ["/pages/compare/en.html", "/content/articles/check-before-you-water/en.md", "/scripts/build.mjs", "/locales/en.json", "/editorial/articles.json", "/README.md", "/package.json", "/package-lock.json"])
+    assert.ok(!robotsAllows(rules, p), `robots.txt allows ${p}`);
+});
+
+test("only the 404 page carries a robots directive", () => {
+  for (const f of [...pages, "404.html"]) {
+    const s = read(f);
+    const directives = [...s.matchAll(/<meta name="(?:robots|googlebot|bingbot)[^"]*" content="([^"]*)"/gi)].map((m) => m[1]);
+    if (f === "404.html") assert.deepEqual(directives, ["noindex, follow"]);
+    else assert.deepEqual(directives, [], f);
+    assert.doesNotMatch(s, /data-nosnippet/, f);
+  }
+});
+
+test("titles stay distinct after ignoring punctuation and the brand suffix, so no two pages target the same query", () => {
+  const seen = new Map();
+  for (const f of pages) {
+    const title = unescape(read(f).match(/<title>(.*?)<\/title>/)[1]);
+    const key = title.replace(/ — Lilora$/, "").toLowerCase().replace(/[^\p{L}\p{N}]+/gu, " ").trim();
+    assert.ok(!seen.has(key), `${f} and ${seen.get(key)} share the title "${title}"`);
+    seen.set(key, f);
+  }
+});
+
+test("each translation canonicalises to itself in its own language, never to another language", () => {
+  const ogLocales = { tr: "tr_TR", en: "en_GB", es: "es_ES", de: "de_DE", pt: "pt_BR", fr: "fr_FR" };
+  for (const f of pages) {
+    const s = read(f);
+    const path = pathOf(f);
+    const lang = languages.find((l) => l !== "tr" && path.startsWith(prefix(l))) || "tr";
+    const canonical = s.match(/rel="canonical" href="([^"]+)"/)[1];
+    assert.equal(s.match(/<html lang="([^"]+)"/)[1], lang === "pt" ? "pt-BR" : lang, f);
+    assert.equal(canonical, "https://lilora.app" + path, f);
+    for (const [, hreflang, href] of s.matchAll(/rel="alternate" hreflang="([^"]+)" href="([^"]+)"/g))
+      if (href === canonical && hreflang !== "x-default") assert.equal(hreflang, lang === "pt" ? "pt-BR" : lang, `${f}: self hreflang`);
+    assert.equal(s.match(/property="og:locale" content="([^"]+)"/)?.[1], ogLocales[lang], `${f}: og:locale`);
+  }
+});
+
+test("Open Graph and Twitter metadata match the page: real URL, own description and an existing share card", () => {
+  for (const f of pages) {
+    const s = read(f);
+    const meta = (key) => s.match(new RegExp(`(?:property|name)="${key}" content="([^"]*)"`))?.[1];
+    assert.equal(meta("og:url"), s.match(/rel="canonical" href="([^"]+)"/)[1], `${f}: og:url`);
+    assert.equal(meta("og:site_name"), "Lilora", f);
+    assert.equal(meta("og:description"), meta("description"), `${f}: og:description`);
+    assert.equal(meta("twitter:description"), meta("description"), `${f}: twitter:description`);
+    assert.equal(meta("twitter:title"), meta("og:title"), `${f}: twitter:title`);
+    assert.ok(meta("og:title"), `${f}: og:title`);
+    for (const key of ["og:image", "twitter:image"]) {
+      const url = new URL(meta(key));
+      assert.equal(url.origin, "https://lilora.app", `${f}: ${key} host`);
+      assert.ok(existsSync("." + url.pathname), `${f}: ${key} ${url.pathname} is missing`);
+    }
+  }
 });

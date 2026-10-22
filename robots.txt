@@ -1,3 +1,15 @@
+# Owner decision: every crawler, including AI search and AI training bots, may
+# read the public site. GitHub Pages also serves the repository's source files;
+# they duplicate published pages and are not pages, so only they are excluded.
 User-agent: *
 Allow: /
+Disallow: /content/
+Disallow: /pages/
+Disallow: /scripts/
+Disallow: /locales/
+Disallow: /editorial/*.json$
+Disallow: /README.md
+Disallow: /package.json
+Disallow: /package-lock.json
+
 Sitemap: https://lilora.app/sitemap.xml
