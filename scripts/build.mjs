@@ -27,6 +27,19 @@ import {
 } from "./layout.mjs";
 const articles = JSON.parse(readFileSync("editorial/articles.json", "utf8"));
 const plants = JSON.parse(readFileSync("editorial/plants.json", "utf8"));
+// Static, no-JS filter sections for the plant hub; labels live with the plant content.
+const plantFilters = existsSync("content/plants/filters.json")
+  ? JSON.parse(readFileSync("content/plants/filters.json", "utf8"))
+  : {};
+const plantFilterSections = (l) => {
+  const f = plantFilters[l];
+  const own = plants.filter((p) => p[l]);
+  if (!f || own.length < 3) return "";
+  const groups = Object.entries(f.chips)
+    .map(([id, label]) => [id, label, own.filter((p) => (p.tags || []).includes(id))])
+    .filter(([, , list]) => list.length);
+  return `<nav class="topic-nav plant-filters" aria-label="${escape(f.title)}">${groups.map(([id, label]) => `<a href="#${id}">${escape(label)}</a>`).join("")}</nav>${groups.map(([id, label, list]) => `<section id="${id}" class="plant-filter"><h2>${escape(label)}</h2><ul>${list.map((p) => `<li><a href="${plantPath(p, l)}">${escape(p[l].title)}</a> <em>${escape(p.botanicalName)}</em></li>`).join("")}</ul></section>`).join("")}${f.note ? `<p class="notice">${f.note}</p>` : ""}`;
+};
 const routes = [];
 const sharePages = [];
 const staticSlugs = readdirSync("pages").filter((p) =>
@@ -61,7 +74,7 @@ const render = (opts) => {
 };
 const card = (a, l, kind = "articles", heading = "h2") => {
   const c = a[l];
-  return `<article class="story-card" lang="${l === "pt" ? "pt-BR" : l}"><a href="${kind === "plants" ? plantPath(a, l) : articlePath(a, l)}">${a.image ? `<img src="${c.image || a.image}" width="${a.imageWidth || 553}" height="${a.imageHeight || 1200}" alt="${escape(c.imageAlt || "")}" loading="lazy" decoding="async">` : ""}<${heading}>${escape(c.title)}</${heading}></a><p>${escape(c.description)}</p></article>`;
+  return `<article class="story-card" lang="${l === "pt" ? "pt-BR" : l}"><a href="${kind === "plants" ? plantPath(a, l) : articlePath(a, l)}">${a.image ? `<img src="${c.image || a.image}" width="${a.imageWidth || 553}" height="${a.imageHeight || 1200}" alt="${escape(c.imageAlt || "")}" loading="lazy" decoding="async">` : ""}<${heading}>${escape(c.title)}</${heading}></a>${kind === "plants" ? `<p class="card-botanical"><em>${escape(a.botanicalName)}</em></p>` : ""}<p>${escape(c.description)}</p></article>`;
 };
 const related = (a, l) => {
   const all = articles.filter((x) => x.slug !== a.slug && x[l]),
@@ -161,7 +174,7 @@ for (const a of plants)
       title: c.title,
       description: c.description,
       alternates: counterparts(a, plantPath),
-      body: `<div class="wrap document"><header class="specimen-header"><p>${escape(a.family)}</p><h1>${escape(c.title)}</h1><p class="botanical-name"><em>${escape(a.botanicalName)}</em></p></header><section class="at-a-glance"><h2>${t.atAGlance}</h2><dl>${["light", "watering", "humidity", "temperature", "petSafety", "careLevel"].map((k) => `<div><dt>${t[k]}</dt><dd>${escape(g[k])}${k === "petSafety" && g.petSafetySource ? ` <a href="${escape(g.petSafetySource)}">${t.sources}</a>` : ""}</dd></div>`).join("")}</dl></section><article class="prose">${c.answerHtml}${c.sections.map((s) => `<section><h2>${escape(s.title)}</h2>${s.html}</section>`).join("")}<section id="sources"><h2>${t.sources}</h2><ul>${(a.sources || []).map((s) => `<li><a href="${escape(s.url)}">${escape(s.name)}</a></li>`).join("")}</ul></section>${appNote(l)}</article></div>`,
+      body: `<div class="wrap document"><header class="specimen-header"><p>${escape(a.family)}</p><h1>${escape(c.title)}</h1><p class="botanical-name"><em>${escape(a.botanicalName)}</em></p></header>${a.image ? `<figure class="article-image plant-image"><img src="${a.image}" width="${a.imageWidth}" height="${a.imageHeight}" alt="${escape(c.imageAlt || "")}"><figcaption>${c.caption || ""}</figcaption></figure>` : ""}<section class="at-a-glance"><h2>${t.atAGlance}</h2><dl>${["light", "watering", "humidity", "temperature", "petSafety", "careLevel"].map((k) => `<div><dt>${t[k]}</dt><dd>${escape(g[k])}${k === "petSafety" && g.petSafetySource ? ` <a href="${escape(g.petSafetySource)}">${t.sources}</a>` : ""}</dd></div>`).join("")}</dl></section><article class="prose">${c.answerHtml}${c.sections.map((s) => `<section><h2>${escape(s.title)}</h2>${s.html}</section>`).join("")}<section id="sources"><h2>${t.sources}</h2><ul>${(a.sources || []).map((s) => `<li><a href="${escape(s.url)}">${escape(s.name)}</a></li>`).join("")}</ul></section>${appNote(l)}</article></div>`,
     });
   }
 for (const slug of staticSlugs) {
@@ -212,7 +225,7 @@ for (const kind of ["guides", "plants", "journal", "compare"])
       alternates: Object.fromEntries(
         languages.map((v) => [v, prefix(v) + kind + "/"]),
       ),
-      body: `<section class="collection-heading wrap"><p class="eyebrow">LILORA / ${escape(title)}</p><h1>${escape(title)}</h1><p class="dek">${escape(t.hubDescription[kind])}</p></section><div class="wrap collection"><div class="story-grid">${selection.map((a) => card(a, l, kind === "plants" ? "plants" : "articles")).join("")}</div>${!selection.length ? `<p>${t.empty}</p>` : ""}${english.length ? `<section class="also-english"><h2>${t.alsoEnglish}</h2><div class="story-grid">${english.map((a) => card(a, "en", kind === "plants" ? "plants" : "articles")).join("")}</div></section>` : ""}${kind === "compare" && existsSync(`pages/compare/${l}.html`) ? readFileSync(`pages/compare/${l}.html`, "utf8") : ""}${appNote(l)}</div>`,
+      body: `<section class="collection-heading wrap"><p class="eyebrow">LILORA / ${escape(title)}</p><h1>${escape(title)}</h1><p class="dek">${escape(t.hubDescription[kind])}</p></section><div class="wrap collection">${kind === "plants" ? plantFilterSections(l) : ""}<div class="story-grid">${selection.map((a) => card(a, l, kind === "plants" ? "plants" : "articles")).join("")}</div>${!selection.length ? `<p>${t.empty}</p>` : ""}${english.length ? `<section class="also-english"><h2>${t.alsoEnglish}</h2><div class="story-grid">${english.map((a) => card(a, "en", kind === "plants" ? "plants" : "articles")).join("")}</div></section>` : ""}${kind === "compare" && existsSync(`pages/compare/${l}.html`) ? readFileSync(`pages/compare/${l}.html`, "utf8") : ""}${appNote(l)}</div>`,
     });
   }
 const notFound = {

@@ -1,14 +1,30 @@
 // Original HTML/CSS educational diagram; text stays selectable and reflows on phones.
 export function sharedCareDiagram(lang){
- const tr=lang==='tr';
- const t=tr?{
+ const copy={tr:{
  title:'İki kişi. Tek bakım kaydı.',people:['1. kişi','2. kişi'],record:'Ortak bitki kaydı',detail:'Adı · oda · fotoğraf',
  steps:['Son kaydı oku','Bitkiyi kontrol et','Yapılanı kaydet'],hints:['Kim, ne zaman, ne yaptı?','Harcı ve bitkinin durumunu gözlemle.','Gerçekte olanı seç; üç sonucu birbirine karıştırma.'],
  outcomes:[['Suya ihtiyacı yok','Kontrol edildi; su verilmedi.'],['Suladım','Süzüldü; biriken su boşaltıldı.'],['Hatırlatma ertelendi','Kontrol hâlâ bekliyor.']],
  caption:'İki kişi aynı bitki kaydını kullanır: son kaydı okur, bitkiyi kontrol eder ve yaptıkları kontrolü ya da sulamayı kaydeder. Hatırlatmayı ertelemek bakım kaydı oluşturmaz; kontrol hâlâ bekler. Özgün eğitim şeması; uygulama ekranı değildir.'
- }:{title:'Two people. One care record.',people:['Person one','Person two'],record:'One shared plant record',detail:'Name · room · photo',
+ },en:{title:'Two people. One care record.',people:['Person one','Person two'],record:'One shared plant record',detail:'Name · room · photo',
  steps:['Read the latest record','Check the actual plant','Record what happened'],hints:['Who did what, and when?','Observe the mix and the plant’s condition.','Choose what actually happened; keep these outcomes distinct.'],
  outcomes:[['Checked, no water needed','No water added.'],['Watered','Drained; collected runoff emptied.'],['Reminder postponed','Checking is still pending.']],
- caption:'Two people use one plant record: read the latest entry, check the plant, and record a check or watering. Postponing the reminder creates no care entry; the check remains pending. Original educational diagram, not an app screenshot.'};
+ caption:'Two people use one plant record: read the latest entry, check the plant, and record a check or watering. Postponing the reminder creates no care entry; the check remains pending. Original educational diagram, not an app screenshot.'},
+ es:{title:'Dos personas. Un solo registro de cuidados.',people:['Persona 1','Persona 2'],record:'Un registro compartido de la planta',detail:'Nombre · habitación · foto',
+ steps:['Lee el último registro','Revisa la planta','Anota lo que pasó'],hints:['¿Quién hizo qué y cuándo?','Observa el sustrato y el estado de la planta.','Elige lo que pasó de verdad; no mezcles estos resultados.'],
+ outcomes:[['“Checked, no water needed”','Revisada; no se añadió agua.'],['“Watered”','Drenada; se vació el agua acumulada.'],['Recordatorio pospuesto','La revisión sigue pendiente.']],
+ caption:'Dos personas usan el mismo registro de la planta: leen la última entrada, revisan la planta y anotan una revisión o un riego. Posponer el recordatorio no crea ninguna entrada de cuidado; la revisión sigue pendiente. Los botones de la app aparecen en inglés porque Lilora está disponible en inglés y turco. Esquema educativo original, no una captura de la app.'},
+ de:{title:'Zwei Personen. Ein Pflegeprotokoll.',people:['Person 1','Person 2'],record:'Ein gemeinsamer Pflanzeneintrag',detail:'Name · Raum · Foto',
+ steps:['Letzten Eintrag lesen','Die Pflanze selbst prüfen','Festhalten, was passiert ist'],hints:['Wer hat wann was gemacht?','Substrat und Zustand der Pflanze ansehen.','Wähle, was tatsächlich passiert ist; halte diese Ergebnisse auseinander.'],
+ outcomes:[['„Checked, no water needed“','Geprüft; kein Wasser gegeben.'],['„Watered“','Abgetropft; Überschuss ausgeleert.'],['Erinnerung verschoben','Die Prüfung steht noch aus.']],
+ caption:'Zwei Personen nutzen denselben Pflanzeneintrag: Sie lesen den letzten Eintrag, prüfen die Pflanze und halten eine Prüfung oder ein Gießen fest. Eine verschobene Erinnerung erzeugt keinen Pflegeeintrag; die Prüfung steht weiter aus. Die App-Schaltflächen stehen auf Englisch, weil Lilora auf Englisch und Türkisch verfügbar ist. Eigene Lernskizze, kein App-Screenshot.'},
+ pt:{title:'Duas pessoas. Um só registro de cuidados.',people:['Pessoa 1','Pessoa 2'],record:'Um registro compartilhado da planta',detail:'Nome · cômodo · foto',
+ steps:['Leia o último registro','Confira a planta','Registre o que aconteceu'],hints:['Quem fez o quê, e quando?','Observe o substrato e o estado da planta.','Escolha o que aconteceu de fato; não misture estes resultados.'],
+ outcomes:[['“Checked, no water needed”','Conferida; nada de água.'],['“Watered”','Drenada; água acumulada descartada.'],['Lembrete adiado','A conferência continua pendente.']],
+ caption:'Duas pessoas usam o mesmo registro da planta: leem a última entrada, conferem a planta e registram uma conferência ou uma rega. Adiar o lembrete não cria registro de cuidado; a conferência continua pendente. Os botões do app aparecem em inglês porque o Lilora está disponível em inglês e turco. Esquema educativo original, não é captura de tela do app.'},
+ fr:{title:'Deux personnes. Un seul carnet de soins.',people:['Personne 1','Personne 2'],record:'Une fiche de plante partagée',detail:'Nom · pièce · photo',
+ steps:['Lire la dernière entrée','Vérifier la plante elle-même','Noter ce qui s’est passé'],hints:['Qui a fait quoi, et quand ?','Observer le substrat et l’état de la plante.','Choisir ce qui s’est réellement passé ; ne pas confondre ces résultats.'],
+ outcomes:[['« Checked, no water needed »','Vérifiée ; pas d’eau ajoutée.'],['« Watered »','Égouttée ; eau en excès vidée.'],['Rappel reporté','La vérification reste à faire.']],
+ caption:'Deux personnes utilisent la même fiche : elles lisent la dernière entrée, vérifient la plante et notent une vérification ou un arrosage. Reporter le rappel ne crée aucune entrée de soin ; la vérification reste en attente. Les boutons de l’app sont en anglais, car Lilora est disponible en anglais et en turc. Schéma pédagogique original, pas une capture de l’app.'}};
+ const t=copy[lang]||copy.en;
  return `<figure class="shared-care-diagram" aria-labelledby="shared-care-title"><h2 id="shared-care-title">${t.title}</h2><div class="shared-care-people">${t.people.map(p=>`<div><span class="care-person" aria-hidden="true"></span><span>${p}</span></div>`).join('')}</div><div class="shared-care-record"><strong>${t.record}</strong><span>${t.detail}</span></div><ol class="shared-care-steps">${t.steps.map((step,i)=>`<li><span class="care-step-number" aria-hidden="true">${i+1}</span><div><h3>${step}</h3><p>${t.hints[i]}</p>${i===2?`<ul class="shared-care-outcomes">${t.outcomes.map(([title,detail],j)=>`<li class="${j===2?'care-pending':'care-completed'}"><strong>${title}</strong><span>${detail}</span></li>`).join('')}</ul>`:''}</div></li>`).join('')}</ol><figcaption>${t.caption}</figcaption></figure>`;
 }
