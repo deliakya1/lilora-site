@@ -162,6 +162,13 @@ the sitemap index. Deliberately not done:
   ChatGPT-User, Claude-SearchBot, Claude-User, PerplexityBot, Bingbot) and training
   bots (GPTBot, ClaudeBot, Google-Extended). Blocking training bots would not reduce
   search visibility; that is an owner decision, currently "allow".
+- Verified against provider docs on 22 October 2026: OAI-SearchBot (ChatGPT search),
+  Claude-SearchBot and PerplexityBot are search crawlers; GPTBot and ClaudeBot collect
+  training data; Google-Extended is a robots.txt control token, not a crawler, and does
+  not affect Google Search. ChatGPT-User, Claude-User and Perplexity-User fetch pages
+  on a user's request, and OpenAI/Perplexity say robots.txt may not apply to them.
+- The About page carries the answer-first product fact sheet (what, who, features,
+  limits, app languages, availability, contact). Keep it in sync with support/download.
 - GitHub Pages also serves repository sources (`/content/`, `/pages/`, `/scripts/`,
   `/locales/`, `/editorial/*.json`, README and package files). `robots.txt` disallows
   only those for every crawler; `scripts/seo.test.mjs` checks that sitemap URLs,
