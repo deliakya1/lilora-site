@@ -14,25 +14,25 @@ Jemand anderes möchte vielleicht mehrere Werkzeuge in einer App ausprobieren: P
 
 ## Was die Apps beschreiben
 
-Lilora beschreibt Fotos, Notizen und Pflegeverlauf, optionale Bestimmung mit Pl@ntNet, Erinnerungen zum Nachsehen und einen privaten Haushalt mit gemeinsamen Einträgen. Die erste Version konzentriert sich auf Bestand, Pflege und Bestimmung; Lichtmesser und Krankheitsdiagnose gehören nicht dazu. Die App ist auf Englisch und Türkisch verfügbar. [Lilora overview](https://lilora.app/de/) · [Lilora support](https://lilora.app/de/support/)
+Lilora beschreibt Fotos, Notizen und Pflegeverlauf, optionale Bestimmung mit Pl@ntNet, Erinnerungen zum Nachsehen und einen privaten Haushalt mit gemeinsamen Einträgen. Die erste Version konzentriert sich auf Bestand, Pflege und Bestimmung; Lichtmesser und Krankheitsdiagnose gehören nicht dazu. Die App ist auf Englisch und Türkisch verfügbar. [Lilora im Überblick](https://lilora.app/de/) · [Lilora-Hilfe](https://lilora.app/de/support/)
 
 Planta beschreibt Pflanzenverwaltung, ein Tagebuch, Fotobestimmung, persönliche Pflegepläne, einen Lichtmesser und Symptomhilfe mit Dr. Planta. Außerdem gibt es Care Share für Familienmitglieder und Pflanzensitter. Die Verfügbarkeit hängt von Funktion und Tarif ab. [Planta’s official feature overview](https://getplanta.com/)
 
 ## Erinnerungen und Einträge beantworten verschiedene Fragen
 
-Eine Erinnerung beantwortet „Wann sollte ich nachsehen?“. Ein erledigter Pflegeeintrag beantwortet „Was habe ich tatsächlich getan?“. Lilora unterscheidet zwischen Prüfen und Gießen: Nachdem du Pflanze und Erde angesehen hast, trägst du ein Gießen („Watered“) oder eine Prüfung ohne nötiges Wasser („Checked, no water needed“) ein. [How Lilora’s checks work](https://lilora.app/de/support/)
+Eine Erinnerung beantwortet „Wann sollte ich nachsehen?“. Ein erledigter Pflegeeintrag beantwortet „Was habe ich tatsächlich getan?“. Lilora unterscheidet zwischen Prüfen und Gießen: Nachdem du Pflanze und Erde angesehen hast, trägst du ein Gießen („Watered“) oder eine Prüfung ohne nötiges Wasser („Checked, no water needed“) ein. [So funktionieren Prüfungen in Lilora](https://lilora.app/de/support/)
 
 Öffne beim Testen einer App eine Pflanze, such ihren letzten Pflegeeintrag, trag ein, was du heute wirklich getan hast, und geh zurück zur Übersicht. Frag dich, ob du den Eintrag verstehst, ohne dich an den Tag erinnern zu müssen. Das ist ein vorgeschlagener persönlicher Test, kein Testergebnis für eine der beiden Apps.
 
 ## Gemeinsame Pflege verdient einen genaueren Blick
 
-Das Haushaltsmodell von Lilora teilt Pflanzen, Fotos und Pflegeverlauf mit den Mitgliedern. Auch Planta unterstützt geteilte Pflege: Das Hilfecenter beschreibt Premium-Einladungen für Familie und Pflanzensitter mit unterschiedlichen Rechten je Rolle. Teilen ist eine Gemeinsamkeit, keine exklusive Lilora-Funktion. [Lilora support](https://lilora.app/de/support/) · [Planta Help Center](https://support.getplanta.com/)
+Das Haushaltsmodell von Lilora teilt Pflanzen, Fotos und Pflegeverlauf mit den Mitgliedern. Auch Planta unterstützt geteilte Pflege: Das Hilfecenter beschreibt Premium-Einladungen für Familie und Pflanzensitter mit unterschiedlichen Rechten je Rolle. Teilen ist eine Gemeinsamkeit, keine exklusive Lilora-Funktion. [Lilora-Hilfe](https://lilora.app/de/support/) · [Planta Help Center](https://support.getplanta.com/)
 
 Überleg, wer die Pflanzen sehen muss, wer sie ändern soll und wie ihr den letzten Eintrag prüft. Ein Haushaltsmitglied und eine Freundin, die am Wochenende aushilft, brauchen vielleicht unterschiedlichen Zugang.
 
 ## Vergleich das Angebot, das du wirklich kaufen kannst
 
-Lilora beschreibt eine kostenlose manuelle Arteneingabe, drei erste Fotobestimmungen, ein 10er-Paket und ein monatliches Plus-Kontingent von 30. Für lokale Preise verweist die Support-Seite auf Apple. Solange der Start aussteht, gibt es keinen geprüften öffentlichen Preis zum Vergleichen. [Lilora purchases](https://lilora.app/de/support/)
+Lilora beschreibt eine kostenlose manuelle Arteneingabe, drei erste Fotobestimmungen, ein 10er-Paket und ein monatliches Plus-Kontingent von 30. Für lokale Preise verweist die Support-Seite auf Apple. Solange der Start aussteht, gibt es keinen geprüften öffentlichen Preis zum Vergleichen. [Käufe in Lilora](https://lilora.app/de/support/)
 
 Der US-Eintrag von Planta nennt Monatspreise von 7,99 US$ und 9,99 US$ und Jahrespreise von 35,99 US$ und 47,99 US$. Das sind Beispiele aus dem Eintrag, keine Zusage, dass sie für dich gelten. Das Hilfecenter zählt Bestimmung und Lichtmesser zu den Premium-Funktionen. [App Store listing](https://apps.apple.com/us/app/planta-plant-garden-care/id1410126781) · [Free and premium access](https://support.getplanta.com/do-planta-offer-a-free-trial-of-premium/)
 
