@@ -93,6 +93,13 @@ const render = (opts) => {
     { lang: opts.lang, lastmod: lastmod(opts.sources || []), images: opts.images || [] },
   );
 };
+// Lilora both writes and publishes its content: the author is the same Organization entity.
+const author = {
+  "@type": "Organization",
+  "@id": organization["@id"],
+  name: organization.name,
+  url: organization.url,
+};
 const absolute = (src) => (src && src.startsWith("/") ? origin + src : src);
 const breadcrumbs = (items) => ({
   "@context": "https://schema.org",
@@ -176,11 +183,7 @@ for (const a of articles)
         dateModified: a.reviewed,
         mainEntityOfPage: origin + path,
         image: [...images, origin + shareImagePath(path, l)],
-        author: {
-          "@type": "Organization",
-          name: "Lilora",
-          url: origin + prefix(l) + "editorial/",
-        },
+        author,
         publisher: organization,
         citation: a.sources.map((s) => s.url),
       },
@@ -235,7 +238,7 @@ for (const a of plants)
           dateModified: a.reviewed,
           mainEntityOfPage: origin + path,
           image: [...(a.image ? [absolute(a.image)] : []), origin + shareImagePath(path, l)],
-          author: { "@type": "Organization", name: "Lilora", url: origin + prefix(l) + "editorial/" },
+          author,
           publisher: organization,
           citation: (a.sources || []).map((s) => s.url),
         },
@@ -272,6 +275,7 @@ for (const slug of staticSlugs) {
               {
                 "@context": "https://schema.org",
                 "@type": "WebSite",
+                "@id": `${origin}${path}#website`,
                 name: "Lilora",
                 url: origin + path,
                 inLanguage: htmlLang(l),

@@ -93,3 +93,33 @@ test('content hubs list only their article type and preserve real fallback langu
   assert.equal(cards.filter(c=>c[1]===(lang==='pt'?'pt-BR':lang)).length,content.filter(a=>a.type===type&&a[lang]).length);
  }
 });
+
+test('JSON-LD follows the page-type mapping with one consistent publisher entity',()=>{
+ const forbidden=/"@type":"(?:Review|AggregateRating|Rating|Offer|Product|FAQPage|HowTo|SoftwareApplication|MobileApplication)"/;
+ const expected=(rel)=>/^(?:(?:en|es|de|pt|fr)\/)?index\.html$/.test(rel)?['Organization','WebSite']:/(?:^|\/)journal\/[^/]+\/index\.html$/.test(rel)?['BlogPosting','BreadcrumbList']:/(?:^|\/)(?:guides|compare|plants)\/[^/]+\/index\.html$/.test(rel)?['Article','BreadcrumbList']:['BreadcrumbList'];
+ for(const file of files){const s=readFileSync(file,'utf8'),rel=file.slice(root.length+1);if(rel==='404.html'){assert.doesNotMatch(s,/application\/ld\+json/);continue;}
+  const canonical=s.match(/rel="canonical" href="([^"]+)"/)[1];
+  const blocks=[...s.matchAll(/<script type="application\/ld\+json">(.*?)<\/script>/gs)].map(m=>m[1]);
+  assert.deepEqual(blocks.map(raw=>JSON.parse(raw)['@type']),expected(rel),rel);
+  for(const raw of blocks){const schema=JSON.parse(raw);
+   assert.doesNotMatch(raw,forbidden,rel);assert.ok(!('sameAs' in schema),`${rel}: sameAs needs a verified official profile`);
+   assert.doesNotMatch(raw,/&(?:amp|lt|gt|quot|#\d+);/,`${rel}: JSON-LD text must not be HTML-escaped`);
+   for(const url of raw.match(/https:\/\/lilora\.app[^"#]*/g)||[]){const path=new URL(url).pathname;assert.ok(existsSync(root+path+(path.endsWith('/')?'index.html':'')),`${rel}: JSON-LD points to missing ${url}`);}
+   if(schema['@type']==='BreadcrumbList'){assert.equal(schema.itemListElement.at(-1).item,canonical,rel);schema.itemListElement.forEach((x,i)=>assert.equal(x.position,i+1));}
+   if(schema['@type']==='Organization')assert.equal(schema['@id'],'https://lilora.app/#organization');
+   if(schema['@type']==='WebSite'){assert.equal(schema.url,canonical);assert.equal(schema['@id'],canonical+'#website');assert.equal(schema.publisher['@id'],'https://lilora.app/#organization');}
+   if(['Article','BlogPosting'].includes(schema['@type'])){
+    for(const role of ['author','publisher']){assert.equal(schema[role]['@id'],'https://lilora.app/#organization',`${rel}: ${role}`);assert.equal(schema[role].name,'Lilora');assert.equal(schema[role].url,'https://lilora.app/');}
+    assert.equal(schema.inLanguage,s.match(/<html lang="([^"]+)"/)[1]);
+    assert.match(s,/<meta property="og:type" content="article">/,rel);
+   }
+  }
+ }
+});
+test('JSON-LD serialization keeps localized text and cannot close its script element',async()=>{
+ const {json}=await import('./layout.mjs');
+ const value={headline:'Çiçek & "ışık" </script><!-- İçerik — l’été  '};
+ const out=json(value);
+ assert.doesNotMatch(out,/<\/script|<!--/i);
+ assert.deepEqual(JSON.parse(out),value);
+});
