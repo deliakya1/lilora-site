@@ -685,3 +685,18 @@ disagreements are stated plainly. Nothing is called pet-safe.
 
 Validation: `npm run check` 17/17 tests passed; all nine `scripts/*.cjs` suites
 passed, including 792 responsive checks across 198 pages and 41 language scenarios.
+
+### Review and merge — 22 October 2026
+
+Independent review by a second Claude thread: families and accepted names match
+POWO, ASPCA statuses match the Animal Poison Control Center list (credited by
+name, homepage link only), no Apple badge, Smart App Banner or Lilora App Store
+link, and no English body under another language. One fix before merge: Lilora's
+own source link labels in the es/de/pt/fr comparisons were still in English and
+are now localized. `npm run check` 17/17 and all nine `scripts/*.cjs` suites
+passed again; PR #5 squash-merged and live URLs checked (`/de/plants/`,
+`/guides/pet-safe-houseplants/`, `/fr/compare/lilora-vs-planta/`). Open caveat:
+photo licences could not be re-checked from the cloud (iNaturalist and GBIF are
+blocked there); spot-check them on the observation pages listed in CREDITS.md.
+
+<!-- site-prompt-05: done -->
