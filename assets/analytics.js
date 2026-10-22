@@ -116,7 +116,9 @@
   const dialog=document.createElement('dialog');
   dialog.className='cookie-dialog';dialog.setAttribute('aria-labelledby','cookie-dialog-title');dialog.setAttribute('aria-describedby','cookie-dialog-intro');
   dialog.innerHTML=`<div class="cookie-dialog-heading"><p class="eyebrow">lilora</p><button type="button" data-action="close" aria-label="${t.close}">×</button></div><h2 id="cookie-dialog-title" tabindex="-1">${t.title}</h2><p id="cookie-dialog-intro">${t.intro}</p><div class="cookie-category"><label><input type="checkbox" checked disabled> <strong>${t.necessary}</strong></label><p>${t.necessaryText}</p></div><div class="cookie-category"><label><input id="cookie-analytics-choice" type="checkbox" ${configured?'':'disabled'}> <strong>${t.analytics}</strong></label><p>${t.analyticsText}</p>${configured?'':`<p>${t.disabled}</p>`}</div><p class="cookie-storage-message" role="status"></p><p><a href="${privacy}">${t.privacy}</a></p><div class="cookie-actions"><button type="button" data-action="accept">${t.accept}</button><button type="button" data-action="reject">${t.reject}</button><button type="button" data-action="save">${t.save}</button></div><button class="cookie-withdraw" type="button" data-action="withdraw">${t.withdraw}</button>`;
-  const footer=document.querySelector('.cookie-settings')||document.createElement('button');footer.type='button';footer.className='cookie-settings';footer.textContent=t.footer;
+  // Static HTML links to the privacy section; with JavaScript the link becomes the dialog button.
+  const fallback=document.querySelector('.cookie-settings'),footer=document.createElement('button');footer.type='button';footer.className='cookie-settings';footer.textContent=t.footer;
+  if(fallback)fallback.replaceWith(footer);
   const status=document.createElement('p');status.className='cookie-status';status.setAttribute('role','status');
   document.body.append(banner,dialog);
   if(!footer.isConnected)(document.querySelector('.footer')||document.body).append(footer);
