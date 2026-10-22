@@ -63,7 +63,7 @@ for (const [lang, t] of Object.entries(copy)) {
   <section class="promo-band"><div class="wrap promo-band-inner"><div><h2>${esc(t.closingTitle)}</h2><p>${esc(t.closingText)}</p>${cta("closing")}<p class="promo-status">${esc(t.status)}</p></div><figure class="promo-qr"><img src="/assets/brand/qr/${lang}-home.svg" width="256" height="256" alt="${esc(t.qrAlt)}" loading="lazy"><figcaption>${esc(t.qrCaption)}</figcaption></figure></div></section>
   </div>`;
   writeFileSync(`pages/home/${lang}.md`, body + "\n");
-  metadata[lang] = { title: t.title, description: t.dek };
+  metadata[lang] = { title: t.title, seoTitle: t.seoTitle, description: t.dek };
 }
 writeFileSync("pages/home/meta.json", JSON.stringify(metadata, null, 2) + "\n");
 console.log(`Prepared ${Object.keys(copy).length} localized home pages.`);

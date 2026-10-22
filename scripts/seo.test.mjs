@@ -179,3 +179,46 @@ test("IndexNow key file holds exactly its own name", () => {
   assert.equal(files.length, 1);
   assert.equal(read(files[0]), files[0].replace(/\.txt$/, ""));
 });
+
+test("titles stay distinct after ignoring punctuation and the brand suffix, so no two pages target the same query", () => {
+  const seen = new Map();
+  for (const f of pages) {
+    const title = unescape(read(f).match(/<title>(.*?)<\/title>/)[1]);
+    const key = title.replace(/ — Lilora$/, "").toLowerCase().replace(/[^\p{L}\p{N}]+/gu, " ").trim();
+    assert.ok(!seen.has(key), `${f} and ${seen.get(key)} share the title "${title}"`);
+    seen.set(key, f);
+  }
+});
+
+test("each translation canonicalises to itself in its own language, never to another language", () => {
+  const ogLocales = { tr: "tr_TR", en: "en_GB", es: "es_ES", de: "de_DE", pt: "pt_BR", fr: "fr_FR" };
+  for (const f of pages) {
+    const s = read(f);
+    const path = pathOf(f);
+    const lang = languages.find((l) => l !== "tr" && path.startsWith(prefix(l))) || "tr";
+    const canonical = s.match(/rel="canonical" href="([^"]+)"/)[1];
+    assert.equal(s.match(/<html lang="([^"]+)"/)[1], lang === "pt" ? "pt-BR" : lang, f);
+    assert.equal(canonical, "https://lilora.app" + path, f);
+    for (const [, hreflang, href] of s.matchAll(/rel="alternate" hreflang="([^"]+)" href="([^"]+)"/g))
+      if (href === canonical && hreflang !== "x-default") assert.equal(hreflang, lang === "pt" ? "pt-BR" : lang, `${f}: self hreflang`);
+    assert.equal(s.match(/property="og:locale" content="([^"]+)"/)?.[1], ogLocales[lang], `${f}: og:locale`);
+  }
+});
+
+test("Open Graph and Twitter metadata match the page: real URL, own description and an existing share card", () => {
+  for (const f of pages) {
+    const s = read(f);
+    const meta = (key) => s.match(new RegExp(`(?:property|name)="${key}" content="([^"]*)"`))?.[1];
+    assert.equal(meta("og:url"), s.match(/rel="canonical" href="([^"]+)"/)[1], `${f}: og:url`);
+    assert.equal(meta("og:site_name"), "Lilora", f);
+    assert.equal(meta("og:description"), meta("description"), `${f}: og:description`);
+    assert.equal(meta("twitter:description"), meta("description"), `${f}: twitter:description`);
+    assert.equal(meta("twitter:title"), meta("og:title"), `${f}: twitter:title`);
+    assert.ok(meta("og:title"), `${f}: og:title`);
+    for (const key of ["og:image", "twitter:image"]) {
+      const url = new URL(meta(key));
+      assert.equal(url.origin, "https://lilora.app", `${f}: ${key} host`);
+      assert.ok(existsSync("." + url.pathname), `${f}: ${key} ${url.pathname} is missing`);
+    }
+  }
+});
