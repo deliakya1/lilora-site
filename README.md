@@ -983,3 +983,38 @@ button. `node scripts/no-js-check.cjs` covers this. Known limit: after a no-JS
 contact-form post the `?form=` status is shown only with JavaScript (the redirect is
 set by the app repo's `website-contact` function). This does not guarantee indexing
 or AI citations.
+
+## SEO-09: mobile performance
+
+Lab data only (no field CrUX data is available for lilora.app yet, so no field
+LCP/INP/CLS is claimed). Lighthouse 13.5.0, mobile defaults (simulated
+throttling), local gzip server with `max-age=600` like GitHub Pages, Google
+Analytics requests blocked, 22 October 2026. One run per page before and after:
+
+| Page | Perf | LCP | TBT | CLS | Transfer |
+|---|---|---|---|---|---|
+| TR home `/` | 97 → 99 | 2.0 → 2.0 s | 60 → 0 ms | 0 → 0 | 227 → 186 KB |
+| Plant `/en/plants/monstera-deliciosa/` | 99 → 99 | 2.1 → 2.0 s | 0 → 0 ms | 0 → 0 | 178 → 164 KB |
+| Plant `/de/plants/ficus-lyrata/` | 99 → 100 | 1.8 → 1.7 s | 0 → 0 ms | 0 → 0 | 136 → 121 KB |
+| Guide `/en/guides/watering-houseplants/` | 100 → 100 | 1.5 → 1.4 s | 0 → 40 ms | 0 → 0 | 74 → 60 KB |
+| Support `/en/support/` | 100 → 100 | 1.5 → 1.4 s | 0 → 0 ms | 0 → 0 | 73 → 58 KB |
+
+Changes:
+- Header logo and favicon use a 144 px `assets/icon-144.png` (4 KB) instead of the
+  1024 px `icon.png` (18.6 KB) on every page; `icon.png` stays for structured data
+  and generated assets.
+- Plant and article hero photos (the plant-page LCP element) get
+  `fetchpriority="high"`; they were already eager.
+- The two side-by-side phone screens on the home page declare `44vw` instead of
+  `56vw`, so phones download the 320 px variant instead of 480 px.
+- The language suggestion bar is inserted after the header and kept at its static
+  position (`position:absolute` + margin) instead of measuring the header, which
+  removed a ~100 ms forced reflow on first load. Position and no-CLS are unchanged
+  (checked at 320 and 390 px with German and Portuguese suggestions).
+
+Remaining: GitHub Pages fixes `Cache-Control: max-age=600` (Lighthouse cache
+warning; not changeable on Pages). Plant photos are single 720 px WebP files without
+`srcset`; responsive variants were not added because plant profiles are being edited
+in parallel. The 40 ms guide TBT after the change is run-to-run noise on a page whose
+scripts were not otherwise changed. `npm test` has one failure (QR decode test)
+that also fails on unmodified main in this environment.

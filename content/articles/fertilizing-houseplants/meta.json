@@ -30,6 +30,11 @@
     "yellow-houseplant-leaves",
     "potting-mix-and-drainage"
   ],
+  "plants": [
+    "monstera-deliciosa",
+    "epipremnum-aureum",
+    "chlorophytum-comosum"
+  ],
   "en": {
     "description": "Feed houseplants during active growth at the label rate or less, pause in low winter light, and flush out excess fertiliser salts."
   },

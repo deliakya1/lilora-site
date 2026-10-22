@@ -30,6 +30,11 @@
     "yellow-houseplant-leaves",
     "indoor-plant-light-guide"
   ],
+  "plants": [
+    "monstera-deliciosa",
+    "ficus-elastica",
+    "chlorophytum-comosum"
+  ],
   "en": {
     "description": "Inspect roots, choose a sensible pot size and preserve planting depth. A careful repotting guide for common foliage houseplants."
   },

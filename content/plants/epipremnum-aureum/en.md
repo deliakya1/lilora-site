@@ -26,6 +26,12 @@ Average room air is usually enough. In very dry, heated rooms, NC State Extensio
 
 During active growth, feed about every other month with a houseplant fertilizer at the label rate. Skip feeding in winter, when growth slows. [NC State Extension](https://plants.ces.ncsu.edu/plants/epipremnum-aureum/)
 
+## Seasonal care
+
+NC State treats winter as a dormant period: stop feeding until spring, and keep letting the well-drained mix dry between waterings. Because growth slows, that drying takes longer, so the gaps between waterings grow. NC State links overwatering to root rot and blackened leaf margins, which are more likely when a summer routine continues into a dim winter. [NC State Extension](https://plants.ces.ncsu.edu/plants/epipremnum-aureum/)
+
+Pothos survives long periods in low light, but NC State notes that low light can fade variegation; in darker months a spot closer to a window helps. The [winter care guide](/en/guides/winter-houseplant-care/) covers cold glass and heaters. In Lilora, a reminder is a prompt to check, not an order to water: you record whether you watered or snoozed, so slower drying in the cold months shows up in your own history.
+
 ## Common problems
 
 - **Blackening leaf edges and soft stems:** NC State links these to overwatering and root rot. Check the mix and roots before adding more water.
@@ -40,7 +46,7 @@ Pothos roots readily from stem cuttings. Cut a piece with at least one node (the
 
 ## Pets and people
 
-The [ASPCA Animal Poison Control Center](https://www.aspca.org/) lists golden pothos as toxic to cats and dogs. NC State Extension names calcium oxalate crystals as the toxic principle and lists signs such as mouth irritation and swelling, drooling, difficulty swallowing and vomiting; the sap can irritate skin. Keep trailing stems out of reach. If a pet chews the plant, contact a veterinarian or an animal poison control service. For people in Türkiye, the poison information line is 114 (UZEM). This is general information, not veterinary or medical advice.
+The [ASPCA Animal Poison Control Center](https://www.aspca.org/) lists golden pothos as toxic to cats and dogs. NC State Extension names calcium oxalate crystals as the toxic principle and lists signs such as mouth irritation and swelling, drooling, difficulty swallowing and vomiting; the sap can irritate skin. Keep trailing stems out of reach. If a pet chews the plant, contact a veterinarian or an animal poison control service. For people in Türkiye, the poison information line is 114 (UZEM). This is general information, not veterinary or medical advice. To compare other plants, see the [pet-safe houseplants guide](/en/guides/pet-safe-houseplants/) or the [non-toxic profiles in the plant library](/en/plants/#petNonToxic).
 
 ## Common questions
 
@@ -55,3 +61,7 @@ Low light is a common reason. Check the position before feeding or repotting.
 ### Should I mist pothos?
 
 Misting is not required. If the air is very dry, a humidifier or pebble tray is the option NC State describes.
+
+### Why are my pothos leaf edges turning black?
+
+NC State links blackening leaf margins to overwatering and root rot. Check the mix and roots before you water again.

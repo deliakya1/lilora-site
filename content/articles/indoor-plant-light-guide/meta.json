@@ -26,6 +26,12 @@
     "yellow-houseplant-leaves",
     "when-to-repot-houseplants"
   ],
+  "plants": [
+    "dracaena-trifasciata",
+    "zamioculcas-zamiifolia",
+    "ficus-lyrata",
+    "aloe-vera"
+  ],
   "en": {
     "description": "Understand direct sunlight, bright indirect light and low light. Observe your window and choose a position around your plant’s needs."
   },

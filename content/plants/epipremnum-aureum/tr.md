@@ -26,6 +26,12 @@ Normal oda havası genellikle yeterlidir. Kaloriferli, çok kuru odalarda NC Sta
 
 Büyüme döneminde yaklaşık iki ayda bir, etiketteki dozda saksı bitkisi gübresi ver. Büyümenin yavaşladığı kışın gübreleme. [NC State Extension](https://plants.ces.ncsu.edu/plants/epipremnum-aureum/)
 
+## Mevsime göre bakım
+
+NC State kışı dinlenme dönemi olarak ele alıyor: ilkbahara kadar gübreyi bırak ve iyi süzülen harcın sulamalar arasında kurumasına izin vermeyi sürdür. Büyüme yavaşladığı için kuruma uzar, yani sulama araları açılır. NC State aşırı sulamayı kök çürüklüğü ve yaprak kenarlarının kararmasıyla ilişkilendiriyor; bu, yaz düzeni loş bir kışa taşındığında daha olasıdır. [NC State Extension](https://plants.ces.ncsu.edu/plants/epipremnum-aureum/)
+
+Salon sarmaşığı az ışıkta uzun süre yaşayabilir ama NC State az ışığın alacayı soldurabileceğini belirtiyor; karanlık aylarda pencereye daha yakın bir yer yardımcı olur. Soğuk cam ve kalorifer için [kış bakımı rehberine](/guides/winter-houseplant-care/) bak. Lilora'da hatırlatma bir kontrol çağrısıdır, sulama emri değil: suladığını ya da ertelediğini kaydedersin; böylece soğuk aylarda harcın daha yavaş kuruduğu kendi geçmişinde görünür.
+
 ## Sık görülen sorunlar
 
 - **Kararan yaprak kenarları ve yumuşayan gövdeler:** NC State bunları fazla suya ve kök çürümesine bağlıyor. Yeniden sulamadan önce harcı ve kökleri kontrol et.
@@ -40,7 +46,7 @@ Gövde çeliğiyle kolayca köklenir. En az bir boğumu (yaprakla hava kökünü
 
 ## Evcil hayvanlar ve insanlar
 
-[ASPCA Animal Poison Control Center](https://www.aspca.org/), salon sarmaşığını (golden pothos) kedi ve köpekler için toksik olarak listeler. NC State Extension toksik maddeyi kalsiyum oksalat kristalleri olarak belirtir; ağızda tahriş ve şişlik, salya artışı, yutma güçlüğü ve kusma gibi belirtiler sayar; özsuyu da cildi tahriş edebilir. Sarkan dalları ulaşılamayacak yerde tut. Evcil hayvanın bitkiyi çiğnerse bir veterinere veya hayvan zehir danışma hizmetine başvur. İnsanlarda zehirlenme şüphesinde Türkiye'de 114 Ulusal Zehir Danışma Merkezi'ni (UZEM) ara; UZEM bir veteriner hizmeti değildir. Bu genel bilgidir; veteriner veya tıbbi tavsiye değildir.
+[ASPCA Animal Poison Control Center](https://www.aspca.org/), salon sarmaşığını (golden pothos) kedi ve köpekler için toksik olarak listeler. NC State Extension toksik maddeyi kalsiyum oksalat kristalleri olarak belirtir; ağızda tahriş ve şişlik, salya artışı, yutma güçlüğü ve kusma gibi belirtiler sayar; özsuyu da cildi tahriş edebilir. Sarkan dalları ulaşılamayacak yerde tut. Evcil hayvanın bitkiyi çiğnerse bir veterinere veya hayvan zehir danışma hizmetine başvur. İnsanlarda zehirlenme şüphesinde Türkiye'de 114 Ulusal Zehir Danışma Merkezi'ni (UZEM) ara; UZEM bir veteriner hizmeti değildir. Bu genel bilgidir; veteriner veya tıbbi tavsiye değildir. Başka bitkilerle karşılaştırmak için [evcil hayvan dostu bitkiler rehberine](/guides/pet-safe-houseplants/) ya da [bitki kütüphanesindeki toksik olmayan profillere](/plants/#petNonToxic) bak.
 
 ## Sık sorulan sorular
 
@@ -55,3 +61,7 @@ Yaygın nedenlerden biri az ışık. Gübre vermeden ya da saksı değiştirmede
 ### Yapraklarına su püskürtmeli miyim?
 
 Gerekmez. Hava çok kuruysa NC State'in tarif ettiği yöntem nemlendirici ya da çakıllı tepsi.
+
+### Salon sarmaşığımın yaprak kenarları neden kararıyor?
+
+NC State yaprak kenarlarının kararmasını aşırı sulama ve kök çürüklüğüyle ilişkilendiriyor. Yeniden sulamadan önce harcı ve kökleri kontrol et.

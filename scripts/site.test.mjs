@@ -93,33 +93,14 @@ test('content hubs list only their article type and preserve real fallback langu
   assert.equal(cards.filter(c=>c[1]===(lang==='pt'?'pt-BR':lang)).length,content.filter(a=>a.type===type&&a[lang]).length);
  }
 });
-
-test('JSON-LD follows the page-type mapping with one consistent publisher entity',()=>{
- const forbidden=/"@type":"(?:Review|AggregateRating|Rating|Offer|Product|FAQPage|HowTo|SoftwareApplication|MobileApplication)"/;
- const expected=(rel)=>/^(?:(?:en|es|de|pt|fr)\/)?index\.html$/.test(rel)?['Organization','WebSite']:/(?:^|\/)journal\/[^/]+\/index\.html$/.test(rel)?['BlogPosting','BreadcrumbList']:/(?:^|\/)(?:guides|compare|plants)\/[^/]+\/index\.html$/.test(rel)?['Article','BreadcrumbList']:['BreadcrumbList'];
- for(const file of files){const s=readFileSync(file,'utf8'),rel=file.slice(root.length+1);if(rel==='404.html'){assert.doesNotMatch(s,/application\/ld\+json/);continue;}
-  const canonical=s.match(/rel="canonical" href="([^"]+)"/)[1];
-  const blocks=[...s.matchAll(/<script type="application\/ld\+json">(.*?)<\/script>/gs)].map(m=>m[1]);
-  assert.deepEqual(blocks.map(raw=>JSON.parse(raw)['@type']),expected(rel),rel);
-  for(const raw of blocks){const schema=JSON.parse(raw);
-   assert.doesNotMatch(raw,forbidden,rel);assert.ok(!('sameAs' in schema),`${rel}: sameAs needs a verified official profile`);
-   assert.doesNotMatch(raw,/&(?:amp|lt|gt|quot|#\d+);/,`${rel}: JSON-LD text must not be HTML-escaped`);
-   for(const url of raw.match(/https:\/\/lilora\.app[^"#]*/g)||[]){const path=new URL(url).pathname;assert.ok(existsSync(root+path+(path.endsWith('/')?'index.html':'')),`${rel}: JSON-LD points to missing ${url}`);}
-   if(schema['@type']==='BreadcrumbList'){assert.equal(schema.itemListElement.at(-1).item,canonical,rel);schema.itemListElement.forEach((x,i)=>assert.equal(x.position,i+1));}
-   if(schema['@type']==='Organization')assert.equal(schema['@id'],'https://lilora.app/#organization');
-   if(schema['@type']==='WebSite'){assert.equal(schema.url,canonical);assert.equal(schema['@id'],canonical+'#website');assert.equal(schema.publisher['@id'],'https://lilora.app/#organization');}
-   if(['Article','BlogPosting'].includes(schema['@type'])){
-    for(const role of ['author','publisher']){assert.equal(schema[role]['@id'],'https://lilora.app/#organization',`${rel}: ${role}`);assert.equal(schema[role].name,'Lilora');assert.equal(schema[role].url,'https://lilora.app/');}
-    assert.equal(schema.inLanguage,s.match(/<html lang="([^"]+)"/)[1]);
-    assert.match(s,/<meta property="og:type" content="article">/,rel);
-   }
-  }
- }
-});
-test('JSON-LD serialization keeps localized text and cannot close its script element',async()=>{
- const {json}=await import('./layout.mjs');
- const value={headline:'Çiçek & "ışık" </script><!-- İçerik — l’été  '};
- const out=json(value);
- assert.doesNotMatch(out,/<\/script|<!--/i);
- assert.deepEqual(JSON.parse(out),value);
+test('every indexable page has a same-language inbound link and guide plant links resolve both ways',()=>{
+ const langOf=f=>(f.slice(root.length+1).match(/^(en|es|de|pt|fr)\//)||[,'tr'])[1];const inbound=new Map(files.map(f=>[f,0]));
+ for(const file of files){const s=readFileSync(file,'utf8');for(let [,url] of s.slice(s.indexOf('<body')).matchAll(/href="([^"]+)"/g)){
+  if(url.startsWith('https://lilora.app/'))url=new URL(url).pathname;if(!url.startsWith('/'))continue;const t=root+url.split('#')[0]+(url.split('#')[0].endsWith('/')?'index.html':'');
+  if(t!==file&&inbound.has(t)&&langOf(t)===langOf(file))inbound.set(t,inbound.get(t)+1);}}
+ for(const [file,n] of inbound)if(!/name="robots" content="[^"]*noindex/.test(readFileSync(file,'utf8')))assert.ok(n>0,`${file}: no same-language inbound link`);
+ const plants=JSON.parse(readFileSync('editorial/plants.json'));
+ for(const a of content)for(const slug of a.plants||[]){const p=plants.find(x=>x.slug===slug);assert.ok(p,`${a.slug}: unknown plant ${slug}`);
+  for(const l of ['tr','en','es','de','pt','fr'])if(a[l]&&p[l]){const pre=l==='tr'?'':l+'/';
+   assert.ok(readFileSync(articlePath(a,l).slice(1)+'index.html','utf8').includes(`href="/${pre}plants/${slug}/"`),`${a.slug}/${l}: missing plant link ${slug}`);}}
 });

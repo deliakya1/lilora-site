@@ -30,6 +30,11 @@
     "indoor-plant-light-guide",
     "yellow-houseplant-leaves"
   ],
+  "plants": [
+    "goeppertia",
+    "phalaenopsis",
+    "spathiphyllum"
+  ],
   "en": {
     "description": "Misting barely changes humidity. What pebble trays, grouping, humidifiers and a better spot can and cannot do for houseplants."
   },

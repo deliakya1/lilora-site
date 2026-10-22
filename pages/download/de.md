@@ -32,6 +32,6 @@
 </section>
 <section class="promo-band wrap" aria-labelledby="download-guides">
   <div><h2 id="download-guides">Lesestoff für die Wartezeit</h2><p>Was lohnt sich vor dem Gießen zu prüfen? Wie lässt sich Licht in der Wohnung einschätzen? Und was gehört in einen hilfreichen Pflegeeintrag?</p></div>
-  <div class="promo-actions"><a class="button outline" href="/de/guides/">Ratgeber lesen</a><a class="text-link" href="/de/support/">Fragen zu Lilora</a></div>
+  <div class="promo-actions"><a class="button outline" href="/de/guides/">Ratgeber lesen</a><a class="text-link" href="/de/support/">Fragen zu Lilora</a><a class="text-link" href="/de/about/">Über Lilora</a></div>
 </section>
 </div>

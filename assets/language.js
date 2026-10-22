@@ -22,7 +22,8 @@
  const link=document.createElement('a');const target=new URL(config.alternates[browser]||(browser==='tr'?'/':'/'+browser+'/'),location.origin);target.search=location.search;target.searchParams.set(marker,browser);if(config.alternates[browser])target.hash=location.hash;
  link.href=target.href;link.textContent=config.alternates[browser]?t.suggestion:t.suggestionHome;link.addEventListener('click',()=>remember(browser));
  const close=document.createElement('button');close.type='button';close.textContent='×';close.setAttribute('aria-label',t.dismiss);close.addEventListener('click',()=>{bar.remove();try{sessionStorage.setItem(dismissKey,'1');}catch{}});
- bar.append(link,close);const header=document.querySelector('.header');document.body.insertBefore(bar,header);
- // The bar floats just below the header, so showing it never shifts the page (CLS).
- bar.style.top=(header.offsetTop+header.offsetHeight+8)+'px';
+ bar.append(link,close);
+ // The bar is absolutely positioned at its static place just below the header, so showing it
+ // never shifts the page (CLS) and needs no layout read (forced reflow).
+ document.querySelector('.header').after(bar);
 })();
