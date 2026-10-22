@@ -49,7 +49,7 @@ URL marker lets deliberate switches survive blocked storage. There is no IP look
 or crawler special case. Native language links and disclosures work without JS.
 
 Only real article/plant translations receive reciprocal hreflang. `html lang` is
-`pt-BR` for `/pt/`, hreflang remains `pt`, and x-default uses the English counterpart.
+`pt-BR` for `/pt/` and so is its hreflang (head, language links, sitemaps); x-default uses the English counterpart.
 Sitemap alternates use the XHTML namespace. Hubs contain their own-language items;
 when fewer than three exist, explicitly marked English fallback cards may appear.
 The journal lists `post` articles; guides and comparisons have their own hubs. New translations
@@ -162,6 +162,17 @@ the sitemap index. Deliberately not done:
   ChatGPT-User, Claude-SearchBot, Claude-User, PerplexityBot, Bingbot) and training
   bots (GPTBot, ClaudeBot, Google-Extended). Blocking training bots would not reduce
   search visibility; that is an owner decision, currently "allow".
+- Verified against provider docs on 22 October 2026: OAI-SearchBot (ChatGPT search),
+  Claude-SearchBot and PerplexityBot are search crawlers; GPTBot and ClaudeBot collect
+  training data; Google-Extended is a robots.txt control token, not a crawler, and does
+  not affect Google Search. ChatGPT-User, Claude-User and Perplexity-User fetch pages
+  on a user's request, and OpenAI/Perplexity say robots.txt may not apply to them.
+- The About page carries the answer-first product fact sheet (what, who, features,
+  limits, app languages, availability, contact). Keep it in sync with support/download.
+- GitHub Pages also serves repository sources (`/content/`, `/pages/`, `/scripts/`,
+  `/locales/`, `/editorial/*.json`, README and package files). `robots.txt` disallows
+  only those for every crawler; `scripts/seo.test.mjs` checks that sitemap URLs,
+  page assets and ownership files stay crawlable and that only 404 has `noindex`.
 
 IndexNow: the key file `/<32-hex key>.txt` at the root lets the site push changed URLs
 to Bing (which also supplies ChatGPT search and Copilot), Yandex, Naver, Seznam and

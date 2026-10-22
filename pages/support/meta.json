@@ -1,26 +1,32 @@
 {
   "en": {
     "title": "A little help for your garden.",
+    "seoTitle": "Lilora support: common questions and contact",
     "description": "Answers to common Lilora questions about language, where plants are stored, deleting an account, reminders, identification and purchases."
   },
   "tr": {
     "title": "Bitkilerin için biraz yardım.",
+    "seoTitle": "Lilora destek: sık sorulan sorular ve iletişim",
     "description": "Lilora için sık sorulan sorular: dil, bitkilerin nerede saklandığı, hesap silme, hatırlatmalar, fotoğraf tanıma ve satın almalar; bize nasıl ulaşırsın."
   },
   "es": {
     "title": "Un poco de ayuda para tus plantas.",
+    "seoTitle": "Ayuda de Lilora: preguntas frecuentes y contacto",
     "description": "Respuestas sobre Lilora: idioma, dónde se guardan las plantas, borrar la cuenta, recordatorios, identificación y compras, y cómo contactarnos."
   },
   "de": {
     "title": "Ein wenig Hilfe für deine Pflanzen.",
+    "seoTitle": "Lilora-Hilfe: häufige Fragen und Kontakt",
     "description": "Antworten zu Lilora: Sprache, Speicherort der Pflanzen, Konto löschen, Erinnerungen, Bestimmung und Käufe – und wie du uns erreichst."
   },
   "pt": {
     "title": "Uma ajuda para suas plantas.",
+    "seoTitle": "Ajuda do Lilora: perguntas frequentes e contato",
     "description": "Respostas sobre o Lilora: idioma, onde as plantas ficam salvas, excluir a conta, lembretes, identificação e compras, e como falar com a gente."
   },
   "fr": {
     "title": "Un peu d’aide pour vos plantes.",
+    "seoTitle": "Aide Lilora : questions fréquentes et contact",
     "description": "Réponses sur Lilora : langue, stockage des plantes, suppression du compte, rappels, identification et achats, et comment nous contacter."
   }
 }
