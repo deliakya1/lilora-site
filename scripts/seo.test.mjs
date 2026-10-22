@@ -169,6 +169,11 @@ test("Bing ownership file names one user token", () => {
   assert.match(read("BingSiteAuth.xml"), /<users>\s*<user>[0-9A-F]{32}<\/user>\s*<\/users>/);
 });
 
+test("home pages carry the Bing ownership meta tag", () => {
+  for (const page of ["index.html", "en/index.html"])
+    assert.match(read(page), /<meta name="msvalidate\.01" content="1EC0BF8EFE417B237473AF8FD803D81B">/, page);
+});
+
 test("IndexNow key file holds exactly its own name", () => {
   const files = readdirSync(".").filter((n) => /^[0-9a-f]{32}\.txt$/.test(n));
   assert.equal(files.length, 1);
