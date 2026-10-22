@@ -30,6 +30,12 @@
     "root-rot",
     "yellow-houseplant-leaves"
   ],
+  "plants": [
+    "zamioculcas-zamiifolia",
+    "dracaena-trifasciata",
+    "spathiphyllum",
+    "aloe-vera"
+  ],
   "en": {
     "description": "Wilting and yellow leaves can mean too much or too little water. Check the mix, the weight of the pot and the roots before you change anything."
   },

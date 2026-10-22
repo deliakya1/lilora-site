@@ -30,6 +30,11 @@
     "root-rot",
     "watering-houseplants"
   ],
+  "plants": [
+    "aloe-vera",
+    "phalaenopsis",
+    "dracaena-trifasciata"
+  ],
   "en": {
     "description": "A drainage hole, a proper container mix and no gravel layer: what a houseplant pot really needs, and how to pot up a plant step by step."
   },

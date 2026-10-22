@@ -34,6 +34,11 @@
     "watering-houseplants",
     "houseplant-humidity"
   ],
+  "plants": [
+    "ficus-lyrata",
+    "goeppertia",
+    "aloe-vera"
+  ],
   "en": {
     "description": "Less light, dry heated air and slower growth: how to adjust light, watering and feeding for houseplants in winter, in either hemisphere."
   },

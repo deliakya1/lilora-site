@@ -32,6 +32,6 @@
 </section>
 <section class="promo-band wrap" aria-labelledby="download-guides">
   <div><h2 id="download-guides">Something to read while you wait</h2><p>Learn what to notice before watering, how to think about indoor light, and how to leave a useful care record.</p></div>
-  <div class="promo-actions"><a class="button outline" href="/en/guides/">Read the guides</a><a class="text-link" href="/en/support/">Questions about Lilora</a></div>
+  <div class="promo-actions"><a class="button outline" href="/en/guides/">Read the guides</a><a class="text-link" href="/en/support/">Questions about Lilora</a><a class="text-link" href="/en/about/">About Lilora</a></div>
 </section>
 </div>
