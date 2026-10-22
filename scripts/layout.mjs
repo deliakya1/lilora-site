@@ -90,7 +90,7 @@ export function page({
   const button = link(
     "download/",
     t.getApp,
-    'class="button" data-analytics-cta="app-info"',
+    'class="button" data-analytics-cta="header"',
   );
   const languageNote = !["tr", "en"].includes(lang)
     ? `<small class="app-language-note">${escape(t.appLanguages)}</small>`
