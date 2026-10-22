@@ -868,3 +868,12 @@ are not committed yet; they need the owner's HTML-file tokens.
 CI impact: one push and the existing GitHub Pages build/deploy after squash; one
 pinned dev dependency (`axe-core` 4.14.0) for local checks; no new workflow,
 service or paid API.
+
+Publication receipt (22 October 2026, ~12:05 UTC, main `1b6d764`): from lilora.app,
+`sitemap.xml` (sitemap index), `sitemap-de.xml`, `/feed.xml`, `/fr/feed.xml`,
+`/.well-known/security.txt`, `robots.txt`, the WOFF2 font, `/en/editorial/` (with
+`#about-our-content`), `/de/guides/root-rot/` (new short title, no invalid `lang`)
+and `/es/guides/houseplant-pests/` all returned HTTP 200, checked through `pg_net`
+from the staging database as for prompts 04 and 06.
+
+<!-- site-prompt-07: done -->
