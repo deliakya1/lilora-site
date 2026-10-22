@@ -148,6 +148,27 @@ Checked by `scripts/seo.test.mjs` (part of `npm test`) and `scripts/a11y-check.c
 - No on-site search: a static index such as Pagefind would add a build dependency and
   generated bundle for a 270-page site; revisit when the hubs need pagination.
 
+## AI search and agents
+
+AI answer engines read the same public HTML as search engines, so the SEO rules above
+are the AI rules too: static pages that need no JavaScript, a short answer at the top
+of each guide, dated institutional sources linked inline, accurate structured data and
+the sitemap index. Deliberately not done:
+
+- No `llms.txt` or other special AI-ranking file (see Editorial rules). As of
+  October 2026 no major AI provider documents reading it, and published server-log
+  studies show almost no crawler requests for it.
+- `robots.txt` allows every crawler, including AI search/answer bots (OAI-SearchBot,
+  ChatGPT-User, Claude-SearchBot, Claude-User, PerplexityBot, Bingbot) and training
+  bots (GPTBot, ClaudeBot, Google-Extended). Blocking training bots would not reduce
+  search visibility; that is an owner decision, currently "allow".
+
+IndexNow: the key file `/<32-hex key>.txt` at the root lets the site push changed URLs
+to Bing (which also supplies ChatGPT search and Copilot), Yandex, Naver, Seznam and
+other IndexNow engines. After a content merge is live, run
+`node scripts/indexnow.mjs --since YYYY-MM-DD` (or without `--since` for all URLs).
+Google does not use IndexNow; it reads `sitemap.xml`.
+
 ## Assets
 
 `assets/editorial/*.webp` are optimized exports of existing owner-approved Lilora
