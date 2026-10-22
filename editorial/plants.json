@@ -383,8 +383,8 @@
         "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:532810-1"
       },
       {
-        "name": "ASPCA Animal Poison Control Center",
-        "url": "https://www.aspca.org/"
+        "name": "ASPCA Animal Poison Control Center: Spider plant (Chlorophytum comosum)",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant"
       }
     ],
     "tr": {
@@ -397,7 +397,7 @@
         "humidity": "Orta nem",
         "temperature": "7 °C'nin üstünde tut",
         "petSafety": "ASPCA kedi ve köpekler için toksik değil olarak listeler",
-        "petSafetySource": "https://www.aspca.org/",
+        "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant",
         "careLevel": "Kolay"
       },
       "title": "Kurdele çiçeği bakımı",
@@ -425,6 +425,10 @@
           "html": "<p>İlkbahar ve yazın hafifçe besle. NC State, fazla gübrenin yavru oluşumunu azalttığı konusunda uyarıyor. <a href=\"https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/\">NC State Extension</a></p>"
         },
         {
+          "title": "Mevsime göre bakım",
+          "html": "<p>NC State kışın sulamanın azaltılmasını ve bitkinin 7 °C'nin üstünde tutulmasını öneriyor. En iyi eşit nemli harçta büyür ama kuraklığa dayanır; serin aylarda sulamadan önce kontrol et ve üst kısmın biraz daha kurumasına izin ver. <a href=\"https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/\">NC State Extension</a></p>\n<p>Kısa günlerin yararlı bir yanı var: NC State, bitki en az üç hafta boyunca günde 12 saatten az ışık aldığında sürgün oluştuğunu belirtiyor; bu yüzden yavrular çoğu zaman sonbahardan sonra görünür. Yazın dayanamadığı doğrudan güneşten uzak tut. <a href=\"/guides/winter-houseplant-care/\">Kış bakımı rehberine</a> bak. Lilora'da hatırlatma bir kontrol çağrısıdır, sulama emri değil: suladığını ya da ertelediğini kaydedersin; böylece soğuk aylarda harcın daha yavaş kuruduğu kendi geçmişinde görünür.</p>"
+        },
+        {
           "title": "Sık görülen sorunlar",
           "html": "<ul><li><strong>Kahverengi yaprak uçları:</strong> NC State bunu musluk suyundaki klor ve florüre bağlıyor. Yağmur ya da filtre suyu dene ve gübre birikiminden kaçın.</li><li><strong>Harç ıslakken soluk, sarkık yapraklar:</strong> drenajı kontrol et.</li><li><strong>Yavru vermemesi:</strong> bitkiler genellikle birkaç hafta kısa gün ve kesintisiz uzun geceden sonra uzun sap verir; fazla gübre de yavruları azaltır.</li></ul>\n<p>Daha geniş bir kontrol listesi için <a href=\"/guides/yellow-houseplant-leaves/\">sararan yaprak kontrollerine</a> bak.</p>"
         },
@@ -434,11 +438,11 @@
         },
         {
           "title": "Evcil hayvanlar ve insanlar",
-          "html": "<p><a href=\"https://www.aspca.org/\">ASPCA Animal Poison Control Center</a>, kurdele çiçeğini kedi ve köpekler için toksik değil olarak listeler; NC State Extension da aynı şekilde etiketler. Toksik değil, evcil hayvanın onu serbestçe yiyebileceği anlamına gelmez: bitki çiğnemek yine de mideyi bozabilir ve kediler sarkan yapraklara sık sık ilgi gösterir. Kedin çiğniyorsa bitkiyi ulaşamayacağı bir yere as. Evcil hayvanın rahatsız görünürse veterinere başvur. İnsanlarda zehirlenme şüphesinde Türkiye'de 114 UZEM'i ara. Bu genel bilgidir; veteriner veya tıbbi tavsiye değildir.</p>"
+          "html": "<p><a href=\"https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant\">ASPCA Animal Poison Control Center</a>, kurdele çiçeğini kedi ve köpekler için toksik değil olarak listeler; NC State Extension da aynı şekilde etiketler. Toksik değil, evcil hayvanın onu serbestçe yiyebileceği anlamına gelmez: bitki çiğnemek yine de mideyi bozabilir ve kediler sarkan yapraklara sık sık ilgi gösterir. Kedin çiğniyorsa bitkiyi ulaşamayacağı bir yere as. Evcil hayvanın rahatsız görünürse veterinere başvur. İnsanlarda zehirlenme şüphesinde Türkiye'de 114 UZEM'i ara. Bu genel bilgidir; veteriner veya tıbbi tavsiye değildir. Başka bitkilerle karşılaştırmak için <a href=\"/guides/pet-safe-houseplants/\">evcil hayvan dostu bitkiler rehberine</a> ya da <a href=\"/plants/#petNonToxic\">bitki kütüphanesindeki toksik olmayan profillere</a> bak.</p>"
         },
         {
           "title": "Sık sorulan sorular",
-          "html": "<h3>Kurdele çiçeğimin uçları neden kahverengi?</h3>\n<p>Musluk suyundaki kimyasallar, kuru hava ve gübre birikimi yaygın nedenlerdir. Her seferinde tek bir şeyi değiştir.</p>\n<h3>Yavruları ne zaman kesmeliyim?</h3>\n<p>Birkaç santimetrelik kökleri olduğunda; daha gür bir asma saksı istersen üzerinde bırakabilirsin.</p>\n<h3>Kediler için güvenli mi?</h3>\n<p>ASPCA kedi ve köpekler için toksik değil olarak listeliyor. Yine de çiğnemesine izin verme.</p>"
+          "html": "<h3>Kurdele çiçeğimin uçları neden kahverengi?</h3>\n<p>Musluk suyundaki kimyasallar, kuru hava ve gübre birikimi yaygın nedenlerdir. Her seferinde tek bir şeyi değiştir.</p>\n<h3>Yavruları ne zaman kesmeliyim?</h3>\n<p>Birkaç santimetrelik kökleri olduğunda; daha gür bir asma saksı istersen üzerinde bırakabilirsin.</p>\n<h3>Kediler için güvenli mi?</h3>\n<p>ASPCA kedi ve köpekler için toksik değil olarak listeliyor. Yine de çiğnemesine izin verme.</p>\n<h3>Kurdele çiçeğim neden yavru vermiyor?</h3>\n<p>Sürgünler genellikle birkaç hafta boyunca günde 12 saatten az ışık aldıktan sonra oluşur. NC State'e göre fazla gübre de yavru sayısını azaltır.</p>"
         }
       ]
     },
@@ -452,7 +456,7 @@
         "humidity": "Medium humidity",
         "temperature": "Keep above 7 °C (45 °F)",
         "petSafety": "Listed as non-toxic to cats and dogs by the ASPCA",
-        "petSafetySource": "https://www.aspca.org/",
+        "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant",
         "careLevel": "Easy"
       },
       "title": "Spider plant care",
@@ -480,6 +484,10 @@
           "html": "<p>Feed lightly during spring and summer. NC State warns that over-fertilizing reduces plantlet formation. <a href=\"https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/\">NC State Extension</a></p>"
         },
         {
+          "title": "Seasonal care",
+          "html": "<p>NC State advises reducing watering in winter and keeping the plant above 7 °C (45 °F). It grows best in evenly moist mix but tolerates dry spells, so in cool months check before watering and let the top dry a little more. <a href=\"https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/\">NC State Extension</a></p>\n<p>Short days have a useful side effect: NC State notes that runners form when the plant gets less than 12 hours of light a day for at least three weeks, so plantlets often appear after autumn. Keep it out of direct sun, which it does not tolerate, in summer. See the <a href=\"/en/guides/winter-houseplant-care/\">winter care guide</a>. In Lilora, a reminder is a prompt to check, not an order to water: you record whether you watered or snoozed, so slower drying in the cold months shows up in your own history.</p>"
+        },
+        {
           "title": "Common problems",
           "html": "<ul><li><strong>Brown leaf tips:</strong> NC State links them to chlorine and fluoride in tap water. Try rainwater or filtered water and avoid fertilizer build-up.</li><li><strong>Pale, limp leaves with wet mix:</strong> check drainage.</li><li><strong>No plantlets:</strong> plants often make runners after several weeks of short days and long uninterrupted nights; heavy feeding also reduces them.</li></ul>\n<p>See the <a href=\"/en/guides/yellow-houseplant-leaves/\">yellow-leaf checks</a> for broader troubleshooting.</p>"
         },
@@ -489,11 +497,11 @@
         },
         {
           "title": "Pets and people",
-          "html": "<p>The <a href=\"https://www.aspca.org/\">ASPCA Animal Poison Control Center</a> lists spider plant as non-toxic to cats and dogs, and NC State Extension tags it the same way. Non-toxic does not mean a pet can eat it freely: chewing plant material can still upset a stomach, and cats are often drawn to the dangling leaves. Hang it out of reach if your cat chews it. If a pet seems unwell, contact a veterinarian. For people in Türkiye, the poison information line is 114 (UZEM). This is general information, not veterinary or medical advice.</p>"
+          "html": "<p>The <a href=\"https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant\">ASPCA Animal Poison Control Center</a> lists spider plant as non-toxic to cats and dogs, and NC State Extension tags it the same way. Non-toxic does not mean a pet can eat it freely: chewing plant material can still upset a stomach, and cats are often drawn to the dangling leaves. Hang it out of reach if your cat chews it. If a pet seems unwell, contact a veterinarian. For people in Türkiye, the poison information line is 114 (UZEM). This is general information, not veterinary or medical advice. To compare other plants, see the <a href=\"/en/guides/pet-safe-houseplants/\">pet-safe houseplants guide</a> or the <a href=\"/en/plants/#petNonToxic\">non-toxic profiles in the plant library</a>.</p>"
         },
         {
           "title": "Common questions",
-          "html": "<h3>Why does my spider plant have brown tips?</h3>\n<p>Tap-water chemicals, dry air and fertilizer build-up are common causes. Change one thing at a time.</p>\n<h3>When should I cut off the plantlets?</h3>\n<p>Once they have roots of a few centimetres, or leave them on for a fuller hanging plant.</p>\n<h3>Is spider plant safe for cats?</h3>\n<p>The ASPCA lists it as non-toxic to cats and dogs. Still discourage chewing.</p>"
+          "html": "<h3>Why does my spider plant have brown tips?</h3>\n<p>Tap-water chemicals, dry air and fertilizer build-up are common causes. Change one thing at a time.</p>\n<h3>When should I cut off the plantlets?</h3>\n<p>Once they have roots of a few centimetres, or leave them on for a fuller hanging plant.</p>\n<h3>Is spider plant safe for cats?</h3>\n<p>The ASPCA lists it as non-toxic to cats and dogs. Still discourage chewing.</p>\n<h3>Why hasn’t my spider plant made plantlets?</h3>\n<p>Runners usually form after several weeks of days with less than 12 hours of light. Heavy feeding also reduces them, according to NC State.</p>"
         }
       ]
     },
@@ -507,7 +515,7 @@
         "humidity": "Humedad media",
         "temperature": "Mantenla por encima de 7 °C",
         "petSafety": "La ASPCA la incluye como no tóxica para gatos y perros",
-        "petSafetySource": "https://www.aspca.org/",
+        "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant",
         "careLevel": "Fácil"
       },
       "title": "Cuidados de la cinta",
@@ -544,7 +552,7 @@
         },
         {
           "title": "Mascotas y personas",
-          "html": "<p>El <a href=\"https://www.aspca.org/\">ASPCA Animal Poison Control Center</a> incluye la cinta (spider plant) como no tóxica para gatos y perros, y NC State Extension la clasifica igual. No tóxica no quiere decir que tu mascota pueda comérsela sin más: masticar materia vegetal puede sentar mal al estómago, y a los gatos les atraen mucho las hojas colgantes. Cuélgala fuera de su alcance si tu gato la mordisquea. Si tu mascota parece encontrarse mal, contacta con un veterinario. Si una persona tiene síntomas tras ingerir una planta, llama a tu centro de información toxicológica local. Esto es información general, no consejo veterinario ni médico.</p>"
+          "html": "<p>El <a href=\"https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant\">ASPCA Animal Poison Control Center</a> incluye la cinta (spider plant) como no tóxica para gatos y perros, y NC State Extension la clasifica igual. No tóxica no quiere decir que tu mascota pueda comérsela sin más: masticar materia vegetal puede sentar mal al estómago, y a los gatos les atraen mucho las hojas colgantes. Cuélgala fuera de su alcance si tu gato la mordisquea. Si tu mascota parece encontrarse mal, contacta con un veterinario. Si una persona tiene síntomas tras ingerir una planta, llama a tu centro de información toxicológica local. Esto es información general, no consejo veterinario ni médico.</p>"
         },
         {
           "title": "Preguntas frecuentes",
@@ -562,7 +570,7 @@
         "humidity": "Mittlere Luftfeuchtigkeit",
         "temperature": "Über 7 °C halten",
         "petSafety": "Von der ASPCA als ungiftig für Katzen und Hunde geführt",
-        "petSafetySource": "https://www.aspca.org/",
+        "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant",
         "careLevel": "Leicht"
       },
       "title": "Grünlilie pflegen",
@@ -599,7 +607,7 @@
         },
         {
           "title": "Haustiere und Menschen",
-          "html": "<p>Das <a href=\"https://www.aspca.org/\">ASPCA Animal Poison Control Center</a> führt die Grünlilie (spider plant) als ungiftig für Katzen und Hunde, und NC State Extension stuft sie genauso ein. Ungiftig heißt nicht, dass dein Tier sie bedenkenlos fressen kann: Pflanzenmaterial kann trotzdem den Magen verstimmen, und Katzen lieben die herabhängenden Blätter. Häng sie außer Reichweite, wenn deine Katze daran knabbert. Wirkt dein Tier krank, wende dich an eine Tierarztpraxis. Hat ein Mensch nach dem Verzehr einer Pflanze Beschwerden, wende dich an den Giftnotruf in deiner Region. Dies sind allgemeine Informationen, keine tierärztliche oder medizinische Beratung.</p>"
+          "html": "<p>Das <a href=\"https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant\">ASPCA Animal Poison Control Center</a> führt die Grünlilie (spider plant) als ungiftig für Katzen und Hunde, und NC State Extension stuft sie genauso ein. Ungiftig heißt nicht, dass dein Tier sie bedenkenlos fressen kann: Pflanzenmaterial kann trotzdem den Magen verstimmen, und Katzen lieben die herabhängenden Blätter. Häng sie außer Reichweite, wenn deine Katze daran knabbert. Wirkt dein Tier krank, wende dich an eine Tierarztpraxis. Hat ein Mensch nach dem Verzehr einer Pflanze Beschwerden, wende dich an den Giftnotruf in deiner Region. Dies sind allgemeine Informationen, keine tierärztliche oder medizinische Beratung.</p>"
         },
         {
           "title": "Häufige Fragen",
@@ -617,7 +625,7 @@
         "humidity": "Umidade média",
         "temperature": "Mantenha acima de 7 °C",
         "petSafety": "A ASPCA lista como não tóxico para gatos e cães",
-        "petSafetySource": "https://www.aspca.org/",
+        "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant",
         "careLevel": "Fácil"
       },
       "title": "Cuidados com o clorofito",
@@ -654,7 +662,7 @@
         },
         {
           "title": "Animais e pessoas",
-          "html": "<p>O <a href=\"https://www.aspca.org/\">ASPCA Animal Poison Control Center</a> lista o clorofito (spider plant) como não tóxico para gatos e cães, e a NC State Extension o classifica da mesma forma. Não tóxico não quer dizer que o animal possa comê-lo à vontade: mastigar planta ainda pode dar mal-estar no estômago, e os gatos adoram as folhas pendentes. Pendure-o fora de alcance se o seu gato o mastigar. Se o seu animal parecer mal, procure um veterinário. Se uma pessoa tiver sintomas depois de ingerir uma planta, ligue para o centro de informação toxicológica da sua região. Isto é informação geral, não orientação veterinária nem médica.</p>"
+          "html": "<p>O <a href=\"https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant\">ASPCA Animal Poison Control Center</a> lista o clorofito (spider plant) como não tóxico para gatos e cães, e a NC State Extension o classifica da mesma forma. Não tóxico não quer dizer que o animal possa comê-lo à vontade: mastigar planta ainda pode dar mal-estar no estômago, e os gatos adoram as folhas pendentes. Pendure-o fora de alcance se o seu gato o mastigar. Se o seu animal parecer mal, procure um veterinário. Se uma pessoa tiver sintomas depois de ingerir uma planta, ligue para o centro de informação toxicológica da sua região. Isto é informação geral, não orientação veterinária nem médica.</p>"
         },
         {
           "title": "Perguntas frequentes",
@@ -672,7 +680,7 @@
         "humidity": "Humidité moyenne",
         "temperature": "Au-dessus de 7 °C",
         "petSafety": "Classée non toxique pour les chats et les chiens par l’ASPCA",
-        "petSafetySource": "https://www.aspca.org/",
+        "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant",
         "careLevel": "Facile"
       },
       "title": "Entretien de la plante araignée (chlorophytum)",
@@ -709,7 +717,7 @@
         },
         {
           "title": "Animaux et humains",
-          "html": "<p>L’<a href=\"https://www.aspca.org/\">ASPCA Animal Poison Control Center</a> classe la plante araignée (spider plant) comme non toxique pour les chats et les chiens, et NC State Extension la classe de la même façon. Non toxique ne veut pas dire qu’un animal peut la manger librement : mâcher des végétaux peut quand même déranger l’estomac, et les chats adorent les feuilles retombantes. Suspendez-la hors de portée si votre chat la mâchonne. Si votre animal semble malade, contactez un vétérinaire. Si une personne a des symptômes après avoir avalé une plante, appelez le centre antipoison de votre région. Ces informations sont générales et ne remplacent pas l’avis d’un vétérinaire ou d’un médecin.</p>"
+          "html": "<p>L’<a href=\"https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant\">ASPCA Animal Poison Control Center</a> classe la plante araignée (spider plant) comme non toxique pour les chats et les chiens, et NC State Extension la classe de la même façon. Non toxique ne veut pas dire qu’un animal peut la manger librement : mâcher des végétaux peut quand même déranger l’estomac, et les chats adorent les feuilles retombantes. Suspendez-la hors de portée si votre chat la mâchonne. Si votre animal semble malade, contactez un vétérinaire. Si une personne a des symptômes après avoir avalé une plante, appelez le centre antipoison de votre région. Ces informations sont générales et ne remplacent pas l’avis d’un vétérinaire ou d’un médecin.</p>"
         },
         {
           "title": "Questions fréquentes",
@@ -741,8 +749,8 @@
         "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77164235-1"
       },
       {
-        "name": "ASPCA Animal Poison Control Center",
-        "url": "https://www.aspca.org/"
+        "name": "ASPCA Animal Poison Control Center: Mother-in-law’s tongue (Sansevieria trifasciata)",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mother-laws-tongue"
       }
     ],
     "tr": {
@@ -755,7 +763,7 @@
         "humidity": "Kuru ev havasına dayanır",
         "temperature": "Oda sıcaklığı; 10 °C civarındaki serinliğe dayanır",
         "petSafety": "ASPCA kedi ve köpekler için toksik olarak listeler",
-        "petSafetySource": "https://www.aspca.org/",
+        "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mother-laws-tongue",
         "careLevel": "Kolay"
       },
       "title": "Paşa kılıcı bakımı",
@@ -783,6 +791,10 @@
           "html": "<p>Yavaş büyüdüğü için besin ihtiyacı azdır. Büyüme döneminde bir iki kez hafif saksı bitkisi gübresi yeter; kışın verme.</p>"
         },
         {
+          "title": "Mevsime göre bakım",
+          "html": "<p>Büyüme mevsiminde harcın sulamalar arasında kurumasına izin ver. NC State kışın yalnızca bir iki ayda bir suya ihtiyaç duyabileceğini söylüyor; bunu takvim değil, ne kadar yavaş kuruduğunun bir işareti olarak gör ve yine de önce bütün kök bölgesinin kuru olduğunu kontrol et. Yaklaşık 10 °C'lik serin odalara ve kuru havaya dayanır ama aşırı sulama kökleri çürütür; soğuk ve ıslak harç en riskli birleşimdir. <a href=\"https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/\">NC State Extension</a></p>\n<p>NC State günün bir bölümünde 2–6 saat doğrudan güneşi ideal sayıyor; bitki loş yerlere de dayanır ama orada daha yavaş büyür ve kurur. <a href=\"/guides/winter-houseplant-care/\">Kış bakımı rehberine</a> bak. Lilora'da hatırlatma bir kontrol çağrısıdır, sulama emri değil: suladığını ya da ertelediğini kaydedersin; böylece soğuk aylarda harcın daha yavaş kuruduğu kendi geçmişinde görünür.</p>"
+        },
+        {
           "title": "Sık görülen sorunlar",
           "html": "<ul><li><strong>Dipten yumuşayıp çöken yapraklar:</strong> NC State fazla suyun kök çürümesine yol açtığını belirtiyor. Köksapları ve kökleri kontrol et; sert doku iyi bir işarettir.</li><li><strong>Unlu bit ve kırmızı örümcek:</strong> yaprak diplerini incele.</li><li><strong>Buruşuk yapraklar:</strong> uzun bir kuraklıktan sonra görülebilir; yine de bol sulamadan önce köklere bak.</li></ul>\n<p>Bakımı değiştirmeden önce <a href=\"/guides/yellow-houseplant-leaves/\">sararan yaprak kontrollerine</a> göz at.</p>"
         },
@@ -792,11 +804,11 @@
         },
         {
           "title": "Evcil hayvanlar ve insanlar",
-          "html": "<p><a href=\"https://www.aspca.org/\">ASPCA Animal Poison Control Center</a>, paşa kılıcını (mother-in-law's tongue) kedi ve köpekler için toksik olarak listeler. Toksik madde olarak saponinleri, belirti olarak bulantı, kusma ve ishali sayar. Evcil hayvanın bitkiyi çiğnerse bir veterinere veya hayvan zehir danışma hizmetine başvur. İnsanlarda zehirlenme şüphesinde Türkiye'de 114 UZEM'i ara. Bu genel bilgidir; veteriner veya tıbbi tavsiye değildir.</p>"
+          "html": "<p><a href=\"https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mother-laws-tongue\">ASPCA Animal Poison Control Center</a>, paşa kılıcını (mother-in-law's tongue) kedi ve köpekler için toksik olarak listeler. Toksik madde olarak saponinleri, belirti olarak bulantı, kusma ve ishali sayar. Evcil hayvanın bitkiyi çiğnerse bir veterinere veya hayvan zehir danışma hizmetine başvur. İnsanlarda zehirlenme şüphesinde Türkiye'de 114 UZEM'i ara. Bu genel bilgidir; veteriner veya tıbbi tavsiye değildir. Başka bitkilerle karşılaştırmak için <a href=\"/guides/pet-safe-houseplants/\">evcil hayvan dostu bitkiler rehberine</a> ya da <a href=\"/plants/#petNonToxic\">bitki kütüphanesindeki toksik olmayan profillere</a> bak.</p>"
         },
         {
           "title": "Sık sorulan sorular",
-          "html": "<h3>Paşa kılıcını ne sıklıkla sulamalıyım?</h3>\n<p>Sabit bir sayı yok. Bütün kök bölgesi kuruyunca sula; bu haftalar sürebilir, kışın daha da seyrek.</p>\n<h3>Penceresiz banyoda yaşar mı?</h3>\n<p>Işık olmadan yaşamaz. Az ışığa dayanır ama yine de bir pencere ya da bitki lambası ister.</p>\n<h3>Neden artık Dracaena deniyor?</h3>\n<p>DNA çalışmaları <em>Sansevieria</em>'yı <em>Dracaena</em> içine yerleştirdi. Kew <em>Dracaena trifasciata</em> adını kabul ediyor; bakım aynı.</p>"
+          "html": "<h3>Paşa kılıcını ne sıklıkla sulamalıyım?</h3>\n<p>Sabit bir sayı yok. Bütün kök bölgesi kuruyunca sula; bu haftalar sürebilir, kışın daha da seyrek.</p>\n<h3>Penceresiz banyoda yaşar mı?</h3>\n<p>Işık olmadan yaşamaz. Az ışığa dayanır ama yine de bir pencere ya da bitki lambası ister.</p>\n<h3>Neden artık Dracaena deniyor?</h3>\n<p>DNA çalışmaları <em>Sansevieria</em>'yı <em>Dracaena</em> içine yerleştirdi. Kew <em>Dracaena trifasciata</em> adını kabul ediyor; bakım aynı.</p>\n<h3>Paşa kılıcı doğrudan güneşe dayanır mı?</h3>\n<p>Günün bir bölümünde evet. NC State 2–6 saat doğrudan güneşi ideal sayıyor; bitki loş iç mekânlara da dayanır.</p>"
         }
       ]
     },
@@ -810,7 +822,7 @@
         "humidity": "Tolerates dry indoor air",
         "temperature": "Room temperature; tolerates cool spells around 10 °C (50 °F)",
         "petSafety": "Listed as toxic to cats and dogs by the ASPCA",
-        "petSafetySource": "https://www.aspca.org/",
+        "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mother-laws-tongue",
         "careLevel": "Easy"
       },
       "title": "Snake plant care",
@@ -838,6 +850,10 @@
           "html": "<p>Growth is slow, so feeding needs are modest. A light feed with houseplant fertilizer once or twice during the growing season is plenty; skip it in winter.</p>"
         },
         {
+          "title": "Seasonal care",
+          "html": "<p>In the growing season, let the mix dry between waterings. NC State says that in winter it may need water only every one to two months; treat that as a sign of how slowly it dries, not as a calendar, and still check that the whole root zone is dry first. It tolerates cool rooms around 10 °C (50 °F) and dry air, but overwatering rots the roots, and cold, wet mix is the riskiest combination. <a href=\"https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/\">NC State Extension</a></p>\n<p>NC State lists 2 to 6 hours of direct sun for part of the day as ideal, while the plant also copes with dim spots, where it grows and dries more slowly. See the <a href=\"/en/guides/winter-houseplant-care/\">winter care guide</a>. In Lilora, a reminder is a prompt to check, not an order to water: you record whether you watered or snoozed, so slower drying in the cold months shows up in your own history.</p>"
+        },
+        {
           "title": "Common problems",
           "html": "<ul><li><strong>Soft, collapsing leaves at the base:</strong> NC State warns that overwatering causes root rot. Check the rhizomes and roots; firm tissue is a good sign.</li><li><strong>Mealybugs and spider mites:</strong> inspect the leaf bases.</li><li><strong>Wrinkled leaves:</strong> can follow a long dry spell, but check the roots before watering heavily.</li></ul>\n<p>See the <a href=\"/en/guides/yellow-houseplant-leaves/\">yellow-leaf checks</a> before changing care.</p>"
         },
@@ -847,11 +863,11 @@
         },
         {
           "title": "Pets and people",
-          "html": "<p>The <a href=\"https://www.aspca.org/\">ASPCA Animal Poison Control Center</a> lists snake plant (mother-in-law’s tongue) as toxic to cats and dogs. It names saponins as the toxic principle and lists nausea, vomiting and diarrhoea as signs. If a pet chews it, contact a veterinarian or an animal poison control service. For people in Türkiye, the poison information line is 114 (UZEM). This is general information, not veterinary or medical advice.</p>"
+          "html": "<p>The <a href=\"https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mother-laws-tongue\">ASPCA Animal Poison Control Center</a> lists snake plant (mother-in-law’s tongue) as toxic to cats and dogs. It names saponins as the toxic principle and lists nausea, vomiting and diarrhoea as signs. If a pet chews it, contact a veterinarian or an animal poison control service. For people in Türkiye, the poison information line is 114 (UZEM). This is general information, not veterinary or medical advice. To compare other plants, see the <a href=\"/en/guides/pet-safe-houseplants/\">pet-safe houseplants guide</a> or the <a href=\"/en/plants/#petNonToxic\">non-toxic profiles in the plant library</a>.</p>"
         },
         {
           "title": "Common questions",
-          "html": "<h3>How often should I water a snake plant?</h3>\n<p>There is no fixed number. Water when the whole root zone is dry, which may take weeks, and less in winter.</p>\n<h3>Can it grow in a bathroom with no window?</h3>\n<p>Not without light. It tolerates low light, but it still needs a window or a grow light.</p>\n<h3>Why is it called Dracaena now?</h3>\n<p>DNA studies placed <em>Sansevieria</em> inside <em>Dracaena</em>. Kew accepts <em>Dracaena trifasciata</em>; the care stays the same.</p>"
+          "html": "<h3>How often should I water a snake plant?</h3>\n<p>There is no fixed number. Water when the whole root zone is dry, which may take weeks, and less in winter.</p>\n<h3>Can it grow in a bathroom with no window?</h3>\n<p>Not without light. It tolerates low light, but it still needs a window or a grow light.</p>\n<h3>Why is it called Dracaena now?</h3>\n<p>DNA studies placed <em>Sansevieria</em> inside <em>Dracaena</em>. Kew accepts <em>Dracaena trifasciata</em>; the care stays the same.</p>\n<h3>Can a snake plant take direct sun?</h3>\n<p>Yes, for part of the day. NC State lists 2 to 6 hours of direct sun as ideal, and the plant also tolerates dim indoor spots.</p>"
         }
       ]
     },
@@ -865,7 +881,7 @@
         "humidity": "Tolera el aire seco de interior",
         "temperature": "Temperatura ambiente; soporta periodos frescos de unos 10 °C",
         "petSafety": "La ASPCA la incluye como tóxica para gatos y perros",
-        "petSafetySource": "https://www.aspca.org/",
+        "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mother-laws-tongue",
         "careLevel": "Fácil"
       },
       "title": "Cuidados de la lengua de suegra (sansevieria)",
@@ -902,7 +918,7 @@
         },
         {
           "title": "Mascotas y personas",
-          "html": "<p>El <a href=\"https://www.aspca.org/\">ASPCA Animal Poison Control Center</a> incluye la lengua de suegra (mother-in-law’s tongue) como tóxica para gatos y perros. Señala las saponinas como principio tóxico y enumera náuseas, vómitos y diarrea como signos. Si tu mascota la mordisquea, contacta con un veterinario o con un servicio de toxicología animal. Si una persona la ingiere, llama a tu centro de información toxicológica local. Esto es información general, no consejo veterinario ni médico.</p>"
+          "html": "<p>El <a href=\"https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mother-laws-tongue\">ASPCA Animal Poison Control Center</a> incluye la lengua de suegra (mother-in-law’s tongue) como tóxica para gatos y perros. Señala las saponinas como principio tóxico y enumera náuseas, vómitos y diarrea como signos. Si tu mascota la mordisquea, contacta con un veterinario o con un servicio de toxicología animal. Si una persona la ingiere, llama a tu centro de información toxicológica local. Esto es información general, no consejo veterinario ni médico.</p>"
         },
         {
           "title": "Preguntas frecuentes",
@@ -920,7 +936,7 @@
         "humidity": "Verträgt trockene Heizungsluft",
         "temperature": "Zimmertemperatur; verträgt kühle Phasen um 10 °C",
         "petSafety": "Von der ASPCA als giftig für Katzen und Hunde geführt",
-        "petSafetySource": "https://www.aspca.org/",
+        "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mother-laws-tongue",
         "careLevel": "Leicht"
       },
       "title": "Bogenhanf (Sansevieria) pflegen",
@@ -957,7 +973,7 @@
         },
         {
           "title": "Haustiere und Menschen",
-          "html": "<p>Das <a href=\"https://www.aspca.org/\">ASPCA Animal Poison Control Center</a> führt den Bogenhanf (mother-in-law’s tongue) als giftig für Katzen und Hunde. Als giftigen Bestandteil nennt es Saponine, als Anzeichen Übelkeit, Erbrechen und Durchfall. Knabbert dein Tier daran, wende dich an eine Tierarztpraxis oder einen tierärztlichen Giftnotruf. Hat ein Mensch etwas davon gegessen, wende dich an den Giftnotruf in deiner Region. Dies sind allgemeine Informationen, keine tierärztliche oder medizinische Beratung.</p>"
+          "html": "<p>Das <a href=\"https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mother-laws-tongue\">ASPCA Animal Poison Control Center</a> führt den Bogenhanf (mother-in-law’s tongue) als giftig für Katzen und Hunde. Als giftigen Bestandteil nennt es Saponine, als Anzeichen Übelkeit, Erbrechen und Durchfall. Knabbert dein Tier daran, wende dich an eine Tierarztpraxis oder einen tierärztlichen Giftnotruf. Hat ein Mensch etwas davon gegessen, wende dich an den Giftnotruf in deiner Region. Dies sind allgemeine Informationen, keine tierärztliche oder medizinische Beratung.</p>"
         },
         {
           "title": "Häufige Fragen",
@@ -975,7 +991,7 @@
         "humidity": "Tolera o ar seco de dentro de casa",
         "temperature": "Temperatura ambiente; aguenta períodos frescos por volta de 10 °C",
         "petSafety": "A ASPCA lista como tóxica para gatos e cães",
-        "petSafetySource": "https://www.aspca.org/",
+        "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mother-laws-tongue",
         "careLevel": "Fácil"
       },
       "title": "Cuidados com a espada-de-são-jorge",
@@ -1012,7 +1028,7 @@
         },
         {
           "title": "Animais e pessoas",
-          "html": "<p>O <a href=\"https://www.aspca.org/\">ASPCA Animal Poison Control Center</a> lista a espada-de-são-jorge (mother-in-law's tongue) como tóxica para gatos e cães. Aponta as saponinas como princípio tóxico e lista náusea, vômito e diarreia como sinais. Se o seu animal mastigar a planta, procure um veterinário ou um serviço de informação toxicológica veterinária. Se uma pessoa ingerir a planta, ligue para o centro de informação toxicológica da sua região. Isto é informação geral, não orientação veterinária nem médica.</p>"
+          "html": "<p>O <a href=\"https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mother-laws-tongue\">ASPCA Animal Poison Control Center</a> lista a espada-de-são-jorge (mother-in-law's tongue) como tóxica para gatos e cães. Aponta as saponinas como princípio tóxico e lista náusea, vômito e diarreia como sinais. Se o seu animal mastigar a planta, procure um veterinário ou um serviço de informação toxicológica veterinária. Se uma pessoa ingerir a planta, ligue para o centro de informação toxicológica da sua região. Isto é informação geral, não orientação veterinária nem médica.</p>"
         },
         {
           "title": "Perguntas frequentes",
@@ -1030,7 +1046,7 @@
         "humidity": "Supporte l’air sec des intérieurs",
         "temperature": "Température ambiante ; supporte des périodes fraîches vers 10 °C",
         "petSafety": "Classée toxique pour les chats et les chiens par l’ASPCA",
-        "petSafetySource": "https://www.aspca.org/",
+        "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mother-laws-tongue",
         "careLevel": "Facile"
       },
       "title": "Entretien de la sansevière",
@@ -1067,7 +1083,7 @@
         },
         {
           "title": "Animaux et humains",
-          "html": "<p>L’<a href=\"https://www.aspca.org/\">ASPCA Animal Poison Control Center</a> classe la sansevière (mother-in-law’s tongue) comme toxique pour les chats et les chiens. Il désigne les saponines comme principe toxique et cite nausées, vomissements et diarrhée comme signes. Si votre animal mâchonne la plante, contactez un vétérinaire ou un centre antipoison vétérinaire. Si une personne en a avalé, appelez le centre antipoison de votre région. Ces informations sont générales et ne remplacent pas l’avis d’un vétérinaire ou d’un médecin.</p>"
+          "html": "<p>L’<a href=\"https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mother-laws-tongue\">ASPCA Animal Poison Control Center</a> classe la sansevière (mother-in-law’s tongue) comme toxique pour les chats et les chiens. Il désigne les saponines comme principe toxique et cite nausées, vomissements et diarrhée comme signes. Si votre animal mâchonne la plante, contactez un vétérinaire ou un centre antipoison vétérinaire. Si une personne en a avalé, appelez le centre antipoison de votre région. Ces informations sont générales et ne remplacent pas l’avis d’un vétérinaire ou d’un médecin.</p>"
         },
         {
           "title": "Questions fréquentes",
@@ -1099,8 +1115,8 @@
         "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:87014-1"
       },
       {
-        "name": "ASPCA Animal Poison Control Center",
-        "url": "https://www.aspca.org/"
+        "name": "ASPCA Animal Poison Control Center: Golden pothos (Epipremnum aureum)",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos"
       }
     ],
     "tr": {
@@ -1113,7 +1129,7 @@
         "humidity": "Normal oda havası; çok kuru odada nemlendirici veya çakıllı tepsi işe yarar",
         "temperature": "Ilık oda sıcaklığı; dona dayanıksız tropik bir sarmaşık",
         "petSafety": "ASPCA kedi ve köpekler için toksik olarak listeler",
-        "petSafetySource": "https://www.aspca.org/",
+        "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos",
         "careLevel": "Kolay"
       },
       "title": "Salon sarmaşığı (potos) bakımı",
@@ -1141,6 +1157,10 @@
           "html": "<p>Büyüme döneminde yaklaşık iki ayda bir, etiketteki dozda saksı bitkisi gübresi ver. Büyümenin yavaşladığı kışın gübreleme. <a href=\"https://plants.ces.ncsu.edu/plants/epipremnum-aureum/\">NC State Extension</a></p>"
         },
         {
+          "title": "Mevsime göre bakım",
+          "html": "<p>NC State kışı dinlenme dönemi olarak ele alıyor: ilkbahara kadar gübreyi bırak ve iyi süzülen harcın sulamalar arasında kurumasına izin vermeyi sürdür. Büyüme yavaşladığı için kuruma uzar, yani sulama araları açılır. NC State aşırı sulamayı kök çürüklüğü ve yaprak kenarlarının kararmasıyla ilişkilendiriyor; bu, yaz düzeni loş bir kışa taşındığında daha olasıdır. <a href=\"https://plants.ces.ncsu.edu/plants/epipremnum-aureum/\">NC State Extension</a></p>\n<p>Salon sarmaşığı az ışıkta uzun süre yaşayabilir ama NC State az ışığın alacayı soldurabileceğini belirtiyor; karanlık aylarda pencereye daha yakın bir yer yardımcı olur. Soğuk cam ve kalorifer için <a href=\"/guides/winter-houseplant-care/\">kış bakımı rehberine</a> bak. Lilora'da hatırlatma bir kontrol çağrısıdır, sulama emri değil: suladığını ya da ertelediğini kaydedersin; böylece soğuk aylarda harcın daha yavaş kuruduğu kendi geçmişinde görünür.</p>"
+        },
+        {
           "title": "Sık görülen sorunlar",
           "html": "<ul><li><strong>Kararan yaprak kenarları ve yumuşayan gövdeler:</strong> NC State bunları fazla suya ve kök çürümesine bağlıyor. Yeniden sulamadan önce harcı ve kökleri kontrol et.</li><li><strong>Alacanın kaybolması:</strong> çoğunlukla yetersiz ışık.</li><li><strong>Zararlılar:</strong> gövde boyunca ve yaprak altlarında unlu bit, kabuklu bit ve trips ara.</li></ul>\n<p>Tek bir sarı yaprak nedeni tek başına göstermez. Aynı anda birçok şeyi değiştirmeden önce <a href=\"/guides/yellow-houseplant-leaves/\">sararan yaprak kontrollerini</a> uygula.</p>"
         },
@@ -1150,11 +1170,11 @@
         },
         {
           "title": "Evcil hayvanlar ve insanlar",
-          "html": "<p><a href=\"https://www.aspca.org/\">ASPCA Animal Poison Control Center</a>, salon sarmaşığını (golden pothos) kedi ve köpekler için toksik olarak listeler. NC State Extension toksik maddeyi kalsiyum oksalat kristalleri olarak belirtir; ağızda tahriş ve şişlik, salya artışı, yutma güçlüğü ve kusma gibi belirtiler sayar; özsuyu da cildi tahriş edebilir. Sarkan dalları ulaşılamayacak yerde tut. Evcil hayvanın bitkiyi çiğnerse bir veterinere veya hayvan zehir danışma hizmetine başvur. İnsanlarda zehirlenme şüphesinde Türkiye'de 114 Ulusal Zehir Danışma Merkezi'ni (UZEM) ara; UZEM bir veteriner hizmeti değildir. Bu genel bilgidir; veteriner veya tıbbi tavsiye değildir.</p>"
+          "html": "<p><a href=\"https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos\">ASPCA Animal Poison Control Center</a>, salon sarmaşığını (golden pothos) kedi ve köpekler için toksik olarak listeler. NC State Extension toksik maddeyi kalsiyum oksalat kristalleri olarak belirtir; ağızda tahriş ve şişlik, salya artışı, yutma güçlüğü ve kusma gibi belirtiler sayar; özsuyu da cildi tahriş edebilir. Sarkan dalları ulaşılamayacak yerde tut. Evcil hayvanın bitkiyi çiğnerse bir veterinere veya hayvan zehir danışma hizmetine başvur. İnsanlarda zehirlenme şüphesinde Türkiye'de 114 Ulusal Zehir Danışma Merkezi'ni (UZEM) ara; UZEM bir veteriner hizmeti değildir. Bu genel bilgidir; veteriner veya tıbbi tavsiye değildir. Başka bitkilerle karşılaştırmak için <a href=\"/guides/pet-safe-houseplants/\">evcil hayvan dostu bitkiler rehberine</a> ya da <a href=\"/plants/#petNonToxic\">bitki kütüphanesindeki toksik olmayan profillere</a> bak.</p>"
         },
         {
           "title": "Sık sorulan sorular",
-          "html": "<h3>Salon sarmaşığı penceresiz odada yaşar mı?</h3>\n<p>Yalnızca yeterli yapay ışıkla. Az ışık da ışıktır; penceresiz bir oda uygun bir bitki lambası ister.</p>\n<h3>Yeni yapraklar neden küçük?</h3>\n<p>Yaygın nedenlerden biri az ışık. Gübre vermeden ya da saksı değiştirmeden önce yerini kontrol et.</p>\n<h3>Yapraklarına su püskürtmeli miyim?</h3>\n<p>Gerekmez. Hava çok kuruysa NC State'in tarif ettiği yöntem nemlendirici ya da çakıllı tepsi.</p>"
+          "html": "<h3>Salon sarmaşığı penceresiz odada yaşar mı?</h3>\n<p>Yalnızca yeterli yapay ışıkla. Az ışık da ışıktır; penceresiz bir oda uygun bir bitki lambası ister.</p>\n<h3>Yeni yapraklar neden küçük?</h3>\n<p>Yaygın nedenlerden biri az ışık. Gübre vermeden ya da saksı değiştirmeden önce yerini kontrol et.</p>\n<h3>Yapraklarına su püskürtmeli miyim?</h3>\n<p>Gerekmez. Hava çok kuruysa NC State'in tarif ettiği yöntem nemlendirici ya da çakıllı tepsi.</p>\n<h3>Salon sarmaşığımın yaprak kenarları neden kararıyor?</h3>\n<p>NC State yaprak kenarlarının kararmasını aşırı sulama ve kök çürüklüğüyle ilişkilendiriyor. Yeniden sulamadan önce harcı ve kökleri kontrol et.</p>"
         }
       ]
     },
@@ -1168,7 +1188,7 @@
         "humidity": "Average room air; a humidifier or pebble tray helps in very dry rooms",
         "temperature": "Warm room temperatures; a tropical climber that is not frost-hardy",
         "petSafety": "Listed as toxic to cats and dogs by the ASPCA",
-        "petSafetySource": "https://www.aspca.org/",
+        "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos",
         "careLevel": "Easy"
       },
       "title": "Pothos care",
@@ -1196,6 +1216,10 @@
           "html": "<p>During active growth, feed about every other month with a houseplant fertilizer at the label rate. Skip feeding in winter, when growth slows. <a href=\"https://plants.ces.ncsu.edu/plants/epipremnum-aureum/\">NC State Extension</a></p>"
         },
         {
+          "title": "Seasonal care",
+          "html": "<p>NC State treats winter as a dormant period: stop feeding until spring, and keep letting the well-drained mix dry between waterings. Because growth slows, that drying takes longer, so the gaps between waterings grow. NC State links overwatering to root rot and blackened leaf margins, which are more likely when a summer routine continues into a dim winter. <a href=\"https://plants.ces.ncsu.edu/plants/epipremnum-aureum/\">NC State Extension</a></p>\n<p>Pothos survives long periods in low light, but NC State notes that low light can fade variegation; in darker months a spot closer to a window helps. The <a href=\"/en/guides/winter-houseplant-care/\">winter care guide</a> covers cold glass and heaters. In Lilora, a reminder is a prompt to check, not an order to water: you record whether you watered or snoozed, so slower drying in the cold months shows up in your own history.</p>"
+        },
+        {
           "title": "Common problems",
           "html": "<ul><li><strong>Blackening leaf edges and soft stems:</strong> NC State links these to overwatering and root rot. Check the mix and roots before adding more water.</li><li><strong>Loss of variegation:</strong> usually too little light.</li><li><strong>Pests:</strong> look for mealybugs, scale and thrips along stems and under leaves.</li></ul>\n<p>One yellow leaf does not identify a cause. Work through the <a href=\"/en/guides/yellow-houseplant-leaves/\">yellow-leaf checks</a> before changing several things at once.</p>"
         },
@@ -1205,11 +1229,11 @@
         },
         {
           "title": "Pets and people",
-          "html": "<p>The <a href=\"https://www.aspca.org/\">ASPCA Animal Poison Control Center</a> lists golden pothos as toxic to cats and dogs. NC State Extension names calcium oxalate crystals as the toxic principle and lists signs such as mouth irritation and swelling, drooling, difficulty swallowing and vomiting; the sap can irritate skin. Keep trailing stems out of reach. If a pet chews the plant, contact a veterinarian or an animal poison control service. For people in Türkiye, the poison information line is 114 (UZEM). This is general information, not veterinary or medical advice.</p>"
+          "html": "<p>The <a href=\"https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos\">ASPCA Animal Poison Control Center</a> lists golden pothos as toxic to cats and dogs. NC State Extension names calcium oxalate crystals as the toxic principle and lists signs such as mouth irritation and swelling, drooling, difficulty swallowing and vomiting; the sap can irritate skin. Keep trailing stems out of reach. If a pet chews the plant, contact a veterinarian or an animal poison control service. For people in Türkiye, the poison information line is 114 (UZEM). This is general information, not veterinary or medical advice. To compare other plants, see the <a href=\"/en/guides/pet-safe-houseplants/\">pet-safe houseplants guide</a> or the <a href=\"/en/plants/#petNonToxic\">non-toxic profiles in the plant library</a>.</p>"
         },
         {
           "title": "Common questions",
-          "html": "<h3>Can pothos live without a window?</h3>\n<p>Only with enough artificial light. Low light is still light; a windowless room needs a suitable grow light.</p>\n<h3>Why are my new pothos leaves smaller?</h3>\n<p>Low light is a common reason. Check the position before feeding or repotting.</p>\n<h3>Should I mist pothos?</h3>\n<p>Misting is not required. If the air is very dry, a humidifier or pebble tray is the option NC State describes.</p>"
+          "html": "<h3>Can pothos live without a window?</h3>\n<p>Only with enough artificial light. Low light is still light; a windowless room needs a suitable grow light.</p>\n<h3>Why are my new pothos leaves smaller?</h3>\n<p>Low light is a common reason. Check the position before feeding or repotting.</p>\n<h3>Should I mist pothos?</h3>\n<p>Misting is not required. If the air is very dry, a humidifier or pebble tray is the option NC State describes.</p>\n<h3>Why are my pothos leaf edges turning black?</h3>\n<p>NC State links blackening leaf margins to overwatering and root rot. Check the mix and roots before you water again.</p>"
         }
       ]
     },
@@ -1223,7 +1247,7 @@
         "humidity": "Humedad ambiente normal; en habitaciones muy secas ayuda un humidificador o una bandeja con guijarros",
         "temperature": "Temperatura cálida de interior; trepadora tropical que no resiste heladas",
         "petSafety": "La ASPCA lo incluye como tóxico para gatos y perros",
-        "petSafetySource": "https://www.aspca.org/",
+        "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos",
         "careLevel": "Fácil"
       },
       "title": "Cuidados del potos",
@@ -1260,7 +1284,7 @@
         },
         {
           "title": "Mascotas y personas",
-          "html": "<p>El <a href=\"https://www.aspca.org/\">ASPCA Animal Poison Control Center</a> incluye el potos (golden pothos) como tóxico para gatos y perros. NC State Extension indica como principio tóxico los cristales de oxalato de calcio y cita signos como irritación e hinchazón de la boca, babeo, dificultad para tragar y vómitos; la savia puede irritar la piel. Mantén los tallos colgantes fuera de su alcance. Si tu mascota lo mordisquea, contacta con un veterinario o con un servicio de toxicología animal. Si una persona lo ingiere, llama a tu centro de información toxicológica local. Esto es información general, no consejo veterinario ni médico.</p>"
+          "html": "<p>El <a href=\"https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos\">ASPCA Animal Poison Control Center</a> incluye el potos (golden pothos) como tóxico para gatos y perros. NC State Extension indica como principio tóxico los cristales de oxalato de calcio y cita signos como irritación e hinchazón de la boca, babeo, dificultad para tragar y vómitos; la savia puede irritar la piel. Mantén los tallos colgantes fuera de su alcance. Si tu mascota lo mordisquea, contacta con un veterinario o con un servicio de toxicología animal. Si una persona lo ingiere, llama a tu centro de información toxicológica local. Esto es información general, no consejo veterinario ni médico.</p>"
         },
         {
           "title": "Preguntas frecuentes",
@@ -1278,7 +1302,7 @@
         "humidity": "Normale Raumluft; in sehr trockenen Räumen helfen Luftbefeuchter oder Kiesschale",
         "temperature": "Warme Zimmertemperatur; tropische Kletterpflanze, nicht frosthart",
         "petSafety": "Von der ASPCA als giftig für Katzen und Hunde geführt",
-        "petSafetySource": "https://www.aspca.org/",
+        "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos",
         "careLevel": "Leicht"
       },
       "title": "Efeutute pflegen",
@@ -1315,7 +1339,7 @@
         },
         {
           "title": "Haustiere und Menschen",
-          "html": "<p>Das <a href=\"https://www.aspca.org/\">ASPCA Animal Poison Control Center</a> führt die Efeutute (golden pothos) als giftig für Katzen und Hunde. NC State Extension nennt Calciumoxalat-Kristalle als giftigen Bestandteil und Anzeichen wie Reizung und Schwellung im Maul, Speicheln, Schluckbeschwerden und Erbrechen; der Pflanzensaft kann die Haut reizen. Halte herabhängende Triebe außer Reichweite. Knabbert dein Tier daran, wende dich an eine Tierarztpraxis oder einen tierärztlichen Giftnotruf. Hat ein Mensch etwas davon gegessen, wende dich an den Giftnotruf in deiner Region. Dies sind allgemeine Informationen, keine tierärztliche oder medizinische Beratung.</p>"
+          "html": "<p>Das <a href=\"https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos\">ASPCA Animal Poison Control Center</a> führt die Efeutute (golden pothos) als giftig für Katzen und Hunde. NC State Extension nennt Calciumoxalat-Kristalle als giftigen Bestandteil und Anzeichen wie Reizung und Schwellung im Maul, Speicheln, Schluckbeschwerden und Erbrechen; der Pflanzensaft kann die Haut reizen. Halte herabhängende Triebe außer Reichweite. Knabbert dein Tier daran, wende dich an eine Tierarztpraxis oder einen tierärztlichen Giftnotruf. Hat ein Mensch etwas davon gegessen, wende dich an den Giftnotruf in deiner Region. Dies sind allgemeine Informationen, keine tierärztliche oder medizinische Beratung.</p>"
         },
         {
           "title": "Häufige Fragen",
@@ -1333,7 +1357,7 @@
         "humidity": "Umidade normal da casa; em cômodos muito secos, umidificador ou bandeja com pedrinhas ajuda",
         "temperature": "Temperatura amena a quente; trepadeira tropical, não tolera geada",
         "petSafety": "A ASPCA lista como tóxica para gatos e cães",
-        "petSafetySource": "https://www.aspca.org/",
+        "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos",
         "careLevel": "Fácil"
       },
       "title": "Cuidados com a jiboia",
@@ -1370,7 +1394,7 @@
         },
         {
           "title": "Animais e pessoas",
-          "html": "<p>O <a href=\"https://www.aspca.org/\">ASPCA Animal Poison Control Center</a> lista a jiboia (golden pothos) como tóxica para gatos e cães. A NC State Extension aponta os cristais de oxalato de cálcio como princípio tóxico e cita sinais como irritação e inchaço na boca, salivação, dificuldade para engolir e vômito; a seiva pode irritar a pele. Mantenha os ramos pendentes fora de alcance. Se o seu animal mastigar a planta, procure um veterinário ou um serviço de informação toxicológica veterinária. Se uma pessoa ingerir a planta, ligue para o centro de informação toxicológica da sua região. Isto é informação geral, não orientação veterinária nem médica.</p>"
+          "html": "<p>O <a href=\"https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos\">ASPCA Animal Poison Control Center</a> lista a jiboia (golden pothos) como tóxica para gatos e cães. A NC State Extension aponta os cristais de oxalato de cálcio como princípio tóxico e cita sinais como irritação e inchaço na boca, salivação, dificuldade para engolir e vômito; a seiva pode irritar a pele. Mantenha os ramos pendentes fora de alcance. Se o seu animal mastigar a planta, procure um veterinário ou um serviço de informação toxicológica veterinária. Se uma pessoa ingerir a planta, ligue para o centro de informação toxicológica da sua região. Isto é informação geral, não orientação veterinária nem médica.</p>"
         },
         {
           "title": "Perguntas frequentes",
@@ -1388,7 +1412,7 @@
         "humidity": "Air ambiant normal ; humidificateur ou plateau de billes dans une pièce très sèche",
         "temperature": "Pièce tempérée à chaude ; liane tropicale qui ne supporte pas le gel",
         "petSafety": "Classé toxique pour les chats et les chiens par l’ASPCA",
-        "petSafetySource": "https://www.aspca.org/",
+        "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos",
         "careLevel": "Facile"
       },
       "title": "Entretien du pothos",
@@ -1425,7 +1449,7 @@
         },
         {
           "title": "Animaux et humains",
-          "html": "<p>L’<a href=\"https://www.aspca.org/\">ASPCA Animal Poison Control Center</a> classe le pothos (golden pothos) comme toxique pour les chats et les chiens. NC State Extension désigne les cristaux d’oxalate de calcium comme principe toxique et cite des signes tels qu’irritation et gonflement de la bouche, salivation, difficulté à avaler et vomissements ; la sève peut irriter la peau. Gardez les tiges retombantes hors de portée. Si votre animal mâchonne la plante, contactez un vétérinaire ou un centre antipoison vétérinaire. Si une personne en a avalé, appelez le centre antipoison de votre région. Ces informations sont générales et ne remplacent pas l’avis d’un vétérinaire ou d’un médecin.</p>"
+          "html": "<p>L’<a href=\"https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos\">ASPCA Animal Poison Control Center</a> classe le pothos (golden pothos) comme toxique pour les chats et les chiens. NC State Extension désigne les cristaux d’oxalate de calcium comme principe toxique et cite des signes tels qu’irritation et gonflement de la bouche, salivation, difficulté à avaler et vomissements ; la sève peut irriter la peau. Gardez les tiges retombantes hors de portée. Si votre animal mâchonne la plante, contactez un vétérinaire ou un centre antipoison vétérinaire. Si une personne en a avalé, appelez le centre antipoison de votre région. Ces informations sont générales et ne remplacent pas l’avis d’un vétérinaire ou d’un médecin.</p>"
         },
         {
           "title": "Questions fréquentes",
@@ -2529,8 +2553,8 @@
         "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:87478-1"
       },
       {
-        "name": "ASPCA Animal Poison Control Center",
-        "url": "https://www.aspca.org/"
+        "name": "ASPCA Animal Poison Control Center: Cutleaf philodendron (Monstera deliciosa)",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cutleaf-philodendron"
       }
     ],
     "tr": {
@@ -2543,7 +2567,7 @@
         "humidity": "Yüksek nemi sever; kuru odada nemlendirici kullan",
         "temperature": "Yaklaşık 16–29 °C",
         "petSafety": "ASPCA kedi ve köpekler için toksik olarak listeler",
-        "petSafetySource": "https://www.aspca.org/",
+        "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cutleaf-philodendron",
         "careLevel": "Kolay–orta"
       },
       "title": "Deve tabanı (Monstera) bakımı",
@@ -2571,6 +2595,10 @@
           "html": "<p>İlkbahar ve yazın etiketteki dozda dengeli bir saksı bitkisi gübresi ver, kışın ara ver. Solmuş ya da kökleri ıslak ve zarar görmüş bir bitkiyi gübreleme.</p>"
         },
         {
+          "title": "Mevsime göre bakım",
+          "html": "<p>NC State kış için ayrı bir takvim vermiyor; aynı kontrolü sürdür: iyice sula, sonra harcın üstten yaklaşık dörtte biri ile üçte biri kuruyana kadar bekle. Kısa günlerde ve serin odalarda bu genellikle daha uzun sürer, yani kontroller seyrekleşir. Bitkiyi sevdiği 16–29 °C aralığında, soğuk camdan ve kaloriferin sıcak hava akımından uzak tut. Budama ve saksı değişimini NC State'in önerdiği gibi ilkbahara bırak. <a href=\"https://plants.ces.ncsu.edu/plants/monstera-deliciosa/\">NC State Extension</a></p>\n<p>Yazın güneşli bir pencere fazla sert olabilir; güneş huzmesi saatlerce yaprakların üzerinde duruyorsa bitkiyi geri çek. Cereyan ve kalorifer için <a href=\"/guides/winter-houseplant-care/\">kış bakımı rehberine</a> bak. Lilora'da hatırlatma bir kontrol çağrısıdır, sulama emri değil: suladığını ya da ertelediğini kaydedersin; böylece soğuk aylarda harcın daha yavaş kuruduğu kendi geçmişinde görünür.</p>"
+        },
+        {
           "title": "Sık görülen sorunlar",
           "html": "<ul><li><strong>Harç ıslakken sararan alt yapraklar:</strong> yeniden sulamadan önce drenajı ve kökleri kontrol et.</li><li><strong>Kahverengi, kuru lekeler:</strong> doğrudan güneşte duruyorsa güneş yanığı olabilir.</li><li><strong>Kabuklu bitler:</strong> NC State eğrelti kabuklu bitini yaygın bir zararlı olarak sayıyor; gövdelere ve yaprak altlarına bak.</li></ul>\n<p><a href=\"/guides/yellow-houseplant-leaves/\">Sararan yaprak kontrolleri</a> bütün tabloya bakmana yardım eder.</p>"
         },
@@ -2580,11 +2608,11 @@
         },
         {
           "title": "Evcil hayvanlar ve insanlar",
-          "html": "<p><a href=\"https://www.aspca.org/\">ASPCA Animal Poison Control Center</a>, deve tabanını çözünmeyen kalsiyum oksalatlar nedeniyle kedi ve köpekler için toksik olarak listeler. Saydığı belirtiler ağızda tahriş, ağız, dil ve dudaklarda yoğun yanma ve tahriş, aşırı salya, kusma ve yutma güçlüğüdür. NC State, özsuyun cildi tahriş edebileceğini ekliyor. Evcil hayvanın bitkiyi çiğnerse bir veterinere veya hayvan zehir danışma hizmetine başvur. İnsanlarda zehirlenme şüphesinde Türkiye'de 114 UZEM'i ara. Bu genel bilgidir; veteriner veya tıbbi tavsiye değildir.</p>"
+          "html": "<p><a href=\"https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cutleaf-philodendron\">ASPCA Animal Poison Control Center</a>, deve tabanını çözünmeyen kalsiyum oksalatlar nedeniyle kedi ve köpekler için toksik olarak listeler. Saydığı belirtiler ağızda tahriş, ağız, dil ve dudaklarda yoğun yanma ve tahriş, aşırı salya, kusma ve yutma güçlüğüdür. NC State, özsuyun cildi tahriş edebileceğini ekliyor. Evcil hayvanın bitkiyi çiğnerse bir veterinere veya hayvan zehir danışma hizmetine başvur. İnsanlarda zehirlenme şüphesinde Türkiye'de 114 UZEM'i ara. Bu genel bilgidir; veteriner veya tıbbi tavsiye değildir. Başka bitkilerle karşılaştırmak için <a href=\"/guides/pet-safe-houseplants/\">evcil hayvan dostu bitkiler rehberine</a> ya da <a href=\"/plants/#petNonToxic\">bitki kütüphanesindeki toksik olmayan profillere</a> bak.</p>"
         },
         {
           "title": "Sık sorulan sorular",
-          "html": "<h3>Deve tabanımın yaprakları neden yarıksız?</h3>\n<p>Genç yapraklar çoğunlukla bütündür. Yarıklar genellikle olgunluk, yeterli ışık ve tırmanabilen bir gövdeyle gelir.</p>\n<h3>Deve tabanı bir filodendron mu?</h3>\n<p>Hayır. Bazen “yarık yapraklı filodendron” adıyla satılır ama <em>Monstera</em> cinsindendir.</p>\n<h3>Gövdedeki uzun kahverengi kökler ne?</h3>\n<p>Hava kökleri. Onları desteğe ya da harca yönlendir; birden çoğunu kesme.</p>"
+          "html": "<h3>Deve tabanımın yaprakları neden yarıksız?</h3>\n<p>Genç yapraklar çoğunlukla bütündür. Yarıklar genellikle olgunluk, yeterli ışık ve tırmanabilen bir gövdeyle gelir.</p>\n<h3>Deve tabanı bir filodendron mu?</h3>\n<p>Hayır. Bazen “yarık yapraklı filodendron” adıyla satılır ama <em>Monstera</em> cinsindendir.</p>\n<h3>Gövdedeki uzun kahverengi kökler ne?</h3>\n<p>Hava kökleri. Onları desteğe ya da harca yönlendir; birden çoğunu kesme.</p>\n<h3>Kışın deve tabanını daha az mı sulamalıyım?</h3>\n<p>Harç daha yavaş kuruduğu için aralar çoğu zaman uzar. Yeni bir sabit takvime geçmek yerine üstteki dörtte bir ile üçte biri kontrol etmeyi sürdür.</p>"
         }
       ]
     },
@@ -2598,7 +2626,7 @@
         "humidity": "Prefers high humidity; use a humidifier in dry rooms",
         "temperature": "About 16–29 °C (60–85 °F)",
         "petSafety": "Listed as toxic to cats and dogs by the ASPCA",
-        "petSafetySource": "https://www.aspca.org/",
+        "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cutleaf-philodendron",
         "careLevel": "Easy to moderate"
       },
       "title": "Monstera care",
@@ -2626,6 +2654,10 @@
           "html": "<p>Feed during spring and summer with a balanced houseplant fertilizer at the label rate, and stop in winter. Do not feed a plant that is wilting or has wet, damaged roots.</p>"
         },
         {
+          "title": "Seasonal care",
+          "html": "<p>NC State gives no separate winter schedule, so keep using the same check: water thoroughly, then wait until roughly the top quarter to third of the mix is dry. With shorter days and cooler rooms that usually takes longer, so checks come further apart. Keep the plant within its preferred 16–29 °C (60–85 °F), away from cold glass and hot air from heaters. Leave pruning and repotting for spring, as NC State suggests. <a href=\"https://plants.ces.ncsu.edu/plants/monstera-deliciosa/\">NC State Extension</a></p>\n<p>In summer, a sunny window can become too strong; move it back if sunbeams sit on the leaves for hours. The <a href=\"/en/guides/winter-houseplant-care/\">winter care guide</a> covers draughts and heating. In Lilora, a reminder is a prompt to check, not an order to water: you record whether you watered or snoozed, so slower drying in the cold months shows up in your own history.</p>"
+        },
+        {
           "title": "Common problems",
           "html": "<ul><li><strong>Yellowing lower leaves with wet mix:</strong> check drainage and roots before watering again.</li><li><strong>Brown, crisp patches:</strong> possible sun scorch if it stands in direct sun.</li><li><strong>Scale insects:</strong> NC State lists fern scale as a common pest; check stems and leaf undersides.</li></ul>\n<p>The <a href=\"/en/guides/yellow-houseplant-leaves/\">yellow-leaf checks</a> help you look at the whole pattern.</p>"
         },
@@ -2635,11 +2667,11 @@
         },
         {
           "title": "Pets and people",
-          "html": "<p>The <a href=\"https://www.aspca.org/\">ASPCA Animal Poison Control Center</a> lists monstera (also called cutleaf philodendron) as toxic to cats and dogs because of insoluble calcium oxalates. The signs it lists are oral irritation, intense burning and irritation of the mouth, tongue and lips, excessive drooling, vomiting and difficulty swallowing. NC State adds that the sap may irritate skin. If a pet chews it, contact a veterinarian or an animal poison control service. For people in Türkiye, the poison information line is 114 (UZEM). This is general information, not veterinary or medical advice.</p>"
+          "html": "<p>The <a href=\"https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cutleaf-philodendron\">ASPCA Animal Poison Control Center</a> lists monstera (also called cutleaf philodendron) as toxic to cats and dogs because of insoluble calcium oxalates. The signs it lists are oral irritation, intense burning and irritation of the mouth, tongue and lips, excessive drooling, vomiting and difficulty swallowing. NC State adds that the sap may irritate skin. If a pet chews it, contact a veterinarian or an animal poison control service. For people in Türkiye, the poison information line is 114 (UZEM). This is general information, not veterinary or medical advice. To compare other plants, see the <a href=\"/en/guides/pet-safe-houseplants/\">pet-safe houseplants guide</a> or the <a href=\"/en/plants/#petNonToxic\">non-toxic profiles in the plant library</a>.</p>"
         },
         {
           "title": "Common questions",
-          "html": "<h3>Why doesn’t my monstera have split leaves?</h3>\n<p>Young leaves are often whole. Splits usually come with maturity, enough light and a stem that can climb.</p>\n<h3>Is monstera a philodendron?</h3>\n<p>No. It is sometimes sold as split-leaf philodendron, but it belongs to the genus <em>Monstera</em>.</p>\n<h3>What are the long brown roots on the stem?</h3>\n<p>Aerial roots. Guide them toward a pole or the mix; do not cut many off at once.</p>"
+          "html": "<h3>Why doesn’t my monstera have split leaves?</h3>\n<p>Young leaves are often whole. Splits usually come with maturity, enough light and a stem that can climb.</p>\n<h3>Is monstera a philodendron?</h3>\n<p>No. It is sometimes sold as split-leaf philodendron, but it belongs to the genus <em>Monstera</em>.</p>\n<h3>What are the long brown roots on the stem?</h3>\n<p>Aerial roots. Guide them toward a pole or the mix; do not cut many off at once.</p>\n<h3>Should I water monstera less in winter?</h3>\n<p>Often the gaps get longer because the mix dries more slowly. Keep checking the top quarter to third instead of switching to a new fixed calendar.</p>"
         }
       ]
     },
@@ -2653,7 +2685,7 @@
         "humidity": "Prefiere humedad alta; usa humidificador si el aire es seco",
         "temperature": "Entre unos 16 y 29 °C",
         "petSafety": "La ASPCA la incluye como tóxica para gatos y perros",
-        "petSafetySource": "https://www.aspca.org/",
+        "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cutleaf-philodendron",
         "careLevel": "Fácil a media"
       },
       "title": "Cuidados de la costilla de Adán (Monstera)",
@@ -2690,7 +2722,7 @@
         },
         {
           "title": "Mascotas y personas",
-          "html": "<p>El <a href=\"https://www.aspca.org/\">ASPCA Animal Poison Control Center</a> incluye la monstera como tóxica para gatos y perros por sus oxalatos de calcio insolubles. Los signos que enumera son irritación oral, ardor intenso e irritación de boca, lengua y labios, babeo excesivo, vómitos y dificultad para tragar. NC State añade que la savia puede irritar la piel. Si tu mascota la mordisquea, contacta con un veterinario o con un servicio de toxicología animal. Si una persona la ingiere, llama a tu centro de información toxicológica local. Esto es información general, no consejo veterinario ni médico.</p>"
+          "html": "<p>El <a href=\"https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cutleaf-philodendron\">ASPCA Animal Poison Control Center</a> incluye la monstera como tóxica para gatos y perros por sus oxalatos de calcio insolubles. Los signos que enumera son irritación oral, ardor intenso e irritación de boca, lengua y labios, babeo excesivo, vómitos y dificultad para tragar. NC State añade que la savia puede irritar la piel. Si tu mascota la mordisquea, contacta con un veterinario o con un servicio de toxicología animal. Si una persona la ingiere, llama a tu centro de información toxicológica local. Esto es información general, no consejo veterinario ni médico.</p>"
         },
         {
           "title": "Preguntas frecuentes",
@@ -2708,7 +2740,7 @@
         "humidity": "Mag hohe Luftfeuchtigkeit; in trockenen Räumen Luftbefeuchter nutzen",
         "temperature": "Etwa 16–29 °C",
         "petSafety": "Von der ASPCA als giftig für Katzen und Hunde geführt",
-        "petSafetySource": "https://www.aspca.org/",
+        "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cutleaf-philodendron",
         "careLevel": "Leicht bis mittel"
       },
       "title": "Monstera pflegen",
@@ -2745,7 +2777,7 @@
         },
         {
           "title": "Haustiere und Menschen",
-          "html": "<p>Das <a href=\"https://www.aspca.org/\">ASPCA Animal Poison Control Center</a> führt die Monstera als giftig für Katzen und Hunde, wegen unlöslicher Calciumoxalate. Als Anzeichen nennt es Reizungen im Maul, starkes Brennen und Reizung an Maul, Zunge und Lippen, starkes Speicheln, Erbrechen und Schluckbeschwerden. NC State ergänzt, dass der Saft die Haut reizen kann. Knabbert dein Tier daran, wende dich an eine Tierarztpraxis oder einen tierärztlichen Giftnotruf. Hat ein Mensch etwas davon gegessen, wende dich an den Giftnotruf in deiner Region. Dies sind allgemeine Informationen, keine tierärztliche oder medizinische Beratung.</p>"
+          "html": "<p>Das <a href=\"https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cutleaf-philodendron\">ASPCA Animal Poison Control Center</a> führt die Monstera als giftig für Katzen und Hunde, wegen unlöslicher Calciumoxalate. Als Anzeichen nennt es Reizungen im Maul, starkes Brennen und Reizung an Maul, Zunge und Lippen, starkes Speicheln, Erbrechen und Schluckbeschwerden. NC State ergänzt, dass der Saft die Haut reizen kann. Knabbert dein Tier daran, wende dich an eine Tierarztpraxis oder einen tierärztlichen Giftnotruf. Hat ein Mensch etwas davon gegessen, wende dich an den Giftnotruf in deiner Region. Dies sind allgemeine Informationen, keine tierärztliche oder medizinische Beratung.</p>"
         },
         {
           "title": "Häufige Fragen",
@@ -2763,7 +2795,7 @@
         "humidity": "Prefere umidade alta; use umidificador em ambientes secos",
         "temperature": "Cerca de 16–29 °C",
         "petSafety": "A ASPCA lista como tóxica para gatos e cães",
-        "petSafetySource": "https://www.aspca.org/",
+        "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cutleaf-philodendron",
         "careLevel": "Fácil a médio"
       },
       "title": "Cuidados com a costela-de-adão",
@@ -2800,7 +2832,7 @@
         },
         {
           "title": "Animais e pessoas",
-          "html": "<p>O <a href=\"https://www.aspca.org/\">ASPCA Animal Poison Control Center</a> lista a costela-de-adão (monstera) como tóxica para gatos e cães por causa dos oxalatos de cálcio insolúveis. Os sinais listados são irritação oral, ardência intensa e irritação da boca, língua e lábios, salivação excessiva, vômito e dificuldade para engolir. A NC State acrescenta que a seiva pode irritar a pele. Se o seu animal mastigar a planta, procure um veterinário ou um serviço de informação toxicológica veterinária. Se uma pessoa ingerir a planta, ligue para o centro de informação toxicológica da sua região. Isto é informação geral, não orientação veterinária nem médica.</p>"
+          "html": "<p>O <a href=\"https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cutleaf-philodendron\">ASPCA Animal Poison Control Center</a> lista a costela-de-adão (monstera) como tóxica para gatos e cães por causa dos oxalatos de cálcio insolúveis. Os sinais listados são irritação oral, ardência intensa e irritação da boca, língua e lábios, salivação excessiva, vômito e dificuldade para engolir. A NC State acrescenta que a seiva pode irritar a pele. Se o seu animal mastigar a planta, procure um veterinário ou um serviço de informação toxicológica veterinária. Se uma pessoa ingerir a planta, ligue para o centro de informação toxicológica da sua região. Isto é informação geral, não orientação veterinária nem médica.</p>"
         },
         {
           "title": "Perguntas frequentes",
@@ -2818,7 +2850,7 @@
         "humidity": "Aime une humidité élevée ; humidificateur si l’air est sec",
         "temperature": "Environ 16–29 °C",
         "petSafety": "Classé toxique pour les chats et les chiens par l’ASPCA",
-        "petSafetySource": "https://www.aspca.org/",
+        "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cutleaf-philodendron",
         "careLevel": "Facile à moyen"
       },
       "title": "Entretien du monstera",
@@ -2855,7 +2887,7 @@
         },
         {
           "title": "Animaux et humains",
-          "html": "<p>L’<a href=\"https://www.aspca.org/\">ASPCA Animal Poison Control Center</a> classe le monstera comme toxique pour les chats et les chiens en raison des oxalates de calcium insolubles. Les signes cités sont une irritation buccale, une brûlure et une irritation intenses de la bouche, de la langue et des lèvres, une salivation excessive, des vomissements et une difficulté à avaler. NC State ajoute que la sève peut irriter la peau. Si votre animal mâchonne la plante, contactez un vétérinaire ou un centre antipoison vétérinaire. Si une personne en a avalé, appelez le centre antipoison de votre région. Ces informations sont générales et ne remplacent pas l’avis d’un vétérinaire ou d’un médecin.</p>"
+          "html": "<p>L’<a href=\"https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cutleaf-philodendron\">ASPCA Animal Poison Control Center</a> classe le monstera comme toxique pour les chats et les chiens en raison des oxalates de calcium insolubles. Les signes cités sont une irritation buccale, une brûlure et une irritation intenses de la bouche, de la langue et des lèvres, une salivation excessive, des vomissements et une difficulté à avaler. NC State ajoute que la sève peut irriter la peau. Si votre animal mâchonne la plante, contactez un vétérinaire ou un centre antipoison vétérinaire. Si une personne en a avalé, appelez le centre antipoison de votre région. Ces informations sont générales et ne remplacent pas l’avis d’un vétérinaire ou d’un médecin.</p>"
         },
         {
           "title": "Questions fréquentes",
@@ -3613,8 +3645,8 @@
         "url": "https://www.rhs.org.uk/getmedia/d02059a1-4e2c-45c3-956b-da5cc90db7f1/Indoor-plants-resources.pdf"
       },
       {
-        "name": "ASPCA Animal Poison Control Center",
-        "url": "https://www.aspca.org/"
+        "name": "ASPCA Animal Poison Control Center: Peace lily (Spathiphyllum)",
+        "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peace-lily"
       }
     ],
     "tr": {
@@ -3627,7 +3659,7 @@
         "humidity": "Nemli havayı sever; kuru hava yaprak uçlarını kahverengileştirebilir",
         "temperature": "Gündüz yaklaşık 20–29 °C; 16 °C'nin altında büyüme yavaşlar",
         "petSafety": "ASPCA kedi ve köpekler için toksik olarak listeler",
-        "petSafetySource": "https://www.aspca.org/",
+        "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peace-lily",
         "careLevel": "Kolay–orta"
       },
       "title": "Barış çiçeği (Spatifilum) bakımı",
@@ -3655,6 +3687,10 @@
           "html": "<p>Kaynaklar ayrıntıda ayrışıyor. NC State önerilen dozun dörtte biriyle gübrelemeyi ve arada harcı bol suyla yıkamayı öneriyor; RHS ise paketteki dozda ayda bir dengeli sıvı gübre öneriyor. Ortak mesaj şu: büyüme döneminde nazikçe besle ve yaprak uçlarını yakabilen tuz birikiminden kaçın. <a href=\"https://plants.ces.ncsu.edu/plants/spathiphyllum/\">NC State Extension</a></p>"
         },
         {
+          "title": "Mevsime göre bakım",
+          "html": "<p>NC State'e göre yaklaşık 4–16 °C arasındaki soğuk ve cereyanlı ortam büyümeyi belirgin biçimde yavaşlatır; 4 °C'nin altında uzun süre kalmak yapraklara, gövdelere ve köklere zarar verebilir. Kışın bitkiyi soğuk pencere ve kapılardan uzak, ılık bir odada tut ve sabit bir günde sulamak yerine harcı kontrol etmeyi sürdür; yavaşlayan büyüme genellikle daha yavaş kuruma demektir. NC State, gerekiyorsa saksı değişimini şubat ya da martta yapmayı öneriyor. <a href=\"https://plants.ces.ncsu.edu/plants/spathiphyllum/\">NC State Extension</a></p>\n<p>Isıtılan odalar çoğu zaman kurudur ve NC State düşük nemi kahverengi yaprak uçlarıyla ilişkilendiriyor. Yazın bitkiyi doğrudan güneşten koru; güneş de uçları kahverengileştirir. <a href=\"/guides/winter-houseplant-care/\">Kış bakımı rehberine</a> ve <a href=\"/guides/houseplant-humidity/\">nem rehberine</a> bak. Lilora'da hatırlatma bir kontrol çağrısıdır, sulama emri değil: suladığını ya da ertelediğini kaydedersin; böylece soğuk aylarda harcın daha yavaş kuruduğu kendi geçmişinde görünür.</p>"
+        },
+        {
           "title": "Sık görülen sorunlar",
           "html": "<ul><li><strong>Kahverengi yaprak uçları:</strong> NC State olası nedenler olarak doğrudan güneşi, az sulamayı, düşük nemi ve gübre tuzlarını sayıyor.</li><li><strong>Unlu bit:</strong> evde en sık görülen zararlı; yaprakları nemli bezle sil.</li><li><strong>Çiçek açmaması:</strong> çoğu zaman ışık az.</li></ul>\n<p>Diğer yaprak değişimleri için <a href=\"/guides/yellow-houseplant-leaves/\">sararan yaprak kontrollerine</a> bak.</p>"
         },
@@ -3664,11 +3700,11 @@
         },
         {
           "title": "Evcil hayvanlar ve insanlar",
-          "html": "<p><a href=\"https://www.aspca.org/\">ASPCA Animal Poison Control Center</a>, barış çiçeğini çözünmeyen kalsiyum oksalatlar nedeniyle kedi ve köpekler için toksik olarak listeler. Saydığı belirtiler ağızda tahriş, ağız, dil ve dudaklarda yanma ve tahriş, aşırı salya, kusma ve yutma güçlüğüdür. Adına rağmen gerçek bir zambak (<em>Lilium</em>) değildir. Evcil hayvanın bitkiyi çiğnerse bir veterinere veya hayvan zehir danışma hizmetine başvur. İnsanlarda zehirlenme şüphesinde Türkiye'de 114 UZEM'i ara. Bu genel bilgidir; veteriner veya tıbbi tavsiye değildir.</p>"
+          "html": "<p><a href=\"https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peace-lily\">ASPCA Animal Poison Control Center</a>, barış çiçeğini çözünmeyen kalsiyum oksalatlar nedeniyle kedi ve köpekler için toksik olarak listeler. Saydığı belirtiler ağızda tahriş, ağız, dil ve dudaklarda yanma ve tahriş, aşırı salya, kusma ve yutma güçlüğüdür. Adına rağmen gerçek bir zambak (<em>Lilium</em>) değildir. Evcil hayvanın bitkiyi çiğnerse bir veterinere veya hayvan zehir danışma hizmetine başvur. İnsanlarda zehirlenme şüphesinde Türkiye'de 114 UZEM'i ara. Bu genel bilgidir; veteriner veya tıbbi tavsiye değildir. Başka bitkilerle karşılaştırmak için <a href=\"/guides/pet-safe-houseplants/\">evcil hayvan dostu bitkiler rehberine</a> ya da <a href=\"/plants/#petNonToxic\">bitki kütüphanesindeki toksik olmayan profillere</a> bak.</p>"
         },
         {
           "title": "Sık sorulan sorular",
-          "html": "<h3>Barış çiçeğim neden boynunu büktü?</h3>\n<p>Kurumuş olabilir ama çamurlaşmış kökler de buna yol açabilir. Önce harcı kontrol et.</p>\n<h3>Beyaz “çiçek” bir taç yaprağı mı?</h3>\n<p>Bu, çiçek başağını saran ve spata denen değişmiş bir yapraktır.</p>\n<h3>Az ışıkta yetişir mi?</h3>\n<p>Gölgeye dayanır ama daha fazla dolaylı ışıkta genellikle daha iyi çiçek açar.</p>"
+          "html": "<h3>Barış çiçeğim neden boynunu büktü?</h3>\n<p>Kurumuş olabilir ama çamurlaşmış kökler de buna yol açabilir. Önce harcı kontrol et.</p>\n<h3>Beyaz “çiçek” bir taç yaprağı mı?</h3>\n<p>Bu, çiçek başağını saran ve spata denen değişmiş bir yapraktır.</p>\n<h3>Az ışıkta yetişir mi?</h3>\n<p>Gölgeye dayanır ama daha fazla dolaylı ışıkta genellikle daha iyi çiçek açar.</p>\n<h3>Barış çiçeğinin saksısını ne zaman değiştirmeliyim?</h3>\n<p>Kökler saksıyı doldurduğunda. NC State şubat ya da martı öneriyor; bir sonraki saksı yalnızca biraz büyük olsun.</p>"
         }
       ]
     },
@@ -3682,7 +3718,7 @@
         "humidity": "Likes humid air; dry air can brown leaf tips",
         "temperature": "About 20–29 °C (68–85 °F) by day; growth slows below 16 °C (60 °F)",
         "petSafety": "Listed as toxic to cats and dogs by the ASPCA",
-        "petSafetySource": "https://www.aspca.org/",
+        "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peace-lily",
         "careLevel": "Easy to moderate"
       },
       "title": "Peace lily care",
@@ -3710,6 +3746,10 @@
           "html": "<p>Sources differ in detail. NC State advises feeding at a quarter of the recommended strength and flushing the mix between feeds; the RHS suggests a balanced liquid fertilizer each month at the packet rate. The shared message is to feed gently in active growth and avoid salt build-up, which can burn leaf tips. <a href=\"https://plants.ces.ncsu.edu/plants/spathiphyllum/\">NC State Extension</a></p>"
         },
         {
+          "title": "Seasonal care",
+          "html": "<p>NC State notes that cold, draughty conditions of about 4–16 °C (40–60 °F) slow growth considerably, and long spells below 4 °C (40 °F) can damage leaves, stems and roots. In winter, keep the plant in a warm room, away from cold windows and doors, and keep checking the mix rather than watering on a fixed day; slower growth usually means slower drying. NC State suggests repotting, when needed, in February or March. <a href=\"https://plants.ces.ncsu.edu/plants/spathiphyllum/\">NC State Extension</a></p>\n<p>Heated rooms are often dry, and NC State links low humidity to brown leaf tips. In summer, keep it out of direct sun, which also browns the tips. See the <a href=\"/en/guides/winter-houseplant-care/\">winter care guide</a> and the <a href=\"/en/guides/houseplant-humidity/\">humidity guide</a>. In Lilora, a reminder is a prompt to check, not an order to water: you record whether you watered or snoozed, so slower drying in the cold months shows up in your own history.</p>"
+        },
+        {
           "title": "Common problems",
           "html": "<ul><li><strong>Brown leaf tips:</strong> NC State lists direct sun, underwatering, low humidity and fertilizer salts as possible causes.</li><li><strong>Mealybugs:</strong> the most common indoor pest; wipe leaves with a damp cloth.</li><li><strong>No flowers:</strong> often too little light.</li></ul>\n<p>The <a href=\"/en/guides/yellow-houseplant-leaves/\">yellow-leaf checks</a> cover other leaf changes.</p>"
         },
@@ -3719,11 +3759,11 @@
         },
         {
           "title": "Pets and people",
-          "html": "<p>The <a href=\"https://www.aspca.org/\">ASPCA Animal Poison Control Center</a> lists peace lily as toxic to cats and dogs because of insoluble calcium oxalates. It lists oral irritation, burning and irritation of the mouth, tongue and lips, excessive drooling, vomiting and difficulty swallowing. Despite the common name, it is not a true lily (<em>Lilium</em>). If a pet chews it, contact a veterinarian or an animal poison control service. For people in Türkiye, the poison information line is 114 (UZEM). This is general information, not veterinary or medical advice.</p>"
+          "html": "<p>The <a href=\"https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peace-lily\">ASPCA Animal Poison Control Center</a> lists peace lily as toxic to cats and dogs because of insoluble calcium oxalates. It lists oral irritation, burning and irritation of the mouth, tongue and lips, excessive drooling, vomiting and difficulty swallowing. Despite the common name, it is not a true lily (<em>Lilium</em>). If a pet chews it, contact a veterinarian or an animal poison control service. For people in Türkiye, the poison information line is 114 (UZEM). This is general information, not veterinary or medical advice. To compare other plants, see the <a href=\"/en/guides/pet-safe-houseplants/\">pet-safe houseplants guide</a> or the <a href=\"/en/plants/#petNonToxic\">non-toxic profiles in the plant library</a>.</p>"
         },
         {
           "title": "Common questions",
-          "html": "<h3>Why is my peace lily drooping?</h3>\n<p>It may be dry, but soggy roots can also cause drooping. Check the mix first.</p>\n<h3>Is the white “flower” a petal?</h3>\n<p>It is a spathe, a modified leaf around the flower spike.</p>\n<h3>Can it grow in low light?</h3>\n<p>It tolerates shade, but flowering is usually better with more indirect light.</p>"
+          "html": "<h3>Why is my peace lily drooping?</h3>\n<p>It may be dry, but soggy roots can also cause drooping. Check the mix first.</p>\n<h3>Is the white “flower” a petal?</h3>\n<p>It is a spathe, a modified leaf around the flower spike.</p>\n<h3>Can it grow in low light?</h3>\n<p>It tolerates shade, but flowering is usually better with more indirect light.</p>\n<h3>When should I repot a peace lily?</h3>\n<p>When roots fill the pot. NC State suggests February or March, moving up only modestly in size.</p>"
         }
       ]
     },
@@ -3737,7 +3777,7 @@
         "humidity": "Le gusta el aire húmedo; el aire seco puede quemar las puntas",
         "temperature": "Unos 20–29 °C de día; por debajo de 16 °C crece mucho más lento",
         "petSafety": "La ASPCA lo incluye como tóxico para gatos y perros",
-        "petSafetySource": "https://www.aspca.org/",
+        "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peace-lily",
         "careLevel": "Fácil a media"
       },
       "title": "Cuidados del espatifilo",
@@ -3774,7 +3814,7 @@
         },
         {
           "title": "Mascotas y personas",
-          "html": "<p>El <a href=\"https://www.aspca.org/\">ASPCA Animal Poison Control Center</a> incluye el espatifilo (peace lily) como tóxico para gatos y perros por sus oxalatos de calcio insolubles. Enumera irritación oral, ardor e irritación de boca, lengua y labios, babeo excesivo, vómitos y dificultad para tragar. Aunque en inglés se llame «lily», no es un lirio verdadero (<em>Lilium</em>). Si tu mascota lo mordisquea, contacta con un veterinario o con un servicio de toxicología animal. Si una persona lo ingiere, llama a tu centro de información toxicológica local. Esto es información general, no consejo veterinario ni médico.</p>"
+          "html": "<p>El <a href=\"https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peace-lily\">ASPCA Animal Poison Control Center</a> incluye el espatifilo (peace lily) como tóxico para gatos y perros por sus oxalatos de calcio insolubles. Enumera irritación oral, ardor e irritación de boca, lengua y labios, babeo excesivo, vómitos y dificultad para tragar. Aunque en inglés se llame «lily», no es un lirio verdadero (<em>Lilium</em>). Si tu mascota lo mordisquea, contacta con un veterinario o con un servicio de toxicología animal. Si una persona lo ingiere, llama a tu centro de información toxicológica local. Esto es información general, no consejo veterinario ni médico.</p>"
         },
         {
           "title": "Preguntas frecuentes",
@@ -3792,7 +3832,7 @@
         "humidity": "Mag feuchte Luft; trockene Luft lässt Blattspitzen braun werden",
         "temperature": "Tagsüber etwa 20–29 °C; unter 16 °C wächst es deutlich langsamer",
         "petSafety": "Von der ASPCA als giftig für Katzen und Hunde geführt",
-        "petSafetySource": "https://www.aspca.org/",
+        "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peace-lily",
         "careLevel": "Leicht bis mittel"
       },
       "title": "Einblatt (Spathiphyllum) pflegen",
@@ -3829,7 +3869,7 @@
         },
         {
           "title": "Haustiere und Menschen",
-          "html": "<p>Das <a href=\"https://www.aspca.org/\">ASPCA Animal Poison Control Center</a> führt das Einblatt (peace lily) wegen unlöslicher Calciumoxalate als giftig für Katzen und Hunde. Es nennt Reizungen im Maul, Brennen und Reizung an Maul, Zunge und Lippen, starkes Speicheln, Erbrechen und Schluckbeschwerden. Trotz des englischen Namens ist es keine echte Lilie (<em>Lilium</em>). Knabbert dein Tier daran, wende dich an eine Tierarztpraxis oder einen tierärztlichen Giftnotruf. Hat ein Mensch etwas davon gegessen, wende dich an den Giftnotruf in deiner Region. Dies sind allgemeine Informationen, keine tierärztliche oder medizinische Beratung.</p>"
+          "html": "<p>Das <a href=\"https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peace-lily\">ASPCA Animal Poison Control Center</a> führt das Einblatt (peace lily) wegen unlöslicher Calciumoxalate als giftig für Katzen und Hunde. Es nennt Reizungen im Maul, Brennen und Reizung an Maul, Zunge und Lippen, starkes Speicheln, Erbrechen und Schluckbeschwerden. Trotz des englischen Namens ist es keine echte Lilie (<em>Lilium</em>). Knabbert dein Tier daran, wende dich an eine Tierarztpraxis oder einen tierärztlichen Giftnotruf. Hat ein Mensch etwas davon gegessen, wende dich an den Giftnotruf in deiner Region. Dies sind allgemeine Informationen, keine tierärztliche oder medizinische Beratung.</p>"
         },
         {
           "title": "Häufige Fragen",
@@ -3847,7 +3887,7 @@
         "humidity": "Gosta de ar úmido; ar seco pode queimar as pontas",
         "temperature": "Cerca de 20–29 °C de dia; abaixo de 16 °C o crescimento fica bem lento",
         "petSafety": "A ASPCA lista como tóxico para gatos e cães",
-        "petSafetySource": "https://www.aspca.org/",
+        "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peace-lily",
         "careLevel": "Fácil a médio"
       },
       "title": "Cuidados com o lírio-da-paz",
@@ -3884,7 +3924,7 @@
         },
         {
           "title": "Animais e pessoas",
-          "html": "<p>O <a href=\"https://www.aspca.org/\">ASPCA Animal Poison Control Center</a> lista o lírio-da-paz (peace lily) como tóxico para gatos e cães por causa dos oxalatos de cálcio insolúveis. Lista irritação oral, ardência e irritação da boca, língua e lábios, salivação excessiva, vômito e dificuldade para engolir. Apesar do nome, não é um lírio verdadeiro (<em>Lilium</em>). Se o seu animal mastigar a planta, procure um veterinário ou um serviço de informação toxicológica veterinária. Se uma pessoa ingerir a planta, ligue para o centro de informação toxicológica da sua região. Isto é informação geral, não orientação veterinária nem médica.</p>"
+          "html": "<p>O <a href=\"https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peace-lily\">ASPCA Animal Poison Control Center</a> lista o lírio-da-paz (peace lily) como tóxico para gatos e cães por causa dos oxalatos de cálcio insolúveis. Lista irritação oral, ardência e irritação da boca, língua e lábios, salivação excessiva, vômito e dificuldade para engolir. Apesar do nome, não é um lírio verdadeiro (<em>Lilium</em>). Se o seu animal mastigar a planta, procure um veterinário ou um serviço de informação toxicológica veterinária. Se uma pessoa ingerir a planta, ligue para o centro de informação toxicológica da sua região. Isto é informação geral, não orientação veterinária nem médica.</p>"
         },
         {
           "title": "Perguntas frequentes",
@@ -3902,7 +3942,7 @@
         "humidity": "Aime l’air humide ; l’air sec peut brunir les pointes",
         "temperature": "Environ 20–29 °C le jour ; sous 16 °C la croissance ralentit nettement",
         "petSafety": "Classé toxique pour les chats et les chiens par l’ASPCA",
-        "petSafetySource": "https://www.aspca.org/",
+        "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peace-lily",
         "careLevel": "Facile à moyen"
       },
       "title": "Entretien du spathiphyllum",
@@ -3939,7 +3979,7 @@
         },
         {
           "title": "Animaux et humains",
-          "html": "<p>L’<a href=\"https://www.aspca.org/\">ASPCA Animal Poison Control Center</a> classe le spathiphyllum (peace lily) comme toxique pour les chats et les chiens en raison des oxalates de calcium insolubles. Il cite irritation buccale, brûlure et irritation de la bouche, de la langue et des lèvres, salivation excessive, vomissements et difficulté à avaler. Malgré son nom anglais, ce n’est pas un vrai lys (<em>Lilium</em>). Si votre animal mâchonne la plante, contactez un vétérinaire ou un centre antipoison vétérinaire. Si une personne en a avalé, appelez le centre antipoison de votre région. Ces informations sont générales et ne remplacent pas l’avis d’un vétérinaire ou d’un médecin.</p>"
+          "html": "<p>L’<a href=\"https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peace-lily\">ASPCA Animal Poison Control Center</a> classe le spathiphyllum (peace lily) comme toxique pour les chats et les chiens en raison des oxalates de calcium insolubles. Il cite irritation buccale, brûlure et irritation de la bouche, de la langue et des lèvres, salivation excessive, vomissements et difficulté à avaler. Malgré son nom anglais, ce n’est pas un vrai lys (<em>Lilium</em>). Si votre animal mâchonne la plante, contactez un vétérinaire ou un centre antipoison vétérinaire. Si une personne en a avalé, appelez le centre antipoison de votre région. Ces informations sont générales et ne remplacent pas l’avis d’un vétérinaire ou d’un médecin.</p>"
         },
         {
           "title": "Questions fréquentes",
