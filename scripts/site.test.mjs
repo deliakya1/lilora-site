@@ -4,7 +4,8 @@ import {readFileSync,readdirSync,existsSync} from 'node:fs';
 import {resolve,dirname} from 'node:path';
 import {articlePath} from './layout.mjs';
 const root=process.cwd();
-const crawl=(dir)=>readdirSync(dir,{withFileTypes:true}).flatMap(x=>x.name.startsWith('.')||['node_modules','scripts','pages'].includes(x.name)?[]:x.isDirectory()?crawl(dir+'/'+x.name):x.name.endsWith('.html')?[dir+'/'+x.name]:[]);
+const crawl=(dir)=>readdirSync(dir,{withFileTypes:true}).flatMap(x=>x.name.startsWith('.')||['node_modules','scripts','pages'].includes(x.name)?[]:x.isDirectory()?crawl(dir+'/'+x.name):x.name.endsWith('.html')&&!/^google[0-9a-f]+\.html$/.test(x.name)?[dir+'/'+x.name]:[]);
+// google<token>.html is the Search Console ownership file, not a page.
 const files=crawl(root);
 const content=JSON.parse(readFileSync('editorial/articles.json'));
 const datedContent=[...content,...JSON.parse(readFileSync('editorial/plants.json'))];

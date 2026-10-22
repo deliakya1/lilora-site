@@ -159,3 +159,8 @@ test("images over 250 KB are only fallbacks behind a WebP source or press downlo
     }
   }
 });
+
+test("search engine ownership files stay byte-exact", () => {
+  for (const name of readdirSync(".").filter((n) => /^google[0-9a-f]+\.html$/.test(n)))
+    assert.equal(read(name), `google-site-verification: ${name}`, name);
+});
