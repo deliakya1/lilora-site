@@ -4,6 +4,7 @@
   "published": "2026-10-17",
   "reviewed": "2026-10-17",
   "diagram": "shared-care",
+  "handoverFormAfter": 6,
   "sources": [
     {
       "name": "University of Maryland Extension: watering indoor plants",
