@@ -247,6 +247,61 @@ regressions: throwing and silently ignored writes, preference reopening, no unsa
 reload, cross-tab denial, persistence recovery and tab-scoped denial across pages.
 Tests do not send production analytics hits.
 
+### Conversion paths and measurement guide (SEO-10)
+
+The app is pre-release, so every conversion CTA is an information step to the local
+`download/` page (status, app languages, what Lilora does). There are no App Store
+badges, Smart App Banners or store links. Each CTA carries a fixed placement in
+`data-analytics-cta`:
+
+| Placement | Where | Destination |
+| --- | --- | --- |
+| `header` | Site header button, every page | `download/` |
+| `footer` | Footer "get the app" link, every page | `download/` |
+| `article` | App note at the end of guides, plant profiles, journal and compare pages | `download/` |
+| `home-hero`, `home-closing` | Home page | `download/` |
+| `download-status` | Promotion blocks linking to the status section | `download/#download-status` |
+| `press-download` | Press page | `download/` |
+| `page-body` | About and editorial pages | `support/` |
+
+Events (sent only after opt-in, once per click, through the existing listener):
+
+- `page_view`: manual, once per navigation, URL without query/fragment, blank referrer.
+- `app_info_click`: a CTA to a same-origin page. Parameters: `language`, `page_path`,
+  `page_type` (`home`, `guide`, `plant`, `journal`, `compare`, `download`, `support`,
+  `about`, `editorial`, `press`, `<section>_index` or `other`), `cta_placement`,
+  `destination_path`. No visitor text is read.
+- `app_store_click`: only for the exact listing `apps.apple.com/.../id6818604360`
+  on a CTA. No such link exists until launch, so it currently never fires. It is a
+  click, not an install or purchase.
+
+What GA4 can report with this setup (consented visitors only):
+
+- Landing-page visits: `page_view` by page path / `page_type` and language.
+- Information CTA click-through rate: `app_info_click` events (or users) divided by
+  `page_view` events (or users) on the same pages, both from consented sessions.
+  Filter by `page_type` and `cta_placement` to compare paths. Visitors who reject
+  analytics appear in neither number, so the rate is a consented-sample rate, not a
+  site-wide rate.
+- Store click-through rate: after launch, `app_store_click` / `page_view` on the same
+  basis. Installs come only from App Store Connect, not from the site.
+- Acquisition source: limited. `page_referrer` is sent blank and URLs drop query
+  strings, so referral sites and UTM campaigns are not recorded by this site. GA4 may
+  still classify sessions from its own collection (for example the browser
+  referrer on the gtag request), but this is not verified. Organic search is best
+  read in Search Console and Bing Webmaster Tools. AI assistants often send no
+  referrer, so AI traffic cannot be fully identified. Recording referrers or UTM
+  parameters would be a collection-policy change that needs the owner's decision
+  and a privacy-text update; it is not implemented.
+
+Evidence: `scripts/consent-check.cjs` intercepts Google requests and asserts the
+`app_info_click` parameter set, a single click event, no duplicate `page_view`, and
+that `app_store_click` fires only for the exact listing (other App Store and external
+links send nothing). Receipt in the GA4 dashboard (DebugView/Realtime) is not
+verified; the owner can confirm it there after accepting analytics on lilora.app.
+To report by placement or page type, register `cta_placement` and `page_type` as
+event-scoped custom dimensions in GA4 Admin.
+
 ## Initial validation and limits
 
 - `npm run check`: four suites passed; 26 indexable URLs, 20 generated editorial pages.

@@ -40,6 +40,11 @@ const base='http://127.0.0.1:4173';
   await page.locator('a[data-analytics-cta]:visible').first().click();
   events=await page.evaluate(()=>window.dataLayer.map(x=>Array.from(x)));
   assert.equal(events.filter(x=>x[1]==='app_info_click').length,1);assert.equal(events.filter(x=>x[1]==='app_store_click').length,0);assert.equal(events.filter(x=>x[1]==='page_view').length,1);
+  const info=events.find(x=>x[1]==='app_info_click')[2];assert.equal(info.page_type,'home');assert.ok(info.language.startsWith(lang));assert.ok(/^[a-z0-9-]+$/.test(info.cta_placement));assert.deepEqual(Object.keys(info).sort(),['cta_placement','destination_path','language','page_path','page_type']);
+  // Store clicks count only for the exact listing; other App Store or external links send nothing.
+  await page.evaluate(()=>{for(const href of ['https://apps.apple.com/app/other/id1','https://apps.apple.com/app/id6818604360','https://example.com/']){const a=document.createElement('a');a.href=href;a.dataset.analyticsCta='test-store';a.textContent='x';a.addEventListener('click',e=>e.preventDefault());document.body.append(a);a.click();a.remove();}});
+  events=await page.evaluate(()=>window.dataLayer.map(x=>Array.from(x)));
+  assert.equal(events.filter(x=>x[1]==='app_store_click').length,1);assert.equal(events.filter(x=>x[1]==='app_info_click').length,1);assert.equal(events.find(x=>x[1]==='app_store_click')[2].cta_placement,'test-store');
   await page.reload();await page.waitForFunction(()=>window.dataLayer?.length>=4);assert.equal(await page.evaluate(()=>window.dataLayer.filter(x=>x[1]==='page_view').length),1);
   await page.goto(base+home+'support/');assert.equal(await page.locator('.cookie-banner').isVisible(),false);assert.equal(await page.locator('#lilora-google-tag').count(),1);
   await page.evaluate(()=>{document.cookie='_ga=owned; path=/';document.cookie='_ga_2CYS6B75ET=owned; path=/';document.cookie='unrelated=keep; path=/';});
