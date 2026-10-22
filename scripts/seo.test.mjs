@@ -9,7 +9,8 @@ const prefix = (l) => (l === "tr" ? "/" : `/${l}/`);
 const pages = [];
 const walk = (dir) => {
   for (const name of readdirSync(dir)) {
-    if ([".git", "node_modules", "assets", "content", "pages", "scripts", "editorial", "locales", ".test-results"].includes(name)) continue;
+    // Source and generated-data folders exist only at the root; /{lang}/editorial/ pages are real routes.
+    if (dir === "." && [".git", "node_modules", "assets", "content", "pages", "scripts", "locales", ".test-results"].includes(name)) continue;
     const full = join(dir, name);
     if (statSync(full).isDirectory()) walk(full);
     else if (name === "index.html") pages.push(full.replace(/^\.\//, ""));
