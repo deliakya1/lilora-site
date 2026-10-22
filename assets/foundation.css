@@ -301,7 +301,7 @@ summary {
 }
 @media (max-width: 380px) {
   .footer {
-    grid-template-columns: 1fr;
+    column-gap: 16px;
   }
   .header {
     gap: 8px;
@@ -457,7 +457,7 @@ body:has(.mobile-menu[open]) .back-to-top{display:none}
 .footer .cookie-settings:hover{text-decoration:underline;text-underline-offset:4px;background:none}
 /* Plant library: filter chips and a photo grid (cover-cropped, no letterboxing). */
 .plant-browser{padding-top:8px}
-.plant-chips{display:flex;gap:8px;overflow-x:auto;padding:4px 2px 8px;margin-inline:-2px;scrollbar-width:none}
+.plant-chips{display:flex;flex-wrap:wrap;gap:8px;padding:4px 0 8px}
 .plant-chips::-webkit-scrollbar{display:none}
 .plant-chip{flex:none;display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border:1px solid var(--color-border-default);border-radius:999px;background:var(--color-bg-canvas);color:var(--color-text-primary);font-size:15px;text-decoration:none;white-space:nowrap}
 .plant-chip:hover{border-color:var(--color-action-primary)}
@@ -507,3 +507,22 @@ body:has(.mobile-menu[open]) .back-to-top{display:none}
 .document .contact-alt-heading{margin-top:48px}
 .document h3{font-size:21px;margin:28px 0 8px;font-family:var(--font-display);font-weight:500}
 @media(max-width:640px){.contact-form-section{padding:20px 16px;margin-inline:-4px}.contact-row{grid-template-columns:1fr}.contact-form .button{justify-self:stretch;justify-content:center}}
+/* Hubs append the comparison matrix inside the collection's own wrap; avoid a second gutter. */
+.collection>.comparison-matrix.wrap{width:100%}
+/* Small phones: long German/French words wrap with hyphens instead of breaking mid-word or overflowing,
+   and the header keeps logo, language and menu on one row by showing only the flag. */
+@media (max-width:480px){
+ h1,h2,h3,.plant-card-name,.document th{-webkit-hyphens:auto;hyphens:auto;overflow-wrap:break-word}
+ .plant-card{min-width:0}
+}
+@media (max-width:420px){
+ .language-suggestion{flex-wrap:nowrap;justify-content:space-between;gap:8px;padding:4px 4px 4px 16px}
+ .header{flex-wrap:nowrap}
+ .header-tools{gap:8px}
+ .header-tools .language-picker{min-width:0}
+ .language-picker>summary{padding:8px 10px;gap:6px}
+ .language-picker>summary>span:not(.flag){position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+}
+@media (max-width:380px){.document-heading h1,.collection-heading h1{font-size:36px}}
+/* Tablet header: the app-language note lives in the menu and footer; keep the bar one line. */
+@media (min-width:768px) and (max-width:1199px){.header-tools>.app-cta .app-language-note{display:none}}
