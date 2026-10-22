@@ -31,21 +31,24 @@
     "when-to-repot-houseplants"
   ],
   "en": {
-    "description": "Take a stem cutting with healthy nodes and root it in water or a rooting mix, with the pros and cons of each method."
+    "description": "Take a stem cutting with healthy nodes and root it in water or in a rooting mix. The pros and cons of each method, and how to pot it up later."
   },
   "tr": {
     "description": "Sağlıklı boğumları olan bir gövde çeliği al ve suda ya da köklendirme harcında köklendir; iki yöntemin artıları ve eksileri."
   },
   "es": {
-    "description": "Saca un esqueje de tallo con nudos sanos y enraízalo en agua o en sustrato, con las ventajas e inconvenientes de cada método."
+    "description": "Saca un esqueje de tallo con nudos sanos y enraízalo en agua o en sustrato, con las ventajas e inconvenientes de cada método.",
+    "seoTitle": "Esquejes de plantas de interior: en agua o en sustrato"
   },
   "de": {
-    "description": "Einen Stängelsteckling mit gesunden Knoten schneiden und in Wasser oder Substrat bewurzeln, mit Vor- und Nachteilen beider Wege."
+    "description": "Einen Stängelsteckling mit gesunden Knoten schneiden und in Wasser oder Substrat bewurzeln, mit Vor- und Nachteilen beider Wege.",
+    "seoTitle": "Zimmerpflanzen aus Stecklingen vermehren"
   },
   "pt": {
     "description": "Faça uma estaca de caule com nós saudáveis e enraíze na água ou no substrato, com as vantagens e desvantagens de cada método."
   },
   "fr": {
-    "description": "Prélever une bouture de tige avec des nœuds sains et la faire raciner dans l’eau ou le substrat, avec les avantages de chaque méthode."
+    "description": "Prélever une bouture de tige avec des nœuds sains et la faire raciner dans l’eau ou le substrat, avec les avantages de chaque méthode.",
+    "seoTitle": "Bouturer les plantes d’intérieur : eau ou substrat"
   }
 }

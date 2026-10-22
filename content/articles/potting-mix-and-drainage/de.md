@@ -12,7 +12,7 @@ Auch die Penn State Extension weist darauf hin, dass Töpfe Abzugslöcher brauch
 
 ## Der Mythos von der Drainageschicht
 
-Viele Bücher empfehlen noch immer eine Schicht Kies, Steine oder Tonscherben am Topfboden „für die Drainage“. Die Bodenkunde zeigt das Gegenteil. Wasser geht nur schwer von einem feinen Material in ein gröberes darunter über und staut sich deshalb in der Erde direkt über dem Kies. Die nasse Zone wandert im Topf nach oben, näher an die Wurzeln, und der Kies nimmt Platz weg, den die Wurzeln nutzen könnten. [Washington State University: der Mythos vom Drainagematerial in Gefäßen](https://puyallup.wsu.edu/wp-content/uploads/sites/403/2015/03/container-drainage.pdf)
+Viele Bücher empfehlen noch immer eine Schicht Kies, Steine oder Tonscherben am Topfboden „für die Drainage“. Die Bodenkunde zeigt das Gegenteil. Wasser geht nur schwer von einem feinen Material in ein gröberes darunter über und staut sich deshalb in der Erde direkt über dem Kies. Die nasse Zone wandert im Topf nach oben, näher an die Wurzeln, und der Kies nimmt Platz weg, den die Wurzeln nutzen könnten. [University of Missouri IPM: Gartenmythen, darunter Drainageschichten in Gefäßen](https://ipm.missouri.edu/meg/2023/1/gardeningMyths-DT/)
 
 Clemson rät aus demselben Grund, auf die Kiesschicht zu verzichten. Fällt Erde durch ein großes Loch, deck es mit einem kleinen Stück Gitter oder einer einzelnen Scherbe ab, statt eine Schicht anzulegen. [Clemson Cooperative Extension: Zimmerpflanzen umtopfen](https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/) Auch die RHS empfiehlt, nur Löcher abzudecken, die breiter als etwa 2,5 cm sind. [RHS: ein Gefäß bepflanzen](https://www.rhs.org.uk/container-gardening/how-to-plant-up-a-container)
 

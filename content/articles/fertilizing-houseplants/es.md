@@ -41,7 +41,7 @@ Los abonos de liberación lenta en gránulos o barritas liberan nutrientes duran
 
 ## Señales de exceso de abono
 
-El abono se disuelve en forma de sales. Cuando el agua se evapora, esas sales se quedan y pueden acumularse en el sustrato, a veces como una costra amarilla o blanca en la superficie o en el borde de la maceta. [University of California: sales solubles](https://cagardenweb.ucanr.edu/Houseplants/Soluble_Salts/)
+El abono se disuelve en forma de sales. Cuando el agua se evapora, esas sales se quedan y pueden acumularse en el sustrato, a veces como una costra amarilla o blanca en la superficie o en el borde de la maceta. [University of California: sales solubles](https://ucanr.edu/blog/stanislaus-sprout/article/leach-your-houseplants-avoid-salt-problems)
 
 Entre las señales posibles están las puntas y bordes de las hojas marrones, el marchitamiento, hojas mal formadas, puntas de raíz dañadas y esa costra blanca. También pueden tener otras causas, así que valóralas junto con el sustrato y las raíces. [UConn: abonar plantas de interior](https://homegarden.cahnr.uconn.edu/wp-content/uploads/sites/3479/2022/08/Houseplant-Fertilization.pdf)
 

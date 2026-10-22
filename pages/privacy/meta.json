@@ -1,26 +1,26 @@
 {
   "en": {
     "title": "Privacy policy",
-    "description": "How Lilora handles your information."
+    "description": "How Lilora handles your information: account, household, photo identification, purchases, website form and analytics, retention and your rights."
   },
   "tr": {
     "title": "Gizlilik politikası",
-    "description": "Lilora bilgilerini nasıl işler?"
+    "description": "Lilora bilgilerini nasıl işler: hesap, ev, fotoğraf tanıma, satın almalar, web sitesi formu ve analizleri, saklama süreleri ve KVKK ile GDPR hakların."
   },
   "es": {
     "title": "Política de privacidad",
-    "description": "Cómo trata Lilora tu información."
+    "description": "Cómo trata Lilora tu información: cuenta, hogar, identificación por foto, compras, formulario y estadísticas del sitio, conservación y tus derechos."
   },
   "de": {
     "title": "Datenschutzerklärung",
-    "description": "Wie Lilora mit deinen Informationen umgeht."
+    "description": "Wie Lilora mit deinen Daten umgeht: Konto, Haushalt, Fotobestimmung, Käufe, Kontaktformular und Website-Analysen, Speicherdauer und deine Rechte."
   },
   "pt": {
     "title": "Política de privacidade",
-    "description": "Como o Lilora trata suas informações."
+    "description": "Como o Lilora trata suas informações: conta, casa, identificação por foto, compras, formulário e estatísticas do site, retenção e seus direitos."
   },
   "fr": {
     "title": "Politique de confidentialité",
-    "description": "Comment Lilora traite vos informations."
+    "description": "Comment Lilora traite vos informations : compte, foyer, identification par photo, achats, formulaire et statistiques du site, conservation et droits."
   }
 }

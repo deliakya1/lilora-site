@@ -26,10 +26,28 @@
     "shared-plant-care",
     "indoor-plant-light-guide"
   ],
-  "tr": {"description": "Yeni bir bitkiyi eve getirmeden önce botanik adını bul, ASPCA listesini kontrol et ve evcil hayvanların ulaşamayacağı bir yer seç. Toksik, toksik değil ve listede yok farkı."},
-  "en": {"description": "Before a new plant comes home, find its botanical name, check the ASPCA list and plan a spot your pet cannot reach. What toxic, non-toxic and not listed really mean."},
-  "es": {"description": "Antes de llevar una planta a casa, busca su nombre botánico, consulta la lista de la ASPCA y elige un sitio fuera del alcance de tu mascota. Qué significan tóxica, no tóxica y no figura."},
-  "de": {"description": "Bevor eine Pflanze einzieht: botanischen Namen finden, die ASPCA-Liste prüfen und einen Platz außer Reichweite deines Tieres wählen. Was giftig, ungiftig und nicht gelistet bedeutet."},
-  "pt": {"description": "Antes de levar uma planta para casa, descubra o nome botânico, confira a lista da ASPCA e escolha um lugar fora do alcance do seu pet. O que significam tóxica, não tóxica e não listada."},
-  "fr": {"description": "Avant d’adopter une plante, trouvez son nom botanique, consultez la liste de l’ASPCA et choisissez un emplacement hors de portée de votre animal. Ce que veulent dire toxique, non toxique et non répertoriée."}
+  "tr": {
+    "description": "Yeni bir bitkiyi eve getirmeden önce botanik adını bul, ASPCA listesine bak ve hayvanının ulaşamayacağı bir yer seç. “Toksik değil” ne demek?",
+    "seoTitle": "Ev bitkileri ve evcil hayvanlar: önce neye bakmalı?"
+  },
+  "en": {
+    "description": "Before a plant comes home, find its botanical name, check the ASPCA list and plan a spot your pet cannot reach. What “non-toxic” really means.",
+    "seoTitle": "Houseplants and pets: what to check before you buy"
+  },
+  "es": {
+    "description": "Antes de llevar una planta a casa, busca su nombre botánico, consulta la lista de la ASPCA y elige un sitio seguro. Qué significa «no tóxica».",
+    "seoTitle": "Plantas de interior y mascotas: qué comprobar antes"
+  },
+  "de": {
+    "description": "Bevor eine Pflanze einzieht: botanischen Namen finden, die ASPCA-Liste prüfen, einen sicheren Platz wählen – und was „ungiftig“ wirklich heißt.",
+    "seoTitle": "Zimmerpflanzen und Haustiere: was du vorher prüfst"
+  },
+  "pt": {
+    "description": "Antes de levar uma planta para casa, descubra o nome botânico, confira a lista da ASPCA e escolha um lugar seguro. O que “não tóxica” significa.",
+    "seoTitle": "Plantas de interior e pets: o que conferir antes"
+  },
+  "fr": {
+    "description": "Avant d’adopter une plante, trouvez son nom botanique, consultez la liste de l’ASPCA et choisissez un endroit sûr. Ce que veut dire « non toxique ».",
+    "seoTitle": "Plantes d’intérieur et animaux : que vérifier avant"
+  }
 }

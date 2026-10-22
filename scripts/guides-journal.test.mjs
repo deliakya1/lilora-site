@@ -128,7 +128,7 @@ test("new pieces avoid banned brand words and filler conclusions", () => {
 });
 
 test("hubs and sitemap include every new page", () => {
-  const sitemap = readFileSync("sitemap.xml", "utf8");
+  const sitemap = ["tr", "en", "es", "de", "pt", "fr"].map((l) => readFileSync(`sitemap-${l}.xml`, "utf8")).join("\n");
   for (const slug of Object.keys(pieces)) {
     const article = articles.find((a) => a.slug === slug);
     for (const lang of languages) {

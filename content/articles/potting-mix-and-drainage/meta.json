@@ -17,8 +17,8 @@
       "url": "https://extension.psu.edu/repotting-houseplants"
     },
     {
-      "name": "Washington State University: the myth of drainage material in containers",
-      "url": "https://puyallup.wsu.edu/wp-content/uploads/sites/403/2015/03/container-drainage.pdf"
+      "name": "University of Missouri IPM: gardening myths, including drainage layers in containers",
+      "url": "https://ipm.missouri.edu/meg/2023/1/gardeningMyths-DT/"
     },
     {
       "name": "RHS: how to plant up a container",
@@ -31,10 +31,10 @@
     "watering-houseplants"
   ],
   "en": {
-    "description": "A drainage hole, a container mix and no gravel layer: what a houseplant pot needs, and how to pot up step by step."
+    "description": "A drainage hole, a proper container mix and no gravel layer: what a houseplant pot really needs, and how to pot up a plant step by step."
   },
   "tr": {
-    "description": "Drenaj deliği, saksı harcı ve çakılsız bir dip: bir ev bitkisi saksısının nelere ihtiyacı var ve adım adım dikim."
+    "description": "Drenaj deliği, uygun bir saksı harcı ve çakılsız bir dip: bir ev bitkisi saksısının gerçekten neye ihtiyacı var ve adım adım nasıl dikilir."
   },
   "es": {
     "description": "Agujero de drenaje, sustrato para macetas y nada de capa de grava: lo que necesita una maceta y cómo trasplantar paso a paso."
@@ -43,7 +43,7 @@
     "description": "Abzugsloch, Topferde und keine Kiesschicht: was ein Zimmerpflanzentopf braucht und wie du Schritt für Schritt eintopfst."
   },
   "pt": {
-    "description": "Furo de drenagem, substrato para vasos e nada de camada de brita: o que um vaso precisa e como plantar passo a passo."
+    "description": "Furo de drenagem, substrato próprio para vasos e nada de camada de brita: o que um vaso realmente precisa e como plantar passo a passo."
   },
   "fr": {
     "description": "Un trou de drainage, un substrat pour pots et pas de couche de graviers : ce qu’il faut à un pot et comment rempoter pas à pas."

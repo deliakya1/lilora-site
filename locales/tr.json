@@ -73,10 +73,10 @@
   "notFoundDescription": "Bu adreste bir sayfa yok. Devam etmek için dilini seç.",
   "suggestionHome": "Siteyi Türkçe görüntüle",
   "hubDescription": {
-    "guides": "Bakımını değiştirmeden önce bitkini gözlemlemek için pratik notlar.",
-    "plants": "Türlerine göre ev bitkileri.",
-    "journal": "Bitkiler ve ortak bakım üzerine notlar.",
-    "compare": "Bitki uygulamaları için kaynaklı karşılaştırmalar."
+    "guides": "Sulama, ışık, saksı, zararlılar ve mevsim bakımı üzerine kaynaklı rehberler: bakımını değiştirmeden önce bitkini gözlemlemeyi öğren.",
+    "plants": "Türlerine göre ev bitkisi profilleri: ışık, sulama, nem, sıcaklık, evcil hayvan bilgisi ve bakım zorluğu, kaynaklarıyla birlikte.",
+    "journal": "Bitkiler, ortak bakım ve Lilora’nın neden “sula” yerine “kontrol et” dediği üzerine notlar; mevsim listeleri ve taşınma ipuçları.",
+    "compare": "Bitki bakım uygulamalarının kaynaklı karşılaştırmaları: hatırlatmalar, ortak kayıtlar, bitki tanıma ve fiyat modelleri, dürüst notlarla."
   },
   "hubTitles": {
     "guides": "Bitki bakım rehberleri",
@@ -84,5 +84,6 @@
     "journal": "Bitki günlüğü",
     "compare": "Bitki uygulaması karşılaştırmaları"
   },
-  "backToTop": "Başa dön"
+  "backToTop": "Başa dön",
+  "feedTitle": "Lilora: bitki bakım rehberleri ve günlük"
 }

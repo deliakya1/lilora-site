@@ -12,7 +12,7 @@ Penn State Extension da harç su içinde kalıp hastalığa yol açmasın diye s
 
 ## Çakıl tabakası efsanesi
 
-Pek çok kitap hâlâ dibe “drenaj için” çakıl, taş veya kırık saksı parçası serilmesini öneriyor. Toprak bilimi ise tersini gösteriyor. Su, ince bir malzemeden altındaki daha iri bir malzemeye kolay geçmez; bu yüzden çakılın hemen üstündeki harçta birikir. Suya doymuş bölge saksıda yukarı, köklere doğru çıkar ve çakıl köklerin kullanabileceği yeri kaplar. [Washington State Üniversitesi: saksılarda drenaj malzemesi efsanesi](https://puyallup.wsu.edu/wp-content/uploads/sites/403/2015/03/container-drainage.pdf)
+Pek çok kitap hâlâ dibe “drenaj için” çakıl, taş veya kırık saksı parçası serilmesini öneriyor. Toprak bilimi ise tersini gösteriyor. Su, ince bir malzemeden altındaki daha iri bir malzemeye kolay geçmez; bu yüzden çakılın hemen üstündeki harçta birikir. Suya doymuş bölge saksıda yukarı, köklere doğru çıkar ve çakıl köklerin kullanabileceği yeri kaplar. [Missouri Üniversitesi IPM: saksıdaki drenaj katmanı dahil bahçecilik efsaneleri](https://ipm.missouri.edu/meg/2023/1/gardeningMyths-DT/)
 
 Clemson da aynı nedenle çakıl tabakasından vazgeçmeyi öneriyor. Büyük bir delikten harç dökülüyorsa tabaka yerine küçük bir file parçası veya tek bir kırık parçayla deliği kapat. [Clemson Üniversitesi Extension: ev bitkilerini yeniden saksılama](https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/) RHS de yalnızca yaklaşık 2,5 cm’den geniş deliklerin kapatılmasını öneriyor. [RHS: saksıya dikim nasıl yapılır](https://www.rhs.org.uk/container-gardening/how-to-plant-up-a-container)
 

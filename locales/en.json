@@ -73,10 +73,10 @@
   "notFoundDescription": "This address does not lead to a page. Choose a language to continue.",
   "suggestionHome": "View the site in English",
   "hubDescription": {
-    "guides": "Practical notes on observing plants before changing their care.",
-    "plants": "Houseplant profiles, organized by species.",
-    "journal": "Notes on plants and shared care.",
-    "compare": "Source-backed comparisons of plant apps."
+    "guides": "Source-backed guides on watering, light, pots, pests and seasonal care, written to help you observe a plant before you change its care.",
+    "plants": "Houseplant profiles organised by species: light, watering, humidity, temperature, pet information and care level, each with its sources.",
+    "journal": "Notes on plants and shared care: why Lilora’s reminders say “check”, seasonal checklists, moving house with plants and keeping a journal.",
+    "compare": "Source-backed comparisons of plant care apps covering reminders, shared records, identification and pricing, with honest launch notes."
   },
   "hubTitles": {
     "guides": "Houseplant care guides",
@@ -84,5 +84,6 @@
     "journal": "Plant journal",
     "compare": "Plant app comparisons"
   },
-  "backToTop": "Back to top"
+  "backToTop": "Back to top",
+  "feedTitle": "Lilora: plant care guides and journal"
 }

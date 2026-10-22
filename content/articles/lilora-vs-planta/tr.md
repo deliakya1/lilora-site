@@ -28,7 +28,7 @@ Herhangi bir uygulamayı değerlendirirken bir bitkinin son kaydını bul, bugü
 
 Lilora’nın ev modeli bitki, fotoğraf ve geçmişi üyelerle paylaşır. Planta da paylaşım sunar; yardım merkezi aile ve geçici bakıcı davetleri için premium erişim ve farklı yetkiler tanımlar. Paylaşım Lilora’ya özgü değildir. [Lilora destek](https://lilora.app/support/) · [Planta yardım merkezi](https://support.getplanta.com/)
 
-Kimin bitkileri göreceğini, kimin değiştireceğini ve son kaydı nasıl kontrol edeceğinizi belirleyin. Evde yaşayan biriyle hafta sonu yardım eden arkadaşın erişim ihtiyacı farklı olabilir.
+Kimin bitkileri göreceğini, kimin değiştireceğini ve son kaydı nasıl kontrol edeceğini belirle. Evde yaşayan biriyle hafta sonu yardım eden arkadaşın erişim ihtiyacı farklı olabilir.
 
 ## Gerçek satın alma teklifini karşılaştır
 

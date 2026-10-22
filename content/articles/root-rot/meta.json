@@ -31,21 +31,26 @@
     "when-to-repot-houseplants"
   ],
   "en": {
-    "description": "How to recognise root rot in a houseplant, check the roots, trim and repot, and keep it from coming back."
+    "description": "How to recognise root rot in a houseplant, check the roots, trim the damaged parts, repot in fresh mix and keep the problem from coming back."
   },
   "tr": {
-    "description": "Ev bitkisinde kök çürüklüğünü tanıma, köklere bakma, çürük kısımları kesip yeniden saksılama ve tekrarını önleme yolları."
+    "description": "Ev bitkisinde kök çürüklüğünü tanıma, köklere bakma, çürük kısımları kesip yeniden saksılama ve tekrarını önleme yolları.",
+    "seoTitle": "Kök çürüklüğü: belirtiler, nedenler ve yapılacaklar"
   },
   "es": {
-    "description": "Cómo reconocer la pudrición de raíces, revisar las raíces, recortar y trasplantar, y evitar que vuelva a ocurrir."
+    "description": "Cómo reconocer la pudrición de raíces, revisar las raíces, recortar las partes dañadas, trasplantar a sustrato nuevo y evitar que vuelva.",
+    "seoTitle": "Pudrición de raíces: señales, causas y qué hacer"
   },
   "de": {
-    "description": "Wie du Wurzelfäule erkennst, die Wurzeln prüfst, zurückschneidest, umtopfst und verhinderst, dass sie wiederkommt."
+    "description": "Wie du Wurzelfäule an Zimmerpflanzen erkennst, die Wurzeln prüfst, kranke Teile abschneidest, umtopfst und verhinderst, dass sie wiederkommt.",
+    "seoTitle": "Wurzelfäule bei Zimmerpflanzen: Anzeichen und Hilfe"
   },
   "pt": {
-    "description": "Como reconhecer a podridão das raízes, examinar as raízes, cortar, trocar o substrato e evitar que volte a acontecer."
+    "description": "Como reconhecer a podridão das raízes, examinar as raízes, cortar as partes danificadas, trocar o substrato e evitar que o problema volte.",
+    "seoTitle": "Podridão das raízes: sinais, causas e o que fazer"
   },
   "fr": {
-    "description": "Reconnaître la pourriture des racines, examiner les racines, couper, rempoter et éviter qu’elle ne revienne."
+    "description": "Reconnaître la pourriture des racines, examiner les racines, couper les parties abîmées, rempoter dans un substrat neuf et éviter la récidive.",
+    "seoTitle": "Pourriture des racines : signes, causes et que faire"
   }
 }

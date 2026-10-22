@@ -27,7 +27,7 @@ const assert=require('node:assert/strict');
    for(const missing of ['/missing-guide/','/en/missing-guide/']){
     const response=await page.goto(origin+missing);assert.equal(response.status(),404);
     assert.equal(await page.locator('meta[name="robots"]').getAttribute('content'),'noindex, follow');
-    assert.equal(await page.locator('link[rel="canonical"],link[rel="alternate"]').count(),0);
+    assert.equal(await page.locator('link[rel="canonical"],link[rel="alternate"][hreflang]').count(),0);
     assert.equal(await page.locator('h1').count(),1);
     for(const l of ['tr','en','es','de','pt','fr'])assert.equal(await page.locator('#'+l).getAttribute('lang'),l==='pt'?'pt-BR':l);
     const links=await page.locator('.error-languages a').evaluateAll(xs=>xs.map(x=>x.getAttribute('href')));

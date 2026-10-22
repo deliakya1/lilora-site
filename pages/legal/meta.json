@@ -1,26 +1,26 @@
 {
   "en": {
     "title": "Legal notice",
-    "description": "Publisher, contact and hosting information for the Lilora website."
+    "description": "Publisher, contact and hosting information for the Lilora website: the legal notice, who is responsible for it and which services run the site."
   },
   "tr": {
     "title": "Yasal bilgiler",
-    "description": "Lilora web sitesinin yayıncı, iletişim ve barındırma bilgileri."
+    "description": "Lilora web sitesinin yayıncısı, iletişim adresi ve barındırma bilgileri: yasal bildirim, sorumlu kişi ve sitenin hangi hizmetlerde çalıştığı."
   },
   "es": {
     "title": "Información legal",
-    "description": "Información sobre el editor, el contacto y el alojamiento del sitio web de Lilora."
+    "description": "Información sobre el editor, el contacto y el alojamiento del sitio web de Lilora: aviso legal, responsable y los servicios con los que funciona."
   },
   "de": {
     "title": "Rechtliche Hinweise",
-    "description": "Angaben zu Herausgeber, Kontakt und Hosting der Lilora-Website."
+    "description": "Angaben zu Herausgeber, Kontakt und Hosting der Lilora-Website: Impressum, verantwortliche Person und die Dienste, mit denen die Seite läuft."
   },
   "pt": {
     "title": "Informações legais",
-    "description": "Informações sobre o responsável pela publicação, contato e hospedagem do site do Lilora."
+    "description": "Informações sobre o responsável, o contato e a hospedagem do site do Lilora: aviso legal, quem responde por ele e os serviços que o mantêm no ar."
   },
   "fr": {
     "title": "Mentions légales",
-    "description": "Informations sur l’éditeur, le contact et l’hébergement du site de Lilora."
+    "description": "Informations sur l’éditeur, le contact et l’hébergement du site de Lilora : mentions légales, responsable de publication et services utilisés."
   }
 }

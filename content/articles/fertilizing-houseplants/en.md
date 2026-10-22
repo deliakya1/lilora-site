@@ -41,7 +41,7 @@ Slow-release granules or sticks release nutrients over weeks or months. Follow t
 
 ## Signs of too much fertiliser
 
-Fertiliser dissolves as salts. When water evaporates, those salts stay behind and can build up in the mix, sometimes as a yellow or white crust on the surface or the rim of the pot. [University of California: soluble salts](https://cagardenweb.ucanr.edu/Houseplants/Soluble_Salts/)
+Fertiliser dissolves as salts. When water evaporates, those salts stay behind and can build up in the mix, sometimes as a yellow or white crust on the surface or the rim of the pot. [University of California: soluble salts](https://ucanr.edu/blog/stanislaus-sprout/article/leach-your-houseplants-avoid-salt-problems)
 
 Possible signs include browning leaf tips and edges, wilting, poorly formed leaves, damaged root tips and that white crust. These can also come from other causes, so read them together with the mix and roots. [UConn: houseplant fertilization](https://homegarden.cahnr.uconn.edu/wp-content/uploads/sites/3479/2022/08/Houseplant-Fertilization.pdf)
 

@@ -31,21 +31,26 @@
     "when-to-repot-houseplants"
   ],
   "en": {
-    "description": "Check leaf patterns, root-zone moisture, light, temperature and pests before changing care for a yellowing houseplant."
+    "description": "Check the leaf pattern, root-zone moisture, light, temperature and pests before you change the care of a houseplant with yellowing leaves."
   },
   "tr": {
-    "description": "Sararan yapraklarda bakımını değiştirmeden önce yaprak desenini, kök nemini, ışığı, sıcaklığı ve zararlı belirtilerini kontrol et."
+    "description": "Sararan yapraklarda bakımını değiştirmeden önce yaprak desenini, kök nemini, ışığı, sıcaklığı ve zararlı belirtilerini kontrol et.",
+    "seoTitle": "Sararan yapraklar: önce neleri kontrol etmeli?"
   },
   "es": {
-    "description": "Revisa el patrón de las hojas, la humedad de las raíces, la luz, la temperatura y las plagas antes de cambiar los cuidados de una planta que amarillea."
+    "description": "Revisa el patrón de las hojas, la humedad de las raíces, la luz, la temperatura y las plagas antes de cambiar los cuidados de una planta que amarillea.",
+    "seoTitle": "Hojas amarillas: qué comprobar antes de actuar"
   },
   "de": {
-    "description": "Prüf Blattmuster, Feuchte im Wurzelbereich, Licht, Temperatur und Schädlinge, bevor du die Pflege einer vergilbenden Zimmerpflanze änderst."
+    "description": "Prüf Blattmuster, Feuchte im Wurzelbereich, Licht, Temperatur und Schädlinge, bevor du die Pflege einer vergilbenden Zimmerpflanze änderst.",
+    "seoTitle": "Gelbe Blätter an Zimmerpflanzen: was du zuerst prüfst"
   },
   "pt": {
-    "description": "Confira o padrão das folhas, a umidade nas raízes, a luz, a temperatura e as pragas antes de mudar os cuidados de uma planta amarelando."
+    "description": "Confira o padrão das folhas, a umidade nas raízes, a luz, a temperatura e as pragas antes de mudar os cuidados de uma planta amarelando.",
+    "seoTitle": "Folhas amarelas: o que conferir antes de agir"
   },
   "fr": {
-    "description": "Vérifiez l’aspect des feuilles, l’humidité des racines, la lumière, la température et les ravageurs avant de modifier l’entretien d’une plante qui jaunit."
+    "description": "Vérifiez l’aspect des feuilles, l’humidité des racines, la lumière, la température et les ravageurs avant de modifier l’entretien d’une plante qui jaunit.",
+    "seoTitle": "Feuilles jaunes : que vérifier avant d’agir"
   }
 }

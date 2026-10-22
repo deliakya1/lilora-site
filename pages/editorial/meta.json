@@ -1,26 +1,26 @@
 {
   "en": {
     "title": "Editorial approach",
-    "description": "How Lilora researches, writes and updates plant guides and app comparisons."
+    "description": "How Lilora researches, drafts with AI help, fact-checks, dates and updates its plant guides and app comparisons, and how images are labelled."
   },
   "tr": {
     "title": "Yayın ilkeleri",
-    "description": "Lilora bitki rehberlerini ve uygulama karşılaştırmalarını nasıl hazırlar ve günceller?"
+    "description": "Lilora bitki rehberlerini ve uygulama karşılaştırmalarını nasıl araştırır, yapay zekâ yardımıyla taslaklar, doğrular, tarihler ve günceller."
   },
   "es": {
     "title": "Criterios editoriales",
-    "description": "Cómo investiga, redacta y actualiza Lilora sus guías de plantas y comparaciones de apps."
+    "description": "Cómo investiga Lilora, redacta con ayuda de IA, verifica, fecha y actualiza sus guías de plantas y comparativas de apps, y cómo señala las imágenes."
   },
   "de": {
     "title": "Redaktionelle Grundsätze",
-    "description": "So recherchiert, schreibt und aktualisiert Lilora Pflanzenratgeber und App-Vergleiche."
+    "description": "Wie Lilora recherchiert, mit KI-Hilfe entwirft, Fakten prüft, datiert und Pflanzenratgeber sowie App-Vergleiche aktualisiert – und Bilder kennzeichnet."
   },
   "pt": {
     "title": "Princípios editoriais",
-    "description": "Como o Lilora pesquisa, escreve e atualiza guias de plantas e comparações de apps."
+    "description": "Como o Lilora pesquisa, redige com ajuda de IA, verifica, data e atualiza seus guias de plantas e comparações de apps, e como identifica as imagens."
   },
   "fr": {
     "title": "Principes éditoriaux",
-    "description": "Comment Lilora recherche, rédige et met à jour ses guides sur les plantes et ses comparatifs d’apps."
+    "description": "Comment Lilora recherche, rédige avec l’aide de l’IA, vérifie, date et met à jour ses guides et comparatifs d’apps, et comment les images sont signalées."
   }
 }

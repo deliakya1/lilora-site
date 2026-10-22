@@ -12,7 +12,7 @@ Penn State Extension también señala que las macetas necesitan agujeros para qu
 
 ## El mito de la capa de grava
 
-Muchos libros siguen recomendando una capa de grava, piedras o trozos de maceta en el fondo «para drenar». La ciencia del suelo dice lo contrario. El agua no pasa fácilmente de un material fino a otro más grueso situado debajo, así que se acumula en el sustrato justo encima de la grava. La zona saturada sube dentro de la maceta, más cerca de las raíces, y la grava ocupa espacio que las raíces podrían aprovechar. [Washington State University: el mito del material de drenaje en macetas](https://puyallup.wsu.edu/wp-content/uploads/sites/403/2015/03/container-drainage.pdf)
+Muchos libros siguen recomendando una capa de grava, piedras o trozos de maceta en el fondo «para drenar». La ciencia del suelo dice lo contrario. El agua no pasa fácilmente de un material fino a otro más grueso situado debajo, así que se acumula en el sustrato justo encima de la grava. La zona saturada sube dentro de la maceta, más cerca de las raíces, y la grava ocupa espacio que las raíces podrían aprovechar. [University of Missouri IPM: mitos de jardinería, incluida la capa de drenaje en macetas](https://ipm.missouri.edu/meg/2023/1/gardeningMyths-DT/)
 
 Clemson recomienda prescindir de la capa de grava por el mismo motivo. Si por un agujero grande se escapa el sustrato, tápalo con un trocito de malla o un solo fragmento, no con una capa. [Clemson Cooperative Extension: trasplantar plantas de interior](https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/) La RHS también propone tapar solo los agujeros de más de unos 2,5 cm. [RHS: cómo plantar en un recipiente](https://www.rhs.org.uk/container-gardening/how-to-plant-up-a-container)
 

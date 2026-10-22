@@ -12,7 +12,7 @@ Penn State Extension also notes that containers need drainage holes so the mix d
 
 ## The gravel layer myth
 
-Many books still recommend a layer of gravel, stones or broken pot at the bottom "for drainage". Soil science points the other way. Water does not move easily from a fine material into a coarser one below it, so it collects in the mix just above the gravel. The saturated zone moves up the pot, closer to the roots, and the gravel takes space the roots could use. [Washington State University: the myth of drainage material in containers](https://puyallup.wsu.edu/wp-content/uploads/sites/403/2015/03/container-drainage.pdf)
+Many books still recommend a layer of gravel, stones or broken pot at the bottom "for drainage". Soil science points the other way. Water does not move easily from a fine material into a coarser one below it, so it collects in the mix just above the gravel. The saturated zone moves up the pot, closer to the roots, and the gravel takes space the roots could use. [University of Missouri IPM: gardening myths, including drainage layers in containers](https://ipm.missouri.edu/meg/2023/1/gardeningMyths-DT/)
 
 Clemson advises skipping the gravel layer for the same reason. If a large hole lets mix fall out, cover it with a small piece of mesh or a single shard rather than a layer. [Clemson Cooperative Extension: repotting indoor plants](https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/) The RHS likewise suggests covering only holes wider than about 2.5 cm. [RHS: how to plant up a container](https://www.rhs.org.uk/container-gardening/how-to-plant-up-a-container)
 

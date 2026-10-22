@@ -41,7 +41,7 @@ Yavaş salınımlı granüller veya çubuklar besinleri haftalar ya da aylar boy
 
 ## Fazla gübrenin belirtileri
 
-Gübre tuz olarak çözünür. Su buharlaştığında bu tuzlar geride kalır ve harçta birikebilir; bazen harcın yüzeyinde veya saksı ağzında sarı ya da beyaz bir kabuk olarak görünür. [Kaliforniya Üniversitesi: çözünür tuzlar](https://cagardenweb.ucanr.edu/Houseplants/Soluble_Salts/)
+Gübre tuz olarak çözünür. Su buharlaştığında bu tuzlar geride kalır ve harçta birikebilir; bazen harcın yüzeyinde veya saksı ağzında sarı ya da beyaz bir kabuk olarak görünür. [Kaliforniya Üniversitesi: çözünür tuzlar](https://ucanr.edu/blog/stanislaus-sprout/article/leach-your-houseplants-avoid-salt-problems)
 
 Olası belirtiler arasında kahverengileşen yaprak uçları ve kenarları, pörsüme, şekli bozuk yapraklar, hasarlı kök uçları ve o beyaz kabuk var. Bunların başka nedenleri de olabilir; harç ve köklerle birlikte değerlendir. [UConn: ev bitkilerini gübreleme](https://homegarden.cahnr.uconn.edu/wp-content/uploads/sites/3479/2022/08/Houseplant-Fertilization.pdf)
 
