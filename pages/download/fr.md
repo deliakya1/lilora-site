@@ -32,6 +32,6 @@
 </section>
 <section class="promo-band wrap" aria-labelledby="download-guides">
   <div><h2 id="download-guides">De quoi lire en attendant</h2><p>Découvrez quoi observer avant d’arroser, comment évaluer la lumière chez vous et quoi noter pour garder un historique utile.</p></div>
-  <div class="promo-actions"><a class="button outline" href="/fr/guides/">Lire les guides</a><a class="text-link" href="/fr/support/">Questions sur Lilora</a></div>
+  <div class="promo-actions"><a class="button outline" href="/fr/guides/">Lire les guides</a><a class="text-link" href="/fr/support/">Questions sur Lilora</a><a class="text-link" href="/fr/about/">À propos de Lilora</a></div>
 </section>
 </div>

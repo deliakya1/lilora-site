@@ -30,6 +30,11 @@
     "watering-houseplants",
     "when-to-repot-houseplants"
   ],
+  "plants": [
+    "epipremnum-aureum",
+    "philodendron-hederaceum",
+    "chlorophytum-comosum"
+  ],
   "en": {
     "description": "Take a stem cutting with healthy nodes and root it in water or in a rooting mix. The pros and cons of each method, and how to pot it up later."
   },

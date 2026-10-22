@@ -487,6 +487,11 @@
       "yellow-houseplant-leaves",
       "potting-mix-and-drainage"
     ],
+    "plants": [
+      "monstera-deliciosa",
+      "epipremnum-aureum",
+      "chlorophytum-comosum"
+    ],
     "en": {
       "description": "Feed houseplants during active growth at the label rate or less, pause in low winter light, and flush out excess fertiliser salts.",
       "title": "Feeding houseplants: when, how much and when to stop",
@@ -740,6 +745,11 @@
       "indoor-plant-light-guide",
       "yellow-houseplant-leaves"
     ],
+    "plants": [
+      "goeppertia",
+      "phalaenopsis",
+      "spathiphyllum"
+    ],
     "en": {
       "description": "Misting barely changes humidity. What pebble trays, grouping, humidifiers and a better spot can and cannot do for houseplants.",
       "title": "Humidity for houseplants: what helps and what doesn't",
@@ -974,6 +984,11 @@
       "yellow-houseplant-leaves",
       "overwatering-vs-underwatering",
       "autumn-plant-reset"
+    ],
+    "plants": [
+      "goeppertia",
+      "ficus-lyrata",
+      "monstera-deliciosa"
     ],
     "en": {
       "description": "Identify fungus gnats, spider mites, mealybugs, scale and thrips before treating, and start with the least harmful step.",
@@ -1249,6 +1264,12 @@
       "watering-houseplants",
       "yellow-houseplant-leaves",
       "when-to-repot-houseplants"
+    ],
+    "plants": [
+      "dracaena-trifasciata",
+      "zamioculcas-zamiifolia",
+      "ficus-lyrata",
+      "aloe-vera"
     ],
     "en": {
       "description": "Understand direct sunlight, bright indirect light and low light. Observe your window and choose a position around your plant’s needs.",
@@ -2554,6 +2575,12 @@
       "root-rot",
       "yellow-houseplant-leaves"
     ],
+    "plants": [
+      "zamioculcas-zamiifolia",
+      "dracaena-trifasciata",
+      "spathiphyllum",
+      "aloe-vera"
+    ],
     "en": {
       "description": "Wilting and yellow leaves can mean too much or too little water. Check the mix, the weight of the pot and the roots before you change anything.",
       "title": "Overwatered or underwatered? How to tell before you act",
@@ -3056,6 +3083,11 @@
       "root-rot",
       "watering-houseplants"
     ],
+    "plants": [
+      "aloe-vera",
+      "phalaenopsis",
+      "dracaena-trifasciata"
+    ],
     "en": {
       "description": "A drainage hole, a proper container mix and no gravel layer: what a houseplant pot really needs, and how to pot up a plant step by step.",
       "title": "Potting mix and drainage: what your pot needs",
@@ -3305,6 +3337,11 @@
       "watering-houseplants",
       "when-to-repot-houseplants"
     ],
+    "plants": [
+      "epipremnum-aureum",
+      "philodendron-hederaceum",
+      "chlorophytum-comosum"
+    ],
     "en": {
       "description": "Take a stem cutting with healthy nodes and root it in water or in a rooting mix. The pros and cons of each method, and how to pot it up later.",
       "title": "Propagating houseplants from cuttings: water or soil",
@@ -3532,6 +3569,12 @@
       "overwatering-vs-underwatering",
       "potting-mix-and-drainage",
       "when-to-repot-houseplants"
+    ],
+    "plants": [
+      "zamioculcas-zamiifolia",
+      "dracaena-trifasciata",
+      "aloe-vera",
+      "phalaenopsis"
     ],
     "en": {
       "description": "How to recognise root rot in a houseplant, check the roots, trim the damaged parts, repot in fresh mix and keep the problem from coming back.",
@@ -4064,6 +4107,12 @@
       "indoor-plant-light-guide",
       "when-to-repot-houseplants"
     ],
+    "plants": [
+      "spathiphyllum",
+      "zamioculcas-zamiifolia",
+      "phalaenopsis",
+      "aloe-vera"
+    ],
     "en": {
       "description": "Check potting mix, pot weight and drainage to decide when to water. A practical routine that follows your plant, not a rigid calendar.",
       "title": "How to water houseplants without a rigid schedule",
@@ -4288,6 +4337,11 @@
       "watering-houseplants",
       "yellow-houseplant-leaves",
       "indoor-plant-light-guide"
+    ],
+    "plants": [
+      "monstera-deliciosa",
+      "ficus-elastica",
+      "chlorophytum-comosum"
     ],
     "en": {
       "description": "Inspect roots, choose a sensible pot size and preserve planting depth. A careful repotting guide for common foliage houseplants.",
@@ -4521,6 +4575,11 @@
       "indoor-plant-light-guide",
       "watering-houseplants",
       "houseplant-humidity"
+    ],
+    "plants": [
+      "ficus-lyrata",
+      "goeppertia",
+      "aloe-vera"
     ],
     "en": {
       "description": "Less light, dry heated air and slower growth: how to adjust light, watering and feeding for houseplants in winter, in either hemisphere.",
@@ -4774,6 +4833,11 @@
       "watering-houseplants",
       "indoor-plant-light-guide",
       "when-to-repot-houseplants"
+    ],
+    "plants": [
+      "epipremnum-aureum",
+      "spathiphyllum",
+      "ficus-lyrata"
     ],
     "en": {
       "description": "Check the leaf pattern, root-zone moisture, light, temperature and pests before you change the care of a houseplant with yellowing leaves.",

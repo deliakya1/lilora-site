@@ -31,6 +31,12 @@
     "indoor-plant-light-guide",
     "when-to-repot-houseplants"
   ],
+  "plants": [
+    "spathiphyllum",
+    "zamioculcas-zamiifolia",
+    "phalaenopsis",
+    "aloe-vera"
+  ],
   "en": {
     "description": "Check potting mix, pot weight and drainage to decide when to water. A practical routine that follows your plant, not a rigid calendar."
   },

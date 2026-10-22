@@ -38,6 +38,11 @@
     "overwatering-vs-underwatering",
     "autumn-plant-reset"
   ],
+  "plants": [
+    "goeppertia",
+    "ficus-lyrata",
+    "monstera-deliciosa"
+  ],
   "en": {
     "description": "Identify fungus gnats, spider mites, mealybugs, scale and thrips before treating, and start with the least harmful step.",
     "seoTitle": "Common houseplant pests: how to identify and treat them"
