@@ -65,6 +65,7 @@ export function page({
   const section = (route, label) =>
     link(route, label, path.startsWith(home + route) ? 'aria-current="true"' : "");
   const nav =
+    link("", t.home, path === home ? 'aria-current="page"' : "") +
     section("guides/", t.guides) +
     (plantCount >= 3 ? section("plants/", t.plants) : "") +
     section("journal/", t.journal) +

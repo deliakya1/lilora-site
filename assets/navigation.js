@@ -14,7 +14,7 @@
    const controls=[summary,...panel.querySelectorAll('a[href]')];const i=controls.indexOf(document.activeElement);
    event.preventDefault();controls[(i+(event.shiftKey?-1:1)+controls.length)%controls.length].focus();
   });
-  const media=matchMedia('(min-width: 1100px)');media.addEventListener('change',()=>{if(media.matches)menu.open=false;});
+  const media=matchMedia('(min-width: 1200px)');media.addEventListener('change',()=>{if(media.matches)menu.open=false;});
  }
  // FAQ answers open when a link points at them (for example /support/#reminders).
  const openTarget=()=>{const id=decodeURIComponent(location.hash.slice(1));const item=id&&document.getElementById(id);if(item&&item.matches('details.faq-item'))item.open=true;};

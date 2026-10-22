@@ -217,7 +217,7 @@ summary {
 .mobile-panel a {
   overflow-wrap: anywhere;
 }
-@media (max-width: 1099px) {
+@media (max-width: 1199px) {
   .header > .desktop-nav {
     display: none;
   }
@@ -405,7 +405,7 @@ summary {
 .mobile-menu[open] .menu-icon{border:0;height:16px}
 .mobile-menu[open] .menu-icon::before,.mobile-menu[open] .menu-icon::after{content:"";position:absolute;left:-1px;right:-1px;top:50%;border-top:1.5px solid currentColor;transform:rotate(45deg)}
 .mobile-menu[open] .menu-icon::after{transform:rotate(-45deg)}
-@media (max-width:1099px){
+@media (max-width:1199px){
   body:has(.mobile-menu[open]){overflow:hidden}
   .mobile-menu[open]>summary{position:fixed;top:16px;right:16px;z-index:61;background:var(--color-bg-canvas)}
   .mobile-panel{position:fixed;inset:0;z-index:60;display:flex;flex-direction:column;gap:24px;max-height:none;padding:16px 16px calc(24px + env(safe-area-inset-bottom));overflow-y:auto;background:var(--color-bg-canvas);border:0;box-shadow:none}
@@ -424,7 +424,7 @@ summary {
   .mobile-panel .app-cta{margin-top:8px}
   .header .mobile-panel .button{display:flex;width:100%;justify-content:center;gap:12px}
 }
-@media (prefers-reduced-motion:no-preference) and (max-width:1099px){
+@media (prefers-reduced-motion:no-preference) and (max-width:1199px){
   .mobile-menu[open] .mobile-panel{animation:menu-in .18s ease-out}
   @keyframes menu-in{from{opacity:0}to{opacity:1}}
 }
@@ -481,6 +481,7 @@ body:has(.mobile-menu[open]) .back-to-top{display:none}
 .plant-filter h2{font-size:22px;margin-bottom:8px}
 .plant-filter-links{list-style:none;padding:0;margin:0 0 24px;display:flex;flex-wrap:wrap;gap:8px 20px}
 .plant-filter-links a{text-decoration:none;color:var(--color-action-primary);font-weight:600}
-@media (max-width:1099px){.plant-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:1199px){.plant-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media (max-width:767px){.plant-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 14px}.plant-card-name{font-size:18px}.plant-chips{margin-inline:-16px;padding-inline:16px}}
 @media (prefers-reduced-motion:reduce){.plant-card-photo img{transition:none}.plant-card a:hover .plant-card-photo img{transform:none}}
+@media (min-width:1200px) and (max-width:1279px){.header{gap:16px}.header .desktop-nav{gap:16px;font-size:14px}.header-tools{gap:12px}.header-tools>.app-cta>.button{padding:10px 14px}}
