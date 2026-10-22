@@ -1,0 +1,47 @@
+{
+  "slug": "keeping-a-plant-care-journal",
+  "type": "post",
+  "published": "2026-10-22",
+  "reviewed": "2026-10-22",
+  "sources": [
+    {
+      "name": "Iowa State University Extension: garden journaling",
+      "url": "https://yardandgarden.extension.iastate.edu/how-to/garden-journaling"
+    },
+    {
+      "name": "Penn State Extension: keeping a garden journal",
+      "url": "https://extension.psu.edu/keeping-a-garden-journal"
+    },
+    {
+      "name": "University of Maryland Extension: diagnosing indoor plant problems",
+      "url": "https://www.extension.umd.edu/resource/diagnose-indoor-plant-problems"
+    },
+    {
+      "name": "RHS: how to help a poorly houseplant",
+      "url": "https://www.rhs.org.uk/plants/types/houseplants/how-to-help-a-poorly-houseplant"
+    }
+  ],
+  "related": [
+    "watering-houseplants",
+    "shared-plant-care",
+    "yellow-houseplant-leaves"
+  ],
+  "en": {
+    "description": "What to record about each plant, a simple page layout, how to read your notes after a season, and paper versus an app."
+  },
+  "tr": {
+    "description": "Her bitki için neleri kaydetmeli, basit bir sayfa düzeni, bir mevsim sonra notlar nasıl okunur ve kâğıt mı uygulama mı."
+  },
+  "es": {
+    "description": "Qué anotar de cada planta, una página sencilla, cómo leer tus notas tras una temporada y papel frente a app."
+  },
+  "de": {
+    "description": "Was du je Pflanze festhältst, ein einfaches Seitenlayout, wie du die Notizen nach einer Saison liest, und Papier oder App."
+  },
+  "pt": {
+    "description": "O que anotar sobre cada planta, uma página simples, como ler as anotações depois de uma estação e papel ou app."
+  },
+  "fr": {
+    "description": "Que noter pour chaque plante, une mise en page simple, relire ses notes après une saison, et papier ou application."
+  }
+}

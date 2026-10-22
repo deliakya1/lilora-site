@@ -1,0 +1,51 @@
+{
+  "slug": "propagating-cuttings",
+  "type": "guide",
+  "published": "2026-10-22",
+  "reviewed": "2026-10-22",
+  "sources": [
+    {
+      "name": "University of Vermont Extension: propagating houseplants",
+      "url": "https://www.uvm.edu/extension/news/more-please-propagating-houseplants"
+    },
+    {
+      "name": "Missouri Botanical Garden: propagating indoor plants",
+      "url": "https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/gardening-help-faqs/question/511/how-can-i-propagate-my-indoor-plants"
+    },
+    {
+      "name": "RHS: leaf cuttings",
+      "url": "https://www.rhs.org.uk/propagation/leaf-cuttings"
+    },
+    {
+      "name": "University of Nevada, Reno Extension",
+      "url": "https://extension.unr.edu/publication.aspx?PubID=3384"
+    },
+    {
+      "name": "RHS: propagation techniques",
+      "url": "https://www.rhs.org.uk/propagation/techniques"
+    }
+  ],
+  "related": [
+    "potting-mix-and-drainage",
+    "watering-houseplants",
+    "when-to-repot-houseplants"
+  ],
+  "en": {
+    "description": "Take a stem cutting with healthy nodes and root it in water or a rooting mix, with the pros and cons of each method."
+  },
+  "tr": {
+    "description": "Sağlıklı boğumları olan bir gövde çeliği al ve suda ya da köklendirme harcında köklendir; iki yöntemin artıları ve eksileri."
+  },
+  "es": {
+    "description": "Saca un esqueje de tallo con nudos sanos y enraízalo en agua o en sustrato, con las ventajas e inconvenientes de cada método."
+  },
+  "de": {
+    "description": "Einen Stängelsteckling mit gesunden Knoten schneiden und in Wasser oder Substrat bewurzeln, mit Vor- und Nachteilen beider Wege."
+  },
+  "pt": {
+    "description": "Faça uma estaca de caule com nós saudáveis e enraíze na água ou no substrato, com as vantagens e desvantagens de cada método."
+  },
+  "fr": {
+    "description": "Prélever une bouture de tige avec des nœuds sains et la faire raciner dans l’eau ou le substrat, avec les avantages de chaque méthode."
+  }
+}

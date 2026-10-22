@@ -1,0 +1,51 @@
+{
+  "slug": "houseplant-humidity",
+  "type": "guide",
+  "published": "2026-10-22",
+  "reviewed": "2026-10-22",
+  "sources": [
+    {
+      "name": "Penn State Extension: humidity and houseplants",
+      "url": "https://extension.psu.edu/humidity-and-houseplants"
+    },
+    {
+      "name": "Iowa State University Extension",
+      "url": "https://yardandgarden.extension.iastate.edu/how-to/diagnosing-houseplant-problems-related-poor-culture"
+    },
+    {
+      "name": "Iowa State University Extension: raising humidity",
+      "url": "https://yardandgarden.extension.iastate.edu/faq/how-can-i-raise-relative-humidity-indoors-my-houseplants"
+    },
+    {
+      "name": "University of Nebraska–Lincoln Extension: houseplant humidity",
+      "url": "https://lancaster.unl.edu/houseplants-humidity"
+    },
+    {
+      "name": "RHS: how to grow houseplants",
+      "url": "https://www.rhs.org.uk/plants/types/houseplants/growing-guide"
+    }
+  ],
+  "related": [
+    "winter-houseplant-care",
+    "indoor-plant-light-guide",
+    "yellow-houseplant-leaves"
+  ],
+  "en": {
+    "description": "Misting barely changes humidity. What pebble trays, grouping, humidifiers and a better spot can and cannot do for houseplants."
+  },
+  "tr": {
+    "description": "Su püskürtmek nemi neredeyse değiştirmez. Çakıllı tepsi, gruplama, nemlendirici ve doğru yerin ev bitkilerine neler katıp neler katamayacağı."
+  },
+  "es": {
+    "description": "Pulverizar apenas cambia la humedad. Lo que pueden y no pueden hacer las bandejas con guijarros, agrupar plantas, un humidificador y un buen sitio."
+  },
+  "de": {
+    "description": "Besprühen ändert die Luftfeuchtigkeit kaum. Was Kiesschalen, Gruppieren, Luftbefeuchter und der richtige Platz bewirken können und was nicht."
+  },
+  "pt": {
+    "description": "Borrifar quase não muda a umidade. O que bandejas com pedriscos, agrupar plantas, umidificador e um bom lugar conseguem ou não fazer."
+  },
+  "fr": {
+    "description": "Brumiser change à peine l’humidité. Ce que plateaux de galets, regroupement, humidificateur et bon emplacement peuvent ou non apporter."
+  }
+}

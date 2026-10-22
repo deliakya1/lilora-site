@@ -1,0 +1,51 @@
+{
+  "slug": "root-rot",
+  "type": "guide",
+  "published": "2026-10-22",
+  "reviewed": "2026-10-22",
+  "sources": [
+    {
+      "name": "Iowa State University Extension: root rots of houseplants",
+      "url": "https://yardandgarden.extension.iastate.edu/article/2014/02-14/rootrot.html"
+    },
+    {
+      "name": "Utah State University Extension: Pythium root rot",
+      "url": "https://extension.usu.edu/planthealth/ipm/ornamental-pest-guide/diseases/pythium-root-rot"
+    },
+    {
+      "name": "RHS: Phytophthora root rot",
+      "url": "https://www.rhs.org.uk/advice/profile?pid=542"
+    },
+    {
+      "name": "University of Maryland Extension: root rots of indoor plants",
+      "url": "https://extension.umd.edu/resource/root-rots-indoor-plants"
+    },
+    {
+      "name": "Clemson Cooperative Extension: repotting indoor plants",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/"
+    }
+  ],
+  "related": [
+    "overwatering-vs-underwatering",
+    "potting-mix-and-drainage",
+    "when-to-repot-houseplants"
+  ],
+  "en": {
+    "description": "How to recognise root rot in a houseplant, check the roots, trim and repot, and keep it from coming back."
+  },
+  "tr": {
+    "description": "Ev bitkisinde kök çürüklüğünü tanıma, köklere bakma, çürük kısımları kesip yeniden saksılama ve tekrarını önleme yolları."
+  },
+  "es": {
+    "description": "Cómo reconocer la pudrición de raíces, revisar las raíces, recortar y trasplantar, y evitar que vuelva a ocurrir."
+  },
+  "de": {
+    "description": "Wie du Wurzelfäule erkennst, die Wurzeln prüfst, zurückschneidest, umtopfst und verhinderst, dass sie wiederkommt."
+  },
+  "pt": {
+    "description": "Como reconhecer a podridão das raízes, examinar as raízes, cortar, trocar o substrato e evitar que volte a acontecer."
+  },
+  "fr": {
+    "description": "Reconnaître la pourriture des racines, examiner les racines, couper, rempoter et éviter qu’elle ne revienne."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "winter-houseplant-care",
+  "type": "guide",
+  "published": "2026-10-22",
+  "reviewed": "2026-10-22",
+  "sources": [
+    {
+      "name": "Illinois Extension: houseplant care",
+      "url": "https://extension.illinois.edu/houseplants/care"
+    },
+    {
+      "name": "University of Minnesota Extension: winter houseplant tips",
+      "url": "https://extension.umn.edu/news/winter-houseplant-tips"
+    },
+    {
+      "name": "RHS: how to grow houseplants",
+      "url": "https://www.rhs.org.uk/plants/types/houseplants/growing-guide"
+    },
+    {
+      "name": "University of Maryland Extension: non-living causes of indoor plant problems",
+      "url": "https://extension.umd.edu/resources/yard-garden/indoor-plants/indoor-plant-problems-nonliving"
+    },
+    {
+      "name": "Iowa State University Extension: raising humidity",
+      "url": "https://yardandgarden.extension.iastate.edu/faq/how-can-i-raise-relative-humidity-indoors-my-houseplants"
+    },
+    {
+      "name": "Clemson Cooperative Extension: repotting indoor plants",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/"
+    }
+  ],
+  "related": [
+    "indoor-plant-light-guide",
+    "watering-houseplants",
+    "houseplant-humidity"
+  ],
+  "en": {
+    "description": "Less light, dry heated air and slower growth: how to adjust light, watering and feeding for houseplants in winter."
+  },
+  "tr": {
+    "description": "Az ışık, kuru kalorifer havası ve yavaş büyüme: kışın ev bitkilerinde ışığı, sulamayı ve beslemeyi nasıl ayarlarsın."
+  },
+  "es": {
+    "description": "Menos luz, aire seco por la calefacción y crecimiento lento: cómo ajustar luz, riego y abono de las plantas de interior en invierno."
+  },
+  "de": {
+    "description": "Weniger Licht, trockene Heizungsluft und langsames Wachstum: wie du Licht, Gießen und Düngen im Winter anpasst."
+  },
+  "pt": {
+    "description": "Menos luz, ar seco e crescimento lento: como ajustar luz, rega e adubo das plantas de interior no inverno."
+  },
+  "fr": {
+    "description": "Moins de lumière, air sec du chauffage et croissance ralentie : adapter lumière, arrosage et engrais en hiver."
+  }
+}

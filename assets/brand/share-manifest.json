@@ -147,6 +147,27 @@
       "image": "/assets/brand/share/de-guides.png"
     },
     {
+      "path": "/de/guides/fertilizing-houseplants/",
+      "lang": "de",
+      "title": "Zimmerpflanzen düngen: wann, wie viel und wann du aufhörst",
+      "description": "Während des Wachstums höchstens nach Packungsangabe düngen, im lichtarmen Winter pausieren und überschüssige Düngersalze ausspülen.",
+      "image": "/assets/brand/share/de-guides--fertilizing-houseplants.png"
+    },
+    {
+      "path": "/de/guides/houseplant-humidity/",
+      "lang": "de",
+      "title": "Luftfeuchtigkeit für Zimmerpflanzen: was hilft und was nicht",
+      "description": "Besprühen ändert die Luftfeuchtigkeit kaum. Was Kiesschalen, Gruppieren, Luftbefeuchter und der richtige Platz bewirken können und was nicht.",
+      "image": "/assets/brand/share/de-guides--houseplant-humidity.png"
+    },
+    {
+      "path": "/de/guides/houseplant-pests/",
+      "lang": "de",
+      "title": "Häufige Schädlinge an Zimmerpflanzen: Trauermücken, Spinnmilben, Wollläuse, Schildläuse und Thripse",
+      "description": "Trauermücken, Spinnmilben, Wollläuse, Schildläuse und Thripse vor der Behandlung bestimmen und mit dem schonendsten Schritt beginnen.",
+      "image": "/assets/brand/share/de-guides--houseplant-pests.png"
+    },
+    {
       "path": "/de/guides/indoor-plant-light-guide/",
       "lang": "de",
       "title": "Licht für Zimmerpflanzen: den richtigen Platz finden",
@@ -154,11 +175,39 @@
       "image": "/assets/brand/share/de-guides--indoor-plant-light-guide.png"
     },
     {
+      "path": "/de/guides/overwatering-vs-underwatering/",
+      "lang": "de",
+      "title": "Zu viel oder zu wenig gegossen? So erkennst du es, bevor du handelst",
+      "description": "Welke und gelbe Blätter können zu viel oder zu wenig Wasser bedeuten. Prüfe Erde, Topfgewicht und Wurzeln, bevor du etwas änderst.",
+      "image": "/assets/brand/share/de-guides--overwatering-vs-underwatering.png"
+    },
+    {
       "path": "/de/guides/pet-safe-houseplants/",
       "lang": "de",
       "title": "Zimmerpflanzen und Haustiere: was du vor dem Kauf prüfen solltest",
       "description": "Bevor eine Pflanze einzieht: botanischen Namen finden, die ASPCA-Liste prüfen und einen Platz außer Reichweite deines Tieres wählen. Was giftig, ungiftig und nicht gelistet bedeutet.",
       "image": "/assets/brand/share/de-guides--pet-safe-houseplants.png"
+    },
+    {
+      "path": "/de/guides/potting-mix-and-drainage/",
+      "lang": "de",
+      "title": "Blumenerde und Drainage: was dein Topf braucht",
+      "description": "Abzugsloch, Topferde und keine Kiesschicht: was ein Zimmerpflanzentopf braucht und wie du Schritt für Schritt eintopfst.",
+      "image": "/assets/brand/share/de-guides--potting-mix-and-drainage.png"
+    },
+    {
+      "path": "/de/guides/propagating-cuttings/",
+      "lang": "de",
+      "title": "Zimmerpflanzen aus Stecklingen vermehren: im Wasser oder in Erde",
+      "description": "Einen Stängelsteckling mit gesunden Knoten schneiden und in Wasser oder Substrat bewurzeln, mit Vor- und Nachteilen beider Wege.",
+      "image": "/assets/brand/share/de-guides--propagating-cuttings.png"
+    },
+    {
+      "path": "/de/guides/root-rot/",
+      "lang": "de",
+      "title": "Wurzelfäule bei Zimmerpflanzen: Anzeichen, Ursachen und was du tun kannst",
+      "description": "Wie du Wurzelfäule erkennst, die Wurzeln prüfst, zurückschneidest, umtopfst und verhinderst, dass sie wiederkommt.",
+      "image": "/assets/brand/share/de-guides--root-rot.png"
     },
     {
       "path": "/de/guides/shared-plant-care/",
@@ -182,6 +231,13 @@
       "image": "/assets/brand/share/de-guides--when-to-repot-houseplants.png"
     },
     {
+      "path": "/de/guides/winter-houseplant-care/",
+      "lang": "de",
+      "title": "Zimmerpflanzen im Winter: Licht, Heizung und seltener gießen",
+      "description": "Weniger Licht, trockene Heizungsluft und langsames Wachstum: wie du Licht, Gießen und Düngen im Winter anpasst.",
+      "image": "/assets/brand/share/de-guides--winter-houseplant-care.png"
+    },
+    {
       "path": "/de/guides/yellow-houseplant-leaves/",
       "lang": "de",
       "title": "Gelbe Blätter an Zimmerpflanzen: was du vor dem Handeln prüfen solltest",
@@ -194,6 +250,34 @@
       "title": "Pflanzenjournal",
       "description": "Notizen über Pflanzen und gemeinsame Pflege.",
       "image": "/assets/brand/share/de-journal.png"
+    },
+    {
+      "path": "/de/journal/autumn-plant-reset/",
+      "lang": "de",
+      "title": "Herbst-Neustart für Zimmerpflanzen: eine kurze Checkliste",
+      "description": "Pflanzen vor kalten Nächten hereinholen, auf Schädlinge prüfen, Fenster neu verteilen, seltener gießen: eine kurze Herbst-Checkliste.",
+      "image": "/assets/brand/share/de-journal--autumn-plant-reset.png"
+    },
+    {
+      "path": "/de/journal/check-before-you-water/",
+      "lang": "de",
+      "title": "Warum Lilora ans Prüfen erinnert, nicht ans Gießen",
+      "description": "Ein Kalender sieht deine Pflanze nicht. Warum Lilora ans Prüfen erinnert und Gießen und Kontrolle ohne Wasser getrennt erfasst.",
+      "image": "/assets/brand/share/de-journal--check-before-you-water.png"
+    },
+    {
+      "path": "/de/journal/keeping-a-plant-care-journal/",
+      "lang": "de",
+      "title": "So führst du ein Pflanzenpflege-Tagebuch (auf Papier oder in einer App)",
+      "description": "Was du je Pflanze festhältst, ein einfaches Seitenlayout, wie du die Notizen nach einer Saison liest, und Papier oder App.",
+      "image": "/assets/brand/share/de-journal--keeping-a-plant-care-journal.png"
+    },
+    {
+      "path": "/de/journal/moving-house-with-plants/",
+      "lang": "de",
+      "title": "Umziehen mit Zimmerpflanzen",
+      "description": "Pflanzen beim Umzug einplanen: Schädlingskontrolle, Gießen, Verpacken, Transport, Einfuhrregeln und Eingewöhnung ins neue Licht.",
+      "image": "/assets/brand/share/de-journal--moving-house-with-plants.png"
     },
     {
       "path": "/de/legal/",
@@ -392,6 +476,27 @@
       "image": "/assets/brand/share/en-guides.png"
     },
     {
+      "path": "/en/guides/fertilizing-houseplants/",
+      "lang": "en",
+      "title": "Feeding houseplants: when, how much and when to stop",
+      "description": "Feed houseplants during active growth at the label rate or less, pause in low winter light, and flush out excess fertiliser salts.",
+      "image": "/assets/brand/share/en-guides--fertilizing-houseplants.png"
+    },
+    {
+      "path": "/en/guides/houseplant-humidity/",
+      "lang": "en",
+      "title": "Humidity for houseplants: what helps and what doesn't",
+      "description": "Misting barely changes humidity. What pebble trays, grouping, humidifiers and a better spot can and cannot do for houseplants.",
+      "image": "/assets/brand/share/en-guides--houseplant-humidity.png"
+    },
+    {
+      "path": "/en/guides/houseplant-pests/",
+      "lang": "en",
+      "title": "Common houseplant pests: fungus gnats, spider mites, mealybugs, scale and thrips",
+      "description": "Identify fungus gnats, spider mites, mealybugs, scale and thrips before treating, and start with the least harmful step.",
+      "image": "/assets/brand/share/en-guides--houseplant-pests.png"
+    },
+    {
       "path": "/en/guides/indoor-plant-light-guide/",
       "lang": "en",
       "title": "Indoor plant light: a beginner’s guide to choosing a spot",
@@ -399,11 +504,39 @@
       "image": "/assets/brand/share/en-guides--indoor-plant-light-guide.png"
     },
     {
+      "path": "/en/guides/overwatering-vs-underwatering/",
+      "lang": "en",
+      "title": "Overwatered or underwatered? How to tell before you act",
+      "description": "Wilting and yellow leaves can mean too much or too little water. Check the mix, the weight of the pot and the roots before you change anything.",
+      "image": "/assets/brand/share/en-guides--overwatering-vs-underwatering.png"
+    },
+    {
       "path": "/en/guides/pet-safe-houseplants/",
       "lang": "en",
       "title": "Houseplants and pets: what to check before bringing a plant home",
       "description": "Before a new plant comes home, find its botanical name, check the ASPCA list and plan a spot your pet cannot reach. What toxic, non-toxic and not listed really mean.",
       "image": "/assets/brand/share/en-guides--pet-safe-houseplants.png"
+    },
+    {
+      "path": "/en/guides/potting-mix-and-drainage/",
+      "lang": "en",
+      "title": "Potting mix and drainage: what your pot needs",
+      "description": "A drainage hole, a container mix and no gravel layer: what a houseplant pot needs, and how to pot up step by step.",
+      "image": "/assets/brand/share/en-guides--potting-mix-and-drainage.png"
+    },
+    {
+      "path": "/en/guides/propagating-cuttings/",
+      "lang": "en",
+      "title": "Propagating houseplants from cuttings: water or soil",
+      "description": "Take a stem cutting with healthy nodes and root it in water or a rooting mix, with the pros and cons of each method.",
+      "image": "/assets/brand/share/en-guides--propagating-cuttings.png"
+    },
+    {
+      "path": "/en/guides/root-rot/",
+      "lang": "en",
+      "title": "Root rot in houseplants: signs, causes and what to do",
+      "description": "How to recognise root rot in a houseplant, check the roots, trim and repot, and keep it from coming back.",
+      "image": "/assets/brand/share/en-guides--root-rot.png"
     },
     {
       "path": "/en/guides/shared-plant-care/",
@@ -427,6 +560,13 @@
       "image": "/assets/brand/share/en-guides--when-to-repot-houseplants.png"
     },
     {
+      "path": "/en/guides/winter-houseplant-care/",
+      "lang": "en",
+      "title": "Winter houseplant care: light, heating and slower watering",
+      "description": "Less light, dry heated air and slower growth: how to adjust light, watering and feeding for houseplants in winter.",
+      "image": "/assets/brand/share/en-guides--winter-houseplant-care.png"
+    },
+    {
       "path": "/en/guides/yellow-houseplant-leaves/",
       "lang": "en",
       "title": "Yellow houseplant leaves: what to check before you act",
@@ -439,6 +579,34 @@
       "title": "Plant journal",
       "description": "Notes on plants and shared care.",
       "image": "/assets/brand/share/en-journal.png"
+    },
+    {
+      "path": "/en/journal/autumn-plant-reset/",
+      "lang": "en",
+      "title": "An autumn reset for houseplants: a short checklist",
+      "description": "Bring plants in before cold nights, check for pests, rearrange windows and slow down watering: a short autumn checklist for houseplants.",
+      "image": "/assets/brand/share/en-journal--autumn-plant-reset.png"
+    },
+    {
+      "path": "/en/journal/check-before-you-water/",
+      "lang": "en",
+      "title": "Why Lilora's reminders say \"check\", not \"water\"",
+      "description": "A calendar cannot see your plant. Why Lilora's reminders ask for a check and keep \"Watered\" and \"Checked, no water needed\" apart.",
+      "image": "/assets/brand/share/en-journal--check-before-you-water.png"
+    },
+    {
+      "path": "/en/journal/keeping-a-plant-care-journal/",
+      "lang": "en",
+      "title": "How to keep a plant care journal (paper or app)",
+      "description": "What to record about each plant, a simple page layout, how to read your notes after a season, and paper versus an app.",
+      "image": "/assets/brand/share/en-journal--keeping-a-plant-care-journal.png"
+    },
+    {
+      "path": "/en/journal/moving-house-with-plants/",
+      "lang": "en",
+      "title": "Moving house with plants",
+      "description": "Plan plants into your move: pest checks, watering, packing, transport, border rules and settling them into new light.",
+      "image": "/assets/brand/share/en-journal--moving-house-with-plants.png"
     },
     {
       "path": "/en/legal/",
@@ -623,6 +791,27 @@
       "image": "/assets/brand/share/es-guides.png"
     },
     {
+      "path": "/es/guides/fertilizing-houseplants/",
+      "lang": "es",
+      "title": "Cómo abonar las plantas de interior: cuándo, cuánto y cuándo parar",
+      "description": "Abona durante el crecimiento activo a la dosis de la etiqueta o menos, para con la poca luz del invierno y lava el exceso de sales.",
+      "image": "/assets/brand/share/es-guides--fertilizing-houseplants.png"
+    },
+    {
+      "path": "/es/guides/houseplant-humidity/",
+      "lang": "es",
+      "title": "Humedad para plantas de interior: qué ayuda y qué no",
+      "description": "Pulverizar apenas cambia la humedad. Lo que pueden y no pueden hacer las bandejas con guijarros, agrupar plantas, un humidificador y un buen sitio.",
+      "image": "/assets/brand/share/es-guides--houseplant-humidity.png"
+    },
+    {
+      "path": "/es/guides/houseplant-pests/",
+      "lang": "es",
+      "title": "Plagas comunes de las plantas de interior: mosquitos del sustrato, araña roja, cochinilla algodonosa, cochinillas de escudo y trips",
+      "description": "Identifica mosquitos del sustrato, araña roja, cochinilla algodonosa, cochinillas de escudo y trips antes de tratar, y empieza por el paso menos dañino.",
+      "image": "/assets/brand/share/es-guides--houseplant-pests.png"
+    },
+    {
       "path": "/es/guides/indoor-plant-light-guide/",
       "lang": "es",
       "title": "Luz para plantas de interior: guía para principiantes para elegir un sitio",
@@ -630,11 +819,39 @@
       "image": "/assets/brand/share/es-guides--indoor-plant-light-guide.png"
     },
     {
+      "path": "/es/guides/overwatering-vs-underwatering/",
+      "lang": "es",
+      "title": "¿Exceso o falta de riego? Cómo saberlo antes de actuar",
+      "description": "Marchitez y hojas amarillas pueden indicar exceso o falta de agua. Comprueba el sustrato, el peso de la maceta y las raíces antes de cambiar nada.",
+      "image": "/assets/brand/share/es-guides--overwatering-vs-underwatering.png"
+    },
+    {
       "path": "/es/guides/pet-safe-houseplants/",
       "lang": "es",
       "title": "Plantas de interior y mascotas: qué comprobar antes de llevar una planta a casa",
       "description": "Antes de llevar una planta a casa, busca su nombre botánico, consulta la lista de la ASPCA y elige un sitio fuera del alcance de tu mascota. Qué significan tóxica, no tóxica y no figura.",
       "image": "/assets/brand/share/es-guides--pet-safe-houseplants.png"
+    },
+    {
+      "path": "/es/guides/potting-mix-and-drainage/",
+      "lang": "es",
+      "title": "Sustrato y drenaje: lo que necesita tu maceta",
+      "description": "Agujero de drenaje, sustrato para macetas y nada de capa de grava: lo que necesita una maceta y cómo trasplantar paso a paso.",
+      "image": "/assets/brand/share/es-guides--potting-mix-and-drainage.png"
+    },
+    {
+      "path": "/es/guides/propagating-cuttings/",
+      "lang": "es",
+      "title": "Multiplicar plantas de interior por esquejes: en agua o en sustrato",
+      "description": "Saca un esqueje de tallo con nudos sanos y enraízalo en agua o en sustrato, con las ventajas e inconvenientes de cada método.",
+      "image": "/assets/brand/share/es-guides--propagating-cuttings.png"
+    },
+    {
+      "path": "/es/guides/root-rot/",
+      "lang": "es",
+      "title": "Pudrición de raíces en plantas de interior: señales, causas y qué hacer",
+      "description": "Cómo reconocer la pudrición de raíces, revisar las raíces, recortar y trasplantar, y evitar que vuelva a ocurrir.",
+      "image": "/assets/brand/share/es-guides--root-rot.png"
     },
     {
       "path": "/es/guides/shared-plant-care/",
@@ -658,6 +875,13 @@
       "image": "/assets/brand/share/es-guides--when-to-repot-houseplants.png"
     },
     {
+      "path": "/es/guides/winter-houseplant-care/",
+      "lang": "es",
+      "title": "Cuidados de invierno para plantas de interior: luz, calefacción y riegos más espaciados",
+      "description": "Menos luz, aire seco por la calefacción y crecimiento lento: cómo ajustar luz, riego y abono de las plantas de interior en invierno.",
+      "image": "/assets/brand/share/es-guides--winter-houseplant-care.png"
+    },
+    {
       "path": "/es/guides/yellow-houseplant-leaves/",
       "lang": "es",
       "title": "Hojas amarillas en plantas de interior: qué comprobar antes de actuar",
@@ -670,6 +894,34 @@
       "title": "Diario de plantas",
       "description": "Notas sobre plantas y cuidados compartidos.",
       "image": "/assets/brand/share/es-journal.png"
+    },
+    {
+      "path": "/es/journal/autumn-plant-reset/",
+      "lang": "es",
+      "title": "Una puesta a punto de otoño para tus plantas de interior: lista breve",
+      "description": "Mete dentro las plantas antes del frío, busca plagas, reparte las ventanas y espacia el riego: una lista breve de otoño.",
+      "image": "/assets/brand/share/es-journal--autumn-plant-reset.png"
+    },
+    {
+      "path": "/es/journal/check-before-you-water/",
+      "lang": "es",
+      "title": "Por qué Lilora te recuerda comprobar y no regar",
+      "description": "Un calendario no ve tu planta. Por qué los recordatorios de Lilora piden comprobar y separan el riego de la comprobación sin agua.",
+      "image": "/assets/brand/share/es-journal--check-before-you-water.png"
+    },
+    {
+      "path": "/es/journal/keeping-a-plant-care-journal/",
+      "lang": "es",
+      "title": "Cómo llevar un diario de cuidado de plantas (en papel o en una app)",
+      "description": "Qué anotar de cada planta, una página sencilla, cómo leer tus notas tras una temporada y papel frente a app.",
+      "image": "/assets/brand/share/es-journal--keeping-a-plant-care-journal.png"
+    },
+    {
+      "path": "/es/journal/moving-house-with-plants/",
+      "lang": "es",
+      "title": "Mudarse de casa con plantas",
+      "description": "Incluye tus plantas en la mudanza: plagas, riego, embalaje, transporte, normas fronterizas y adaptación a la luz nueva.",
+      "image": "/assets/brand/share/es-journal--moving-house-with-plants.png"
     },
     {
       "path": "/es/legal/",
@@ -854,6 +1106,27 @@
       "image": "/assets/brand/share/fr-guides.png"
     },
     {
+      "path": "/fr/guides/fertilizing-houseplants/",
+      "lang": "fr",
+      "title": "Nourrir les plantes d’intérieur : quand, combien et quand s’arrêter",
+      "description": "Nourrir pendant la croissance active à la dose de l’étiquette ou moins, s’arrêter quand la lumière baisse et rincer l’excès de sels.",
+      "image": "/assets/brand/share/fr-guides--fertilizing-houseplants.png"
+    },
+    {
+      "path": "/fr/guides/houseplant-humidity/",
+      "lang": "fr",
+      "title": "L’humidité de l’air pour les plantes d’intérieur : ce qui aide et ce qui n’aide pas",
+      "description": "Brumiser change à peine l’humidité. Ce que plateaux de galets, regroupement, humidificateur et bon emplacement peuvent ou non apporter.",
+      "image": "/assets/brand/share/fr-guides--houseplant-humidity.png"
+    },
+    {
+      "path": "/fr/guides/houseplant-pests/",
+      "lang": "fr",
+      "title": "Les ravageurs courants des plantes d’intérieur : moucherons des terreaux, tétranyques, cochenilles farineuses, cochenilles à bouclier et thrips",
+      "description": "Identifier moucherons des terreaux, tétranyques, cochenilles et thrips avant de traiter, en commençant par l’étape la moins nocive.",
+      "image": "/assets/brand/share/fr-guides--houseplant-pests.png"
+    },
+    {
       "path": "/fr/guides/indoor-plant-light-guide/",
       "lang": "fr",
       "title": "La lumière pour les plantes d’intérieur : guide pour bien choisir l’emplacement",
@@ -861,11 +1134,39 @@
       "image": "/assets/brand/share/fr-guides--indoor-plant-light-guide.png"
     },
     {
+      "path": "/fr/guides/overwatering-vs-underwatering/",
+      "lang": "fr",
+      "title": "Trop ou pas assez d’eau ? Comment le savoir avant d’agir",
+      "description": "Flétrissement et feuilles jaunes peuvent signaler trop ou pas assez d’eau. Vérifiez le substrat, le poids du pot et les racines avant de changer quoi que ce soit.",
+      "image": "/assets/brand/share/fr-guides--overwatering-vs-underwatering.png"
+    },
+    {
       "path": "/fr/guides/pet-safe-houseplants/",
       "lang": "fr",
       "title": "Plantes d’intérieur et animaux : ce qu’il faut vérifier avant d’adopter une plante",
       "description": "Avant d’adopter une plante, trouvez son nom botanique, consultez la liste de l’ASPCA et choisissez un emplacement hors de portée de votre animal. Ce que veulent dire toxique, non toxique et non répertoriée.",
       "image": "/assets/brand/share/fr-guides--pet-safe-houseplants.png"
+    },
+    {
+      "path": "/fr/guides/potting-mix-and-drainage/",
+      "lang": "fr",
+      "title": "Substrat et drainage : ce dont votre pot a besoin",
+      "description": "Un trou de drainage, un substrat pour pots et pas de couche de graviers : ce qu’il faut à un pot et comment rempoter pas à pas.",
+      "image": "/assets/brand/share/fr-guides--potting-mix-and-drainage.png"
+    },
+    {
+      "path": "/fr/guides/propagating-cuttings/",
+      "lang": "fr",
+      "title": "Bouturer les plantes d’intérieur : dans l’eau ou dans le substrat",
+      "description": "Prélever une bouture de tige avec des nœuds sains et la faire raciner dans l’eau ou le substrat, avec les avantages de chaque méthode.",
+      "image": "/assets/brand/share/fr-guides--propagating-cuttings.png"
+    },
+    {
+      "path": "/fr/guides/root-rot/",
+      "lang": "fr",
+      "title": "La pourriture des racines chez les plantes d’intérieur : signes, causes et que faire",
+      "description": "Reconnaître la pourriture des racines, examiner les racines, couper, rempoter et éviter qu’elle ne revienne.",
+      "image": "/assets/brand/share/fr-guides--root-rot.png"
     },
     {
       "path": "/fr/guides/shared-plant-care/",
@@ -889,6 +1190,13 @@
       "image": "/assets/brand/share/fr-guides--when-to-repot-houseplants.png"
     },
     {
+      "path": "/fr/guides/winter-houseplant-care/",
+      "lang": "fr",
+      "title": "Les soins d’hiver des plantes d’intérieur : lumière, chauffage et arrosages espacés",
+      "description": "Moins de lumière, air sec du chauffage et croissance ralentie : adapter lumière, arrosage et engrais en hiver.",
+      "image": "/assets/brand/share/fr-guides--winter-houseplant-care.png"
+    },
+    {
       "path": "/fr/guides/yellow-houseplant-leaves/",
       "lang": "fr",
       "title": "Feuilles jaunes sur les plantes d’intérieur : que vérifier avant d’agir",
@@ -901,6 +1209,34 @@
       "title": "Journal des plantes",
       "description": "Notes sur les plantes et les soins partagés.",
       "image": "/assets/brand/share/fr-journal.png"
+    },
+    {
+      "path": "/fr/journal/autumn-plant-reset/",
+      "lang": "fr",
+      "title": "Le grand ménage d’automne des plantes d’intérieur : une courte liste",
+      "description": "Rentrer les plantes avant le froid, chercher les ravageurs, redistribuer les fenêtres, espacer l’arrosage : une courte liste d’automne.",
+      "image": "/assets/brand/share/fr-journal--autumn-plant-reset.png"
+    },
+    {
+      "path": "/fr/journal/check-before-you-water/",
+      "lang": "fr",
+      "title": "Pourquoi les rappels de Lilora disent « vérifier » et non « arroser »",
+      "description": "Un calendrier ne voit pas votre plante. Pourquoi Lilora rappelle de vérifier et distingue l’arrosage de la vérification sans eau.",
+      "image": "/assets/brand/share/fr-journal--check-before-you-water.png"
+    },
+    {
+      "path": "/fr/journal/keeping-a-plant-care-journal/",
+      "lang": "fr",
+      "title": "Tenir un carnet d’entretien des plantes (papier ou application)",
+      "description": "Que noter pour chaque plante, une mise en page simple, relire ses notes après une saison, et papier ou application.",
+      "image": "/assets/brand/share/fr-journal--keeping-a-plant-care-journal.png"
+    },
+    {
+      "path": "/fr/journal/moving-house-with-plants/",
+      "lang": "fr",
+      "title": "Déménager avec ses plantes",
+      "description": "Intégrer ses plantes au déménagement : ravageurs, arrosage, emballage, transport, règles aux frontières et nouvelle lumière.",
+      "image": "/assets/brand/share/fr-journal--moving-house-with-plants.png"
     },
     {
       "path": "/fr/legal/",
@@ -1029,6 +1365,27 @@
       "image": "/assets/brand/share/tr-guides.png"
     },
     {
+      "path": "/guides/fertilizing-houseplants/",
+      "lang": "tr",
+      "title": "Ev bitkilerini beslemek: ne zaman, ne kadar ve ne zaman durmalı",
+      "description": "Ev bitkilerini aktif büyüme döneminde etiketteki oranda veya daha azıyla besle, kışın az ışıkta ara ver ve biriken gübre tuzlarını yıka.",
+      "image": "/assets/brand/share/tr-guides--fertilizing-houseplants.png"
+    },
+    {
+      "path": "/guides/houseplant-humidity/",
+      "lang": "tr",
+      "title": "Ev bitkileri için nem: ne işe yarar, ne yaramaz",
+      "description": "Su püskürtmek nemi neredeyse değiştirmez. Çakıllı tepsi, gruplama, nemlendirici ve doğru yerin ev bitkilerine neler katıp neler katamayacağı.",
+      "image": "/assets/brand/share/tr-guides--houseplant-humidity.png"
+    },
+    {
+      "path": "/guides/houseplant-pests/",
+      "lang": "tr",
+      "title": "Ev bitkilerinde sık görülen zararlılar: mantar sineği, kırmızı örümcek, unlu bit, kabuklu bit ve trips",
+      "description": "Mantar sineği, kırmızı örümcek, unlu bit, kabuklu bit ve tripsi müdahale etmeden önce tanı; en az zararlı adımla başla.",
+      "image": "/assets/brand/share/tr-guides--houseplant-pests.png"
+    },
+    {
       "path": "/guides/indoor-plant-light-guide/",
       "lang": "tr",
       "title": "Ev bitkilerinde ışık: doğru yeri seçme rehberi",
@@ -1036,11 +1393,39 @@
       "image": "/assets/brand/share/tr-guides--indoor-plant-light-guide.png"
     },
     {
+      "path": "/guides/overwatering-vs-underwatering/",
+      "lang": "tr",
+      "title": "Fazla mı suladın, az mı? Harekete geçmeden önce nasıl anlarsın",
+      "description": "Pörsüme ve sararma hem fazla hem az suyun işareti olabilir. Bir şeyi değiştirmeden önce harcı, saksının ağırlığını ve kökleri kontrol et.",
+      "image": "/assets/brand/share/tr-guides--overwatering-vs-underwatering.png"
+    },
+    {
       "path": "/guides/pet-safe-houseplants/",
       "lang": "tr",
       "title": "Ev bitkileri ve evcil hayvanlar: bitkiyi eve getirmeden önce neye bakmalı?",
       "description": "Yeni bir bitkiyi eve getirmeden önce botanik adını bul, ASPCA listesini kontrol et ve evcil hayvanların ulaşamayacağı bir yer seç. Toksik, toksik değil ve listede yok farkı.",
       "image": "/assets/brand/share/tr-guides--pet-safe-houseplants.png"
+    },
+    {
+      "path": "/guides/potting-mix-and-drainage/",
+      "lang": "tr",
+      "title": "Saksı harcı ve drenaj: saksının nelere ihtiyacı var",
+      "description": "Drenaj deliği, saksı harcı ve çakılsız bir dip: bir ev bitkisi saksısının nelere ihtiyacı var ve adım adım dikim.",
+      "image": "/assets/brand/share/tr-guides--potting-mix-and-drainage.png"
+    },
+    {
+      "path": "/guides/propagating-cuttings/",
+      "lang": "tr",
+      "title": "Ev bitkilerini çelikle çoğaltmak: suda mı, toprakta mı",
+      "description": "Sağlıklı boğumları olan bir gövde çeliği al ve suda ya da köklendirme harcında köklendir; iki yöntemin artıları ve eksileri.",
+      "image": "/assets/brand/share/tr-guides--propagating-cuttings.png"
+    },
+    {
+      "path": "/guides/root-rot/",
+      "lang": "tr",
+      "title": "Ev bitkilerinde kök çürüklüğü: belirtiler, nedenler ve yapılacaklar",
+      "description": "Ev bitkisinde kök çürüklüğünü tanıma, köklere bakma, çürük kısımları kesip yeniden saksılama ve tekrarını önleme yolları.",
+      "image": "/assets/brand/share/tr-guides--root-rot.png"
     },
     {
       "path": "/guides/shared-plant-care/",
@@ -1064,6 +1449,13 @@
       "image": "/assets/brand/share/tr-guides--when-to-repot-houseplants.png"
     },
     {
+      "path": "/guides/winter-houseplant-care/",
+      "lang": "tr",
+      "title": "Kışın ev bitkisi bakımı: ışık, kalorifer ve daha seyrek sulama",
+      "description": "Az ışık, kuru kalorifer havası ve yavaş büyüme: kışın ev bitkilerinde ışığı, sulamayı ve beslemeyi nasıl ayarlarsın.",
+      "image": "/assets/brand/share/tr-guides--winter-houseplant-care.png"
+    },
+    {
       "path": "/guides/yellow-houseplant-leaves/",
       "lang": "tr",
       "title": "Sararan yapraklar: bir şey yapmadan önce neleri kontrol etmeli?",
@@ -1076,6 +1468,34 @@
       "title": "Bitki günlüğü",
       "description": "Bitkiler ve ortak bakım üzerine notlar.",
       "image": "/assets/brand/share/tr-journal.png"
+    },
+    {
+      "path": "/journal/autumn-plant-reset/",
+      "lang": "tr",
+      "title": "Ev bitkileri için sonbahar düzeni: kısa bir kontrol listesi",
+      "description": "Soğuk gecelerden önce bitkileri içeri al, zararlılara bak, pencereleri yeniden düzenle ve sulamayı yavaşlat: ev bitkileri için kısa bir sonbahar listesi.",
+      "image": "/assets/brand/share/tr-journal--autumn-plant-reset.png"
+    },
+    {
+      "path": "/journal/check-before-you-water/",
+      "lang": "tr",
+      "title": "Lilora’nın hatırlatmaları neden “sula” değil “kontrol et” diyor",
+      "description": "Takvim bitkini göremez. Lilora’nın hatırlatmaları neden kontrol istiyor ve “Suladım” ile “Kontrol ettim, suya ihtiyacı yok” kayıtlarını neden ayırıyor.",
+      "image": "/assets/brand/share/tr-journal--check-before-you-water.png"
+    },
+    {
+      "path": "/journal/keeping-a-plant-care-journal/",
+      "lang": "tr",
+      "title": "Bitki bakım günlüğü nasıl tutulur (kâğıtta veya uygulamada)",
+      "description": "Her bitki için neleri kaydetmeli, basit bir sayfa düzeni, bir mevsim sonra notlar nasıl okunur ve kâğıt mı uygulama mı.",
+      "image": "/assets/brand/share/tr-journal--keeping-a-plant-care-journal.png"
+    },
+    {
+      "path": "/journal/moving-house-with-plants/",
+      "lang": "tr",
+      "title": "Bitkilerle ev taşımak",
+      "description": "Bitkilerini taşınma planına dahil et: zararlı kontrolü, sulama, paketleme, taşıma, sınır kuralları ve yeni ışığa alışma.",
+      "image": "/assets/brand/share/tr-journal--moving-house-with-plants.png"
     },
     {
       "path": "/legal/",
@@ -1253,6 +1673,27 @@
       "image": "/assets/brand/share/pt-guides.png"
     },
     {
+      "path": "/pt/guides/fertilizing-houseplants/",
+      "lang": "pt",
+      "title": "Como adubar plantas de interior: quando, quanto e quando parar",
+      "description": "Adube durante o crescimento ativo na dose do rótulo ou menos, pare com a pouca luz do inverno e lave o excesso de sais.",
+      "image": "/assets/brand/share/pt-guides--fertilizing-houseplants.png"
+    },
+    {
+      "path": "/pt/guides/houseplant-humidity/",
+      "lang": "pt",
+      "title": "Umidade para plantas de interior: o que ajuda e o que não ajuda",
+      "description": "Borrifar quase não muda a umidade. O que bandejas com pedriscos, agrupar plantas, umidificador e um bom lugar conseguem ou não fazer.",
+      "image": "/assets/brand/share/pt-guides--houseplant-humidity.png"
+    },
+    {
+      "path": "/pt/guides/houseplant-pests/",
+      "lang": "pt",
+      "title": "Pragas comuns em plantas de interior: mosquitos-do-fungo, ácaros, cochonilha-farinhenta, cochonilhas de carapaça e tripes",
+      "description": "Identifique mosquitos-do-fungo, ácaros, cochonilhas e tripes antes de tratar, e comece pelo passo menos agressivo.",
+      "image": "/assets/brand/share/pt-guides--houseplant-pests.png"
+    },
+    {
       "path": "/pt/guides/indoor-plant-light-guide/",
       "lang": "pt",
       "title": "Luz para plantas de interior: guia para iniciantes escolherem o lugar",
@@ -1260,11 +1701,39 @@
       "image": "/assets/brand/share/pt-guides--indoor-plant-light-guide.png"
     },
     {
+      "path": "/pt/guides/overwatering-vs-underwatering/",
+      "lang": "pt",
+      "title": "Rega demais ou de menos? Como saber antes de agir",
+      "description": "Murcha e folhas amarelas podem indicar água demais ou de menos. Confira o substrato, o peso do vaso e as raízes antes de mudar qualquer coisa.",
+      "image": "/assets/brand/share/pt-guides--overwatering-vs-underwatering.png"
+    },
+    {
       "path": "/pt/guides/pet-safe-houseplants/",
       "lang": "pt",
       "title": "Plantas de interior e pets: o que conferir antes de levar uma planta para casa",
       "description": "Antes de levar uma planta para casa, descubra o nome botânico, confira a lista da ASPCA e escolha um lugar fora do alcance do seu pet. O que significam tóxica, não tóxica e não listada.",
       "image": "/assets/brand/share/pt-guides--pet-safe-houseplants.png"
+    },
+    {
+      "path": "/pt/guides/potting-mix-and-drainage/",
+      "lang": "pt",
+      "title": "Substrato e drenagem: o que o seu vaso precisa",
+      "description": "Furo de drenagem, substrato para vasos e nada de camada de brita: o que um vaso precisa e como plantar passo a passo.",
+      "image": "/assets/brand/share/pt-guides--potting-mix-and-drainage.png"
+    },
+    {
+      "path": "/pt/guides/propagating-cuttings/",
+      "lang": "pt",
+      "title": "Mudas por estaca: enraizar na água ou no substrato",
+      "description": "Faça uma estaca de caule com nós saudáveis e enraíze na água ou no substrato, com as vantagens e desvantagens de cada método.",
+      "image": "/assets/brand/share/pt-guides--propagating-cuttings.png"
+    },
+    {
+      "path": "/pt/guides/root-rot/",
+      "lang": "pt",
+      "title": "Podridão das raízes em plantas de interior: sinais, causas e o que fazer",
+      "description": "Como reconhecer a podridão das raízes, examinar as raízes, cortar, trocar o substrato e evitar que volte a acontecer.",
+      "image": "/assets/brand/share/pt-guides--root-rot.png"
     },
     {
       "path": "/pt/guides/shared-plant-care/",
@@ -1288,6 +1757,13 @@
       "image": "/assets/brand/share/pt-guides--when-to-repot-houseplants.png"
     },
     {
+      "path": "/pt/guides/winter-houseplant-care/",
+      "lang": "pt",
+      "title": "Cuidados no inverno com plantas de interior: luz, aquecimento e regas mais espaçadas",
+      "description": "Menos luz, ar seco e crescimento lento: como ajustar luz, rega e adubo das plantas de interior no inverno.",
+      "image": "/assets/brand/share/pt-guides--winter-houseplant-care.png"
+    },
+    {
       "path": "/pt/guides/yellow-houseplant-leaves/",
       "lang": "pt",
       "title": "Folhas amarelas em plantas de interior: o que conferir antes de agir",
@@ -1300,6 +1776,34 @@
       "title": "Diário de plantas",
       "description": "Notas sobre plantas e cuidados compartilhados.",
       "image": "/assets/brand/share/pt-journal.png"
+    },
+    {
+      "path": "/pt/journal/autumn-plant-reset/",
+      "lang": "pt",
+      "title": "Uma arrumação de outono para as plantas de interior: lista rápida",
+      "description": "Traga as plantas para dentro antes do frio, procure pragas, redistribua as janelas e espace as regas: uma lista curta de outono.",
+      "image": "/assets/brand/share/pt-journal--autumn-plant-reset.png"
+    },
+    {
+      "path": "/pt/journal/check-before-you-water/",
+      "lang": "pt",
+      "title": "Por que os lembretes do Lilora dizem “verificar”, e não “regar”",
+      "description": "Um calendário não enxerga a sua planta. Por que os lembretes do Lilora pedem uma verificação e separam rega de verificação sem água.",
+      "image": "/assets/brand/share/pt-journal--check-before-you-water.png"
+    },
+    {
+      "path": "/pt/journal/keeping-a-plant-care-journal/",
+      "lang": "pt",
+      "title": "Como manter um diário de cuidados com as plantas (no papel ou num app)",
+      "description": "O que anotar sobre cada planta, uma página simples, como ler as anotações depois de uma estação e papel ou app.",
+      "image": "/assets/brand/share/pt-journal--keeping-a-plant-care-journal.png"
+    },
+    {
+      "path": "/pt/journal/moving-house-with-plants/",
+      "lang": "pt",
+      "title": "Mudança de casa com plantas",
+      "description": "Inclua as plantas na mudança: pragas, rega, embalagem, transporte, regras de fronteira e adaptação à nova luz.",
+      "image": "/assets/brand/share/pt-journal--moving-house-with-plants.png"
     },
     {
       "path": "/pt/legal/",

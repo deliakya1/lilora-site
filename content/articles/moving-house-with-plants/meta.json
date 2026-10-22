@@ -1,0 +1,51 @@
+{
+  "slug": "moving-house-with-plants",
+  "type": "post",
+  "published": "2026-10-22",
+  "reviewed": "2026-10-22",
+  "sources": [
+    {
+      "name": "EFSA: travelling and plants",
+      "url": "https://www.efsa.europa.eu/en/plh4l/travelling-and-plants"
+    },
+    {
+      "name": "University of Minnesota Extension: houseplant pests",
+      "url": "https://extension.umn.edu/news/houseplant-pests"
+    },
+    {
+      "name": "University of Maryland Extension: non-living causes of indoor plant problems",
+      "url": "https://extension.umd.edu/resources/yard-garden/indoor-plants/indoor-plant-problems-nonliving"
+    },
+    {
+      "name": "Illinois Extension: moving houseplants indoors",
+      "url": "https://extension.illinois.edu/blogs/good-growing/2022-09-09-tips-moving-houseplants-indoors-and-overwinter-care"
+    },
+    {
+      "name": "RHS: holiday care",
+      "url": "https://www.rhs.org.uk/plants/types/houseplants/holiday-care"
+    }
+  ],
+  "related": [
+    "shared-plant-care",
+    "indoor-plant-light-guide",
+    "propagating-cuttings"
+  ],
+  "en": {
+    "description": "Plan plants into your move: pest checks, watering, packing, transport, border rules and settling them into new light."
+  },
+  "tr": {
+    "description": "Bitkilerini taşınma planına dahil et: zararlı kontrolü, sulama, paketleme, taşıma, sınır kuralları ve yeni ışığa alışma."
+  },
+  "es": {
+    "description": "Incluye tus plantas en la mudanza: plagas, riego, embalaje, transporte, normas fronterizas y adaptación a la luz nueva."
+  },
+  "de": {
+    "description": "Pflanzen beim Umzug einplanen: Schädlingskontrolle, Gießen, Verpacken, Transport, Einfuhrregeln und Eingewöhnung ins neue Licht."
+  },
+  "pt": {
+    "description": "Inclua as plantas na mudança: pragas, rega, embalagem, transporte, regras de fronteira e adaptação à nova luz."
+  },
+  "fr": {
+    "description": "Intégrer ses plantes au déménagement : ravageurs, arrosage, emballage, transport, règles aux frontières et nouvelle lumière."
+  }
+}

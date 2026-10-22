@@ -1,0 +1,59 @@
+{
+  "slug": "houseplant-pests",
+  "type": "guide",
+  "published": "2026-10-22",
+  "reviewed": "2026-10-22",
+  "sources": [
+    {
+      "name": "University of Minnesota Extension: houseplant pests",
+      "url": "https://extension.umn.edu/news/houseplant-pests"
+    },
+    {
+      "name": "Iowa State University Extension: insect pests of houseplants",
+      "url": "https://yardandgarden.extension.iastate.edu/how-to/diagnosing-houseplant-problems-caused-insect-pests"
+    },
+    {
+      "name": "RHS: fungus gnats",
+      "url": "https://www.rhs.org.uk/biodiversity/fungus-gnats"
+    },
+    {
+      "name": "RHS: indoor plants, sap-feeding insects",
+      "url": "https://www.rhs.org.uk/biodiversity/indoor-plants-sap-feeding-insects"
+    },
+    {
+      "name": "Michigan State University Extension: mealybugs",
+      "url": "https://www.canr.msu.edu/news/mealybugs_a_common_pest_of_indoor_plants"
+    },
+    {
+      "name": "University of Maryland Extension: indoor plant insects",
+      "url": "https://extension.umd.edu/resources/yard-garden/indoor-plants/indoor-plant-insects"
+    },
+    {
+      "name": "UC IPM: houseplant problems",
+      "url": "https://ipm.ucanr.edu/home-and-landscape/houseplant-problems/"
+    }
+  ],
+  "related": [
+    "yellow-houseplant-leaves",
+    "overwatering-vs-underwatering",
+    "autumn-plant-reset"
+  ],
+  "en": {
+    "description": "Identify fungus gnats, spider mites, mealybugs, scale and thrips before treating, and start with the least harmful step."
+  },
+  "tr": {
+    "description": "Mantar sineği, kırmızı örümcek, unlu bit, kabuklu bit ve tripsi müdahale etmeden önce tanı; en az zararlı adımla başla."
+  },
+  "es": {
+    "description": "Identifica mosquitos del sustrato, araña roja, cochinilla algodonosa, cochinillas de escudo y trips antes de tratar, y empieza por el paso menos dañino."
+  },
+  "de": {
+    "description": "Trauermücken, Spinnmilben, Wollläuse, Schildläuse und Thripse vor der Behandlung bestimmen und mit dem schonendsten Schritt beginnen."
+  },
+  "pt": {
+    "description": "Identifique mosquitos-do-fungo, ácaros, cochonilhas e tripes antes de tratar, e comece pelo passo menos agressivo."
+  },
+  "fr": {
+    "description": "Identifier moucherons des terreaux, tétranyques, cochenilles et thrips avant de traiter, en commençant par l’étape la moins nocive."
+  }
+}
