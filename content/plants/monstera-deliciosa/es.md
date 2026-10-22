@@ -40,7 +40,7 @@ NC State indica esquejes de tallo y acodo. El esqueje necesita un nudo, idealmen
 
 ## Mascotas y personas
 
-El [ASPCA Animal Poison Control Center](https://www.aspca.org/) incluye la monstera como tóxica para gatos y perros por sus oxalatos de calcio insolubles. Los signos que enumera son irritación oral, ardor intenso e irritación de boca, lengua y labios, babeo excesivo, vómitos y dificultad para tragar. NC State añade que la savia puede irritar la piel. Si tu mascota la mordisquea, contacta con un veterinario o con un servicio de toxicología animal. Si una persona la ingiere, llama a tu centro de información toxicológica local. Esto es información general, no consejo veterinario ni médico.
+El [ASPCA Animal Poison Control Center](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cutleaf-philodendron) incluye la monstera como tóxica para gatos y perros por sus oxalatos de calcio insolubles. Los signos que enumera son irritación oral, ardor intenso e irritación de boca, lengua y labios, babeo excesivo, vómitos y dificultad para tragar. NC State añade que la savia puede irritar la piel. Si tu mascota la mordisquea, contacta con un veterinario o con un servicio de toxicología animal. Si una persona la ingiere, llama a tu centro de información toxicológica local. Esto es información general, no consejo veterinario ni médico.
 
 ## Preguntas frecuentes
 

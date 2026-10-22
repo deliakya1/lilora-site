@@ -40,7 +40,7 @@ Die Grünlilie lässt sich leicht über Kindel oder Teilung vermehren. Leg ein K
 
 ## Haustiere und Menschen
 
-Das [ASPCA Animal Poison Control Center](https://www.aspca.org/) führt die Grünlilie (spider plant) als ungiftig für Katzen und Hunde, und NC State Extension stuft sie genauso ein. Ungiftig heißt nicht, dass dein Tier sie bedenkenlos fressen kann: Pflanzenmaterial kann trotzdem den Magen verstimmen, und Katzen lieben die herabhängenden Blätter. Häng sie außer Reichweite, wenn deine Katze daran knabbert. Wirkt dein Tier krank, wende dich an eine Tierarztpraxis. Hat ein Mensch nach dem Verzehr einer Pflanze Beschwerden, wende dich an den Giftnotruf in deiner Region. Dies sind allgemeine Informationen, keine tierärztliche oder medizinische Beratung.
+Das [ASPCA Animal Poison Control Center](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant) führt die Grünlilie (spider plant) als ungiftig für Katzen und Hunde, und NC State Extension stuft sie genauso ein. Ungiftig heißt nicht, dass dein Tier sie bedenkenlos fressen kann: Pflanzenmaterial kann trotzdem den Magen verstimmen, und Katzen lieben die herabhängenden Blätter. Häng sie außer Reichweite, wenn deine Katze daran knabbert. Wirkt dein Tier krank, wende dich an eine Tierarztpraxis. Hat ein Mensch nach dem Verzehr einer Pflanze Beschwerden, wende dich an den Giftnotruf in deiner Region. Dies sind allgemeine Informationen, keine tierärztliche oder medizinische Beratung.
 
 ## Häufige Fragen
 

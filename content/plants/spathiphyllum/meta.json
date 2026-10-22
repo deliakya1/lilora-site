@@ -24,8 +24,8 @@
       "url": "https://www.rhs.org.uk/getmedia/d02059a1-4e2c-45c3-956b-da5cc90db7f1/Indoor-plants-resources.pdf"
     },
     {
-      "name": "ASPCA Animal Poison Control Center",
-      "url": "https://www.aspca.org/"
+      "name": "ASPCA Animal Poison Control Center: Peace lily (Spathiphyllum)",
+      "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peace-lily"
     }
   ],
   "tr": {
@@ -38,7 +38,7 @@
       "humidity": "Nemli havayı sever; kuru hava yaprak uçlarını kahverengileştirebilir",
       "temperature": "Gündüz yaklaşık 20–29 °C; 16 °C'nin altında büyüme yavaşlar",
       "petSafety": "ASPCA kedi ve köpekler için toksik olarak listeler",
-      "petSafetySource": "https://www.aspca.org/",
+      "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peace-lily",
       "careLevel": "Kolay–orta"
     }
   },
@@ -52,7 +52,7 @@
       "humidity": "Likes humid air; dry air can brown leaf tips",
       "temperature": "About 20–29 °C (68–85 °F) by day; growth slows below 16 °C (60 °F)",
       "petSafety": "Listed as toxic to cats and dogs by the ASPCA",
-      "petSafetySource": "https://www.aspca.org/",
+      "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peace-lily",
       "careLevel": "Easy to moderate"
     }
   },
@@ -66,7 +66,7 @@
       "humidity": "Le gusta el aire húmedo; el aire seco puede quemar las puntas",
       "temperature": "Unos 20–29 °C de día; por debajo de 16 °C crece mucho más lento",
       "petSafety": "La ASPCA lo incluye como tóxico para gatos y perros",
-      "petSafetySource": "https://www.aspca.org/",
+      "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peace-lily",
       "careLevel": "Fácil a media"
     }
   },
@@ -80,7 +80,7 @@
       "humidity": "Mag feuchte Luft; trockene Luft lässt Blattspitzen braun werden",
       "temperature": "Tagsüber etwa 20–29 °C; unter 16 °C wächst es deutlich langsamer",
       "petSafety": "Von der ASPCA als giftig für Katzen und Hunde geführt",
-      "petSafetySource": "https://www.aspca.org/",
+      "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peace-lily",
       "careLevel": "Leicht bis mittel"
     }
   },
@@ -94,7 +94,7 @@
       "humidity": "Gosta de ar úmido; ar seco pode queimar as pontas",
       "temperature": "Cerca de 20–29 °C de dia; abaixo de 16 °C o crescimento fica bem lento",
       "petSafety": "A ASPCA lista como tóxico para gatos e cães",
-      "petSafetySource": "https://www.aspca.org/",
+      "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peace-lily",
       "careLevel": "Fácil a médio"
     }
   },
@@ -108,7 +108,7 @@
       "humidity": "Aime l’air humide ; l’air sec peut brunir les pointes",
       "temperature": "Environ 20–29 °C le jour ; sous 16 °C la croissance ralentit nettement",
       "petSafety": "Classé toxique pour les chats et les chiens par l’ASPCA",
-      "petSafetySource": "https://www.aspca.org/",
+      "petSafetySource": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peace-lily",
       "careLevel": "Facile à moyen"
     }
   }

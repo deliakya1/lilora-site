@@ -40,7 +40,7 @@ Elle se multiplie facilement par plantules ou par division. Posez une plantule s
 
 ## Animaux et humains
 
-L’[ASPCA Animal Poison Control Center](https://www.aspca.org/) classe la plante araignée (spider plant) comme non toxique pour les chats et les chiens, et NC State Extension la classe de la même façon. Non toxique ne veut pas dire qu’un animal peut la manger librement : mâcher des végétaux peut quand même déranger l’estomac, et les chats adorent les feuilles retombantes. Suspendez-la hors de portée si votre chat la mâchonne. Si votre animal semble malade, contactez un vétérinaire. Si une personne a des symptômes après avoir avalé une plante, appelez le centre antipoison de votre région. Ces informations sont générales et ne remplacent pas l’avis d’un vétérinaire ou d’un médecin.
+L’[ASPCA Animal Poison Control Center](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant) classe la plante araignée (spider plant) comme non toxique pour les chats et les chiens, et NC State Extension la classe de la même façon. Non toxique ne veut pas dire qu’un animal peut la manger librement : mâcher des végétaux peut quand même déranger l’estomac, et les chats adorent les feuilles retombantes. Suspendez-la hors de portée si votre chat la mâchonne. Si votre animal semble malade, contactez un vétérinaire. Si une personne a des symptômes après avoir avalé une plante, appelez le centre antipoison de votre région. Ces informations sont générales et ne remplacent pas l’avis d’un vétérinaire ou d’un médecin.
 
 ## Questions fréquentes
 

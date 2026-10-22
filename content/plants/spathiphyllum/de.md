@@ -40,7 +40,7 @@ Teile einen dichten Horst beim Umtopfen, sodass jedes Teil Wurzeln und mehrere B
 
 ## Haustiere und Menschen
 
-Das [ASPCA Animal Poison Control Center](https://www.aspca.org/) führt das Einblatt (peace lily) wegen unlöslicher Calciumoxalate als giftig für Katzen und Hunde. Es nennt Reizungen im Maul, Brennen und Reizung an Maul, Zunge und Lippen, starkes Speicheln, Erbrechen und Schluckbeschwerden. Trotz des englischen Namens ist es keine echte Lilie (*Lilium*). Knabbert dein Tier daran, wende dich an eine Tierarztpraxis oder einen tierärztlichen Giftnotruf. Hat ein Mensch etwas davon gegessen, wende dich an den Giftnotruf in deiner Region. Dies sind allgemeine Informationen, keine tierärztliche oder medizinische Beratung.
+Das [ASPCA Animal Poison Control Center](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peace-lily) führt das Einblatt (peace lily) wegen unlöslicher Calciumoxalate als giftig für Katzen und Hunde. Es nennt Reizungen im Maul, Brennen und Reizung an Maul, Zunge und Lippen, starkes Speicheln, Erbrechen und Schluckbeschwerden. Trotz des englischen Namens ist es keine echte Lilie (*Lilium*). Knabbert dein Tier daran, wende dich an eine Tierarztpraxis oder einen tierärztlichen Giftnotruf. Hat ein Mensch etwas davon gegessen, wende dich an den Giftnotruf in deiner Region. Dies sind allgemeine Informationen, keine tierärztliche oder medizinische Beratung.
 
 ## Häufige Fragen
 

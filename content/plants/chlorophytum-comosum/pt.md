@@ -40,7 +40,7 @@ Multiplica-se fácil por mudinhas ou divisão. Prenda uma muda sobre substrato �
 
 ## Animais e pessoas
 
-O [ASPCA Animal Poison Control Center](https://www.aspca.org/) lista o clorofito (spider plant) como não tóxico para gatos e cães, e a NC State Extension o classifica da mesma forma. Não tóxico não quer dizer que o animal possa comê-lo à vontade: mastigar planta ainda pode dar mal-estar no estômago, e os gatos adoram as folhas pendentes. Pendure-o fora de alcance se o seu gato o mastigar. Se o seu animal parecer mal, procure um veterinário. Se uma pessoa tiver sintomas depois de ingerir uma planta, ligue para o centro de informação toxicológica da sua região. Isto é informação geral, não orientação veterinária nem médica.
+O [ASPCA Animal Poison Control Center](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant) lista o clorofito (spider plant) como não tóxico para gatos e cães, e a NC State Extension o classifica da mesma forma. Não tóxico não quer dizer que o animal possa comê-lo à vontade: mastigar planta ainda pode dar mal-estar no estômago, e os gatos adoram as folhas pendentes. Pendure-o fora de alcance se o seu gato o mastigar. Se o seu animal parecer mal, procure um veterinário. Se uma pessoa tiver sintomas depois de ingerir uma planta, ligue para o centro de informação toxicológica da sua região. Isto é informação geral, não orientação veterinária nem médica.
 
 ## Perguntas frequentes
 

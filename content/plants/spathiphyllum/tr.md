@@ -26,6 +26,12 @@ NC State organik maddesi bol, hafif asidik ve iyi süzülen bir harç öneriyor.
 
 Kaynaklar ayrıntıda ayrışıyor. NC State önerilen dozun dörtte biriyle gübrelemeyi ve arada harcı bol suyla yıkamayı öneriyor; RHS ise paketteki dozda ayda bir dengeli sıvı gübre öneriyor. Ortak mesaj şu: büyüme döneminde nazikçe besle ve yaprak uçlarını yakabilen tuz birikiminden kaçın. [NC State Extension](https://plants.ces.ncsu.edu/plants/spathiphyllum/)
 
+## Mevsime göre bakım
+
+NC State'e göre yaklaşık 4–16 °C arasındaki soğuk ve cereyanlı ortam büyümeyi belirgin biçimde yavaşlatır; 4 °C'nin altında uzun süre kalmak yapraklara, gövdelere ve köklere zarar verebilir. Kışın bitkiyi soğuk pencere ve kapılardan uzak, ılık bir odada tut ve sabit bir günde sulamak yerine harcı kontrol etmeyi sürdür; yavaşlayan büyüme genellikle daha yavaş kuruma demektir. NC State, gerekiyorsa saksı değişimini şubat ya da martta yapmayı öneriyor. [NC State Extension](https://plants.ces.ncsu.edu/plants/spathiphyllum/)
+
+Isıtılan odalar çoğu zaman kurudur ve NC State düşük nemi kahverengi yaprak uçlarıyla ilişkilendiriyor. Yazın bitkiyi doğrudan güneşten koru; güneş de uçları kahverengileştirir. [Kış bakımı rehberine](/guides/winter-houseplant-care/) ve [nem rehberine](/guides/houseplant-humidity/) bak. Lilora'da hatırlatma bir kontrol çağrısıdır, sulama emri değil: suladığını ya da ertelediğini kaydedersin; böylece soğuk aylarda harcın daha yavaş kuruduğu kendi geçmişinde görünür.
+
 ## Sık görülen sorunlar
 
 - **Kahverengi yaprak uçları:** NC State olası nedenler olarak doğrudan güneşi, az sulamayı, düşük nemi ve gübre tuzlarını sayıyor.
@@ -40,7 +46,7 @@ Saksı değişiminde kalabalık öbeği böl; her parçada kök ve birkaç yapra
 
 ## Evcil hayvanlar ve insanlar
 
-[ASPCA Animal Poison Control Center](https://www.aspca.org/), barış çiçeğini çözünmeyen kalsiyum oksalatlar nedeniyle kedi ve köpekler için toksik olarak listeler. Saydığı belirtiler ağızda tahriş, ağız, dil ve dudaklarda yanma ve tahriş, aşırı salya, kusma ve yutma güçlüğüdür. Adına rağmen gerçek bir zambak (*Lilium*) değildir. Evcil hayvanın bitkiyi çiğnerse bir veterinere veya hayvan zehir danışma hizmetine başvur. İnsanlarda zehirlenme şüphesinde Türkiye'de 114 UZEM'i ara. Bu genel bilgidir; veteriner veya tıbbi tavsiye değildir.
+[ASPCA Animal Poison Control Center](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/peace-lily), barış çiçeğini çözünmeyen kalsiyum oksalatlar nedeniyle kedi ve köpekler için toksik olarak listeler. Saydığı belirtiler ağızda tahriş, ağız, dil ve dudaklarda yanma ve tahriş, aşırı salya, kusma ve yutma güçlüğüdür. Adına rağmen gerçek bir zambak (*Lilium*) değildir. Evcil hayvanın bitkiyi çiğnerse bir veterinere veya hayvan zehir danışma hizmetine başvur. İnsanlarda zehirlenme şüphesinde Türkiye'de 114 UZEM'i ara. Bu genel bilgidir; veteriner veya tıbbi tavsiye değildir. Başka bitkilerle karşılaştırmak için [evcil hayvan dostu bitkiler rehberine](/guides/pet-safe-houseplants/) ya da [bitki kütüphanesindeki toksik olmayan profillere](/plants/#petNonToxic) bak.
 
 ## Sık sorulan sorular
 
@@ -55,3 +61,7 @@ Bu, çiçek başağını saran ve spata denen değişmiş bir yapraktır.
 ### Az ışıkta yetişir mi?
 
 Gölgeye dayanır ama daha fazla dolaylı ışıkta genellikle daha iyi çiçek açar.
+
+### Barış çiçeğinin saksısını ne zaman değiştirmeliyim?
+
+Kökler saksıyı doldurduğunda. NC State şubat ya da martı öneriyor; bir sonraki saksı yalnızca biraz büyük olsun.

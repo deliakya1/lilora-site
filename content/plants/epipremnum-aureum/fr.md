@@ -40,7 +40,7 @@ Le pothos s’enracine facilement par bouturage. Coupez un morceau avec au moins
 
 ## Animaux et humains
 
-L’[ASPCA Animal Poison Control Center](https://www.aspca.org/) classe le pothos (golden pothos) comme toxique pour les chats et les chiens. NC State Extension désigne les cristaux d’oxalate de calcium comme principe toxique et cite des signes tels qu’irritation et gonflement de la bouche, salivation, difficulté à avaler et vomissements ; la sève peut irriter la peau. Gardez les tiges retombantes hors de portée. Si votre animal mâchonne la plante, contactez un vétérinaire ou un centre antipoison vétérinaire. Si une personne en a avalé, appelez le centre antipoison de votre région. Ces informations sont générales et ne remplacent pas l’avis d’un vétérinaire ou d’un médecin.
+L’[ASPCA Animal Poison Control Center](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos) classe le pothos (golden pothos) comme toxique pour les chats et les chiens. NC State Extension désigne les cristaux d’oxalate de calcium comme principe toxique et cite des signes tels qu’irritation et gonflement de la bouche, salivation, difficulté à avaler et vomissements ; la sève peut irriter la peau. Gardez les tiges retombantes hors de portée. Si votre animal mâchonne la plante, contactez un vétérinaire ou un centre antipoison vétérinaire. Si une personne en a avalé, appelez le centre antipoison de votre région. Ces informations sont générales et ne remplacent pas l’avis d’un vétérinaire ou d’un médecin.
 
 ## Questions fréquentes
 

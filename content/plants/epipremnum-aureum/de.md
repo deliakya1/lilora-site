@@ -40,7 +40,7 @@ Die Efeutute bewurzelt sich leicht aus Stecklingen. Schneide ein Stück mit mind
 
 ## Haustiere und Menschen
 
-Das [ASPCA Animal Poison Control Center](https://www.aspca.org/) führt die Efeutute (golden pothos) als giftig für Katzen und Hunde. NC State Extension nennt Calciumoxalat-Kristalle als giftigen Bestandteil und Anzeichen wie Reizung und Schwellung im Maul, Speicheln, Schluckbeschwerden und Erbrechen; der Pflanzensaft kann die Haut reizen. Halte herabhängende Triebe außer Reichweite. Knabbert dein Tier daran, wende dich an eine Tierarztpraxis oder einen tierärztlichen Giftnotruf. Hat ein Mensch etwas davon gegessen, wende dich an den Giftnotruf in deiner Region. Dies sind allgemeine Informationen, keine tierärztliche oder medizinische Beratung.
+Das [ASPCA Animal Poison Control Center](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos) führt die Efeutute (golden pothos) als giftig für Katzen und Hunde. NC State Extension nennt Calciumoxalat-Kristalle als giftigen Bestandteil und Anzeichen wie Reizung und Schwellung im Maul, Speicheln, Schluckbeschwerden und Erbrechen; der Pflanzensaft kann die Haut reizen. Halte herabhängende Triebe außer Reichweite. Knabbert dein Tier daran, wende dich an eine Tierarztpraxis oder einen tierärztlichen Giftnotruf. Hat ein Mensch etwas davon gegessen, wende dich an den Giftnotruf in deiner Region. Dies sind allgemeine Informationen, keine tierärztliche oder medizinische Beratung.
 
 ## Häufige Fragen
 

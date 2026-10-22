@@ -40,7 +40,7 @@ NC State cite le bouturage de tige et le marcottage. Une bouture a besoin d’un
 
 ## Animaux et humains
 
-L’[ASPCA Animal Poison Control Center](https://www.aspca.org/) classe le monstera comme toxique pour les chats et les chiens en raison des oxalates de calcium insolubles. Les signes cités sont une irritation buccale, une brûlure et une irritation intenses de la bouche, de la langue et des lèvres, une salivation excessive, des vomissements et une difficulté à avaler. NC State ajoute que la sève peut irriter la peau. Si votre animal mâchonne la plante, contactez un vétérinaire ou un centre antipoison vétérinaire. Si une personne en a avalé, appelez le centre antipoison de votre région. Ces informations sont générales et ne remplacent pas l’avis d’un vétérinaire ou d’un médecin.
+L’[ASPCA Animal Poison Control Center](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cutleaf-philodendron) classe le monstera comme toxique pour les chats et les chiens en raison des oxalates de calcium insolubles. Les signes cités sont une irritation buccale, une brûlure et une irritation intenses de la bouche, de la langue et des lèvres, une salivation excessive, des vomissements et une difficulté à avaler. NC State ajoute que la sève peut irriter la peau. Si votre animal mâchonne la plante, contactez un vétérinaire ou un centre antipoison vétérinaire. Si une personne en a avalé, appelez le centre antipoison de votre région. Ces informations sont générales et ne remplacent pas l’avis d’un vétérinaire ou d’un médecin.
 
 ## Questions fréquentes
 

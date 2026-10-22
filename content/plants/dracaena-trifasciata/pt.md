@@ -40,7 +40,7 @@ Divida uma touceira apertada na troca de vaso, deixando raízes e folhas em cada
 
 ## Animais e pessoas
 
-O [ASPCA Animal Poison Control Center](https://www.aspca.org/) lista a espada-de-são-jorge (mother-in-law's tongue) como tóxica para gatos e cães. Aponta as saponinas como princípio tóxico e lista náusea, vômito e diarreia como sinais. Se o seu animal mastigar a planta, procure um veterinário ou um serviço de informação toxicológica veterinária. Se uma pessoa ingerir a planta, ligue para o centro de informação toxicológica da sua região. Isto é informação geral, não orientação veterinária nem médica.
+O [ASPCA Animal Poison Control Center](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mother-laws-tongue) lista a espada-de-são-jorge (mother-in-law's tongue) como tóxica para gatos e cães. Aponta as saponinas como princípio tóxico e lista náusea, vômito e diarreia como sinais. Se o seu animal mastigar a planta, procure um veterinário ou um serviço de informação toxicológica veterinária. Se uma pessoa ingerir a planta, ligue para o centro de informação toxicológica da sua região. Isto é informação geral, não orientação veterinária nem médica.
 
 ## Perguntas frequentes
 

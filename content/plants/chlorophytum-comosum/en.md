@@ -26,6 +26,12 @@ Medium humidity is enough; a humidifier or pebble tray helps in very dry air. Ke
 
 Feed lightly during spring and summer. NC State warns that over-fertilizing reduces plantlet formation. [NC State Extension](https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/)
 
+## Seasonal care
+
+NC State advises reducing watering in winter and keeping the plant above 7 °C (45 °F). It grows best in evenly moist mix but tolerates dry spells, so in cool months check before watering and let the top dry a little more. [NC State Extension](https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/)
+
+Short days have a useful side effect: NC State notes that runners form when the plant gets less than 12 hours of light a day for at least three weeks, so plantlets often appear after autumn. Keep it out of direct sun, which it does not tolerate, in summer. See the [winter care guide](/en/guides/winter-houseplant-care/). In Lilora, a reminder is a prompt to check, not an order to water: you record whether you watered or snoozed, so slower drying in the cold months shows up in your own history.
+
 ## Common problems
 
 - **Brown leaf tips:** NC State links them to chlorine and fluoride in tap water. Try rainwater or filtered water and avoid fertilizer build-up.
@@ -40,7 +46,7 @@ Spider plant propagates easily from plantlets or by division. Pin a plantlet ont
 
 ## Pets and people
 
-The [ASPCA Animal Poison Control Center](https://www.aspca.org/) lists spider plant as non-toxic to cats and dogs, and NC State Extension tags it the same way. Non-toxic does not mean a pet can eat it freely: chewing plant material can still upset a stomach, and cats are often drawn to the dangling leaves. Hang it out of reach if your cat chews it. If a pet seems unwell, contact a veterinarian. For people in Türkiye, the poison information line is 114 (UZEM). This is general information, not veterinary or medical advice.
+The [ASPCA Animal Poison Control Center](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/spider-plant) lists spider plant as non-toxic to cats and dogs, and NC State Extension tags it the same way. Non-toxic does not mean a pet can eat it freely: chewing plant material can still upset a stomach, and cats are often drawn to the dangling leaves. Hang it out of reach if your cat chews it. If a pet seems unwell, contact a veterinarian. For people in Türkiye, the poison information line is 114 (UZEM). This is general information, not veterinary or medical advice. To compare other plants, see the [pet-safe houseplants guide](/en/guides/pet-safe-houseplants/) or the [non-toxic profiles in the plant library](/en/plants/#petNonToxic).
 
 ## Common questions
 
@@ -55,3 +61,7 @@ Once they have roots of a few centimetres, or leave them on for a fuller hanging
 ### Is spider plant safe for cats?
 
 The ASPCA lists it as non-toxic to cats and dogs. Still discourage chewing.
+
+### Why hasn’t my spider plant made plantlets?
+
+Runners usually form after several weeks of days with less than 12 hours of light. Heavy feeding also reduces them, according to NC State.

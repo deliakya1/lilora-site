@@ -26,6 +26,12 @@ Yaklaşık 16–29 °C arasındaki ılık sıcaklıkları ve yüksek nemi sever.
 
 İlkbahar ve yazın etiketteki dozda dengeli bir saksı bitkisi gübresi ver, kışın ara ver. Solmuş ya da kökleri ıslak ve zarar görmüş bir bitkiyi gübreleme.
 
+## Mevsime göre bakım
+
+NC State kış için ayrı bir takvim vermiyor; aynı kontrolü sürdür: iyice sula, sonra harcın üstten yaklaşık dörtte biri ile üçte biri kuruyana kadar bekle. Kısa günlerde ve serin odalarda bu genellikle daha uzun sürer, yani kontroller seyrekleşir. Bitkiyi sevdiği 16–29 °C aralığında, soğuk camdan ve kaloriferin sıcak hava akımından uzak tut. Budama ve saksı değişimini NC State'in önerdiği gibi ilkbahara bırak. [NC State Extension](https://plants.ces.ncsu.edu/plants/monstera-deliciosa/)
+
+Yazın güneşli bir pencere fazla sert olabilir; güneş huzmesi saatlerce yaprakların üzerinde duruyorsa bitkiyi geri çek. Cereyan ve kalorifer için [kış bakımı rehberine](/guides/winter-houseplant-care/) bak. Lilora'da hatırlatma bir kontrol çağrısıdır, sulama emri değil: suladığını ya da ertelediğini kaydedersin; böylece soğuk aylarda harcın daha yavaş kuruduğu kendi geçmişinde görünür.
+
 ## Sık görülen sorunlar
 
 - **Harç ıslakken sararan alt yapraklar:** yeniden sulamadan önce drenajı ve kökleri kontrol et.
@@ -40,7 +46,7 @@ NC State gövde çeliği ve daldırmayı öneriyor. Çeliğin bir boğumu, terci
 
 ## Evcil hayvanlar ve insanlar
 
-[ASPCA Animal Poison Control Center](https://www.aspca.org/), deve tabanını çözünmeyen kalsiyum oksalatlar nedeniyle kedi ve köpekler için toksik olarak listeler. Saydığı belirtiler ağızda tahriş, ağız, dil ve dudaklarda yoğun yanma ve tahriş, aşırı salya, kusma ve yutma güçlüğüdür. NC State, özsuyun cildi tahriş edebileceğini ekliyor. Evcil hayvanın bitkiyi çiğnerse bir veterinere veya hayvan zehir danışma hizmetine başvur. İnsanlarda zehirlenme şüphesinde Türkiye'de 114 UZEM'i ara. Bu genel bilgidir; veteriner veya tıbbi tavsiye değildir.
+[ASPCA Animal Poison Control Center](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/cutleaf-philodendron), deve tabanını çözünmeyen kalsiyum oksalatlar nedeniyle kedi ve köpekler için toksik olarak listeler. Saydığı belirtiler ağızda tahriş, ağız, dil ve dudaklarda yoğun yanma ve tahriş, aşırı salya, kusma ve yutma güçlüğüdür. NC State, özsuyun cildi tahriş edebileceğini ekliyor. Evcil hayvanın bitkiyi çiğnerse bir veterinere veya hayvan zehir danışma hizmetine başvur. İnsanlarda zehirlenme şüphesinde Türkiye'de 114 UZEM'i ara. Bu genel bilgidir; veteriner veya tıbbi tavsiye değildir. Başka bitkilerle karşılaştırmak için [evcil hayvan dostu bitkiler rehberine](/guides/pet-safe-houseplants/) ya da [bitki kütüphanesindeki toksik olmayan profillere](/plants/#petNonToxic) bak.
 
 ## Sık sorulan sorular
 
@@ -55,3 +61,7 @@ Hayır. Bazen “yarık yapraklı filodendron” adıyla satılır ama *Monstera
 ### Gövdedeki uzun kahverengi kökler ne?
 
 Hava kökleri. Onları desteğe ya da harca yönlendir; birden çoğunu kesme.
+
+### Kışın deve tabanını daha az mı sulamalıyım?
+
+Harç daha yavaş kuruduğu için aralar çoğu zaman uzar. Yeni bir sabit takvime geçmek yerine üstteki dörtte bir ile üçte biri kontrol etmeyi sürdür.

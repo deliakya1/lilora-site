@@ -40,7 +40,7 @@ Teile einen dichten Horst beim Umtopfen, sodass jedes Teil Wurzeln und Blätter 
 
 ## Haustiere und Menschen
 
-Das [ASPCA Animal Poison Control Center](https://www.aspca.org/) führt den Bogenhanf (mother-in-law’s tongue) als giftig für Katzen und Hunde. Als giftigen Bestandteil nennt es Saponine, als Anzeichen Übelkeit, Erbrechen und Durchfall. Knabbert dein Tier daran, wende dich an eine Tierarztpraxis oder einen tierärztlichen Giftnotruf. Hat ein Mensch etwas davon gegessen, wende dich an den Giftnotruf in deiner Region. Dies sind allgemeine Informationen, keine tierärztliche oder medizinische Beratung.
+Das [ASPCA Animal Poison Control Center](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mother-laws-tongue) führt den Bogenhanf (mother-in-law’s tongue) als giftig für Katzen und Hunde. Als giftigen Bestandteil nennt es Saponine, als Anzeichen Übelkeit, Erbrechen und Durchfall. Knabbert dein Tier daran, wende dich an eine Tierarztpraxis oder einen tierärztlichen Giftnotruf. Hat ein Mensch etwas davon gegessen, wende dich an den Giftnotruf in deiner Region. Dies sind allgemeine Informationen, keine tierärztliche oder medizinische Beratung.
 
 ## Häufige Fragen
 

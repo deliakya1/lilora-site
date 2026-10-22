@@ -40,7 +40,7 @@ Divisez une touffe serrée au rempotage en laissant racines et feuilles à chaqu
 
 ## Animaux et humains
 
-L’[ASPCA Animal Poison Control Center](https://www.aspca.org/) classe la sansevière (mother-in-law’s tongue) comme toxique pour les chats et les chiens. Il désigne les saponines comme principe toxique et cite nausées, vomissements et diarrhée comme signes. Si votre animal mâchonne la plante, contactez un vétérinaire ou un centre antipoison vétérinaire. Si une personne en a avalé, appelez le centre antipoison de votre région. Ces informations sont générales et ne remplacent pas l’avis d’un vétérinaire ou d’un médecin.
+L’[ASPCA Animal Poison Control Center](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/mother-laws-tongue) classe la sansevière (mother-in-law’s tongue) comme toxique pour les chats et les chiens. Il désigne les saponines comme principe toxique et cite nausées, vomissements et diarrhée comme signes. Si votre animal mâchonne la plante, contactez un vétérinaire ou un centre antipoison vétérinaire. Si une personne en a avalé, appelez le centre antipoison de votre région. Ces informations sont générales et ne remplacent pas l’avis d’un vétérinaire ou d’un médecin.
 
 ## Questions fréquentes
 

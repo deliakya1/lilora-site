@@ -40,7 +40,7 @@ Enraíza con facilidad por esquejes de tallo. Corta un trozo con al menos un nud
 
 ## Mascotas y personas
 
-El [ASPCA Animal Poison Control Center](https://www.aspca.org/) incluye el potos (golden pothos) como tóxico para gatos y perros. NC State Extension indica como principio tóxico los cristales de oxalato de calcio y cita signos como irritación e hinchazón de la boca, babeo, dificultad para tragar y vómitos; la savia puede irritar la piel. Mantén los tallos colgantes fuera de su alcance. Si tu mascota lo mordisquea, contacta con un veterinario o con un servicio de toxicología animal. Si una persona lo ingiere, llama a tu centro de información toxicológica local. Esto es información general, no consejo veterinario ni médico.
+El [ASPCA Animal Poison Control Center](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/golden-pothos) incluye el potos (golden pothos) como tóxico para gatos y perros. NC State Extension indica como principio tóxico los cristales de oxalato de calcio y cita signos como irritación e hinchazón de la boca, babeo, dificultad para tragar y vómitos; la savia puede irritar la piel. Mantén los tallos colgantes fuera de su alcance. Si tu mascota lo mordisquea, contacta con un veterinario o con un servicio de toxicología animal. Si una persona lo ingiere, llama a tu centro de información toxicológica local. Esto es información general, no consejo veterinario ni médico.
 
 ## Preguntas frecuentes
 
