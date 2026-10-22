@@ -37,15 +37,18 @@
     "description": "Soğuk gecelerden önce bitkileri içeri al, zararlılara bak, pencereleri yeniden düzenle ve sulamayı yavaşlat: ev bitkileri için kısa bir sonbahar listesi."
   },
   "es": {
-    "description": "Mete dentro las plantas antes del frío, busca plagas, reparte las ventanas y espacia el riego: una lista breve de otoño."
+    "description": "Mete dentro las plantas antes del frío, busca plagas, reparte las ventanas y espacia el riego: una lista breve de otoño.",
+    "seoTitle": "Puesta a punto de otoño para plantas de interior"
   },
   "de": {
     "description": "Pflanzen vor kalten Nächten hereinholen, auf Schädlinge prüfen, Fenster neu verteilen, seltener gießen: eine kurze Herbst-Checkliste."
   },
   "pt": {
-    "description": "Traga as plantas para dentro antes do frio, procure pragas, redistribua as janelas e espace as regas: uma lista curta de outono."
+    "description": "Traga as plantas para dentro antes do frio, procure pragas, redistribua as janelas e espace as regas: uma lista curta de outono.",
+    "seoTitle": "Arrumação de outono para plantas de interior"
   },
   "fr": {
-    "description": "Rentrer les plantes avant le froid, chercher les ravageurs, redistribuer les fenêtres, espacer l’arrosage : une courte liste d’automne."
+    "description": "Rentrer les plantes avant le froid, chercher les ravageurs, redistribuer les fenêtres, espacer l’arrosage : une courte liste d’automne.",
+    "seoTitle": "Le ménage d’automne des plantes d’intérieur"
   }
 }

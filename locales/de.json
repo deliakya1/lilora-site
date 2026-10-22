@@ -73,10 +73,10 @@
   "notFoundDescription": "Unter dieser Adresse gibt es keine Seite. Wähle eine Sprache, um fortzufahren.",
   "suggestionHome": "Website auf Deutsch ansehen",
   "hubDescription": {
-    "guides": "Praktische Hinweise: Pflanzen beobachten, bevor du die Pflege änderst.",
-    "plants": "Zimmerpflanzen nach Arten kennenlernen.",
-    "journal": "Notizen über Pflanzen und gemeinsame Pflege.",
-    "compare": "Quellenbasierte Vergleiche von Pflanzen-Apps."
+    "guides": "Quellenbasierte Ratgeber zu Gießen, Licht, Töpfen, Schädlingen und Pflege im Jahreslauf: erst die Pflanze beobachten, dann die Pflege ändern.",
+    "plants": "Zimmerpflanzen nach Arten: Licht, Gießen, Luftfeuchtigkeit, Temperatur, Hinweise zu Haustieren und Pflegeaufwand, jeweils mit Quellen.",
+    "journal": "Notizen über Pflanzen und gemeinsame Pflege: warum Lilora „prüfen“ sagt, Checklisten für die Jahreszeit, Umzug mit Pflanzen und Pflegetagebuch.",
+    "compare": "Quellenbasierte Vergleiche von Pflanzen-Apps: Erinnerungen, gemeinsame Einträge, Pflanzenbestimmung und Preise, mit ehrlichen Hinweisen."
   },
   "hubTitles": {
     "guides": "Ratgeber zur Zimmerpflanzenpflege",
@@ -84,5 +84,6 @@
     "journal": "Pflanzenjournal",
     "compare": "Pflanzen-Apps im Vergleich"
   },
-  "backToTop": "Nach oben"
+  "backToTop": "Nach oben",
+  "feedTitle": "Lilora: Pflanzenratgeber und Journal"
 }

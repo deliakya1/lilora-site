@@ -34,18 +34,22 @@
     "description": "Feed houseplants during active growth at the label rate or less, pause in low winter light, and flush out excess fertiliser salts."
   },
   "tr": {
-    "description": "Ev bitkilerini aktif büyüme döneminde etiketteki oranda veya daha azıyla besle, kışın az ışıkta ara ver ve biriken gübre tuzlarını yıka."
+    "description": "Ev bitkilerini aktif büyüme döneminde etiketteki oranda veya daha azıyla besle, kışın az ışıkta ara ver ve biriken gübre tuzlarını yıka.",
+    "seoTitle": "Ev bitkilerini beslemek: ne zaman ve ne kadar"
   },
   "es": {
-    "description": "Abona durante el crecimiento activo a la dosis de la etiqueta o menos, para con la poca luz del invierno y lava el exceso de sales."
+    "description": "Abona durante el crecimiento activo a la dosis de la etiqueta o menos, para con la poca luz del invierno y lava el exceso de sales.",
+    "seoTitle": "Abonar plantas de interior: cuándo, cuánto y cuándo parar"
   },
   "de": {
     "description": "Während des Wachstums höchstens nach Packungsangabe düngen, im lichtarmen Winter pausieren und überschüssige Düngersalze ausspülen."
   },
   "pt": {
-    "description": "Adube durante o crescimento ativo na dose do rótulo ou menos, pare com a pouca luz do inverno e lave o excesso de sais."
+    "description": "Adube só no crescimento ativo, na dose do rótulo ou menos. Pare na pouca luz do inverno e lave o excesso de sais do substrato de vez em quando.",
+    "seoTitle": "Adubar plantas de interior: quando, quanto e quando parar"
   },
   "fr": {
-    "description": "Nourrir pendant la croissance active à la dose de l’étiquette ou moins, s’arrêter quand la lumière baisse et rincer l’excès de sels."
+    "description": "Nourrir pendant la croissance active à la dose de l’étiquette ou moins, s’arrêter quand la lumière baisse et rincer l’excès de sels.",
+    "seoTitle": "Engrais pour plantes d’intérieur : quand et combien"
   }
 }

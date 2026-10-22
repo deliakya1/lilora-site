@@ -34,7 +34,8 @@
     "description": "Compare Lilora and PictureThis for identification, reminders, collections and household care, with official sources and pricing caveats.",
     "image": "/assets/editorial/lilora-collection-en.webp",
     "imageAlt": "Lilora store artwork with a real collection screen and sample plant records",
-    "caption": "Lilora store artwork, using a real app screen with sample records. This is not a screenshot of the competing app."
+    "caption": "Lilora store artwork, using a real app screen with sample records. This is not a screenshot of the competing app.",
+    "seoTitle": "Lilora vs PictureThis: identification and plant care"
   },
   "tr": {
     "description": "Lilora ve PictureThis’i tanıma, hatırlatma, koleksiyon ve ortak bakım açısından karşılaştır. Resmi kaynaklar ve fiyat açıklamaları.",
@@ -49,7 +50,8 @@
     "description": "Compara Lilora y PictureThis en identificación, recordatorios, colecciones y cuidado compartido, con fuentes oficiales y advertencias sobre precios.",
     "image": "/assets/editorial/lilora-collection-en.webp",
     "imageAlt": "Imagen de tienda de Lilora con una pantalla real de colección y registros de ejemplo (app en inglés)",
-    "caption": "Imagen de tienda de Lilora con una pantalla real de la app y registros de ejemplo. La app está en inglés y turco. No es una captura de la app de la competencia."
+    "caption": "Imagen de tienda de Lilora con una pantalla real de la app y registros de ejemplo. La app está en inglés y turco. No es una captura de la app de la competencia.",
+    "seoTitle": "Lilora vs PictureThis: identificación y cuidado diario"
   },
   "de": {
     "description": "Lilora und PictureThis im Vergleich: Bestimmung, Erinnerungen, Sammlungen und gemeinsame Pflege, mit offiziellen Quellen und Hinweisen zu Preisen.",
@@ -61,12 +63,14 @@
     "description": "Compare Lilora e PictureThis em identificação, lembretes, coleções e cuidado compartilhado, com fontes oficiais e ressalvas sobre preços.",
     "image": "/assets/editorial/lilora-collection-en.webp",
     "imageAlt": "Arte de loja do Lilora com uma tela real de coleção e registros de exemplo (app em inglês)",
-    "caption": "Arte de loja do Lilora com uma tela real do app e registros de exemplo. O app está em inglês e turco. Não é captura de tela do app concorrente."
+    "caption": "Arte de loja do Lilora com uma tela real do app e registros de exemplo. O app está em inglês e turco. Não é captura de tela do app concorrente.",
+    "seoTitle": "Lilora vs PictureThis: identificação e cuidado diário"
   },
   "fr": {
-    "description": "Comparez Lilora et PictureThis pour l’identification, les rappels, les collections et l’entretien partagé, avec des sources officielles et des réserves sur les prix.",
+    "description": "Lilora et PictureThis comparés pour l’identification, les rappels, les collections et l’entretien partagé, avec sources officielles et réserves.",
     "image": "/assets/editorial/lilora-collection-en.webp",
     "imageAlt": "Visuel Lilora pour l’App Store avec un vrai écran de collection et des fiches d’exemple (app en anglais)",
-    "caption": "Visuel Lilora pour l’App Store avec un vrai écran de l’app et des fiches d’exemple. L’app est disponible en anglais et en turc. Ce n’est pas une capture de l’app concurrente."
+    "caption": "Visuel Lilora pour l’App Store avec un vrai écran de l’app et des fiches d’exemple. L’app est disponible en anglais et en turc. Ce n’est pas une capture de l’app concurrente.",
+    "seoTitle": "Lilora vs PictureThis : identification et entretien"
   }
 }

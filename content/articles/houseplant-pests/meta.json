@@ -39,21 +39,27 @@
     "autumn-plant-reset"
   ],
   "en": {
-    "description": "Identify fungus gnats, spider mites, mealybugs, scale and thrips before treating, and start with the least harmful step."
+    "description": "Identify fungus gnats, spider mites, mealybugs, scale and thrips before treating, and start with the least harmful step.",
+    "seoTitle": "Common houseplant pests: how to identify and treat them"
   },
   "tr": {
-    "description": "Mantar sineği, kırmızı örümcek, unlu bit, kabuklu bit ve tripsi müdahale etmeden önce tanı; en az zararlı adımla başla."
+    "description": "Mantar sineği, kırmızı örümcek, unlu bit, kabuklu bit ve tripsi müdahale etmeden önce tanı; bitkiyi ayır ve en az zararlı adımla başla.",
+    "seoTitle": "Ev bitkilerinde sık görülen zararlılar ve tanıma"
   },
   "es": {
-    "description": "Identifica mosquitos del sustrato, araña roja, cochinilla algodonosa, cochinillas de escudo y trips antes de tratar, y empieza por el paso menos dañino."
+    "description": "Identifica mosquitos del sustrato, araña roja, cochinilla algodonosa, cochinillas de escudo y trips antes de tratar, y empieza por el paso menos dañino.",
+    "seoTitle": "Plagas comunes en plantas de interior: cómo identificarlas"
   },
   "de": {
-    "description": "Trauermücken, Spinnmilben, Wollläuse, Schildläuse und Thripse vor der Behandlung bestimmen und mit dem schonendsten Schritt beginnen."
+    "description": "Trauermücken, Spinnmilben, Wollläuse, Schildläuse und Thripse vor der Behandlung bestimmen und mit dem schonendsten Schritt beginnen.",
+    "seoTitle": "Schädlinge an Zimmerpflanzen erkennen und behandeln"
   },
   "pt": {
-    "description": "Identifique mosquitos-do-fungo, ácaros, cochonilhas e tripes antes de tratar, e comece pelo passo menos agressivo."
+    "description": "Identifique mosquitos-do-fungo, ácaros, cochonilhas e tripes antes de tratar, isole a planta e comece sempre pelo passo menos agressivo.",
+    "seoTitle": "Pragas comuns em plantas de interior: como identificar"
   },
   "fr": {
-    "description": "Identifier moucherons des terreaux, tétranyques, cochenilles et thrips avant de traiter, en commençant par l’étape la moins nocive."
+    "description": "Identifier moucherons des terreaux, tétranyques, cochenilles et thrips avant de traiter, en commençant par l’étape la moins nocive.",
+    "seoTitle": "Ravageurs des plantes d’intérieur : les identifier"
   }
 }

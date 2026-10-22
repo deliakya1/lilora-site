@@ -27,21 +27,25 @@
     "yellow-houseplant-leaves"
   ],
   "en": {
-    "description": "What to record about each plant, a simple page layout, how to read your notes after a season, and paper versus an app."
+    "description": "What to record about each plant, a simple page layout, how to read your notes after a season, and whether paper or an app suits you better."
   },
   "tr": {
-    "description": "Her bitki için neleri kaydetmeli, basit bir sayfa düzeni, bir mevsim sonra notlar nasıl okunur ve kâğıt mı uygulama mı."
+    "description": "Her bitki için neleri kaydetmeli, basit bir sayfa düzeni, bir mevsim sonra notları nasıl okumalı ve kâğıt mı uygulama mı sana daha uygun."
   },
   "es": {
-    "description": "Qué anotar de cada planta, una página sencilla, cómo leer tus notas tras una temporada y papel frente a app."
+    "description": "Qué anotar de cada planta, una página sencilla, cómo leer tus notas al cabo de una temporada y si te conviene más el papel o una app.",
+    "seoTitle": "Cómo llevar un diario de cuidado de plantas"
   },
   "de": {
-    "description": "Was du je Pflanze festhältst, ein einfaches Seitenlayout, wie du die Notizen nach einer Saison liest, und Papier oder App."
+    "description": "Was du je Pflanze festhältst, ein einfaches Seitenlayout, wie du die Notizen nach einer Saison liest, und Papier oder App.",
+    "seoTitle": "Ein Pflanzenpflege-Tagebuch führen: Papier oder App"
   },
   "pt": {
-    "description": "O que anotar sobre cada planta, uma página simples, como ler as anotações depois de uma estação e papel ou app."
+    "description": "O que anotar sobre cada planta, uma página simples, como ler suas anotações depois de uma estação e se o papel ou um app combina mais com você.",
+    "seoTitle": "Como manter um diário de cuidados com as plantas"
   },
   "fr": {
-    "description": "Que noter pour chaque plante, une mise en page simple, relire ses notes après une saison, et papier ou application."
+    "description": "Que noter pour chaque plante, une mise en page simple, comment relire ses notes après une saison, et s’il vaut mieux du papier ou une app.",
+    "seoTitle": "Tenir un carnet d’entretien des plantes"
   }
 }

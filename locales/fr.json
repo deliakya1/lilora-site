@@ -73,10 +73,10 @@
   "notFoundDescription": "Cette adresse ne mène à aucune page. Choisissez une langue pour continuer.",
   "suggestionHome": "Voir le site en français",
   "hubDescription": {
-    "guides": "Des conseils pour observer vos plantes avant de changer leurs soins.",
-    "plants": "Des fiches de plantes d’intérieur par espèce.",
-    "journal": "Notes sur les plantes et les soins partagés.",
-    "compare": "Des comparaisons d’apps avec leurs sources."
+    "guides": "Des guides sourcés sur l’arrosage, la lumière, les pots, les ravageurs et les saisons, pour observer vos plantes avant de changer leurs soins.",
+    "plants": "Des fiches de plantes d’intérieur par espèce : lumière, arrosage, humidité, température, infos sur les animaux et niveau d’entretien, sourcés.",
+    "journal": "Notes sur les plantes et les soins partagés : pourquoi Lilora dit « vérifier », listes de saison, déménager avec ses plantes et tenir un carnet.",
+    "compare": "Des comparatifs sourcés d’apps d’entretien des plantes : rappels, historique partagé, identification et prix, avec des remarques honnêtes."
   },
   "hubTitles": {
     "guides": "Guides de soin des plantes",
@@ -84,5 +84,6 @@
     "journal": "Journal des plantes",
     "compare": "Comparatifs des applications pour plantes"
   },
-  "backToTop": "Retour en haut"
+  "backToTop": "Retour en haut",
+  "feedTitle": "Lilora : guides d’entretien des plantes et journal"
 }

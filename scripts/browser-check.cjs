@@ -3,7 +3,7 @@ const fs=require('node:fs');
 const assert=require('node:assert/strict');
 (async()=>{
  const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',headless:true,args:['--no-sandbox']});
- const urls=[...fs.readFileSync('sitemap.xml','utf8').matchAll(/<loc>https:\/\/lilora.app(.*?)<\/loc>/g)].map(x=>x[1]);
+ const urls=[...['tr','en','es','de','pt','fr'].map(l=>fs.readFileSync(`sitemap-${l}.xml`,'utf8')).join('\n').matchAll(/<loc>https:\/\/lilora.app(.*?)<\/loc>/g)].map(x=>x[1]);
  fs.mkdirSync('.test-results',{recursive:true});
  let count=0;let requests=[];let errors=[];
  for(const width of [320,390,768,1440]){

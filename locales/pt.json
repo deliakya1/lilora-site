@@ -73,10 +73,10 @@
   "notFoundDescription": "Não há uma página neste endereço. Escolha um idioma para continuar.",
   "suggestionHome": "Ver o site em português",
   "hubDescription": {
-    "guides": "Dicas para observar suas plantas antes de mudar os cuidados.",
-    "plants": "Perfis de plantas de interior por espécie.",
-    "journal": "Notas sobre plantas e cuidados compartilhados.",
-    "compare": "Comparações de apps com fontes identificadas."
+    "guides": "Guias com fontes sobre rega, luz, vasos, pragas e cuidados de cada estação, para observar suas plantas antes de mudar os cuidados com elas.",
+    "plants": "Perfis de plantas de interior por espécie: luz, rega, umidade, temperatura, informações sobre pets e nível de cuidado, sempre com fontes.",
+    "journal": "Notas sobre plantas e cuidados compartilhados: por que o Lilora diz “verificar”, listas da estação, mudança com plantas e como manter um diário.",
+    "compare": "Comparações com fontes de apps de cuidado de plantas: lembretes, registros compartilhados, identificação e preços, com observações honestas."
   },
   "hubTitles": {
     "guides": "Guias de cuidados com plantas",
@@ -84,5 +84,6 @@
     "journal": "Diário de plantas",
     "compare": "Comparativos de aplicativos de plantas"
   },
-  "backToTop": "Voltar ao topo"
+  "backToTop": "Voltar ao topo",
+  "feedTitle": "Lilora: guias de cuidado de plantas e diário"
 }

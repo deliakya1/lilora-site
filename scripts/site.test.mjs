@@ -7,6 +7,8 @@ const root=process.cwd();
 const crawl=(dir)=>readdirSync(dir,{withFileTypes:true}).flatMap(x=>x.name.startsWith('.')||['node_modules','scripts','pages'].includes(x.name)?[]:x.isDirectory()?crawl(dir+'/'+x.name):x.name.endsWith('.html')?[dir+'/'+x.name]:[]);
 const files=crawl(root);
 const content=JSON.parse(readFileSync('editorial/articles.json'));
+const datedContent=[...content,...JSON.parse(readFileSync('editorial/plants.json'))];
+const allSitemaps=()=>['tr','en','es','de','pt','fr'].map(l=>readFileSync(`sitemap-${l}.xml`,'utf8')).join('\n');
 test('published substantial source-backed articles have complete English and Turkish counterparts',()=>{
  assert.equal(content.length,readdirSync('content/articles').filter(x=>existsSync('content/articles/'+x+'/meta.json')).length);
  for(const a of content){assert.ok(a.sources.length>=3);for(const lang of ['en','tr']){assert.ok(a[lang].sections.length>=6);assert.ok(a[lang].sections.map(s=>s.html).join(' ').split(/\s+/).length>=300);assert.ok(a[lang].answer.length>100);}}
@@ -25,11 +27,11 @@ test('all pages have one h1, declared language, description and local links/asse
  }
 });
 test('canonical, reciprocal hreflang, truthful JSON-LD and sitemap',()=>{
- const sitemap=readFileSync('sitemap.xml','utf8');const locations=[...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map(x=>x[1]);assert.equal(new Set(locations).size,JSON.parse(readFileSync('editorial/routes.json')).length);
+ const sitemap=allSitemaps();const locations=[...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map(x=>x[1]);assert.equal(new Set(locations).size,JSON.parse(readFileSync('editorial/routes.json')).length);
  for(const file of files){const s=readFileSync(file,'utf8');if(file.endsWith('/404.html')){assert.match(s,/noindex/);assert.doesNotMatch(s,/rel="canonical"/);continue;}
  const canonical=s.match(/rel="canonical" href="([^"]+)"/)[1];assert.ok(locations.includes(canonical),canonical);const alternates=[...s.matchAll(/rel="alternate" hreflang="([^"]+)" href="([^"]+)"/g)];assert.equal(alternates.find(x=>x[1]==='x-default')?.[2],alternates.find(x=>x[1]==='en')?.[2],canonical);
  for(const [,lang,href] of s.matchAll(/rel="alternate" hreflang="([^"]+)" href="([^"]+)"/g)){if(lang==='x-default')continue;const target=root+new URL(href).pathname+'index.html';assert.ok(readFileSync(target,'utf8').includes(`href="${canonical}"`));}
- for(const [,raw] of s.matchAll(/<script type="application\/ld\+json">(.*?)<\/script>/gs)){const schema=JSON.parse(raw);assert.equal(schema['@context'],'https://schema.org');assert.ok(!['Review','AggregateRating','Product','FAQPage'].includes(schema['@type']));if(schema['@type']==='Article'){assert.equal(schema.mainEntityOfPage,canonical);assert.ok(s.includes(schema.headline.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))));const article=content.find(a=>canonical.endsWith('/'+a.slug+'/'));assert.equal(schema.dateModified,article.reviewed);assert.equal(schema.datePublished,article.published);}}
+ for(const [,raw] of s.matchAll(/<script type="application\/ld\+json">(.*?)<\/script>/gs)){const schema=JSON.parse(raw);assert.equal(schema['@context'],'https://schema.org');assert.ok(!['Review','AggregateRating','Product','FAQPage'].includes(schema['@type']));if(['Article','BlogPosting'].includes(schema['@type'])){assert.equal(schema.mainEntityOfPage,canonical);assert.ok(s.includes(schema.headline.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))));const article=datedContent.find(a=>canonical.endsWith('/'+a.slug+'/'));assert.equal(schema.dateModified,article.reviewed);assert.equal(schema.datePublished,article.published);}}
  }
 });
 test('availability and owner-supplied consent-gated analytics are explicit',()=>{

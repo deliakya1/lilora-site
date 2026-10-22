@@ -35,21 +35,25 @@
     "houseplant-humidity"
   ],
   "en": {
-    "description": "Less light, dry heated air and slower growth: how to adjust light, watering and feeding for houseplants in winter."
+    "description": "Less light, dry heated air and slower growth: how to adjust light, watering and feeding for houseplants in winter, in either hemisphere."
   },
   "tr": {
-    "description": "Az ışık, kuru kalorifer havası ve yavaş büyüme: kışın ev bitkilerinde ışığı, sulamayı ve beslemeyi nasıl ayarlarsın."
+    "description": "Az ışık, kuru kalorifer havası ve yavaş büyüme: kışın ev bitkilerinde ışığı, sulamayı ve beslemeyi nasıl ayarlayacağını adım adım gör.",
+    "seoTitle": "Kışın ev bitkisi bakımı: ışık, ısı ve seyrek sulama"
   },
   "es": {
-    "description": "Menos luz, aire seco por la calefacción y crecimiento lento: cómo ajustar luz, riego y abono de las plantas de interior en invierno."
+    "description": "Menos luz, aire seco por la calefacción y crecimiento lento: cómo ajustar luz, riego y abono de las plantas de interior en invierno.",
+    "seoTitle": "Plantas de interior en invierno: luz, calefacción y riego"
   },
   "de": {
-    "description": "Weniger Licht, trockene Heizungsluft und langsames Wachstum: wie du Licht, Gießen und Düngen im Winter anpasst."
+    "description": "Weniger Licht, trockene Heizungsluft und langsames Wachstum: So passt du Standort, Gießen und Düngen deiner Zimmerpflanzen im Winter an."
   },
   "pt": {
-    "description": "Menos luz, ar seco e crescimento lento: como ajustar luz, rega e adubo das plantas de interior no inverno."
+    "description": "Menos luz, ar seco e crescimento lento: como ajustar o lugar, a rega e a adubação das plantas de interior no inverno, de junho a agosto.",
+    "seoTitle": "Plantas de interior no inverno: luz, aquecimento e rega"
   },
   "fr": {
-    "description": "Moins de lumière, air sec du chauffage et croissance ralentie : adapter lumière, arrosage et engrais en hiver."
+    "description": "Moins de lumière, air sec du chauffage et croissance ralentie : comment adapter l’emplacement, l’arrosage et l’engrais de vos plantes en hiver.",
+    "seoTitle": "Plantes d’intérieur en hiver : lumière, chauffage, arrosage"
   }
 }

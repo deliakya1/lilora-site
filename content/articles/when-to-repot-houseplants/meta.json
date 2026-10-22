@@ -37,15 +37,19 @@
     "description": "Kökleri incele, uygun saksı boyutunu seç ve dikim derinliğini koru. Yaygın yapraklı ev bitkileri için dikkatli saksı değiştirme rehberi."
   },
   "es": {
-    "description": "Trasplanta cuando las raíces o el sustrato lo piden, no por calendario. Cómo revisar, elegir el tamaño de maceta y trasplantar con cuidado."
+    "description": "Trasplanta cuando las raíces o el sustrato lo piden, no por calendario. Cómo revisar, elegir el tamaño de maceta y trasplantar con cuidado.",
+    "seoTitle": "Cuándo y cómo trasplantar una planta de interior"
   },
   "de": {
-    "description": "Topf um, wenn Wurzeln oder Substrat es verlangen, nicht nach Kalender. So prüfst du, wählst die Topfgröße und topfst schonend um."
+    "description": "Topf um, wenn Wurzeln oder Substrat es verlangen, nicht nach Kalender. So prüfst du, wählst die Topfgröße und topfst schonend um.",
+    "seoTitle": "Zimmerpflanzen umtopfen: wann und wie es gelingt"
   },
   "pt": {
-    "description": "Troque de vaso quando as raízes ou o substrato pedirem, não pelo calendário. Como conferir, escolher o tamanho do vaso e fazer a troca com cuidado."
+    "description": "Troque de vaso quando as raízes ou o substrato pedirem, não pelo calendário. Como conferir, escolher o tamanho do vaso e fazer a troca com cuidado.",
+    "seoTitle": "Quando e como trocar uma planta de interior de vaso"
   },
   "fr": {
-    "description": "Rempotez quand les racines ou le terreau le demandent, pas selon un calendrier. Comment vérifier, choisir la taille du pot et rempoter avec soin."
+    "description": "Rempotez quand les racines ou le terreau le demandent, pas selon un calendrier. Comment vérifier, choisir la taille du pot et rempoter avec soin.",
+    "seoTitle": "Quand et comment rempoter une plante d’intérieur"
   }
 }

@@ -59,7 +59,7 @@
       "path": "/compare/",
       "lang": "tr",
       "title": "Bitki uygulaması karşılaştırmaları",
-      "description": "Bitki uygulamaları için kaynaklı karşılaştırmalar.",
+      "description": "Bitki bakım uygulamalarının kaynaklı karşılaştırmaları: hatırlatmalar, ortak kayıtlar, bitki tanıma ve fiyat modelleri, dürüst notlarla.",
       "image": "/assets/brand/share/tr-compare.png"
     },
     {
@@ -80,7 +80,7 @@
       "path": "/contact/",
       "lang": "tr",
       "title": "Lilora ile iletişim",
-      "description": "Uygulama desteği, gizlilik, basın, düzeltme veya iş birliği için Lilora ile iletişime geç.",
+      "description": "Uygulama desteği, gizlilik, basın, düzeltme veya iş birliği için formu kullan ya da support@lilora.app adresine yaz. Türkçe ve İngilizce yanıtlıyoruz.",
       "image": "/assets/brand/share/tr-contact.png"
     },
     {
@@ -101,7 +101,7 @@
       "path": "/de/compare/",
       "lang": "de",
       "title": "Pflanzen-Apps im Vergleich",
-      "description": "Quellenbasierte Vergleiche von Pflanzen-Apps.",
+      "description": "Quellenbasierte Vergleiche von Pflanzen-Apps: Erinnerungen, gemeinsame Einträge, Pflanzenbestimmung und Preise, mit ehrlichen Hinweisen.",
       "image": "/assets/brand/share/de-compare.png"
     },
     {
@@ -122,7 +122,7 @@
       "path": "/de/contact/",
       "lang": "de",
       "title": "Kontakt zu Lilora",
-      "description": "Kontaktiere Lilora zu App-Hilfe, Datenschutz, Presse, Korrekturen oder Kooperationen.",
+      "description": "Schreib uns zu App-Hilfe, Datenschutz, Presse, Korrekturen oder Kooperationen per Formular oder an support@lilora.app. Antwort auf Englisch oder Türkisch.",
       "image": "/assets/brand/share/de-contact.png"
     },
     {
@@ -136,14 +136,14 @@
       "path": "/de/editorial/",
       "lang": "de",
       "title": "Redaktionelle Grundsätze",
-      "description": "So recherchiert, schreibt und aktualisiert Lilora Pflanzenratgeber und App-Vergleiche.",
+      "description": "Wie Lilora recherchiert, mit KI-Hilfe entwirft, Fakten prüft, datiert und Pflanzenratgeber sowie App-Vergleiche aktualisiert – und Bilder kennzeichnet.",
       "image": "/assets/brand/share/de-editorial.png"
     },
     {
       "path": "/de/guides/",
       "lang": "de",
       "title": "Ratgeber zur Zimmerpflanzenpflege",
-      "description": "Praktische Hinweise: Pflanzen beobachten, bevor du die Pflege änderst.",
+      "description": "Quellenbasierte Ratgeber zu Gießen, Licht, Töpfen, Schädlingen und Pflege im Jahreslauf: erst die Pflanze beobachten, dann die Pflege ändern.",
       "image": "/assets/brand/share/de-guides.png"
     },
     {
@@ -185,7 +185,7 @@
       "path": "/de/guides/pet-safe-houseplants/",
       "lang": "de",
       "title": "Zimmerpflanzen und Haustiere: was du vor dem Kauf prüfen solltest",
-      "description": "Bevor eine Pflanze einzieht: botanischen Namen finden, die ASPCA-Liste prüfen und einen Platz außer Reichweite deines Tieres wählen. Was giftig, ungiftig und nicht gelistet bedeutet.",
+      "description": "Bevor eine Pflanze einzieht: botanischen Namen finden, die ASPCA-Liste prüfen, einen sicheren Platz wählen – und was „ungiftig“ wirklich heißt.",
       "image": "/assets/brand/share/de-guides--pet-safe-houseplants.png"
     },
     {
@@ -206,21 +206,21 @@
       "path": "/de/guides/root-rot/",
       "lang": "de",
       "title": "Wurzelfäule bei Zimmerpflanzen: Anzeichen, Ursachen und was du tun kannst",
-      "description": "Wie du Wurzelfäule erkennst, die Wurzeln prüfst, zurückschneidest, umtopfst und verhinderst, dass sie wiederkommt.",
+      "description": "Wie du Wurzelfäule an Zimmerpflanzen erkennst, die Wurzeln prüfst, kranke Teile abschneidest, umtopfst und verhinderst, dass sie wiederkommt.",
       "image": "/assets/brand/share/de-guides--root-rot.png"
     },
     {
       "path": "/de/guides/shared-plant-care/",
       "lang": "de",
       "title": "Pflanzenpflege teilen, ohne doppelt zu gießen",
-      "description": "Teil die Pflanzenpflege mit Partner oder Mitbewohnern: klare Einträge für Prüfen und Gießen, eine einfache Aufteilung und eine praktische Übergabe vor der Reise.",
+      "description": "Pflanzenpflege mit Partner oder WG teilen: klare Einträge für Prüfen und Gießen, eine einfache Aufteilung und eine Übergabe vor der Reise.",
       "image": "/assets/brand/share/de-guides--shared-plant-care.png"
     },
     {
       "path": "/de/guides/watering-houseplants/",
       "lang": "de",
       "title": "Zimmerpflanzen gießen ohne starren Plan",
-      "description": "Prüf Substrat, Topfgewicht und Abzug, um zu entscheiden, wann du gießt. Eine praktische Routine, die sich nach der Pflanze richtet, nicht nach einem starren Kalender.",
+      "description": "Prüf Substrat, Topfgewicht und Abzug, bevor du gießt. Eine praktische Routine, die sich nach der Pflanze richtet, nicht nach dem Kalender.",
       "image": "/assets/brand/share/de-guides--watering-houseplants.png"
     },
     {
@@ -234,7 +234,7 @@
       "path": "/de/guides/winter-houseplant-care/",
       "lang": "de",
       "title": "Zimmerpflanzen im Winter: Licht, Heizung und seltener gießen",
-      "description": "Weniger Licht, trockene Heizungsluft und langsames Wachstum: wie du Licht, Gießen und Düngen im Winter anpasst.",
+      "description": "Weniger Licht, trockene Heizungsluft und langsames Wachstum: So passt du Standort, Gießen und Düngen deiner Zimmerpflanzen im Winter an.",
       "image": "/assets/brand/share/de-guides--winter-houseplant-care.png"
     },
     {
@@ -248,7 +248,7 @@
       "path": "/de/journal/",
       "lang": "de",
       "title": "Pflanzenjournal",
-      "description": "Notizen über Pflanzen und gemeinsame Pflege.",
+      "description": "Notizen über Pflanzen und gemeinsame Pflege: warum Lilora „prüfen“ sagt, Checklisten für die Jahreszeit, Umzug mit Pflanzen und Pflegetagebuch.",
       "image": "/assets/brand/share/de-journal.png"
     },
     {
@@ -283,14 +283,14 @@
       "path": "/de/legal/",
       "lang": "de",
       "title": "Rechtliche Hinweise",
-      "description": "Angaben zu Herausgeber, Kontakt und Hosting der Lilora-Website.",
+      "description": "Angaben zu Herausgeber, Kontakt und Hosting der Lilora-Website: Impressum, verantwortliche Person und die Dienste, mit denen die Seite läuft.",
       "image": "/assets/brand/share/de-legal.png"
     },
     {
       "path": "/de/plants/",
       "lang": "de",
       "title": "Zimmerpflanzen-Bibliothek",
-      "description": "Zimmerpflanzen nach Arten kennenlernen.",
+      "description": "Zimmerpflanzen nach Arten: Licht, Gießen, Luftfeuchtigkeit, Temperatur, Hinweise zu Haustieren und Pflegeaufwand, jeweils mit Quellen.",
       "image": "/assets/brand/share/de-plants.png"
     },
     {
@@ -388,14 +388,14 @@
       "path": "/de/privacy/",
       "lang": "de",
       "title": "Datenschutzerklärung",
-      "description": "Wie Lilora mit deinen Informationen umgeht.",
+      "description": "Wie Lilora mit deinen Daten umgeht: Konto, Haushalt, Fotobestimmung, Käufe, Kontaktformular und Website-Analysen, Speicherdauer und deine Rechte.",
       "image": "/assets/brand/share/de-privacy.png"
     },
     {
       "path": "/de/support/",
       "lang": "de",
       "title": "Ein wenig Hilfe für deine Pflanzen.",
-      "description": "Antworten auf häufige Fragen und eine Möglichkeit, uns zu erreichen.",
+      "description": "Antworten zu Lilora: Sprache, Speicherort der Pflanzen, Konto löschen, Erinnerungen, Bestimmung und Käufe – und wie du uns erreichst.",
       "image": "/assets/brand/share/de-support.png"
     },
     {
@@ -409,28 +409,28 @@
       "path": "/editorial/",
       "lang": "tr",
       "title": "Yayın ilkeleri",
-      "description": "Lilora bitki rehberlerini ve uygulama karşılaştırmalarını nasıl hazırlar ve günceller?",
+      "description": "Lilora bitki rehberlerini ve uygulama karşılaştırmalarını nasıl araştırır, yapay zekâ yardımıyla taslaklar, doğrular, tarihler ve günceller.",
       "image": "/assets/brand/share/tr-editorial.png"
     },
     {
       "path": "/en/",
       "lang": "en",
       "title": "A shared notebook for your plants.",
-      "description": "Which room, who last checked, when it was watered. Keep your plants’ photos, notes and care history together in Lilora.",
+      "description": "Which room, who last checked, when it was watered. Keep your plants’ photos, notes and care history together in Lilora, on iPhone and iPad.",
       "image": "/assets/brand/share/en-home.png"
     },
     {
       "path": "/en/about/",
       "lang": "en",
       "title": "About Lilora",
-      "description": "Lilora is a plant notebook for thoughtful care and shared households, independently published by Umut OREN in Türkiye.",
+      "description": "Lilora is a plant notebook for thoughtful care and shared households, independently published by Umut OREN in Türkiye for iPhone and iPad.",
       "image": "/assets/brand/share/en-about.png"
     },
     {
       "path": "/en/compare/",
       "lang": "en",
       "title": "Plant app comparisons",
-      "description": "Source-backed comparisons of plant apps.",
+      "description": "Source-backed comparisons of plant care apps covering reminders, shared records, identification and pricing, with honest launch notes.",
       "image": "/assets/brand/share/en-compare.png"
     },
     {
@@ -451,7 +451,7 @@
       "path": "/en/contact/",
       "lang": "en",
       "title": "Contact Lilora",
-      "description": "Contact Lilora about app support, privacy, press, corrections or partnerships.",
+      "description": "Contact Lilora about app support, privacy, press, corrections or partnerships with the form or at support@lilora.app. We reply in English or Turkish.",
       "image": "/assets/brand/share/en-contact.png"
     },
     {
@@ -465,14 +465,14 @@
       "path": "/en/editorial/",
       "lang": "en",
       "title": "Editorial approach",
-      "description": "How Lilora researches, writes and updates plant guides and app comparisons.",
+      "description": "How Lilora researches, drafts with AI help, fact-checks, dates and updates its plant guides and app comparisons, and how images are labelled.",
       "image": "/assets/brand/share/en-editorial.png"
     },
     {
       "path": "/en/guides/",
       "lang": "en",
       "title": "Houseplant care guides",
-      "description": "Practical notes on observing plants before changing their care.",
+      "description": "Source-backed guides on watering, light, pots, pests and seasonal care, written to help you observe a plant before you change its care.",
       "image": "/assets/brand/share/en-guides.png"
     },
     {
@@ -514,28 +514,28 @@
       "path": "/en/guides/pet-safe-houseplants/",
       "lang": "en",
       "title": "Houseplants and pets: what to check before bringing a plant home",
-      "description": "Before a new plant comes home, find its botanical name, check the ASPCA list and plan a spot your pet cannot reach. What toxic, non-toxic and not listed really mean.",
+      "description": "Before a plant comes home, find its botanical name, check the ASPCA list and plan a spot your pet cannot reach. What “non-toxic” really means.",
       "image": "/assets/brand/share/en-guides--pet-safe-houseplants.png"
     },
     {
       "path": "/en/guides/potting-mix-and-drainage/",
       "lang": "en",
       "title": "Potting mix and drainage: what your pot needs",
-      "description": "A drainage hole, a container mix and no gravel layer: what a houseplant pot needs, and how to pot up step by step.",
+      "description": "A drainage hole, a proper container mix and no gravel layer: what a houseplant pot really needs, and how to pot up a plant step by step.",
       "image": "/assets/brand/share/en-guides--potting-mix-and-drainage.png"
     },
     {
       "path": "/en/guides/propagating-cuttings/",
       "lang": "en",
       "title": "Propagating houseplants from cuttings: water or soil",
-      "description": "Take a stem cutting with healthy nodes and root it in water or a rooting mix, with the pros and cons of each method.",
+      "description": "Take a stem cutting with healthy nodes and root it in water or in a rooting mix. The pros and cons of each method, and how to pot it up later.",
       "image": "/assets/brand/share/en-guides--propagating-cuttings.png"
     },
     {
       "path": "/en/guides/root-rot/",
       "lang": "en",
       "title": "Root rot in houseplants: signs, causes and what to do",
-      "description": "How to recognise root rot in a houseplant, check the roots, trim and repot, and keep it from coming back.",
+      "description": "How to recognise root rot in a houseplant, check the roots, trim the damaged parts, repot in fresh mix and keep the problem from coming back.",
       "image": "/assets/brand/share/en-guides--root-rot.png"
     },
     {
@@ -563,21 +563,21 @@
       "path": "/en/guides/winter-houseplant-care/",
       "lang": "en",
       "title": "Winter houseplant care: light, heating and slower watering",
-      "description": "Less light, dry heated air and slower growth: how to adjust light, watering and feeding for houseplants in winter.",
+      "description": "Less light, dry heated air and slower growth: how to adjust light, watering and feeding for houseplants in winter, in either hemisphere.",
       "image": "/assets/brand/share/en-guides--winter-houseplant-care.png"
     },
     {
       "path": "/en/guides/yellow-houseplant-leaves/",
       "lang": "en",
       "title": "Yellow houseplant leaves: what to check before you act",
-      "description": "Check leaf patterns, root-zone moisture, light, temperature and pests before changing care for a yellowing houseplant.",
+      "description": "Check the leaf pattern, root-zone moisture, light, temperature and pests before you change the care of a houseplant with yellowing leaves.",
       "image": "/assets/brand/share/en-guides--yellow-houseplant-leaves.png"
     },
     {
       "path": "/en/journal/",
       "lang": "en",
       "title": "Plant journal",
-      "description": "Notes on plants and shared care.",
+      "description": "Notes on plants and shared care: why Lilora’s reminders say “check”, seasonal checklists, moving house with plants and keeping a journal.",
       "image": "/assets/brand/share/en-journal.png"
     },
     {
@@ -598,28 +598,28 @@
       "path": "/en/journal/keeping-a-plant-care-journal/",
       "lang": "en",
       "title": "How to keep a plant care journal (paper or app)",
-      "description": "What to record about each plant, a simple page layout, how to read your notes after a season, and paper versus an app.",
+      "description": "What to record about each plant, a simple page layout, how to read your notes after a season, and whether paper or an app suits you better.",
       "image": "/assets/brand/share/en-journal--keeping-a-plant-care-journal.png"
     },
     {
       "path": "/en/journal/moving-house-with-plants/",
       "lang": "en",
       "title": "Moving house with plants",
-      "description": "Plan plants into your move: pest checks, watering, packing, transport, border rules and settling them into new light.",
+      "description": "Plan your plants into the move: pest checks, watering, packing, transport, border rules and helping them settle into the light of a new home.",
       "image": "/assets/brand/share/en-journal--moving-house-with-plants.png"
     },
     {
       "path": "/en/legal/",
       "lang": "en",
       "title": "Legal notice",
-      "description": "Publisher, contact and hosting information for the Lilora website.",
+      "description": "Publisher, contact and hosting information for the Lilora website: the legal notice, who is responsible for it and which services run the site.",
       "image": "/assets/brand/share/en-legal.png"
     },
     {
       "path": "/en/plants/",
       "lang": "en",
       "title": "Houseplant library",
-      "description": "Houseplant profiles, organized by species.",
+      "description": "Houseplant profiles organised by species: light, watering, humidity, temperature, pet information and care level, each with its sources.",
       "image": "/assets/brand/share/en-plants.png"
     },
     {
@@ -661,7 +661,7 @@
       "path": "/en/plants/ficus-lyrata/",
       "lang": "en",
       "title": "Fiddle-leaf fig care",
-      "description": "Fiddle-leaf fig care: bright indirect light, steady conditions, careful watering and why pet-safety sources disagree.",
+      "description": "Fiddle-leaf fig care: bright indirect light, steady conditions, careful watering, how to handle leaf drop and why pet-safety sources disagree.",
       "image": "/assets/brand/share/en-plants--ficus-lyrata.png"
     },
     {
@@ -689,21 +689,21 @@
       "path": "/en/plants/philodendron-hederaceum/",
       "lang": "en",
       "title": "Heartleaf philodendron care",
-      "description": "Heartleaf philodendron care: medium light, slightly moist mix, simple stem cuttings and ASPCA pet status.",
+      "description": "Heartleaf philodendron care: medium light, a slightly moist mix, easy stem cuttings, trailing or climbing growth and its ASPCA pet status.",
       "image": "/assets/brand/share/en-plants--philodendron-hederaceum.png"
     },
     {
       "path": "/en/plants/spathiphyllum/",
       "lang": "en",
       "title": "Peace lily care",
-      "description": "Peace lily care: shade without direct sun, evenly moist but never soggy mix, gentle feeding and ASPCA pet status.",
+      "description": "Peace lily care: shade without direct sun, an evenly moist but never soggy mix, gentle feeding, what drooping means and its ASPCA pet status.",
       "image": "/assets/brand/share/en-plants--spathiphyllum.png"
     },
     {
       "path": "/en/plants/zamioculcas-zamiifolia/",
       "lang": "en",
       "title": "ZZ plant care",
-      "description": "ZZ plant care: bright indirect light, full dry-down before watering, rare feeding and why it is not on the ASPCA list.",
+      "description": "ZZ plant care: bright indirect light, letting the mix dry out fully before watering, rare feeding and why it is not on the ASPCA plant list.",
       "image": "/assets/brand/share/en-plants--zamioculcas-zamiifolia.png"
     },
     {
@@ -717,14 +717,14 @@
       "path": "/en/privacy/",
       "lang": "en",
       "title": "Privacy policy",
-      "description": "How Lilora handles your information.",
+      "description": "How Lilora handles your information: account, household, photo identification, purchases, website form and analytics, retention and your rights.",
       "image": "/assets/brand/share/en-privacy.png"
     },
     {
       "path": "/en/support/",
       "lang": "en",
       "title": "A little help for your garden.",
-      "description": "Answers to common questions, and a way to reach us.",
+      "description": "Answers to common Lilora questions about language, where plants are stored, deleting an account, reminders, identification and purchases.",
       "image": "/assets/brand/share/en-support.png"
     },
     {
@@ -745,7 +745,7 @@
       "path": "/es/compare/",
       "lang": "es",
       "title": "Comparativas de aplicaciones para plantas",
-      "description": "Comparativas de apps basadas en fuentes.",
+      "description": "Comparativas con fuentes de apps de cuidado de plantas: recordatorios, registros compartidos, identificación y precios, con notas honestas.",
       "image": "/assets/brand/share/es-compare.png"
     },
     {
@@ -759,14 +759,14 @@
       "path": "/es/compare/lilora-vs-planta/",
       "lang": "es",
       "title": "Lilora vs Planta: elegir una rutina de cuidado de plantas",
-      "description": "Compara Lilora y Planta en recordatorios, registros compartidos, identificación y precios, con fuentes oficiales e información honesta sobre el lanzamiento.",
+      "description": "Compara Lilora y Planta en recordatorios, registros compartidos, identificación y precios, con fuentes oficiales y el estado real del lanzamiento.",
       "image": "/assets/brand/share/es-compare--lilora-vs-planta.png"
     },
     {
       "path": "/es/contact/",
       "lang": "es",
       "title": "Contacta con Lilora",
-      "description": "Contacta con Lilora para ayuda con la app, privacidad, prensa, correcciones o colaboraciones.",
+      "description": "Escribe a Lilora sobre la app, privacidad, prensa, correcciones o colaboraciones con el formulario o a support@lilora.app. Respondemos en inglés o turco.",
       "image": "/assets/brand/share/es-contact.png"
     },
     {
@@ -780,14 +780,14 @@
       "path": "/es/editorial/",
       "lang": "es",
       "title": "Criterios editoriales",
-      "description": "Cómo investiga, redacta y actualiza Lilora sus guías de plantas y comparaciones de apps.",
+      "description": "Cómo investiga Lilora, redacta con ayuda de IA, verifica, fecha y actualiza sus guías de plantas y comparativas de apps, y cómo señala las imágenes.",
       "image": "/assets/brand/share/es-editorial.png"
     },
     {
       "path": "/es/guides/",
       "lang": "es",
       "title": "Guías para cuidar plantas de interior",
-      "description": "Consejos para observar tus plantas antes de cambiar sus cuidados.",
+      "description": "Guías con fuentes sobre riego, luz, macetas, plagas y cuidados de temporada, pensadas para observar tus plantas antes de cambiar sus cuidados.",
       "image": "/assets/brand/share/es-guides.png"
     },
     {
@@ -829,7 +829,7 @@
       "path": "/es/guides/pet-safe-houseplants/",
       "lang": "es",
       "title": "Plantas de interior y mascotas: qué comprobar antes de llevar una planta a casa",
-      "description": "Antes de llevar una planta a casa, busca su nombre botánico, consulta la lista de la ASPCA y elige un sitio fuera del alcance de tu mascota. Qué significan tóxica, no tóxica y no figura.",
+      "description": "Antes de llevar una planta a casa, busca su nombre botánico, consulta la lista de la ASPCA y elige un sitio seguro. Qué significa «no tóxica».",
       "image": "/assets/brand/share/es-guides--pet-safe-houseplants.png"
     },
     {
@@ -850,14 +850,14 @@
       "path": "/es/guides/root-rot/",
       "lang": "es",
       "title": "Pudrición de raíces en plantas de interior: señales, causas y qué hacer",
-      "description": "Cómo reconocer la pudrición de raíces, revisar las raíces, recortar y trasplantar, y evitar que vuelva a ocurrir.",
+      "description": "Cómo reconocer la pudrición de raíces, revisar las raíces, recortar las partes dañadas, trasplantar a sustrato nuevo y evitar que vuelva.",
       "image": "/assets/brand/share/es-guides--root-rot.png"
     },
     {
       "path": "/es/guides/shared-plant-care/",
       "lang": "es",
       "title": "Compartir el cuidado de las plantas sin regar dos veces",
-      "description": "Comparte el cuidado de las plantas con tu pareja o compañeros de piso con registros claros de comprobación y riego, un reparto sencillo y un relevo práctico antes de viajar.",
+      "description": "Comparte el cuidado de las plantas en casa: registros claros de comprobación y riego, un reparto sencillo y un relevo práctico antes de viajar.",
       "image": "/assets/brand/share/es-guides--shared-plant-care.png"
     },
     {
@@ -892,7 +892,7 @@
       "path": "/es/journal/",
       "lang": "es",
       "title": "Diario de plantas",
-      "description": "Notas sobre plantas y cuidados compartidos.",
+      "description": "Notas sobre plantas y cuidados compartidos: por qué Lilora dice «comprobar», listas de temporada, mudanzas con plantas y cómo llevar un diario.",
       "image": "/assets/brand/share/es-journal.png"
     },
     {
@@ -913,28 +913,28 @@
       "path": "/es/journal/keeping-a-plant-care-journal/",
       "lang": "es",
       "title": "Cómo llevar un diario de cuidado de plantas (en papel o en una app)",
-      "description": "Qué anotar de cada planta, una página sencilla, cómo leer tus notas tras una temporada y papel frente a app.",
+      "description": "Qué anotar de cada planta, una página sencilla, cómo leer tus notas al cabo de una temporada y si te conviene más el papel o una app.",
       "image": "/assets/brand/share/es-journal--keeping-a-plant-care-journal.png"
     },
     {
       "path": "/es/journal/moving-house-with-plants/",
       "lang": "es",
       "title": "Mudarse de casa con plantas",
-      "description": "Incluye tus plantas en la mudanza: plagas, riego, embalaje, transporte, normas fronterizas y adaptación a la luz nueva.",
+      "description": "Incluye tus plantas en la mudanza: revisa plagas, riego y embalaje, cuida el transporte, consulta las normas fronterizas y adáptalas a la luz nueva.",
       "image": "/assets/brand/share/es-journal--moving-house-with-plants.png"
     },
     {
       "path": "/es/legal/",
       "lang": "es",
       "title": "Información legal",
-      "description": "Información sobre el editor, el contacto y el alojamiento del sitio web de Lilora.",
+      "description": "Información sobre el editor, el contacto y el alojamiento del sitio web de Lilora: aviso legal, responsable y los servicios con los que funciona.",
       "image": "/assets/brand/share/es-legal.png"
     },
     {
       "path": "/es/plants/",
       "lang": "es",
       "title": "Biblioteca de plantas para casa",
-      "description": "Fichas de plantas de interior por especie.",
+      "description": "Fichas de plantas de interior por especie: luz, riego, humedad, temperatura, información sobre mascotas y dificultad, siempre con fuentes.",
       "image": "/assets/brand/share/es-plants.png"
     },
     {
@@ -1004,7 +1004,7 @@
       "path": "/es/plants/philodendron-hederaceum/",
       "lang": "es",
       "title": "Cuidados del filodendro trepador",
-      "description": "Cuidados del filodendro trepador: luz media, sustrato ligeramente húmedo, esquejes sencillos y estado según la ASPCA.",
+      "description": "Cuidados del filodendro trepador: luz media, sustrato apenas húmedo, esquejes sencillos, crecimiento colgante o trepador y su estado en la ASPCA.",
       "image": "/assets/brand/share/es-plants--philodendron-hederaceum.png"
     },
     {
@@ -1032,14 +1032,14 @@
       "path": "/es/privacy/",
       "lang": "es",
       "title": "Política de privacidad",
-      "description": "Cómo trata Lilora tu información.",
+      "description": "Cómo trata Lilora tu información: cuenta, hogar, identificación por foto, compras, formulario y estadísticas del sitio, conservación y tus derechos.",
       "image": "/assets/brand/share/es-privacy.png"
     },
     {
       "path": "/es/support/",
       "lang": "es",
       "title": "Un poco de ayuda para tus plantas.",
-      "description": "Respuestas a preguntas frecuentes y una forma de contactar con nosotros.",
+      "description": "Respuestas sobre Lilora: idioma, dónde se guardan las plantas, borrar la cuenta, recordatorios, identificación y compras, y cómo contactarnos.",
       "image": "/assets/brand/share/es-support.png"
     },
     {
@@ -1060,28 +1060,28 @@
       "path": "/fr/compare/",
       "lang": "fr",
       "title": "Comparatifs des applications pour plantes",
-      "description": "Des comparaisons d’apps avec leurs sources.",
+      "description": "Des comparatifs sourcés d’apps d’entretien des plantes : rappels, historique partagé, identification et prix, avec des remarques honnêtes.",
       "image": "/assets/brand/share/fr-compare.png"
     },
     {
       "path": "/fr/compare/lilora-vs-picturethis/",
       "lang": "fr",
       "title": "Lilora vs PictureThis : identification et entretien des plantes au quotidien",
-      "description": "Comparez Lilora et PictureThis pour l’identification, les rappels, les collections et l’entretien partagé, avec des sources officielles et des réserves sur les prix.",
+      "description": "Lilora et PictureThis comparés pour l’identification, les rappels, les collections et l’entretien partagé, avec sources officielles et réserves.",
       "image": "/assets/brand/share/fr-compare--lilora-vs-picturethis.png"
     },
     {
       "path": "/fr/compare/lilora-vs-planta/",
       "lang": "fr",
       "title": "Lilora vs Planta : choisir une routine d’entretien des plantes",
-      "description": "Comparez Lilora et Planta pour les rappels, l’historique partagé, l’identification et les prix, avec des sources officielles et un statut de lancement honnête.",
+      "description": "Lilora et Planta comparés pour les rappels, l’historique partagé, l’identification et les prix, avec sources officielles et statut de lancement.",
       "image": "/assets/brand/share/fr-compare--lilora-vs-planta.png"
     },
     {
       "path": "/fr/contact/",
       "lang": "fr",
       "title": "Contacter Lilora",
-      "description": "Contactez Lilora pour l’aide sur l’app, la confidentialité, la presse, les corrections ou les partenariats.",
+      "description": "Écrivez-nous pour l’app, la vie privée, la presse, une correction ou un partenariat, via le formulaire ou support@lilora.app. Réponse en anglais ou turc.",
       "image": "/assets/brand/share/fr-contact.png"
     },
     {
@@ -1095,14 +1095,14 @@
       "path": "/fr/editorial/",
       "lang": "fr",
       "title": "Principes éditoriaux",
-      "description": "Comment Lilora recherche, rédige et met à jour ses guides sur les plantes et ses comparatifs d’apps.",
+      "description": "Comment Lilora recherche, rédige avec l’aide de l’IA, vérifie, date et met à jour ses guides et comparatifs d’apps, et comment les images sont signalées.",
       "image": "/assets/brand/share/fr-editorial.png"
     },
     {
       "path": "/fr/guides/",
       "lang": "fr",
       "title": "Guides de soin des plantes",
-      "description": "Des conseils pour observer vos plantes avant de changer leurs soins.",
+      "description": "Des guides sourcés sur l’arrosage, la lumière, les pots, les ravageurs et les saisons, pour observer vos plantes avant de changer leurs soins.",
       "image": "/assets/brand/share/fr-guides.png"
     },
     {
@@ -1130,21 +1130,21 @@
       "path": "/fr/guides/indoor-plant-light-guide/",
       "lang": "fr",
       "title": "La lumière pour les plantes d’intérieur : guide pour bien choisir l’emplacement",
-      "description": "Apprenez à distinguer soleil direct, lumière vive indirecte et faible luminosité, et observez un emplacement au fil de la journée avant de choisir une plante.",
+      "description": "Distinguez soleil direct, lumière vive indirecte et faible luminosité, puis observez un emplacement toute la journée avant de choisir une plante.",
       "image": "/assets/brand/share/fr-guides--indoor-plant-light-guide.png"
     },
     {
       "path": "/fr/guides/overwatering-vs-underwatering/",
       "lang": "fr",
       "title": "Trop ou pas assez d’eau ? Comment le savoir avant d’agir",
-      "description": "Flétrissement et feuilles jaunes peuvent signaler trop ou pas assez d’eau. Vérifiez le substrat, le poids du pot et les racines avant de changer quoi que ce soit.",
+      "description": "Flétrissement et feuilles jaunes peuvent venir d’un excès ou d’un manque d’eau. Vérifiez substrat, poids du pot et racines avant de changer.",
       "image": "/assets/brand/share/fr-guides--overwatering-vs-underwatering.png"
     },
     {
       "path": "/fr/guides/pet-safe-houseplants/",
       "lang": "fr",
       "title": "Plantes d’intérieur et animaux : ce qu’il faut vérifier avant d’adopter une plante",
-      "description": "Avant d’adopter une plante, trouvez son nom botanique, consultez la liste de l’ASPCA et choisissez un emplacement hors de portée de votre animal. Ce que veulent dire toxique, non toxique et non répertoriée.",
+      "description": "Avant d’adopter une plante, trouvez son nom botanique, consultez la liste de l’ASPCA et choisissez un endroit sûr. Ce que veut dire « non toxique ».",
       "image": "/assets/brand/share/fr-guides--pet-safe-houseplants.png"
     },
     {
@@ -1165,14 +1165,14 @@
       "path": "/fr/guides/root-rot/",
       "lang": "fr",
       "title": "La pourriture des racines chez les plantes d’intérieur : signes, causes et que faire",
-      "description": "Reconnaître la pourriture des racines, examiner les racines, couper, rempoter et éviter qu’elle ne revienne.",
+      "description": "Reconnaître la pourriture des racines, examiner les racines, couper les parties abîmées, rempoter dans un substrat neuf et éviter la récidive.",
       "image": "/assets/brand/share/fr-guides--root-rot.png"
     },
     {
       "path": "/fr/guides/shared-plant-care/",
       "lang": "fr",
       "title": "Partager l’entretien des plantes sans arroser deux fois",
-      "description": "Partagez l’entretien des plantes avec un partenaire ou des colocataires grâce à un historique clair des vérifications et arrosages, une répartition simple et une passation avant de partir.",
+      "description": "Partagez l’entretien des plantes à la maison : historique clair des vérifications et arrosages, répartition simple et passation avant un départ.",
       "image": "/assets/brand/share/fr-guides--shared-plant-care.png"
     },
     {
@@ -1193,7 +1193,7 @@
       "path": "/fr/guides/winter-houseplant-care/",
       "lang": "fr",
       "title": "Les soins d’hiver des plantes d’intérieur : lumière, chauffage et arrosages espacés",
-      "description": "Moins de lumière, air sec du chauffage et croissance ralentie : adapter lumière, arrosage et engrais en hiver.",
+      "description": "Moins de lumière, air sec du chauffage et croissance ralentie : comment adapter l’emplacement, l’arrosage et l’engrais de vos plantes en hiver.",
       "image": "/assets/brand/share/fr-guides--winter-houseplant-care.png"
     },
     {
@@ -1207,7 +1207,7 @@
       "path": "/fr/journal/",
       "lang": "fr",
       "title": "Journal des plantes",
-      "description": "Notes sur les plantes et les soins partagés.",
+      "description": "Notes sur les plantes et les soins partagés : pourquoi Lilora dit « vérifier », listes de saison, déménager avec ses plantes et tenir un carnet.",
       "image": "/assets/brand/share/fr-journal.png"
     },
     {
@@ -1228,7 +1228,7 @@
       "path": "/fr/journal/keeping-a-plant-care-journal/",
       "lang": "fr",
       "title": "Tenir un carnet d’entretien des plantes (papier ou application)",
-      "description": "Que noter pour chaque plante, une mise en page simple, relire ses notes après une saison, et papier ou application.",
+      "description": "Que noter pour chaque plante, une mise en page simple, comment relire ses notes après une saison, et s’il vaut mieux du papier ou une app.",
       "image": "/assets/brand/share/fr-journal--keeping-a-plant-care-journal.png"
     },
     {
@@ -1242,14 +1242,14 @@
       "path": "/fr/legal/",
       "lang": "fr",
       "title": "Mentions légales",
-      "description": "Informations sur l’éditeur, le contact et l’hébergement du site de Lilora.",
+      "description": "Informations sur l’éditeur, le contact et l’hébergement du site de Lilora : mentions légales, responsable de publication et services utilisés.",
       "image": "/assets/brand/share/fr-legal.png"
     },
     {
       "path": "/fr/plants/",
       "lang": "fr",
       "title": "Bibliothèque des plantes",
-      "description": "Des fiches de plantes d’intérieur par espèce.",
+      "description": "Des fiches de plantes d’intérieur par espèce : lumière, arrosage, humidité, température, infos sur les animaux et niveau d’entretien, sourcés.",
       "image": "/assets/brand/share/fr-plants.png"
     },
     {
@@ -1333,7 +1333,7 @@
       "path": "/fr/plants/zamioculcas-zamiifolia/",
       "lang": "fr",
       "title": "Entretien du zamioculcas",
-      "description": "Entretien du zamioculcas : lumière vive indirecte, substrat entièrement sec avant d’arroser, peu d’engrais et pourquoi il n’est pas sur la liste de l’ASPCA.",
+      "description": "Entretien du zamioculcas : lumière vive indirecte, substrat sec avant d’arroser, peu d’engrais et pourquoi il n’est pas sur la liste de l’ASPCA.",
       "image": "/assets/brand/share/fr-plants--zamioculcas-zamiifolia.png"
     },
     {
@@ -1347,21 +1347,21 @@
       "path": "/fr/privacy/",
       "lang": "fr",
       "title": "Politique de confidentialité",
-      "description": "Comment Lilora traite vos informations.",
+      "description": "Comment Lilora traite vos informations : compte, foyer, identification par photo, achats, formulaire et statistiques du site, conservation et droits.",
       "image": "/assets/brand/share/fr-privacy.png"
     },
     {
       "path": "/fr/support/",
       "lang": "fr",
       "title": "Un peu d’aide pour vos plantes.",
-      "description": "Des réponses aux questions fréquentes et un moyen de nous contacter.",
+      "description": "Réponses sur Lilora : langue, stockage des plantes, suppression du compte, rappels, identification et achats, et comment nous contacter.",
       "image": "/assets/brand/share/fr-support.png"
     },
     {
       "path": "/guides/",
       "lang": "tr",
       "title": "Bitki bakım rehberleri",
-      "description": "Bakımını değiştirmeden önce bitkini gözlemlemek için pratik notlar.",
+      "description": "Sulama, ışık, saksı, zararlılar ve mevsim bakımı üzerine kaynaklı rehberler: bakımını değiştirmeden önce bitkini gözlemlemeyi öğren.",
       "image": "/assets/brand/share/tr-guides.png"
     },
     {
@@ -1382,14 +1382,14 @@
       "path": "/guides/houseplant-pests/",
       "lang": "tr",
       "title": "Ev bitkilerinde sık görülen zararlılar: mantar sineği, kırmızı örümcek, unlu bit, kabuklu bit ve trips",
-      "description": "Mantar sineği, kırmızı örümcek, unlu bit, kabuklu bit ve tripsi müdahale etmeden önce tanı; en az zararlı adımla başla.",
+      "description": "Mantar sineği, kırmızı örümcek, unlu bit, kabuklu bit ve tripsi müdahale etmeden önce tanı; bitkiyi ayır ve en az zararlı adımla başla.",
       "image": "/assets/brand/share/tr-guides--houseplant-pests.png"
     },
     {
       "path": "/guides/indoor-plant-light-guide/",
       "lang": "tr",
       "title": "Ev bitkilerinde ışık: doğru yeri seçme rehberi",
-      "description": "Doğrudan güneşi, parlak dolaylı ışığı ve az ışığı ayırt et. Pencereyi gözlemle, bitkinin ihtiyacına göre yer seç.",
+      "description": "Doğrudan güneşi, parlak dolaylı ışığı ve az ışığı ayırt et. Pencereni gün boyunca gözlemle ve bitkine ihtiyacına uygun bir yer seç.",
       "image": "/assets/brand/share/tr-guides--indoor-plant-light-guide.png"
     },
     {
@@ -1403,14 +1403,14 @@
       "path": "/guides/pet-safe-houseplants/",
       "lang": "tr",
       "title": "Ev bitkileri ve evcil hayvanlar: bitkiyi eve getirmeden önce neye bakmalı?",
-      "description": "Yeni bir bitkiyi eve getirmeden önce botanik adını bul, ASPCA listesini kontrol et ve evcil hayvanların ulaşamayacağı bir yer seç. Toksik, toksik değil ve listede yok farkı.",
+      "description": "Yeni bir bitkiyi eve getirmeden önce botanik adını bul, ASPCA listesine bak ve hayvanının ulaşamayacağı bir yer seç. “Toksik değil” ne demek?",
       "image": "/assets/brand/share/tr-guides--pet-safe-houseplants.png"
     },
     {
       "path": "/guides/potting-mix-and-drainage/",
       "lang": "tr",
       "title": "Saksı harcı ve drenaj: saksının nelere ihtiyacı var",
-      "description": "Drenaj deliği, saksı harcı ve çakılsız bir dip: bir ev bitkisi saksısının nelere ihtiyacı var ve adım adım dikim.",
+      "description": "Drenaj deliği, uygun bir saksı harcı ve çakılsız bir dip: bir ev bitkisi saksısının gerçekten neye ihtiyacı var ve adım adım nasıl dikilir.",
       "image": "/assets/brand/share/tr-guides--potting-mix-and-drainage.png"
     },
     {
@@ -1452,7 +1452,7 @@
       "path": "/guides/winter-houseplant-care/",
       "lang": "tr",
       "title": "Kışın ev bitkisi bakımı: ışık, kalorifer ve daha seyrek sulama",
-      "description": "Az ışık, kuru kalorifer havası ve yavaş büyüme: kışın ev bitkilerinde ışığı, sulamayı ve beslemeyi nasıl ayarlarsın.",
+      "description": "Az ışık, kuru kalorifer havası ve yavaş büyüme: kışın ev bitkilerinde ışığı, sulamayı ve beslemeyi nasıl ayarlayacağını adım adım gör.",
       "image": "/assets/brand/share/tr-guides--winter-houseplant-care.png"
     },
     {
@@ -1466,7 +1466,7 @@
       "path": "/journal/",
       "lang": "tr",
       "title": "Bitki günlüğü",
-      "description": "Bitkiler ve ortak bakım üzerine notlar.",
+      "description": "Bitkiler, ortak bakım ve Lilora’nın neden “sula” yerine “kontrol et” dediği üzerine notlar; mevsim listeleri ve taşınma ipuçları.",
       "image": "/assets/brand/share/tr-journal.png"
     },
     {
@@ -1487,7 +1487,7 @@
       "path": "/journal/keeping-a-plant-care-journal/",
       "lang": "tr",
       "title": "Bitki bakım günlüğü nasıl tutulur (kâğıtta veya uygulamada)",
-      "description": "Her bitki için neleri kaydetmeli, basit bir sayfa düzeni, bir mevsim sonra notlar nasıl okunur ve kâğıt mı uygulama mı.",
+      "description": "Her bitki için neleri kaydetmeli, basit bir sayfa düzeni, bir mevsim sonra notları nasıl okumalı ve kâğıt mı uygulama mı sana daha uygun.",
       "image": "/assets/brand/share/tr-journal--keeping-a-plant-care-journal.png"
     },
     {
@@ -1501,14 +1501,14 @@
       "path": "/legal/",
       "lang": "tr",
       "title": "Yasal bilgiler",
-      "description": "Lilora web sitesinin yayıncı, iletişim ve barındırma bilgileri.",
+      "description": "Lilora web sitesinin yayıncısı, iletişim adresi ve barındırma bilgileri: yasal bildirim, sorumlu kişi ve sitenin hangi hizmetlerde çalıştığı.",
       "image": "/assets/brand/share/tr-legal.png"
     },
     {
       "path": "/plants/",
       "lang": "tr",
       "title": "Bitki kütüphanesi",
-      "description": "Türlerine göre ev bitkileri.",
+      "description": "Türlerine göre ev bitkisi profilleri: ışık, sulama, nem, sıcaklık, evcil hayvan bilgisi ve bakım zorluğu, kaynaklarıyla birlikte.",
       "image": "/assets/brand/share/tr-plants.png"
     },
     {
@@ -1578,7 +1578,7 @@
       "path": "/plants/philodendron-hederaceum/",
       "lang": "tr",
       "title": "Kalp yapraklı filodendron bakımı",
-      "description": "Kalp yapraklı filodendron bakımı: orta ışık, hafif nemli harç, kolay gövde çeliği ve ASPCA'nın evcil hayvan kaydı.",
+      "description": "Kalp yapraklı filodendron bakımı: orta ışık, hafif nemli harç, kolay gövde çeliği, sarkan ya da tırmanan büyüme ve ASPCA’daki evcil hayvan kaydı.",
       "image": "/assets/brand/share/tr-plants--philodendron-hederaceum.png"
     },
     {
@@ -1606,7 +1606,7 @@
       "path": "/privacy/",
       "lang": "tr",
       "title": "Gizlilik politikası",
-      "description": "Lilora bilgilerini nasıl işler?",
+      "description": "Lilora bilgilerini nasıl işler: hesap, ev, fotoğraf tanıma, satın almalar, web sitesi formu ve analizleri, saklama süreleri ve KVKK ile GDPR hakların.",
       "image": "/assets/brand/share/tr-privacy.png"
     },
     {
@@ -1627,7 +1627,7 @@
       "path": "/pt/compare/",
       "lang": "pt",
       "title": "Comparativos de aplicativos de plantas",
-      "description": "Comparações de apps com fontes identificadas.",
+      "description": "Comparações com fontes de apps de cuidado de plantas: lembretes, registros compartilhados, identificação e preços, com observações honestas.",
       "image": "/assets/brand/share/pt-compare.png"
     },
     {
@@ -1648,35 +1648,35 @@
       "path": "/pt/contact/",
       "lang": "pt",
       "title": "Fale com o Lilora",
-      "description": "Fale com o Lilora sobre suporte ao app, privacidade, imprensa, correções ou parcerias.",
+      "description": "Fale com o Lilora sobre o app, privacidade, imprensa, correções ou parcerias pelo formulário ou em support@lilora.app. Respondemos em inglês ou turco.",
       "image": "/assets/brand/share/pt-contact.png"
     },
     {
       "path": "/pt/download/",
       "lang": "pt",
       "title": "Um caderno compartilhado para suas plantas",
-      "description": "Conheça o Lilora para iPhone e iPad: registros manuais gratuitos e cuidados compartilhados, com identificação opcional por foto. Em análise para a App Store.",
+      "description": "Conheça o Lilora para iPhone e iPad: registros manuais gratuitos, cuidados compartilhados e identificação opcional por foto. Em análise na App Store.",
       "image": "/assets/brand/share/pt-download.png"
     },
     {
       "path": "/pt/editorial/",
       "lang": "pt",
       "title": "Princípios editoriais",
-      "description": "Como o Lilora pesquisa, escreve e atualiza guias de plantas e comparações de apps.",
+      "description": "Como o Lilora pesquisa, redige com ajuda de IA, verifica, data e atualiza seus guias de plantas e comparações de apps, e como identifica as imagens.",
       "image": "/assets/brand/share/pt-editorial.png"
     },
     {
       "path": "/pt/guides/",
       "lang": "pt",
       "title": "Guias de cuidados com plantas",
-      "description": "Dicas para observar suas plantas antes de mudar os cuidados.",
+      "description": "Guias com fontes sobre rega, luz, vasos, pragas e cuidados de cada estação, para observar suas plantas antes de mudar os cuidados com elas.",
       "image": "/assets/brand/share/pt-guides.png"
     },
     {
       "path": "/pt/guides/fertilizing-houseplants/",
       "lang": "pt",
       "title": "Como adubar plantas de interior: quando, quanto e quando parar",
-      "description": "Adube durante o crescimento ativo na dose do rótulo ou menos, pare com a pouca luz do inverno e lave o excesso de sais.",
+      "description": "Adube só no crescimento ativo, na dose do rótulo ou menos. Pare na pouca luz do inverno e lave o excesso de sais do substrato de vez em quando.",
       "image": "/assets/brand/share/pt-guides--fertilizing-houseplants.png"
     },
     {
@@ -1690,7 +1690,7 @@
       "path": "/pt/guides/houseplant-pests/",
       "lang": "pt",
       "title": "Pragas comuns em plantas de interior: mosquitos-do-fungo, ácaros, cochonilha-farinhenta, cochonilhas de carapaça e tripes",
-      "description": "Identifique mosquitos-do-fungo, ácaros, cochonilhas e tripes antes de tratar, e comece pelo passo menos agressivo.",
+      "description": "Identifique mosquitos-do-fungo, ácaros, cochonilhas e tripes antes de tratar, isole a planta e comece sempre pelo passo menos agressivo.",
       "image": "/assets/brand/share/pt-guides--houseplant-pests.png"
     },
     {
@@ -1711,14 +1711,14 @@
       "path": "/pt/guides/pet-safe-houseplants/",
       "lang": "pt",
       "title": "Plantas de interior e pets: o que conferir antes de levar uma planta para casa",
-      "description": "Antes de levar uma planta para casa, descubra o nome botânico, confira a lista da ASPCA e escolha um lugar fora do alcance do seu pet. O que significam tóxica, não tóxica e não listada.",
+      "description": "Antes de levar uma planta para casa, descubra o nome botânico, confira a lista da ASPCA e escolha um lugar seguro. O que “não tóxica” significa.",
       "image": "/assets/brand/share/pt-guides--pet-safe-houseplants.png"
     },
     {
       "path": "/pt/guides/potting-mix-and-drainage/",
       "lang": "pt",
       "title": "Substrato e drenagem: o que o seu vaso precisa",
-      "description": "Furo de drenagem, substrato para vasos e nada de camada de brita: o que um vaso precisa e como plantar passo a passo.",
+      "description": "Furo de drenagem, substrato próprio para vasos e nada de camada de brita: o que um vaso realmente precisa e como plantar passo a passo.",
       "image": "/assets/brand/share/pt-guides--potting-mix-and-drainage.png"
     },
     {
@@ -1732,14 +1732,14 @@
       "path": "/pt/guides/root-rot/",
       "lang": "pt",
       "title": "Podridão das raízes em plantas de interior: sinais, causas e o que fazer",
-      "description": "Como reconhecer a podridão das raízes, examinar as raízes, cortar, trocar o substrato e evitar que volte a acontecer.",
+      "description": "Como reconhecer a podridão das raízes, examinar as raízes, cortar as partes danificadas, trocar o substrato e evitar que o problema volte.",
       "image": "/assets/brand/share/pt-guides--root-rot.png"
     },
     {
       "path": "/pt/guides/shared-plant-care/",
       "lang": "pt",
       "title": "Dividir o cuidado das plantas sem regar duas vezes",
-      "description": "Divida o cuidado das plantas com parceiros ou colegas de casa usando registros claros de conferência e rega, uma divisão simples e uma passagem prática antes de viajar.",
+      "description": "Divida o cuidado das plantas em casa: registros claros de conferência e rega, uma divisão simples e uma passagem prática antes de viajar.",
       "image": "/assets/brand/share/pt-guides--shared-plant-care.png"
     },
     {
@@ -1760,7 +1760,7 @@
       "path": "/pt/guides/winter-houseplant-care/",
       "lang": "pt",
       "title": "Cuidados no inverno com plantas de interior: luz, aquecimento e regas mais espaçadas",
-      "description": "Menos luz, ar seco e crescimento lento: como ajustar luz, rega e adubo das plantas de interior no inverno.",
+      "description": "Menos luz, ar seco e crescimento lento: como ajustar o lugar, a rega e a adubação das plantas de interior no inverno, de junho a agosto.",
       "image": "/assets/brand/share/pt-guides--winter-houseplant-care.png"
     },
     {
@@ -1774,7 +1774,7 @@
       "path": "/pt/journal/",
       "lang": "pt",
       "title": "Diário de plantas",
-      "description": "Notas sobre plantas e cuidados compartilhados.",
+      "description": "Notas sobre plantas e cuidados compartilhados: por que o Lilora diz “verificar”, listas da estação, mudança com plantas e como manter um diário.",
       "image": "/assets/brand/share/pt-journal.png"
     },
     {
@@ -1795,28 +1795,28 @@
       "path": "/pt/journal/keeping-a-plant-care-journal/",
       "lang": "pt",
       "title": "Como manter um diário de cuidados com as plantas (no papel ou num app)",
-      "description": "O que anotar sobre cada planta, uma página simples, como ler as anotações depois de uma estação e papel ou app.",
+      "description": "O que anotar sobre cada planta, uma página simples, como ler suas anotações depois de uma estação e se o papel ou um app combina mais com você.",
       "image": "/assets/brand/share/pt-journal--keeping-a-plant-care-journal.png"
     },
     {
       "path": "/pt/journal/moving-house-with-plants/",
       "lang": "pt",
       "title": "Mudança de casa com plantas",
-      "description": "Inclua as plantas na mudança: pragas, rega, embalagem, transporte, regras de fronteira e adaptação à nova luz.",
+      "description": "Inclua as plantas na mudança: confira pragas, rega e embalagem, cuide do transporte, veja as regras de fronteira e ajude-as a se adaptar à nova luz.",
       "image": "/assets/brand/share/pt-journal--moving-house-with-plants.png"
     },
     {
       "path": "/pt/legal/",
       "lang": "pt",
       "title": "Informações legais",
-      "description": "Informações sobre o responsável pela publicação, contato e hospedagem do site do Lilora.",
+      "description": "Informações sobre o responsável, o contato e a hospedagem do site do Lilora: aviso legal, quem responde por ele e os serviços que o mantêm no ar.",
       "image": "/assets/brand/share/pt-legal.png"
     },
     {
       "path": "/pt/plants/",
       "lang": "pt",
       "title": "Biblioteca de plantas de interior",
-      "description": "Perfis de plantas de interior por espécie.",
+      "description": "Perfis de plantas de interior por espécie: luz, rega, umidade, temperatura, informações sobre pets e nível de cuidado, sempre com fontes.",
       "image": "/assets/brand/share/pt-plants.png"
     },
     {
@@ -1886,7 +1886,7 @@
       "path": "/pt/plants/philodendron-hederaceum/",
       "lang": "pt",
       "title": "Cuidados com o filodendro-cordato",
-      "description": "Cuidados com o filodendro-cordato: luz média, substrato levemente úmido, estacas simples e a classificação da ASPCA.",
+      "description": "Cuidados com o filodendro-cordato: luz média, substrato levemente úmido, estacas simples, crescimento pendente ou trepador e a lista da ASPCA.",
       "image": "/assets/brand/share/pt-plants--philodendron-hederaceum.png"
     },
     {
@@ -1914,21 +1914,21 @@
       "path": "/pt/privacy/",
       "lang": "pt",
       "title": "Política de privacidade",
-      "description": "Como o Lilora trata suas informações.",
+      "description": "Como o Lilora trata suas informações: conta, casa, identificação por foto, compras, formulário e estatísticas do site, retenção e seus direitos.",
       "image": "/assets/brand/share/pt-privacy.png"
     },
     {
       "path": "/pt/support/",
       "lang": "pt",
       "title": "Uma ajuda para suas plantas.",
-      "description": "Respostas às dúvidas frequentes e uma forma de falar com a gente.",
+      "description": "Respostas sobre o Lilora: idioma, onde as plantas ficam salvas, excluir a conta, lembretes, identificação e compras, e como falar com a gente.",
       "image": "/assets/brand/share/pt-support.png"
     },
     {
       "path": "/support/",
       "lang": "tr",
       "title": "Bitkilerin için biraz yardım.",
-      "description": "Sık sorulan sorular ve bize ulaşmanın yolu.",
+      "description": "Lilora için sık sorulan sorular: dil, bitkilerin nerede saklandığı, hesap silme, hatırlatmalar, fotoğraf tanıma ve satın almalar; bize nasıl ulaşırsın.",
       "image": "/assets/brand/share/tr-support.png"
     }
   ]

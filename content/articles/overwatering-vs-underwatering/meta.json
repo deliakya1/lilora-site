@@ -34,18 +34,20 @@
     "description": "Wilting and yellow leaves can mean too much or too little water. Check the mix, the weight of the pot and the roots before you change anything."
   },
   "tr": {
-    "description": "Pörsüme ve sararma hem fazla hem az suyun işareti olabilir. Bir şeyi değiştirmeden önce harcı, saksının ağırlığını ve kökleri kontrol et."
+    "description": "Pörsüme ve sararma hem fazla hem az suyun işareti olabilir. Bir şeyi değiştirmeden önce harcı, saksının ağırlığını ve kökleri kontrol et.",
+    "seoTitle": "Fazla mı suladın, az mı? Nasıl anlarsın"
   },
   "es": {
     "description": "Marchitez y hojas amarillas pueden indicar exceso o falta de agua. Comprueba el sustrato, el peso de la maceta y las raíces antes de cambiar nada."
   },
   "de": {
-    "description": "Welke und gelbe Blätter können zu viel oder zu wenig Wasser bedeuten. Prüfe Erde, Topfgewicht und Wurzeln, bevor du etwas änderst."
+    "description": "Welke und gelbe Blätter können zu viel oder zu wenig Wasser bedeuten. Prüfe Erde, Topfgewicht und Wurzeln, bevor du etwas änderst.",
+    "seoTitle": "Zu viel oder zu wenig gegossen? So erkennst du es"
   },
   "pt": {
     "description": "Murcha e folhas amarelas podem indicar água demais ou de menos. Confira o substrato, o peso do vaso e as raízes antes de mudar qualquer coisa."
   },
   "fr": {
-    "description": "Flétrissement et feuilles jaunes peuvent signaler trop ou pas assez d’eau. Vérifiez le substrat, le poids du pot et les racines avant de changer quoi que ce soit."
+    "description": "Flétrissement et feuilles jaunes peuvent venir d’un excès ou d’un manque d’eau. Vérifiez substrat, poids du pot et racines avant de changer."
   }
 }
