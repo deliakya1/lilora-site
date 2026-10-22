@@ -16,6 +16,9 @@
   });
   const media=matchMedia('(min-width: 1100px)');media.addEventListener('change',()=>{if(media.matches)menu.open=false;});
  }
+ // FAQ answers open when a link points at them (for example /support/#reminders).
+ const openTarget=()=>{const id=decodeURIComponent(location.hash.slice(1));const item=id&&document.getElementById(id);if(item&&item.matches('details.faq-item'))item.open=true;};
+ openTarget();addEventListener('hashchange',openTarget);
  // Language dropdowns: Escape closes, and a click elsewhere closes an open list.
  const pickers=[...document.querySelectorAll('.language-picker,.footer-language')];
  for(const picker of pickers)picker.addEventListener('keydown',event=>{if(event.key==='Escape'&&picker.open){picker.open=false;picker.querySelector('summary').focus();}});
