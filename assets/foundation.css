@@ -450,3 +450,8 @@ summary {
 body:has(.mobile-menu[open]) .back-to-top{display:none}
 @media (max-width:640px){.back-to-top{padding:0;width:48px;justify-content:center}.back-to-top span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}}
 @media print{.back-to-top{display:none!important}}
+/* Footer links read as a quiet list: no underline until hover or keyboard focus. */
+.footer a{text-decoration:none}
+.footer a:hover,.footer a:focus-visible{text-decoration:underline;text-underline-offset:4px}
+.footer .cookie-settings{color:inherit;border:0;background:none;padding:0;min-height:44px;text-align:left;font-size:14px;cursor:pointer}
+.footer .cookie-settings:hover{text-decoration:underline;text-underline-offset:4px;background:none}
