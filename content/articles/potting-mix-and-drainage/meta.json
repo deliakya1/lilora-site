@@ -1,0 +1,51 @@
+{
+  "slug": "potting-mix-and-drainage",
+  "type": "guide",
+  "published": "2026-10-22",
+  "reviewed": "2026-10-22",
+  "sources": [
+    {
+      "name": "Clemson Cooperative Extension: repotting indoor plants",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/"
+    },
+    {
+      "name": "RHS: how to grow houseplants",
+      "url": "https://www.rhs.org.uk/plants/types/houseplants/growing-guide"
+    },
+    {
+      "name": "Penn State Extension: repotting houseplants",
+      "url": "https://extension.psu.edu/repotting-houseplants"
+    },
+    {
+      "name": "Washington State University: the myth of drainage material in containers",
+      "url": "https://puyallup.wsu.edu/wp-content/uploads/sites/403/2015/03/container-drainage.pdf"
+    },
+    {
+      "name": "RHS: how to plant up a container",
+      "url": "https://www.rhs.org.uk/container-gardening/how-to-plant-up-a-container"
+    }
+  ],
+  "related": [
+    "when-to-repot-houseplants",
+    "root-rot",
+    "watering-houseplants"
+  ],
+  "en": {
+    "description": "A drainage hole, a container mix and no gravel layer: what a houseplant pot needs, and how to pot up step by step."
+  },
+  "tr": {
+    "description": "Drenaj deliği, saksı harcı ve çakılsız bir dip: bir ev bitkisi saksısının nelere ihtiyacı var ve adım adım dikim."
+  },
+  "es": {
+    "description": "Agujero de drenaje, sustrato para macetas y nada de capa de grava: lo que necesita una maceta y cómo trasplantar paso a paso."
+  },
+  "de": {
+    "description": "Abzugsloch, Topferde und keine Kiesschicht: was ein Zimmerpflanzentopf braucht und wie du Schritt für Schritt eintopfst."
+  },
+  "pt": {
+    "description": "Furo de drenagem, substrato para vasos e nada de camada de brita: o que um vaso precisa e como plantar passo a passo."
+  },
+  "fr": {
+    "description": "Un trou de drainage, un substrat pour pots et pas de couche de graviers : ce qu’il faut à un pot et comment rempoter pas à pas."
+  }
+}

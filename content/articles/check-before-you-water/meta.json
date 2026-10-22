@@ -1,0 +1,51 @@
+{
+  "slug": "check-before-you-water",
+  "type": "post",
+  "published": "2026-10-22",
+  "reviewed": "2026-10-22",
+  "sources": [
+    {
+      "name": "University of Maryland Extension: watering indoor plants",
+      "url": "https://www.extension.umd.edu/resource/watering-indoor-plants"
+    },
+    {
+      "name": "RHS: how to grow houseplants",
+      "url": "https://www.rhs.org.uk/plants/types/houseplants/growing-guide"
+    },
+    {
+      "name": "University of Maryland Extension: overwatered indoor plants",
+      "url": "https://extension.umd.edu/resource/overwatered-indoor-plants"
+    },
+    {
+      "name": "Illinois Extension: watering",
+      "url": "https://extension.illinois.edu/houseplants/watering"
+    },
+    {
+      "name": "RHS: holiday care",
+      "url": "https://www.rhs.org.uk/plants/types/houseplants/holiday-care"
+    }
+  ],
+  "related": [
+    "watering-houseplants",
+    "overwatering-vs-underwatering",
+    "shared-plant-care"
+  ],
+  "en": {
+    "description": "A calendar cannot see your plant. Why Lilora's reminders ask for a check and keep \"Watered\" and \"Checked, no water needed\" apart."
+  },
+  "tr": {
+    "description": "Takvim bitkini göremez. Lilora’nın hatırlatmaları neden kontrol istiyor ve “Suladım” ile “Kontrol ettim, suya ihtiyacı yok” kayıtlarını neden ayırıyor."
+  },
+  "es": {
+    "description": "Un calendario no ve tu planta. Por qué los recordatorios de Lilora piden comprobar y separan el riego de la comprobación sin agua."
+  },
+  "de": {
+    "description": "Ein Kalender sieht deine Pflanze nicht. Warum Lilora ans Prüfen erinnert und Gießen und Kontrolle ohne Wasser getrennt erfasst."
+  },
+  "pt": {
+    "description": "Um calendário não enxerga a sua planta. Por que os lembretes do Lilora pedem uma verificação e separam rega de verificação sem água."
+  },
+  "fr": {
+    "description": "Un calendrier ne voit pas votre plante. Pourquoi Lilora rappelle de vérifier et distingue l’arrosage de la vérification sans eau."
+  }
+}

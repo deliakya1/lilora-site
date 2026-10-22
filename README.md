@@ -700,3 +700,53 @@ photo licences could not be re-checked from the cloud (iNaturalist and GBIF are
 blocked there); spot-check them on the observation pages listed in CREDITS.md.
 
 <!-- site-prompt-05: done -->
+
+## Maintenance — 22 October 2026 — prompt 06 care guides and journal
+
+Twelve new pieces in all six languages (72 pages): eight guides under `/guides/`
+(overwatering-vs-underwatering, root-rot, houseplant-pests, houseplant-humidity,
+fertilizing-houseplants, propagating-cuttings, winter-houseplant-care,
+potting-mix-and-drainage) and four journal posts under `/journal/`
+(check-before-you-water, autumn-plant-reset, moving-house-with-plants,
+keeping-a-plant-care-journal). Sources live in each folder's `meta.json`; only
+new `content/articles/` folders, `assets/images/articles/` and a new test file were
+added. Templates, CSS, locales and other prompts' paths are unchanged; hubs,
+sitemap, share cards and the three-guide home teaser regenerate from the build.
+
+Each piece has a short answer, specific H2 sections, a numbered how-to or check
+list where it fits and a 3–4 question FAQ. Every piece cites 4–7 institutional
+sources inline (university extension services, RHS, Missouri Botanical Garden,
+EFSA). Seasonal advice names both hemispheres; Brazilian Portuguese leads with
+Southern Hemisphere months. Pest and disease pages put identification first,
+the least harmful step next, and give no product doses ("follow the label").
+App labels are quoted from app `main` `e67a024` (`en.ts`/`tr.ts`); ES/DE/PT/FR
+quote them in English and state that the app is in English and Turkish. After
+prompt 05 merged, the branch was rebuilt on main: every internal link now stays in
+its own language (the earlier EN fallbacks became local links), propagating-cuttings
+links the pothos profile and houseplant-pests links the pets guide.
+
+Images: no `image_gen` tool was available and Wikimedia Commons was unreachable
+from the execution gateway, so no image was generated or downloaded. Ten pieces
+reuse existing owner-approved illustrations from `assets/images/home/` with a
+visible "generated illustration" caption; root-rot and houseplant-pests have no
+picture on purpose (pest images must be accurate). Six pieces add original
+HTML/CSS step diagrams using the existing `shared-care-diagram` classes. All uses
+are recorded in `assets/images/articles/CREDITS.md`.
+
+Template notes for the layout owner: the template's `image` field renders with
+`object-fit: contain` on a dark green box sized for phone screenshots, which
+letterboxes landscape scenes, so these articles place figures inside the body
+with inline sizing instead. Article diagrams other than shared-care have no
+template hook; reusing the shared-care classes works but a generic `.step-diagram`
+class would be cleaner.
+
+Validation: `npm run check` (build plus all tests, including the new
+`scripts/guides-journal.test.mjs`: six languages, ≥3 inline institutional sources,
+internal links resolve and stay in language, no English body under another
+language, image alt/size/credit, banned words, hubs and sitemap) and every
+`scripts/*.cjs` Playwright suite. TR root-rot and DE check-before-you-water were
+read end to end at 390/1440 px. Sources were confirmed through web search results;
+direct fetches of RHS and extension pages are blocked by this execution gateway.
+
+CI impact: one push and the existing GitHub Pages build/deploy after squash; no
+new workflow, dependency, service or paid API.

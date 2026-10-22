@@ -1,0 +1,51 @@
+{
+  "slug": "autumn-plant-reset",
+  "type": "post",
+  "published": "2026-10-22",
+  "reviewed": "2026-10-22",
+  "sources": [
+    {
+      "name": "Illinois Extension: bring houseplants indoors before the first frost",
+      "url": "https://extension.illinois.edu/news-releases/bring-houseplants-indoors-first-frost"
+    },
+    {
+      "name": "Illinois Extension: moving houseplants indoors",
+      "url": "https://extension.illinois.edu/blogs/good-growing/2022-09-09-tips-moving-houseplants-indoors-and-overwinter-care"
+    },
+    {
+      "name": "University of Nebraska–Lincoln Extension: bringing houseplants indoors",
+      "url": "https://lancaster.unl.edu/bringing-houseplants-indoors"
+    },
+    {
+      "name": "University of Minnesota Extension: houseplant pests",
+      "url": "https://extension.umn.edu/news/houseplant-pests"
+    },
+    {
+      "name": "UConn Home and Garden Education Center: fertilizing houseplants",
+      "url": "https://soiltesting.cahnr.uconn.edu/fertilizing-houseplants/"
+    }
+  ],
+  "related": [
+    "winter-houseplant-care",
+    "houseplant-pests",
+    "indoor-plant-light-guide"
+  ],
+  "en": {
+    "description": "Bring plants in before cold nights, check for pests, rearrange windows and slow down watering: a short autumn checklist for houseplants."
+  },
+  "tr": {
+    "description": "Soğuk gecelerden önce bitkileri içeri al, zararlılara bak, pencereleri yeniden düzenle ve sulamayı yavaşlat: ev bitkileri için kısa bir sonbahar listesi."
+  },
+  "es": {
+    "description": "Mete dentro las plantas antes del frío, busca plagas, reparte las ventanas y espacia el riego: una lista breve de otoño."
+  },
+  "de": {
+    "description": "Pflanzen vor kalten Nächten hereinholen, auf Schädlinge prüfen, Fenster neu verteilen, seltener gießen: eine kurze Herbst-Checkliste."
+  },
+  "pt": {
+    "description": "Traga as plantas para dentro antes do frio, procure pragas, redistribua as janelas e espace as regas: uma lista curta de outono."
+  },
+  "fr": {
+    "description": "Rentrer les plantes avant le froid, chercher les ravageurs, redistribuer les fenêtres, espacer l’arrosage : une courte liste d’automne."
+  }
+}
