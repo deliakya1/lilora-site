@@ -19,6 +19,11 @@ const artwork = (lang, feature, alt, caption, eager = false) => {
   if (!existsSync(`.${stem}-480.webp`)) return "";
   return `<figure class="promo-app"><picture><source type="image/webp" srcset="${stem}-320.webp 320w, ${stem}-480.webp 480w, ${stem}-720.webp 720w" sizes="(min-width: 900px) 260px, (min-width: 600px) 240px, 56vw"><img src="${original}" width="1320" height="2868" alt="${esc(alt)}" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"></picture><figcaption>${esc(caption)}</figcaption></figure>`;
 };
+const heroMedia = (lang, t) => {
+  const locale = lang === "tr" ? "tr" : "en";
+  const stem = `/assets/images/home/app-${locale}-collection`;
+  return `<figure class="promo-hero-media"><div class="promo-hero-frames"><div class="promo-hero-scene"><img src="/assets/images/home/window-hero-v1-640.webp" srcset="/assets/images/home/window-hero-v1-640.webp 640w, /assets/images/home/window-hero-v1-960.webp 960w, /assets/images/home/window-hero-v1-1280.webp 1280w" sizes="(min-width: 1100px) 340px, 55vw" width="640" height="427" alt="${esc(t.imageAlts.hero)}" fetchpriority="high" decoding="async"></div><div class="promo-hero-app"><picture><source type="image/webp" srcset="${stem}-320.webp 320w, ${stem}-480.webp 480w, ${stem}-720.webp 720w" sizes="(min-width: 1100px) 250px, 40vw"><img src="/assets/brand/artwork/lilora-iphone-${locale}-collection.png" width="1320" height="2868" alt="${esc(t.features[0].imageAlt)}" fetchpriority="high" decoding="async"></picture></div></div><figcaption class="promo-hero-caption">${esc(t.heroCaption)}</figcaption></figure>`;
+};
 const metadata = {};
 for (const [lang, t] of Object.entries(copy)) {
   const home = prefix(lang);
@@ -43,8 +48,8 @@ for (const [lang, t] of Object.entries(copy)) {
   <section class="promo-hero wrap">
     <div class="promo-hero-copy"><p class="eyebrow">${esc(t.eyebrow)}</p><h1>${esc(t.title)}</h1><p class="promo-dek">${esc(t.dek)}</p>
     <div class="promo-actions">${cta("hero")}<a class="text-link" href="#how-it-works">${esc(t.seeHow)} <span aria-hidden="true">↓</span></a></div>
-    <p class="promo-status"><span class="promo-status-dot" aria-hidden="true"></span>${esc(t.status)}</p><p class="promo-platform">${esc(t.devices)}</p></div>
-    <div class="promo-hero-media">${illustration("window-hero-v1", t.imageAlts.hero, t.illustrationCaption, true)}${art("collection", t.features[0].imageAlt, true)}</div>
+    <p class="promo-status"><span class="promo-status-dot" aria-hidden="true"></span>${esc(t.status)}<span class="promo-status-sep" aria-hidden="true">·</span>${esc(t.devices)}</p></div>
+    ${heroMedia(lang, t)}
   </section>
   <section class="promo-how" id="how-it-works"><div class="wrap promo-how-inner">
     <div class="promo-section-heading"><p class="eyebrow">${esc(t.howEyebrow)}</p><h2>${esc(t.howTitle)}</h2><p>${esc(t.howIntro)}</p>
