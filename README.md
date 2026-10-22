@@ -162,6 +162,13 @@ the sitemap index. Deliberately not done:
   ChatGPT-User, Claude-SearchBot, Claude-User, PerplexityBot, Bingbot) and training
   bots (GPTBot, ClaudeBot, Google-Extended). Blocking training bots would not reduce
   search visibility; that is an owner decision, currently "allow".
+- Verified against provider docs on 22 October 2026: OAI-SearchBot (ChatGPT search),
+  Claude-SearchBot and PerplexityBot are search crawlers; GPTBot and ClaudeBot collect
+  training data; Google-Extended is a robots.txt control token, not a crawler, and does
+  not affect Google Search. ChatGPT-User, Claude-User and Perplexity-User fetch pages
+  on a user's request, and OpenAI/Perplexity say robots.txt may not apply to them.
+- The About page carries the answer-first product fact sheet (what, who, features,
+  limits, app languages, availability, contact). Keep it in sync with support/download.
 
 IndexNow: the key file `/<32-hex key>.txt` at the root lets the site push changed URLs
 to Bing (which also supplies ChatGPT search and Copilot), Yandex, Naver, Seznam and
