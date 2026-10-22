@@ -8,7 +8,6 @@ import {
 import { dirname } from "node:path";
 import { execFileSync } from "node:child_process";
 import { sharedCareDiagram } from "./shared-care-diagram.mjs";
-import { careHandoverForm, handoverFormTitle } from "./care-handover-form.mjs";
 import {
   promotionCopy,
   shareImagePath,
@@ -29,6 +28,7 @@ import {
   htmlLang,
   organization,
 } from "./layout.mjs";
+import { careHandoverForm, handoverFormTitle } from "./care-handover-form.mjs";
 const articles = JSON.parse(readFileSync("editorial/articles.json", "utf8"));
 const plants = JSON.parse(readFileSync("editorial/plants.json", "utf8"));
 // Static, no-JS filter sections for the plant hub; labels live with the plant content.
@@ -182,6 +182,10 @@ const homeEditorial = (l) => {
     : "";
   return guides + plantTeaser;
 };
+// Share control: hidden until navigation.js enables it, so the page stays clean without JS.
+// It shares the clean canonical URL of this language, never the current address with query strings.
+const shareTools = (path, title, t) =>
+  `<div class="share-tools" data-share-url="${origin}${path}" data-share-title="${escape(title)}" data-label-share="${escape(t.share)}" data-label-copy="${escape(t.copyLink)}" data-label-copied="${escape(t.linkCopied)}" data-label-failed="${escape(t.copyFailed)}" hidden><button type="button" class="share-button">${escape(t.copyLink)}</button><span class="share-status" role="status" aria-live="polite"></span></div>`;
 for (const a of articles)
   for (const l of languages) {
     if (!a[l]) continue;
@@ -226,7 +230,7 @@ for (const a of articles)
       schema,
       sources: contentSources("articles", a.slug, l),
       images: images,
-      body: `<div class="wrap"><nav class="breadcrumbs" aria-label="${t.home}"><a href="${prefix(l)}">lilora</a><span>/</span><a href="${prefix(l)}${hub}/">${t[hub]}</a></nav><header class="article-heading"><h1>${escape(c.title)}</h1><p class="dek">${escape(c.description)}</p><p class="byline">${t.published} <time datetime="${a.published}">${formatDate(a.published, l)}</time> · ${t.reviewed} <time datetime="${a.reviewed}">${formatDate(a.reviewed, l)}</time></p></header>${a.image ? `<figure class="article-image"><img src="${c.image || a.image}" width="${a.imageWidth || 553}" height="${a.imageHeight || 1200}" alt="${escape(c.imageAlt || "")}" fetchpriority="high"><figcaption>${c.caption || ""}</figcaption></figure>` : ""}<div class="article-layout"><details class="toc"><summary>${t.contents}</summary><nav aria-label="${t.contents}"><ol>${c.sections.map((s, i) => `<li><a href="#section-${i + 1}">${escape(s.title)}</a></li>${a.handoverFormAfter === i + 1 ? `<li><a href="#handover-form">${handoverFormTitle(l)}</a></li>` : ""}`).join("")}<li><a href="#sources">${t.sources}</a></li></ol></nav></details><article class="prose"><div class="short-answer"><p class="eyebrow">${t.shortAnswer}</p>${c.answerHtml}</div>${a.diagram === "shared-care" ? sharedCareDiagram(l) : ""}${c.sections.map((s, i) => `<section id="section-${i + 1}"><h2>${escape(s.title)}</h2>${s.html}</section>${a.handoverFormAfter === i + 1 ? careHandoverForm(l) : ""}`).join("")}<section id="sources" class="sources"><h2>${t.sources}</h2><ol>${a.sources.map((s) => `<li><a href="${escape(s.url)}">${escape(s.name)}</a>${s.note ? " — " + escape(s.note) : ""}</li>`).join("")}</ol><p>${t.generalNote}</p></section>${guidePlants(a, l)}${appNote(l)}</article></div><section class="related"><h2>${t.related}</h2><div class="story-grid">${related(
+      body: `<div class="wrap"><nav class="breadcrumbs" aria-label="${t.home}"><a href="${prefix(l)}">lilora</a><span>/</span><a href="${prefix(l)}${hub}/">${t[hub]}</a></nav><header class="article-heading"><h1>${escape(c.title)}</h1><p class="dek">${escape(c.description)}</p><p class="byline">${t.published} <time datetime="${a.published}">${formatDate(a.published, l)}</time> · ${t.reviewed} <time datetime="${a.reviewed}">${formatDate(a.reviewed, l)}</time></p>${shareTools(path, c.title, t)}</header>${a.image ? `<figure class="article-image"><img src="${c.image || a.image}" width="${a.imageWidth || 553}" height="${a.imageHeight || 1200}" alt="${escape(c.imageAlt || "")}" fetchpriority="high"><figcaption>${c.caption || ""}</figcaption></figure>` : ""}<div class="article-layout"><details class="toc"><summary>${t.contents}</summary><nav aria-label="${t.contents}"><ol>${c.sections.map((s, i) => `<li><a href="#section-${i + 1}">${escape(s.title)}</a></li>${a.handoverFormAfter === i + 1 ? `<li><a href="#handover-form">${handoverFormTitle(l)}</a></li>` : ""}`).join("")}<li><a href="#sources">${t.sources}</a></li></ol></nav></details><article class="prose"><div class="short-answer"><p class="eyebrow">${t.shortAnswer}</p>${c.answerHtml}</div>${a.diagram === "shared-care" ? sharedCareDiagram(l) : ""}${c.sections.map((s, i) => `<section id="section-${i + 1}"><h2>${escape(s.title)}</h2>${s.html}</section>${a.handoverFormAfter === i + 1 ? careHandoverForm(l) : ""}`).join("")}<section id="sources" class="sources"><h2>${t.sources}</h2><ol>${a.sources.map((s) => `<li><a href="${escape(s.url)}">${escape(s.name)}</a>${s.note ? " — " + escape(s.note) : ""}</li>`).join("")}</ol><p>${t.generalNote}</p></section>${guidePlants(a, l)}${appNote(l)}</article></div><section class="related"><h2>${t.related}</h2><div class="story-grid">${related(
         a,
         l,
       )

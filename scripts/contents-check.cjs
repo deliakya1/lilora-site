@@ -16,7 +16,7 @@ const fs=require('node:fs');
    assert.equal(await details.getAttribute('open'),null);assert.ok((await summary.boundingBox()).height>=44);
    assert.ok(await page.locator('.short-answer').isVisible());assert.equal(await details.locator('a').first().isVisible(),false);
    await summary.focus();await page.keyboard.press('Space');assert.notEqual(await details.getAttribute('open'),null);
-   const links=details.locator('a');assert.equal(await links.count(),article[lang].sections.length+1);
+   const links=details.locator('a');assert.equal(await links.count(),article[lang].sections.length+1+(article.handoverFormAfter?1:0));
    for(const link of await links.all())assert.ok((await link.boundingBox()).height>=44);
    if(javaScriptEnabled){await links.last().click({noWaitAfter:true});}
    else{
