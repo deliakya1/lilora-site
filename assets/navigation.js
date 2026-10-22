@@ -55,3 +55,18 @@
   });
  }
 })();
+/* Guide share control: native share sheet where supported, copy-link fallback otherwise.
+   No third-party scripts and no analytics; the shared URL is the page's clean canonical address. */
+(() => {
+ for(const box of document.querySelectorAll('.share-tools')){
+  const button=box.querySelector('.share-button'),status=box.querySelector('.share-status'),d=box.dataset,url=d.shareUrl;
+  const native=typeof navigator.share==='function';
+  if(!native&&!(navigator.clipboard&&navigator.clipboard.writeText))continue;
+  button.textContent=native?d.labelShare:d.labelCopy;box.hidden=false;
+  button.addEventListener('click',async()=>{
+   status.textContent='';
+   if(native){try{await navigator.share({title:d.shareTitle,url});}catch(e){}return;}
+   try{await navigator.clipboard.writeText(url);status.textContent=d.labelCopied;}catch(e){status.textContent=d.labelFailed+' '+url;}
+  });
+ }
+})();
