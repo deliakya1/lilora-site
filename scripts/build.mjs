@@ -120,6 +120,15 @@ const related = (a, l) => {
     ...all.filter((x) => !ids.includes(x.slug)),
   ].slice(0, 3);
 };
+// Plant profiles point readers to the general care guides that apply to every species.
+const plantGuides = (l) => {
+  const picks = ["watering-houseplants", "indoor-plant-light-guide", "pet-safe-houseplants"]
+    .map((slug) => articles.find((x) => x.slug === slug && x[l]))
+    .filter(Boolean);
+  return picks.length
+    ? `<section class="related wrap"><h2>${locales[l].related}</h2><div class="story-grid">${picks.map((x) => card(x, l)).join("")}</div></section>`
+    : "";
+};
 const appNote = (l) =>
   `<aside class="app-note"><p class="eyebrow">lilora</p><h2>${escape(promotionCopy[l].recordTitle)}</h2><p>${escape(promotionCopy[l].recordBody)}</p><p>${locales[l].status}</p>${!["tr", "en"].includes(l) ? `<p>${locales[l].appLanguages}</p>` : ""}<a class="button" data-analytics-cta="app-info" href="${prefix(l)}download/">${locales[l].getApp}</a></aside>`;
 const homeEditorial = (l) => {
@@ -236,7 +245,7 @@ for (const a of plants)
           [c.title, path],
         ]),
       ],
-      body: `<div class="wrap document"><header class="specimen-header"><p>${escape(a.family)}</p><h1>${escape(c.title)}</h1><p class="botanical-name"><em>${escape(a.botanicalName)}</em></p></header>${a.image ? `<figure class="article-image plant-image"><img src="${a.image}" width="${a.imageWidth}" height="${a.imageHeight}" alt="${escape(c.imageAlt || "")}"><figcaption>${c.caption || ""}</figcaption></figure>` : ""}<section class="at-a-glance"><h2>${t.atAGlance}</h2><dl>${["light", "watering", "humidity", "temperature", "petSafety", "careLevel"].map((k) => `<div><dt>${t[k]}</dt><dd>${escape(g[k])}${k === "petSafety" && g.petSafetySource ? ` <a href="${escape(g.petSafetySource)}">${t.sources}</a>` : ""}</dd></div>`).join("")}</dl></section><article class="prose">${c.answerHtml}${c.sections.map((s) => `<section><h2>${escape(s.title)}</h2>${s.html}</section>`).join("")}<section id="sources"><h2>${t.sources}</h2><ul>${(a.sources || []).map((s) => `<li><a href="${escape(s.url)}">${escape(s.name)}</a></li>`).join("")}</ul></section>${appNote(l)}</article></div>`,
+      body: `<div class="wrap document"><nav class="breadcrumbs" aria-label="${t.home}"><a href="${prefix(l)}">lilora</a><span>/</span><a href="${prefix(l)}plants/">${t.plants}</a></nav><header class="specimen-header"><p>${escape(a.family)}</p><h1>${escape(c.title)}</h1><p class="botanical-name"><em>${escape(a.botanicalName)}</em></p><p class="byline">${t.published} <time datetime="${a.published}">${formatDate(a.published, l)}</time> · ${t.reviewed} <time datetime="${a.reviewed}">${formatDate(a.reviewed, l)}</time></p></header>${a.image ? `<figure class="article-image plant-image"><img src="${a.image}" width="${a.imageWidth}" height="${a.imageHeight}" alt="${escape(c.imageAlt || "")}"><figcaption>${c.caption || ""}</figcaption></figure>` : ""}<section class="at-a-glance"><h2>${t.atAGlance}</h2><dl>${["light", "watering", "humidity", "temperature", "petSafety", "careLevel"].map((k) => `<div><dt>${t[k]}</dt><dd>${escape(g[k])}${k === "petSafety" && g.petSafetySource ? ` <a href="${escape(g.petSafetySource)}">${t.sources}</a>` : ""}</dd></div>`).join("")}</dl></section><article class="prose">${c.answerHtml}${c.sections.map((s) => `<section><h2>${escape(s.title)}</h2>${s.html}</section>`).join("")}<section id="sources"><h2>${t.sources}</h2><ul>${(a.sources || []).map((s) => `<li><a href="${escape(s.url)}">${escape(s.name)}</a></li>`).join("")}</ul></section>${appNote(l)}</article></div>${plantGuides(l)}`,
     });
   }
 for (const slug of staticSlugs) {
@@ -344,7 +353,7 @@ for (const l of languages) {
             ...r.alternates,
             ...(r.alternates.en ? { "x-default": r.alternates.en } : {}),
           })
-            .map(([v, p]) => `<xhtml:link rel="alternate" hreflang="${v}" href="${origin}${p}"/>`)
+            .map(([v, p]) => `<xhtml:link rel="alternate" hreflang="${v === "x-default" ? v : htmlLang(v)}" href="${origin}${p}"/>`)
             .join("")}${r.images.map((src) => `<image:image><image:loc>${xml(src)}</image:loc></image:image>`).join("")}</url>`,
       )
       .join("\n")}\n</urlset>\n`,

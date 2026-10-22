@@ -71,7 +71,7 @@ export function page({
   const languageLinks = languages
     .map(
       (l) =>
-        `<a class="language" href="${alternates[l] || prefix(l)}" lang="${htmlLang(l)}" hreflang="${l}"${l === lang ? ' aria-current="page"' : ""}>${flag(l)}<span>${names[l]}</span></a>`,
+        `<a class="language" href="${alternates[l] || prefix(l)}" lang="${htmlLang(l)}" hreflang="${htmlLang(l)}"${l === lang ? ' aria-current="page"' : ""}>${flag(l)}<span>${names[l]}</span></a>`,
     )
     .join("");
   // The current section is marked so the header and mobile menu can show where you are.
@@ -107,7 +107,7 @@ export function page({
     Object.entries(alternates)
       .map(
         ([l, p]) =>
-          `<link rel="alternate" hreflang="${l}" href="${origin}${p}">`,
+          `<link rel="alternate" hreflang="${htmlLang(l)}" href="${origin}${p}">`,
       )
       .join("") +
     (alternates.en
