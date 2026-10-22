@@ -22,6 +22,16 @@
  // Back to top appears after about one and a half screens of scrolling.
  const top=document.querySelector('.back-to-top');
  if(top){const update=()=>{top.hidden=scrollY<innerHeight*1.5;};update();addEventListener('scroll',update,{passive:true});addEventListener('resize',update);}
+ // Plant library: chips filter the photo grid in place; without JS they jump to static lists.
+ const browser=document.querySelector('.plant-browser');
+ if(browser){
+  const chips=[...browser.querySelectorAll('.plant-chip')],cards=[...browser.querySelectorAll('.plant-card')],count=browser.querySelector('.plant-count'),template=browser.dataset.countTemplate;
+  for(const section of browser.querySelectorAll('.plant-filter'))section.hidden=true;
+  const apply=filter=>{let shown=0;for(const card of cards){const match=filter==='all'||card.dataset.tags.split(' ').includes(filter);card.hidden=!match;if(match)shown++;}
+   for(const chip of chips)chip.toggleAttribute('aria-current',chip.dataset.filter===filter);if(count)count.textContent=template.replace('{n}',shown);};
+  for(const chip of chips)chip.addEventListener('click',event=>{event.preventDefault();const filter=chip.dataset.filter;apply(filter);history.replaceState(history.state,'',filter==='all'?location.pathname:'#'+filter);});
+  const initial=location.hash.slice(1);if(chips.some(c=>c.dataset.filter===initial))apply(initial);
+ }
  // Language dropdowns: Escape closes, and a click elsewhere closes an open list.
  const pickers=[...document.querySelectorAll('.language-picker,.footer-language')];
  for(const picker of pickers)picker.addEventListener('keydown',event=>{if(event.key==='Escape'&&picker.open){picker.open=false;picker.querySelector('summary').focus();}});

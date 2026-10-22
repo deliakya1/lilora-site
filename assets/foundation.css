@@ -455,3 +455,32 @@ body:has(.mobile-menu[open]) .back-to-top{display:none}
 .footer a:hover,.footer a:focus-visible{text-decoration:underline;text-underline-offset:4px}
 .footer .cookie-settings{color:inherit;border:0;background:none;padding:0;min-height:44px;text-align:left;font-size:14px;cursor:pointer}
 .footer .cookie-settings:hover{text-decoration:underline;text-underline-offset:4px;background:none}
+/* Plant library: filter chips and a photo grid (cover-cropped, no letterboxing). */
+.plant-browser{padding-top:8px}
+.plant-chips{display:flex;gap:8px;overflow-x:auto;padding:4px 2px 8px;margin-inline:-2px;scrollbar-width:none}
+.plant-chips::-webkit-scrollbar{display:none}
+.plant-chip{flex:none;display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border:1px solid var(--color-border-default);border-radius:999px;background:var(--color-bg-canvas);color:var(--color-text-primary);font-size:15px;text-decoration:none;white-space:nowrap}
+.plant-chip:hover{border-color:var(--color-action-primary)}
+.plant-chip[aria-current]{background:var(--color-action-primary);border-color:var(--color-action-primary);color:var(--color-text-onAccent);font-weight:600}
+.plant-note{max-width:720px;margin:8px 0 0;font-size:13px;line-height:1.55;color:var(--color-text-tertiary)}
+.plant-note a{color:inherit}
+.plant-count{margin:24px 0 12px;font-size:14px;font-weight:600;color:var(--color-text-secondary)}
+.plant-grid{list-style:none;margin:0 0 48px;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px 20px}
+.plant-card[hidden]{display:none}
+.plant-card a{display:flex;flex-direction:column;gap:4px;text-decoration:none;color:inherit}
+.plant-card-photo{display:block;aspect-ratio:4/5;overflow:hidden;border-radius:8px;background:var(--color-bg-sunken);margin-bottom:8px}
+.plant-card-photo img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .3s ease}
+.plant-card a:hover .plant-card-photo img{transform:scale(1.03)}
+.plant-card-name{font:500 20px/1.25 var(--font-display);letter-spacing:-.2px}
+.plant-card a:hover .plant-card-name{color:var(--color-action-primary)}
+.plant-card-botanical{font-size:14px;color:var(--color-text-secondary)}
+.plant-card-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.plant-tag{display:inline-flex;align-items:center;min-height:24px;padding:0 9px;border-radius:999px;background:var(--color-action-secondaryBg);color:var(--color-action-primary);font-size:12px;font-weight:600}
+.plant-tag-petNonToxic{background:#F3E6DE;color:#8A3F20}
+.plant-filter{padding-top:16px}
+.plant-filter h2{font-size:22px;margin-bottom:8px}
+.plant-filter-links{list-style:none;padding:0;margin:0 0 24px;display:flex;flex-wrap:wrap;gap:8px 20px}
+.plant-filter-links a{text-decoration:none;color:var(--color-action-primary);font-weight:600}
+@media (max-width:1099px){.plant-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:767px){.plant-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 14px}.plant-card-name{font-size:18px}.plant-chips{margin-inline:-16px;padding-inline:16px}}
+@media (prefers-reduced-motion:reduce){.plant-card-photo img{transition:none}.plant-card a:hover .plant-card-photo img{transform:none}}
