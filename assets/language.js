@@ -9,7 +9,7 @@
  const url=new URL(location.href),explicit=url.searchParams.get(marker);
  if(valid(explicit)&&explicit===config.language){remember(explicit);url.searchParams.delete(marker);history.replaceState(history.state,'',url);}
  for(const link of document.querySelectorAll('a.language[hreflang]')){
-  const lang=link.hreflang;if(!valid(lang))continue;
+  const lang=link.hreflang.split('-')[0];if(!valid(lang))continue;
   const target=new URL(link.href,location.href);target.search=location.search;target.searchParams.set(marker,lang);
   if(config.alternates[lang])target.hash=location.hash;
   link.href=target.href;link.addEventListener('click',()=>remember(lang));link.addEventListener('auxclick',event=>{if(event.button===1)remember(lang);});
