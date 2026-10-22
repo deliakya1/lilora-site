@@ -1,26 +1,32 @@
 {
   "tr": {
     "title": "Birlikte yaşadığın bitkiler, ortak bir defter.",
+    "seoTitle": "Evdeki bitkiler için ortak bakım uygulaması",
     "description": "Hangi bitki nerede, en son kim kontrol etti, ne zaman sulandı? Fotoğrafları, notları ve bakım geçmişini Lilora’da bir arada tut."
   },
   "en": {
     "title": "A shared notebook for your plants.",
+    "seoTitle": "Plant care app for shared households",
     "description": "Which room, who last checked, when it was watered. Keep your plants’ photos, notes and care history together in Lilora, on iPhone and iPad."
   },
   "es": {
     "title": "Las plantas de casa, en un cuaderno compartido.",
+    "seoTitle": "App de cuidado de plantas para toda la casa",
     "description": "En qué habitación están, quién las revisó y cuándo se regaron. Reúne las fotos, las notas y el historial de cuidados de tus plantas en Lilora."
   },
   "de": {
     "title": "Ein gemeinsames Notizbuch für eure Pflanzen.",
+    "seoTitle": "Pflanzenpflege-App für gemeinsame Haushalte",
     "description": "In welchem Zimmer, zuletzt von wem geprüft und wann gegossen? Lilora hält Fotos, Notizen und Pflegeeinträge eurer Pflanzen zusammen."
   },
   "pt": {
     "title": "As plantas da casa, num caderno compartilhado.",
+    "seoTitle": "App de cuidados com plantas para a casa toda",
     "description": "Em qual cômodo, quem conferiu por último e quando recebeu água. Reúna fotos, anotações e o histórico de cuidados das suas plantas no Lilora."
   },
   "fr": {
     "title": "Les plantes de la maison, un carnet partagé.",
+    "seoTitle": "Appli d’entretien des plantes pour toute la maison",
     "description": "Dans quelle pièce, vérifiée par qui, arrosée quand ? Gardez les photos, les notes et l’historique d’entretien de vos plantes au même endroit, dans Lilora."
   }
 }
