@@ -49,7 +49,7 @@ URL marker lets deliberate switches survive blocked storage. There is no IP look
 or crawler special case. Native language links and disclosures work without JS.
 
 Only real article/plant translations receive reciprocal hreflang. `html lang` is
-`pt-BR` for `/pt/`, hreflang remains `pt`, and x-default uses the English counterpart.
+`pt-BR` for `/pt/` and so is its hreflang (head, language links, sitemaps); x-default uses the English counterpart.
 Sitemap alternates use the XHTML namespace. Hubs contain their own-language items;
 when fewer than three exist, explicitly marked English fallback cards may appear.
 The journal lists `post` articles; guides and comparisons have their own hubs. New translations
