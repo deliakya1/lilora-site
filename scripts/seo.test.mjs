@@ -168,3 +168,9 @@ test("search engine ownership files stay byte-exact", () => {
 test("Bing ownership file names one user token", () => {
   assert.match(read("BingSiteAuth.xml"), /<users>\s*<user>[0-9A-F]{32}<\/user>\s*<\/users>/);
 });
+
+test("IndexNow key file holds exactly its own name", () => {
+  const files = readdirSync(".").filter((n) => /^[0-9a-f]{32}\.txt$/.test(n));
+  assert.equal(files.length, 1);
+  assert.equal(read(files[0]), files[0].replace(/\.txt$/, ""));
+});
