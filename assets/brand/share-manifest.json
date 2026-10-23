@@ -336,6 +336,13 @@
       "image": "/assets/brand/share/de-plants--ficus-lyrata.png"
     },
     {
+      "path": "/de/plants/finder/",
+      "lang": "de",
+      "title": "Welche Zimmerpflanze passt zu dir?",
+      "description": "Beantworte drei Fragen zu Licht, Erfahrung und Haustieren und sieh zwei oder drei Pflanzen aus der Lilora-Bibliothek mit Begründung und Pflegeratgeber.",
+      "image": "/assets/brand/share/de-plants--finder.png"
+    },
+    {
       "path": "/de/plants/goeppertia/",
       "lang": "de",
       "title": "Korbmarante (Calathea) pflegen",
@@ -665,6 +672,13 @@
       "image": "/assets/brand/share/en-plants--ficus-lyrata.png"
     },
     {
+      "path": "/en/plants/finder/",
+      "lang": "en",
+      "title": "Which houseplant suits you?",
+      "description": "Answer three questions about light, experience and pets to see two or three plants from the Lilora library, why they fit and their care guides.",
+      "image": "/assets/brand/share/en-plants--finder.png"
+    },
+    {
       "path": "/en/plants/goeppertia/",
       "lang": "en",
       "title": "Calathea (prayer plant) care",
@@ -978,6 +992,13 @@
       "title": "Cuidados del ficus lira",
       "description": "Cuidados del ficus lira: luz indirecta brillante, condiciones estables, riego prudente y por qué las fuentes sobre mascotas no coinciden.",
       "image": "/assets/brand/share/es-plants--ficus-lyrata.png"
+    },
+    {
+      "path": "/es/plants/finder/",
+      "lang": "es",
+      "title": "¿Qué planta de interior te conviene?",
+      "description": "Responde tres preguntas sobre luz, experiencia y mascotas y verás dos o tres plantas de la biblioteca de Lilora, por qué encajan y sus guías de cuidado.",
+      "image": "/assets/brand/share/es-plants--finder.png"
     },
     {
       "path": "/es/plants/goeppertia/",
@@ -1295,6 +1316,13 @@
       "image": "/assets/brand/share/fr-plants--ficus-lyrata.png"
     },
     {
+      "path": "/fr/plants/finder/",
+      "lang": "fr",
+      "title": "Quelle plante d’intérieur vous convient ?",
+      "description": "Répondez à trois questions sur la lumière, l’expérience et les animaux pour voir deux ou trois plantes de la bibliothèque Lilora et leurs fiches.",
+      "image": "/assets/brand/share/fr-plants--finder.png"
+    },
+    {
       "path": "/fr/plants/goeppertia/",
       "lang": "fr",
       "title": "Entretien du calathea",
@@ -1552,6 +1580,13 @@
       "title": "Keman yapraklı kauçuk (Ficus lyrata) bakımı",
       "description": "Keman yapraklı kauçuk (Ficus lyrata) bakımı: parlak dolaylı ışık, sabit koşullar, dikkatli sulama ve evcil hayvan kaynaklarının neden ayrıştığı.",
       "image": "/assets/brand/share/tr-plants--ficus-lyrata.png"
+    },
+    {
+      "path": "/plants/finder/",
+      "lang": "tr",
+      "title": "Sana uygun bitki hangisi?",
+      "description": "Işık, deneyim ve evcil hayvanlarla ilgili üç soruyu cevapla; Lilora kütüphanesinden iki üç bitkiyi, neden önerildiğini ve bakım rehberlerini gör.",
+      "image": "/assets/brand/share/tr-plants--finder.png"
     },
     {
       "path": "/plants/goeppertia/",
@@ -1860,6 +1895,13 @@
       "title": "Cuidados com a figueira-lira",
       "description": "Cuidados com a figueira-lira: luz indireta clara, condições estáveis, rega cuidadosa e por que as fontes sobre pets não concordam.",
       "image": "/assets/brand/share/pt-plants--ficus-lyrata.png"
+    },
+    {
+      "path": "/pt/plants/finder/",
+      "lang": "pt",
+      "title": "Qual planta combina com você?",
+      "description": "Responda três perguntas sobre luz, experiência e pets e veja duas ou três plantas da biblioteca do Lilora, por que combinam e seus guias de cuidado.",
+      "image": "/assets/brand/share/pt-plants--finder.png"
     },
     {
       "path": "/pt/plants/goeppertia/",

@@ -8,6 +8,9 @@
     "tags": [
       "beginner"
     ],
+    "finderLight": [
+      "bright"
+    ],
     "image": "/assets/images/plants/aloe-vera-v1.webp",
     "imageWidth": 540,
     "imageHeight": 720,
@@ -369,6 +372,9 @@
     "tags": [
       "petNonToxic",
       "beginner"
+    ],
+    "finderLight": [
+      "medium"
     ],
     "image": "/assets/images/plants/chlorophytum-comosum-v1.webp",
     "imageWidth": 540,
@@ -736,6 +742,11 @@
       "lowLight",
       "beginner"
     ],
+    "finderLight": [
+      "low",
+      "medium",
+      "bright"
+    ],
     "image": "/assets/images/plants/dracaena-trifasciata-v1.webp",
     "imageWidth": 480,
     "imageHeight": 720,
@@ -1102,6 +1113,10 @@
       "lowLight",
       "beginner"
     ],
+    "finderLight": [
+      "low",
+      "medium"
+    ],
     "image": "/assets/images/plants/epipremnum-aureum-v1.webp",
     "imageWidth": 540,
     "imageHeight": 720,
@@ -1465,6 +1480,9 @@
     "published": "2026-10-22",
     "reviewed": "2026-10-22",
     "tags": [],
+    "finderLight": [
+      "medium"
+    ],
     "image": "/assets/images/plants/ficus-elastica-v1.webp",
     "imageWidth": 540,
     "imageHeight": 720,
@@ -1824,6 +1842,9 @@
     "published": "2026-10-22",
     "reviewed": "2026-10-22",
     "tags": [],
+    "finderLight": [
+      "medium"
+    ],
     "image": "/assets/images/plants/ficus-lyrata-v1.webp",
     "imageWidth": 628,
     "imageHeight": 720,
@@ -2185,6 +2206,9 @@
     "tags": [
       "petNonToxic"
     ],
+    "finderLight": [
+      "medium"
+    ],
     "image": "/assets/images/plants/goeppertia-v1.webp",
     "imageWidth": 540,
     "imageHeight": 720,
@@ -2540,6 +2564,9 @@
     "published": "2026-10-22",
     "reviewed": "2026-10-22",
     "tags": [],
+    "finderLight": [
+      "medium"
+    ],
     "image": "/assets/images/plants/monstera-deliciosa-v1.webp",
     "imageWidth": 720,
     "imageHeight": 540,
@@ -2905,6 +2932,9 @@
     "tags": [
       "petNonToxic"
     ],
+    "finderLight": [
+      "medium"
+    ],
     "image": "/assets/images/plants/phalaenopsis-v1.webp",
     "imageWidth": 720,
     "imageHeight": 480,
@@ -3267,6 +3297,10 @@
       "lowLight",
       "beginner"
     ],
+    "finderLight": [
+      "low",
+      "medium"
+    ],
     "image": "/assets/images/plants/philodendron-hederaceum-v1.webp",
     "imageWidth": 540,
     "imageHeight": 720,
@@ -3627,6 +3661,10 @@
     "reviewed": "2026-10-22",
     "tags": [
       "lowLight"
+    ],
+    "finderLight": [
+      "low",
+      "medium"
     ],
     "image": "/assets/images/plants/spathiphyllum-v1.webp",
     "imageWidth": 406,
@@ -3997,6 +4035,10 @@
     "tags": [
       "lowLight",
       "beginner"
+    ],
+    "finderLight": [
+      "low",
+      "medium"
     ],
     "image": "/assets/images/plants/zamioculcas-zamiifolia-v1.webp",
     "imageWidth": 540,

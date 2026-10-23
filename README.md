@@ -28,6 +28,10 @@ Set `CHROMIUM_PATH` if needed. Production has no runtime dependency or client fr
    The specimen header renders the common name, italic Newsreader botanical name
    and family. No placeholder plant is published. Header library links appear only
    after three real profiles exist in that language.
+   Optional `finderLight` (`low`, `medium`, `bright`) feeds the three-question plant
+   finder at `plants/finder/` (`scripts/plant-finder.mjs`, `assets/plant-finder.js`):
+   one page per language, matched in the browser, no per-answer pages. Pet mode
+   shows only `petNonToxic` plants; care and pet lines reuse each profile's `atAGlance`.
 4. UI/cookie/recovery strings are in `locales/<lang>.json`. Shared HTML is generated
    by `scripts/layout.mjs`; `scripts/build.mjs` assembles pages/hubs/sitemap. Generated
    `editorial/{articles,plants,routes}.json` are outputs, not shared editing surfaces.

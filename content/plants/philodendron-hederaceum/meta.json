@@ -8,6 +8,10 @@
     "lowLight",
     "beginner"
   ],
+  "finderLight": [
+    "low",
+    "medium"
+  ],
   "image": "/assets/images/plants/philodendron-hederaceum-v1.webp",
   "imageWidth": 540,
   "imageHeight": 720,

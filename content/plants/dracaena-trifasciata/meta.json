@@ -8,6 +8,11 @@
     "lowLight",
     "beginner"
   ],
+  "finderLight": [
+    "low",
+    "medium",
+    "bright"
+  ],
   "image": "/assets/images/plants/dracaena-trifasciata-v1.webp",
   "imageWidth": 480,
   "imageHeight": 720,
