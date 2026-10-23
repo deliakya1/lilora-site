@@ -1068,7 +1068,7 @@ that also fails on unmodified main in this environment.
   comments" button (`assets/comments.js` fetches approved comments only after that click)
   and a name + comment form handled by the shared `.contact-form` code in
   `assets/navigation.js`; without JavaScript the function redirects back with `?form=`.
-  A comment appears only after Umut ticks `approved` in the Supabase Table Editor; new
+  Auto-approve (on since 23 October 2026): `website_comment_settings.auto_approve` in Supabase publishes comments without links at once (reply code `published`, the list reloads); comments with links, or all comments when the switch is off, wait until Umut ticks `approved` in the Table Editor; new
   comments are emailed to support@lilora.app. Privacy: `#website-comments` section on all six
   privacy pages (consent, Supabase Frankfurt, Resend notification, 90-day deletion of
   unapproved comments).
