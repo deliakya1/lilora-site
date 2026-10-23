@@ -48,7 +48,7 @@
    try{
     const response=await fetch(form.action,{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(Object.fromEntries(new FormData(form)))});
     const result=await response.json().catch(()=>({}));const code=result.code||(response.ok?'sent':'error');
-    show(code);if(code==='sent'){form.reset();started.value=String(Date.now());}
+    show(code);if(code==='published')form.dispatchEvent(new Event('comment-published',{bubbles:true}));if(code==='sent'||code==='published'){form.reset();started.value=String(Date.now());}
    }catch{show('error');}
    button.disabled=false;
   });
