@@ -945,11 +945,53 @@
       "image": "/assets/brand/share/es-blog--autumn-plant-reset.png"
     },
     {
+      "path": "/es/blog/bottom-watering/",
+      "lang": "es",
+      "title": "Regar las plantas de interior por abajo: cuándo ayuda y cuándo no",
+      "description": "Cómo regar una planta de interior por abajo, qué plantas lo agradecen, cuánto dejar la maceta en agua y por qué conviene regar por arriba de vez en cuando.",
+      "image": "/assets/brand/share/es-blog--bottom-watering.png"
+    },
+    {
+      "path": "/es/blog/brown-leaf-tips/",
+      "lang": "es",
+      "title": "Puntas marrones en las hojas de las plantas de interior: qué suelen indicar",
+      "description": "Las puntas secas y marrones suelen deberse a aire seco, riego irregular, sales acumuladas o sensibilidad al agua del grifo. Cómo saber cuál y corregirlo.",
+      "image": "/assets/brand/share/es-blog--brown-leaf-tips.png"
+    },
+    {
+      "path": "/es/blog/buying-a-healthy-houseplant/",
+      "lang": "es",
+      "title": "Cómo elegir una planta de interior sana y ayudarla a adaptarse en casa",
+      "description": "Qué revisar antes de comprar una planta de interior: hojas, plagas, raíces y maceta. Y cómo tenerla aparte dos semanas para que se adapte bien en casa.",
+      "image": "/assets/brand/share/es-blog--buying-a-healthy-houseplant.png"
+    },
+    {
       "path": "/es/blog/check-before-you-water/",
       "lang": "es",
       "title": "Por qué Lilora te recuerda comprobar y no regar",
       "description": "Un calendario no ve tu planta. Por qué los recordatorios de Lilora piden comprobar y separan el riego de la comprobación sin agua.",
       "image": "/assets/brand/share/es-blog--check-before-you-water.png"
+    },
+    {
+      "path": "/es/blog/cleaning-houseplant-leaves/",
+      "lang": "es",
+      "title": "Cómo limpiar las hojas de las plantas de interior (y por qué importa)",
+      "description": "El polvo tapa la luz que necesitan las plantas. Cómo limpiar hojas grandes, enjuagar plantas pequeñas, cepillar hojas peludas y evitar los abrillantadores.",
+      "image": "/assets/brand/share/es-blog--cleaning-houseplant-leaves.png"
+    },
+    {
+      "path": "/es/blog/do-houseplants-purify-air/",
+      "lang": "es",
+      "title": "¿De verdad las plantas de interior purifican el aire?",
+      "description": "El estudio de la NASA detrás de las plantas purificadoras usó cámaras selladas. Qué halló una revisión de 2019 sobre casas reales y qué mejora el aire.",
+      "image": "/assets/brand/share/es-blog--do-houseplants-purify-air.png"
+    },
+    {
+      "path": "/es/blog/grow-lights-for-houseplants/",
+      "lang": "es",
+      "title": "Luces de cultivo para plantas de interior: una instalación sencilla para empezar",
+      "description": "Luz de cultivo sencilla: qué LED elegir, a qué distancia de las hojas, cuántas horas al día y por qué importan el temporizador y las noches oscuras.",
+      "image": "/assets/brand/share/es-blog--grow-lights-for-houseplants.png"
     },
     {
       "path": "/es/blog/keeping-a-plant-care-journal/",
@@ -959,11 +1001,39 @@
       "image": "/assets/brand/share/es-blog--keeping-a-plant-care-journal.png"
     },
     {
+      "path": "/es/blog/leggy-houseplants/",
+      "lang": "es",
+      "title": "Plantas de interior ahiladas: por qué se estiran y cómo arreglarlo",
+      "description": "Tallos largos y finos con hojas separadas suelen indicar poca luz. Da más luz primero, después poda sobre un nudo y enraíza los esquejes para rellenar.",
+      "image": "/assets/brand/share/es-blog--leggy-houseplants.png"
+    },
+    {
+      "path": "/es/blog/mold-on-houseplant-soil/",
+      "lang": "es",
+      "title": "Moho blanco en la tierra de las plantas de interior: ¿es dañino?",
+      "description": "La pelusa blanca del sustrato suele ser un hongo inofensivo que avisa de humedad y aire quieto. Cómo distinguirla de la costra de sal, quitarla y evitarla.",
+      "image": "/assets/brand/share/es-blog--mold-on-houseplant-soil.png"
+    },
+    {
       "path": "/es/blog/moving-house-with-plants/",
       "lang": "es",
       "title": "Mudarse de casa con plantas",
       "description": "Incluye tus plantas en la mudanza: revisa plagas, riego y embalaje, cuida el transporte, consulta las normas fronterizas y adáptalas a la luz nueva.",
       "image": "/assets/brand/share/es-blog--moving-house-with-plants.png"
+    },
+    {
+      "path": "/es/blog/tap-water-for-houseplants/",
+      "lang": "es",
+      "title": "¿Sirve el agua del grifo para las plantas de interior?",
+      "description": "El agua del grifo sirve a casi todas las plantas. Cuándo dan problemas el agua descalcificada, el cloro, el flúor, la cal o el agua fría, y qué hacer.",
+      "image": "/assets/brand/share/es-blog--tap-water-for-houseplants.png"
+    },
+    {
+      "path": "/es/blog/terracotta-vs-plastic-pots/",
+      "lang": "es",
+      "title": "Macetas de terracota o de plástico: ¿cuál es mejor para las plantas de interior?",
+      "description": "La terracota respira y se seca antes; el plástico y la cerámica esmaltada retienen la humedad. Qué maceta va con cada planta y por qué el drenaje es clave.",
+      "image": "/assets/brand/share/es-blog--terracotta-vs-plastic-pots.png"
     },
     {
       "path": "/es/compare/",
