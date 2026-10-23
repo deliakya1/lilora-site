@@ -117,5 +117,19 @@
   },
   "commentsTitle": "Comments",
   "commentsLoad": "Show comments",
-  "commentsNote": "Comments run on Cusdis and load only when you press this button. Comments are approved before they appear."
+  "commentsNote": "Comments are read and approved before they appear. Existing comments load only when you press the button below.",
+  "commentsEmpty": "No comments yet. You can write the first one.",
+  "commentsLoadError": "Comments could not be loaded right now. Please try again later.",
+  "commentsFormTitle": "Write a comment",
+  "commentsName": "Your name (shown with your comment)",
+  "commentsMessage": "Your comment",
+  "commentsHint": "Your comment appears after we approve it. Please leave out email addresses, phone numbers and other personal details.",
+  "commentsConsent": "I agree that my name and comment are published on this page after approval, as described in the {privacy}.",
+  "commentsPrivacy": "privacy policy",
+  "commentsSubmit": "Send comment",
+  "commentsSent": "Thank you. Your comment will appear here after it is approved.",
+  "commentsInvalid": "Please check the fields: a name, a comment and the consent box are required.",
+  "commentsLimited": "Too many comments were sent in a short time. Please try again in an hour.",
+  "commentsError": "The comment could not be sent right now. Please try again later.",
+  "commentsSending": "Sending…"
 }
