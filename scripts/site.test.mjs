@@ -4,8 +4,8 @@ import {readFileSync,readdirSync,existsSync} from 'node:fs';
 import {resolve,dirname} from 'node:path';
 import {articlePath} from './layout.mjs';
 const root=process.cwd();
-const crawl=(dir)=>readdirSync(dir,{withFileTypes:true}).flatMap(x=>x.name.startsWith('.')||['node_modules','scripts','pages'].includes(x.name)?[]:x.isDirectory()?crawl(dir+'/'+x.name):x.name.endsWith('.html')&&!/^(google[0-9a-f]+|yandex_[0-9a-f]+)\.html$/.test(x.name)?[dir+'/'+x.name]:[]);
-// google<token>.html and yandex_<token>.html are search-engine ownership files, not pages.
+const crawl=(dir)=>readdirSync(dir,{withFileTypes:true}).flatMap(x=>x.name.startsWith('.')||['node_modules','scripts','pages'].includes(x.name)?[]:x.isDirectory()?crawl(dir+'/'+x.name):x.name.endsWith('.html')&&!/^(google[0-9a-f]+|yandex_[0-9a-f]+|pinterest-[0-9a-f]+)\.html$/.test(x.name)?[dir+'/'+x.name]:[]);
+// google<token>.html, yandex_<token>.html and pinterest-<token>.html are search-engine ownership files, not pages.
 // Redirect pages for moved URLs (content/redirects.json) are not pages in their own right.
 const files=crawl(root).filter(f=>!readFileSync(f,'utf8').includes('http-equiv="refresh"'));
 const content=JSON.parse(readFileSync('editorial/articles.json'));
