@@ -7,6 +7,9 @@
   "tags": [
     "beginner"
   ],
+  "finderLight": [
+    "bright"
+  ],
   "image": "/assets/images/plants/aloe-vera-v1.webp",
   "imageWidth": 540,
   "imageHeight": 720,
