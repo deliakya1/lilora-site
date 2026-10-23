@@ -117,5 +117,19 @@
   },
   "commentsTitle": "Yorumlar",
   "commentsLoad": "Yorumları göster",
-  "commentsNote": "Yorumlar Cusdis üzerinden çalışır ve yalnızca bu düğmeye bastığında yüklenir. Yorumlar yayımlanmadan önce onaylanır."
+  "commentsNote": "Yorumlar okunup onaylandıktan sonra görünür. Mevcut yorumlar yalnızca aşağıdaki düğmeye bastığında yüklenir.",
+  "commentsEmpty": "Henüz yorum yok. İlk yorumu sen yazabilirsin.",
+  "commentsLoadError": "Yorumlar şu anda yüklenemedi. Lütfen daha sonra tekrar dene.",
+  "commentsFormTitle": "Yorum yaz",
+  "commentsName": "Adın (yorumunla birlikte görünür)",
+  "commentsMessage": "Yorumun",
+  "commentsHint": "Yorumun onaylandıktan sonra görünür. Lütfen e-posta adresi, telefon numarası gibi kişisel bilgiler yazma.",
+  "commentsConsent": "Adımın ve yorumumun onaydan sonra bu sayfada yayımlanmasını, {privacy} anlatıldığı şekilde kabul ediyorum.",
+  "commentsPrivacy": "gizlilik politikasında",
+  "commentsSubmit": "Yorumu gönder",
+  "commentsSent": "Teşekkürler. Yorumun onaylandıktan sonra burada görünecek.",
+  "commentsInvalid": "Lütfen alanları kontrol et: ad, yorum ve onay kutusu gerekli.",
+  "commentsLimited": "Kısa sürede çok fazla yorum gönderildi. Lütfen bir saat sonra tekrar dene.",
+  "commentsError": "Yorum şu anda gönderilemedi. Lütfen daha sonra tekrar dene.",
+  "commentsSending": "Gönderiliyor…"
 }

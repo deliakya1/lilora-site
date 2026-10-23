@@ -117,5 +117,19 @@
   },
   "commentsTitle": "Comentários",
   "commentsLoad": "Mostrar comentários",
-  "commentsNote": "Os comentários usam o Cusdis e só carregam quando você toca neste botão. Eles são aprovados antes de aparecer."
+  "commentsNote": "Os comentários são lidos e aprovados antes de aparecer. Os comentários existentes só carregam quando você toca no botão abaixo.",
+  "commentsEmpty": "Ainda não há comentários. Você pode escrever o primeiro.",
+  "commentsLoadError": "Não foi possível carregar os comentários agora. Tente de novo mais tarde.",
+  "commentsFormTitle": "Escreva um comentário",
+  "commentsName": "Seu nome (aparece com o seu comentário)",
+  "commentsMessage": "Seu comentário",
+  "commentsHint": "Seu comentário aparece depois que o aprovarmos. Não inclua e-mails, telefones ou outros dados pessoais.",
+  "commentsConsent": "Concordo que meu nome e meu comentário sejam publicados nesta página após a aprovação, como descrito na {privacy}.",
+  "commentsPrivacy": "política de privacidade",
+  "commentsSubmit": "Enviar comentário",
+  "commentsSent": "Obrigado. Seu comentário aparecerá aqui depois de aprovado.",
+  "commentsInvalid": "Confira os campos: nome, comentário e a caixa de consentimento são obrigatórios.",
+  "commentsLimited": "Muitos comentários foram enviados em pouco tempo. Tente de novo daqui a uma hora.",
+  "commentsError": "Não foi possível enviar o comentário agora. Tente de novo mais tarde.",
+  "commentsSending": "Enviando…"
 }

@@ -117,5 +117,19 @@
   },
   "commentsTitle": "Kommentare",
   "commentsLoad": "Kommentare anzeigen",
-  "commentsNote": "Kommentare laufen über Cusdis und werden erst geladen, wenn du diese Schaltfläche drückst. Sie werden vor der Veröffentlichung freigegeben."
+  "commentsNote": "Kommentare werden gelesen und freigegeben, bevor sie erscheinen. Vorhandene Kommentare werden erst geladen, wenn du auf die Schaltfläche unten drückst.",
+  "commentsEmpty": "Noch keine Kommentare. Du kannst den ersten schreiben.",
+  "commentsLoadError": "Die Kommentare konnten gerade nicht geladen werden. Bitte versuche es später noch einmal.",
+  "commentsFormTitle": "Kommentar schreiben",
+  "commentsName": "Dein Name (wird mit deinem Kommentar angezeigt)",
+  "commentsMessage": "Dein Kommentar",
+  "commentsHint": "Dein Kommentar erscheint, nachdem wir ihn freigegeben haben. Bitte keine E-Mail-Adressen, Telefonnummern oder anderen persönlichen Angaben.",
+  "commentsConsent": "Ich bin einverstanden, dass mein Name und mein Kommentar nach der Freigabe auf dieser Seite veröffentlicht werden, wie in der {privacy} beschrieben.",
+  "commentsPrivacy": "Datenschutzerklärung",
+  "commentsSubmit": "Kommentar senden",
+  "commentsSent": "Danke. Dein Kommentar erscheint hier, sobald er freigegeben ist.",
+  "commentsInvalid": "Bitte prüfe die Felder: Name, Kommentar und das Einwilligungsfeld sind erforderlich.",
+  "commentsLimited": "In kurzer Zeit wurden zu viele Kommentare gesendet. Bitte versuche es in einer Stunde noch einmal.",
+  "commentsError": "Der Kommentar konnte gerade nicht gesendet werden. Bitte versuche es später noch einmal.",
+  "commentsSending": "Wird gesendet…"
 }

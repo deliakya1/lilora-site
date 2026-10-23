@@ -117,5 +117,19 @@
   },
   "commentsTitle": "Commentaires",
   "commentsLoad": "Afficher les commentaires",
-  "commentsNote": "Les commentaires passent par Cusdis et ne se chargent que lorsque vous appuyez sur ce bouton. Ils sont validés avant publication."
+  "commentsNote": "Les commentaires sont lus et validés avant d’apparaître. Les commentaires existants ne se chargent que lorsque vous appuyez sur le bouton ci-dessous.",
+  "commentsEmpty": "Pas encore de commentaire. Vous pouvez écrire le premier.",
+  "commentsLoadError": "Les commentaires n’ont pas pu être chargés pour le moment. Réessayez plus tard.",
+  "commentsFormTitle": "Écrire un commentaire",
+  "commentsName": "Votre nom (affiché avec votre commentaire)",
+  "commentsMessage": "Votre commentaire",
+  "commentsHint": "Votre commentaire apparaîtra après validation. N’indiquez pas d’adresse e-mail, de numéro de téléphone ni d’autres données personnelles.",
+  "commentsConsent": "J’accepte que mon nom et mon commentaire soient publiés sur cette page après validation, comme décrit dans la {privacy}.",
+  "commentsPrivacy": "politique de confidentialité",
+  "commentsSubmit": "Envoyer le commentaire",
+  "commentsSent": "Merci. Votre commentaire apparaîtra ici après validation.",
+  "commentsInvalid": "Vérifiez les champs : le nom, le commentaire et la case de consentement sont obligatoires.",
+  "commentsLimited": "Trop de commentaires ont été envoyés en peu de temps. Réessayez dans une heure.",
+  "commentsError": "Le commentaire n’a pas pu être envoyé pour le moment. Réessayez plus tard.",
+  "commentsSending": "Envoi…"
 }
