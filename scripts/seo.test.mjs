@@ -220,7 +220,7 @@ test("robots.txt keeps one all-crawler group that allows public pages, assets an
     for (const [, url] of sitemaps[l].matchAll(/<(?:loc|image:loc)>https:\/\/lilora\.app([^<]*)<\//g)) paths.add(url);
   for (const f of pages)
     for (const [, url] of read(f).matchAll(/(?:href|src|srcset)="(\/[^"#? ,]*)/g)) paths.add(url);
-  for (const name of readdirSync(".").filter((n) => /^(google[0-9a-f]+\.html|yandex_[0-9a-f]+\.html|[0-9a-f]{32}\.txt|BingSiteAuth\.xml|sitemap.*\.xml|feed\.xml|site\.webmanifest)$/.test(n)))
+  for (const name of readdirSync(".").filter((n) => /^(google[0-9a-f]+\.html|yandex_[0-9a-f]+\.html|pinterest-[0-9a-f]+\.html|[0-9a-f]{32}\.txt|BingSiteAuth\.xml|sitemap.*\.xml|feed\.xml|site\.webmanifest)$/.test(n)))
     paths.add("/" + name);
   for (const l of languages) paths.add(`${prefix(l)}feed.xml`);
   paths.add("/.well-known/security.txt");

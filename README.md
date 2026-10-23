@@ -981,6 +981,11 @@ method, requested by the owner on 22 October 2026); keep it permanently.
 The Yandex Webmaster ownership file `yandex_3a062d6cf4f7c29f.html` (HTML-file
 method, supplied by the owner on 23 October 2026) is also at the root; keep it
 byte-exact and do not delete it.
+The Pinterest ownership file `pinterest-96b56.html` (HTML-file method, supplied
+by the owner on 23 October 2026) is also at the root; keep it byte-exact. The
+Pinterest tag `<meta name="p:domain_verify" content="96b56439e1b6119548d7e3eb0eb24ee7"/>`
+is added only to the root home page head (`/`) by `scripts/layout.mjs`; keep it
+permanently. Ownership verification only: no Pinterest tag/tracking script.
 
 CI impact: one push and the existing GitHub Pages build/deploy after squash; one
 pinned dev dependency (`axe-core` 4.14.0) for local checks; no new workflow,
