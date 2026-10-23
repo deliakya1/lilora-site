@@ -1,5 +1,4 @@
 {
-  "provider": "cusdis",
-  "host": "https://cusdis.com",
-  "appId": ""
+  "provider": "lilora",
+  "endpoint": "https://mpswscvxcoixnlltahqn.supabase.co/functions/v1/website-comments"
 }

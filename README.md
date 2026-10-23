@@ -1061,11 +1061,17 @@ that also fails on unmodified main in this environment.
 - Posts and guides show a "Summarize with" row: plain links to ChatGPT, Claude, Perplexity,
   Google AI Mode and Grok with a visible, localized prompt naming the canonical URL.
   No script, no tracking, nothing hidden.
-- Comments: Cusdis (Umut's choice, 23 October 2026). `content/comments.json` holds the
-  public app ID; while it is empty nothing renders. With an ID, posts get a "Show
-  comments" button; `assets/comments.js` loads the Cusdis script only after that click.
-  Comments are approved in Cusdis before they appear. Update the privacy pages in the
-  same change that adds the ID.
+- Comments: Lilora's own comment area (Umut replaced Cusdis on 23 October 2026, after Cusdis
+  was down). `content/comments.json` holds the public `website-comments` Edge Function URL
+  (backend: deliakya1/botanumo `supabase/functions/website-comments/`, table
+  `public.website_comments`); without an endpoint nothing renders. Posts get a "Show
+  comments" button (`assets/comments.js` fetches approved comments only after that click)
+  and a name + comment form handled by the shared `.contact-form` code in
+  `assets/navigation.js`; without JavaScript the function redirects back with `?form=`.
+  A comment appears only after Umut ticks `approved` in the Supabase Table Editor; new
+  comments are emailed to support@lilora.app. Privacy: `#website-comments` section on all six
+  privacy pages (consent, Supabase Frankfurt, Resend notification, 90-day deletion of
+  unapproved comments).
 - Ten new posts in English and Turkish (23 October 2026), each with institutional sources
   cited inline: brown-leaf-tips, mold-on-houseplant-soil, leggy-houseplants,
   cleaning-houseplant-leaves, grow-lights-for-houseplants, tap-water-for-houseplants,

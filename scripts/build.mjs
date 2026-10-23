@@ -212,15 +212,19 @@ const summarize = (path, t) => {
   const q = encodeURIComponent(t.summarizePrompt.replace("{url}", origin + path));
   return `<div class="summarize"><p class="summarize-label">${escape(t.summarizeWith)}</p><ul class="summarize-links">${assistants.map(([name, url]) => `<li><a href="${escape(url + q)}" target="_blank" rel="noopener noreferrer nofollow">${name}</a></li>`).join("")}</ul><p class="summarize-note">${escape(t.summarizeNote)}</p></div>`;
 };
-// Comments (Cusdis) on blog posts. Nothing renders until content/comments.json has an
-// app ID, and no third-party script loads until the reader presses the button.
+// Reader comments on blog posts, stored in Lilora's own Supabase project through the
+// website-comments Edge Function. Nothing renders while content/comments.json has no
+// endpoint. Existing comments load only when the reader presses the button; the form
+// posts only on "Send" and works without JavaScript (the function redirects back).
 const commentsConfig = existsSync("content/comments.json")
   ? JSON.parse(readFileSync("content/comments.json", "utf8"))
   : {};
 const comments = (a, l, path) => {
-  if (a.type !== "post" || !commentsConfig.appId) return "";
-  const t = locales[l];
-  return `<section class="comments" id="comments"><h2>${escape(t.commentsTitle)}</h2><p class="comments-note">${escape(t.commentsNote)}</p><button type="button" class="comments-load" data-host="${escape(commentsConfig.host)}" data-app-id="${escape(commentsConfig.appId)}" data-page-id="${escape(a.slug + "-" + l)}" data-page-url="${origin}${path}" data-page-title="${escape(a[l].title)}" data-lang="${htmlLang(l)}">${escape(t.commentsLoad)}</button><div class="comments-thread"></div></section><script defer src="/assets/comments.js"></script>`;
+  if (a.type !== "post" || !commentsConfig.endpoint) return "";
+  const t = locales[l], e = escape(commentsConfig.endpoint);
+  const consent = escape(t.commentsConsent).replace("{privacy}", `<a href="${prefix(l)}privacy/#website-comments">${escape(t.commentsPrivacy)}</a>`);
+  const states = ["sent", "invalid", "limited", "error", "sending"].map((k) => `data-${k}="${escape(t["comments" + k[0].toUpperCase() + k.slice(1)])}"`).join(" ");
+  return `<section class="comments" id="comments"><h2>${escape(t.commentsTitle)}</h2><p class="comments-note">${escape(t.commentsNote)}</p><button type="button" class="comments-load" data-endpoint="${e}" data-page="${escape(path)}" data-lang="${htmlLang(l)}" data-empty="${escape(t.commentsEmpty)}" data-error="${escape(t.commentsLoadError)}">${escape(t.commentsLoad)}</button><ol class="comments-list" hidden></ol><form class="contact-form comment-form" method="post" action="${e}" ${states}><h3>${escape(t.commentsFormTitle)}</h3><input type="hidden" name="page" value="${escape(path)}"><input type="hidden" name="started" value=""><div class="contact-trap" aria-hidden="true"><label>Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div><div class="contact-field"><label for="comment-name">${escape(t.commentsName)}</label><input id="comment-name" name="name" type="text" autocomplete="nickname" maxlength="60" required></div><div class="contact-field"><label for="comment-message">${escape(t.commentsMessage)}</label><textarea id="comment-message" name="message" rows="5" minlength="2" maxlength="2000" aria-describedby="comment-message-hint" required></textarea><p class="contact-hint" id="comment-message-hint">${escape(t.commentsHint)}</p></div><div class="contact-consent"><input id="comment-consent" name="consent" type="checkbox" value="yes" required><label for="comment-consent">${consent}</label></div><p class="contact-status" role="status" aria-live="polite" hidden></p><button class="button" type="submit">${escape(t.commentsSubmit)}</button></form></section><script defer src="/assets/comments.js"></script>`;
 };
 for (const a of articles)
   for (const l of languages) {
