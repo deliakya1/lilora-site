@@ -45,5 +45,9 @@
   "pt": {
     "description": "Luz de cultivo simples: qual LED escolher, a que distância das folhas, quantas horas por dia e por que o temporizador e as noites escuras importam.",
     "seoTitle": "Luz de cultivo para plantas de interior"
+  },
+  "fr": {
+    "description": "Une lampe de croissance simple : quelle LED, à quelle distance des feuilles, combien d’heures par jour, et pourquoi programmateur et nuits noires comptent.",
+    "seoTitle": "Lampes de croissance pour plantes d’intérieur"
   }
 }
