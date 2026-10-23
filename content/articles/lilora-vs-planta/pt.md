@@ -4,7 +4,7 @@ O Lilora gira em torno de um caderno de plantas da casa: plantas, fotos e regist
 
 ## O que esta comparação cobre
 
-Em 16 de outubro de 2026, o Lilora aguarda revisão na App Store. O Planta tem uma página pública na App Store dos Estados Unidos. Este artigo compara funções documentadas; não é um teste prático de desempenho. Ele é publicado pelo Lilora, um dos produtos comparados. Funções e ofertas podem mudar por país, plataforma e plano. [Planta on the App Store](https://apps.apple.com/us/app/planta-plant-garden-care/id1410126781)
+Em 16 de outubro de 2026, o Lilora aguarda revisão na App Store. O Planta tem uma página pública na App Store dos Estados Unidos. Este artigo compara funções documentadas; não é um teste prático de desempenho. Ele é publicado pelo Lilora, um dos produtos comparados. Funções e ofertas podem mudar por país, plataforma e plano. [Planta na App Store](https://apps.apple.com/us/app/planta-plant-garden-care/id1410126781)
 
 ## Comece pela tarefa em que você quer ajuda
 
@@ -16,7 +16,7 @@ Outra pessoa pode querer explorar várias ferramentas num só app: cronogramas, 
 
 O Lilora descreve fotos, notas e histórico de cuidados, identificação opcional com tecnologia Pl@ntNet, lembretes para conferir as plantas e uma casa privada com registros compartilhados. A primeira versão foca em inventário, cuidado e identificação; não inclui medidor de luz nem diagnóstico de doenças. O app está em inglês e turco. [Visão geral do Lilora](https://lilora.app/pt/) · [Suporte do Lilora](https://lilora.app/pt/support/)
 
-O Planta descreve organização de plantas, um diário, identificação por foto, cronogramas de cuidado personalizados, um medidor de luz e orientação sobre sintomas com o Dr. Planta. Também oferece o Care Share para familiares e cuidadores de plantas. A disponibilidade depende da função e do plano. [Planta’s official feature overview](https://getplanta.com/)
+O Planta descreve organização de plantas, um diário, identificação por foto, cronogramas de cuidado personalizados, um medidor de luz e orientação sobre sintomas com o Dr. Planta. Também oferece o Care Share para familiares e cuidadores de plantas. A disponibilidade depende da função e do plano. [Visão geral oficial dos recursos do Planta](https://getplanta.com/)
 
 ## Lembretes e registros respondem a perguntas diferentes
 
@@ -26,7 +26,7 @@ Ao avaliar qualquer app, abra uma planta, encontre o último registro de cuidado
 
 ## O cuidado compartilhado merece atenção
 
-O modelo de casa do Lilora compartilha plantas, fotos e histórico de cuidados com os membros. O Planta também permite dividir o cuidado: a central de ajuda descreve convites premium para familiares e cuidadores, com permissões diferentes para cada papel. Compartilhar é um ponto em comum, não uma função exclusiva do Lilora. [Suporte do Lilora](https://lilora.app/pt/support/) · [Planta Help Center](https://support.getplanta.com/)
+O modelo de casa do Lilora compartilha plantas, fotos e histórico de cuidados com os membros. O Planta também permite dividir o cuidado: a central de ajuda descreve convites premium para familiares e cuidadores, com permissões diferentes para cada papel. Compartilhar é um ponto em comum, não uma função exclusiva do Lilora. [Suporte do Lilora](https://lilora.app/pt/support/) · [Central de ajuda do Planta](https://support.getplanta.com/)
 
 Decida quem precisa ver as plantas, quem deve poder alterá-las e como vocês vão conferir o último registro. Um morador da casa e um amigo que ajuda num fim de semana podem precisar de acessos diferentes.
 
@@ -34,9 +34,9 @@ Decida quem precisa ver as plantas, quem deve poder alterá-las e como vocês v�
 
 O Lilora descreve cadastro manual de espécies gratuito, três identificações por foto iniciais, um pacote de 10 e uma cota mensal Plus de 30. A página de suporte indica a Apple para os preços locais. Não há um preço público verificado para comparar enquanto o lançamento está pendente. [Compras no Lilora](https://lilora.app/pt/support/)
 
-A página do Planta nos EUA traz preços mensais de US$ 7,99 e US$ 9,99 e anuais de US$ 35,99 e US$ 47,99. São exemplos da página, não uma promessa de que valem para você. A central de ajuda inclui a identificação e o medidor de luz entre as funções premium. [App Store listing](https://apps.apple.com/us/app/planta-plant-garden-care/id1410126781) · [Free and premium access](https://support.getplanta.com/do-planta-offer-a-free-trial-of-premium/)
+A página do Planta nos EUA traz preços mensais de US$ 7,99 e US$ 9,99 e anuais de US$ 35,99 e US$ 47,99. São exemplos da página, não uma promessa de que valem para você. A central de ajuda inclui a identificação e o medidor de luz entre as funções premium. [Página na App Store](https://apps.apple.com/us/app/planta-plant-garden-care/id1410126781) · [Acesso gratuito e premium](https://support.getplanta.com/do-planta-offer-a-free-trial-of-premium/)
 
-Confira na tela de compra o valor total, o período de renovação e as funções incluídas. Não confunda um valor equivalente por mês com o valor cobrado de uma vez. O Planta explica que o período da assinatura é cobrado adiantado. [Subscription billing](https://support.getplanta.com/how-are-subscriptions-billed/)
+Confira na tela de compra o valor total, o período de renovação e as funções incluídas. Não confunda um valor equivalente por mês com o valor cobrado de uma vez. O Planta explica que o período da assinatura é cobrado adiantado. [Cobrança da assinatura](https://support.getplanta.com/how-are-subscriptions-billed/)
 
 ## Qual abordagem entra na sua lista?
 

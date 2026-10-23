@@ -4,7 +4,7 @@ Lilora s’organise autour d’un carnet de plantes pour le foyer : plantes, pho
 
 ## Ce que couvre cette comparaison
 
-Au 16 octobre 2026, Lilora est en attente d’examen sur l’App Store. Planta dispose d’une fiche publique sur l’App Store américain. Cet article compare des fonctions documentées ; ce n’est pas un test pratique de performance. Il est publié par Lilora, l’un des produits comparés. Les fonctions et les offres peuvent varier selon le pays, la plateforme et la formule. [Planta on the App Store](https://apps.apple.com/us/app/planta-plant-garden-care/id1410126781)
+Au 16 octobre 2026, Lilora est en attente d’examen sur l’App Store. Planta dispose d’une fiche publique sur l’App Store américain. Cet article compare des fonctions documentées ; ce n’est pas un test pratique de performance. Il est publié par Lilora, l’un des produits comparés. Les fonctions et les offres peuvent varier selon le pays, la plateforme et la formule. [Planta sur l’App Store](https://apps.apple.com/us/app/planta-plant-garden-care/id1410126781)
 
 ## Partez de la tâche pour laquelle vous voulez de l’aide
 
@@ -16,7 +16,7 @@ Une autre personne voudra peut-être explorer plusieurs outils dans une seule ap
 
 Lilora décrit photos, notes et historique d’entretien, une identification facultative basée sur Pl@ntNet, des rappels pour vérifier les plantes et un foyer privé aux fiches partagées. Sa première version se concentre sur l’inventaire, l’entretien et l’identification ; elle n’inclut ni luxmètre ni diagnostic de maladies. L’app est disponible en anglais et en turc. [Présentation de Lilora](https://lilora.app/fr/) · [Assistance Lilora](https://lilora.app/fr/support/)
 
-Planta décrit l’organisation des plantes, un journal, l’identification par photo, des calendriers d’entretien personnalisés, un luxmètre et une aide aux symptômes avec Dr. Planta. Elle propose aussi Care Share pour la famille et les personnes qui gardent les plantes. La disponibilité dépend de la fonction et de la formule. [Planta’s official feature overview](https://getplanta.com/)
+Planta décrit l’organisation des plantes, un journal, l’identification par photo, des calendriers d’entretien personnalisés, un luxmètre et une aide aux symptômes avec Dr. Planta. Elle propose aussi Care Share pour la famille et les personnes qui gardent les plantes. La disponibilité dépend de la fonction et de la formule. [Présentation officielle des fonctions de Planta](https://getplanta.com/)
 
 ## Rappels et historique répondent à des questions différentes
 
@@ -26,7 +26,7 @@ Pour évaluer n’importe quelle app, ouvrez une plante, trouvez sa dernière en
 
 ## L’entretien partagé mérite un examen attentif
 
-Le modèle de foyer de Lilora partage plantes, photos et historique avec les membres. Planta permet aussi de partager l’entretien : son centre d’aide décrit des invitations premium pour la famille et les gardiens de plantes, avec des droits différents selon le rôle. Le partage est un point commun, pas une exclusivité de Lilora. [Assistance Lilora](https://lilora.app/fr/support/) · [Planta Help Center](https://support.getplanta.com/)
+Le modèle de foyer de Lilora partage plantes, photos et historique avec les membres. Planta permet aussi de partager l’entretien : son centre d’aide décrit des invitations premium pour la famille et les gardiens de plantes, avec des droits différents selon le rôle. Le partage est un point commun, pas une exclusivité de Lilora. [Assistance Lilora](https://lilora.app/fr/support/) · [Centre d’aide de Planta](https://support.getplanta.com/)
 
 Décidez qui doit voir les plantes, qui doit pouvoir les modifier et comment vous vérifierez la dernière entrée. Un membre du foyer et un ami qui aide le temps d’un week-end n’ont pas forcément besoin du même accès.
 
@@ -34,9 +34,9 @@ Décidez qui doit voir les plantes, qui doit pouvoir les modifier et comment vou
 
 Lilora décrit une saisie manuelle des espèces gratuite, trois identifications par photo au départ, un pack de 10 et un quota mensuel Plus de 30. Sa page d’assistance renvoie à Apple pour les prix locaux. Il n’existe pas de prix public vérifié à comparer tant que le lancement est en attente. [Achats dans Lilora](https://lilora.app/fr/support/)
 
-La fiche américaine de Planta indique des prix mensuels de 7,99 US$ et 9,99 US$ et des prix annuels de 35,99 US$ et 47,99 US$. Ce sont des exemples de la fiche, pas une garantie que vous y aurez droit. Son centre d’aide classe l’identification et le luxmètre parmi les fonctions premium. [App Store listing](https://apps.apple.com/us/app/planta-plant-garden-care/id1410126781) · [Free and premium access](https://support.getplanta.com/do-planta-offer-a-free-trial-of-premium/)
+La fiche américaine de Planta indique des prix mensuels de 7,99 US$ et 9,99 US$ et des prix annuels de 35,99 US$ et 47,99 US$. Ce sont des exemples de la fiche, pas une garantie que vous y aurez droit. Son centre d’aide classe l’identification et le luxmètre parmi les fonctions premium. [Fiche App Store](https://apps.apple.com/us/app/planta-plant-garden-care/id1410126781) · [Accès gratuit et premium](https://support.getplanta.com/do-planta-offer-a-free-trial-of-premium/)
 
-Vérifiez sur l’écran d’achat le montant total, la période de renouvellement et les fonctions incluses. Ne confondez pas un équivalent mensuel avec le montant prélevé d’avance. Planta explique que la période d’abonnement est facturée à l’avance. [Subscription billing](https://support.getplanta.com/how-are-subscriptions-billed/)
+Vérifiez sur l’écran d’achat le montant total, la période de renouvellement et les fonctions incluses. Ne confondez pas un équivalent mensuel avec le montant prélevé d’avance. Planta explique que la période d’abonnement est facturée à l’avance. [Facturation de l’abonnement](https://support.getplanta.com/how-are-subscriptions-billed/)
 
 ## Quelle approche retenir ?
 

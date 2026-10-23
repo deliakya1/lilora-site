@@ -4,7 +4,7 @@ Lilora dreht sich um ein Pflanzennotizbuch für den Haushalt: Pflanzen, Fotos un
 
 ## Was dieser Vergleich abdeckt
 
-Stand 16. Oktober 2026 wartet Lilora auf die Prüfung im App Store. Planta hat einen öffentlichen Eintrag im US-App-Store. Dieser Artikel vergleicht dokumentierte Funktionen; er ist kein Praxistest. Er wird von Lilora veröffentlicht, einem der verglichenen Produkte. Funktionen und Angebote können sich je nach Land, Plattform und Tarif ändern. [Planta on the App Store](https://apps.apple.com/us/app/planta-plant-garden-care/id1410126781)
+Stand 16. Oktober 2026 wartet Lilora auf die Prüfung im App Store. Planta hat einen öffentlichen Eintrag im US-App-Store. Dieser Artikel vergleicht dokumentierte Funktionen; er ist kein Praxistest. Er wird von Lilora veröffentlicht, einem der verglichenen Produkte. Funktionen und Angebote können sich je nach Land, Plattform und Tarif ändern. [Planta im App Store](https://apps.apple.com/us/app/planta-plant-garden-care/id1410126781)
 
 ## Fang mit der Aufgabe an, bei der du Hilfe willst
 
@@ -16,7 +16,7 @@ Jemand anderes möchte vielleicht mehrere Werkzeuge in einer App ausprobieren: P
 
 Lilora beschreibt Fotos, Notizen und Pflegeverlauf, optionale Bestimmung mit Pl@ntNet, Erinnerungen zum Nachsehen und einen privaten Haushalt mit gemeinsamen Einträgen. Die erste Version konzentriert sich auf Bestand, Pflege und Bestimmung; Lichtmesser und Krankheitsdiagnose gehören nicht dazu. Die App ist auf Englisch und Türkisch verfügbar. [Lilora im Überblick](https://lilora.app/de/) · [Lilora-Hilfe](https://lilora.app/de/support/)
 
-Planta beschreibt Pflanzenverwaltung, ein Tagebuch, Fotobestimmung, persönliche Pflegepläne, einen Lichtmesser und Symptomhilfe mit Dr. Planta. Außerdem gibt es Care Share für Familienmitglieder und Pflanzensitter. Die Verfügbarkeit hängt von Funktion und Tarif ab. [Planta’s official feature overview](https://getplanta.com/)
+Planta beschreibt Pflanzenverwaltung, ein Tagebuch, Fotobestimmung, persönliche Pflegepläne, einen Lichtmesser und Symptomhilfe mit Dr. Planta. Außerdem gibt es Care Share für Familienmitglieder und Pflanzensitter. Die Verfügbarkeit hängt von Funktion und Tarif ab. [Offizielle Funktionsübersicht von Planta](https://getplanta.com/)
 
 ## Erinnerungen und Einträge beantworten verschiedene Fragen
 
@@ -26,7 +26,7 @@ Eine Erinnerung beantwortet „Wann sollte ich nachsehen?“. Ein erledigter Pfl
 
 ## Gemeinsame Pflege verdient einen genaueren Blick
 
-Das Haushaltsmodell von Lilora teilt Pflanzen, Fotos und Pflegeverlauf mit den Mitgliedern. Auch Planta unterstützt geteilte Pflege: Das Hilfecenter beschreibt Premium-Einladungen für Familie und Pflanzensitter mit unterschiedlichen Rechten je Rolle. Teilen ist eine Gemeinsamkeit, keine exklusive Lilora-Funktion. [Lilora-Hilfe](https://lilora.app/de/support/) · [Planta Help Center](https://support.getplanta.com/)
+Das Haushaltsmodell von Lilora teilt Pflanzen, Fotos und Pflegeverlauf mit den Mitgliedern. Auch Planta unterstützt geteilte Pflege: Das Hilfecenter beschreibt Premium-Einladungen für Familie und Pflanzensitter mit unterschiedlichen Rechten je Rolle. Teilen ist eine Gemeinsamkeit, keine exklusive Lilora-Funktion. [Lilora-Hilfe](https://lilora.app/de/support/) · [Hilfecenter von Planta](https://support.getplanta.com/)
 
 Überleg, wer die Pflanzen sehen muss, wer sie ändern soll und wie ihr den letzten Eintrag prüft. Ein Haushaltsmitglied und eine Freundin, die am Wochenende aushilft, brauchen vielleicht unterschiedlichen Zugang.
 
@@ -34,9 +34,9 @@ Das Haushaltsmodell von Lilora teilt Pflanzen, Fotos und Pflegeverlauf mit den M
 
 Lilora beschreibt eine kostenlose manuelle Arteneingabe, drei erste Fotobestimmungen, ein 10er-Paket und ein monatliches Plus-Kontingent von 30. Für lokale Preise verweist die Support-Seite auf Apple. Solange der Start aussteht, gibt es keinen geprüften öffentlichen Preis zum Vergleichen. [Käufe in Lilora](https://lilora.app/de/support/)
 
-Der US-Eintrag von Planta nennt Monatspreise von 7,99 US$ und 9,99 US$ und Jahrespreise von 35,99 US$ und 47,99 US$. Das sind Beispiele aus dem Eintrag, keine Zusage, dass sie für dich gelten. Das Hilfecenter zählt Bestimmung und Lichtmesser zu den Premium-Funktionen. [App Store listing](https://apps.apple.com/us/app/planta-plant-garden-care/id1410126781) · [Free and premium access](https://support.getplanta.com/do-planta-offer-a-free-trial-of-premium/)
+Der US-Eintrag von Planta nennt Monatspreise von 7,99 US$ und 9,99 US$ und Jahrespreise von 35,99 US$ und 47,99 US$. Das sind Beispiele aus dem Eintrag, keine Zusage, dass sie für dich gelten. Das Hilfecenter zählt Bestimmung und Lichtmesser zu den Premium-Funktionen. [App-Store-Eintrag](https://apps.apple.com/us/app/planta-plant-garden-care/id1410126781) · [Kostenloser und Premium-Zugang](https://support.getplanta.com/do-planta-offer-a-free-trial-of-premium/)
 
-Prüf auf dem Kaufbildschirm den Gesamtbetrag, die Verlängerung und die enthaltenen Funktionen. Verwechsle einen umgerechneten Monatswert nicht mit dem Betrag, der vorab berechnet wird. Planta erklärt, dass der Abozeitraum im Voraus abgerechnet wird. [Subscription billing](https://support.getplanta.com/how-are-subscriptions-billed/)
+Prüf auf dem Kaufbildschirm den Gesamtbetrag, die Verlängerung und die enthaltenen Funktionen. Verwechsle einen umgerechneten Monatswert nicht mit dem Betrag, der vorab berechnet wird. Planta erklärt, dass der Abozeitraum im Voraus abgerechnet wird. [Abo-Abrechnung](https://support.getplanta.com/how-are-subscriptions-billed/)
 
 ## Welcher Ansatz gehört auf deine Liste?
 
