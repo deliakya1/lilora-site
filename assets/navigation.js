@@ -36,9 +36,8 @@
  const pickers=[...document.querySelectorAll('.language-picker,.footer-language')];
  for(const picker of pickers)picker.addEventListener('keydown',event=>{if(event.key==='Escape'&&picker.open){picker.open=false;picker.querySelector('summary').focus();}});
  document.addEventListener('click',event=>{for(const picker of pickers)if(picker.open&&!picker.contains(event.target))picker.open=false;});
- // Contact form: sends in place with fetch; without JS the browser posts and the function redirects back here.
- const form=document.querySelector('.contact-form');
- if(form){
+ // Contact and launch-notice forms: send in place with fetch; without JS the browser posts and the function redirects back here.
+ for(const form of document.querySelectorAll('.contact-form')){
   const status=form.querySelector('.contact-status'),button=form.querySelector('button[type="submit"]'),started=form.elements.started;
   const show=code=>{const text=form.dataset[code]||form.dataset.error;status.textContent=text;status.dataset.state=code;status.hidden=false;};
   started.value=String(Date.now());
