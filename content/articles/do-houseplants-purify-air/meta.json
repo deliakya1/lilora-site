@@ -1,0 +1,37 @@
+{
+  "slug": "do-houseplants-purify-air",
+  "type": "post",
+  "category": "home",
+  "published": "2026-10-23",
+  "reviewed": "2026-10-23",
+  "sources": [
+    {
+      "name": "Drexel University: potted plants don't improve air quality (2019 review)",
+      "url": "https://drexel.edu/news/archive/2019/november/potted-plants-do-not-improve-air-quality"
+    },
+    {
+      "name": "Iowa State University Extension: do houseplants actually improve indoor air quality?",
+      "url": "https://yardandgarden.extension.iastate.edu/faq/do-houseplants-actually-improve-indoor-air-quality"
+    },
+    {
+      "name": "University of Illinois Extension: houseplants and indoor air quality",
+      "url": "https://extension.illinois.edu/blogs/garden-scoop/2019-01-10-houseplants-and-indoor-air-quality"
+    }
+  ],
+  "related": [
+    "buying-a-healthy-houseplant",
+    "pet-safe-houseplants",
+    "houseplant-humidity"
+  ],
+  "plants": [
+    "chlorophytum-comosum",
+    "spathiphyllum",
+    "dracaena-trifasciata"
+  ],
+  "en": {
+    "description": "The NASA study behind air-purifying plant lists used sealed chambers. What a 2019 review found about real homes, and what actually improves indoor air."
+  },
+  "tr": {
+    "description": "Havayı temizleyen bitki listeleri, kapalı odacıklarda yapılan bir NASA deneyine dayanıyor. 2019 incelemesi gerçek evler için ne buldu, havaya ne iyi gelir?"
+  }
+}

@@ -4,7 +4,7 @@
 const {chromium}=require('playwright-core'),assert=require('node:assert/strict');
 const origin='http://127.0.0.1:4173',languages=['tr','en','es','de','pt','fr'];
 const prefix=lang=>lang==='tr'?'/':'/'+lang+'/';
-const templates={home:'',guidesHub:'guides/',guide:'guides/watering-houseplants/',plantsHub:'plants/',plant:'plants/monstera-deliciosa/',journalHub:'journal/',post:'journal/check-before-you-water/',compareHub:'compare/',comparison:'compare/lilora-vs-planta/',support:'support/',privacy:'privacy/',contact:'contact/',about:'about/',legal:'legal/',download:'download/',editorial:'editorial/',press:'press/'};
+const templates={home:'',guidesHub:'guides/',guide:'guides/watering-houseplants/',plantsHub:'plants/',plant:'plants/monstera-deliciosa/',journalHub:'blog/',post:'blog/check-before-you-water/',compareHub:'compare/',comparison:'compare/lilora-vs-planta/',support:'support/',privacy:'privacy/',contact:'contact/',about:'about/',legal:'legal/',download:'download/',editorial:'editorial/',press:'press/'};
 const representative=['home','guide','plantsHub','plant','post','support'];
 const articles=['guide','post','comparison'],hubs=['guidesHub','plantsHub','journalHub','compareHub'];
 const pages=languages.flatMap(lang=>Object.keys(templates).filter(name=>['tr','en'].includes(lang)||representative.includes(name)).map(name=>({lang,name,path:prefix(lang)+templates[name]})));

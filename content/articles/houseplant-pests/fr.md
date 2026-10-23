@@ -57,7 +57,7 @@ Nous n’avons pas mis de photos ici. Identifier un ravageur demande des gros pl
 
 Les produits, leurs substances actives et leur usage autorisé varient selon les pays. Nous ne donnons pas de doses : la seule instruction fiable est l’étiquette du produit que vous achetez. Rangez les produits hors de portée des enfants et des animaux. En cas d’ingestion, contactez un médecin ou un vétérinaire et le centre antipoison de votre pays. Ceci est une information générale, pas un avis vétérinaire ou médical.
 
-Si la plante a aussi des feuilles jaunes, consultez également [feuilles jaunes des plantes d’intérieur](/fr/guides/yellow-houseplant-leaves/). Les plantes rentrées après l’été demandent des contrôles supplémentaires ; voir [le grand ménage d’automne](/fr/journal/autumn-plant-reset/).
+Si la plante a aussi des feuilles jaunes, consultez également [feuilles jaunes des plantes d’intérieur](/fr/guides/yellow-houseplant-leaves/). Les plantes rentrées après l’été demandent des contrôles supplémentaires ; voir [le grand ménage d’automne](/fr/blog/autumn-plant-reset/).
 
 Si vous vivez avec un chat ou un chien, lisez aussi [plantes d’intérieur et animaux](/fr/guides/pet-safe-houseplants/) avant de choisir de nouvelles plantes.
 

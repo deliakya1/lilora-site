@@ -13,7 +13,8 @@ const walk = (dir) => {
     if (dir === "." && [".git", "node_modules", "assets", "content", "pages", "scripts", "locales", ".test-results"].includes(name)) continue;
     const full = join(dir, name);
     if (statSync(full).isDirectory()) walk(full);
-    else if (name === "index.html") pages.push(full.replace(/^\.\//, ""));
+    // Redirect pages for moved URLs (content/redirects.json) are not indexable routes.
+    else if (name === "index.html" && !readFileSync(full, "utf8").includes('http-equiv="refresh"')) pages.push(full.replace(/^\.\//, ""));
   }
 };
 walk(".");
@@ -109,17 +110,17 @@ test("every guide links to at least three related pages and its hub; no page is 
   for (const f of pages) {
     const s = read(f), self = pathOf(f);
     for (const [, href] of s.matchAll(/href="(\/[^"#?]*)"/g)) if (href !== self) inbound.set(href, (inbound.get(href) || 0) + 1);
-    if (/\/(guides|journal|compare)\/[^/]+\/index\.html$/.test(f)) {
+    if (/\/(guides|blog|compare)\/[^/]+\/index\.html$/.test(f)) {
       const hub = self.replace(/[^/]+\/$/, "");
       assert.ok(s.includes(`href="${hub}"`), `${f}: no link to ${hub}`);
       const related = s.slice(s.indexOf('class="related"'));
-      assert.ok((related.match(/<article class="story-card"/g) || []).length >= 3, `${f}: fewer than three related pages`);
+      assert.ok((related.match(/<article class="(?:story|post)-card/g) || []).length >= 3, `${f}: fewer than three related pages`);
     }
   }
   for (const f of pages) assert.ok(inbound.get(pathOf(f)), `${pathOf(f)} has no inbound link`);
 });
 
-test("one Atom feed per language for guides and journal, linked from every page", () => {
+test("one Atom feed per language for guides and blog posts, linked from every page", () => {
   const articles = JSON.parse(read("editorial/articles.json"));
   for (const l of languages) {
     const feed = read(`.${prefix(l)}feed.xml`);

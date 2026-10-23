@@ -57,7 +57,7 @@ We have not added photographs here. Pest identification needs accurate, close-up
 
 Products, their active ingredients and their legal use differ by country. We do not give doses: the label on the product you buy is the only reliable instruction. Keep products away from children and pets, and if anyone swallows one, contact a doctor or veterinarian; in Türkiye, people can call the poison line 114 (UZEM). This is general information, not veterinary or medical advice.
 
-If a plant also has yellow leaves, work through [yellow houseplant leaves](/en/guides/yellow-houseplant-leaves/) as well. Plants brought indoors after summer need extra checks; see [an autumn reset for houseplants](/en/journal/autumn-plant-reset/).
+If a plant also has yellow leaves, work through [yellow houseplant leaves](/en/guides/yellow-houseplant-leaves/) as well. Plants brought indoors after summer need extra checks; see [an autumn reset for houseplants](/en/blog/autumn-plant-reset/).
 
 If you share your home with cats or dogs, also read [houseplants and pets](/en/guides/pet-safe-houseplants/) before choosing new plants.
 

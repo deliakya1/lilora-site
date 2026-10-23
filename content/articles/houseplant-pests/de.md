@@ -57,7 +57,7 @@ Fotos haben wir hier bewusst nicht eingefügt. Für die Bestimmung braucht es ge
 
 Mittel, Wirkstoffe und ihre Zulassung unterscheiden sich von Land zu Land. Wir nennen keine Dosierungen: Die einzige verlässliche Anweisung ist die Gebrauchsanweisung des Mittels, das du kaufst. Bewahre Mittel außer Reichweite von Kindern und Haustieren auf. Wenn jemand etwas verschluckt, wende dich an eine Ärztin, einen Arzt, eine Tierarztpraxis oder den Giftnotruf deines Landes. Dies sind allgemeine Informationen, keine tierärztliche oder medizinische Beratung.
 
-Hat die Pflanze zusätzlich gelbe Blätter, hilft auch [Gelbe Blätter bei Zimmerpflanzen](/de/guides/yellow-houseplant-leaves/). Pflanzen, die nach dem Sommer hereingeholt werden, brauchen besondere Aufmerksamkeit; siehe [Herbst-Neustart für Zimmerpflanzen](/de/journal/autumn-plant-reset/).
+Hat die Pflanze zusätzlich gelbe Blätter, hilft auch [Gelbe Blätter bei Zimmerpflanzen](/de/guides/yellow-houseplant-leaves/). Pflanzen, die nach dem Sommer hereingeholt werden, brauchen besondere Aufmerksamkeit; siehe [Herbst-Neustart für Zimmerpflanzen](/de/blog/autumn-plant-reset/).
 
 Lebst du mit Katze oder Hund zusammen, lies vor dem Pflanzenkauf auch [Zimmerpflanzen und Haustiere](/de/guides/pet-safe-houseplants/).
 

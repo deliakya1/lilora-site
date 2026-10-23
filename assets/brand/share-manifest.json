@@ -56,6 +56,111 @@
       "image": "/assets/brand/share/tr-about.png"
     },
     {
+      "path": "/blog/",
+      "lang": "tr",
+      "title": "Lilora Blog: bitki bakımı yazıları",
+      "description": "Bitki bakımı üzerine kaynaklı yazılar: kahverengi uçlar, toprakta küf, saksı seçimi, musluk suyu, bitki lambaları, bitki seçimi ve mevsim listeleri.",
+      "image": "/assets/brand/share/tr-blog.png"
+    },
+    {
+      "path": "/blog/autumn-plant-reset/",
+      "lang": "tr",
+      "title": "Ev bitkileri için sonbahar düzeni: kısa bir kontrol listesi",
+      "description": "Soğuk gecelerden önce bitkileri içeri al, zararlılara bak, pencereleri yeniden düzenle ve sulamayı yavaşlat: ev bitkileri için kısa bir sonbahar listesi.",
+      "image": "/assets/brand/share/tr-blog--autumn-plant-reset.png"
+    },
+    {
+      "path": "/blog/bottom-watering/",
+      "lang": "tr",
+      "title": "Ev bitkilerini alttan sulamak: ne zaman işe yarar, ne zaman yaramaz",
+      "description": "Ev bitkisi alttan nasıl sulanır, hangi bitkiler bundan yararlanır, saksı suda ne kadar kalmalı ve neden ara sıra yine de üstten sulamak gerekir.",
+      "image": "/assets/brand/share/tr-blog--bottom-watering.png"
+    },
+    {
+      "path": "/blog/brown-leaf-tips/",
+      "lang": "tr",
+      "title": "Ev bitkilerinde kahverengi yaprak uçları: genellikle ne anlama gelir",
+      "description": "Kuru, kahverengi yaprak uçları genellikle kuru havaya, düzensiz sulamaya, tuz birikimine ya da musluk suyuna hassasiyete işaret eder. Nedeni bul ve düzelt.",
+      "image": "/assets/brand/share/tr-blog--brown-leaf-tips.png"
+    },
+    {
+      "path": "/blog/buying-a-healthy-houseplant/",
+      "lang": "tr",
+      "title": "Sağlıklı bir ev bitkisi nasıl seçilir ve evde nasıl alıştırılır",
+      "description": "Ev bitkisi almadan önce yapraklarda, zararlılarda, köklerde ve saksıda neye bakılır; ardından yeni bitkiyi iki hafta ayrı tutup eve nasıl alıştırırsın.",
+      "image": "/assets/brand/share/tr-blog--buying-a-healthy-houseplant.png"
+    },
+    {
+      "path": "/blog/check-before-you-water/",
+      "lang": "tr",
+      "title": "Lilora’nın hatırlatmaları neden “sula” değil “kontrol et” diyor",
+      "description": "Takvim bitkini göremez. Lilora’nın hatırlatmaları neden kontrol istiyor ve “Suladım” ile “Kontrol ettim, suya ihtiyacı yok” kayıtlarını neden ayırıyor.",
+      "image": "/assets/brand/share/tr-blog--check-before-you-water.png"
+    },
+    {
+      "path": "/blog/cleaning-houseplant-leaves/",
+      "lang": "tr",
+      "title": "Ev bitkilerinin yaprakları nasıl temizlenir (ve neden önemlidir)",
+      "description": "Toz, bitkinin ihtiyaç duyduğu ışığı keser. Büyük yaprakları silmek, küçük bitkileri durulamak, tüylü yaprakları fırçalamak ve parlatıcılardan kaçınmak.",
+      "image": "/assets/brand/share/tr-blog--cleaning-houseplant-leaves.png"
+    },
+    {
+      "path": "/blog/do-houseplants-purify-air/",
+      "lang": "tr",
+      "title": "Ev bitkileri gerçekten iç mekân havasını temizler mi?",
+      "description": "Havayı temizleyen bitki listeleri, kapalı odacıklarda yapılan bir NASA deneyine dayanıyor. 2019 incelemesi gerçek evler için ne buldu, havaya ne iyi gelir?",
+      "image": "/assets/brand/share/tr-blog--do-houseplants-purify-air.png"
+    },
+    {
+      "path": "/blog/grow-lights-for-houseplants/",
+      "lang": "tr",
+      "title": "Ev bitkileri için bitki lambaları: basit bir başlangıç düzeni",
+      "description": "Ev bitkileri için basit bir lamba düzeni: hangi LED seçilmeli, yaprakların ne kadar üstüne asılmalı, günde kaç saat yanmalı ve zamanlayıcı neden önemli.",
+      "image": "/assets/brand/share/tr-blog--grow-lights-for-houseplants.png"
+    },
+    {
+      "path": "/blog/keeping-a-plant-care-journal/",
+      "lang": "tr",
+      "title": "Bitki bakım günlüğü nasıl tutulur (kâğıtta veya uygulamada)",
+      "description": "Her bitki için neleri kaydetmeli, basit bir sayfa düzeni, bir mevsim sonra notları nasıl okumalı ve kâğıt mı uygulama mı sana daha uygun.",
+      "image": "/assets/brand/share/tr-blog--keeping-a-plant-care-journal.png"
+    },
+    {
+      "path": "/blog/leggy-houseplants/",
+      "lang": "tr",
+      "title": "Boy atıp seyrelen ev bitkileri: neden uzarlar, nasıl toparlanır",
+      "description": "Yaprak araları açılmış uzun, ince gövdeler çoğunlukla az ışık demektir. Önce ışığı artır, sonra boğum üstünden buda, çelikleri köklendirip saksıyı doldur.",
+      "image": "/assets/brand/share/tr-blog--leggy-houseplants.png"
+    },
+    {
+      "path": "/blog/mold-on-houseplant-soil/",
+      "lang": "tr",
+      "title": "Saksı toprağında beyaz küf: zararlı mı?",
+      "description": "Saksı toprağındaki beyaz pamuksu tabaka genellikle ıslak ve havasız koşulları gösteren zararsız bir mantardır. Tuz kabuğundan ayırt et, temizle, önle.",
+      "image": "/assets/brand/share/tr-blog--mold-on-houseplant-soil.png"
+    },
+    {
+      "path": "/blog/moving-house-with-plants/",
+      "lang": "tr",
+      "title": "Bitkilerle ev taşımak",
+      "description": "Bitkilerini taşınma planına dahil et: zararlı kontrolü, sulama, paketleme, taşıma, sınır kuralları ve yeni ışığa alışma.",
+      "image": "/assets/brand/share/tr-blog--moving-house-with-plants.png"
+    },
+    {
+      "path": "/blog/tap-water-for-houseplants/",
+      "lang": "tr",
+      "title": "Ev bitkileri için musluk suyu uygun mu?",
+      "description": "Normal musluk suyu çoğu ev bitkisi için uygundur. Yumuşatılmış su, klor, florür, kireç tuzları ya da soğuk su ne zaman sorun olur, onun yerine ne yapılır.",
+      "image": "/assets/brand/share/tr-blog--tap-water-for-houseplants.png"
+    },
+    {
+      "path": "/blog/terracotta-vs-plastic-pots/",
+      "lang": "tr",
+      "title": "Toprak (terakota) mı plastik saksı mı: ev bitkileri için hangisi daha iyi?",
+      "description": "Toprak saksı daha hızlı kurur ve nefes alır; plastik ve sırlı seramik nemi uzun tutar. Hangi bitkiye hangi saksı uyar ve drenaj neden malzemeden önemli.",
+      "image": "/assets/brand/share/tr-blog--terracotta-vs-plastic-pots.png"
+    },
+    {
       "path": "/compare/",
       "lang": "tr",
       "title": "Bitki uygulaması karşılaştırmaları",
@@ -96,6 +201,41 @@
       "title": "Über Lilora",
       "description": "Lilora ist ein Pflanzennotizbuch für aufmerksame Pflege und gemeinsame Haushalte, unabhängig veröffentlicht von Umut OREN in Türkiye.",
       "image": "/assets/brand/share/de-about.png"
+    },
+    {
+      "path": "/de/blog/",
+      "lang": "de",
+      "title": "Lilora Blog: Beiträge zur Pflanzenpflege",
+      "description": "Quellenbasierte Beiträge über Zimmerpflanzen: warum Lilora „prüfen“ sagt, Checklisten für die Jahreszeit, Umzug mit Pflanzen und gemeinsame Pflege.",
+      "image": "/assets/brand/share/de-blog.png"
+    },
+    {
+      "path": "/de/blog/autumn-plant-reset/",
+      "lang": "de",
+      "title": "Herbst-Neustart für Zimmerpflanzen: eine kurze Checkliste",
+      "description": "Pflanzen vor kalten Nächten hereinholen, auf Schädlinge prüfen, Fenster neu verteilen, seltener gießen: eine kurze Herbst-Checkliste.",
+      "image": "/assets/brand/share/de-blog--autumn-plant-reset.png"
+    },
+    {
+      "path": "/de/blog/check-before-you-water/",
+      "lang": "de",
+      "title": "Warum Lilora ans Prüfen erinnert, nicht ans Gießen",
+      "description": "Ein Kalender sieht deine Pflanze nicht. Warum Lilora ans Prüfen erinnert und Gießen und Kontrolle ohne Wasser getrennt erfasst.",
+      "image": "/assets/brand/share/de-blog--check-before-you-water.png"
+    },
+    {
+      "path": "/de/blog/keeping-a-plant-care-journal/",
+      "lang": "de",
+      "title": "So führst du ein Pflanzenpflege-Tagebuch (auf Papier oder in einer App)",
+      "description": "Was du je Pflanze festhältst, ein einfaches Seitenlayout, wie du die Notizen nach einer Saison liest, und Papier oder App.",
+      "image": "/assets/brand/share/de-blog--keeping-a-plant-care-journal.png"
+    },
+    {
+      "path": "/de/blog/moving-house-with-plants/",
+      "lang": "de",
+      "title": "Umziehen mit Zimmerpflanzen",
+      "description": "Pflanzen beim Umzug einplanen: Schädlingskontrolle, Gießen, Verpacken, Transport, Einfuhrregeln und Eingewöhnung ins neue Licht.",
+      "image": "/assets/brand/share/de-blog--moving-house-with-plants.png"
     },
     {
       "path": "/de/compare/",
@@ -245,41 +385,6 @@
       "image": "/assets/brand/share/de-guides--yellow-houseplant-leaves.png"
     },
     {
-      "path": "/de/journal/",
-      "lang": "de",
-      "title": "Pflanzenjournal",
-      "description": "Notizen über Pflanzen und gemeinsame Pflege: warum Lilora „prüfen“ sagt, Checklisten für die Jahreszeit, Umzug mit Pflanzen und Pflegetagebuch.",
-      "image": "/assets/brand/share/de-journal.png"
-    },
-    {
-      "path": "/de/journal/autumn-plant-reset/",
-      "lang": "de",
-      "title": "Herbst-Neustart für Zimmerpflanzen: eine kurze Checkliste",
-      "description": "Pflanzen vor kalten Nächten hereinholen, auf Schädlinge prüfen, Fenster neu verteilen, seltener gießen: eine kurze Herbst-Checkliste.",
-      "image": "/assets/brand/share/de-journal--autumn-plant-reset.png"
-    },
-    {
-      "path": "/de/journal/check-before-you-water/",
-      "lang": "de",
-      "title": "Warum Lilora ans Prüfen erinnert, nicht ans Gießen",
-      "description": "Ein Kalender sieht deine Pflanze nicht. Warum Lilora ans Prüfen erinnert und Gießen und Kontrolle ohne Wasser getrennt erfasst.",
-      "image": "/assets/brand/share/de-journal--check-before-you-water.png"
-    },
-    {
-      "path": "/de/journal/keeping-a-plant-care-journal/",
-      "lang": "de",
-      "title": "So führst du ein Pflanzenpflege-Tagebuch (auf Papier oder in einer App)",
-      "description": "Was du je Pflanze festhältst, ein einfaches Seitenlayout, wie du die Notizen nach einer Saison liest, und Papier oder App.",
-      "image": "/assets/brand/share/de-journal--keeping-a-plant-care-journal.png"
-    },
-    {
-      "path": "/de/journal/moving-house-with-plants/",
-      "lang": "de",
-      "title": "Umziehen mit Zimmerpflanzen",
-      "description": "Pflanzen beim Umzug einplanen: Schädlingskontrolle, Gießen, Verpacken, Transport, Einfuhrregeln und Eingewöhnung ins neue Licht.",
-      "image": "/assets/brand/share/de-journal--moving-house-with-plants.png"
-    },
-    {
       "path": "/de/legal/",
       "lang": "de",
       "title": "Rechtliche Hinweise",
@@ -425,6 +530,111 @@
       "title": "About Lilora",
       "description": "Lilora is a plant notebook for thoughtful care and shared households, independently published by Umut OREN in Türkiye for iPhone and iPad.",
       "image": "/assets/brand/share/en-about.png"
+    },
+    {
+      "path": "/en/blog/",
+      "lang": "en",
+      "title": "Lilora Blog: houseplant care posts",
+      "description": "Source-backed posts on plant care: brown tips, soil mould, pots, tap water, grow lights, buying a healthy plant, seasonal checklists and shared care.",
+      "image": "/assets/brand/share/en-blog.png"
+    },
+    {
+      "path": "/en/blog/autumn-plant-reset/",
+      "lang": "en",
+      "title": "An autumn reset for houseplants: a short checklist",
+      "description": "Bring plants in before cold nights, check for pests, rearrange windows and slow down watering: a short autumn checklist for houseplants.",
+      "image": "/assets/brand/share/en-blog--autumn-plant-reset.png"
+    },
+    {
+      "path": "/en/blog/bottom-watering/",
+      "lang": "en",
+      "title": "Bottom watering houseplants: when it helps and when it doesn't",
+      "description": "How to bottom water a houseplant, which plants benefit, how long to leave the pot in water, and why you should still water from the top now and then.",
+      "image": "/assets/brand/share/en-blog--bottom-watering.png"
+    },
+    {
+      "path": "/en/blog/brown-leaf-tips/",
+      "lang": "en",
+      "title": "Brown leaf tips on houseplants: what they usually mean",
+      "description": "Brown, crispy leaf tips usually point to dry air, uneven watering, salt build-up or sensitive plants reacting to tap water. How to find which, and fix it.",
+      "image": "/assets/brand/share/en-blog--brown-leaf-tips.png"
+    },
+    {
+      "path": "/en/blog/buying-a-healthy-houseplant/",
+      "lang": "en",
+      "title": "How to choose a healthy houseplant and settle it in at home",
+      "description": "What to check before you buy a houseplant: leaves, pests, roots and pot. Then how to keep a new plant apart for two weeks and help it settle in at home.",
+      "image": "/assets/brand/share/en-blog--buying-a-healthy-houseplant.png"
+    },
+    {
+      "path": "/en/blog/check-before-you-water/",
+      "lang": "en",
+      "title": "Why Lilora's reminders say \"check\", not \"water\"",
+      "description": "A calendar cannot see your plant. Why Lilora's reminders ask for a check and keep \"Watered\" and \"Checked, no water needed\" apart.",
+      "image": "/assets/brand/share/en-blog--check-before-you-water.png"
+    },
+    {
+      "path": "/en/blog/cleaning-houseplant-leaves/",
+      "lang": "en",
+      "title": "How to clean houseplant leaves (and why it matters)",
+      "description": "Dust blocks light that indoor plants need. How to wipe large leaves, rinse small plants, brush fuzzy leaves, and why leaf shine products are best avoided.",
+      "image": "/assets/brand/share/en-blog--cleaning-houseplant-leaves.png"
+    },
+    {
+      "path": "/en/blog/do-houseplants-purify-air/",
+      "lang": "en",
+      "title": "Do houseplants really purify indoor air?",
+      "description": "The NASA study behind air-purifying plant lists used sealed chambers. What a 2019 review found about real homes, and what actually improves indoor air.",
+      "image": "/assets/brand/share/en-blog--do-houseplants-purify-air.png"
+    },
+    {
+      "path": "/en/blog/grow-lights-for-houseplants/",
+      "lang": "en",
+      "title": "Grow lights for houseplants: a simple starting set-up",
+      "description": "A simple grow light set-up for houseplants: which LED to choose, how far above the leaves, how many hours a day, and why a timer and dark nights matter.",
+      "image": "/assets/brand/share/en-blog--grow-lights-for-houseplants.png"
+    },
+    {
+      "path": "/en/blog/keeping-a-plant-care-journal/",
+      "lang": "en",
+      "title": "How to keep a plant care journal (paper or app)",
+      "description": "What to record about each plant, a simple page layout, how to read your notes after a season, and whether paper or an app suits you better.",
+      "image": "/assets/brand/share/en-blog--keeping-a-plant-care-journal.png"
+    },
+    {
+      "path": "/en/blog/leggy-houseplants/",
+      "lang": "en",
+      "title": "Leggy houseplants: why they stretch and how to fix them",
+      "description": "Long, thin stems with gaps between leaves usually mean too little light. Add light first, then prune above a node and root the cuttings to refill the pot.",
+      "image": "/assets/brand/share/en-blog--leggy-houseplants.png"
+    },
+    {
+      "path": "/en/blog/mold-on-houseplant-soil/",
+      "lang": "en",
+      "title": "White mould on houseplant soil: is it harmful?",
+      "description": "White fuzz on potting mix is usually a harmless fungus that signals wet, still conditions. How to tell it from salt crust, remove it and prevent it.",
+      "image": "/assets/brand/share/en-blog--mold-on-houseplant-soil.png"
+    },
+    {
+      "path": "/en/blog/moving-house-with-plants/",
+      "lang": "en",
+      "title": "Moving house with plants",
+      "description": "Plan your plants into the move: pest checks, watering, packing, transport, border rules and helping them settle into the light of a new home.",
+      "image": "/assets/brand/share/en-blog--moving-house-with-plants.png"
+    },
+    {
+      "path": "/en/blog/tap-water-for-houseplants/",
+      "lang": "en",
+      "title": "Is tap water OK for houseplants?",
+      "description": "Tap water suits most houseplants. When softened water, chlorine, fluoride, hard-water salts or cold water cause trouble, and what to do instead.",
+      "image": "/assets/brand/share/en-blog--tap-water-for-houseplants.png"
+    },
+    {
+      "path": "/en/blog/terracotta-vs-plastic-pots/",
+      "lang": "en",
+      "title": "Terracotta or plastic pots: which is better for houseplants?",
+      "description": "Terracotta dries faster and breathes; plastic and glazed ceramic hold moisture longer. Which pot suits which plant, and why drainage matters most.",
+      "image": "/assets/brand/share/en-blog--terracotta-vs-plastic-pots.png"
     },
     {
       "path": "/en/compare/",
@@ -574,41 +784,6 @@
       "image": "/assets/brand/share/en-guides--yellow-houseplant-leaves.png"
     },
     {
-      "path": "/en/journal/",
-      "lang": "en",
-      "title": "Plant journal",
-      "description": "Notes on plants and shared care: why Lilora’s reminders say “check”, seasonal checklists, moving house with plants and keeping a journal.",
-      "image": "/assets/brand/share/en-journal.png"
-    },
-    {
-      "path": "/en/journal/autumn-plant-reset/",
-      "lang": "en",
-      "title": "An autumn reset for houseplants: a short checklist",
-      "description": "Bring plants in before cold nights, check for pests, rearrange windows and slow down watering: a short autumn checklist for houseplants.",
-      "image": "/assets/brand/share/en-journal--autumn-plant-reset.png"
-    },
-    {
-      "path": "/en/journal/check-before-you-water/",
-      "lang": "en",
-      "title": "Why Lilora's reminders say \"check\", not \"water\"",
-      "description": "A calendar cannot see your plant. Why Lilora's reminders ask for a check and keep \"Watered\" and \"Checked, no water needed\" apart.",
-      "image": "/assets/brand/share/en-journal--check-before-you-water.png"
-    },
-    {
-      "path": "/en/journal/keeping-a-plant-care-journal/",
-      "lang": "en",
-      "title": "How to keep a plant care journal (paper or app)",
-      "description": "What to record about each plant, a simple page layout, how to read your notes after a season, and whether paper or an app suits you better.",
-      "image": "/assets/brand/share/en-journal--keeping-a-plant-care-journal.png"
-    },
-    {
-      "path": "/en/journal/moving-house-with-plants/",
-      "lang": "en",
-      "title": "Moving house with plants",
-      "description": "Plan your plants into the move: pest checks, watering, packing, transport, border rules and helping them settle into the light of a new home.",
-      "image": "/assets/brand/share/en-journal--moving-house-with-plants.png"
-    },
-    {
       "path": "/en/legal/",
       "lang": "en",
       "title": "Legal notice",
@@ -740,6 +915,41 @@
       "title": "Acerca de Lilora",
       "description": "Lilora es un cuaderno de plantas para cuidar con atención y compartir en casa, publicado de forma independiente por Umut OREN en Türkiye.",
       "image": "/assets/brand/share/es-about.png"
+    },
+    {
+      "path": "/es/blog/",
+      "lang": "es",
+      "title": "Blog de Lilora: cuidado de plantas",
+      "description": "Artículos con fuentes sobre plantas de interior: por qué Lilora dice «comprobar», listas de temporada, mudanzas con plantas y cuidados compartidos.",
+      "image": "/assets/brand/share/es-blog.png"
+    },
+    {
+      "path": "/es/blog/autumn-plant-reset/",
+      "lang": "es",
+      "title": "Una puesta a punto de otoño para tus plantas de interior: lista breve",
+      "description": "Mete dentro las plantas antes del frío, busca plagas, reparte las ventanas y espacia el riego: una lista breve de otoño.",
+      "image": "/assets/brand/share/es-blog--autumn-plant-reset.png"
+    },
+    {
+      "path": "/es/blog/check-before-you-water/",
+      "lang": "es",
+      "title": "Por qué Lilora te recuerda comprobar y no regar",
+      "description": "Un calendario no ve tu planta. Por qué los recordatorios de Lilora piden comprobar y separan el riego de la comprobación sin agua.",
+      "image": "/assets/brand/share/es-blog--check-before-you-water.png"
+    },
+    {
+      "path": "/es/blog/keeping-a-plant-care-journal/",
+      "lang": "es",
+      "title": "Cómo llevar un diario de cuidado de plantas (en papel o en una app)",
+      "description": "Qué anotar de cada planta, una página sencilla, cómo leer tus notas al cabo de una temporada y si te conviene más el papel o una app.",
+      "image": "/assets/brand/share/es-blog--keeping-a-plant-care-journal.png"
+    },
+    {
+      "path": "/es/blog/moving-house-with-plants/",
+      "lang": "es",
+      "title": "Mudarse de casa con plantas",
+      "description": "Incluye tus plantas en la mudanza: revisa plagas, riego y embalaje, cuida el transporte, consulta las normas fronterizas y adáptalas a la luz nueva.",
+      "image": "/assets/brand/share/es-blog--moving-house-with-plants.png"
     },
     {
       "path": "/es/compare/",
@@ -889,41 +1099,6 @@
       "image": "/assets/brand/share/es-guides--yellow-houseplant-leaves.png"
     },
     {
-      "path": "/es/journal/",
-      "lang": "es",
-      "title": "Diario de plantas",
-      "description": "Notas sobre plantas y cuidados compartidos: por qué Lilora dice «comprobar», listas de temporada, mudanzas con plantas y cómo llevar un diario.",
-      "image": "/assets/brand/share/es-journal.png"
-    },
-    {
-      "path": "/es/journal/autumn-plant-reset/",
-      "lang": "es",
-      "title": "Una puesta a punto de otoño para tus plantas de interior: lista breve",
-      "description": "Mete dentro las plantas antes del frío, busca plagas, reparte las ventanas y espacia el riego: una lista breve de otoño.",
-      "image": "/assets/brand/share/es-journal--autumn-plant-reset.png"
-    },
-    {
-      "path": "/es/journal/check-before-you-water/",
-      "lang": "es",
-      "title": "Por qué Lilora te recuerda comprobar y no regar",
-      "description": "Un calendario no ve tu planta. Por qué los recordatorios de Lilora piden comprobar y separan el riego de la comprobación sin agua.",
-      "image": "/assets/brand/share/es-journal--check-before-you-water.png"
-    },
-    {
-      "path": "/es/journal/keeping-a-plant-care-journal/",
-      "lang": "es",
-      "title": "Cómo llevar un diario de cuidado de plantas (en papel o en una app)",
-      "description": "Qué anotar de cada planta, una página sencilla, cómo leer tus notas al cabo de una temporada y si te conviene más el papel o una app.",
-      "image": "/assets/brand/share/es-journal--keeping-a-plant-care-journal.png"
-    },
-    {
-      "path": "/es/journal/moving-house-with-plants/",
-      "lang": "es",
-      "title": "Mudarse de casa con plantas",
-      "description": "Incluye tus plantas en la mudanza: revisa plagas, riego y embalaje, cuida el transporte, consulta las normas fronterizas y adáptalas a la luz nueva.",
-      "image": "/assets/brand/share/es-journal--moving-house-with-plants.png"
-    },
-    {
       "path": "/es/legal/",
       "lang": "es",
       "title": "Información legal",
@@ -1055,6 +1230,41 @@
       "title": "À propos de Lilora",
       "description": "Lilora est un carnet de plantes pour des soins attentifs et partagés, publié de manière indépendante par Umut OREN en Türkiye.",
       "image": "/assets/brand/share/fr-about.png"
+    },
+    {
+      "path": "/fr/blog/",
+      "lang": "fr",
+      "title": "Blog Lilora : entretien des plantes",
+      "description": "Articles sourcés sur les plantes d’intérieur : pourquoi Lilora dit « vérifier », listes de saison, déménager avec ses plantes et soins partagés.",
+      "image": "/assets/brand/share/fr-blog.png"
+    },
+    {
+      "path": "/fr/blog/autumn-plant-reset/",
+      "lang": "fr",
+      "title": "Le grand ménage d’automne des plantes d’intérieur : une courte liste",
+      "description": "Rentrer les plantes avant le froid, chercher les ravageurs, redistribuer les fenêtres, espacer l’arrosage : une courte liste d’automne.",
+      "image": "/assets/brand/share/fr-blog--autumn-plant-reset.png"
+    },
+    {
+      "path": "/fr/blog/check-before-you-water/",
+      "lang": "fr",
+      "title": "Pourquoi les rappels de Lilora disent « vérifier » et non « arroser »",
+      "description": "Un calendrier ne voit pas votre plante. Pourquoi Lilora rappelle de vérifier et distingue l’arrosage de la vérification sans eau.",
+      "image": "/assets/brand/share/fr-blog--check-before-you-water.png"
+    },
+    {
+      "path": "/fr/blog/keeping-a-plant-care-journal/",
+      "lang": "fr",
+      "title": "Tenir un carnet d’entretien des plantes (papier ou application)",
+      "description": "Que noter pour chaque plante, une mise en page simple, comment relire ses notes après une saison, et s’il vaut mieux du papier ou une app.",
+      "image": "/assets/brand/share/fr-blog--keeping-a-plant-care-journal.png"
+    },
+    {
+      "path": "/fr/blog/moving-house-with-plants/",
+      "lang": "fr",
+      "title": "Déménager avec ses plantes",
+      "description": "Intégrer ses plantes au déménagement : ravageurs, arrosage, emballage, transport, règles aux frontières et nouvelle lumière.",
+      "image": "/assets/brand/share/fr-blog--moving-house-with-plants.png"
     },
     {
       "path": "/fr/compare/",
@@ -1202,41 +1412,6 @@
       "title": "Feuilles jaunes sur les plantes d’intérieur : que vérifier avant d’agir",
       "description": "Vérifiez l’aspect des feuilles, l’humidité des racines, la lumière, la température et les ravageurs avant de modifier l’entretien d’une plante qui jaunit.",
       "image": "/assets/brand/share/fr-guides--yellow-houseplant-leaves.png"
-    },
-    {
-      "path": "/fr/journal/",
-      "lang": "fr",
-      "title": "Journal des plantes",
-      "description": "Notes sur les plantes et les soins partagés : pourquoi Lilora dit « vérifier », listes de saison, déménager avec ses plantes et tenir un carnet.",
-      "image": "/assets/brand/share/fr-journal.png"
-    },
-    {
-      "path": "/fr/journal/autumn-plant-reset/",
-      "lang": "fr",
-      "title": "Le grand ménage d’automne des plantes d’intérieur : une courte liste",
-      "description": "Rentrer les plantes avant le froid, chercher les ravageurs, redistribuer les fenêtres, espacer l’arrosage : une courte liste d’automne.",
-      "image": "/assets/brand/share/fr-journal--autumn-plant-reset.png"
-    },
-    {
-      "path": "/fr/journal/check-before-you-water/",
-      "lang": "fr",
-      "title": "Pourquoi les rappels de Lilora disent « vérifier » et non « arroser »",
-      "description": "Un calendrier ne voit pas votre plante. Pourquoi Lilora rappelle de vérifier et distingue l’arrosage de la vérification sans eau.",
-      "image": "/assets/brand/share/fr-journal--check-before-you-water.png"
-    },
-    {
-      "path": "/fr/journal/keeping-a-plant-care-journal/",
-      "lang": "fr",
-      "title": "Tenir un carnet d’entretien des plantes (papier ou application)",
-      "description": "Que noter pour chaque plante, une mise en page simple, comment relire ses notes après une saison, et s’il vaut mieux du papier ou une app.",
-      "image": "/assets/brand/share/fr-journal--keeping-a-plant-care-journal.png"
-    },
-    {
-      "path": "/fr/journal/moving-house-with-plants/",
-      "lang": "fr",
-      "title": "Déménager avec ses plantes",
-      "description": "Intégrer ses plantes au déménagement : ravageurs, arrosage, emballage, transport, règles aux frontières et nouvelle lumière.",
-      "image": "/assets/brand/share/fr-journal--moving-house-with-plants.png"
     },
     {
       "path": "/fr/legal/",
@@ -1463,41 +1638,6 @@
       "image": "/assets/brand/share/tr-guides--yellow-houseplant-leaves.png"
     },
     {
-      "path": "/journal/",
-      "lang": "tr",
-      "title": "Bitki günlüğü",
-      "description": "Bitkiler, ortak bakım ve Lilora’nın neden “sula” yerine “kontrol et” dediği üzerine notlar; mevsim listeleri ve taşınma ipuçları.",
-      "image": "/assets/brand/share/tr-journal.png"
-    },
-    {
-      "path": "/journal/autumn-plant-reset/",
-      "lang": "tr",
-      "title": "Ev bitkileri için sonbahar düzeni: kısa bir kontrol listesi",
-      "description": "Soğuk gecelerden önce bitkileri içeri al, zararlılara bak, pencereleri yeniden düzenle ve sulamayı yavaşlat: ev bitkileri için kısa bir sonbahar listesi.",
-      "image": "/assets/brand/share/tr-journal--autumn-plant-reset.png"
-    },
-    {
-      "path": "/journal/check-before-you-water/",
-      "lang": "tr",
-      "title": "Lilora’nın hatırlatmaları neden “sula” değil “kontrol et” diyor",
-      "description": "Takvim bitkini göremez. Lilora’nın hatırlatmaları neden kontrol istiyor ve “Suladım” ile “Kontrol ettim, suya ihtiyacı yok” kayıtlarını neden ayırıyor.",
-      "image": "/assets/brand/share/tr-journal--check-before-you-water.png"
-    },
-    {
-      "path": "/journal/keeping-a-plant-care-journal/",
-      "lang": "tr",
-      "title": "Bitki bakım günlüğü nasıl tutulur (kâğıtta veya uygulamada)",
-      "description": "Her bitki için neleri kaydetmeli, basit bir sayfa düzeni, bir mevsim sonra notları nasıl okumalı ve kâğıt mı uygulama mı sana daha uygun.",
-      "image": "/assets/brand/share/tr-journal--keeping-a-plant-care-journal.png"
-    },
-    {
-      "path": "/journal/moving-house-with-plants/",
-      "lang": "tr",
-      "title": "Bitkilerle ev taşımak",
-      "description": "Bitkilerini taşınma planına dahil et: zararlı kontrolü, sulama, paketleme, taşıma, sınır kuralları ve yeni ışığa alışma.",
-      "image": "/assets/brand/share/tr-journal--moving-house-with-plants.png"
-    },
-    {
       "path": "/legal/",
       "lang": "tr",
       "title": "Yasal bilgiler",
@@ -1622,6 +1762,41 @@
       "title": "Sobre o Lilora",
       "description": "O Lilora é um caderno de plantas para cuidar com atenção e compartilhar em casa, publicado de forma independente por Umut OREN na Türkiye.",
       "image": "/assets/brand/share/pt-about.png"
+    },
+    {
+      "path": "/pt/blog/",
+      "lang": "pt",
+      "title": "Blog do Lilora: cuidados com plantas",
+      "description": "Artigos com fontes sobre plantas de interior: por que o Lilora diz “verificar”, listas da estação, mudança com plantas e cuidados compartilhados.",
+      "image": "/assets/brand/share/pt-blog.png"
+    },
+    {
+      "path": "/pt/blog/autumn-plant-reset/",
+      "lang": "pt",
+      "title": "Uma arrumação de outono para as plantas de interior: lista rápida",
+      "description": "Traga as plantas para dentro antes do frio, procure pragas, redistribua as janelas e espace as regas: uma lista curta de outono.",
+      "image": "/assets/brand/share/pt-blog--autumn-plant-reset.png"
+    },
+    {
+      "path": "/pt/blog/check-before-you-water/",
+      "lang": "pt",
+      "title": "Por que os lembretes do Lilora dizem “verificar”, e não “regar”",
+      "description": "Um calendário não enxerga a sua planta. Por que os lembretes do Lilora pedem uma verificação e separam rega de verificação sem água.",
+      "image": "/assets/brand/share/pt-blog--check-before-you-water.png"
+    },
+    {
+      "path": "/pt/blog/keeping-a-plant-care-journal/",
+      "lang": "pt",
+      "title": "Como manter um diário de cuidados com as plantas (no papel ou num app)",
+      "description": "O que anotar sobre cada planta, uma página simples, como ler suas anotações depois de uma estação e se o papel ou um app combina mais com você.",
+      "image": "/assets/brand/share/pt-blog--keeping-a-plant-care-journal.png"
+    },
+    {
+      "path": "/pt/blog/moving-house-with-plants/",
+      "lang": "pt",
+      "title": "Mudança de casa com plantas",
+      "description": "Inclua as plantas na mudança: confira pragas, rega e embalagem, cuide do transporte, veja as regras de fronteira e ajude-as a se adaptar à nova luz.",
+      "image": "/assets/brand/share/pt-blog--moving-house-with-plants.png"
     },
     {
       "path": "/pt/compare/",
@@ -1769,41 +1944,6 @@
       "title": "Folhas amarelas em plantas de interior: o que conferir antes de agir",
       "description": "Confira o padrão das folhas, a umidade nas raízes, a luz, a temperatura e as pragas antes de mudar os cuidados de uma planta amarelando.",
       "image": "/assets/brand/share/pt-guides--yellow-houseplant-leaves.png"
-    },
-    {
-      "path": "/pt/journal/",
-      "lang": "pt",
-      "title": "Diário de plantas",
-      "description": "Notas sobre plantas e cuidados compartilhados: por que o Lilora diz “verificar”, listas da estação, mudança com plantas e como manter um diário.",
-      "image": "/assets/brand/share/pt-journal.png"
-    },
-    {
-      "path": "/pt/journal/autumn-plant-reset/",
-      "lang": "pt",
-      "title": "Uma arrumação de outono para as plantas de interior: lista rápida",
-      "description": "Traga as plantas para dentro antes do frio, procure pragas, redistribua as janelas e espace as regas: uma lista curta de outono.",
-      "image": "/assets/brand/share/pt-journal--autumn-plant-reset.png"
-    },
-    {
-      "path": "/pt/journal/check-before-you-water/",
-      "lang": "pt",
-      "title": "Por que os lembretes do Lilora dizem “verificar”, e não “regar”",
-      "description": "Um calendário não enxerga a sua planta. Por que os lembretes do Lilora pedem uma verificação e separam rega de verificação sem água.",
-      "image": "/assets/brand/share/pt-journal--check-before-you-water.png"
-    },
-    {
-      "path": "/pt/journal/keeping-a-plant-care-journal/",
-      "lang": "pt",
-      "title": "Como manter um diário de cuidados com as plantas (no papel ou num app)",
-      "description": "O que anotar sobre cada planta, uma página simples, como ler suas anotações depois de uma estação e se o papel ou um app combina mais com você.",
-      "image": "/assets/brand/share/pt-journal--keeping-a-plant-care-journal.png"
-    },
-    {
-      "path": "/pt/journal/moving-house-with-plants/",
-      "lang": "pt",
-      "title": "Mudança de casa com plantas",
-      "description": "Inclua as plantas na mudança: confira pragas, rega e embalagem, cuide do transporte, veja as regras de fronteira e ajude-as a se adaptar à nova luz.",
-      "image": "/assets/brand/share/pt-journal--moving-house-with-plants.png"
     },
     {
       "path": "/pt/legal/",

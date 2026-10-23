@@ -6,7 +6,8 @@ import {articlePath} from './layout.mjs';
 const root=process.cwd();
 const crawl=(dir)=>readdirSync(dir,{withFileTypes:true}).flatMap(x=>x.name.startsWith('.')||['node_modules','scripts','pages'].includes(x.name)?[]:x.isDirectory()?crawl(dir+'/'+x.name):x.name.endsWith('.html')&&!/^google[0-9a-f]+\.html$/.test(x.name)?[dir+'/'+x.name]:[]);
 // google<token>.html is the Search Console ownership file, not a page.
-const files=crawl(root);
+// Redirect pages for moved URLs (content/redirects.json) are not pages in their own right.
+const files=crawl(root).filter(f=>!readFileSync(f,'utf8').includes('http-equiv="refresh"'));
 const content=JSON.parse(readFileSync('editorial/articles.json'));
 const datedContent=[...content,...JSON.parse(readFileSync('editorial/plants.json'))];
 const allSitemaps=()=>['tr','en','es','de','pt','fr'].map(l=>readFileSync(`sitemap-${l}.xml`,'utf8')).join('\n');
@@ -68,7 +69,7 @@ test('related reading follows editorial priority with valid distinct destination
    const prefix=lang==='en'?'en/':'';
    const path='.'+articlePath(article,lang)+'index.html';
    const related=readFileSync(path,'utf8').split('<section class="related">')[1];
-   const links=[...related.matchAll(/<article class="story-card"[^>]*><a href="([^"]+)"/g)].map(x=>x[1]);
+   const links=[...related.matchAll(/<article class="(?:story-card|post-card post-card-card)"[^>]*><a href="([^"]+)"/g)].map(x=>x[1]);
    const expected=priority.slice(0,3).map(slug=>{const a=content.find(x=>x.slug===slug);return articlePath(a,lang);});
    assert.deepEqual(links.slice(0,expected.length),expected,path);
    assert.equal(new Set(links).size,links.length);assert.equal(links.length,Math.min(3,content.length-1));
@@ -81,14 +82,14 @@ test('titles and descriptions are unique, source routes complete, and locale dic
  for(const f of files){const s=readFileSync(f,'utf8');const title=s.match(/<title>(.*?)<\/title>/)[1],description=s.match(/<meta name="description" content="([^"]+)"/)[1];assert.ok(!titles.has(title),f+': duplicate title');assert.ok(!descriptions.has(description),f+': duplicate description');titles.add(title);descriptions.add(description);}
  const dictionaries=['tr','en','es','de','pt','fr'].map(l=>JSON.parse(readFileSync('locales/'+l+'.json')));
  for(const d of dictionaries)assert.deepEqual(Object.keys(d).sort(),Object.keys(dictionaries[0]).sort());
- for(const l of ['tr','en','es','de','pt','fr'])for(const slug of ['','support/','privacy/','contact/','about/','legal/','download/','editorial/','guides/','plants/','journal/','compare/'])assert.ok(existsSync((l==='tr'?'':l+'/')+slug+'index.html'));
+ for(const l of ['tr','en','es','de','pt','fr'])for(const slug of ['','support/','privacy/','contact/','about/','legal/','download/','editorial/','guides/','plants/','blog/','compare/'])assert.ok(existsSync((l==='tr'?'':l+'/')+slug+'index.html'));
 });
 
 
 test('content hubs list only their article type and preserve real fallback languages',()=>{
- for(const lang of ['tr','en','es','de','pt','fr'])for(const [hub,type] of [['guides','guide'],['journal','post'],['compare','comparison']]){
+ for(const lang of ['tr','en','es','de','pt','fr'])for(const [hub,type] of [['guides','guide'],['blog','post'],['compare','comparison']]){
   const html=readFileSync((lang==='tr'?'':lang+'/')+hub+'/index.html','utf8');
-  const cards=[...html.matchAll(/<article class="story-card" lang="([^"]+)"><a href="([^"]+)"/g)];
+  const cards=[...html.matchAll(/<article class="(?:story-card|post-card post-card-card)" lang="([^"]+)"><a href="([^"]+)"/g)];
   for(const [,cardLang,path] of cards){const a=content.find(a=>path.endsWith('/'+a.slug+'/'));assert.equal(a?.type,type,path);assert.ok(cardLang===(lang==='pt'?'pt-BR':lang)||cardLang==='en');assert.equal(path,articlePath(a,cardLang==='pt-BR'?'pt':cardLang));}
   assert.equal(cards.filter(c=>c[1]===(lang==='pt'?'pt-BR':lang)).length,content.filter(a=>a.type===type&&a[lang]).length);
  }

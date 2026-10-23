@@ -1,0 +1,37 @@
+{
+  "slug": "cleaning-houseplant-leaves",
+  "type": "post",
+  "category": "basics",
+  "published": "2026-10-23",
+  "reviewed": "2026-10-23",
+  "sources": [
+    {
+      "name": "University of Minnesota Extension: spring houseplant care",
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/houseplants/spring-houseplant-care"
+    },
+    {
+      "name": "Clemson HGIC: indoor plants, cleaning, fertilizing, containers and light requirements",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/"
+    },
+    {
+      "name": "University of Wisconsin–Madison Extension: houseplant care",
+      "url": "https://hort.extension.wisc.edu/articles/houseplant-care/"
+    }
+  ],
+  "related": [
+    "houseplant-pests",
+    "indoor-plant-light-guide",
+    "keeping-a-plant-care-journal"
+  ],
+  "plants": [
+    "ficus-elastica",
+    "monstera-deliciosa"
+  ],
+  "en": {
+    "description": "Dust blocks light that indoor plants need. How to wipe large leaves, rinse small plants, brush fuzzy leaves, and why leaf shine products are best avoided."
+  },
+  "tr": {
+    "description": "Toz, bitkinin ihtiyaç duyduğu ışığı keser. Büyük yaprakları silmek, küçük bitkileri durulamak, tüylü yaprakları fırçalamak ve parlatıcılardan kaçınmak.",
+    "seoTitle": "Ev bitkilerinin yaprakları nasıl temizlenir"
+  }
+}

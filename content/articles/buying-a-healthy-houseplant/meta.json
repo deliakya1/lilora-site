@@ -1,0 +1,37 @@
+{
+  "slug": "buying-a-healthy-houseplant",
+  "type": "post",
+  "category": "home",
+  "published": "2026-10-23",
+  "reviewed": "2026-10-23",
+  "sources": [
+    {
+      "name": "University of Wisconsin–Madison Extension: houseplant care",
+      "url": "https://hort.extension.wisc.edu/articles/houseplant-care/"
+    },
+    {
+      "name": "Iowa State University Extension: tips for shopping and selecting quality plants",
+      "url": "https://yardandgarden.extension.iastate.edu/how-to/tips-shopping-and-selecting-quality-plants"
+    },
+    {
+      "name": "RHS: how to choose healthy plants",
+      "url": "https://www.rhs.org.uk/plants/how-to-choose-healthy-plants"
+    },
+    {
+      "name": "University of Minnesota Extension: managing insects on indoor plants",
+      "url": "https://extension.umn.edu/product-and-houseplant-pests/insects-indoor-plants"
+    }
+  ],
+  "related": [
+    "houseplant-pests",
+    "pet-safe-houseplants",
+    "when-to-repot-houseplants"
+  ],
+  "en": {
+    "description": "What to check before you buy a houseplant: leaves, pests, roots and pot. Then how to keep a new plant apart for two weeks and help it settle in at home."
+  },
+  "tr": {
+    "description": "Ev bitkisi almadan önce yapraklarda, zararlılarda, köklerde ve saksıda neye bakılır; ardından yeni bitkiyi iki hafta ayrı tutup eve nasıl alıştırırsın.",
+    "seoTitle": "Sağlıklı bir ev bitkisi nasıl seçilir ve eve alıştırılır"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "terracotta-vs-plastic-pots",
+  "type": "post",
+  "category": "basics",
+  "published": "2026-10-23",
+  "reviewed": "2026-10-23",
+  "sources": [
+    {
+      "name": "Colorado State University Extension: houseplant containers",
+      "url": "https://planttalk.colostate.edu/topics/houseplants/1315-houseplants-containers/"
+    },
+    {
+      "name": "University of Maryland Extension: potting and repotting indoor plants",
+      "url": "https://extension.umd.edu/resource/potting-and-repotting-indoor-plants"
+    },
+    {
+      "name": "Clemson HGIC: indoor plants, cleaning, fertilizing, containers and light requirements",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/"
+    },
+    {
+      "name": "Ask Extension: white fuzz on terra cotta pots",
+      "url": "https://ask.extension.org/kb/faq.php?id=748645"
+    }
+  ],
+  "related": [
+    "potting-mix-and-drainage",
+    "when-to-repot-houseplants",
+    "watering-houseplants"
+  ],
+  "plants": [
+    "aloe-vera",
+    "zamioculcas-zamiifolia"
+  ],
+  "en": {
+    "description": "Terracotta dries faster and breathes; plastic and glazed ceramic hold moisture longer. Which pot suits which plant, and why drainage matters most."
+  },
+  "tr": {
+    "description": "Toprak saksı daha hızlı kurur ve nefes alır; plastik ve sırlı seramik nemi uzun tutar. Hangi bitkiye hangi saksı uyar ve drenaj neden malzemeden önemli.",
+    "seoTitle": "Toprak saksı mı plastik saksı mı: hangisi daha iyi?"
+  }
+}

@@ -207,7 +207,7 @@
     const rest=path.replace(/^\/(?:en|es|de|pt|fr)(?=\/)/,'');
     if(rest==='/'||rest==='')return 'home';
     const section=rest.split('/')[1];
-    const types={guides:'guide',plants:'plant',journal:'journal',compare:'compare',download:'download',support:'support',about:'about',editorial:'editorial',press:'press'};
+    const types={guides:'guide',plants:'plant',blog:'blog',compare:'compare',download:'download',support:'support',about:'about',editorial:'editorial',press:'press'};
     if(!types[section])return 'other';
     return rest.split('/').filter(Boolean).length>1?types[section]:types[section]+'_index';
   }

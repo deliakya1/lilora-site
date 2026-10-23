@@ -5,7 +5,7 @@
   "close": "Kapat",
   "guides": "Bitki bakımı",
   "plants": "Bitki kütüphanesi",
-  "journal": "Günlük",
+  "blog": "Blog",
   "app": "Uygulama",
   "support": "Destek",
   "getApp": "Uygulamayı edin",
@@ -64,7 +64,7 @@
   "compare": "Uygulama karşılaştırmaları",
   "guidesDescription": "Bakımını değiştirmeden önce bitkini gözlemlemek için pratik notlar.",
   "plantsDescription": "Türlerine göre ev bitkileri.",
-  "journalDescription": "Bitkiler ve ortak bakım üzerine notlar.",
+  "blogDescription": "Bitki bakımı, mevsim listeleri ve ortak bakım üzerine yazılar.",
   "compareDescription": "Bitki uygulamaları için kaynaklı karşılaştırmalar.",
   "atAGlance": "Bir bakışta",
   "light": "Işık",
@@ -79,15 +79,43 @@
   "hubDescription": {
     "guides": "Sulama, ışık, saksı, zararlılar ve mevsim bakımı üzerine kaynaklı rehberler: bakımını değiştirmeden önce bitkini gözlemlemeyi öğren.",
     "plants": "Türlerine göre ev bitkisi profilleri: ışık, sulama, nem, sıcaklık, evcil hayvan bilgisi ve bakım zorluğu, kaynaklarıyla birlikte.",
-    "journal": "Bitkiler, ortak bakım ve Lilora’nın neden “sula” yerine “kontrol et” dediği üzerine notlar; mevsim listeleri ve taşınma ipuçları.",
+    "blog": "Bitki bakımı üzerine kaynaklı yazılar: kahverengi uçlar, toprakta küf, saksı seçimi, musluk suyu, bitki lambaları, bitki seçimi ve mevsim listeleri.",
     "compare": "Bitki bakım uygulamalarının kaynaklı karşılaştırmaları: hatırlatmalar, ortak kayıtlar, bitki tanıma ve fiyat modelleri, dürüst notlarla."
   },
   "hubTitles": {
     "guides": "Bitki bakım rehberleri",
     "plants": "Bitki kütüphanesi",
-    "journal": "Bitki günlüğü",
+    "blog": "Lilora Blog: bitki bakımı yazıları",
     "compare": "Bitki uygulaması karşılaştırmaları"
   },
   "backToTop": "Başa dön",
-  "feedTitle": "Lilora: bitki bakım rehberleri ve günlük"
+  "feedTitle": "Lilora: bitki bakım rehberleri ve blog",
+  "summarizeWith": "Yapay zekâyla özetle:",
+  "summarizePrompt": "Lütfen lilora.app'teki bu yazıyı oku ve ana noktalarını Türkçe özetle: {url}",
+  "summarizeNote": "Bağlantı seçtiğin hizmeti yeni sekmede açar; o hizmetin kendi koşulları geçerlidir.",
+  "blogFeatured": "Öne çıkan yazı",
+  "blogLatest": "Yeni yazılar",
+  "blogAll": "Tüm yazılar",
+  "blogGuidesTitle": "Kapsamlı bakım rehberleri",
+  "blogGuidesIntro": "Daha uzun, adım adım anlatılan konular için rehberlere göz at.",
+  "blogTopics": "Konular",
+  "blogCategories": {
+    "problems": "Sorun çözme",
+    "basics": "Bakım temelleri",
+    "home": "Ev ve mevsimler",
+    "notes": "Lilora notları"
+  },
+  "minRead": "{n} dk okuma",
+  "guidesStart": "Buradan başla",
+  "blogFrom": "Blogdan",
+  "guideCategories": {
+    "water": "Sulama ve kökler",
+    "environment": "Işık ve ortam",
+    "growth": "Besleme ve çoğaltma",
+    "problems": "Sorun çözme",
+    "home": "Ev ve aile"
+  },
+  "commentsTitle": "Yorumlar",
+  "commentsLoad": "Yorumları göster",
+  "commentsNote": "Yorumlar Cusdis üzerinden çalışır ve yalnızca bu düğmeye bastığında yüklenir. Yorumlar yayımlanmadan önce onaylanır."
 }
