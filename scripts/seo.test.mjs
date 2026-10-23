@@ -176,6 +176,10 @@ test("home pages carry the Bing ownership meta tag", () => {
     assert.match(read(page), /<meta name="msvalidate\.01" content="1EC0BF8EFE417B237473AF8FD803D81B">/, page);
 });
 
+test("Yandex ownership file names its own code", () => {
+  assert.match(read("yandex_3a062d6cf4f7c29f.html"), /<body>Verification: 3a062d6cf4f7c29f<\/body>/);
+});
+
 test("IndexNow key file holds exactly its own name", () => {
   const files = readdirSync(".").filter((n) => /^[0-9a-f]{32}\.txt$/.test(n));
   assert.equal(files.length, 1);
@@ -216,7 +220,7 @@ test("robots.txt keeps one all-crawler group that allows public pages, assets an
     for (const [, url] of sitemaps[l].matchAll(/<(?:loc|image:loc)>https:\/\/lilora\.app([^<]*)<\//g)) paths.add(url);
   for (const f of pages)
     for (const [, url] of read(f).matchAll(/(?:href|src|srcset)="(\/[^"#? ,]*)/g)) paths.add(url);
-  for (const name of readdirSync(".").filter((n) => /^(google[0-9a-f]+\.html|[0-9a-f]{32}\.txt|BingSiteAuth\.xml|sitemap.*\.xml|feed\.xml|site\.webmanifest)$/.test(n)))
+  for (const name of readdirSync(".").filter((n) => /^(google[0-9a-f]+\.html|yandex_[0-9a-f]+\.html|[0-9a-f]{32}\.txt|BingSiteAuth\.xml|sitemap.*\.xml|feed\.xml|site\.webmanifest)$/.test(n)))
     paths.add("/" + name);
   for (const l of languages) paths.add(`${prefix(l)}feed.xml`);
   paths.add("/.well-known/security.txt");
