@@ -4,7 +4,7 @@ PictureThis mérite un examen si reconnaître les plantes et explorer des inform
 
 ## Ce que couvre cette comparaison
 
-Au 16 octobre 2026, Lilora est en attente d’examen sur l’App Store. PictureThis dispose d’une fiche publique sur l’App Store américain. Nous comparons des capacités documentées, pas la précision lors d’un test pratique. L’article est publié par Lilora, l’un des produits comparés. Fonctions, prix et offres peuvent changer. [PictureThis on the App Store](https://apps.apple.com/us/app/picturethis-plant-identifier/id1252497129)
+Au 16 octobre 2026, Lilora est en attente d’examen sur l’App Store. PictureThis dispose d’une fiche publique sur l’App Store américain. Nous comparons des capacités documentées, pas la précision lors d’un test pratique. L’article est publié par Lilora, l’un des produits comparés. Fonctions, prix et offres peuvent changer. [PictureThis sur l’App Store](https://apps.apple.com/us/app/picturethis-plant-identifier/id1252497129)
 
 ## Un nom n’est que le début de l’histoire d’une plante
 
@@ -16,7 +16,7 @@ Un résultat d’identification vous aide à enquêter sur un nom. Un carnet vou
 
 Lilora décrit des suggestions facultatives basées sur Pl@ntNet, à vérifier avant d’enregistrer ; photos, notes et historique ; des rappels pour vérifier d’abord ; et un foyer privé qui partage les fiches des plantes. Le diagnostic de maladies ne fait pas partie de la première version décrite. L’app est disponible en anglais et en turc. [Présentation de Lilora](https://lilora.app/fr/) · [Assistance Lilora](https://lilora.app/fr/support/)
 
-PictureThis décrit l’identification par photo, une collection et une liste d’envies, des rappels d’arrosage et d’engrais, des outils d’évaluation des problèmes et la consultation d’experts. Vérifiez ses options de partage actuelles selon vos besoins : une fonction que nos sources n’établissent pas n’est pas forcément absente. [PictureThis product page](https://www.picturethisai.com/app) · [FAQ](https://www.picturethisai.com/faq)
+PictureThis décrit l’identification par photo, une collection et une liste d’envies, des rappels d’arrosage et d’engrais, des outils d’évaluation des problèmes et la consultation d’experts. Vérifiez ses options de partage actuelles selon vos besoins : une fonction que nos sources n’établissent pas n’est pas forcément absente. [Page produit de PictureThis](https://www.picturethisai.com/app) · [FAQ](https://www.picturethisai.com/faq)
 
 ## Identification : comparer le processus, pas un chiffre accrocheur
 
@@ -24,13 +24,13 @@ Cet article ne classe pas la précision. Une comparaison de performance équitab
 
 Posez des questions pratiques : pouvez-vous vérifier un résultat avant de l’accepter ? Corriger un nom ? Tenir un historique sans relancer une identification ? Que se passe-t-il si l’image est floue ?
 
-Lilora permet une saisie manuelle gratuite de l’espèce et vous demande de vérifier les suggestions. La FAQ de PictureThis explique comment corriger une identification et précise qu’elle nécessite une connexion internet. Ces détails aident à organiser votre usage sans supposer que l’un ou l’autre reconnaît toujours une photo correctement. [Identification dans Lilora](https://lilora.app/fr/support/) · [PictureThis FAQ](https://www.picturethisai.com/faq)
+Lilora permet une saisie manuelle gratuite de l’espèce et vous demande de vérifier les suggestions. La FAQ de PictureThis explique comment corriger une identification et précise qu’elle nécessite une connexion internet. Ces détails aident à organiser votre usage sans supposer que l’un ou l’autre reconnaît toujours une photo correctement. [Identification dans Lilora](https://lilora.app/fr/support/) · [FAQ de PictureThis](https://www.picturethisai.com/faq)
 
-Ne prenez jamais le résultat d’une app comme une autorisation de manger une plante ou un champignon inconnu. La FAQ de PictureThis déconseille elle aussi de goûter des plantes inconnues sans aide professionnelle. [PictureThis safety guidance](https://www.picturethisai.com/faq)
+Ne prenez jamais le résultat d’une app comme une autorisation de manger une plante ou un champignon inconnu. La FAQ de PictureThis déconseille elle aussi de goûter des plantes inconnues sans aide professionnelle. [Conseils de sécurité de PictureThis](https://www.picturethisai.com/faq)
 
 ## L’entretien au quotidien : au-delà de l’appareil photo
 
-Il serait trompeur de présenter PictureThis comme un simple outil d’identification. Sa FAQ documente des rappels d’arrosage et d’engrais ; sa fiche décrit une collection. [PictureThis FAQ](https://www.picturethisai.com/faq) · [App Store description](https://apps.apple.com/us/app/picturethis-plant-identifier/id1252497129)
+Il serait trompeur de présenter PictureThis comme un simple outil d’identification. Sa FAQ documente des rappels d’arrosage et d’engrais ; sa fiche décrit une collection. [FAQ de PictureThis](https://www.picturethisai.com/faq) · [Description sur l’App Store](https://apps.apple.com/us/app/picturethis-plant-identifier/id1252497129)
 
 Lilora rassemble photos, notes et historique d’entretien dans un carnet qui peut appartenir à un foyer privé. Les fiches en mode invité restent sur l’appareil ; celles du foyer, une fois connecté, sont partagées avec les membres. Son approche « d’abord vérifier » vous invite à regarder avant de décider quoi enregistrer. [Données et entretien dans Lilora](https://lilora.app/fr/support/)
 
@@ -38,7 +38,7 @@ Pour votre propre évaluation, prenez une semaine ordinaire. Trouvez-vous vite u
 
 ## Comprendre l’offre payante avant de s’engager
 
-La fiche américaine de PictureThis liste plusieurs produits nommés « PictureThis Pro », dont certains à 39,99 US$. Le nom seul n’indique pas la période de facturation. Lisez l’offre affichée pour votre compte Apple. [PictureThis App Store listing](https://apps.apple.com/us/app/picturethis-plant-identifier/id1252497129)
+La fiche américaine de PictureThis liste plusieurs produits nommés « PictureThis Pro », dont certains à 39,99 US$. Le nom seul n’indique pas la période de facturation. Lisez l’offre affichée pour votre compte Apple. [Fiche App Store de PictureThis](https://apps.apple.com/us/app/picturethis-plant-identifier/id1252497129)
 
 Lilora décrit trois identifications au départ, un pack de 10 et un quota mensuel Plus de 30. La saisie manuelle reste disponible sans acheter d’identifications. Les prix régionaux sont affichés par Apple ; nous n’affirmons pas que Lilora coûte moins cher. [Achats dans Lilora](https://lilora.app/fr/support/)
 
