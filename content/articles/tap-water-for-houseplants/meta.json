@@ -44,5 +44,9 @@
   },
   "tr": {
     "description": "Normal musluk suyu çoğu ev bitkisi için uygundur. Yumuşatılmış su, klor, florür, kireç tuzları ya da soğuk su ne zaman sorun olur, onun yerine ne yapılır."
+  },
+  "es": {
+    "description": "El agua del grifo sirve a casi todas las plantas. Cuándo dan problemas el agua descalcificada, el cloro, el flúor, la cal o el agua fría, y qué hacer.",
+    "seoTitle": "¿Sirve el agua del grifo para las plantas?"
   }
 }

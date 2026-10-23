@@ -33,5 +33,9 @@
   "tr": {
     "description": "Ev bitkileri için basit bir lamba düzeni: hangi LED seçilmeli, yaprakların ne kadar üstüne asılmalı, günde kaç saat yanmalı ve zamanlayıcı neden önemli.",
     "seoTitle": "Ev bitkileri için bitki lambaları: başlangıç düzeni"
+  },
+  "es": {
+    "description": "Luz de cultivo sencilla: qué LED elegir, a qué distancia de las hojas, cuántas horas al día y por qué importan el temporizador y las noches oscuras.",
+    "seoTitle": "Luces de cultivo para plantas de interior"
   }
 }
