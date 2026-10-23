@@ -1407,11 +1407,53 @@
       "image": "/assets/brand/share/fr-blog--autumn-plant-reset.png"
     },
     {
+      "path": "/fr/blog/bottom-watering/",
+      "lang": "fr",
+      "title": "Arroser les plantes d’intérieur par le bas : quand ça aide, et quand non",
+      "description": "Comment arroser une plante par le bas, quelles plantes en profitent, combien de temps laisser le pot dans l’eau et pourquoi arroser aussi par le haut.",
+      "image": "/assets/brand/share/fr-blog--bottom-watering.png"
+    },
+    {
+      "path": "/fr/blog/brown-leaf-tips/",
+      "lang": "fr",
+      "title": "Pointes de feuilles brunes sur les plantes d’intérieur : ce qu’elles signifient le plus souvent",
+      "description": "Des pointes brunes et sèches viennent souvent d’un air sec, d’un arrosage irrégulier, de sels accumulés ou de l’eau du robinet. Comment trouver la cause.",
+      "image": "/assets/brand/share/fr-blog--brown-leaf-tips.png"
+    },
+    {
+      "path": "/fr/blog/buying-a-healthy-houseplant/",
+      "lang": "fr",
+      "title": "Choisir une plante d’intérieur en bonne santé et l’aider à s’installer chez vous",
+      "description": "Ce qu’il faut vérifier avant d’acheter une plante d’intérieur : feuilles, ravageurs, racines et pot. Puis comment l’isoler deux semaines à la maison.",
+      "image": "/assets/brand/share/fr-blog--buying-a-healthy-houseplant.png"
+    },
+    {
       "path": "/fr/blog/check-before-you-water/",
       "lang": "fr",
       "title": "Pourquoi les rappels de Lilora disent « vérifier » et non « arroser »",
       "description": "Un calendrier ne voit pas votre plante. Pourquoi Lilora rappelle de vérifier et distingue l’arrosage de la vérification sans eau.",
       "image": "/assets/brand/share/fr-blog--check-before-you-water.png"
+    },
+    {
+      "path": "/fr/blog/cleaning-houseplant-leaves/",
+      "lang": "fr",
+      "title": "Comment nettoyer les feuilles des plantes d’intérieur (et pourquoi c’est important)",
+      "description": "La poussière prive les plantes de lumière. Essuyer les grandes feuilles, rincer les petites plantes, brosser les feuilles poilues et éviter les lustrants.",
+      "image": "/assets/brand/share/fr-blog--cleaning-houseplant-leaves.png"
+    },
+    {
+      "path": "/fr/blog/do-houseplants-purify-air/",
+      "lang": "fr",
+      "title": "Les plantes d’intérieur purifient-elles vraiment l’air ?",
+      "description": "L’étude de la NASA derrière les plantes dépolluantes utilisait des chambres étanches. Ce qu’une revue de 2019 a montré pour les logements, et ce qui aide.",
+      "image": "/assets/brand/share/fr-blog--do-houseplants-purify-air.png"
+    },
+    {
+      "path": "/fr/blog/grow-lights-for-houseplants/",
+      "lang": "fr",
+      "title": "Lampes de croissance pour plantes d’intérieur : une installation simple pour débuter",
+      "description": "Une lampe de croissance simple : quelle LED, à quelle distance des feuilles, combien d’heures par jour, et pourquoi programmateur et nuits noires comptent.",
+      "image": "/assets/brand/share/fr-blog--grow-lights-for-houseplants.png"
     },
     {
       "path": "/fr/blog/keeping-a-plant-care-journal/",
@@ -1421,11 +1463,39 @@
       "image": "/assets/brand/share/fr-blog--keeping-a-plant-care-journal.png"
     },
     {
+      "path": "/fr/blog/leggy-houseplants/",
+      "lang": "fr",
+      "title": "Plantes d’intérieur qui s’étiolent : pourquoi elles s’étirent",
+      "description": "Des tiges longues et fines aux feuilles espacées signalent souvent un manque de lumière. Donnez plus de lumière, puis rabattez et bouturez les tiges.",
+      "image": "/assets/brand/share/fr-blog--leggy-houseplants.png"
+    },
+    {
+      "path": "/fr/blog/mold-on-houseplant-soil/",
+      "lang": "fr",
+      "title": "Moisissure blanche sur le terreau : est-ce dangereux ?",
+      "description": "Le duvet blanc sur le terreau est souvent un champignon inoffensif qui signale humidité et air stagnant. Le distinguer du sel, l’enlever et l’éviter.",
+      "image": "/assets/brand/share/fr-blog--mold-on-houseplant-soil.png"
+    },
+    {
       "path": "/fr/blog/moving-house-with-plants/",
       "lang": "fr",
       "title": "Déménager avec ses plantes",
       "description": "Intégrer ses plantes au déménagement : ravageurs, arrosage, emballage, transport, règles aux frontières et nouvelle lumière.",
       "image": "/assets/brand/share/fr-blog--moving-house-with-plants.png"
+    },
+    {
+      "path": "/fr/blog/tap-water-for-houseplants/",
+      "lang": "fr",
+      "title": "L’eau du robinet convient-elle aux plantes d’intérieur ?",
+      "description": "L’eau du robinet convient à la plupart des plantes. Quand l’eau adoucie, le chlore, le fluor, le calcaire ou l’eau froide posent problème, et que faire.",
+      "image": "/assets/brand/share/fr-blog--tap-water-for-houseplants.png"
+    },
+    {
+      "path": "/fr/blog/terracotta-vs-plastic-pots/",
+      "lang": "fr",
+      "title": "Pot en terre cuite ou en plastique : lequel choisir pour les plantes d’intérieur ?",
+      "description": "La terre cuite respire et sèche vite ; plastique et céramique émaillée gardent l’humidité. Quel pot pour quelle plante, et pourquoi le drainage prime.",
+      "image": "/assets/brand/share/fr-blog--terracotta-vs-plastic-pots.png"
     },
     {
       "path": "/fr/compare/",

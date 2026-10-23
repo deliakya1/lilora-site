@@ -45,5 +45,9 @@
   "pt": {
     "description": "A poeira tira luz das plantas. Como limpar folhas grandes, enxaguar plantas pequenas, escovar folhas peludas e por que evitar produtos de brilho.",
     "seoTitle": "Como limpar as folhas das plantas de interior"
+  },
+  "fr": {
+    "description": "La poussière prive les plantes de lumière. Essuyer les grandes feuilles, rincer les petites plantes, brosser les feuilles poilues et éviter les lustrants.",
+    "seoTitle": "Nettoyer les feuilles des plantes d’intérieur"
   }
 }

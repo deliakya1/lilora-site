@@ -56,5 +56,9 @@
   "pt": {
     "description": "A água da torneira serve para quase todas as plantas. Quando água amaciada, cloro, flúor, água dura ou água fria dão problema, e o que fazer.",
     "seoTitle": "Água da torneira serve para plantas?"
+  },
+  "fr": {
+    "description": "L’eau du robinet convient à la plupart des plantes. Quand l’eau adoucie, le chlore, le fluor, le calcaire ou l’eau froide posent problème, et que faire.",
+    "seoTitle": "L’eau du robinet convient-elle aux plantes ?"
   }
 }
