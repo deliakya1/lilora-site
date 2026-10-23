@@ -978,6 +978,9 @@ The Bing Webmaster Tools ownership file `BingSiteAuth.xml` (XML-file method, sup
 the owner the same day) is also at the root; keep it unchanged. The same Bing
 token is in the shared page head as `<meta name="msvalidate.01">` (meta-tag
 method, requested by the owner on 22 October 2026); keep it permanently.
+The Yandex Webmaster ownership file `yandex_3a062d6cf4f7c29f.html` (HTML-file
+method, supplied by the owner on 23 October 2026) is also at the root; keep it
+byte-exact and do not delete it.
 
 CI impact: one push and the existing GitHub Pages build/deploy after squash; one
 pinned dev dependency (`axe-core` 4.14.0) for local checks; no new workflow,
