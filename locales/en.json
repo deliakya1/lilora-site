@@ -5,7 +5,7 @@
   "close": "Close",
   "guides": "Plant care",
   "plants": "Plant library",
-  "journal": "Journal",
+  "blog": "Blog",
   "app": "The app",
   "support": "Support",
   "getApp": "Get the app",
@@ -64,7 +64,7 @@
   "compare": "App comparisons",
   "guidesDescription": "Practical notes on observing plants before changing their care.",
   "plantsDescription": "Houseplant profiles, organized by species.",
-  "journalDescription": "Notes on plants and shared care.",
+  "blogDescription": "Posts on plant care, seasonal checklists and shared care.",
   "compareDescription": "Source-backed comparisons of plant apps.",
   "atAGlance": "At a glance",
   "light": "Light",
@@ -79,15 +79,43 @@
   "hubDescription": {
     "guides": "Source-backed guides on watering, light, pots, pests and seasonal care, written to help you observe a plant before you change its care.",
     "plants": "Houseplant profiles organised by species: light, watering, humidity, temperature, pet information and care level, each with its sources.",
-    "journal": "Notes on plants and shared care: why Lilora’s reminders say “check”, seasonal checklists, moving house with plants and keeping a journal.",
+    "blog": "Source-backed posts on plant care: brown tips, soil mould, pots, tap water, grow lights, buying a healthy plant, seasonal checklists and shared care.",
     "compare": "Source-backed comparisons of plant care apps covering reminders, shared records, identification and pricing, with honest launch notes."
   },
   "hubTitles": {
     "guides": "Houseplant care guides",
     "plants": "Houseplant library",
-    "journal": "Plant journal",
+    "blog": "Lilora Blog: houseplant care posts",
     "compare": "Plant app comparisons"
   },
   "backToTop": "Back to top",
-  "feedTitle": "Lilora: plant care guides and journal"
+  "feedTitle": "Lilora: plant care guides and blog",
+  "summarizeWith": "Summarize with:",
+  "summarizePrompt": "Please read this article from lilora.app and summarize its key points: {url}",
+  "summarizeNote": "Each link opens that service in a new tab; its own terms apply.",
+  "blogFeatured": "Featured post",
+  "blogLatest": "Latest posts",
+  "blogAll": "All posts",
+  "blogGuidesTitle": "In-depth care guides",
+  "blogGuidesIntro": "For longer, step-by-step topics, browse the care guides.",
+  "blogTopics": "Topics",
+  "blogCategories": {
+    "problems": "Plant problems",
+    "basics": "Care basics",
+    "home": "Home and seasons",
+    "notes": "Lilora notes"
+  },
+  "minRead": "{n} min read",
+  "guidesStart": "Start here",
+  "blogFrom": "From the blog",
+  "guideCategories": {
+    "water": "Water and roots",
+    "environment": "Light and climate",
+    "growth": "Feeding and growing",
+    "problems": "Plant problems",
+    "home": "Home and family"
+  },
+  "commentsTitle": "Comments",
+  "commentsLoad": "Show comments",
+  "commentsNote": "Comments run on Cusdis and load only when you press this button. Comments are approved before they appear."
 }

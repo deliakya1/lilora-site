@@ -56,7 +56,7 @@ Only real article/plant translations receive reciprocal hreflang. `html lang` is
 `pt-BR` for `/pt/` and so is its hreflang (head, language links, sitemaps); x-default uses the English counterpart.
 Sitemap alternates use the XHTML namespace. Hubs contain their own-language items;
 when fewer than three exist, explicitly marked English fallback cards may appear.
-The journal lists `post` articles; guides and comparisons have their own hubs. New translations
+The blog (`/blog/`, formerly `/journal/`) lists `post` articles; guides and comparisons have their own hubs. New translations
 must not invent localized article URLs. The six-language 404 has no canonical or
 hreflang and does not automatically move the visitor.
 
@@ -1040,3 +1040,39 @@ warning; not changeable on Pages). Plant photos are single 720 px WebP files wit
 in parallel. The 40 ms guide TBT after the change is run-to-run noise on a page whose
 scripts were not otherwise changed. `npm test` has one failure (QR decode test)
 that also fails on unmodified main in this environment.
+
+## Maintenance — 23 October 2026 — blog, visual hubs and ten new posts
+
+- The journal is now the **Blog** in all six languages. Posts live at `/blog/<slug>/`
+  (Turkish at root, others under the language prefix). Every old `/journal/` URL is
+  listed in `content/redirects.json`; the build writes a small `noindex` page there with a
+  canonical link and an instant refresh to the new address, and the route guard accepts
+  a removed URL only when it has a reviewed redirect. Redirect pages are excluded from
+  the page crawls in the tests. Locale keys `journal*` became `blog*`.
+- Blog and guide hubs share one visual layout (`visualHub` in `scripts/build.mjs`): hero
+  with topic links, a featured card beside the latest posts (blog) or "Start here" guides,
+  one image-card section per topic, then a pointer to the other hub. Topics come from
+  `category` in each article's `meta.json` (`blogCategories` / `guideCategories` in the
+  locales). `featured: true` pins a post to the hero. Cards show a reading time.
+- Covers: `scripts/covers.mjs` hand-codes one herbarium-style SVG plate (1200×675) per
+  post and guide in the approved palette. They are drawn in code, not generated images,
+  carry no text and are decorative (`alt=""`, `aria-hidden`). A new post or guide needs
+  a cover entry there; without one the card simply has no image.
+- Posts and guides show a "Summarize with" row: plain links to ChatGPT, Claude, Perplexity,
+  Google AI Mode and Grok with a visible, localized prompt naming the canonical URL.
+  No script, no tracking, nothing hidden.
+- Comments: Cusdis (Umut's choice, 23 October 2026). `content/comments.json` holds the
+  public app ID; while it is empty nothing renders. With an ID, posts get a "Show
+  comments" button; `assets/comments.js` loads the Cusdis script only after that click.
+  Comments are approved in Cusdis before they appear. Update the privacy pages in the
+  same change that adds the ID.
+- Ten new posts in English and Turkish (23 October 2026), each with institutional sources
+  cited inline: brown-leaf-tips, mold-on-houseplant-soil, leggy-houseplants,
+  cleaning-houseplant-leaves, grow-lights-for-houseplants, tap-water-for-houseplants,
+  bottom-watering, terracotta-vs-plastic-pots, buying-a-healthy-houseplant,
+  do-houseplants-purify-air. Posts may ship in EN+TR first; guides and comparisons still
+  require all six languages (`scripts/plants.test.mjs`). ES/DE/PT/FR versions of the new
+  posts are a follow-up.
+- Known, unrelated: `scripts/foundation-check.cjs` already failed on `main` before this
+  change (it expects the mobile-menu CTA to be `app-info`; the header CTA is `header`
+  since SEO-10).

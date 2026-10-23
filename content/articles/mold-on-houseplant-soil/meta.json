@@ -1,0 +1,36 @@
+{
+  "slug": "mold-on-houseplant-soil",
+  "type": "post",
+  "category": "problems",
+  "published": "2026-10-23",
+  "reviewed": "2026-10-23",
+  "sources": [
+    {
+      "name": "UF/IFAS: a basic guide to mushrooms commonly encountered in potted plants",
+      "url": "https://ask.ifas.ufl.edu/publication/PP377"
+    },
+    {
+      "name": "Iowa State University Extension: will mold on peat pots harm seedlings?",
+      "url": "https://yardandgarden.extension.iastate.edu/faq/will-mold-peat-pots-harm-my-flower-and-vegetable-seedlings"
+    },
+    {
+      "name": "Colorado State University Extension: leaching salts from potting mixes",
+      "url": "https://planttalk.colostate.edu/topics/houseplants/1339-leaching-salts-potting-mixes/"
+    },
+    {
+      "name": "Missouri Botanical Garden: slime molds",
+      "url": "https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/insects-pests-and-problems/diseases/slime-molds"
+    }
+  ],
+  "related": [
+    "root-rot",
+    "watering-houseplants",
+    "tap-water-for-houseplants"
+  ],
+  "en": {
+    "description": "White fuzz on potting mix is usually a harmless fungus that signals wet, still conditions. How to tell it from salt crust, remove it and prevent it."
+  },
+  "tr": {
+    "description": "Saksı toprağındaki beyaz pamuksu tabaka genellikle ıslak ve havasız koşulları gösteren zararsız bir mantardır. Tuz kabuğundan ayırt et, temizle, önle."
+  }
+}

@@ -2,6 +2,7 @@
   {
     "slug": "autumn-plant-reset",
     "type": "post",
+    "category": "home",
     "published": "2026-10-22",
     "reviewed": "2026-10-22",
     "sources": [
@@ -228,8 +229,304 @@
     }
   },
   {
+    "slug": "bottom-watering",
+    "type": "post",
+    "category": "basics",
+    "published": "2026-10-23",
+    "reviewed": "2026-10-23",
+    "sources": [
+      {
+        "name": "University of Maryland Extension: watering indoor plants",
+        "url": "https://extension.umd.edu/resource/watering-indoor-plants"
+      },
+      {
+        "name": "Colorado State University Extension: watering houseplants",
+        "url": "https://planttalk.colostate.edu/topics/houseplants/1318-houseplants-watering/"
+      },
+      {
+        "name": "Iowa State University Extension: all about African violets",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/all-about-african-violets"
+      },
+      {
+        "name": "University of Wisconsin–Madison Extension: houseplant care",
+        "url": "https://hort.extension.wisc.edu/articles/houseplant-care/"
+      },
+      {
+        "name": "University of Maryland Extension: fertilizer toxicity or high soluble salts in indoor plants",
+        "url": "https://extension.umd.edu/resource/fertilizer-toxicity-or-high-soluble-salts-indoor-plants"
+      }
+    ],
+    "related": [
+      "watering-houseplants",
+      "tap-water-for-houseplants",
+      "root-rot"
+    ],
+    "en": {
+      "description": "How to bottom water a houseplant, which plants benefit, how long to leave the pot in water, and why you should still water from the top now and then.",
+      "seoTitle": "Bottom watering houseplants: when it helps",
+      "title": "Bottom watering houseplants: when it helps and when it doesn't",
+      "answerHtml": "<p>Bottom watering means standing the pot in a saucer or bowl of water so the mix soaks it up through the drainage holes. It is handy for plants whose leaves should stay dry, such as African violets, and for mix that has dried out so much that water runs straight through. Lift the pot out once the surface feels moist, usually after 20–30 minutes, and never leave it standing in water. Because no water flushes through, salts can build up, so water from the top now and then to rinse them out. <a href=\"https://extension.umd.edu/resource/watering-indoor-plants\">University of Maryland Extension: watering indoor plants</a></p>",
+      "answer": "Bottom watering means standing the pot in a saucer or bowl of water so the mix soaks it up through the drainage holes. It is handy for plants whose leaves should stay dry, such as African violets, and for mix that has dried out so much that water runs straight through. Lift the pot out once the surface feels moist, usually after 20–30 minutes, and never leave it standing in water. Because no water flushes through, salts can build up, so water from the top now and then to rinse them out. University of Maryland Extension: watering indoor plants",
+      "sections": [
+        {
+          "title": "How to do it",
+          "html": "<ol><li>Check that the plant actually needs water: push a finger into the mix and lift the pot. Our guide to <a href=\"/en/guides/watering-houseplants/\">watering houseplants without a rigid schedule</a> explains the check.</li><li>Fill a saucer, bowl or sink with a few centimetres of room-temperature water.</li><li>Stand the pot in it. The pot must have a drainage hole.</li><li>Wait until the surface of the mix feels damp. University of Wisconsin–Madison Extension suggests 20 to 30 minutes for African violets before removing any excess water. <a href=\"https://hort.extension.wisc.edu/articles/houseplant-care/\">University of Wisconsin–Madison Extension: houseplant care</a></li><li>Lift the pot out, let it drain and pour away what is left.</li></ol>\n<p>The University of Maryland describes the same method: water is absorbed and drawn up into the mix, and leftover water is poured out. <a href=\"https://extension.umd.edu/resource/watering-indoor-plants\">University of Maryland Extension: watering indoor plants</a></p>"
+        },
+        {
+          "title": "When bottom watering helps",
+          "html": "<ul><li><strong>Plants that dislike wet leaves.</strong> Iowa State notes that African violets are often watered this way, because water left on the leaves, especially cold water, causes discoloured spots. <a href=\"https://yardandgarden.extension.iastate.edu/how-to/all-about-african-violets\">Iowa State University Extension: all about African violets</a></li><li><strong>Very dry, shrunken mix.</strong> When peat-based mix dries out completely, it can pull away from the pot so water poured on top runs down the sides. A soak from below rewets it evenly.</li><li><strong>Rosette plants</strong> whose crowns rot if water sits in the centre.</li></ul>"
+        },
+        {
+          "title": "The drawbacks",
+          "html": "<p>Colorado State University Extension says that, generally speaking, it is better to water from the top, because subirrigation can lead to soluble salts accumulating in and on the surface of the mix. High salt levels reduce water uptake and root growth. <a href=\"https://planttalk.colostate.edu/topics/houseplants/1318-houseplants-watering/\">Colorado State University Extension: watering houseplants</a> The University of Maryland also notes that fertiliser salts can collect as a white crust on the surface, especially on bottom-watered plants. <a href=\"https://extension.umd.edu/resource/fertilizer-toxicity-or-high-soluble-salts-indoor-plants\">University of Maryland Extension: fertilizer toxicity or high soluble salts</a></p>\n<p>The fix is simple: if you mostly water from below, water thoroughly from the top every so often and let it drain, so the excess salts wash out. <a href=\"https://planttalk.colostate.edu/topics/houseplants/1318-houseplants-watering/\">Colorado State University Extension: watering houseplants</a> Our post on <a href=\"/en/blog/tap-water-for-houseplants/\">tap water for houseplants</a> covers how often to flush.</p>"
+        },
+        {
+          "title": "Don't leave it soaking",
+          "html": "<p>The commonest mistake is forgetting the pot in the water. Iowa State warns that plants should not stay in saucers of water for long periods, as they may rot, and that the top 2–3 cm of mix should dry before the next soak. <a href=\"https://yardandgarden.extension.iastate.edu/how-to/all-about-african-violets\">Iowa State University Extension: all about African violets</a> Constantly wet roots run short of air; see <a href=\"/en/guides/root-rot/\">root rot in houseplants</a> if a plant wilts in wet mix.</p>"
+        },
+        {
+          "title": "Combining both methods",
+          "html": "<p>A practical routine for plants you usually water from below:</p>\n<ul><li>Bottom water when the top of the mix is dry, and lift the pot out once the surface is damp.</li><li>Every few months, take the plant to the sink and water from the top until water runs out of the bottom. The University of Maryland suggests using at least twice the pot's volume and leaching every four to six months. <a href=\"https://extension.umd.edu/resource/watering-indoor-plants\">University of Maryland Extension: watering indoor plants</a></li><li>Flush before you feed, so fertiliser does not land on top of old salts. <a href=\"https://extension.umd.edu/resource/watering-indoor-plants\">University of Maryland Extension: watering indoor plants</a></li><li>If a white crust appears on the surface, scrape it off and flush sooner.</li></ul>"
+        },
+        {
+          "title": "Common questions",
+          "html": "<h3>Is bottom watering better than top watering?</h3>\n<p>Not in general. Top watering is simpler and flushes salts. Bottom watering is a useful tool for specific plants and situations.</p>\n<h3>How do I know the plant has taken up enough?</h3>\n<p>The surface of the mix turns darker and feels damp, and the pot feels noticeably heavier when you lift it.</p>\n<h3>Can I bottom water several plants in one tray?</h3>\n<p>You can, but if one plant has pests or disease, shared water can spread problems. Use a separate container for any plant you are unsure about.</p>"
+        }
+      ]
+    },
+    "tr": {
+      "description": "Ev bitkisi alttan nasıl sulanır, hangi bitkiler bundan yararlanır, saksı suda ne kadar kalmalı ve neden ara sıra yine de üstten sulamak gerekir.",
+      "seoTitle": "Ev bitkilerini alttan sulamak: ne zaman işe yarar",
+      "title": "Ev bitkilerini alttan sulamak: ne zaman işe yarar, ne zaman yaramaz",
+      "answerHtml": "<p>Alttan sulama, saksıyı su dolu bir altlığa ya da kaba koyup toprağın suyu drenaj deliklerinden çekmesini sağlamaktır. Yaprakları kuru kalması gereken Afrika menekşesi gibi bitkiler ve suyun içinden doğrudan akıp gittiği kadar kurumuş topraklar için kullanışlıdır. Toprağın yüzeyi nemlenince, genellikle 20–30 dakika sonra, saksıyı sudan çıkar ve asla suyun içinde bekletme. İçinden su geçip yıkamadığı için tuzlar birikebilir; bu yüzden ara sıra üstten sulayarak onları yıka. <a href=\"https://extension.umd.edu/resource/watering-indoor-plants\">Maryland Üniversitesi Extension: iç mekân bitkilerini sulamak</a></p>",
+      "answer": "Alttan sulama, saksıyı su dolu bir altlığa ya da kaba koyup toprağın suyu drenaj deliklerinden çekmesini sağlamaktır. Yaprakları kuru kalması gereken Afrika menekşesi gibi bitkiler ve suyun içinden doğrudan akıp gittiği kadar kurumuş topraklar için kullanışlıdır. Toprağın yüzeyi nemlenince, genellikle 20–30 dakika sonra, saksıyı sudan çıkar ve asla suyun içinde bekletme. İçinden su geçip yıkamadığı için tuzlar birikebilir; bu yüzden ara sıra üstten sulayarak onları yıka. Maryland Üniversitesi Extension: iç mekân bitkilerini sulamak",
+      "sections": [
+        {
+          "title": "Nasıl yapılır?",
+          "html": "<ol><li>Bitkinin gerçekten suya ihtiyacı olduğunu kontrol et: parmağını toprağa bastır ve saksıyı kaldır. Kontrolü <a href=\"/guides/watering-houseplants/\">ev bitkilerini sabit bir takvime bağlı kalmadan sulamak</a> rehberi anlatıyor.</li><li>Bir altlığa, kaseye ya da lavaboya birkaç santim oda sıcaklığında su koy.</li><li>Saksıyı içine yerleştir. Saksının mutlaka drenaj deliği olmalı.</li><li>Toprağın yüzeyi nemli hissedilene kadar bekle. Wisconsin–Madison Üniversitesi Extension, Afrika menekşeleri için fazla suyu almadan önce 20 ila 30 dakika öneriyor. <a href=\"https://hort.extension.wisc.edu/articles/houseplant-care/\">Wisconsin–Madison Üniversitesi Extension: ev bitkisi bakımı</a></li><li>Saksıyı çıkar, süzülmesini bekle ve kalan suyu dök.</li></ol>\n<p>Maryland Üniversitesi de aynı yöntemi anlatıyor: su emilip toprağa çekilir, kalan su dökülür. <a href=\"https://extension.umd.edu/resource/watering-indoor-plants\">Maryland Üniversitesi Extension: iç mekân bitkilerini sulamak</a></p>"
+        },
+        {
+          "title": "Alttan sulama ne zaman yararlı?",
+          "html": "<ul><li><strong>Islak yaprak sevmeyen bitkiler.</strong> Iowa State, Afrika menekşelerinin çoğunlukla bu şekilde sulandığını, çünkü yapraklarda kalan suyun, özellikle soğuk suyun, renksiz lekelere yol açtığını belirtiyor. <a href=\"https://yardandgarden.extension.iastate.edu/how-to/all-about-african-violets\">Iowa State Üniversitesi Extension: Afrika menekşeleri hakkında</a></li><li><strong>Çok kuru, büzülmüş toprak.</strong> Torf bazlı toprak tamamen kuruyunca saksının kenarından ayrılabilir; üstten dökülen su kenarlardan akıp gider. Alttan bekletmek toprağı eşit şekilde yeniden ıslatır.</li><li>Ortasında su kalırsa göbeği çürüyen <strong>rozet bitkiler</strong>.</li></ul>"
+        },
+        {
+          "title": "Dezavantajları",
+          "html": "<p>Colorado State Üniversitesi Extension, genel olarak üstten sulamanın daha iyi olduğunu, çünkü alttan sulamanın toprağın içinde ve yüzeyinde çözünür tuzların birikmesine yol açabileceğini söylüyor. Yüksek tuz düzeyi su alımını ve kök büyümesini azaltır. <a href=\"https://planttalk.colostate.edu/topics/houseplants/1318-houseplants-watering/\">Colorado State Üniversitesi Extension: ev bitkilerini sulamak</a> Maryland Üniversitesi de gübre tuzlarının özellikle alttan sulanan bitkilerde yüzeyde beyaz bir kabuk olarak toplanabileceğini belirtiyor. <a href=\"https://extension.umd.edu/resource/fertilizer-toxicity-or-high-soluble-salts-indoor-plants\">Maryland Üniversitesi Extension: gübre zehirlenmesi ve yüksek çözünür tuzlar</a></p>\n<p>Çözümü basit: çoğunlukla alttan suluyorsan, fazla tuzlar yıkansın diye ara sıra üstten bol su verip süzülmesini bekle. <a href=\"https://planttalk.colostate.edu/topics/houseplants/1318-houseplants-watering/\">Colorado State Üniversitesi Extension: ev bitkilerini sulamak</a> Ne sıklıkla yıkayacağını <a href=\"/blog/tap-water-for-houseplants/\">ev bitkileri için musluk suyu</a> yazısı anlatıyor.</p>"
+        },
+        {
+          "title": "Suda unutma",
+          "html": "<p>En sık yapılan hata saksıyı suyun içinde unutmaktır. Iowa State, bitkilerin çürüyebileceği için uzun süre su dolu altlıklarda kalmaması gerektiği ve bir sonraki alttan sulamadan önce toprağın üstteki 2–3 cm'sinin kuruması gerektiği konusunda uyarıyor. <a href=\"https://yardandgarden.extension.iastate.edu/how-to/all-about-african-violets\">Iowa State Üniversitesi Extension: Afrika menekşeleri hakkında</a> Sürekli ıslak kökler havasız kalır; ıslak toprakta pörsüyen bir bitki için <a href=\"/guides/root-rot/\">ev bitkilerinde kök çürüklüğü</a> rehberine bak.</p>"
+        },
+        {
+          "title": "İki yöntemi birlikte kullanmak",
+          "html": "<p>Genellikle alttan suladığın bitkiler için pratik bir rutin:</p>\n<ul><li>Toprağın üstü kuruyunca alttan sula ve yüzey nemlenince saksıyı sudan çıkar.</li><li>Birkaç ayda bir bitkiyi lavaboya götür ve su alttan akana kadar üstten sula. Maryland Üniversitesi saksının en az iki katı hacimde su kullanmayı ve bu yıkamayı dört ila altı ayda bir yapmayı öneriyor. <a href=\"https://extension.umd.edu/resource/watering-indoor-plants\">Maryland Üniversitesi Extension: iç mekân bitkilerini sulamak</a></li><li>Gübre eski tuzların üstüne binmesin diye beslemeden önce yıka. <a href=\"https://extension.umd.edu/resource/watering-indoor-plants\">Maryland Üniversitesi Extension: iç mekân bitkilerini sulamak</a></li><li>Yüzeyde beyaz bir kabuk belirirse kazı ve yıkamayı öne al.</li></ul>"
+        },
+        {
+          "title": "Sık sorulan sorular",
+          "html": "<h3>Alttan sulama üstten sulamadan daha mı iyi?</h3>\n<p>Genel olarak hayır. Üstten sulama daha basittir ve tuzları yıkar. Alttan sulama belirli bitkiler ve durumlar için yararlı bir araçtır.</p>\n<h3>Bitkinin yeterince su çektiğini nasıl anlarım?</h3>\n<p>Toprağın yüzeyi koyulaşır ve nemli hissedilir; saksıyı kaldırdığında belirgin biçimde ağırlaşmıştır.</p>\n<h3>Birkaç bitkiyi aynı tepside alttan sulayabilir miyim?</h3>\n<p>Sulayabilirsin, ama bitkilerden birinde zararlı ya da hastalık varsa ortak su sorunu yayabilir. Emin olmadığın bitkiler için ayrı bir kap kullan.</p>"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "brown-leaf-tips",
+    "type": "post",
+    "category": "problems",
+    "featured": true,
+    "published": "2026-10-23",
+    "reviewed": "2026-10-23",
+    "sources": [
+      {
+        "name": "Iowa State University Extension: brown leaf tips and edges",
+        "url": "https://yardandgarden.extension.iastate.edu/faq/why-does-my-houseplant-have-brown-leaf-tips-and-edges"
+      },
+      {
+        "name": "Clemson HGIC: houseplant diseases and disorders",
+        "url": "https://hgic.clemson.edu/factsheet/houseplant-diseases-disorders/"
+      },
+      {
+        "name": "Colorado State University Extension: leaching salts from potting mixes",
+        "url": "https://planttalk.colostate.edu/topics/houseplants/1339-leaching-salts-potting-mixes/"
+      },
+      {
+        "name": "University of Maryland Extension: fertilizer toxicity or high soluble salts in indoor plants",
+        "url": "https://extension.umd.edu/resource/fertilizer-toxicity-or-high-soluble-salts-indoor-plants"
+      }
+    ],
+    "related": [
+      "tap-water-for-houseplants",
+      "houseplant-humidity",
+      "fertilizing-houseplants"
+    ],
+    "plants": [
+      "chlorophytum-comosum",
+      "goeppertia"
+    ],
+    "en": {
+      "description": "Brown, crispy leaf tips usually point to dry air, uneven watering, salt build-up or sensitive plants reacting to tap water. How to find which, and fix it.",
+      "title": "Brown leaf tips on houseplants: what they usually mean",
+      "answerHtml": "<p>Brown, crispy tips and edges are one of the most common houseplant complaints, and they rarely have a single cause. The usual suspects are dry indoor air, uneven watering, a build-up of fertiliser salts, and, for a few sensitive plants, chemicals in tap water. Trimming the brown part tidies the leaf, but new tips will brown too unless you find and change what caused it. <a href=\"https://yardandgarden.extension.iastate.edu/faq/why-does-my-houseplant-have-brown-leaf-tips-and-edges\">Iowa State University Extension: brown leaf tips and edges</a></p>",
+      "answer": "Brown, crispy tips and edges are one of the most common houseplant complaints, and they rarely have a single cause. The usual suspects are dry indoor air, uneven watering, a build-up of fertiliser salts, and, for a few sensitive plants, chemicals in tap water. Trimming the brown part tidies the leaf, but new tips will brown too unless you find and change what caused it. Iowa State University Extension: brown leaf tips and edges",
+      "sections": [
+        {
+          "title": "Start with the pattern, not the leaf",
+          "html": "<p>Before changing anything, look at the whole plant for a minute:</p>\n<ul><li>Are the brown tips on old leaves, new leaves or both?</li><li>Is the browning dry and papery, or soft and dark?</li><li>Is there a white or grey crust on the potting mix or around the rim of the pot?</li><li>Has anything changed lately: a radiator switched on, a new spot, a new fertiliser, a different water?</li></ul>\n<p>Soft, dark browning together with a pot that stays wet points towards the roots rather than the air; our guide to <a href=\"/en/guides/root-rot/\">root rot in houseplants</a> covers that case. The rest of this post is about the dry, crispy kind.</p>"
+        },
+        {
+          "title": "Dry air and heating",
+          "html": "<p>Iowa State University Extension calls low humidity the most likely cause, especially in winter when heating dries indoor air. <a href=\"https://yardandgarden.extension.iastate.edu/faq/why-does-my-houseplant-have-brown-leaf-tips-and-edges\">Iowa State University Extension: brown leaf tips and edges</a> Clemson's Home &amp; Garden Information Center also links brown tips and margins to hot, dry air. <a href=\"https://hgic.clemson.edu/factsheet/houseplant-diseases-disorders/\">Clemson HGIC: houseplant diseases and disorders</a></p>\n<p>The practical fixes are simple: move plants away from radiators and heating vents, group them together, and consider a humidifier for thin-leaved plants. Misting feels helpful but changes very little; our guide to <a href=\"/en/guides/houseplant-humidity/\">humidity for houseplants</a> explains why.</p>"
+        },
+        {
+          "title": "Uneven watering",
+          "html": "<p>Letting a plant dry out too far between waterings also browns tips and edges. <a href=\"https://yardandgarden.extension.iastate.edu/faq/why-does-my-houseplant-have-brown-leaf-tips-and-edges\">Iowa State University Extension: brown leaf tips and edges</a> This often happens with a long gap followed by a big drink, or with small pots on a sunny sill that dry out in a day or two. Check the mix with a finger and lift the pot to feel its weight; <a href=\"/en/guides/watering-houseplants/\">how to water houseplants without a rigid schedule</a> walks through the routine.</p>"
+        },
+        {
+          "title": "Salt build-up from fertiliser and hard water",
+          "html": "<p>Fertiliser and some tap water leave dissolved salts behind as the mix dries. Over time these salts can damage root tips, and the typical symptom is browning or dieback of leaf tips and margins. <a href=\"https://extension.umd.edu/resource/fertilizer-toxicity-or-high-soluble-salts-indoor-plants\">University of Maryland Extension: fertilizer toxicity or high soluble salts</a> A whitish crust on the mix or the rim of the pot is the visible clue. <a href=\"https://planttalk.colostate.edu/topics/houseplants/1339-leaching-salts-potting-mixes/\">Colorado State University Extension: leaching salts from potting mixes</a></p>\n<p>To flush salts, Colorado State suggests removing the crust and the top 1–2 cm of mix, then filling the pot to the rim with tepid water in a sink and letting it drain completely, a couple of times over. <a href=\"https://planttalk.colostate.edu/topics/houseplants/1339-leaching-salts-potting-mixes/\">Colorado State University Extension: leaching salts from potting mixes</a> Then feed less, or more diluted; see <a href=\"/en/guides/fertilizing-houseplants/\">feeding houseplants</a>.</p>"
+        },
+        {
+          "title": "Water-sensitive plants",
+          "html": "<p>Some plants react to chlorine, fluoride and other chemicals in tap water over time. Iowa State names spider plant, ti plant, dracaena, prayer plant and calathea as examples. <a href=\"https://yardandgarden.extension.iastate.edu/faq/why-does-my-houseplant-have-brown-leaf-tips-and-edges\">Iowa State University Extension: brown leaf tips and edges</a> If one of these keeps browning while your other plants are fine, try a different water source for a few months. Our post on <a href=\"/en/blog/tap-water-for-houseplants/\">tap water for houseplants</a> goes into the options.</p>"
+        },
+        {
+          "title": "Common questions",
+          "html": "<h3>Should I cut off the brown tips?</h3>\n<p>You can. Use clean, sharp scissors and follow the leaf's natural shape, leaving a thin line of brown so you do not cut into healthy tissue. It is cosmetic only.</p>\n<h3>Will the brown parts turn green again?</h3>\n<p>No. Damaged tissue stays brown. Judge your changes by the new leaves that grow over the next month or two.</p>\n<h3>Is one brown tip a reason to worry?</h3>\n<p>Usually not. An occasional brown tip on an old leaf is normal. Look for a pattern across many leaves before you change the plant's care.</p>"
+        }
+      ]
+    },
+    "tr": {
+      "description": "Kuru, kahverengi yaprak uçları genellikle kuru havaya, düzensiz sulamaya, tuz birikimine ya da musluk suyuna hassasiyete işaret eder. Nedeni bul ve düzelt.",
+      "seoTitle": "Kahverengi yaprak uçları: genellikle ne anlama gelir",
+      "title": "Ev bitkilerinde kahverengi yaprak uçları: genellikle ne anlama gelir",
+      "answerHtml": "<p>Kahverengi, kuru ve gevrek yaprak uçları ev bitkilerinde en sık görülen şikâyetlerden biridir ve nadiren tek bir nedeni vardır. Olağan şüpheliler kuru iç ortam havası, düzensiz sulama, gübre tuzlarının birikmesi ve bazı hassas bitkiler için musluk suyundaki kimyasallardır. Kahverengi kısmı kesmek yaprağı toparlar, ama nedeni bulup değiştirmezsen yeni uçlar da kahverengileşir. <a href=\"https://yardandgarden.extension.iastate.edu/faq/why-does-my-houseplant-have-brown-leaf-tips-and-edges\">Iowa State Üniversitesi Extension: kahverengi yaprak uçları ve kenarları</a></p>",
+      "answer": "Kahverengi, kuru ve gevrek yaprak uçları ev bitkilerinde en sık görülen şikâyetlerden biridir ve nadiren tek bir nedeni vardır. Olağan şüpheliler kuru iç ortam havası, düzensiz sulama, gübre tuzlarının birikmesi ve bazı hassas bitkiler için musluk suyundaki kimyasallardır. Kahverengi kısmı kesmek yaprağı toparlar, ama nedeni bulup değiştirmezsen yeni uçlar da kahverengileşir. Iowa State Üniversitesi Extension: kahverengi yaprak uçları ve kenarları",
+      "sections": [
+        {
+          "title": "Yaprağa değil, desene bak",
+          "html": "<p>Bir şeyi değiştirmeden önce bir dakika bitkinin tamamına bak:</p>\n<ul><li>Kahverengi uçlar eski yapraklarda mı, yeni yapraklarda mı, yoksa ikisinde de mi?</li><li>Kahverengilik kuru ve kâğıt gibi mi, yoksa yumuşak ve koyu mu?</li><li>Toprağın üstünde ya da saksı kenarında beyaz veya gri bir kabuk var mı?</li><li>Son zamanlarda bir şey değişti mi: kalorifer açıldı mı, bitkinin yeri, gübresi ya da suyu değişti mi?</li></ul>\n<p>Yumuşak ve koyu kahverengilik, sürekli ıslak kalan bir saksıyla birlikteyse sorun havadan çok köklerde olabilir; bu durumu <a href=\"/guides/root-rot/\">ev bitkilerinde kök çürüklüğü</a> rehberi anlatıyor. Bu yazının geri kalanı kuru, gevrek türle ilgili.</p>"
+        },
+        {
+          "title": "Kuru hava ve ısıtma",
+          "html": "<p>Iowa State Üniversitesi Extension en olası nedenin düşük nem olduğunu söylüyor; özellikle ısıtmanın iç havayı kuruttuğu kış aylarında. <a href=\"https://yardandgarden.extension.iastate.edu/faq/why-does-my-houseplant-have-brown-leaf-tips-and-edges\">Iowa State Üniversitesi Extension: kahverengi yaprak uçları ve kenarları</a> Clemson Üniversitesi Ev ve Bahçe Bilgi Merkezi de kahverengi uçları ve kenarları sıcak, kuru havaya bağlıyor. <a href=\"https://hgic.clemson.edu/factsheet/houseplant-diseases-disorders/\">Clemson HGIC: ev bitkisi hastalıkları ve bozuklukları</a></p>\n<p>Pratik çözümler basit: bitkileri kalorifer peteklerinden ve sıcak hava çıkışlarından uzaklaştır, bir araya topla ve ince yapraklı bitkiler için bir nemlendirici düşün. Su püskürtmek yararlı gibi gelir ama çok az şey değiştirir; nedenini <a href=\"/guides/houseplant-humidity/\">ev bitkileri için nem</a> rehberi açıklıyor.</p>"
+        },
+        {
+          "title": "Düzensiz sulama",
+          "html": "<p>Bitkinin iki sulama arasında fazla kurumasına izin vermek de uçları ve kenarları kahverengileştirir. <a href=\"https://yardandgarden.extension.iastate.edu/faq/why-does-my-houseplant-have-brown-leaf-tips-and-edges\">Iowa State Üniversitesi Extension: kahverengi yaprak uçları ve kenarları</a> Bu genellikle uzun bir aradan sonra bol sulandığında ya da güneşli pencere önündeki küçük saksılar bir iki günde kuruduğunda olur. Toprağı parmağınla kontrol et ve saksıyı kaldırıp ağırlığını hisset; rutini <a href=\"/guides/watering-houseplants/\">ev bitkilerini sabit bir takvime bağlı kalmadan sulamak</a> rehberi adım adım anlatıyor.</p>"
+        },
+        {
+          "title": "Gübre ve sert sudan tuz birikmesi",
+          "html": "<p>Gübre ve bazı musluk suları, toprak kurudukça geride çözünmüş tuzlar bırakır. Zamanla bu tuzlar kök uçlarına zarar verebilir; tipik belirti yaprak uçlarının ve kenarlarının kahverengileşmesi ya da kurumasıdır. <a href=\"https://extension.umd.edu/resource/fertilizer-toxicity-or-high-soluble-salts-indoor-plants\">Maryland Üniversitesi Extension: gübre zehirlenmesi ve yüksek çözünür tuzlar</a> Toprağın ya da saksı kenarının üstündeki beyazımsı kabuk bunun görünen işaretidir. <a href=\"https://planttalk.colostate.edu/topics/houseplants/1339-leaching-salts-potting-mixes/\">Colorado State Üniversitesi Extension: saksı toprağından tuzları yıkamak</a></p>\n<p>Tuzları yıkamak için Colorado State, kabuğu ve toprağın üstteki 1–2 cm'sini almayı, ardından saksıyı lavaboda ılık suyla ağzına kadar doldurup tamamen süzülmesini beklemeyi ve bunu birkaç kez tekrarlamayı öneriyor. <a href=\"https://planttalk.colostate.edu/topics/houseplants/1339-leaching-salts-potting-mixes/\">Colorado State Üniversitesi Extension: saksı toprağından tuzları yıkamak</a> Sonrasında daha az ya da daha seyreltik besle; bkz. <a href=\"/guides/fertilizing-houseplants/\">ev bitkilerini beslemek</a>.</p>"
+        },
+        {
+          "title": "Suya hassas bitkiler",
+          "html": "<p>Bazı bitkiler zamanla musluk suyundaki klor, florür ve diğer kimyasallara tepki verir. Iowa State örnek olarak kurdele çiçeği, ti bitkisi, dracaena, dua çiçeği ve calathea'yı sayıyor. <a href=\"https://yardandgarden.extension.iastate.edu/faq/why-does-my-houseplant-have-brown-leaf-tips-and-edges\">Iowa State Üniversitesi Extension: kahverengi yaprak uçları ve kenarları</a> Bunlardan biri sürekli kahverengileşirken diğer bitkilerin iyiyse, birkaç ay farklı bir su kaynağı dene. Seçenekleri <a href=\"/blog/tap-water-for-houseplants/\">ev bitkileri için musluk suyu</a> yazısında bulabilirsin.</p>"
+        },
+        {
+          "title": "Sık sorulan sorular",
+          "html": "<h3>Kahverengi uçları kesmeli miyim?</h3>\n<p>Kesebilirsin. Temiz ve keskin bir makas kullan, yaprağın doğal şeklini izle ve sağlıklı dokuya girmemek için ince bir kahverengi çizgi bırak. Bu yalnızca görünüş içindir.</p>\n<h3>Kahverengi kısımlar yeniden yeşerir mi?</h3>\n<p>Hayır. Zarar görmüş doku kahverengi kalır. Yaptığın değişiklikleri önümüzdeki bir iki ayda çıkan yeni yapraklara bakarak değerlendir.</p>\n<h3>Tek bir kahverengi uç endişe nedeni mi?</h3>\n<p>Genellikle değil. Eski bir yapraktaki ara sıra görülen kahverengi uç normaldir. Bakımı değiştirmeden önce birçok yaprakta tekrarlanan bir desen ara.</p>"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "buying-a-healthy-houseplant",
+    "type": "post",
+    "category": "home",
+    "published": "2026-10-23",
+    "reviewed": "2026-10-23",
+    "sources": [
+      {
+        "name": "University of Wisconsin–Madison Extension: houseplant care",
+        "url": "https://hort.extension.wisc.edu/articles/houseplant-care/"
+      },
+      {
+        "name": "Iowa State University Extension: tips for shopping and selecting quality plants",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/tips-shopping-and-selecting-quality-plants"
+      },
+      {
+        "name": "RHS: how to choose healthy plants",
+        "url": "https://www.rhs.org.uk/plants/how-to-choose-healthy-plants"
+      },
+      {
+        "name": "University of Minnesota Extension: managing insects on indoor plants",
+        "url": "https://extension.umn.edu/product-and-houseplant-pests/insects-indoor-plants"
+      }
+    ],
+    "related": [
+      "houseplant-pests",
+      "pet-safe-houseplants",
+      "when-to-repot-houseplants"
+    ],
+    "en": {
+      "description": "What to check before you buy a houseplant: leaves, pests, roots and pot. Then how to keep a new plant apart for two weeks and help it settle in at home.",
+      "title": "How to choose a healthy houseplant and settle it in at home",
+      "answerHtml": "<p>Most pests arrive in a home on a new plant, so a few minutes of checking in the shop pays off. Look under the leaves and at the growing tips, slide the plant out of its pot to see the roots, and pass on anything with sticky leaves, webbing, mushy roots or weeds in the pot. At home, keep the new plant away from your others for one to two weeks until you are sure it is pest-free, and give it a spot that matches its light needs. <a href=\"https://hort.extension.wisc.edu/articles/houseplant-care/\">University of Wisconsin–Madison Extension: houseplant care</a></p>",
+      "answer": "Most pests arrive in a home on a new plant, so a few minutes of checking in the shop pays off. Look under the leaves and at the growing tips, slide the plant out of its pot to see the roots, and pass on anything with sticky leaves, webbing, mushy roots or weeds in the pot. At home, keep the new plant away from your others for one to two weeks until you are sure it is pest-free, and give it a spot that matches its light needs. University of Wisconsin–Madison Extension: houseplant care",
+      "sections": [
+        {
+          "title": "Before you go: know your spot",
+          "html": "<p>Choose for the place, not just the plant. Note how much light the spot gets, whether it is near a radiator or a draughty door, and whether cats or dogs can reach it. Our <a href=\"/en/guides/indoor-plant-light-guide/\">indoor plant light guide</a> helps you judge the light, and <a href=\"/en/guides/pet-safe-houseplants/\">houseplants and pets</a> explains how to check a plant's botanical name before it comes home.</p>"
+        },
+        {
+          "title": "The leaves and stems",
+          "html": "<ul><li>Hold the plant up and look at both sides of the leaves and along the stems. <a href=\"https://www.rhs.org.uk/plants/how-to-choose-healthy-plants\">RHS: how to choose healthy plants</a></li><li>Avoid dead or diseased-looking leaves, grey or sooty mould, powdery mildew and broken shoots. <a href=\"https://www.rhs.org.uk/plants/how-to-choose-healthy-plants\">RHS: how to choose healthy plants</a></li><li>Leaves should not be discoloured or mottled, and the plant should not be dropping them. A few small brown edges are usually acceptable. <a href=\"https://yardandgarden.extension.iastate.edu/how-to/tips-shopping-and-selecting-quality-plants\">Iowa State University Extension: shopping for quality plants</a></li><li>The plant should stand firm and upright, not limp. Lanky, spindly growth is a warning sign. <a href=\"https://yardandgarden.extension.iastate.edu/how-to/tips-shopping-and-selecting-quality-plants\">Iowa State University Extension: shopping for quality plants</a></li><li>Look for even, all-round growth and new shoots. <a href=\"https://www.rhs.org.uk/plants/how-to-choose-healthy-plants\">RHS: how to choose healthy plants</a></li></ul>"
+        },
+        {
+          "title": "Signs of pests",
+          "html": "<p>Check the undersides of leaves and the growing tips closely. <a href=\"https://hort.extension.wisc.edu/articles/houseplant-care/\">University of Wisconsin–Madison Extension: houseplant care</a> The RHS singles out scale insects and mealybugs, which suck sap and are difficult to get rid of. <a href=\"https://www.rhs.org.uk/plants/how-to-choose-healthy-plants\">RHS: how to choose healthy plants</a> The University of Minnesota adds sticky honeydew on leaves or the shelf, fine webbing, and the rims, crevices and bottoms of pots as places to look; a small magnifier helps. <a href=\"https://extension.umn.edu/product-and-houseplant-pests/insects-indoor-plants\">University of Minnesota Extension: insects on indoor plants</a> Our guide to <a href=\"/en/guides/houseplant-pests/\">common houseplant pests</a> shows what each looks like.</p>"
+        },
+        {
+          "title": "The pot and roots",
+          "html": "<p>If the shop allows it, ease the plant out of its pot:</p>\n<ul><li>Roots should be firm and white, not mushy and brown. <a href=\"https://yardandgarden.extension.iastate.edu/how-to/tips-shopping-and-selecting-quality-plants\">Iowa State University Extension: shopping for quality plants</a></li><li>The roots should not be so crowded that you cannot see the compost, and roots growing out of the drainage holes suggest the plant has been in the pot too long. <a href=\"https://www.rhs.org.uk/plants/how-to-choose-healthy-plants\">RHS: how to choose healthy plants</a></li><li>If the soil ball falls apart, the plant was probably moved into a bigger pot very recently. <a href=\"https://yardandgarden.extension.iastate.edu/how-to/tips-shopping-and-selecting-quality-plants\">Iowa State University Extension: shopping for quality plants</a></li><li>Weeds, moss or heavy algae on the surface point to old stock. <a href=\"https://www.rhs.org.uk/plants/how-to-choose-healthy-plants\">RHS: how to choose healthy plants</a></li><li>The mix should be neither bone dry nor soggy. <a href=\"https://yardandgarden.extension.iastate.edu/how-to/tips-shopping-and-selecting-quality-plants\">Iowa State University Extension: shopping for quality plants</a></li></ul>\n<p>Flowers are not a sign of health in themselves, so do not choose on blooms alone. <a href=\"https://yardandgarden.extension.iastate.edu/how-to/tips-shopping-and-selecting-quality-plants\">Iowa State University Extension: shopping for quality plants</a></p>"
+        },
+        {
+          "title": "The first two weeks at home",
+          "html": "<ol><li><strong>Keep it apart.</strong> Isolate a new plant for one to two weeks so any pest problem has time to show. <a href=\"https://extension.umn.edu/product-and-houseplant-pests/insects-indoor-plants\">University of Minnesota Extension: insects on indoor plants</a> A different room is best.</li><li><strong>Inspect again</strong> at the end of that period, including the undersides of leaves and the saucer.</li><li><strong>Do not repot straight away</strong> unless roots are circling badly or the pot has no drainage hole. Let it adjust to your light and temperature first; see <a href=\"/en/guides/when-to-repot-houseplants/\">when to repot a houseplant</a>.</li><li><strong>Check before watering.</strong> Shop plants are often watered on a schedule; feel the mix and water only when it needs it.</li></ol>\n<p>Dropping a few leaves after the move is common while a plant adjusts to lower light than a greenhouse. Watch the new growth rather than worrying about one or two old leaves.</p>"
+        },
+        {
+          "title": "Common questions",
+          "html": "<h3>Is it rude to take a plant out of its pot in the shop?</h3>\n<p>Ask first. Many shops are happy to let you check, or will do it for you.</p>\n<h3>Should I buy a plant in winter?</h3>\n<p>You can, but protect it from cold on the way home and expect slower growth until spring.</p>\n<h3>What if pests show up during isolation?</h3>\n<p>Keep it isolated, identify the pest, and treat it before it joins your other plants. The <a href=\"/en/guides/houseplant-pests/\">pests guide</a> starts with the least harmful options.</p>"
+        }
+      ]
+    },
+    "tr": {
+      "description": "Ev bitkisi almadan önce yapraklarda, zararlılarda, köklerde ve saksıda neye bakılır; ardından yeni bitkiyi iki hafta ayrı tutup eve nasıl alıştırırsın.",
+      "seoTitle": "Sağlıklı bir ev bitkisi nasıl seçilir ve eve alıştırılır",
+      "title": "Sağlıklı bir ev bitkisi nasıl seçilir ve evde nasıl alıştırılır",
+      "answerHtml": "<p>Zararlıların çoğu eve yeni bir bitkiyle gelir; bu yüzden mağazada birkaç dakikalık kontrol karşılığını verir. Yaprakların altına ve büyüme uçlarına bak, kökleri görmek için bitkiyi saksısından kaydır ve yaprakları yapışkan, üstünde ağ olan, kökleri yumuşamış ya da saksısında yabani ot çıkmış bitkileri alma. Evde yeni bitkiyi zararlısız olduğundan emin olana kadar bir iki hafta diğerlerinden uzak tut ve ona ışık ihtiyacına uygun bir yer ver. <a href=\"https://hort.extension.wisc.edu/articles/houseplant-care/\">Wisconsin–Madison Üniversitesi Extension: ev bitkisi bakımı</a></p>",
+      "answer": "Zararlıların çoğu eve yeni bir bitkiyle gelir; bu yüzden mağazada birkaç dakikalık kontrol karşılığını verir. Yaprakların altına ve büyüme uçlarına bak, kökleri görmek için bitkiyi saksısından kaydır ve yaprakları yapışkan, üstünde ağ olan, kökleri yumuşamış ya da saksısında yabani ot çıkmış bitkileri alma. Evde yeni bitkiyi zararlısız olduğundan emin olana kadar bir iki hafta diğerlerinden uzak tut ve ona ışık ihtiyacına uygun bir yer ver. Wisconsin–Madison Üniversitesi Extension: ev bitkisi bakımı",
+      "sections": [
+        {
+          "title": "Gitmeden önce: yerini tanı",
+          "html": "<p>Yalnızca bitkiye göre değil, yere göre seç. O köşenin ne kadar ışık aldığını, kaloriferin ya da cereyan alan bir kapının yakınında olup olmadığını ve kedilerin ya da köpeklerin ulaşıp ulaşamayacağını not et. Işığı değerlendirmek için <a href=\"/guides/indoor-plant-light-guide/\">iç mekân bitki ışığı rehberi</a>, bitkinin botanik adını eve gelmeden kontrol etmek için <a href=\"/guides/pet-safe-houseplants/\">ev bitkileri ve evcil hayvanlar</a> rehberi yardımcı olur.</p>"
+        },
+        {
+          "title": "Yapraklar ve gövdeler",
+          "html": "<ul><li>Bitkiyi kaldırıp yaprakların iki yüzüne ve gövdeler boyunca bak. <a href=\"https://www.rhs.org.uk/plants/how-to-choose-healthy-plants\">RHS: sağlıklı bitki nasıl seçilir</a></li><li>Ölü ya da hastalıklı görünen yapraklardan, gri ya da is gibi küften, külleme hastalığından ve kırık sürgünlerden kaçın. <a href=\"https://www.rhs.org.uk/plants/how-to-choose-healthy-plants\">RHS: sağlıklı bitki nasıl seçilir</a></li><li>Yapraklar renk değiştirmiş ya da benekli olmamalı, bitki yaprak dökmemeli. Birkaç küçük kahverengi kenar genellikle kabul edilebilir. <a href=\"https://yardandgarden.extension.iastate.edu/how-to/tips-shopping-and-selecting-quality-plants\">Iowa State Üniversitesi Extension: kaliteli bitki seçme ipuçları</a></li><li>Bitki pörsümüş değil, sağlam ve dik durmalı. Sırık gibi, cılız büyüme bir uyarı işaretidir. <a href=\"https://yardandgarden.extension.iastate.edu/how-to/tips-shopping-and-selecting-quality-plants\">Iowa State Üniversitesi Extension: kaliteli bitki seçme ipuçları</a></li><li>Her yönde dengeli büyüme ve yeni sürgünler ara. <a href=\"https://www.rhs.org.uk/plants/how-to-choose-healthy-plants\">RHS: sağlıklı bitki nasıl seçilir</a></li></ul>"
+        },
+        {
+          "title": "Zararlı işaretleri",
+          "html": "<p>Yaprakların alt yüzlerini ve büyüme uçlarını yakından kontrol et. <a href=\"https://hort.extension.wisc.edu/articles/houseplant-care/\">Wisconsin–Madison Üniversitesi Extension: ev bitkisi bakımı</a> RHS özellikle özsu emen ve kurtulması zor olan kabuklu bitlere ve unlu bitlere dikkat çekiyor. <a href=\"https://www.rhs.org.uk/plants/how-to-choose-healthy-plants\">RHS: sağlıklı bitki nasıl seçilir</a> Minnesota Üniversitesi bakılacak yerler olarak yapraklarda ya da rafta yapışkan bal özünü, ince ağları ve saksıların kenarlarını, aralıklarını ve diplerini ekliyor; küçük bir büyüteç işe yarar. <a href=\"https://extension.umn.edu/product-and-houseplant-pests/insects-indoor-plants\">Minnesota Üniversitesi Extension: iç mekân bitkilerindeki böcekler</a> Her birinin neye benzediğini <a href=\"/guides/houseplant-pests/\">yaygın ev bitkisi zararlıları</a> rehberi gösteriyor.</p>"
+        },
+        {
+          "title": "Saksı ve kökler",
+          "html": "<p>Mağaza izin veriyorsa bitkiyi saksısından yavaşça çıkar:</p>\n<ul><li>Kökler yumuşak ve kahverengi değil, sıkı ve beyaz olmalı. <a href=\"https://yardandgarden.extension.iastate.edu/how-to/tips-shopping-and-selecting-quality-plants\">Iowa State Üniversitesi Extension: kaliteli bitki seçme ipuçları</a></li><li>Kökler toprağı göremeyeceğin kadar sıkışık olmamalı; drenaj deliklerinden çıkan kökler bitkinin o saksıda çok uzun kaldığını gösterir. <a href=\"https://www.rhs.org.uk/plants/how-to-choose-healthy-plants\">RHS: sağlıklı bitki nasıl seçilir</a></li><li>Toprak topu dağılıyorsa bitki büyük olasılıkla çok yakın zamanda daha büyük bir saksıya alınmıştır. <a href=\"https://yardandgarden.extension.iastate.edu/how-to/tips-shopping-and-selecting-quality-plants\">Iowa State Üniversitesi Extension: kaliteli bitki seçme ipuçları</a></li><li>Yüzeydeki yabani ot, yosun ya da yoğun alg eski stoka işaret eder. <a href=\"https://www.rhs.org.uk/plants/how-to-choose-healthy-plants\">RHS: sağlıklı bitki nasıl seçilir</a></li><li>Toprak ne kupkuru ne de vıcık vıcık olmalı. <a href=\"https://yardandgarden.extension.iastate.edu/how-to/tips-shopping-and-selecting-quality-plants\">Iowa State Üniversitesi Extension: kaliteli bitki seçme ipuçları</a></li></ul>\n<p>Çiçekler tek başına sağlık işareti değildir; bu yüzden yalnızca çiçeğe bakarak seçme. <a href=\"https://yardandgarden.extension.iastate.edu/how-to/tips-shopping-and-selecting-quality-plants\">Iowa State Üniversitesi Extension: kaliteli bitki seçme ipuçları</a></p>"
+        },
+        {
+          "title": "Evdeki ilk iki hafta",
+          "html": "<ol><li><strong>Ayrı tut.</strong> Olası bir zararlı sorunu ortaya çıksın diye yeni bitkiyi bir iki hafta ayrı tut. <a href=\"https://extension.umn.edu/product-and-houseplant-pests/insects-indoor-plants\">Minnesota Üniversitesi Extension: iç mekân bitkilerindeki böcekler</a> En iyisi ayrı bir oda.</li><li>Bu sürenin sonunda yaprak altları ve saksı altlığı dahil <strong>yeniden incele</strong>.</li><li>Kökler kötü şekilde dolanmadıkça ya da saksının drenaj deliği yoksa <strong>hemen saksı değiştirme</strong>. Önce evin ışığına ve sıcaklığına alışmasına izin ver; bkz. <a href=\"/guides/when-to-repot-houseplants/\">ev bitkisinin saksısı ne zaman değiştirilir</a>.</li><li><strong>Sulamadan önce kontrol et.</strong> Mağaza bitkileri çoğu zaman takvime göre sulanır; toprağı hisset ve yalnızca ihtiyaç olduğunda sula.</li></ol>\n<p>Bitkinin seradan daha az ışığa alışırken taşınmadan sonra birkaç yaprak dökmesi yaygındır. Bir iki eski yaprağa üzülmek yerine yeni büyümeyi izle.</p>"
+        },
+        {
+          "title": "Sık sorulan sorular",
+          "html": "<h3>Mağazada bitkiyi saksısından çıkarmak kaba mı?</h3>\n<p>Önce sor. Birçok mağaza kontrol etmene memnuniyetle izin verir ya da senin için yapar.</p>\n<h3>Kışın bitki almalı mıyım?</h3>\n<p>Alabilirsin, ama eve giderken soğuktan koru ve ilkbahara kadar daha yavaş büyümesini bekle.</p>\n<h3>Ayrı tutarken zararlı çıkarsa ne yapmalıyım?</h3>\n<p>Ayrı tutmaya devam et, zararlıyı tanımla ve diğer bitkilerin yanına almadan önce tedavi et. <a href=\"/guides/houseplant-pests/\">Zararlılar rehberi</a> en az zararlı seçeneklerle başlıyor.</p>"
+        }
+      ]
+    }
+  },
+  {
     "slug": "check-before-you-water",
     "type": "post",
+    "category": "notes",
     "published": "2026-10-22",
     "reviewed": "2026-10-22",
     "sources": [
@@ -456,8 +753,199 @@
     }
   },
   {
+    "slug": "cleaning-houseplant-leaves",
+    "type": "post",
+    "category": "basics",
+    "published": "2026-10-23",
+    "reviewed": "2026-10-23",
+    "sources": [
+      {
+        "name": "University of Minnesota Extension: spring houseplant care",
+        "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/houseplants/spring-houseplant-care"
+      },
+      {
+        "name": "Clemson HGIC: indoor plants, cleaning, fertilizing, containers and light requirements",
+        "url": "https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/"
+      },
+      {
+        "name": "University of Wisconsin–Madison Extension: houseplant care",
+        "url": "https://hort.extension.wisc.edu/articles/houseplant-care/"
+      }
+    ],
+    "related": [
+      "houseplant-pests",
+      "indoor-plant-light-guide",
+      "keeping-a-plant-care-journal"
+    ],
+    "plants": [
+      "ficus-elastica",
+      "monstera-deliciosa"
+    ],
+    "en": {
+      "description": "Dust blocks light that indoor plants need. How to wipe large leaves, rinse small plants, brush fuzzy leaves, and why leaf shine products are best avoided.",
+      "title": "How to clean houseplant leaves (and why it matters)",
+      "answerHtml": "<p>Dust on leaves is more than a looks problem: it blocks some of the light a plant needs, and indoors light is already scarce. Wipe large, smooth leaves with a soft, damp cloth, rinse smaller plants under lukewarm water in the shower or sink, and use a soft brush on hairy leaves. Skip leaf shine products; extension horticulturists say they are unnecessary and can clog leaf pores. A clean every month or two, and a look at the undersides while you are there, is enough for most homes. <a href=\"https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/houseplants/spring-houseplant-care\">University of Minnesota Extension: spring houseplant care</a></p>",
+      "answer": "Dust on leaves is more than a looks problem: it blocks some of the light a plant needs, and indoors light is already scarce. Wipe large, smooth leaves with a soft, damp cloth, rinse smaller plants under lukewarm water in the shower or sink, and use a soft brush on hairy leaves. Skip leaf shine products; extension horticulturists say they are unnecessary and can clog leaf pores. A clean every month or two, and a look at the undersides while you are there, is enough for most homes. University of Minnesota Extension: spring houseplant care",
+      "sections": [
+        {
+          "title": "Why dust matters",
+          "html": "<p>The University of Minnesota points out that dust can block light when plants need it most, at the end of a dim winter. <a href=\"https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/houseplants/spring-houseplant-care\">University of Minnesota Extension: spring houseplant care</a> Clemson's Home &amp; Garden Information Center adds that clean leaves favour healthy growth and that cleaning helps control insects. <a href=\"https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/\">Clemson HGIC: indoor plants, cleaning</a></p>\n<p>Cleaning is also the best moment to inspect a plant closely. Many pests start small on the undersides of leaves; our guide to <a href=\"/en/guides/houseplant-pests/\">common houseplant pests</a> shows what to look for.</p>"
+        },
+        {
+          "title": "Large, smooth leaves",
+          "html": "<p>For plants such as rubber plant, monstera, fiddle-leaf fig and peace lily:</p>\n<ol><li>Use a soft cloth dampened with lukewarm water.</li><li>Support each leaf from underneath with one hand.</li><li>Wipe gently from the stem towards the tip, top side first, then the underside.</li><li>Change to a clean part of the cloth when it gets dirty.</li></ol>\n<p>The University of Minnesota recommends a gentle wipe with a damp cloth for large-leaved plants like rubber trees and monstera. <a href=\"https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/houseplants/spring-houseplant-care\">University of Minnesota Extension: spring houseplant care</a> Clemson suggests cleaning both leaf surfaces. <a href=\"https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/\">Clemson HGIC: indoor plants, cleaning</a></p>"
+        },
+        {
+          "title": "Small or many-leaved plants",
+          "html": "<p>Wiping a fern or a pothos leaf by leaf is not realistic. Rinse instead: put the plant in the shower or sink and run lukewarm, unsoftened water over the foliage. <a href=\"https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/houseplants/spring-houseplant-care\">University of Minnesota Extension: spring houseplant care</a> University of Wisconsin–Madison Extension notes that a rinse cleans dust and insects off leaves and, done now and then, also helps flush excess salts from the mix. <a href=\"https://hort.extension.wisc.edu/articles/houseplant-care/\">University of Wisconsin–Madison Extension: houseplant care</a></p>\n<p>Let the pot drain fully before you put it back on its saucer, and keep the plant out of direct sun until the leaves are dry.</p>"
+        },
+        {
+          "title": "Hairy and fuzzy leaves",
+          "html": "<p>African violets and other plants with hairy leaves should not be wiped with a wet cloth. Use a soft brush, such as a clean make-up brush, to lift the dust instead. <a href=\"https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/\">Clemson HGIC: indoor plants, cleaning</a> Cacti and succulents with a waxy or powdery coating are also best brushed rather than wiped, so the coating stays intact.</p>"
+        },
+        {
+          "title": "Leave the shine products on the shelf",
+          "html": "<p>Commercial leaf shine sprays make leaves glossy, but both sources we checked advise against them. The University of Minnesota says they are not necessary and can clog leaf pores, <a href=\"https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/houseplants/spring-houseplant-care\">University of Minnesota Extension: spring houseplant care</a> and Clemson says they are generally not recommended because the waxy residue may affect air exchange. <a href=\"https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/\">Clemson HGIC: indoor plants, cleaning</a> Home remedies such as milk, oil or mayonnaise leave residues too. Plain water is enough.</p>\n<p>If you share plant care at home, a leaf clean is worth noting in your <a href=\"/en/blog/keeping-a-plant-care-journal/\">plant care journal</a> so nobody repeats it the next day.</p>"
+        },
+        {
+          "title": "Common questions",
+          "html": "<h3>How often should I clean leaves?</h3>\n<p>When you can see dust or draw a line in it with your finger. In most homes that is every month or two; near a kitchen or a busy road it may be more often.</p>\n<h3>Can I add soap to the water?</h3>\n<p>Plain water is enough for dust. Soap sprays belong to pest treatment and should be used as directed on the product, tested on a few leaves first.</p>\n<h3>Is it fine to clean leaves in winter?</h3>\n<p>Yes, and it matters most then because light is weakest. Use lukewarm water, not cold.</p>"
+        }
+      ]
+    },
+    "tr": {
+      "description": "Toz, bitkinin ihtiyaç duyduğu ışığı keser. Büyük yaprakları silmek, küçük bitkileri durulamak, tüylü yaprakları fırçalamak ve parlatıcılardan kaçınmak.",
+      "seoTitle": "Ev bitkilerinin yaprakları nasıl temizlenir",
+      "title": "Ev bitkilerinin yaprakları nasıl temizlenir (ve neden önemlidir)",
+      "answerHtml": "<p>Yapraklardaki toz yalnızca görüntü sorunu değildir: bitkinin ihtiyaç duyduğu ışığın bir kısmını keser ve iç mekânda ışık zaten kıttır. Büyük, düz yaprakları yumuşak ve nemli bir bezle sil, küçük bitkileri duşta ya da lavaboda ılık suyla durula, tüylü yapraklarda yumuşak bir fırça kullan. Yaprak parlatıcılarından uzak dur; tarım danışmanlığı uzmanları bunların gereksiz olduğunu ve yaprak gözeneklerini tıkayabileceğini söylüyor. Çoğu ev için bir iki ayda bir temizlik ve bu sırada yaprak altlarına bir göz atmak yeterlidir. <a href=\"https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/houseplants/spring-houseplant-care\">Minnesota Üniversitesi Extension: ilkbaharda ev bitkisi bakımı</a></p>",
+      "answer": "Yapraklardaki toz yalnızca görüntü sorunu değildir: bitkinin ihtiyaç duyduğu ışığın bir kısmını keser ve iç mekânda ışık zaten kıttır. Büyük, düz yaprakları yumuşak ve nemli bir bezle sil, küçük bitkileri duşta ya da lavaboda ılık suyla durula, tüylü yapraklarda yumuşak bir fırça kullan. Yaprak parlatıcılarından uzak dur; tarım danışmanlığı uzmanları bunların gereksiz olduğunu ve yaprak gözeneklerini tıkayabileceğini söylüyor. Çoğu ev için bir iki ayda bir temizlik ve bu sırada yaprak altlarına bir göz atmak yeterlidir. Minnesota Üniversitesi Extension: ilkbaharda ev bitkisi bakımı",
+      "sections": [
+        {
+          "title": "Toz neden önemli?",
+          "html": "<p>Minnesota Üniversitesi, tozun ışığı bitkilerin ona en çok ihtiyaç duyduğu anda, loş bir kışın sonunda engelleyebileceğine dikkat çekiyor. <a href=\"https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/houseplants/spring-houseplant-care\">Minnesota Üniversitesi Extension: ilkbaharda ev bitkisi bakımı</a> Clemson Üniversitesi Ev ve Bahçe Bilgi Merkezi de temiz yaprakların sağlıklı büyümeyi desteklediğini ve temizliğin böceklerle mücadeleye yardım ettiğini ekliyor. <a href=\"https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/\">Clemson HGIC: iç mekân bitkileri ve temizlik</a></p>\n<p>Temizlik aynı zamanda bitkiyi yakından incelemek için en iyi andır. Birçok zararlı yaprakların alt yüzünde küçük başlar; neye bakacağını <a href=\"/guides/houseplant-pests/\">yaygın ev bitkisi zararlıları</a> rehberi gösteriyor.</p>"
+        },
+        {
+          "title": "Büyük, düz yapraklar",
+          "html": "<p>Kauçuk, monstera, keman yapraklı incir ve barış çiçeği gibi bitkiler için:</p>\n<ol><li>Ilık suyla nemlendirilmiş yumuşak bir bez kullan.</li><li>Her yaprağı bir elinle alttan destekle.</li><li>Saptan uca doğru nazikçe sil; önce üst yüzü, sonra alt yüzü.</li><li>Bez kirlendikçe temiz bir köşesine geç.</li></ol>\n<p>Minnesota Üniversitesi kauçuk ve monstera gibi büyük yapraklı bitkiler için nemli bir bezle nazikçe silmeyi öneriyor. <a href=\"https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/houseplants/spring-houseplant-care\">Minnesota Üniversitesi Extension: ilkbaharda ev bitkisi bakımı</a> Clemson yaprağın iki yüzünün de temizlenmesini öneriyor. <a href=\"https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/\">Clemson HGIC: iç mekân bitkileri ve temizlik</a></p>"
+        },
+        {
+          "title": "Küçük ya da çok yapraklı bitkiler",
+          "html": "<p>Bir eğreltiyi ya da pothosu yaprak yaprak silmek gerçekçi değil. Onun yerine durula: bitkiyi duşa ya da lavaboya koy ve yaprakların üstünden ılık, yumuşatılmamış su akıt. <a href=\"https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/houseplants/spring-houseplant-care\">Minnesota Üniversitesi Extension: ilkbaharda ev bitkisi bakımı</a> Wisconsin–Madison Üniversitesi Extension, durulamanın yapraklardaki tozu ve böcekleri temizlediğini ve ara sıra yapıldığında topraktaki fazla tuzların yıkanmasına da yardım ettiğini belirtiyor. <a href=\"https://hort.extension.wisc.edu/articles/houseplant-care/\">Wisconsin–Madison Üniversitesi Extension: ev bitkisi bakımı</a></p>\n<p>Saksıyı altlığına geri koymadan önce suyun tamamen süzülmesini bekle ve yapraklar kuruyana kadar bitkiyi doğrudan güneşten uzak tut.</p>"
+        },
+        {
+          "title": "Tüylü yapraklar",
+          "html": "<p>Afrika menekşesi gibi tüylü yapraklı bitkiler ıslak bezle silinmemeli. Bunun yerine tozu temiz bir makyaj fırçası gibi yumuşak bir fırçayla al. <a href=\"https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/\">Clemson HGIC: iç mekân bitkileri ve temizlik</a> Mumsu ya da pudralı bir kaplaması olan kaktüs ve sukulentler de kaplama bozulmasın diye silinmek yerine fırçalanmalı.</p>"
+        },
+        {
+          "title": "Parlatıcıları rafta bırak",
+          "html": "<p>Hazır yaprak parlatıcı spreyler yaprakları parlatır, ama baktığımız iki kaynak da bunlara karşı. Minnesota Üniversitesi bunların gereksiz olduğunu ve yaprak gözeneklerini tıkayabileceğini söylüyor, <a href=\"https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/houseplants/spring-houseplant-care\">Minnesota Üniversitesi Extension: ilkbaharda ev bitkisi bakımı</a> Clemson ise mumsu kalıntının hava alışverişini etkileyebileceği için genellikle önerilmediğini belirtiyor. <a href=\"https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/\">Clemson HGIC: iç mekân bitkileri ve temizlik</a> Süt, yağ ya da mayonez gibi ev çözümleri de kalıntı bırakır. Sade su yeterlidir.</p>\n<p>Evde bitki bakımını paylaşıyorsan, kimse ertesi gün tekrarlamasın diye yaprak temizliğini <a href=\"/blog/keeping-a-plant-care-journal/\">bitki bakım günlüğüne</a> not etmeye değer.</p>"
+        },
+        {
+          "title": "Sık sorulan sorular",
+          "html": "<h3>Yaprakları ne sıklıkla temizlemeliyim?</h3>\n<p>Tozu gördüğünde ya da parmağınla üstünde çizgi çekebildiğinde. Çoğu evde bu bir iki ayda birdir; mutfağa ya da işlek bir yola yakınsa daha sık olabilir.</p>\n<h3>Suya sabun ekleyebilir miyim?</h3>\n<p>Toz için sade su yeterli. Sabunlu spreyler zararlı tedavisine aittir; ürün talimatına göre ve önce birkaç yaprakta denenerek kullanılmalı.</p>\n<h3>Kışın yaprak temizlemek sorun olur mu?</h3>\n<p>Hayır, hatta en çok o zaman önemlidir çünkü ışık en zayıftır. Soğuk değil ılık su kullan.</p>"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "do-houseplants-purify-air",
+    "type": "post",
+    "category": "home",
+    "published": "2026-10-23",
+    "reviewed": "2026-10-23",
+    "sources": [
+      {
+        "name": "Drexel University: potted plants don't improve air quality (2019 review)",
+        "url": "https://drexel.edu/news/archive/2019/november/potted-plants-do-not-improve-air-quality"
+      },
+      {
+        "name": "Iowa State University Extension: do houseplants actually improve indoor air quality?",
+        "url": "https://yardandgarden.extension.iastate.edu/faq/do-houseplants-actually-improve-indoor-air-quality"
+      },
+      {
+        "name": "University of Illinois Extension: houseplants and indoor air quality",
+        "url": "https://extension.illinois.edu/blogs/garden-scoop/2019-01-10-houseplants-and-indoor-air-quality"
+      }
+    ],
+    "related": [
+      "buying-a-healthy-houseplant",
+      "pet-safe-houseplants",
+      "houseplant-humidity"
+    ],
+    "plants": [
+      "chlorophytum-comosum",
+      "spathiphyllum",
+      "dracaena-trifasciata"
+    ],
+    "en": {
+      "description": "The NASA study behind air-purifying plant lists used sealed chambers. What a 2019 review found about real homes, and what actually improves indoor air.",
+      "title": "Do houseplants really purify indoor air?",
+      "answerHtml": "<p>Not in any way you would notice in a normal home. The idea comes from a 1989 NASA experiment in which plants removed chemicals from small sealed chambers. When researchers at Drexel University reviewed a dozen studies covering about 30 years, they calculated that you would need roughly 100 to 1,000 plants per square metre of floor to match the air cleaning that ordinary ventilation already provides. Opening windows and running extractor fans do far more for indoor air. Grow plants because you enjoy them, not as air purifiers. <a href=\"https://drexel.edu/news/archive/2019/november/potted-plants-do-not-improve-air-quality\">Drexel University: potted plants don't improve air quality</a></p>",
+      "answer": "Not in any way you would notice in a normal home. The idea comes from a 1989 NASA experiment in which plants removed chemicals from small sealed chambers. When researchers at Drexel University reviewed a dozen studies covering about 30 years, they calculated that you would need roughly 100 to 1,000 plants per square metre of floor to match the air cleaning that ordinary ventilation already provides. Opening windows and running extractor fans do far more for indoor air. Grow plants because you enjoy them, not as air purifiers. Drexel University: potted plants don't improve air quality",
+      "sections": [
+        {
+          "title": "Where the claim comes from",
+          "html": "<p>In the late 1980s, NASA researchers looking for ways to keep air clean in space stations found that common houseplants could remove volatile organic compounds (VOCs), such as benzene and formaldehyde, from sealed test chambers. <a href=\"https://drexel.edu/news/archive/2019/november/potted-plants-do-not-improve-air-quality\">Drexel University: potted plants don't improve air quality</a> Lists of \"air-purifying plants\", usually featuring spider plant, peace lily, dracaena and snake plant, trace back to that work. <a href=\"https://extension.illinois.edu/blogs/garden-scoop/2019-01-10-houseplants-and-indoor-air-quality\">University of Illinois Extension: houseplants and indoor air quality</a></p>\n<p>Interestingly, the research also found that much of the uptake happened in the roots and potting mix, through microorganisms, not only in the leaves. <a href=\"https://extension.illinois.edu/blogs/garden-scoop/2019-01-10-houseplants-and-indoor-air-quality\">University of Illinois Extension: houseplants and indoor air quality</a></p>"
+        },
+        {
+          "title": "Why a sealed chamber is not a living room",
+          "html": "<p>A test chamber is small, closed and starts with a dose of one chemical. A home is large, air leaks in and out all the time, and new pollutants keep arriving from cooking, cleaning products and furniture. Iowa State University Extension puts it plainly: the highly controlled testing environment does not translate directly to everyday conditions, and houseplants have little effect on air quality in a home or office. <a href=\"https://yardandgarden.extension.iastate.edu/faq/do-houseplants-actually-improve-indoor-air-quality\">Iowa State University Extension: do houseplants improve indoor air quality?</a></p>"
+        },
+        {
+          "title": "What the 2019 review found",
+          "html": "<p>Michael Waring and Bryan Cummings at Drexel University reviewed a dozen studies spanning about 30 years and published their analysis in the <em>Journal of Exposure Science and Environmental Epidemiology</em>. In every case, the rate at which plants cleaned the air was orders of magnitude slower than normal air exchange in buildings. To match a building's ventilation, or a couple of open windows in a house, they estimated 100 to 1,000 plants per square metre of floor space. <a href=\"https://drexel.edu/news/archive/2019/november/potted-plants-do-not-improve-air-quality\">Drexel University: potted plants don't improve air quality</a></p>\n<p>Even an older estimate quoted by the University of Illinois, around 70 spider plants in 20 cm pots for an average house, came from sealed-chamber data and is far from a typical windowsill collection. <a href=\"https://extension.illinois.edu/blogs/garden-scoop/2019-01-10-houseplants-and-indoor-air-quality\">University of Illinois Extension: houseplants and indoor air quality</a></p>"
+        },
+        {
+          "title": "What actually helps indoor air",
+          "html": "<ul><li>Ventilate: open windows when you can, and use extractor fans when cooking or showering. Air exchange dilutes indoor pollutants much faster than plants. <a href=\"https://drexel.edu/news/archive/2019/november/potted-plants-do-not-improve-air-quality\">Drexel University: potted plants don't improve air quality</a></li><li>Reduce sources: store solvents and paints outside living areas and follow product directions.</li><li>For specific concerns, such as damp, mould or a gas appliance, follow local health and safety guidance rather than relying on plants.</li></ul>"
+        },
+        {
+          "title": "Good reasons to keep plants anyway",
+          "html": "<p>None of this is a case against houseplants. Iowa State notes there are still many reasons to grow them: they beautify a home and let you garden even in the depth of winter. <a href=\"https://yardandgarden.extension.iastate.edu/faq/do-houseplants-actually-improve-indoor-air-quality\">Iowa State University Extension: do houseplants improve indoor air quality?</a> Choose plants for your light and your habits; our <a href=\"/en/guides/indoor-plant-light-guide/\">indoor plant light guide</a> and <a href=\"/en/blog/buying-a-healthy-houseplant/\">how to choose a healthy houseplant</a> are good places to start. If you have pets, check <a href=\"/en/guides/pet-safe-houseplants/\">houseplants and pets</a> too, since several plants on \"air-purifying\" lists are not safe for cats.</p>"
+        },
+        {
+          "title": "Common questions",
+          "html": "<h3>Do plants add oxygen to a room?</h3>\n<p>They release oxygen in light and use some at night, but the amounts from a few pots are tiny compared with the air exchanged through a room. They do not replace ventilation.</p>\n<h3>Are some plants better than others at cleaning air?</h3>\n<p>Lab studies rank species differently, but at home the effect of any of them is negligible. Pick plants you can care for well.</p>\n<h3>Do plants raise humidity?</h3>\n<p>A little, through the water they release, but a few plants change room humidity very little. See <a href=\"/en/guides/houseplant-humidity/\">humidity for houseplants</a>.</p>"
+        }
+      ]
+    },
+    "tr": {
+      "description": "Havayı temizleyen bitki listeleri, kapalı odacıklarda yapılan bir NASA deneyine dayanıyor. 2019 incelemesi gerçek evler için ne buldu, havaya ne iyi gelir?",
+      "title": "Ev bitkileri gerçekten iç mekân havasını temizler mi?",
+      "answerHtml": "<p>Normal bir evde fark edebileceğin bir şekilde, hayır. Bu fikir, bitkilerin küçük ve kapalı odacıklardaki kimyasalları azalttığı 1989 tarihli bir NASA deneyinden geliyor. Drexel Üniversitesi'ndeki araştırmacılar yaklaşık 30 yılı kapsayan bir düzine çalışmayı incelediğinde, sıradan havalandırmanın zaten sağladığı temizliği yakalamak için metrekare başına kabaca 100 ila 1.000 bitki gerektiğini hesapladı. Pencereleri açmak ve aspiratör çalıştırmak iç mekân havası için çok daha fazlasını yapar. Bitkileri hava temizleyici olarak değil, sevdiğin için yetiştir. <a href=\"https://drexel.edu/news/archive/2019/november/potted-plants-do-not-improve-air-quality\">Drexel Üniversitesi: saksı bitkileri hava kalitesini iyileştirmiyor</a></p>",
+      "answer": "Normal bir evde fark edebileceğin bir şekilde, hayır. Bu fikir, bitkilerin küçük ve kapalı odacıklardaki kimyasalları azalttığı 1989 tarihli bir NASA deneyinden geliyor. Drexel Üniversitesi'ndeki araştırmacılar yaklaşık 30 yılı kapsayan bir düzine çalışmayı incelediğinde, sıradan havalandırmanın zaten sağladığı temizliği yakalamak için metrekare başına kabaca 100 ila 1.000 bitki gerektiğini hesapladı. Pencereleri açmak ve aspiratör çalıştırmak iç mekân havası için çok daha fazlasını yapar. Bitkileri hava temizleyici olarak değil, sevdiğin için yetiştir. Drexel Üniversitesi: saksı bitkileri hava kalitesini iyileştirmiyor",
+      "sections": [
+        {
+          "title": "İddia nereden geliyor?",
+          "html": "<p>1980'lerin sonunda uzay istasyonlarında havayı temiz tutmanın yollarını arayan NASA araştırmacıları, yaygın ev bitkilerinin benzen ve formaldehit gibi uçucu organik bileşikleri (VOC) kapalı test odacıklarından azaltabildiğini buldu. <a href=\"https://drexel.edu/news/archive/2019/november/potted-plants-do-not-improve-air-quality\">Drexel Üniversitesi: saksı bitkileri hava kalitesini iyileştirmiyor</a> Genellikle kurdele çiçeği, barış çiçeği, dracaena ve paşa kılıcının yer aldığı \"havayı temizleyen bitkiler\" listeleri bu çalışmaya dayanıyor. <a href=\"https://extension.illinois.edu/blogs/garden-scoop/2019-01-10-houseplants-and-indoor-air-quality\">Illinois Üniversitesi Extension: ev bitkileri ve iç mekân hava kalitesi</a></p>\n<p>İlginç biçimde araştırma, emilimin büyük kısmının yalnızca yapraklarda değil, köklerde ve saksı toprağında, mikroorganizmalar aracılığıyla gerçekleştiğini de buldu. <a href=\"https://extension.illinois.edu/blogs/garden-scoop/2019-01-10-houseplants-and-indoor-air-quality\">Illinois Üniversitesi Extension: ev bitkileri ve iç mekân hava kalitesi</a></p>"
+        },
+        {
+          "title": "Kapalı bir odacık neden salon değildir?",
+          "html": "<p>Test odacığı küçük ve kapalıdır, içine bir kez tek bir kimyasal verilir. Ev ise büyüktür, hava sürekli girip çıkar ve yemek, temizlik ürünleri ve mobilyalardan sürekli yeni kirleticiler gelir. Iowa State Üniversitesi Extension bunu açıkça söylüyor: sıkı kontrollü test ortamı gündelik koşullara doğrudan aktarılamaz ve ev bitkilerinin bir ev ya da ofisteki hava kalitesine etkisi çok azdır. <a href=\"https://yardandgarden.extension.iastate.edu/faq/do-houseplants-actually-improve-indoor-air-quality\">Iowa State Üniversitesi Extension: ev bitkileri iç mekân havasını iyileştirir mi?</a></p>"
+        },
+        {
+          "title": "2019 incelemesi ne buldu?",
+          "html": "<p>Drexel Üniversitesi'nden Michael Waring ve Bryan Cummings yaklaşık 30 yılı kapsayan bir düzine çalışmayı inceledi ve analizlerini <em>Journal of Exposure Science and Environmental Epidemiology</em> dergisinde yayımladı. Her durumda bitkilerin havayı temizleme hızı, binalardaki normal hava değişiminden kat kat yavaştı. Bir binanın havalandırmasını ya da bir evdeki birkaç açık pencereyi yakalamak için metrekare başına 100 ila 1.000 bitki gerektiğini hesapladılar. <a href=\"https://drexel.edu/news/archive/2019/november/potted-plants-do-not-improve-air-quality\">Drexel Üniversitesi: saksı bitkileri hava kalitesini iyileştirmiyor</a></p>\n<p>Illinois Üniversitesi'nin aktardığı daha eski bir tahmin bile, ortalama bir ev için 20 cm'lik saksılarda yaklaşık 70 kurdele çiçeği, kapalı odacık verilerine dayanıyor ve tipik bir pencere önü koleksiyonundan çok uzak. <a href=\"https://extension.illinois.edu/blogs/garden-scoop/2019-01-10-houseplants-and-indoor-air-quality\">Illinois Üniversitesi Extension: ev bitkileri ve iç mekân hava kalitesi</a></p>"
+        },
+        {
+          "title": "İç mekân havasına gerçekte ne yardım eder?",
+          "html": "<ul><li>Havalandır: fırsat buldukça pencereleri aç, yemek yaparken ve duş alırken aspiratör kullan. Hava değişimi iç mekân kirleticilerini bitkilerden çok daha hızlı seyreltir. <a href=\"https://drexel.edu/news/archive/2019/november/potted-plants-do-not-improve-air-quality\">Drexel Üniversitesi: saksı bitkileri hava kalitesini iyileştirmiyor</a></li><li>Kaynakları azalt: çözücüleri ve boyaları yaşam alanlarının dışında sakla, ürün talimatlarına uy.</li><li>Rutubet, küf ya da gazlı bir cihaz gibi belirli endişeler için bitkilere güvenmek yerine yerel sağlık ve güvenlik önerilerini izle.</li></ul>"
+        },
+        {
+          "title": "Yine de bitki yetiştirmek için iyi nedenler",
+          "html": "<p>Bunların hiçbiri ev bitkilerine karşı bir argüman değil. Iowa State onları yetiştirmek için hâlâ birçok neden olduğunu belirtiyor: evi güzelleştirirler ve kışın ortasında bile bahçıvanlık yapmanı sağlarlar. <a href=\"https://yardandgarden.extension.iastate.edu/faq/do-houseplants-actually-improve-indoor-air-quality\">Iowa State Üniversitesi Extension: ev bitkileri iç mekân havasını iyileştirir mi?</a> Bitkileri ışığına ve alışkanlıklarına göre seç; <a href=\"/guides/indoor-plant-light-guide/\">iç mekân bitki ışığı rehberi</a> ve <a href=\"/blog/buying-a-healthy-houseplant/\">sağlıklı bir ev bitkisi nasıl seçilir</a> iyi başlangıç noktaları. Evcil hayvanın varsa <a href=\"/guides/pet-safe-houseplants/\">ev bitkileri ve evcil hayvanlar</a> rehberine de bak; \"havayı temizleyen\" listelerdeki bazı bitkiler kediler için güvenli değil.</p>"
+        },
+        {
+          "title": "Sık sorulan sorular",
+          "html": "<h3>Bitkiler odaya oksijen ekler mi?</h3>\n<p>Işıkta oksijen verirler, geceleri biraz kullanırlar; ama birkaç saksının verdiği miktar odadaki hava değişimine göre çok küçüktür. Havalandırmanın yerini tutmazlar.</p>\n<h3>Bazı bitkiler havayı diğerlerinden daha iyi mi temizler?</h3>\n<p>Laboratuvar çalışmaları türleri farklı sıralıyor, ama evde hiçbirinin etkisi kayda değer değil. İyi bakabileceğin bitkileri seç.</p>\n<h3>Bitkiler nemi artırır mı?</h3>\n<p>Verdikleri suyla biraz artırırlar, ama birkaç bitki oda nemini çok az değiştirir. Bkz. <a href=\"/guides/houseplant-humidity/\">ev bitkileri için nem</a>.</p>"
+        }
+      ]
+    }
+  },
+  {
     "slug": "fertilizing-houseplants",
     "type": "guide",
+    "category": "growth",
     "published": "2026-10-22",
     "reviewed": "2026-10-22",
     "sources": [
@@ -714,8 +1202,104 @@
     }
   },
   {
+    "slug": "grow-lights-for-houseplants",
+    "type": "post",
+    "category": "basics",
+    "published": "2026-10-23",
+    "reviewed": "2026-10-23",
+    "sources": [
+      {
+        "name": "Iowa State University Extension: how to set up supplemental lights for indoor plants",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/how-set-supplemental-lights-indoor-plants"
+      },
+      {
+        "name": "RHS: artificial lighting for indoor plants",
+        "url": "https://www.rhs.org.uk/plants/types/houseplants/artificial-lighting"
+      },
+      {
+        "name": "UF/IFAS Gardening Solutions: light for houseplants",
+        "url": "https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/light-for-houseplants/"
+      },
+      {
+        "name": "Clemson HGIC: indoor plants, cleaning, fertilizing, containers and light requirements",
+        "url": "https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/"
+      }
+    ],
+    "related": [
+      "indoor-plant-light-guide",
+      "leggy-houseplants",
+      "winter-houseplant-care"
+    ],
+    "en": {
+      "description": "A simple grow light set-up for houseplants: which LED to choose, how far above the leaves, how many hours a day, and why a timer and dark nights matter.",
+      "title": "Grow lights for houseplants: a simple starting set-up",
+      "answerHtml": "<p>A grow light helps when a room is too dark for the plants you want to keep, or when winter days are short. You do not need a specialist rig: an LED fixture with broad-spectrum (\"daylight\" or \"full spectrum\") light, hung about 30–60 cm above the leaves and run on a timer for roughly 12–14 hours a day, is a sensible starting point. Then watch the plants for a few weeks and adjust the distance or hours. Plants also need a proper dark period every night. <a href=\"https://yardandgarden.extension.iastate.edu/how-to/how-set-supplemental-lights-indoor-plants\">Iowa State University Extension: setting up supplemental lights</a></p>",
+      "answer": "A grow light helps when a room is too dark for the plants you want to keep, or when winter days are short. You do not need a specialist rig: an LED fixture with broad-spectrum (\"daylight\" or \"full spectrum\") light, hung about 30–60 cm above the leaves and run on a timer for roughly 12–14 hours a day, is a sensible starting point. Then watch the plants for a few weeks and adjust the distance or hours. Plants also need a proper dark period every night. Iowa State University Extension: setting up supplemental lights",
+      "sections": [
+        {
+          "title": "Does your plant need one?",
+          "html": "<p>Signs that light is the limiting factor include slow, weak growth, long gaps between leaves and stems leaning hard towards the window. The RHS also lists poor growth with dark green foliage as a sign that plants under lamps need more light. <a href=\"https://www.rhs.org.uk/plants/types/houseplants/artificial-lighting\">RHS: artificial lighting for indoor plants</a> Before buying anything, try the brightest window you have; our <a href=\"/en/guides/indoor-plant-light-guide/\">indoor plant light guide</a> explains how to judge it, and <a href=\"/en/blog/leggy-houseplants/\">leggy houseplants</a> covers stretched growth.</p>"
+        },
+        {
+          "title": "Which kind of light",
+          "html": "<p>The University of Florida notes that plants can grow under artificial light alone if the source is suitable. Incandescent bulbs work but are inefficient and hot; fluorescent and LED lights are better, and LEDs use less electricity for the same light output. Broad-spectrum light supports better growth. <a href=\"https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/light-for-houseplants/\">UF/IFAS Gardening Solutions: light for houseplants</a></p>\n<p>The RHS explains that plants mainly use blue and red light: blue supports leafy growth and red supports growth and flowering. Too much blue with little red tends to give compact, dark plants with few flowers, while too much red or far-red gives tall, spindly growth. <a href=\"https://www.rhs.org.uk/plants/types/houseplants/artificial-lighting\">RHS: artificial lighting for indoor plants</a> For foliage plants at home, a white, broad-spectrum LED is the simplest choice and looks normal in a living room.</p>\n<p>Iowa State's starting point for an LED shop-style fixture is full-spectrum light of at least 3,000 lumens. <a href=\"https://yardandgarden.extension.iastate.edu/how-to/how-set-supplemental-lights-indoor-plants\">Iowa State University Extension: setting up supplemental lights</a> A small clip-on lamp gives far less and suits only a single plant close to the bulb.</p>"
+        },
+        {
+          "title": "How far and how long",
+          "html": "<div class=\"table-wrap\"><table><thead><tr><th scope=\"col\">Setting</th><th scope=\"col\">Iowa State starting point</th></tr></thead><tbody><tr><td>LED distance</td><td>about 30–60 cm from the foliage, starting at around 45 cm</td></tr><tr><td>Fluorescent distance</td><td>about 15–30 cm, starting at around 23 cm</td></tr><tr><td>Hours per day</td><td>about 12–14 for most plants; at least 10 and no more than 16</td></tr></tbody></table></div>\n<p>Source: <a href=\"https://yardandgarden.extension.iastate.edu/how-to/how-set-supplemental-lights-indoor-plants\">Iowa State University Extension: setting up supplemental lights</a></p>\n<p>Clemson's Home &amp; Garden Information Center says 16 hours of light and 8 of darkness suits most plants when making up for weak light. <a href=\"https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/\">Clemson HGIC: indoor plants, light requirements</a> Closer means brighter: the RHS notes that raising a light lowers its intensity, and that yellow-green leaves on the plants nearest the lamp mean the light is too strong for them. <a href=\"https://www.rhs.org.uk/plants/types/houseplants/artificial-lighting\">RHS: artificial lighting for indoor plants</a></p>"
+        },
+        {
+          "title": "Use a timer, and keep the nights dark",
+          "html": "<p>A cheap plug-in timer does the remembering for you, so the lights switch on and off at the same time every day. Iowa State recommends plugging all supplemental lights into a timer, and stresses that plants need a dark period to grow properly; some need it to flower. Other light sources, such as room lamps or street lights, can disturb that dark period. <a href=\"https://yardandgarden.extension.iastate.edu/how-to/how-set-supplemental-lights-indoor-plants\">Iowa State University Extension: setting up supplemental lights</a></p>"
+        },
+        {
+          "title": "Adjust what else changes",
+          "html": "<p>More light means faster growth, and faster growth means the plant uses more water and, in the growing season, more food. Check the mix more often in the first weeks under a lamp; <a href=\"/en/guides/watering-houseplants/\">how to water houseplants without a rigid schedule</a> explains the check. If you move a plant from a dim corner to a strong lamp, increase the time gradually over a week or two.</p>"
+        },
+        {
+          "title": "Common questions",
+          "html": "<h3>Can a normal LED bulb work?</h3>\n<p>A bright, broad-spectrum household LED close to a plant can help, and the University of Florida notes that cool white, warm white and daylight lamps may all work. <a href=\"https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/light-for-houseplants/\">UF/IFAS Gardening Solutions: light for houseplants</a> Output, distance and hours matter more than the label.</p>\n<h3>Is purple light better?</h3>\n<p>Not for a home. Red-and-blue fixtures were designed for efficiency, but white light shows the plant's true colours and is easier to live with.</p>\n<h3>Should the light stay on all night?</h3>\n<p>No. Plants need a daily dark period. Use a timer and aim for no more than 16 hours of light.</p>"
+        }
+      ]
+    },
+    "tr": {
+      "description": "Ev bitkileri için basit bir lamba düzeni: hangi LED seçilmeli, yaprakların ne kadar üstüne asılmalı, günde kaç saat yanmalı ve zamanlayıcı neden önemli.",
+      "seoTitle": "Ev bitkileri için bitki lambaları: başlangıç düzeni",
+      "title": "Ev bitkileri için bitki lambaları: basit bir başlangıç düzeni",
+      "answerHtml": "<p>Bir oda istediğin bitkiler için fazla karanlıksa ya da kış günleri kısaysa bitki lambası yardımcı olur. Uzman bir düzeneğe gerek yok: geniş spektrumlu (\"gün ışığı\" ya da \"tam spektrum\") ışık veren bir LED armatürü yaprakların yaklaşık 30–60 cm üstüne asmak ve bir zamanlayıcıyla günde kabaca 12–14 saat çalıştırmak makul bir başlangıçtır. Sonra bitkileri birkaç hafta izleyip mesafeyi ya da süreyi ayarla. Bitkilerin her gece düzgün bir karanlık dönemine de ihtiyacı vardır. <a href=\"https://yardandgarden.extension.iastate.edu/how-to/how-set-supplemental-lights-indoor-plants\">Iowa State Üniversitesi Extension: ek aydınlatma kurulumu</a></p>",
+      "answer": "Bir oda istediğin bitkiler için fazla karanlıksa ya da kış günleri kısaysa bitki lambası yardımcı olur. Uzman bir düzeneğe gerek yok: geniş spektrumlu (\"gün ışığı\" ya da \"tam spektrum\") ışık veren bir LED armatürü yaprakların yaklaşık 30–60 cm üstüne asmak ve bir zamanlayıcıyla günde kabaca 12–14 saat çalıştırmak makul bir başlangıçtır. Sonra bitkileri birkaç hafta izleyip mesafeyi ya da süreyi ayarla. Bitkilerin her gece düzgün bir karanlık dönemine de ihtiyacı vardır. Iowa State Üniversitesi Extension: ek aydınlatma kurulumu",
+      "sections": [
+        {
+          "title": "Bitkinin buna ihtiyacı var mı?",
+          "html": "<p>Işığın sınırlayıcı etken olduğunu gösteren işaretler arasında yavaş ve zayıf büyüme, yapraklar arasında uzun boşluklar ve pencereye doğru belirgin biçimde eğilen gövdeler var. RHS de lamba altındaki bitkilerde koyu yeşil yapraklarla birlikte zayıf büyümeyi daha fazla ışık gerektiğinin işareti olarak sayıyor. <a href=\"https://www.rhs.org.uk/plants/types/houseplants/artificial-lighting\">RHS: iç mekân bitkileri için yapay aydınlatma</a> Bir şey almadan önce evdeki en aydınlık pencereyi dene; nasıl değerlendireceğini <a href=\"/guides/indoor-plant-light-guide/\">iç mekân bitki ışığı rehberi</a>, uzamış büyümeyi de <a href=\"/blog/leggy-houseplants/\">boy atıp seyrelen ev bitkileri</a> yazısı anlatıyor.</p>"
+        },
+        {
+          "title": "Hangi tür ışık?",
+          "html": "<p>Florida Üniversitesi, uygun bir kaynak olduğunda bitkilerin yalnızca yapay ışık altında da büyüyebileceğini belirtiyor. Akkor ampuller işe yarar ama verimsiz ve sıcaktır; floresan ve LED ışıklar daha iyidir ve LED'ler aynı ışık için daha az elektrik harcar. Geniş spektrumlu ışık daha iyi büyümeyi destekler. <a href=\"https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/light-for-houseplants/\">UF/IFAS Gardening Solutions: ev bitkileri için ışık</a></p>\n<p>RHS, bitkilerin esas olarak mavi ve kırmızı ışığı kullandığını açıklıyor: mavi yaprak büyümesini, kırmızı ise büyümeyi ve çiçeklenmeyi destekler. Az kırmızıyla fazla mavi, az çiçekli, bodur ve koyu bitkiler verme eğilimindedir; fazla kırmızı ya da uzak kırmızı ise uzun, cılız büyümeye yol açar. <a href=\"https://www.rhs.org.uk/plants/types/houseplants/artificial-lighting\">RHS: iç mekân bitkileri için yapay aydınlatma</a> Evdeki yeşil yapraklı bitkiler için beyaz, geniş spektrumlu bir LED en basit seçimdir ve salonda da normal görünür.</p>\n<p>Iowa State'in atölye tipi bir LED armatür için başlangıç önerisi en az 3.000 lümenlik tam spektrum ışık. <a href=\"https://yardandgarden.extension.iastate.edu/how-to/how-set-supplemental-lights-indoor-plants\">Iowa State Üniversitesi Extension: ek aydınlatma kurulumu</a> Küçük, mandallı bir lamba çok daha az ışık verir ve yalnızca ampule yakın tek bir bitkiye yeter.</p>"
+        },
+        {
+          "title": "Ne kadar uzakta, ne kadar süre?",
+          "html": "<div class=\"table-wrap\"><table><thead><tr><th scope=\"col\">Ayar</th><th scope=\"col\">Iowa State başlangıç önerisi</th></tr></thead><tbody><tr><td>LED mesafesi</td><td>yapraklardan yaklaşık 30–60 cm, başlangıçta 45 cm civarı</td></tr><tr><td>Floresan mesafesi</td><td>yaklaşık 15–30 cm, başlangıçta 23 cm civarı</td></tr><tr><td>Günlük süre</td><td>çoğu bitki için yaklaşık 12–14 saat; en az 10, en fazla 16</td></tr></tbody></table></div>\n<p>Kaynak: <a href=\"https://yardandgarden.extension.iastate.edu/how-to/how-set-supplemental-lights-indoor-plants\">Iowa State Üniversitesi Extension: ek aydınlatma kurulumu</a></p>\n<p>Clemson Üniversitesi Ev ve Bahçe Bilgi Merkezi, zayıf ışığı telafi ederken çoğu bitki için 16 saat ışık ve 8 saat karanlığın uygun olduğunu söylüyor. <a href=\"https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/\">Clemson HGIC: iç mekân bitkileri ve ışık ihtiyacı</a> Yakın, daha parlak demektir: RHS lambayı yükseltmenin ışık şiddetini azalttığını ve lambaya en yakın bitkilerde sarımsı yeşil yaprakların ışığın onlar için fazla güçlü olduğunu gösterdiğini belirtiyor. <a href=\"https://www.rhs.org.uk/plants/types/houseplants/artificial-lighting\">RHS: iç mekân bitkileri için yapay aydınlatma</a></p>"
+        },
+        {
+          "title": "Zamanlayıcı kullan, geceleri karanlık tut",
+          "html": "<p>Ucuz bir priz zamanlayıcısı hatırlama işini senin yerine yapar; ışıklar her gün aynı saatte açılıp kapanır. Iowa State tüm ek ışıkların bir zamanlayıcıya bağlanmasını öneriyor ve bitkilerin düzgün büyümek için karanlık bir döneme ihtiyaç duyduğunu, bazılarının çiçek açmak için buna muhtaç olduğunu vurguluyor. Oda lambaları ya da sokak lambaları gibi başka ışık kaynakları bu karanlık dönemi bozabilir. <a href=\"https://yardandgarden.extension.iastate.edu/how-to/how-set-supplemental-lights-indoor-plants\">Iowa State Üniversitesi Extension: ek aydınlatma kurulumu</a></p>"
+        },
+        {
+          "title": "Değişen diğer şeyleri de ayarla",
+          "html": "<p>Daha fazla ışık daha hızlı büyüme demektir; daha hızlı büyüyen bitki daha fazla su ve büyüme mevsiminde daha fazla besin kullanır. Lamba altındaki ilk haftalarda toprağı daha sık kontrol et; kontrolün nasıl yapılacağını <a href=\"/guides/watering-houseplants/\">ev bitkilerini sabit bir takvime bağlı kalmadan sulamak</a> rehberi anlatıyor. Bir bitkiyi loş bir köşeden güçlü bir lambanın altına alıyorsan süreyi bir iki haftaya yayarak artır.</p>"
+        },
+        {
+          "title": "Sık sorulan sorular",
+          "html": "<h3>Normal bir LED ampul işe yarar mı?</h3>\n<p>Bitkiye yakın, parlak ve geniş spektrumlu bir ev tipi LED yardımcı olabilir; Florida Üniversitesi soğuk beyaz, sıcak beyaz ve gün ışığı lambalarının hepsinin işe yarayabileceğini belirtiyor. <a href=\"https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/light-for-houseplants/\">UF/IFAS Gardening Solutions: ev bitkileri için ışık</a> Etiketten çok ışık miktarı, mesafe ve süre önemlidir.</p>\n<h3>Mor ışık daha mı iyi?</h3>\n<p>Ev için değil. Kırmızı-mavi armatürler verimlilik için tasarlandı, ama beyaz ışık bitkinin gerçek renklerini gösterir ve birlikte yaşaması daha kolaydır.</p>\n<h3>Işık bütün gece açık kalmalı mı?</h3>\n<p>Hayır. Bitkilerin günlük bir karanlık dönemine ihtiyacı vardır. Zamanlayıcı kullan ve günde en fazla 16 saat ışığı hedefle.</p>"
+        }
+      ]
+    }
+  },
+  {
     "slug": "houseplant-humidity",
     "type": "guide",
+    "category": "environment",
     "published": "2026-10-22",
     "reviewed": "2026-10-22",
     "sources": [
@@ -948,6 +1532,7 @@
   {
     "slug": "houseplant-pests",
     "type": "guide",
+    "category": "problems",
     "published": "2026-10-22",
     "reviewed": "2026-10-22",
     "sources": [
@@ -1023,7 +1608,7 @@
         },
         {
           "title": "Prevention and follow-up",
-          "html": "<ol><li>Isolate new plants for one to two weeks so any pests have time to show. <a href=\"https://extension.umn.edu/news/houseplant-pests\">University of Minnesota Extension: houseplant pests</a></li><li>Look under leaves whenever you check or water.</li><li>Keep a note of the date, the pest, what you did and what you saw a week later.</li><li>Repeat checks: one round rarely clears a pest completely.</li></ol>\n<p>Products, their active ingredients and their legal use differ by country. We do not give doses: the label on the product you buy is the only reliable instruction. Keep products away from children and pets, and if anyone swallows one, contact a doctor or veterinarian; in Türkiye, people can call the poison line 114 (UZEM). This is general information, not veterinary or medical advice.</p>\n<p>If a plant also has yellow leaves, work through <a href=\"/en/guides/yellow-houseplant-leaves/\">yellow houseplant leaves</a> as well. Plants brought indoors after summer need extra checks; see <a href=\"/en/journal/autumn-plant-reset/\">an autumn reset for houseplants</a>.</p>\n<p>If you share your home with cats or dogs, also read <a href=\"/en/guides/pet-safe-houseplants/\">houseplants and pets</a> before choosing new plants.</p>"
+          "html": "<ol><li>Isolate new plants for one to two weeks so any pests have time to show. <a href=\"https://extension.umn.edu/news/houseplant-pests\">University of Minnesota Extension: houseplant pests</a></li><li>Look under leaves whenever you check or water.</li><li>Keep a note of the date, the pest, what you did and what you saw a week later.</li><li>Repeat checks: one round rarely clears a pest completely.</li></ol>\n<p>Products, their active ingredients and their legal use differ by country. We do not give doses: the label on the product you buy is the only reliable instruction. Keep products away from children and pets, and if anyone swallows one, contact a doctor or veterinarian; in Türkiye, people can call the poison line 114 (UZEM). This is general information, not veterinary or medical advice.</p>\n<p>If a plant also has yellow leaves, work through <a href=\"/en/guides/yellow-houseplant-leaves/\">yellow houseplant leaves</a> as well. Plants brought indoors after summer need extra checks; see <a href=\"/en/blog/autumn-plant-reset/\">an autumn reset for houseplants</a>.</p>\n<p>If you share your home with cats or dogs, also read <a href=\"/en/guides/pet-safe-houseplants/\">houseplants and pets</a> before choosing new plants.</p>"
         },
         {
           "title": "Common questions",
@@ -1064,7 +1649,7 @@
         },
         {
           "title": "Önlem ve takip",
-          "html": "<ol><li>Yeni bitkileri bir iki hafta ayrı tut; varsa zararlıların ortaya çıkmasına zaman tanı. <a href=\"https://extension.umn.edu/news/houseplant-pests\">Minnesota Üniversitesi Extension: ev bitkisi zararlıları</a></li><li>Her kontrol ve sulamada yaprakların altına bak.</li><li>Tarihi, zararlıyı, ne yaptığını ve bir hafta sonra ne gördüğünü not et.</li><li>Kontrolü tekrarla: tek bir müdahale zararlıyı nadiren tamamen temizler.</li></ol>\n<p>Ürünler, etken maddeleri ve yasal kullanım koşulları ülkeden ülkeye değişir. Doz vermiyoruz: güvenilir tek talimat, satın aldığın ürünün etiketidir. Ürünleri çocuklardan ve evcil hayvanlardan uzak tut. Biri yutarsa bir doktora veya veterinere başvur; Türkiye’de insanlarla ilgili zehirlenmelerde 114 Ulusal Zehir Danışma Merkezi’ni (UZEM) arayabilirsin. Bu genel bilgidir; veteriner veya tıbbi tavsiye değildir.</p>\n<p>Bitkinin yaprakları da sararıyorsa <a href=\"/guides/yellow-houseplant-leaves/\">sararan yapraklarda neye bakmalı</a> rehberini de uygula. Yazdan sonra içeri alınan bitkiler ek kontrol ister; <a href=\"/journal/autumn-plant-reset/\">ev bitkileri için sonbahar düzeni</a> yazımıza bak.</p>\n<p>Evinde kedi veya köpek varsa yeni bitki seçmeden önce <a href=\"/guides/pet-safe-houseplants/\">ev bitkileri ve evcil hayvanlar</a> rehberimizi de oku.</p>"
+          "html": "<ol><li>Yeni bitkileri bir iki hafta ayrı tut; varsa zararlıların ortaya çıkmasına zaman tanı. <a href=\"https://extension.umn.edu/news/houseplant-pests\">Minnesota Üniversitesi Extension: ev bitkisi zararlıları</a></li><li>Her kontrol ve sulamada yaprakların altına bak.</li><li>Tarihi, zararlıyı, ne yaptığını ve bir hafta sonra ne gördüğünü not et.</li><li>Kontrolü tekrarla: tek bir müdahale zararlıyı nadiren tamamen temizler.</li></ol>\n<p>Ürünler, etken maddeleri ve yasal kullanım koşulları ülkeden ülkeye değişir. Doz vermiyoruz: güvenilir tek talimat, satın aldığın ürünün etiketidir. Ürünleri çocuklardan ve evcil hayvanlardan uzak tut. Biri yutarsa bir doktora veya veterinere başvur; Türkiye’de insanlarla ilgili zehirlenmelerde 114 Ulusal Zehir Danışma Merkezi’ni (UZEM) arayabilirsin. Bu genel bilgidir; veteriner veya tıbbi tavsiye değildir.</p>\n<p>Bitkinin yaprakları da sararıyorsa <a href=\"/guides/yellow-houseplant-leaves/\">sararan yapraklarda neye bakmalı</a> rehberini de uygula. Yazdan sonra içeri alınan bitkiler ek kontrol ister; <a href=\"/blog/autumn-plant-reset/\">ev bitkileri için sonbahar düzeni</a> yazımıza bak.</p>\n<p>Evinde kedi veya köpek varsa yeni bitki seçmeden önce <a href=\"/guides/pet-safe-houseplants/\">ev bitkileri ve evcil hayvanlar</a> rehberimizi de oku.</p>"
         },
         {
           "title": "Sık sorulan sorular",
@@ -1105,7 +1690,7 @@
         },
         {
           "title": "Prevención y seguimiento",
-          "html": "<ol><li>Mantén las plantas nuevas aparte una o dos semanas para que cualquier plaga tenga tiempo de aparecer. <a href=\"https://extension.umn.edu/news/houseplant-pests\">University of Minnesota Extension: plagas de plantas de interior</a></li><li>Mira el envés de las hojas cada vez que compruebes o riegues.</li><li>Anota la fecha, la plaga, lo que hiciste y lo que viste una semana después.</li><li>Repite las revisiones: una sola vez rara vez elimina una plaga por completo.</li></ol>\n<p>Los productos, sus materias activas y su uso legal cambian según el país. No damos dosis: la única instrucción fiable es la etiqueta del producto que compres. Guárdalos lejos de niños y mascotas. Si alguien ingiere uno, contacta con un médico o con un veterinario y con el servicio de información toxicológica de tu país. Esto es información general, no consejo veterinario ni médico.</p>\n<p>Si la planta además tiene hojas amarillas, consulta también <a href=\"/es/guides/yellow-houseplant-leaves/\">hojas amarillas en plantas de interior</a>. Las plantas que vuelven dentro después del verano necesitan revisiones extra; mira <a href=\"/es/journal/autumn-plant-reset/\">una puesta a punto de otoño</a>.</p>\n<p>Si convives con gatos o perros, lee también <a href=\"/es/guides/pet-safe-houseplants/\">plantas de interior y mascotas</a> antes de elegir plantas nuevas.</p>"
+          "html": "<ol><li>Mantén las plantas nuevas aparte una o dos semanas para que cualquier plaga tenga tiempo de aparecer. <a href=\"https://extension.umn.edu/news/houseplant-pests\">University of Minnesota Extension: plagas de plantas de interior</a></li><li>Mira el envés de las hojas cada vez que compruebes o riegues.</li><li>Anota la fecha, la plaga, lo que hiciste y lo que viste una semana después.</li><li>Repite las revisiones: una sola vez rara vez elimina una plaga por completo.</li></ol>\n<p>Los productos, sus materias activas y su uso legal cambian según el país. No damos dosis: la única instrucción fiable es la etiqueta del producto que compres. Guárdalos lejos de niños y mascotas. Si alguien ingiere uno, contacta con un médico o con un veterinario y con el servicio de información toxicológica de tu país. Esto es información general, no consejo veterinario ni médico.</p>\n<p>Si la planta además tiene hojas amarillas, consulta también <a href=\"/es/guides/yellow-houseplant-leaves/\">hojas amarillas en plantas de interior</a>. Las plantas que vuelven dentro después del verano necesitan revisiones extra; mira <a href=\"/es/blog/autumn-plant-reset/\">una puesta a punto de otoño</a>.</p>\n<p>Si convives con gatos o perros, lee también <a href=\"/es/guides/pet-safe-houseplants/\">plantas de interior y mascotas</a> antes de elegir plantas nuevas.</p>"
         },
         {
           "title": "Preguntas frecuentes",
@@ -1146,7 +1731,7 @@
         },
         {
           "title": "Vorbeugen und nachkontrollieren",
-          "html": "<ol><li>Neue Pflanzen ein bis zwei Wochen getrennt stellen, damit sich Schädlinge zeigen können. <a href=\"https://extension.umn.edu/news/houseplant-pests\">University of Minnesota Extension: Schädlinge an Zimmerpflanzen</a></li><li>Bei jeder Kontrolle und jedem Gießen unter die Blätter schauen.</li><li>Datum, Schädling, Maßnahme und den Zustand eine Woche später notieren.</li><li>Kontrollen wiederholen: Eine einzige Runde beseitigt einen Befall selten vollständig.</li></ol>\n<p>Mittel, Wirkstoffe und ihre Zulassung unterscheiden sich von Land zu Land. Wir nennen keine Dosierungen: Die einzige verlässliche Anweisung ist die Gebrauchsanweisung des Mittels, das du kaufst. Bewahre Mittel außer Reichweite von Kindern und Haustieren auf. Wenn jemand etwas verschluckt, wende dich an eine Ärztin, einen Arzt, eine Tierarztpraxis oder den Giftnotruf deines Landes. Dies sind allgemeine Informationen, keine tierärztliche oder medizinische Beratung.</p>\n<p>Hat die Pflanze zusätzlich gelbe Blätter, hilft auch <a href=\"/de/guides/yellow-houseplant-leaves/\">Gelbe Blätter bei Zimmerpflanzen</a>. Pflanzen, die nach dem Sommer hereingeholt werden, brauchen besondere Aufmerksamkeit; siehe <a href=\"/de/journal/autumn-plant-reset/\">Herbst-Neustart für Zimmerpflanzen</a>.</p>\n<p>Lebst du mit Katze oder Hund zusammen, lies vor dem Pflanzenkauf auch <a href=\"/de/guides/pet-safe-houseplants/\">Zimmerpflanzen und Haustiere</a>.</p>"
+          "html": "<ol><li>Neue Pflanzen ein bis zwei Wochen getrennt stellen, damit sich Schädlinge zeigen können. <a href=\"https://extension.umn.edu/news/houseplant-pests\">University of Minnesota Extension: Schädlinge an Zimmerpflanzen</a></li><li>Bei jeder Kontrolle und jedem Gießen unter die Blätter schauen.</li><li>Datum, Schädling, Maßnahme und den Zustand eine Woche später notieren.</li><li>Kontrollen wiederholen: Eine einzige Runde beseitigt einen Befall selten vollständig.</li></ol>\n<p>Mittel, Wirkstoffe und ihre Zulassung unterscheiden sich von Land zu Land. Wir nennen keine Dosierungen: Die einzige verlässliche Anweisung ist die Gebrauchsanweisung des Mittels, das du kaufst. Bewahre Mittel außer Reichweite von Kindern und Haustieren auf. Wenn jemand etwas verschluckt, wende dich an eine Ärztin, einen Arzt, eine Tierarztpraxis oder den Giftnotruf deines Landes. Dies sind allgemeine Informationen, keine tierärztliche oder medizinische Beratung.</p>\n<p>Hat die Pflanze zusätzlich gelbe Blätter, hilft auch <a href=\"/de/guides/yellow-houseplant-leaves/\">Gelbe Blätter bei Zimmerpflanzen</a>. Pflanzen, die nach dem Sommer hereingeholt werden, brauchen besondere Aufmerksamkeit; siehe <a href=\"/de/blog/autumn-plant-reset/\">Herbst-Neustart für Zimmerpflanzen</a>.</p>\n<p>Lebst du mit Katze oder Hund zusammen, lies vor dem Pflanzenkauf auch <a href=\"/de/guides/pet-safe-houseplants/\">Zimmerpflanzen und Haustiere</a>.</p>"
         },
         {
           "title": "Häufige Fragen",
@@ -1187,7 +1772,7 @@
         },
         {
           "title": "Prevenção e acompanhamento",
-          "html": "<ol><li>Deixe plantas novas separadas por uma ou duas semanas para que eventuais pragas apareçam. <a href=\"https://extension.umn.edu/news/houseplant-pests\">University of Minnesota Extension: pragas de plantas de interior</a></li><li>Olhe embaixo das folhas sempre que verificar ou regar.</li><li>Anote a data, a praga, o que fez e o que viu uma semana depois.</li><li>Repita as verificações: uma rodada só raramente acaba com uma praga.</li></ol>\n<p>Os produtos, seus princípios ativos e o uso permitido mudam de país para país. Não damos doses: a única instrução confiável é o rótulo do produto que você comprar. Guarde os produtos longe de crianças e animais. Se alguém ingerir algum, procure um médico ou um veterinário e o centro de informação toxicológica do seu país. Isto é informação geral, não orientação veterinária ou médica.</p>\n<p>Se a planta também tiver folhas amarelas, veja ainda <a href=\"/pt/guides/yellow-houseplant-leaves/\">folhas amarelas em plantas de interior</a>. Plantas que voltam para dentro depois de uma temporada ao ar livre pedem verificações extras; veja <a href=\"/pt/journal/autumn-plant-reset/\">uma arrumação de outono</a>.</p>\n<p>Se você mora com gatos ou cachorros, leia também <a href=\"/pt/guides/pet-safe-houseplants/\">plantas de interior e pets</a> antes de escolher plantas novas.</p>"
+          "html": "<ol><li>Deixe plantas novas separadas por uma ou duas semanas para que eventuais pragas apareçam. <a href=\"https://extension.umn.edu/news/houseplant-pests\">University of Minnesota Extension: pragas de plantas de interior</a></li><li>Olhe embaixo das folhas sempre que verificar ou regar.</li><li>Anote a data, a praga, o que fez e o que viu uma semana depois.</li><li>Repita as verificações: uma rodada só raramente acaba com uma praga.</li></ol>\n<p>Os produtos, seus princípios ativos e o uso permitido mudam de país para país. Não damos doses: a única instrução confiável é o rótulo do produto que você comprar. Guarde os produtos longe de crianças e animais. Se alguém ingerir algum, procure um médico ou um veterinário e o centro de informação toxicológica do seu país. Isto é informação geral, não orientação veterinária ou médica.</p>\n<p>Se a planta também tiver folhas amarelas, veja ainda <a href=\"/pt/guides/yellow-houseplant-leaves/\">folhas amarelas em plantas de interior</a>. Plantas que voltam para dentro depois de uma temporada ao ar livre pedem verificações extras; veja <a href=\"/pt/blog/autumn-plant-reset/\">uma arrumação de outono</a>.</p>\n<p>Se você mora com gatos ou cachorros, leia também <a href=\"/pt/guides/pet-safe-houseplants/\">plantas de interior e pets</a> antes de escolher plantas novas.</p>"
         },
         {
           "title": "Perguntas frequentes",
@@ -1228,7 +1813,7 @@
         },
         {
           "title": "Prévention et suivi",
-          "html": "<ol><li>Gardez les nouvelles plantes à l’écart une à deux semaines pour laisser aux éventuels ravageurs le temps d’apparaître. <a href=\"https://extension.umn.edu/news/houseplant-pests\">University of Minnesota Extension : ravageurs des plantes d’intérieur</a></li><li>Regardez sous les feuilles à chaque vérification ou arrosage.</li><li>Notez la date, le ravageur, ce que vous avez fait et ce que vous voyez une semaine plus tard.</li><li>Répétez les contrôles : un seul passage vient rarement à bout d’un ravageur.</li></ol>\n<p>Les produits, leurs substances actives et leur usage autorisé varient selon les pays. Nous ne donnons pas de doses : la seule instruction fiable est l’étiquette du produit que vous achetez. Rangez les produits hors de portée des enfants et des animaux. En cas d’ingestion, contactez un médecin ou un vétérinaire et le centre antipoison de votre pays. Ceci est une information générale, pas un avis vétérinaire ou médical.</p>\n<p>Si la plante a aussi des feuilles jaunes, consultez également <a href=\"/fr/guides/yellow-houseplant-leaves/\">feuilles jaunes des plantes d’intérieur</a>. Les plantes rentrées après l’été demandent des contrôles supplémentaires ; voir <a href=\"/fr/journal/autumn-plant-reset/\">le grand ménage d’automne</a>.</p>\n<p>Si vous vivez avec un chat ou un chien, lisez aussi <a href=\"/fr/guides/pet-safe-houseplants/\">plantes d’intérieur et animaux</a> avant de choisir de nouvelles plantes.</p>"
+          "html": "<ol><li>Gardez les nouvelles plantes à l’écart une à deux semaines pour laisser aux éventuels ravageurs le temps d’apparaître. <a href=\"https://extension.umn.edu/news/houseplant-pests\">University of Minnesota Extension : ravageurs des plantes d’intérieur</a></li><li>Regardez sous les feuilles à chaque vérification ou arrosage.</li><li>Notez la date, le ravageur, ce que vous avez fait et ce que vous voyez une semaine plus tard.</li><li>Répétez les contrôles : un seul passage vient rarement à bout d’un ravageur.</li></ol>\n<p>Les produits, leurs substances actives et leur usage autorisé varient selon les pays. Nous ne donnons pas de doses : la seule instruction fiable est l’étiquette du produit que vous achetez. Rangez les produits hors de portée des enfants et des animaux. En cas d’ingestion, contactez un médecin ou un vétérinaire et le centre antipoison de votre pays. Ceci est une information générale, pas un avis vétérinaire ou médical.</p>\n<p>Si la plante a aussi des feuilles jaunes, consultez également <a href=\"/fr/guides/yellow-houseplant-leaves/\">feuilles jaunes des plantes d’intérieur</a>. Les plantes rentrées après l’été demandent des contrôles supplémentaires ; voir <a href=\"/fr/blog/autumn-plant-reset/\">le grand ménage d’automne</a>.</p>\n<p>Si vous vivez avec un chat ou un chien, lisez aussi <a href=\"/fr/guides/pet-safe-houseplants/\">plantes d’intérieur et animaux</a> avant de choisir de nouvelles plantes.</p>"
         },
         {
           "title": "Questions fréquentes",
@@ -1240,6 +1825,7 @@
   {
     "slug": "indoor-plant-light-guide",
     "type": "guide",
+    "category": "environment",
     "published": "2026-10-16",
     "reviewed": "2026-10-16",
     "sources": [
@@ -1470,6 +2056,7 @@
   {
     "slug": "keeping-a-plant-care-journal",
     "type": "post",
+    "category": "notes",
     "published": "2026-10-22",
     "reviewed": "2026-10-22",
     "sources": [
@@ -1712,6 +2299,101 @@
         {
           "title": "Questions fréquentes",
           "html": "<h3>À quelle fréquence faut-il écrire ?</h3>\n<p>À chaque vérification ou soin. Une ligne suffit.</p>\n<h3>Faut-il noter les vérifications où je n’ai pas arrosé ?</h3>\n<p>Oui. Elles montrent que quelqu’un a regardé la plante et qu’elle n’avait pas besoin d’eau, précisément l’information qui se perd sinon.</p>\n<h3>Et si j’oublie pendant quelques semaines ?</h3>\n<p>Reprenez. Notez la date et l’état actuel de la plante ; un trou vaut mieux qu’une supposition.</p>"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "leggy-houseplants",
+    "type": "post",
+    "category": "problems",
+    "published": "2026-10-23",
+    "reviewed": "2026-10-23",
+    "sources": [
+      {
+        "name": "University of Minnesota Extension: spring houseplant care",
+        "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/houseplants/spring-houseplant-care"
+      },
+      {
+        "name": "Missouri Botanical Garden: renovating an indoor house plant",
+        "url": "https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/visual-guides/renovating-an-indoor-house-plant"
+      },
+      {
+        "name": "Clemson HGIC: indoor plants, cleaning, fertilizing, containers and light requirements",
+        "url": "https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/"
+      }
+    ],
+    "related": [
+      "grow-lights-for-houseplants",
+      "indoor-plant-light-guide",
+      "propagating-cuttings"
+    ],
+    "plants": [
+      "epipremnum-aureum",
+      "philodendron-hederaceum"
+    ],
+    "en": {
+      "description": "Long, thin stems with gaps between leaves usually mean too little light. Add light first, then prune above a node and root the cuttings to refill the pot.",
+      "title": "Leggy houseplants: why they stretch and how to fix them",
+      "answerHtml": "<p>A leggy plant has long, thin stems with wide gaps between the leaves, often leaning towards the window. The usual cause is not enough light: the plant stretches to reach more of it. Stretched stems do not shrink back, so the fix has two parts. First, give the plant more light so new growth stays compact. Then, ideally in early spring, cut the long stems back just above a leaf node to encourage bushier growth. The cuttings can often be rooted. <a href=\"https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/houseplants/spring-houseplant-care\">University of Minnesota Extension: spring houseplant care</a></p>",
+      "answer": "A leggy plant has long, thin stems with wide gaps between the leaves, often leaning towards the window. The usual cause is not enough light: the plant stretches to reach more of it. Stretched stems do not shrink back, so the fix has two parts. First, give the plant more light so new growth stays compact. Then, ideally in early spring, cut the long stems back just above a leaf node to encourage bushier growth. The cuttings can often be rooted. University of Minnesota Extension: spring houseplant care",
+      "sections": [
+        {
+          "title": "How to recognise it",
+          "html": "<p>Typical signs of stretching:</p>\n<ul><li>Long gaps between leaves on new growth compared with older growth.</li><li>Smaller, paler new leaves.</li><li>The whole plant leaning or growing towards the light.</li><li>A bare lower stem with leaves only at the tip.</li></ul>\n<p>The University of Minnesota notes that many houseplants stretch towards limited winter light, so a slightly lanky look by the end of winter is common. <a href=\"https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/houseplants/spring-houseplant-care\">University of Minnesota Extension: spring houseplant care</a> A plant that is old and bare at the base may simply be ageing, but the remedy is similar.</p>"
+        },
+        {
+          "title": "Step one: more light",
+          "html": "<p>Pruning alone will not help if the plant stays in the same dim spot; the new shoots will stretch again. Move it closer to a window, or to a brighter one. If you are moving a plant into much stronger light, do it gradually over one to two weeks so the leaves do not scorch. <a href=\"https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/houseplants/spring-houseplant-care\">University of Minnesota Extension: spring houseplant care</a> Our <a href=\"/en/guides/indoor-plant-light-guide/\">indoor plant light guide</a> explains how to read the light in a room.</p>\n<p>If there is no brighter spot, a grow light can make up the difference. Clemson University's Home &amp; Garden Information Center notes that extending the light period can compensate for weak light, and that 16 hours of light and 8 of darkness suits most plants. <a href=\"https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/\">Clemson HGIC: indoor plants, light requirements</a> Our post on <a href=\"/en/blog/grow-lights-for-houseplants/\">grow lights for houseplants</a> covers the set-up.</p>\n<p>Turning the pot a quarter turn every week or two also helps the plant grow evenly instead of leaning one way.</p>"
+        },
+        {
+          "title": "Step two: prune back",
+          "html": "<p>Early spring, just before new growth starts, is the best time. The Missouri Botanical Garden describes cutting tall stems back to a side branch or bud; new shoots then appear from lower down, and healthy shoots should show within about three weeks. <a href=\"https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/visual-guides/renovating-an-indoor-house-plant\">Missouri Botanical Garden: renovating an indoor house plant</a></p>\n<p>How to cut:</p>\n<ol><li>Use clean, sharp scissors or secateurs.</li><li>Cut just above a leaf node, the point where a leaf joins the stem. Growth will come from the buds at or below that node. <a href=\"https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/houseplants/spring-houseplant-care\">University of Minnesota Extension: spring houseplant care</a></li><li>You do not need to cut everything at once. Shorten the longest stems first and leave some leaves on each stem so the plant can keep feeding itself.</li><li>Remove yellow or damaged leaves at the same time.</li></ol>"
+        },
+        {
+          "title": "Step three: root the cuttings",
+          "html": "<p>Many trailing and soft-stemmed plants, such as pothos, philodendron, tradescantia and many begonias, root easily from stem cuttings. Our guide to <a href=\"/en/guides/propagating-cuttings/\">propagating houseplants from cuttings</a> covers water and soil methods. Planting the rooted cuttings back into the same pot is a simple way to make a sparse plant look full again.</p>"
+        },
+        {
+          "title": "Keep it compact from now on",
+          "html": "<p>Once the plant is in better light, a few habits keep it bushy:</p>\n<ul><li>Turn the pot a quarter turn every week or two so all sides get light.</li><li>In the growing season, trim the tip of a stem that is getting long, just above a node, rather than waiting for a big cut. <a href=\"https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/houseplants/spring-houseplant-care\">University of Minnesota Extension: spring houseplant care</a></li><li>Feed only while the plant is actively growing and at or below the label rate; extra fertiliser in dim light does not replace light. See <a href=\"/en/guides/fertilizing-houseplants/\">feeding houseplants</a>.</li><li>Expect some stretch every winter and plan a light trim for early spring.</li></ul>"
+        },
+        {
+          "title": "Common questions",
+          "html": "<h3>Can I just stake a leggy plant?</h3>\n<p>You can tie it to a stake to stop it flopping, but that hides the problem rather than fixing it. Combine support with more light.</p>\n<h3>Will the bare stem grow new leaves?</h3>\n<p>Sometimes. Many plants push new shoots from dormant buds below a cut. Bare stems on plants such as some succulents may not, so rooting the top is the better option there.</p>\n<h3>When should I not prune?</h3>\n<p>Avoid hard pruning in the darkest part of winter, when growth is slow. Wait until days lengthen in early spring.</p>"
+        }
+      ]
+    },
+    "tr": {
+      "description": "Yaprak araları açılmış uzun, ince gövdeler çoğunlukla az ışık demektir. Önce ışığı artır, sonra boğum üstünden buda, çelikleri köklendirip saksıyı doldur.",
+      "seoTitle": "Boy atıp seyrelen ev bitkileri: neden uzar, nasıl toparlanır",
+      "title": "Boy atıp seyrelen ev bitkileri: neden uzarlar, nasıl toparlanır",
+      "answerHtml": "<p>Boy atıp seyrelen bir bitkinin gövdeleri uzun ve incedir, yapraklar arasında geniş boşluklar vardır ve çoğu zaman pencereye doğru eğilir. Olağan neden yetersiz ışıktır: bitki daha fazla ışığa ulaşmak için uzar. Uzamış gövdeler geri kısalmaz, bu yüzden çözüm iki adımlıdır. Önce bitkiye daha fazla ışık ver ki yeni büyüme sık ve toplu kalsın. Sonra, tercihen ilkbahar başında, uzun gövdeleri bir yaprak boğumunun hemen üstünden keserek daha gür büyümeyi teşvik et. Kesilen parçalar çoğu zaman köklendirilebilir. <a href=\"https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/houseplants/spring-houseplant-care\">Minnesota Üniversitesi Extension: ilkbaharda ev bitkisi bakımı</a></p>",
+      "answer": "Boy atıp seyrelen bir bitkinin gövdeleri uzun ve incedir, yapraklar arasında geniş boşluklar vardır ve çoğu zaman pencereye doğru eğilir. Olağan neden yetersiz ışıktır: bitki daha fazla ışığa ulaşmak için uzar. Uzamış gövdeler geri kısalmaz, bu yüzden çözüm iki adımlıdır. Önce bitkiye daha fazla ışık ver ki yeni büyüme sık ve toplu kalsın. Sonra, tercihen ilkbahar başında, uzun gövdeleri bir yaprak boğumunun hemen üstünden keserek daha gür büyümeyi teşvik et. Kesilen parçalar çoğu zaman köklendirilebilir. Minnesota Üniversitesi Extension: ilkbaharda ev bitkisi bakımı",
+      "sections": [
+        {
+          "title": "Nasıl anlaşılır?",
+          "html": "<p>Uzamanın tipik işaretleri:</p>\n<ul><li>Yeni büyümede yapraklar arasındaki boşlukların eski büyümeye göre uzun olması.</li><li>Daha küçük ve daha soluk yeni yapraklar.</li><li>Bitkinin tamamının ışığa doğru eğilmesi ya da büyümesi.</li><li>Alt gövdenin çıplak kalması, yaprakların yalnızca uçta olması.</li></ul>\n<p>Minnesota Üniversitesi birçok ev bitkisinin kısıtlı kış ışığına doğru uzadığını, bu yüzden kış sonunda biraz sırık gibi görünmenin yaygın olduğunu belirtiyor. <a href=\"https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/houseplants/spring-houseplant-care\">Minnesota Üniversitesi Extension: ilkbaharda ev bitkisi bakımı</a> Dipte yaşlı ve çıplak kalan bir bitki sadece yaşlanıyor olabilir, ama çözüm benzerdir.</p>"
+        },
+        {
+          "title": "Birinci adım: daha fazla ışık",
+          "html": "<p>Bitki aynı loş yerde kalırsa yalnızca budamak işe yaramaz; yeni sürgünler yine uzar. Bitkiyi pencereye daha yakın ya da daha aydınlık bir pencereye taşı. Bitkiyi çok daha güçlü bir ışığa alıyorsan, yaprakların yanmaması için bunu bir iki haftaya yayarak kademeli yap. <a href=\"https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/houseplants/spring-houseplant-care\">Minnesota Üniversitesi Extension: ilkbaharda ev bitkisi bakımı</a> Bir odadaki ışığı nasıl okuyacağını <a href=\"/guides/indoor-plant-light-guide/\">iç mekân bitki ışığı rehberi</a> anlatıyor.</p>\n<p>Daha aydınlık bir yer yoksa farkı bir bitki lambası kapatabilir. Clemson Üniversitesi Ev ve Bahçe Bilgi Merkezi, ışık süresini uzatmanın zayıf ışığı telafi edebileceğini ve çoğu bitki için 16 saat ışık ile 8 saat karanlığın uygun olduğunu belirtiyor. <a href=\"https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/\">Clemson HGIC: iç mekân bitkileri ve ışık ihtiyacı</a> Kurulumu <a href=\"/blog/grow-lights-for-houseplants/\">ev bitkileri için bitki lambaları</a> yazısı anlatıyor.</p>\n<p>Saksıyı bir iki haftada bir çeyrek tur çevirmek de bitkinin tek tarafa eğilmek yerine dengeli büyümesine yardım eder.</p>"
+        },
+        {
+          "title": "İkinci adım: geri budama",
+          "html": "<p>En iyi zaman, yeni büyüme başlamadan hemen önce, ilkbahar başıdır. Missouri Botanik Bahçesi uzun gövdelerin bir yan dala ya da tomurcuğa kadar kesilmesini anlatıyor; ardından daha aşağıdan yeni sürgünler çıkar ve sağlıklı sürgünler yaklaşık üç hafta içinde görünür. <a href=\"https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/visual-guides/renovating-an-indoor-house-plant\">Missouri Botanik Bahçesi: bir iç mekân bitkisini yenilemek</a></p>\n<p>Nasıl kesilir:</p>\n<ol><li>Temiz ve keskin bir makas ya da budama makası kullan.</li><li>Bir yaprak boğumunun, yani yaprağın gövdeye bağlandığı noktanın hemen üstünden kes. Yeni büyüme o boğumdaki ya da altındaki tomurcuklardan gelir. <a href=\"https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/houseplants/spring-houseplant-care\">Minnesota Üniversitesi Extension: ilkbaharda ev bitkisi bakımı</a></li><li>Hepsini birden kesmen gerekmez. Önce en uzun gövdeleri kısalt ve bitkinin beslenmeye devam edebilmesi için her gövdede birkaç yaprak bırak.</li><li>Sararmış ya da zarar görmüş yaprakları da aynı anda temizle.</li></ol>"
+        },
+        {
+          "title": "Üçüncü adım: kesilen parçaları köklendir",
+          "html": "<p>Pothos, philodendron, telgraf çiçeği ve birçok begonya gibi sarkan ve yumuşak gövdeli bitkilerin çoğu gövde çeliklerinden kolayca köklenir. Su ve toprak yöntemlerini <a href=\"/guides/propagating-cuttings/\">ev bitkilerini çelikle çoğaltmak</a> rehberi anlatıyor. Köklenen çelikleri aynı saksıya geri dikmek, seyrek bir bitkiyi yeniden dolgun göstermenin basit bir yoludur.</p>"
+        },
+        {
+          "title": "Bundan sonra toplu tutmak",
+          "html": "<p>Bitki daha iyi bir ışığa geçtikten sonra birkaç alışkanlık onu gür tutar:</p>\n<ul><li>Her tarafı ışık alsın diye saksıyı bir iki haftada bir çeyrek tur çevir.</li><li>Büyüme mevsiminde büyük bir kesimi beklemek yerine uzayan gövdenin ucunu bir boğumun hemen üstünden kısalt. <a href=\"https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/houseplants/spring-houseplant-care\">Minnesota Üniversitesi Extension: ilkbaharda ev bitkisi bakımı</a></li><li>Yalnızca bitki aktif olarak büyürken ve etiketteki oranda ya da daha az besle; loş ışıkta fazla gübre ışığın yerini tutmaz. Bkz. <a href=\"/guides/fertilizing-houseplants/\">ev bitkilerini beslemek</a>.</li><li>Her kış biraz uzama bekle ve ilkbahar başı için hafif bir budama planla.</li></ul>"
+        },
+        {
+          "title": "Sık sorulan sorular",
+          "html": "<h3>Seyrelen bitkiyi sadece bir çubuğa bağlayabilir miyim?</h3>\n<p>Devrilmemesi için bir çubuğa bağlayabilirsin, ama bu sorunu çözmez, yalnızca gizler. Desteği daha fazla ışıkla birlikte kullan.</p>\n<h3>Çıplak gövdeden yeni yaprak çıkar mı?</h3>\n<p>Bazen. Birçok bitki kesimin altındaki uyuyan tomurcuklardan yeni sürgün verir. Bazı sukulentler gibi bitkilerde çıplak gövde sürgün vermeyebilir; orada ucu köklendirmek daha iyi bir seçenektir.</p>\n<h3>Ne zaman budamamalıyım?</h3>\n<p>Büyümenin yavaş olduğu kışın en karanlık döneminde sert budamadan kaçın. İlkbahar başında günler uzayana kadar bekle.</p>"
         }
       ]
     }
@@ -2319,8 +3001,103 @@
     }
   },
   {
+    "slug": "mold-on-houseplant-soil",
+    "type": "post",
+    "category": "problems",
+    "published": "2026-10-23",
+    "reviewed": "2026-10-23",
+    "sources": [
+      {
+        "name": "UF/IFAS: a basic guide to mushrooms commonly encountered in potted plants",
+        "url": "https://ask.ifas.ufl.edu/publication/PP377"
+      },
+      {
+        "name": "Iowa State University Extension: will mold on peat pots harm seedlings?",
+        "url": "https://yardandgarden.extension.iastate.edu/faq/will-mold-peat-pots-harm-my-flower-and-vegetable-seedlings"
+      },
+      {
+        "name": "Colorado State University Extension: leaching salts from potting mixes",
+        "url": "https://planttalk.colostate.edu/topics/houseplants/1339-leaching-salts-potting-mixes/"
+      },
+      {
+        "name": "Missouri Botanical Garden: slime molds",
+        "url": "https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/insects-pests-and-problems/diseases/slime-molds"
+      }
+    ],
+    "related": [
+      "root-rot",
+      "watering-houseplants",
+      "tap-water-for-houseplants"
+    ],
+    "en": {
+      "description": "White fuzz on potting mix is usually a harmless fungus that signals wet, still conditions. How to tell it from salt crust, remove it and prevent it.",
+      "title": "White mould on houseplant soil: is it harmful?",
+      "answerHtml": "<p>A white, fuzzy layer on top of the potting mix is usually a harmless fungus living on organic matter in the mix. It is unsightly rather than dangerous, but it is a useful signal: the surface is staying wet for too long, the room is humid and still, or both. Scrape it off, let the top of the mix dry between waterings, and improve airflow. A hard, white crust is a different thing: that is usually mineral salts, not mould. <a href=\"https://yardandgarden.extension.iastate.edu/faq/will-mold-peat-pots-harm-my-flower-and-vegetable-seedlings\">Iowa State University Extension: mould on peat pots</a></p>",
+      "answer": "A white, fuzzy layer on top of the potting mix is usually a harmless fungus living on organic matter in the mix. It is unsightly rather than dangerous, but it is a useful signal: the surface is staying wet for too long, the room is humid and still, or both. Scrape it off, let the top of the mix dry between waterings, and improve airflow. A hard, white crust is a different thing: that is usually mineral salts, not mould. Iowa State University Extension: mould on peat pots",
+      "sections": [
+        {
+          "title": "What it is",
+          "html": "<p>Most fungi that appear on potting mix feed on dead organic material, such as bark, wood fibre and peat, not on living roots. The University of Florida's guide to fungi in potted plants says these fungi are not necessarily harmful to plants, and that most mushroom-forming fungi are not pathogens of potted plants. <a href=\"https://ask.ifas.ufl.edu/publication/PP377\">UF/IFAS: mushrooms commonly encountered in potted plants</a></p>\n<p>The same guide lists the conditions that encourage them: high moisture, high humidity, poor drainage, high organic matter, low light and warmth. Overwatering, it notes, can encourage fungal growth. <a href=\"https://ask.ifas.ufl.edu/publication/PP377\">UF/IFAS: mushrooms commonly encountered in potted plants</a></p>"
+        },
+        {
+          "title": "Mould or salt crust?",
+          "html": "<p>The two are easy to confuse:</p>\n<ul><li><strong>Mould</strong> is soft and fuzzy or web-like, often appears in patches and wipes away. It usually shows up on mix that stays damp.</li><li><strong>Salt crust</strong> is hard, white to grey and crystalline. It forms on the surface of the mix and around the rim of the pot as water evaporates and leaves dissolved salts behind. <a href=\"https://planttalk.colostate.edu/topics/houseplants/1339-leaching-salts-potting-mixes/\">Colorado State University Extension: leaching salts from potting mixes</a></li></ul>\n<p>If it is crust, the answer is flushing the mix with plenty of water, not drying it out. Our post on <a href=\"/en/blog/brown-leaf-tips/\">brown leaf tips</a> explains how.</p>"
+        },
+        {
+          "title": "What to do about mould",
+          "html": "<ol><li>Scrape off the mouldy layer with a spoon and throw it away. If more than a thin layer is affected, replace the top 1–2 cm with fresh mix.</li><li>Let the top of the mix dry before you water again. Iowa State notes that mould can indicate excessive moisture and recommends letting the mix dry somewhat between waterings. <a href=\"https://yardandgarden.extension.iastate.edu/faq/will-mold-peat-pots-harm-my-flower-and-vegetable-seedlings\">Iowa State University Extension: mould on peat pots</a></li><li>Give the pot more light and air. The University of Florida suggests raking the surface so it dries, and moving indoor pots to a less humid or cooler spot. <a href=\"https://ask.ifas.ufl.edu/publication/PP377\">UF/IFAS: mushrooms commonly encountered in potted plants</a></li><li>Empty the saucer after watering and check that the drainage hole is not blocked.</li></ol>\n<p>Our guide to <a href=\"/en/guides/watering-houseplants/\">watering houseplants without a rigid schedule</a> helps you decide when the mix actually needs water.</p>"
+        },
+        {
+          "title": "When it is more than cosmetic",
+          "html": "<p>Mould itself rarely harms the plant, but the wet conditions behind it can. If the plant wilts while the mix is wet, leaves yellow from the bottom up or the stem feels soft at the base, check the roots; see <a href=\"/en/guides/root-rot/\">root rot in houseplants</a>. A heavy mat of fungus can also make the surface repel water, so water runs down the sides of the pot instead of soaking in. <a href=\"https://ask.ifas.ufl.edu/publication/PP377\">UF/IFAS: mushrooms commonly encountered in potted plants</a> In that case, replace the top layer or repot into fresh mix; <a href=\"/en/guides/potting-mix-and-drainage/\">potting mix and drainage</a> covers the basics.</p>\n<p>Bright yellow, slimy blobs are usually slime moulds. The Missouri Botanical Garden notes that they are not plant parasites and disappear on their own; at most they smother small plants. <a href=\"https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/insects-pests-and-problems/diseases/slime-molds\">Missouri Botanical Garden: slime molds</a></p>"
+        },
+        {
+          "title": "Little mushrooms in the pot",
+          "html": "<p>Small mushrooms sometimes pop up after a humid spell. Pick them out and throw them away, especially if children or pets could reach them. Touching them is not dangerous, but unknown fungi should never be eaten, and some species found in pots are poisonous. <a href=\"https://ask.ifas.ufl.edu/publication/PP377\">UF/IFAS: mushrooms commonly encountered in potted plants</a></p>"
+        },
+        {
+          "title": "Common questions",
+          "html": "<h3>Should I use a fungicide?</h3>\n<p>Usually not. Drier surface mix and better airflow solve most cases. The University of Florida advises asking your local extension service before using fungicides. <a href=\"https://ask.ifas.ufl.edu/publication/PP377\">UF/IFAS: mushrooms commonly encountered in potted plants</a></p>\n<h3>Does cinnamon on the soil help?</h3>\n<p>It is a popular home remedy, but we did not find institutional evidence for it. Fixing moisture and airflow addresses the cause.</p>\n<h3>Why did mould appear right after repotting?</h3>\n<p>Fresh mix is rich in organic matter and is often watered heavily after repotting. A thin bloom in the first weeks is common and usually fades as the surface dries between waterings.</p>"
+        }
+      ]
+    },
+    "tr": {
+      "description": "Saksı toprağındaki beyaz pamuksu tabaka genellikle ıslak ve havasız koşulları gösteren zararsız bir mantardır. Tuz kabuğundan ayırt et, temizle, önle.",
+      "title": "Saksı toprağında beyaz küf: zararlı mı?",
+      "answerHtml": "<p>Saksı toprağının üstündeki beyaz, pamuksu tabaka genellikle topraktaki organik maddeyle beslenen zararsız bir mantardır. Tehlikeli olmaktan çok görüntüyü bozar, ama yararlı bir işarettir: toprağın yüzeyi çok uzun süre ıslak kalıyordur, oda nemli ve havasızdır ya da ikisi birden. Tabakayı kazı, iki sulama arasında toprağın üstünün kurumasına izin ver ve hava akışını iyileştir. Sert, beyaz bir kabuk ise başka bir şeydir: o genellikle küf değil, mineral tuzlarıdır. <a href=\"https://yardandgarden.extension.iastate.edu/faq/will-mold-peat-pots-harm-my-flower-and-vegetable-seedlings\">Iowa State Üniversitesi Extension: torf saksılarda küf</a></p>",
+      "answer": "Saksı toprağının üstündeki beyaz, pamuksu tabaka genellikle topraktaki organik maddeyle beslenen zararsız bir mantardır. Tehlikeli olmaktan çok görüntüyü bozar, ama yararlı bir işarettir: toprağın yüzeyi çok uzun süre ıslak kalıyordur, oda nemli ve havasızdır ya da ikisi birden. Tabakayı kazı, iki sulama arasında toprağın üstünün kurumasına izin ver ve hava akışını iyileştir. Sert, beyaz bir kabuk ise başka bir şeydir: o genellikle küf değil, mineral tuzlarıdır. Iowa State Üniversitesi Extension: torf saksılarda küf",
+      "sections": [
+        {
+          "title": "Nedir?",
+          "html": "<p>Saksı toprağında görülen mantarların çoğu canlı köklerle değil; ağaç kabuğu, odun lifi ve torf gibi ölü organik maddeyle beslenir. Florida Üniversitesi'nin saksı bitkilerindeki mantarlar rehberi, bu mantarların bitkilere mutlaka zarar vermediğini ve şapkalı mantar oluşturan türlerin çoğunun saksı bitkilerinde hastalık yapmadığını söylüyor. <a href=\"https://ask.ifas.ufl.edu/publication/PP377\">UF/IFAS: saksı bitkilerinde sık görülen mantarlar</a></p>\n<p>Aynı rehber onları teşvik eden koşulları da sıralıyor: yüksek nem, nemli hava, kötü drenaj, bol organik madde, az ışık ve sıcaklık. Rehbere göre fazla sulama da mantar büyümesini teşvik edebilir. <a href=\"https://ask.ifas.ufl.edu/publication/PP377\">UF/IFAS: saksı bitkilerinde sık görülen mantarlar</a></p>"
+        },
+        {
+          "title": "Küf mü, tuz kabuğu mu?",
+          "html": "<p>İkisi kolayca karıştırılır:</p>\n<ul><li><strong>Küf</strong> yumuşak, pamuksu ya da ağ gibidir; çoğunlukla lekeler hâlinde görülür ve silinince gider. Genellikle sürekli nemli kalan toprakta çıkar.</li><li><strong>Tuz kabuğu</strong> sert, beyazdan griye ve kristal gibidir. Su buharlaşıp çözünmüş tuzları geride bıraktıkça toprağın yüzeyinde ve saksının ağzında oluşur. <a href=\"https://planttalk.colostate.edu/topics/houseplants/1339-leaching-salts-potting-mixes/\">Colorado State Üniversitesi Extension: saksı toprağından tuzları yıkamak</a></li></ul>\n<p>Kabuksa çözüm toprağı kurutmak değil, bol suyla yıkamaktır. Nasıl yapılacağını <a href=\"/blog/brown-leaf-tips/\">kahverengi yaprak uçları</a> yazısı anlatıyor.</p>"
+        },
+        {
+          "title": "Küf için ne yapmalı?",
+          "html": "<ol><li>Küflü tabakayı bir kaşıkla kazıyıp at. İnce bir tabakadan fazlası etkilendiyse üstteki 1–2 cm'yi taze toprakla değiştir.</li><li>Yeniden sulamadan önce toprağın üstünün kurumasını bekle. Iowa State, küfün aşırı neme işaret edebileceğini belirtiyor ve sulamalar arasında toprağın biraz kurumasına izin vermeyi öneriyor. <a href=\"https://yardandgarden.extension.iastate.edu/faq/will-mold-peat-pots-harm-my-flower-and-vegetable-seedlings\">Iowa State Üniversitesi Extension: torf saksılarda küf</a></li><li>Saksıya daha fazla ışık ve hava ver. Florida Üniversitesi yüzeyin kuruması için toprağı hafifçe karıştırmayı ve iç mekândaki saksıları daha az nemli ya da daha serin bir yere almayı öneriyor. <a href=\"https://ask.ifas.ufl.edu/publication/PP377\">UF/IFAS: saksı bitkilerinde sık görülen mantarlar</a></li><li>Sulamadan sonra saksı altlığını boşalt ve drenaj deliğinin tıkalı olmadığını kontrol et.</li></ol>\n<p>Toprağın gerçekten ne zaman suya ihtiyaç duyduğuna karar vermek için <a href=\"/guides/watering-houseplants/\">ev bitkilerini sabit bir takvime bağlı kalmadan sulamak</a> rehberine bakabilirsin.</p>"
+        },
+        {
+          "title": "Görüntüden fazlası olduğunda",
+          "html": "<p>Küfün kendisi bitkiye nadiren zarar verir, ama arkasındaki ıslak koşullar verebilir. Toprak ıslakken bitki pörsüyorsa, yapraklar alttan yukarıya sararıyorsa ya da gövdenin dibi yumuşaksa köklere bak; bkz. <a href=\"/guides/root-rot/\">ev bitkilerinde kök çürüklüğü</a>. Yoğun bir mantar tabakası yüzeyin suyu itmesine de yol açabilir; su toprağa işlemek yerine saksının kenarlarından akar. <a href=\"https://ask.ifas.ufl.edu/publication/PP377\">UF/IFAS: saksı bitkilerinde sık görülen mantarlar</a> Bu durumda üst tabakayı değiştir ya da bitkiyi taze toprağa al; temel bilgiler <a href=\"/guides/potting-mix-and-drainage/\">saksı toprağı ve drenaj</a> rehberinde.</p>\n<p>Parlak sarı, sümüksü kümeler genellikle cıvık mantarlardır (miksomisetler). Missouri Botanik Bahçesi bunların bitki paraziti olmadığını ve kendiliğinden kaybolduğunu, en fazla küçük bitkileri örtebileceğini belirtiyor. <a href=\"https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/insects-pests-and-problems/diseases/slime-molds\">Missouri Botanik Bahçesi: cıvık mantarlar</a></p>"
+        },
+        {
+          "title": "Saksıda küçük şapkalı mantarlar",
+          "html": "<p>Nemli bir dönemden sonra bazen küçük şapkalı mantarlar çıkar. Özellikle çocukların ya da evcil hayvanların ulaşabileceği yerlerde bunları toplayıp at. Onlara dokunmak tehlikeli değildir, ama tanımadığın bir mantar asla yenmemeli; saksılarda görülen bazı türler zehirlidir. <a href=\"https://ask.ifas.ufl.edu/publication/PP377\">UF/IFAS: saksı bitkilerinde sık görülen mantarlar</a></p>"
+        },
+        {
+          "title": "Sık sorulan sorular",
+          "html": "<h3>Mantar ilacı kullanmalı mıyım?</h3>\n<p>Genellikle hayır. Daha kuru bir yüzey ve daha iyi hava akışı çoğu durumu çözer. Florida Üniversitesi, mantar ilacı kullanmadan önce bölgendeki tarım danışmanlığına sormayı öneriyor. <a href=\"https://ask.ifas.ufl.edu/publication/PP377\">UF/IFAS: saksı bitkilerinde sık görülen mantarlar</a></p>\n<h3>Toprağa tarçın serpmek işe yarar mı?</h3>\n<p>Yaygın bir ev çözümü, ama bunu destekleyen kurumsal bir kaynak bulamadık. Nemi ve hava akışını düzeltmek asıl nedeni çözer.</p>\n<h3>Saksı değiştirdikten hemen sonra neden küf çıktı?</h3>\n<p>Taze toprak organik maddece zengindir ve saksı değişiminden sonra genellikle bol sulanır. İlk haftalarda görülen ince bir küf yaygındır ve sulamalar arasında yüzey kurudukça genellikle kaybolur.</p>"
+        }
+      ]
+    }
+  },
+  {
     "slug": "moving-house-with-plants",
     "type": "post",
+    "category": "home",
     "published": "2026-10-22",
     "reviewed": "2026-10-22",
     "sources": [
@@ -2546,6 +3323,7 @@
   {
     "slug": "overwatering-vs-underwatering",
     "type": "guide",
+    "category": "water",
     "published": "2026-10-22",
     "reviewed": "2026-10-22",
     "sources": [
@@ -2803,6 +3581,7 @@
   {
     "slug": "pet-safe-houseplants",
     "type": "guide",
+    "category": "home",
     "published": "2026-10-22",
     "reviewed": "2026-10-22",
     "sources": [
@@ -3054,6 +3833,7 @@
   {
     "slug": "potting-mix-and-drainage",
     "type": "guide",
+    "category": "water",
     "published": "2026-10-22",
     "reviewed": "2026-10-22",
     "sources": [
@@ -3308,6 +4088,7 @@
   {
     "slug": "propagating-cuttings",
     "type": "guide",
+    "category": "growth",
     "published": "2026-10-22",
     "reviewed": "2026-10-22",
     "sources": [
@@ -3541,6 +4322,7 @@
   {
     "slug": "root-rot",
     "type": "guide",
+    "category": "water",
     "published": "2026-10-22",
     "reviewed": "2026-10-22",
     "sources": [
@@ -3777,6 +4559,7 @@
   {
     "slug": "shared-plant-care",
     "type": "guide",
+    "category": "home",
     "published": "2026-10-17",
     "reviewed": "2026-10-17",
     "diagram": "shared-care",
@@ -4076,8 +4859,214 @@
     }
   },
   {
+    "slug": "tap-water-for-houseplants",
+    "type": "post",
+    "category": "basics",
+    "published": "2026-10-23",
+    "reviewed": "2026-10-23",
+    "sources": [
+      {
+        "name": "Iowa State University Extension: brown leaf tips and edges",
+        "url": "https://yardandgarden.extension.iastate.edu/faq/why-does-my-houseplant-have-brown-leaf-tips-and-edges"
+      },
+      {
+        "name": "Clemson HGIC: houseplant diseases and disorders",
+        "url": "https://hgic.clemson.edu/factsheet/houseplant-diseases-disorders/"
+      },
+      {
+        "name": "Colorado State University Extension: leaching salts from potting mixes",
+        "url": "https://planttalk.colostate.edu/topics/houseplants/1339-leaching-salts-potting-mixes/"
+      },
+      {
+        "name": "University of Maryland Extension: watering indoor plants",
+        "url": "https://extension.umd.edu/resource/watering-indoor-plants"
+      },
+      {
+        "name": "University of Minnesota Extension: spring houseplant care",
+        "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/houseplants/spring-houseplant-care"
+      },
+      {
+        "name": "Iowa State University Extension: all about African violets",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/all-about-african-violets"
+      }
+    ],
+    "related": [
+      "brown-leaf-tips",
+      "watering-houseplants",
+      "fertilizing-houseplants"
+    ],
+    "plants": [
+      "chlorophytum-comosum",
+      "goeppertia"
+    ],
+    "en": {
+      "description": "Tap water suits most houseplants. When softened water, chlorine, fluoride, hard-water salts or cold water cause trouble, and what to do instead.",
+      "title": "Is tap water OK for houseplants?",
+      "answerHtml": "<p>For most houseplants, ordinary tap water is fine. Three things are worth knowing. Water from a softener adds salts that build up in the mix, so use unsoftened water. A few sensitive plants, such as spider plant, dracaena, prayer plant and calathea, can develop brown tips from chlorine, fluoride and other chemicals over time. And dissolved minerals from any water slowly accumulate, which is why a thorough flush every few months helps. Room-temperature water is kinder than cold. <a href=\"https://yardandgarden.extension.iastate.edu/faq/why-does-my-houseplant-have-brown-leaf-tips-and-edges\">Iowa State University Extension: brown leaf tips and edges</a></p>",
+      "answer": "For most houseplants, ordinary tap water is fine. Three things are worth knowing. Water from a softener adds salts that build up in the mix, so use unsoftened water. A few sensitive plants, such as spider plant, dracaena, prayer plant and calathea, can develop brown tips from chlorine, fluoride and other chemicals over time. And dissolved minerals from any water slowly accumulate, which is why a thorough flush every few months helps. Room-temperature water is kinder than cold. Iowa State University Extension: brown leaf tips and edges",
+      "sections": [
+        {
+          "title": "Softened water: avoid it",
+          "html": "<p>Colorado State University Extension lists salts in water, especially softened water, among the causes of salt build-up in potting mix. <a href=\"https://planttalk.colostate.edu/topics/houseplants/1339-leaching-salts-potting-mixes/\">Colorado State University Extension: leaching salts from potting mixes</a> The University of Minnesota also specifies unsoftened water when rinsing houseplants. <a href=\"https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/houseplants/spring-houseplant-care\">University of Minnesota Extension: spring houseplant care</a> If your home has a softener, many systems leave a kitchen tap or an outdoor tap unsoftened; use that for plants.</p>"
+        },
+        {
+          "title": "Chlorine and fluoride",
+          "html": "<p>Some houseplants are sensitive to fluoride or chlorine in tap water. <a href=\"https://hgic.clemson.edu/factsheet/houseplant-diseases-disorders/\">Clemson HGIC: houseplant diseases and disorders</a> Iowa State names spider plant, ti plant, dracaena, prayer plant and calathea as examples that can brown at the tips over time, and suggests switching to a different water source if you suspect this. <a href=\"https://yardandgarden.extension.iastate.edu/faq/why-does-my-houseplant-have-brown-leaf-tips-and-edges\">Iowa State University Extension: brown leaf tips and edges</a></p>\n<p>Clemson's advice is to fill watering cans and let the water stand at room temperature for 24 hours before use. <a href=\"https://hgic.clemson.edu/factsheet/houseplant-diseases-disorders/\">Clemson HGIC: houseplant diseases and disorders</a> It is an easy habit: refill the can right after watering, and it is ready next time. We did not find an institutional source saying that standing removes fluoride, so for a sensitive plant that keeps browning, collected rainwater or filtered water is worth a try.</p>\n<p>Brown tips have other causes too, notably dry air and uneven watering; our post on <a href=\"/en/blog/brown-leaf-tips/\">brown leaf tips</a> helps you rule those out first.</p>"
+        },
+        {
+          "title": "Minerals build up from any water",
+          "html": "<p>Each time the mix dries, dissolved salts stay behind and become more concentrated. The University of Maryland recommends watering from the top until water runs out of the bottom, using at least twice the volume of the pot, and leaching like this every four to six months and before fertilising. <a href=\"https://extension.umd.edu/resource/watering-indoor-plants\">University of Maryland Extension: watering indoor plants</a></p>\n<p>The visible sign of build-up is a whitish crust on the mix or the rim of the pot. <a href=\"https://planttalk.colostate.edu/topics/houseplants/1339-leaching-salts-potting-mixes/\">Colorado State University Extension: leaching salts from potting mixes</a> A soft, fuzzy layer is something else; see <a href=\"/en/blog/mold-on-houseplant-soil/\">white mould on houseplant soil</a>.</p>"
+        },
+        {
+          "title": "Temperature",
+          "html": "<p>Cold water can mark leaves. Iowa State notes that cold water on African violet leaves damages them quickly and causes discoloured spots, especially in winter, and recommends room-temperature water. <a href=\"https://yardandgarden.extension.iastate.edu/how-to/all-about-african-violets\">Iowa State University Extension: all about African violets</a> Using water that has stood in the can overnight solves this along the way.</p>"
+        },
+        {
+          "title": "Rainwater and other options",
+          "html": "<p>Rainwater collected in a clean container is naturally soft and suits sensitive plants, if it is not from a roof with fresh treatments. Bottled spring water often contains minerals too, so it is not automatically better. Whatever you use, the bigger factor is still how and when you water; <a href=\"/en/guides/watering-houseplants/\">how to water houseplants without a rigid schedule</a> covers that.</p>"
+        },
+        {
+          "title": "Common questions",
+          "html": "<h3>Does boiled water help?</h3>\n<p>Boiling does not remove dissolved minerals, and boiled water must be fully cooled. It is not worth the effort for most plants.</p>\n<h3>Can I use water from the dehumidifier or air conditioner?</h3>\n<p>It is low in minerals, but containers and coils can harbour dirt and microbes. If you use it, collect it in a clean container and use it fresh.</p>\n<h3>My water is very hard. What should I do?</h3>\n<p>Flush the pots thoroughly every few months as described above, feed at or below the label rate, and repot into fresh mix when crust keeps returning. See <a href=\"/en/guides/fertilizing-houseplants/\">feeding houseplants</a>.</p>"
+        }
+      ]
+    },
+    "tr": {
+      "description": "Normal musluk suyu çoğu ev bitkisi için uygundur. Yumuşatılmış su, klor, florür, kireç tuzları ya da soğuk su ne zaman sorun olur, onun yerine ne yapılır.",
+      "title": "Ev bitkileri için musluk suyu uygun mu?",
+      "answerHtml": "<p>Çoğu ev bitkisi için normal musluk suyu uygundur. Bilmeye değer üç şey var. Su yumuşatıcıdan geçen su toprakta biriken tuzlar ekler, bu yüzden yumuşatılmamış su kullan. Kurdele çiçeği, dracaena, dua çiçeği ve calathea gibi birkaç hassas bitkide zamanla klor, florür ve diğer kimyasallar yüzünden kahverengi uçlar oluşabilir. Ve her sudaki çözünmüş mineraller yavaş yavaş birikir; birkaç ayda bir yapılan kapsamlı bir yıkama bu yüzden işe yarar. Oda sıcaklığındaki su, soğuk sudan daha naziktir. <a href=\"https://yardandgarden.extension.iastate.edu/faq/why-does-my-houseplant-have-brown-leaf-tips-and-edges\">Iowa State Üniversitesi Extension: kahverengi yaprak uçları ve kenarları</a></p>",
+      "answer": "Çoğu ev bitkisi için normal musluk suyu uygundur. Bilmeye değer üç şey var. Su yumuşatıcıdan geçen su toprakta biriken tuzlar ekler, bu yüzden yumuşatılmamış su kullan. Kurdele çiçeği, dracaena, dua çiçeği ve calathea gibi birkaç hassas bitkide zamanla klor, florür ve diğer kimyasallar yüzünden kahverengi uçlar oluşabilir. Ve her sudaki çözünmüş mineraller yavaş yavaş birikir; birkaç ayda bir yapılan kapsamlı bir yıkama bu yüzden işe yarar. Oda sıcaklığındaki su, soğuk sudan daha naziktir. Iowa State Üniversitesi Extension: kahverengi yaprak uçları ve kenarları",
+      "sections": [
+        {
+          "title": "Yumuşatılmış su: kullanma",
+          "html": "<p>Colorado State Üniversitesi Extension, saksı toprağında tuz birikmesinin nedenleri arasında sudaki tuzları, özellikle yumuşatılmış suyu sayıyor. <a href=\"https://planttalk.colostate.edu/topics/houseplants/1339-leaching-salts-potting-mixes/\">Colorado State Üniversitesi Extension: saksı toprağından tuzları yıkamak</a> Minnesota Üniversitesi de ev bitkilerini durularken yumuşatılmamış su kullanılmasını belirtiyor. <a href=\"https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/houseplants/spring-houseplant-care\">Minnesota Üniversitesi Extension: ilkbaharda ev bitkisi bakımı</a> Evinde su yumuşatıcı varsa, birçok sistem mutfak musluğunu ya da bahçe musluğunu yumuşatmadan bırakır; bitkiler için onu kullan.</p>"
+        },
+        {
+          "title": "Klor ve florür",
+          "html": "<p>Bazı ev bitkileri musluk suyundaki florüre ya da klora hassastır. <a href=\"https://hgic.clemson.edu/factsheet/houseplant-diseases-disorders/\">Clemson HGIC: ev bitkisi hastalıkları ve bozuklukları</a> Iowa State zamanla uçlarında kahverengileşme görülebilecek örnekler olarak kurdele çiçeği, ti bitkisi, dracaena, dua çiçeği ve calathea'yı sayıyor ve bundan şüpheleniyorsan farklı bir su kaynağına geçmeyi öneriyor. <a href=\"https://yardandgarden.extension.iastate.edu/faq/why-does-my-houseplant-have-brown-leaf-tips-and-edges\">Iowa State Üniversitesi Extension: kahverengi yaprak uçları ve kenarları</a></p>\n<p>Clemson'un önerisi sulama kaplarını doldurup suyu kullanmadan önce 24 saat oda sıcaklığında bekletmek. <a href=\"https://hgic.clemson.edu/factsheet/houseplant-diseases-disorders/\">Clemson HGIC: ev bitkisi hastalıkları ve bozuklukları</a> Kolay bir alışkanlık: sulamadan hemen sonra kabı yeniden doldur, bir dahaki sefere hazır olsun. Bekletmenin florürü giderdiğini söyleyen kurumsal bir kaynak bulamadık; bu yüzden sürekli kahverengileşen hassas bir bitki için toplanmış yağmur suyu ya da filtrelenmiş su denemeye değer.</p>\n<p>Kahverengi uçların başka nedenleri de var, özellikle kuru hava ve düzensiz sulama; önce bunları elemek için <a href=\"/blog/brown-leaf-tips/\">kahverengi yaprak uçları</a> yazısına bakabilirsin.</p>"
+        },
+        {
+          "title": "Mineraller her sudan birikir",
+          "html": "<p>Toprak her kuruduğunda çözünmüş tuzlar geride kalır ve daha yoğun hâle gelir. Maryland Üniversitesi, saksının en az iki katı hacimde suyla, su alttan akana kadar üstten sulamayı ve bu yıkamayı dört ila altı ayda bir ve gübrelemeden önce yapmayı öneriyor. <a href=\"https://extension.umd.edu/resource/watering-indoor-plants\">Maryland Üniversitesi Extension: iç mekân bitkilerini sulamak</a></p>\n<p>Birikmenin görünen işareti toprağın ya da saksı kenarının üstündeki beyazımsı kabuktur. <a href=\"https://planttalk.colostate.edu/topics/houseplants/1339-leaching-salts-potting-mixes/\">Colorado State Üniversitesi Extension: saksı toprağından tuzları yıkamak</a> Yumuşak, pamuksu bir tabaka başka bir şeydir; bkz. <a href=\"/blog/mold-on-houseplant-soil/\">saksı toprağında beyaz küf</a>.</p>"
+        },
+        {
+          "title": "Sıcaklık",
+          "html": "<p>Soğuk su yaprakları lekeleyebilir. Iowa State, Afrika menekşesinin yapraklarına gelen soğuk suyun özellikle kışın yaprakları hızla bozduğunu ve renksiz lekelere yol açtığını belirtiyor ve oda sıcaklığında su öneriyor. <a href=\"https://yardandgarden.extension.iastate.edu/how-to/all-about-african-violets\">Iowa State Üniversitesi Extension: Afrika menekşeleri hakkında</a> Kapta bir gece beklemiş su kullanmak bunu da kendiliğinden çözer.</p>"
+        },
+        {
+          "title": "Yağmur suyu ve diğer seçenekler",
+          "html": "<p>Temiz bir kapta toplanan yağmur suyu doğal olarak yumuşaktır ve hassas bitkilere uygundur; yeni ilaçlanmış bir çatıdan gelmediği sürece. Şişelenmiş kaynak suyu da çoğu zaman mineral içerir, yani kendiliğinden daha iyi değildir. Hangisini kullanırsan kullan, asıl etken yine nasıl ve ne zaman suladığındır; bunu <a href=\"/guides/watering-houseplants/\">ev bitkilerini sabit bir takvime bağlı kalmadan sulamak</a> rehberi anlatıyor.</p>"
+        },
+        {
+          "title": "Sık sorulan sorular",
+          "html": "<h3>Kaynatılmış su işe yarar mı?</h3>\n<p>Kaynatmak çözünmüş mineralleri gidermez ve kaynamış suyun tamamen soğuması gerekir. Çoğu bitki için bu zahmete değmez.</p>\n<h3>Nem alıcının ya da klimanın suyunu kullanabilir miyim?</h3>\n<p>Mineral bakımından fakirdir, ama hazneler ve borular kir ve mikrop barındırabilir. Kullanacaksan temiz bir kapta topla ve bekletmeden kullan.</p>\n<h3>Suyum çok sert. Ne yapmalıyım?</h3>\n<p>Saksıları yukarıda anlatıldığı gibi birkaç ayda bir iyice yıka, etiketteki oranda ya da daha az besle ve kabuk sürekli geri geliyorsa bitkiyi taze toprağa al. Bkz. <a href=\"/guides/fertilizing-houseplants/\">ev bitkilerini beslemek</a>.</p>"
+        }
+      ]
+    }
+  },
+  {
+    "slug": "terracotta-vs-plastic-pots",
+    "type": "post",
+    "category": "basics",
+    "published": "2026-10-23",
+    "reviewed": "2026-10-23",
+    "sources": [
+      {
+        "name": "Colorado State University Extension: houseplant containers",
+        "url": "https://planttalk.colostate.edu/topics/houseplants/1315-houseplants-containers/"
+      },
+      {
+        "name": "University of Maryland Extension: potting and repotting indoor plants",
+        "url": "https://extension.umd.edu/resource/potting-and-repotting-indoor-plants"
+      },
+      {
+        "name": "Clemson HGIC: indoor plants, cleaning, fertilizing, containers and light requirements",
+        "url": "https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/"
+      },
+      {
+        "name": "Ask Extension: white fuzz on terra cotta pots",
+        "url": "https://ask.extension.org/kb/faq.php?id=748645"
+      }
+    ],
+    "related": [
+      "potting-mix-and-drainage",
+      "when-to-repot-houseplants",
+      "watering-houseplants"
+    ],
+    "plants": [
+      "aloe-vera",
+      "zamioculcas-zamiifolia"
+    ],
+    "en": {
+      "description": "Terracotta dries faster and breathes; plastic and glazed ceramic hold moisture longer. Which pot suits which plant, and why drainage matters most.",
+      "title": "Terracotta or plastic pots: which is better for houseplants?",
+      "answerHtml": "<p>Neither material is better for every plant; they behave differently. Unglazed terracotta is porous: air and water move through its walls, so the mix dries faster and roots get more air. That suits cacti, succulents and anyone who tends to overwater. Plastic and glazed ceramic hold moisture longer, so they suit thirsty, moisture-loving plants and people who forget to water. Whatever the material, the pot needs a drainage hole; a decorative pot without one should be used as an outer cover. <a href=\"https://planttalk.colostate.edu/topics/houseplants/1315-houseplants-containers/\">Colorado State University Extension: houseplant containers</a></p>",
+      "answer": "Neither material is better for every plant; they behave differently. Unglazed terracotta is porous: air and water move through its walls, so the mix dries faster and roots get more air. That suits cacti, succulents and anyone who tends to overwater. Plastic and glazed ceramic hold moisture longer, so they suit thirsty, moisture-loving plants and people who forget to water. Whatever the material, the pot needs a drainage hole; a decorative pot without one should be used as an outer cover. Colorado State University Extension: houseplant containers",
+      "sections": [
+        {
+          "title": "How terracotta behaves",
+          "html": "<p>The University of Maryland describes terra cotta pots as ones that easily absorb and lose moisture and provide excellent aeration for roots. The downsides: they dry out quickly, break easily, and their rigid walls make it harder to slide a plant out. <a href=\"https://extension.umd.edu/resource/potting-and-repotting-indoor-plants\">University of Maryland Extension: potting and repotting indoor plants</a> Clemson's Home &amp; Garden Information Center explains why: air moves through the sides of porous clay pots, which lets the soil dry and oxygen reach the roots. <a href=\"https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/\">Clemson HGIC: indoor plants, containers</a></p>\n<p>Colorado State suggests cacti, succulents, orchids and bromeliads may do better in unglazed clay. <a href=\"https://planttalk.colostate.edu/topics/houseplants/1315-houseplants-containers/\">Colorado State University Extension: houseplant containers</a> Terracotta is also heavier, which keeps tall, top-heavy plants from tipping over.</p>"
+        },
+        {
+          "title": "How plastic and glazed ceramic behave",
+          "html": "<p>Plastic pots are lightweight, inexpensive and easy to handle, and plants in them need watering less often. They can fade and become brittle in strong sun or cold outdoors. Glazed ceramic also holds moisture longer and looks good, but chips easily and often lacks enough drainage holes. <a href=\"https://extension.umd.edu/resource/potting-and-repotting-indoor-plants\">University of Maryland Extension: potting and repotting indoor plants</a></p>\n<p>Colorado State says moisture-loving plants grow well in plastic or ceramic, and that lightweight plastic suits large plants. <a href=\"https://planttalk.colostate.edu/topics/houseplants/1315-houseplants-containers/\">Colorado State University Extension: houseplant containers</a> Ferns, peace lilies and calatheas are typical examples.</p>"
+        },
+        {
+          "title": "What it means for watering",
+          "html": "<p>Switching material changes how often a plant needs water. Clemson notes that plants in non-porous containers such as plastic need watering less often than plants in clay. <a href=\"https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/\">Clemson HGIC: indoor plants, containers</a> So after repotting from plastic into terracotta, check the mix more often for a few weeks, and after moving into plastic, expect longer gaps. A fixed schedule will be wrong either way; our guide to <a href=\"/en/guides/watering-houseplants/\">watering houseplants without a rigid schedule</a> explains the check, and <a href=\"/en/guides/overwatering-vs-underwatering/\">overwatered or underwatered?</a> helps if a plant reacts.</p>"
+        },
+        {
+          "title": "Drainage matters more than material",
+          "html": "<p>Colorado State calls containers with drainage holes ideal and notes that decorative containers often have none. The solution is double potting: keep the plant in a pot with a hole and stand it inside the decorative one. <a href=\"https://planttalk.colostate.edu/topics/houseplants/1315-houseplants-containers/\">Colorado State University Extension: houseplant containers</a> Lift the inner pot out to water, or empty the outer pot after watering so the roots are never standing in water. Our guide to <a href=\"/en/guides/potting-mix-and-drainage/\">potting mix and drainage</a> covers the rest, including why a layer of gravel is not a substitute for a hole.</p>"
+        },
+        {
+          "title": "White marks on terracotta",
+          "html": "<p>Over time, terracotta often develops white deposits on the outside. Colorado State notes that clay pots can show stains from salts leached from soil and fertiliser. <a href=\"https://planttalk.colostate.edu/topics/houseplants/1315-houseplants-containers/\">Colorado State University Extension: houseplant containers</a> An extension volunteer answering a reader's question suggested soaking an empty pot in a mix of three parts water to one part vinegar, then scrubbing, rinsing and drying it before reuse. <a href=\"https://ask.extension.org/kb/faq.php?id=748645\">Ask Extension: white fuzz on terra cotta pots</a> If the deposits are on the mix itself, see <a href=\"/en/blog/tap-water-for-houseplants/\">tap water for houseplants</a>.</p>"
+        },
+        {
+          "title": "Common questions",
+          "html": "<h3>Should I soak a new terracotta pot?</h3>\n<p>Many growers do, so the dry clay does not pull water from fresh mix at first. We did not find an institutional source that requires it, but it does no harm.</p>\n<h3>Are self-watering pots a third option?</h3>\n<p>They keep a reservoir under the mix and suit thirsty plants, but they keep the lower mix constantly damp. Use them with care for plants that like to dry out.</p>\n<h3>Does pot colour matter?</h3>\n<p>Dark pots in direct sun heat up more. For most indoor spots this matters little; drainage and size matter more.</p>"
+        }
+      ]
+    },
+    "tr": {
+      "description": "Toprak saksı daha hızlı kurur ve nefes alır; plastik ve sırlı seramik nemi uzun tutar. Hangi bitkiye hangi saksı uyar ve drenaj neden malzemeden önemli.",
+      "seoTitle": "Toprak saksı mı plastik saksı mı: hangisi daha iyi?",
+      "title": "Toprak (terakota) mı plastik saksı mı: ev bitkileri için hangisi daha iyi?",
+      "answerHtml": "<p>Hiçbir malzeme her bitki için daha iyi değil; farklı davranıyorlar. Sırsız toprak saksı gözeneklidir: hava ve su duvarlarından geçer, bu yüzden toprak daha hızlı kurur ve kökler daha fazla hava alır. Bu, kaktüslere, sukulentlere ve fazla sulama eğiliminde olanlara uyar. Plastik ve sırlı seramik nemi daha uzun tutar; bu yüzden susuzluğa dayanıksız, nem seven bitkilere ve sulamayı unutanlara uyar. Malzeme ne olursa olsun saksının drenaj deliği olmalı; deliksiz bir dekoratif saksı dış kap olarak kullanılmalı. <a href=\"https://planttalk.colostate.edu/topics/houseplants/1315-houseplants-containers/\">Colorado State Üniversitesi Extension: ev bitkisi saksıları</a></p>",
+      "answer": "Hiçbir malzeme her bitki için daha iyi değil; farklı davranıyorlar. Sırsız toprak saksı gözeneklidir: hava ve su duvarlarından geçer, bu yüzden toprak daha hızlı kurur ve kökler daha fazla hava alır. Bu, kaktüslere, sukulentlere ve fazla sulama eğiliminde olanlara uyar. Plastik ve sırlı seramik nemi daha uzun tutar; bu yüzden susuzluğa dayanıksız, nem seven bitkilere ve sulamayı unutanlara uyar. Malzeme ne olursa olsun saksının drenaj deliği olmalı; deliksiz bir dekoratif saksı dış kap olarak kullanılmalı. Colorado State Üniversitesi Extension: ev bitkisi saksıları",
+      "sections": [
+        {
+          "title": "Toprak saksı nasıl davranır?",
+          "html": "<p>Maryland Üniversitesi toprak saksıları nemi kolayca emen ve kaybeden, köklere mükemmel havalanma sağlayan saksılar olarak tanımlıyor. Dezavantajları: çabuk kururlar, kolay kırılırlar ve sert duvarları bitkiyi çıkarmayı zorlaştırır. <a href=\"https://extension.umd.edu/resource/potting-and-repotting-indoor-plants\">Maryland Üniversitesi Extension: iç mekân bitkilerini saksılamak</a> Clemson Üniversitesi Ev ve Bahçe Bilgi Merkezi nedenini açıklıyor: hava gözenekli toprak saksının yan duvarlarından geçer, bu da toprağın kurumasını ve köklere oksijen ulaşmasını sağlar. <a href=\"https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/\">Clemson HGIC: iç mekân bitkileri ve saksılar</a></p>\n<p>Colorado State kaktüs, sukulent, orkide ve bromelyaların sırsız toprak saksıda daha iyi olabileceğini belirtiyor. <a href=\"https://planttalk.colostate.edu/topics/houseplants/1315-houseplants-containers/\">Colorado State Üniversitesi Extension: ev bitkisi saksıları</a> Toprak saksı aynı zamanda daha ağırdır; bu da uzun ve üstü ağır bitkilerin devrilmesini önler.</p>"
+        },
+        {
+          "title": "Plastik ve sırlı seramik nasıl davranır?",
+          "html": "<p>Plastik saksılar hafif, ucuz ve kullanımı kolaydır; içindeki bitkiler daha seyrek sulama ister. Dışarıda güçlü güneşte ya da soğukta solabilir ve kırılganlaşabilirler. Sırlı seramik de nemi daha uzun tutar ve güzel görünür, ama kolay çatlar ve çoğu zaman yeterli drenaj deliği yoktur. <a href=\"https://extension.umd.edu/resource/potting-and-repotting-indoor-plants\">Maryland Üniversitesi Extension: iç mekân bitkilerini saksılamak</a></p>\n<p>Colorado State nem seven bitkilerin plastik ya da seramik saksıda iyi büyüdüğünü ve hafif plastiğin büyük bitkilere uygun olduğunu söylüyor. <a href=\"https://planttalk.colostate.edu/topics/houseplants/1315-houseplants-containers/\">Colorado State Üniversitesi Extension: ev bitkisi saksıları</a> Eğreltiler, barış çiçekleri ve calathealar tipik örneklerdir.</p>"
+        },
+        {
+          "title": "Sulama açısından ne anlama gelir?",
+          "html": "<p>Malzemeyi değiştirmek bitkinin ne sıklıkla suya ihtiyaç duyduğunu değiştirir. Clemson, plastik gibi gözeneksiz saksılardaki bitkilerin toprak saksıdakilerden daha seyrek sulanması gerektiğini belirtiyor. <a href=\"https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/\">Clemson HGIC: iç mekân bitkileri ve saksılar</a> Yani plastikten toprak saksıya geçtikten sonra birkaç hafta toprağı daha sık kontrol et; plastiğe geçtikten sonra ise aralıkların uzamasını bekle. Sabit bir takvim her iki durumda da yanlış olur; kontrolü <a href=\"/guides/watering-houseplants/\">ev bitkilerini sabit bir takvime bağlı kalmadan sulamak</a>, bitki tepki verirse durumu <a href=\"/guides/overwatering-vs-underwatering/\">fazla mı az mı sulandı?</a> rehberi anlatıyor.</p>"
+        },
+        {
+          "title": "Drenaj malzemeden daha önemli",
+          "html": "<p>Colorado State drenaj delikli saksıları ideal sayıyor ve dekoratif saksıların çoğunun deliği olmadığını belirtiyor. Çözüm iç içe saksı kullanmak: bitkiyi delikli bir saksıda tut ve onu dekoratif saksının içine koy. <a href=\"https://planttalk.colostate.edu/topics/houseplants/1315-houseplants-containers/\">Colorado State Üniversitesi Extension: ev bitkisi saksıları</a> Sulamak için iç saksıyı çıkar ya da sulamadan sonra dış saksıyı boşalt ki kökler hiç suyun içinde kalmasın. Gerisini, çakıl katmanının neden delik yerine geçmediği de dahil, <a href=\"/guides/potting-mix-and-drainage/\">saksı toprağı ve drenaj</a> rehberi anlatıyor.</p>"
+        },
+        {
+          "title": "Toprak saksıdaki beyaz izler",
+          "html": "<p>Zamanla toprak saksıların dışında sıklıkla beyaz birikintiler oluşur. Colorado State, toprak saksılarda topraktan ve gübreden sızan tuzların leke bırakabileceğini belirtiyor. <a href=\"https://planttalk.colostate.edu/topics/houseplants/1315-houseplants-containers/\">Colorado State Üniversitesi Extension: ev bitkisi saksıları</a> Bir okur sorusunu yanıtlayan bir Extension gönüllüsü, boş saksıyı üç ölçü suya bir ölçü sirke karışımında bekletmeyi, ardından fırçalayıp durulamayı ve yeniden kullanmadan önce kurutmayı önermiş. <a href=\"https://ask.extension.org/kb/faq.php?id=748645\">Ask Extension: toprak saksılarda beyaz tabaka</a> Birikinti toprağın kendisindeyse <a href=\"/blog/tap-water-for-houseplants/\">ev bitkileri için musluk suyu</a> yazısına bak.</p>"
+        },
+        {
+          "title": "Sık sorulan sorular",
+          "html": "<h3>Yeni bir toprak saksıyı suda bekletmeli miyim?</h3>\n<p>Birçok yetiştirici, kuru kil ilk başta taze topraktan su çekmesin diye bekletiyor. Bunu zorunlu tutan kurumsal bir kaynak bulamadık, ama zararı yok.</p>\n<h3>Kendi kendini sulayan saksılar üçüncü bir seçenek mi?</h3>\n<p>Toprağın altında bir su haznesi tutarlar ve susuzluğa dayanıksız bitkilere uyarlar, ama alt toprağı sürekli nemli tutarlar. Kurumayı seven bitkilerde dikkatli kullan.</p>\n<h3>Saksının rengi önemli mi?</h3>\n<p>Doğrudan güneşteki koyu renkli saksılar daha çok ısınır. Çoğu iç mekân köşesinde bu pek önemli değil; drenaj ve boyut daha önemlidir.</p>"
+        }
+      ]
+    }
+  },
+  {
     "slug": "watering-houseplants",
     "type": "guide",
+    "category": "water",
     "published": "2026-10-16",
     "reviewed": "2026-10-16",
     "sources": [
@@ -4310,6 +5299,7 @@
   {
     "slug": "when-to-repot-houseplants",
     "type": "guide",
+    "category": "growth",
     "published": "2026-10-16",
     "reviewed": "2026-10-16",
     "sources": [
@@ -4544,6 +5534,7 @@
   {
     "slug": "winter-houseplant-care",
     "type": "guide",
+    "category": "environment",
     "published": "2026-10-22",
     "reviewed": "2026-10-22",
     "sources": [
@@ -4806,6 +5797,7 @@
   {
     "slug": "yellow-houseplant-leaves",
     "type": "guide",
+    "category": "problems",
     "published": "2026-10-16",
     "reviewed": "2026-10-16",
     "sources": [

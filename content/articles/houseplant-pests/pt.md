@@ -57,7 +57,7 @@ Não colocamos fotos aqui. Identificar uma praga exige imagens precisas e de per
 
 Os produtos, seus princípios ativos e o uso permitido mudam de país para país. Não damos doses: a única instrução confiável é o rótulo do produto que você comprar. Guarde os produtos longe de crianças e animais. Se alguém ingerir algum, procure um médico ou um veterinário e o centro de informação toxicológica do seu país. Isto é informação geral, não orientação veterinária ou médica.
 
-Se a planta também tiver folhas amarelas, veja ainda [folhas amarelas em plantas de interior](/pt/guides/yellow-houseplant-leaves/). Plantas que voltam para dentro depois de uma temporada ao ar livre pedem verificações extras; veja [uma arrumação de outono](/pt/journal/autumn-plant-reset/).
+Se a planta também tiver folhas amarelas, veja ainda [folhas amarelas em plantas de interior](/pt/guides/yellow-houseplant-leaves/). Plantas que voltam para dentro depois de uma temporada ao ar livre pedem verificações extras; veja [uma arrumação de outono](/pt/blog/autumn-plant-reset/).
 
 Se você mora com gatos ou cachorros, leia também [plantas de interior e pets](/pt/guides/pet-safe-houseplants/) antes de escolher plantas novas.
 

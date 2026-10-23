@@ -5,7 +5,7 @@
   "close": "Fermer",
   "guides": "Entretien des plantes",
   "plants": "Bibliothèque de plantes",
-  "journal": "Journal",
+  "blog": "Blog",
   "app": "L’app",
   "support": "Assistance",
   "getApp": "Découvrir l’app",
@@ -64,7 +64,7 @@
   "compare": "Comparaisons d’apps",
   "guidesDescription": "Des conseils pour observer vos plantes avant de changer leurs soins.",
   "plantsDescription": "Des fiches de plantes d’intérieur par espèce.",
-  "journalDescription": "Notes sur les plantes et les soins partagés.",
+  "blogDescription": "Articles sur l’entretien des plantes, les saisons et les soins partagés.",
   "compareDescription": "Des comparaisons d’apps avec leurs sources.",
   "atAGlance": "En bref",
   "light": "Lumière",
@@ -79,15 +79,43 @@
   "hubDescription": {
     "guides": "Des guides sourcés sur l’arrosage, la lumière, les pots, les ravageurs et les saisons, pour observer vos plantes avant de changer leurs soins.",
     "plants": "Des fiches de plantes d’intérieur par espèce : lumière, arrosage, humidité, température, infos sur les animaux et niveau d’entretien, sourcés.",
-    "journal": "Notes sur les plantes et les soins partagés : pourquoi Lilora dit « vérifier », listes de saison, déménager avec ses plantes et tenir un carnet.",
+    "blog": "Articles sourcés sur les plantes d’intérieur : pourquoi Lilora dit « vérifier », listes de saison, déménager avec ses plantes et soins partagés.",
     "compare": "Des comparatifs sourcés d’apps d’entretien des plantes : rappels, historique partagé, identification et prix, avec des remarques honnêtes."
   },
   "hubTitles": {
     "guides": "Guides de soin des plantes",
     "plants": "Bibliothèque des plantes",
-    "journal": "Journal des plantes",
+    "blog": "Blog Lilora : entretien des plantes",
     "compare": "Comparatifs des applications pour plantes"
   },
   "backToTop": "Retour en haut",
-  "feedTitle": "Lilora : guides d’entretien des plantes et journal"
+  "feedTitle": "Lilora : guides d’entretien des plantes et blog",
+  "summarizeWith": "Résumer avec :",
+  "summarizePrompt": "Lis cet article de lilora.app et résume ses points clés en français : {url}",
+  "summarizeNote": "Chaque lien ouvre le service dans un nouvel onglet ; ses propres conditions s’appliquent.",
+  "blogFeatured": "Article à la une",
+  "blogLatest": "Articles récents",
+  "blogAll": "Tous les articles",
+  "blogGuidesTitle": "Guides d’entretien complets",
+  "blogGuidesIntro": "Pour les sujets plus longs, pas à pas, consultez les guides d’entretien.",
+  "blogTopics": "Thèmes",
+  "blogCategories": {
+    "problems": "Problèmes des plantes",
+    "basics": "Les bases",
+    "home": "Maison et saisons",
+    "notes": "Notes Lilora"
+  },
+  "minRead": "{n} min de lecture",
+  "guidesStart": "Pour commencer",
+  "blogFrom": "Du blog",
+  "guideCategories": {
+    "water": "Eau et racines",
+    "environment": "Lumière et climat",
+    "growth": "Nourrir et multiplier",
+    "problems": "Problèmes des plantes",
+    "home": "Maison et famille"
+  },
+  "commentsTitle": "Commentaires",
+  "commentsLoad": "Afficher les commentaires",
+  "commentsNote": "Les commentaires passent par Cusdis et ne se chargent que lorsque vous appuyez sur ce bouton. Ils sont validés avant publication."
 }

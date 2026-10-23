@@ -21,7 +21,7 @@ const assert=require('node:assert/strict');
    await page.waitForFunction(()=>[...document.images].every(i=>i.complete));
    assert.equal(await page.locator('img').evaluateAll(imgs=>imgs.filter(i=>!i.complete||i.naturalWidth===0).length),0,path);
    assert.equal(await page.locator('.cookie-banner').isVisible(),false,'saved rejection hides banner');
-   if(['/en/','/en/journal/','/en/guides/watering-houseplants/','/en/compare/lilora-vs-planta/','/','/de/','/de/support/','/de/privacy/'].includes(path))await page.screenshot({path:'.test-results/'+width+'-'+(path.replaceAll('/','_')||'home')+'.png',fullPage:true});
+   if(['/en/','/en/blog/','/en/guides/watering-houseplants/','/en/compare/lilora-vs-planta/','/','/de/','/de/support/','/de/privacy/'].includes(path))await page.screenshot({path:'.test-results/'+width+'-'+(path.replaceAll('/','_')||'home')+'.png',fullPage:true});
    count++;
   }
   await context.close();

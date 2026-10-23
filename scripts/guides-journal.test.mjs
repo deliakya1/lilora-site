@@ -70,12 +70,12 @@ test("internal links resolve, stay in language where possible, and reach at leas
   for (const slug of Object.keys(pieces)) {
     for (const lang of languages) {
       const links = [...source(slug, lang).matchAll(/\]\((\/[^\s)]*)\)/g)].map((m) => m[1]);
-      const guides = new Set(links.filter((l) => /\/(guides|journal)\/[a-z-]+\/$/.test(l)));
+      const guides = new Set(links.filter((l) => /\/(guides|blog)\/[a-z-]+\/$/.test(l)));
       assert.ok(guides.size >= 3, `${slug}/${lang}: ${guides.size} internal article links`);
       for (const link of links) {
         assert.ok(existsSync("." + link.split("#")[0] + (link.endsWith("/") ? "index.html" : "")), `${slug}/${lang}: ${link}`);
         const prefix = lang === "tr" ? "/" : `/${lang}/`;
-        if (!link.startsWith(prefix) && /\/(guides|journal)\//.test(link)) {
+        if (!link.startsWith(prefix) && /\/(guides|blog)\//.test(link)) {
           // Cross-language links are only allowed as labelled English fallbacks.
           assert.ok(link.startsWith("/en/"), `${slug}/${lang}: ${link}`);
           const target = link.replace(/^\/en\//, prefix);
@@ -134,7 +134,7 @@ test("hubs and sitemap include every new page", () => {
     for (const lang of languages) {
       const path = articlePath(article, lang);
       assert.ok(sitemap.includes(`<loc>https://lilora.app${path}</loc>`), path);
-      const hub = (lang === "tr" ? "" : lang + "/") + (article.type === "post" ? "journal" : "guides") + "/index.html";
+      const hub = (lang === "tr" ? "" : lang + "/") + (article.type === "post" ? "blog" : "guides") + "/index.html";
       assert.ok(readFileSync(hub, "utf8").includes(`href="${path}"`), `${hub}: ${path}`);
     }
   }

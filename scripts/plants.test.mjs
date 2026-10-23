@@ -44,7 +44,8 @@ test('translated profiles and articles are not English bodies under another lang
   if(!item.en)continue;const baseline=english(text(item.en));assert.ok(baseline>0.12,`${item.slug}: English baseline`);
   for(const lang of languages.filter(l=>l!=='en'))if(item[lang]){const share=english(text(item[lang]));assert.ok(share<0.05,`${item.slug}/${lang}: ${share.toFixed(3)} English function words`);assert.notEqual(item[lang].title,item.en.title,`${item.slug}/${lang}: untranslated title`);}
  }
- for(const a of articles)for(const lang of languages)assert.ok(a[lang],`${a.slug}/${lang}: missing translation`);
+ // Guides and comparisons ship in all six languages; blog posts need at least English and Turkish.
+ for(const a of articles)for(const lang of a.type==='post'?['en','tr']:languages)assert.ok(a[lang],`${a.slug}/${lang}: missing translation`);
 });
 test('the plant hub offers no-JS filter anchors and the pet guide links every profile in every language',()=>{
  const guide=articles.find(a=>a.slug==='pet-safe-houseplants');assert.ok(guide);

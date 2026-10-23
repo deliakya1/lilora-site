@@ -6,7 +6,7 @@ const fs=require('node:fs');
 const path=require('node:path');
 const assert=require('node:assert/strict');
 const axeSource=fs.readFileSync(require.resolve('axe-core/axe.min.js'),'utf8');
-const pageTypes=['','download/','press/','guides/','guides/root-rot/','journal/','journal/check-before-you-water/','plants/','plants/monstera-deliciosa/','compare/','compare/lilora-vs-planta/','support/','contact/','privacy/','legal/','editorial/','about/'];
+const pageTypes=['','download/','press/','guides/','guides/root-rot/','blog/','blog/check-before-you-water/','plants/','plants/monstera-deliciosa/','compare/','compare/lilora-vs-planta/','support/','contact/','privacy/','legal/','editorial/','about/'];
 (async()=>{
  const root=process.cwd();
  const server=http.createServer((req,res)=>{

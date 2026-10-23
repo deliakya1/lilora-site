@@ -128,7 +128,7 @@ async function loadLazyImages(page, route) {
           if (kind === 'home') {
             assert.equal(await page.locator('h1').innerText(), homeCopy[lang].title, `${route}: own-language title`);
             assert.equal(await page.locator('.promo-features .promo-feature').count(), 6, `${route}: six product features`);
-            assert.equal(await page.locator('.home-editorial .story-card').count(), 3, `${route}: latest three guides`);
+            assert.equal(await page.locator('.home-editorial .story-card, .home-editorial .post-card').count(), 3, `${route}: latest three guides`);
             const englishCards = await page.locator('.home-editorial .story-card[lang="en"]').count();
             if (englishCards && lang !== 'en') assert.ok((await page.locator('.home-editorial .also-english').innerText()).includes(locales[lang].alsoEnglish), `${route}: marked English fallback`);
             const hasPlants = plants.some((plant) => plant[lang]);

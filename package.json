@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node scripts/home-promotion.mjs && python3 scripts/import-content.py && node scripts/build.mjs && node scripts/promotion-assets.mjs",
+    "build": "node scripts/covers.mjs && node scripts/home-promotion.mjs && python3 scripts/import-content.py && node scripts/build.mjs && node scripts/promotion-assets.mjs",
     "test": "node --test scripts/*.test.mjs",
     "check": "npm run build && npm test",
     "build:assets": "node scripts/promotion-assets.mjs"

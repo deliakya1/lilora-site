@@ -176,7 +176,7 @@ const homeEditorial = (l) => {
     : [];
   const plantSelection = plants.filter((plant) => plant[l]).slice(0, 3);
   const guides = own.length || english.length
-    ? `<section class="home-editorial wrap"><h2>${escape(copy.guidesTitle)}</h2>${own.length ? `<div class="story-grid">${own.map((article) => card(article, l, "articles", "h3")).join("")}</div>` : ""}${english.length ? `<div class="also-english"><p class="eyebrow">${escape(t.alsoEnglish)}</p><div class="story-grid">${english.map((article) => card(article, "en", "articles", "h3")).join("")}</div></div>` : ""}<a class="text-link" href="${prefix(l)}guides/">${escape(t.guides)}</a></section>`
+    ? `<section class="home-editorial wrap"><h2>${escape(copy.guidesTitle)}</h2>${own.length ? `<div class="post-grid">${own.map((article) => postCard(article, l)).join("")}</div>` : ""}${english.length ? `<div class="also-english"><p class="eyebrow">${escape(t.alsoEnglish)}</p><div class="story-grid">${english.map((article) => card(article, "en", "articles", "h3")).join("")}</div></div>` : ""}<a class="text-link" href="${prefix(l)}guides/">${escape(t.guides)}</a></section>`
     : "";
   const plantTeaser = plantSelection.length
     ? `<section class="home-plants wrap"><h2>${escape(copy.plantsTitle)}</h2><div class="story-grid">${plantSelection.map((plant) => card(plant, l, "plants", "h3")).join("")}</div><a class="text-link" href="${prefix(l)}plants/">${escape(t.plants)}</a></section>`
@@ -187,6 +187,41 @@ const homeEditorial = (l) => {
 // It shares the clean canonical URL of this language, never the current address with query strings.
 const shareTools = (path, title, t) =>
   `<div class="share-tools" data-share-url="${origin}${path}" data-share-title="${escape(title)}" data-label-share="${escape(t.share)}" data-label-copy="${escape(t.copyLink)}" data-label-copied="${escape(t.linkCopied)}" data-label-failed="${escape(t.copyFailed)}" hidden><button type="button" class="share-button">${escape(t.copyLink)}</button><span class="share-status" role="status" aria-live="polite"></span></div>`;
+// Posts and guides carry a drawn herbarium cover (scripts/covers.mjs) and a topic label.
+const coverOf = (a) =>
+  a.type !== "comparison" && existsSync(`assets/images/covers/${a.slug}.svg`)
+    ? `/assets/images/covers/${a.slug}.svg`
+    : "";
+const topicLabel = (a, t) => (a.type === "post" ? t.blogCategories : t.guideCategories)[a.category] || "";
+const readingMinutes = (c) =>
+  Math.max(1, Math.round([c.answerHtml, ...c.sections.map((x) => x.html)].join(" ").replace(/<[^>]+>/g, " ").split(/\s+/).filter(Boolean).length / 220));
+const postCard = (a, l, size = "card") => {
+  const c = a[l], t = locales[l], cover = coverOf(a), h = size === "feature" ? "h2" : "h3";
+  return `<article class="post-card post-card-${size}" lang="${htmlLang(l)}"><a href="${articlePath(a, l)}">${cover ? `<span class="post-cover"><img src="${cover}" width="1200" height="675" alt="" aria-hidden="true" ${size === "feature" ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"></span>` : ""}<span class="post-meta">${topicLabel(a, t) ? `<span class="post-topic">${escape(topicLabel(a, t))}</span>` : ""}<span>${escape(t.minRead.replace("{n}", readingMinutes(c)))}</span></span><${h}>${escape(c.title)}</${h}>${size === "mini" ? "" : `<span class="post-excerpt">${escape(c.description)}</span>`}</a></article>`;
+};
+// "Summarize with" row: plain links that open each assistant with a visible prompt
+// naming the canonical URL. No script, no tracking, nothing hidden in the page.
+const assistants = [
+  ["ChatGPT", "https://chatgpt.com/?q="],
+  ["Claude", "https://claude.ai/new?q="],
+  ["Perplexity", "https://www.perplexity.ai/search/new?q="],
+  ["Google AI Mode", "https://www.google.com/search?udm=50&q="],
+  ["Grok", "https://grok.com/?q="],
+];
+const summarize = (path, t) => {
+  const q = encodeURIComponent(t.summarizePrompt.replace("{url}", origin + path));
+  return `<div class="summarize"><p class="summarize-label">${escape(t.summarizeWith)}</p><ul class="summarize-links">${assistants.map(([name, url]) => `<li><a href="${escape(url + q)}" target="_blank" rel="noopener noreferrer nofollow">${name}</a></li>`).join("")}</ul><p class="summarize-note">${escape(t.summarizeNote)}</p></div>`;
+};
+// Comments (Cusdis) on blog posts. Nothing renders until content/comments.json has an
+// app ID, and no third-party script loads until the reader presses the button.
+const commentsConfig = existsSync("content/comments.json")
+  ? JSON.parse(readFileSync("content/comments.json", "utf8"))
+  : {};
+const comments = (a, l, path) => {
+  if (a.type !== "post" || !commentsConfig.appId) return "";
+  const t = locales[l];
+  return `<section class="comments" id="comments"><h2>${escape(t.commentsTitle)}</h2><p class="comments-note">${escape(t.commentsNote)}</p><button type="button" class="comments-load" data-host="${escape(commentsConfig.host)}" data-app-id="${escape(commentsConfig.appId)}" data-page-id="${escape(a.slug + "-" + l)}" data-page-url="${origin}${path}" data-page-title="${escape(a[l].title)}" data-lang="${htmlLang(l)}">${escape(t.commentsLoad)}</button><div class="comments-thread"></div></section><script defer src="/assets/comments.js"></script>`;
+};
 for (const a of articles)
   for (const l of languages) {
     if (!a[l]) continue;
@@ -197,9 +232,9 @@ for (const a of articles)
         a.type === "comparison"
           ? "compare"
           : a.type === "post"
-            ? "journal"
+            ? "blog"
             : "guides";
-    const images = [c.image || a.image].filter(Boolean).map(absolute);
+    const images = [c.image || a.image || coverOf(a)].filter(Boolean).map(absolute);
     const schema = [
       {
         "@context": "https://schema.org",
@@ -231,11 +266,8 @@ for (const a of articles)
       schema,
       sources: contentSources("articles", a.slug, l),
       images: images,
-      body: `<div class="wrap"><nav class="breadcrumbs" aria-label="${t.home}"><a href="${prefix(l)}">lilora</a><span>/</span><a href="${prefix(l)}${hub}/">${t[hub]}</a></nav><header class="article-heading"><h1>${escape(c.title)}</h1><p class="dek">${escape(c.description)}</p><p class="byline">${t.published} <time datetime="${a.published}">${formatDate(a.published, l)}</time> · ${t.reviewed} <time datetime="${a.reviewed}">${formatDate(a.reviewed, l)}</time></p>${shareTools(path, c.title, t)}</header>${a.image ? `<figure class="article-image"><img src="${c.image || a.image}" width="${a.imageWidth || 553}" height="${a.imageHeight || 1200}" alt="${escape(c.imageAlt || "")}" fetchpriority="high"><figcaption>${c.caption || ""}</figcaption></figure>` : ""}<div class="article-layout"><details class="toc"><summary>${t.contents}</summary><nav aria-label="${t.contents}"><ol>${c.sections.map((s, i) => `<li><a href="#section-${i + 1}">${escape(s.title)}</a></li>${a.handoverFormAfter === i + 1 ? `<li><a href="#handover-form">${handoverFormTitle(l)}</a></li>` : ""}`).join("")}<li><a href="#sources">${t.sources}</a></li></ol></nav></details><article class="prose"><div class="short-answer"><p class="eyebrow">${t.shortAnswer}</p>${c.answerHtml}</div>${a.diagram === "shared-care" ? sharedCareDiagram(l) : ""}${c.sections.map((s, i) => `<section id="section-${i + 1}"><h2>${escape(s.title)}</h2>${s.html}</section>${a.handoverFormAfter === i + 1 ? careHandoverForm(l) : ""}`).join("")}<section id="sources" class="sources"><h2>${t.sources}</h2><ol>${a.sources.map((s) => `<li><a href="${escape(s.url)}">${escape(s.name)}</a>${s.note ? " — " + escape(s.note) : ""}</li>`).join("")}</ol><p>${t.generalNote}</p></section>${guidePlants(a, l)}${appNote(l)}</article></div><section class="related"><h2>${t.related}</h2><div class="story-grid">${related(
-        a,
-        l,
-      )
-        .map((x) => card(x, l))
+      body: `<div class="wrap"><nav class="breadcrumbs" aria-label="${t.home}"><a href="${prefix(l)}">lilora</a><span>/</span><a href="${prefix(l)}${hub}/">${t[hub]}</a></nav><header class="article-heading"><h1>${escape(c.title)}</h1><p class="dek">${escape(c.description)}</p><p class="byline">${t.published} <time datetime="${a.published}">${formatDate(a.published, l)}</time> · ${t.reviewed} <time datetime="${a.reviewed}">${formatDate(a.reviewed, l)}</time></p>${shareTools(path, c.title, t)}${a.type === "comparison" ? "" : summarize(path, t)}</header>${a.image ? `<figure class="article-image"><img src="${c.image || a.image}" width="${a.imageWidth || 553}" height="${a.imageHeight || 1200}" alt="${escape(c.imageAlt || "")}" fetchpriority="high"><figcaption>${c.caption || ""}</figcaption></figure>` : coverOf(a) ? `<figure class="post-hero-cover"><img src="${coverOf(a)}" width="1200" height="675" alt="" aria-hidden="true" fetchpriority="high"></figure>` : ""}<div class="article-layout"><details class="toc"><summary>${t.contents}</summary><nav aria-label="${t.contents}"><ol>${c.sections.map((s, i) => `<li><a href="#section-${i + 1}">${escape(s.title)}</a></li>${a.handoverFormAfter === i + 1 ? `<li><a href="#handover-form">${handoverFormTitle(l)}</a></li>` : ""}`).join("")}<li><a href="#sources">${t.sources}</a></li></ol></nav></details><article class="prose"><div class="short-answer"><p class="eyebrow">${t.shortAnswer}</p>${c.answerHtml}</div>${a.diagram === "shared-care" ? sharedCareDiagram(l) : ""}${c.sections.map((s, i) => `<section id="section-${i + 1}"><h2>${escape(s.title)}</h2>${s.html}</section>${a.handoverFormAfter === i + 1 ? careHandoverForm(l) : ""}`).join("")}<section id="sources" class="sources"><h2>${t.sources}</h2><ol>${a.sources.map((s) => `<li><a href="${escape(s.url)}">${escape(s.name)}</a>${s.note ? " — " + escape(s.note) : ""}</li>`).join("")}</ol><p>${t.generalNote}</p></section>${guidePlants(a, l)}${comments(a, l, path)}${appNote(l)}</article></div><section class="related"><h2>${t.related}</h2><div class="post-grid">${related(a, l)
+        .map((x) => (coverOf(x) ? postCard(x, l) : card(x, l, "articles", "h3")))
         .join("")}</div></section></div>`,
     });
   }
@@ -335,14 +367,32 @@ for (const slug of staticSlugs) {
     });
   }
 }
-for (const kind of ["guides", "plants", "journal", "compare"])
+// Blog and guide hubs share one visual layout: a hero with topic links, a featured
+// card beside a short list (latest posts, or where to start), one image-card section
+// per topic, then a pointer to the other hub. Every card shows its cover.
+const startGuides = ["watering-houseplants", "indoor-plant-light-guide", "potting-mix-and-drainage", "overwatering-vs-underwatering"];
+const visualHub = (kind, l, selection, english) => {
+  const t = locales[l], blog = kind === "blog", labels = blog ? t.blogCategories : t.guideCategories;
+  const items = [...selection].sort((a, b) => Number(!!b.featured) - Number(!!a.featured) || b.published.localeCompare(a.published) || a.slug.localeCompare(b.slug));
+  const featured = items[0];
+  const side = blog
+    ? items.slice(1, 5)
+    : startGuides.map((slug) => items.find((a) => a.slug === slug)).filter((a) => a && a !== featured);
+  const topics = Object.keys(labels).filter((id) => items.some((a) => a.category === id));
+  const other = articles.filter((a) => a.type === (blog ? "guide" : "post") && a[l]);
+  const otherSection = other.length
+    ? `<section class="hub-other"><h2>${escape(blog ? t.blogGuidesTitle : t.blogFrom)}</h2>${blog ? `<p>${escape(t.blogGuidesIntro)}</p>` : ""}<ul>${other.sort((a, b) => a[l].title.localeCompare(b[l].title, htmlLang(l))).map((a) => `<li><a href="${articlePath(a, l)}">${escape(a[l].title)}</a></li>`).join("")}</ul><a class="text-link" href="${prefix(l)}${blog ? "guides" : "blog"}/">${escape(blog ? t.guides : t.blog)}</a></section>`
+    : "";
+  return `<section class="hub-hero wrap"><div class="hub-hero-intro"><p class="eyebrow">LILORA / ${escape(t[kind])}</p><h1>${escape(t[kind])}</h1><p class="dek">${escape(t.hubDescription[kind])}</p>${topics.length ? `<nav class="hub-topics" aria-label="${escape(t.blogTopics)}">${topics.map((id) => `<a href="#topic-${id}">${escape(labels[id])}</a>`).join("")}</nav>` : ""}</div>${featured ? `<div class="hub-hero-grid">${postCard(featured, l, "feature")}${side.length ? `<div class="hub-hero-side"><h2>${escape(blog ? t.blogLatest : t.guidesStart)}</h2>${side.map((a) => postCard(a, l, "mini")).join("")}</div>` : ""}</div>` : `<p>${t.empty}</p>`}</section><div class="wrap collection hub-collection">${topics.map((id) => `<section class="hub-section" id="topic-${id}"><h2>${escape(labels[id])}</h2><div class="post-grid">${items.filter((a) => a.category === id).map((a) => postCard(a, l)).join("")}</div></section>`).join("")}${english.length ? `<section class="also-english"><h2>${t.alsoEnglish}</h2><div class="post-grid">${english.map((a) => postCard(a, "en")).join("")}</div></section>` : ""}${otherSection}${appNote(l)}</div>`;
+};
+for (const kind of ["guides", "plants", "blog", "compare"])
   for (const l of languages) {
     const t = locales[l],
       source = kind === "plants" ? plants : articles,
       match = (a) =>
         kind === "plants" ||
         a.type ===
-          (kind === "journal"
+          (kind === "blog"
             ? "post"
             : kind === "compare"
               ? "comparison"
@@ -366,7 +416,7 @@ for (const kind of ["guides", "plants", "journal", "compare"])
         ...selection.flatMap((a) => contentSources(kind === "plants" ? "plants" : "articles", a.slug, l)),
       ],
       schema: [breadcrumbs([[t.home, prefix(l)], [t[kind], prefix(l) + kind + "/"]])],
-      body: `<section class="collection-heading wrap"><p class="eyebrow">LILORA / ${escape(title)}</p><h1>${escape(title)}</h1><p class="dek">${escape(t.hubDescription[kind])}</p></section><div class="wrap collection">${kind === "plants" && plantBrowser(l) ? plantBrowser(l) : `<div class="story-grid">${selection.map((a) => card(a, l, kind === "plants" ? "plants" : "articles")).join("")}</div>`}${!selection.length ? `<p>${t.empty}</p>` : ""}${english.length ? `<section class="also-english"><h2>${t.alsoEnglish}</h2><div class="story-grid">${english.map((a) => card(a, "en", kind === "plants" ? "plants" : "articles")).join("")}</div></section>` : ""}${kind === "compare" && existsSync(`pages/compare/${l}.html`) ? readFileSync(`pages/compare/${l}.html`, "utf8") : ""}${appNote(l)}</div>`,
+      body: kind === "blog" || kind === "guides" ? visualHub(kind, l, selection, english) : `<section class="collection-heading wrap"><p class="eyebrow">LILORA / ${escape(title)}</p><h1>${escape(title)}</h1><p class="dek">${escape(t.hubDescription[kind])}</p></section><div class="wrap collection">${kind === "plants" && plantBrowser(l) ? plantBrowser(l) : `<div class="story-grid">${selection.map((a) => card(a, l, kind === "plants" ? "plants" : "articles")).join("")}</div>`}${!selection.length ? `<p>${t.empty}</p>` : ""}${english.length ? `<section class="also-english"><h2>${t.alsoEnglish}</h2><div class="story-grid">${english.map((a) => card(a, "en", kind === "plants" ? "plants" : "articles")).join("")}</div></section>` : ""}${kind === "compare" && existsSync(`pages/compare/${l}.html`) ? readFileSync(`pages/compare/${l}.html`, "utf8") : ""}${appNote(l)}</div>`,
     });
   }
 const notFound = {
@@ -417,7 +467,7 @@ writeFileSync(
     })
     .join("\n")}\n</sitemapindex>\n`,
 );
-// One Atom feed per language for guides and journal posts, newest first.
+// One Atom feed per language for guides and blog posts, newest first.
 for (const l of languages) {
   const entries = articles
     .filter((a) => a[l] && a.type !== "comparison")
@@ -434,10 +484,23 @@ for (const l of languages) {
       .join("\n")}\n</feed>\n`,
   );
 }
+// Moved addresses (the journal became the blog on 23 October 2026) keep working:
+// each old URL gets a noindex page that sends readers and crawlers to the new one.
+const redirects = existsSync("content/redirects.json")
+  ? JSON.parse(readFileSync("content/redirects.json", "utf8"))
+  : {};
+for (const [from, to] of Object.entries(redirects)) {
+  if (!routes.some((r) => r.path === to)) throw Error(`Redirect target ${to} for ${from} is not a page.`);
+  mkdirSync("." + from, { recursive: true });
+  writeFileSync(
+    "." + from + "index.html",
+    `<!doctype html>\n<html lang="${htmlLang(routes.find((r) => r.path === to).lang)}"><head><meta charset="utf-8"><title>lilora</title><meta name="robots" content="noindex"><link rel="canonical" href="${origin}${to}"><meta http-equiv="refresh" content="0; url=${to}"></head><body><p><a href="${to}">${origin}${to}</a></p></body></html>\n`,
+  );
+}
 const record = "editorial/routes.json";
 if (existsSync(record))
   for (const old of JSON.parse(readFileSync(record)))
-    if (!routes.some((r) => r.path === old)) {
+    if (!routes.some((r) => r.path === old) && !redirects[old]) {
       throw Error(
         `Refusing to remove public URL ${old}; keep its source or provide a reviewed redirect.`,
       );

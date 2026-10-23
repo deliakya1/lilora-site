@@ -5,7 +5,7 @@
   "close": "Schließen",
   "guides": "Pflanzenpflege",
   "plants": "Pflanzenlexikon",
-  "journal": "Journal",
+  "blog": "Blog",
   "app": "Die App",
   "support": "Hilfe",
   "getApp": "Zur App",
@@ -64,7 +64,7 @@
   "compare": "App-Vergleiche",
   "guidesDescription": "Praktische Hinweise: Pflanzen beobachten, bevor du die Pflege änderst.",
   "plantsDescription": "Zimmerpflanzen nach Arten kennenlernen.",
-  "journalDescription": "Notizen über Pflanzen und gemeinsame Pflege.",
+  "blogDescription": "Beiträge über Pflanzenpflege, Jahreszeiten-Checklisten und gemeinsame Pflege.",
   "compareDescription": "Quellenbasierte Vergleiche von Pflanzen-Apps.",
   "atAGlance": "Auf einen Blick",
   "light": "Licht",
@@ -79,15 +79,43 @@
   "hubDescription": {
     "guides": "Quellenbasierte Ratgeber zu Gießen, Licht, Töpfen, Schädlingen und Pflege im Jahreslauf: erst die Pflanze beobachten, dann die Pflege ändern.",
     "plants": "Zimmerpflanzen nach Arten: Licht, Gießen, Luftfeuchtigkeit, Temperatur, Hinweise zu Haustieren und Pflegeaufwand, jeweils mit Quellen.",
-    "journal": "Notizen über Pflanzen und gemeinsame Pflege: warum Lilora „prüfen“ sagt, Checklisten für die Jahreszeit, Umzug mit Pflanzen und Pflegetagebuch.",
+    "blog": "Quellenbasierte Beiträge über Zimmerpflanzen: warum Lilora „prüfen“ sagt, Checklisten für die Jahreszeit, Umzug mit Pflanzen und gemeinsame Pflege.",
     "compare": "Quellenbasierte Vergleiche von Pflanzen-Apps: Erinnerungen, gemeinsame Einträge, Pflanzenbestimmung und Preise, mit ehrlichen Hinweisen."
   },
   "hubTitles": {
     "guides": "Ratgeber zur Zimmerpflanzenpflege",
     "plants": "Zimmerpflanzen-Bibliothek",
-    "journal": "Pflanzenjournal",
+    "blog": "Lilora Blog: Beiträge zur Pflanzenpflege",
     "compare": "Pflanzen-Apps im Vergleich"
   },
   "backToTop": "Nach oben",
-  "feedTitle": "Lilora: Pflanzenratgeber und Journal"
+  "feedTitle": "Lilora: Pflanzenratgeber und Blog",
+  "summarizeWith": "Zusammenfassen mit:",
+  "summarizePrompt": "Bitte lies diesen Artikel von lilora.app und fasse die wichtigsten Punkte auf Deutsch zusammen: {url}",
+  "summarizeNote": "Jeder Link öffnet den Dienst in einem neuen Tab; es gelten dessen eigene Bedingungen.",
+  "blogFeatured": "Empfohlener Beitrag",
+  "blogLatest": "Neue Beiträge",
+  "blogAll": "Alle Beiträge",
+  "blogGuidesTitle": "Ausführliche Pflegeratgeber",
+  "blogGuidesIntro": "Für längere Themen Schritt für Schritt gibt es die Pflegeratgeber.",
+  "blogTopics": "Themen",
+  "blogCategories": {
+    "problems": "Pflanzenprobleme",
+    "basics": "Pflegegrundlagen",
+    "home": "Zuhause und Jahreszeiten",
+    "notes": "Lilora-Notizen"
+  },
+  "minRead": "{n} Min. Lesezeit",
+  "guidesStart": "Hier anfangen",
+  "blogFrom": "Aus dem Blog",
+  "guideCategories": {
+    "water": "Wasser und Wurzeln",
+    "environment": "Licht und Klima",
+    "growth": "Düngen und Vermehren",
+    "problems": "Pflanzenprobleme",
+    "home": "Zuhause und Familie"
+  },
+  "commentsTitle": "Kommentare",
+  "commentsLoad": "Kommentare anzeigen",
+  "commentsNote": "Kommentare laufen über Cusdis und werden erst geladen, wenn du diese Schaltfläche drückst. Sie werden vor der Veröffentlichung freigegeben."
 }

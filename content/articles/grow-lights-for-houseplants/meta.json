@@ -1,0 +1,37 @@
+{
+  "slug": "grow-lights-for-houseplants",
+  "type": "post",
+  "category": "basics",
+  "published": "2026-10-23",
+  "reviewed": "2026-10-23",
+  "sources": [
+    {
+      "name": "Iowa State University Extension: how to set up supplemental lights for indoor plants",
+      "url": "https://yardandgarden.extension.iastate.edu/how-to/how-set-supplemental-lights-indoor-plants"
+    },
+    {
+      "name": "RHS: artificial lighting for indoor plants",
+      "url": "https://www.rhs.org.uk/plants/types/houseplants/artificial-lighting"
+    },
+    {
+      "name": "UF/IFAS Gardening Solutions: light for houseplants",
+      "url": "https://gardeningsolutions.ifas.ufl.edu/plants/houseplants/light-for-houseplants/"
+    },
+    {
+      "name": "Clemson HGIC: indoor plants, cleaning, fertilizing, containers and light requirements",
+      "url": "https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/"
+    }
+  ],
+  "related": [
+    "indoor-plant-light-guide",
+    "leggy-houseplants",
+    "winter-houseplant-care"
+  ],
+  "en": {
+    "description": "A simple grow light set-up for houseplants: which LED to choose, how far above the leaves, how many hours a day, and why a timer and dark nights matter."
+  },
+  "tr": {
+    "description": "Ev bitkileri için basit bir lamba düzeni: hangi LED seçilmeli, yaprakların ne kadar üstüne asılmalı, günde kaç saat yanmalı ve zamanlayıcı neden önemli.",
+    "seoTitle": "Ev bitkileri için bitki lambaları: başlangıç düzeni"
+  }
+}

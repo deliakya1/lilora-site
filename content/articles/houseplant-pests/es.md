@@ -57,7 +57,7 @@ No hemos incluido fotos aquí. Identificar una plaga requiere imágenes precisas
 
 Los productos, sus materias activas y su uso legal cambian según el país. No damos dosis: la única instrucción fiable es la etiqueta del producto que compres. Guárdalos lejos de niños y mascotas. Si alguien ingiere uno, contacta con un médico o con un veterinario y con el servicio de información toxicológica de tu país. Esto es información general, no consejo veterinario ni médico.
 
-Si la planta además tiene hojas amarillas, consulta también [hojas amarillas en plantas de interior](/es/guides/yellow-houseplant-leaves/). Las plantas que vuelven dentro después del verano necesitan revisiones extra; mira [una puesta a punto de otoño](/es/journal/autumn-plant-reset/).
+Si la planta además tiene hojas amarillas, consulta también [hojas amarillas en plantas de interior](/es/guides/yellow-houseplant-leaves/). Las plantas que vuelven dentro después del verano necesitan revisiones extra; mira [una puesta a punto de otoño](/es/blog/autumn-plant-reset/).
 
 Si convives con gatos o perros, lee también [plantas de interior y mascotas](/es/guides/pet-safe-houseplants/) antes de elegir plantas nuevas.
 
