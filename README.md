@@ -906,6 +906,24 @@ section `#website-contact` documents this. `node scripts/contact-check.cjs`
 intercepts the endpoint and checks six languages at 390/1440 px, validation,
 sending, rate limit, redirect status and the no-JS post.
 
+### Launch notice sign-up (pre-launch only)
+
+`/download/` in all six languages has a small form in the status panel
+(`#launch-signup`): one email field and a consent box for a single launch email
+with the download link (no newsletter). It posts to the Supabase Edge Function
+`website-launch-signup` in the production project (source and migration in the
+app repository under `supabase/functions/website-launch-signup` and
+`web_launch_signups`). It reuses the contact form script and styles
+(`.contact-form`), so JSON sending, localized `data-*` status text, the
+honeypot, `started` fill time and the no-JS `?form=<code>` redirect behave the
+same. A repeated address is not stored twice and gets the same success text, so
+the form does not reveal who is on the list. Addresses live only in
+`public.website_launch_signups` (no client grants) and never in this public
+repository. The privacy policy section `#launch-notice` documents purpose,
+consent basis, withdrawal and retention. At launch (site prompt 08) replace the
+form with the direct App Store action and send the one launch email from the
+stored list; then set `notified_at` so rows are deleted after 30 days.
+
 ## Prompt 07 — 22 October 2026: SEO, quality and launch readiness
 
 Before: 91 titles over 60 characters, 108 descriptions outside 120–155 characters,
