@@ -48,5 +48,9 @@
   "es": {
     "description": "El agua del grifo sirve a casi todas las plantas. Cuándo dan problemas el agua descalcificada, el cloro, el flúor, la cal o el agua fría, y qué hacer.",
     "seoTitle": "¿Sirve el agua del grifo para las plantas?"
+  },
+  "de": {
+    "description": "Leitungswasser passt für die meisten Zimmerpflanzen. Wann enthärtetes Wasser, Chlor, Fluorid, Kalk oder kaltes Wasser stören und was du tun kannst.",
+    "seoTitle": "Ist Leitungswasser gut für Zimmerpflanzen?"
   }
 }

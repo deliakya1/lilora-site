@@ -217,11 +217,53 @@
       "image": "/assets/brand/share/de-blog--autumn-plant-reset.png"
     },
     {
+      "path": "/de/blog/bottom-watering/",
+      "lang": "de",
+      "title": "Zimmerpflanzen von unten gießen: wann es hilft und wann nicht",
+      "description": "Wie du Zimmerpflanzen von unten gießt, welche Pflanzen davon profitieren, wie lange der Topf im Wasser steht und warum du ab und zu von oben gießt.",
+      "image": "/assets/brand/share/de-blog--bottom-watering.png"
+    },
+    {
+      "path": "/de/blog/brown-leaf-tips/",
+      "lang": "de",
+      "title": "Braune Blattspitzen bei Zimmerpflanzen: was sie meist bedeuten",
+      "description": "Braune, trockene Blattspitzen kommen meist von trockener Luft, unregelmäßigem Gießen, Salzen oder hartem Leitungswasser. So findest du die Ursache.",
+      "image": "/assets/brand/share/de-blog--brown-leaf-tips.png"
+    },
+    {
+      "path": "/de/blog/buying-a-healthy-houseplant/",
+      "lang": "de",
+      "title": "Eine gesunde Zimmerpflanze aussuchen und zu Hause eingewöhnen",
+      "description": "Was du vor dem Kauf einer Zimmerpflanze prüfst: Blätter, Schädlinge, Wurzeln und Topf. Und wie du sie zwei Wochen getrennt hältst und eingewöhnst.",
+      "image": "/assets/brand/share/de-blog--buying-a-healthy-houseplant.png"
+    },
+    {
       "path": "/de/blog/check-before-you-water/",
       "lang": "de",
       "title": "Warum Lilora ans Prüfen erinnert, nicht ans Gießen",
       "description": "Ein Kalender sieht deine Pflanze nicht. Warum Lilora ans Prüfen erinnert und Gießen und Kontrolle ohne Wasser getrennt erfasst.",
       "image": "/assets/brand/share/de-blog--check-before-you-water.png"
+    },
+    {
+      "path": "/de/blog/cleaning-houseplant-leaves/",
+      "lang": "de",
+      "title": "Blätter von Zimmerpflanzen reinigen (und warum das wichtig ist)",
+      "description": "Staub nimmt Zimmerpflanzen Licht. Wie du große Blätter abwischst, kleine Pflanzen abbraust, behaarte Blätter abpinselst und auf Blattglanz verzichtest.",
+      "image": "/assets/brand/share/de-blog--cleaning-houseplant-leaves.png"
+    },
+    {
+      "path": "/de/blog/do-houseplants-purify-air/",
+      "lang": "de",
+      "title": "Reinigen Zimmerpflanzen wirklich die Raumluft?",
+      "description": "Die NASA-Studie hinter luftreinigenden Pflanzen nutzte versiegelte Kammern. Was eine Übersicht von 2019 über echte Wohnungen fand und was wirklich hilft.",
+      "image": "/assets/brand/share/de-blog--do-houseplants-purify-air.png"
+    },
+    {
+      "path": "/de/blog/grow-lights-for-houseplants/",
+      "lang": "de",
+      "title": "Pflanzenlampen für Zimmerpflanzen: ein einfacher Einstieg",
+      "description": "Pflanzenlampe einfach einrichten: welche LED, wie weit über den Blättern, wie viele Stunden am Tag und warum Zeitschaltuhr und dunkle Nächte wichtig sind.",
+      "image": "/assets/brand/share/de-blog--grow-lights-for-houseplants.png"
     },
     {
       "path": "/de/blog/keeping-a-plant-care-journal/",
@@ -231,11 +273,39 @@
       "image": "/assets/brand/share/de-blog--keeping-a-plant-care-journal.png"
     },
     {
+      "path": "/de/blog/leggy-houseplants/",
+      "lang": "de",
+      "title": "Vergeilte Zimmerpflanzen: warum sie sich strecken",
+      "description": "Lange, dünne Stängel mit großen Blattabständen bedeuten meist zu wenig Licht. Erst mehr Licht, dann über einem Knoten schneiden und Stecklinge bewurzeln.",
+      "image": "/assets/brand/share/de-blog--leggy-houseplants.png"
+    },
+    {
+      "path": "/de/blog/mold-on-houseplant-soil/",
+      "lang": "de",
+      "title": "Weißer Schimmel auf der Blumenerde: ist er schädlich?",
+      "description": "Weißer Flaum auf der Blumenerde ist meist ein harmloser Pilz, der Nässe und stehende Luft anzeigt. So erkennst du ihn neben Salzkruste und wirst ihn los.",
+      "image": "/assets/brand/share/de-blog--mold-on-houseplant-soil.png"
+    },
+    {
       "path": "/de/blog/moving-house-with-plants/",
       "lang": "de",
       "title": "Umziehen mit Zimmerpflanzen",
       "description": "Pflanzen beim Umzug einplanen: Schädlingskontrolle, Gießen, Verpacken, Transport, Einfuhrregeln und Eingewöhnung ins neue Licht.",
       "image": "/assets/brand/share/de-blog--moving-house-with-plants.png"
+    },
+    {
+      "path": "/de/blog/tap-water-for-houseplants/",
+      "lang": "de",
+      "title": "Ist Leitungswasser für Zimmerpflanzen in Ordnung?",
+      "description": "Leitungswasser passt für die meisten Zimmerpflanzen. Wann enthärtetes Wasser, Chlor, Fluorid, Kalk oder kaltes Wasser stören und was du tun kannst.",
+      "image": "/assets/brand/share/de-blog--tap-water-for-houseplants.png"
+    },
+    {
+      "path": "/de/blog/terracotta-vs-plastic-pots/",
+      "lang": "de",
+      "title": "Terrakotta oder Plastik: welcher Topf ist besser für Zimmerpflanzen?",
+      "description": "Terrakotta atmet und trocknet schneller; Plastik und glasierte Keramik halten Feuchtigkeit länger. Welcher Topf zu welcher Pflanze passt und warum.",
+      "image": "/assets/brand/share/de-blog--terracotta-vs-plastic-pots.png"
     },
     {
       "path": "/de/compare/",
