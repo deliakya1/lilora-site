@@ -28,6 +28,10 @@ Set `CHROMIUM_PATH` if needed. Production has no runtime dependency or client fr
    The specimen header renders the common name, italic Newsreader botanical name
    and family. No placeholder plant is published. Header library links appear only
    after three real profiles exist in that language.
+   Optional `finderLight` (`low`, `medium`, `bright`) feeds the three-question plant
+   finder at `plants/finder/` (`scripts/plant-finder.mjs`, `assets/plant-finder.js`):
+   one page per language, matched in the browser, no per-answer pages. Pet mode
+   shows only `petNonToxic` plants; care and pet lines reuse each profile's `atAGlance`.
 4. UI/cookie/recovery strings are in `locales/<lang>.json`. Shared HTML is generated
    by `scripts/layout.mjs`; `scripts/build.mjs` assembles pages/hubs/sitemap. Generated
    `editorial/{articles,plants,routes}.json` are outputs, not shared editing surfaces.
@@ -901,6 +905,24 @@ an Edge Function secret; until then they are kept in
 section `#website-contact` documents this. `node scripts/contact-check.cjs`
 intercepts the endpoint and checks six languages at 390/1440 px, validation,
 sending, rate limit, redirect status and the no-JS post.
+
+### Launch notice sign-up (pre-launch only)
+
+`/download/` in all six languages has a small form in the status panel
+(`#launch-signup`): one email field and a consent box for a single launch email
+with the download link (no newsletter). It posts to the Supabase Edge Function
+`website-launch-signup` in the production project (source and migration in the
+app repository under `supabase/functions/website-launch-signup` and
+`web_launch_signups`). It reuses the contact form script and styles
+(`.contact-form`), so JSON sending, localized `data-*` status text, the
+honeypot, `started` fill time and the no-JS `?form=<code>` redirect behave the
+same. A repeated address is not stored twice and gets the same success text, so
+the form does not reveal who is on the list. Addresses live only in
+`public.website_launch_signups` (no client grants) and never in this public
+repository. The privacy policy section `#launch-notice` documents purpose,
+consent basis, withdrawal and retention. At launch (site prompt 08) replace the
+form with the direct App Store action and send the one launch email from the
+stored list; then set `notified_at` so rows are deleted after 30 days.
 
 ## Prompt 07 — 22 October 2026: SEO, quality and launch readiness
 

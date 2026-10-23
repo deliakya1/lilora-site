@@ -29,6 +29,7 @@ import {
   organization,
 } from "./layout.mjs";
 import { careHandoverForm, handoverFormTitle } from "./care-handover-form.mjs";
+import { plantFinder, finderCopy, finderPath, finderHubLink } from "./plant-finder.mjs";
 const articles = JSON.parse(readFileSync("editorial/articles.json", "utf8"));
 const plants = JSON.parse(readFileSync("editorial/plants.json", "utf8"));
 // Static, no-JS filter sections for the plant hub; labels live with the plant content.
@@ -46,7 +47,7 @@ const plantBrowser = (l) => {
     .filter(([, , list]) => list.length);
   const count = (n) => escape(f.count.replace("{n}", n));
   const plantCard = (p) => `<li class="plant-card" data-tags="${escape((p.tags || []).join(" "))}"><a href="${plantPath(p, l)}"><span class="plant-card-photo"><img src="${p.image}" width="${p.imageWidth}" height="${p.imageHeight}" alt="${escape(p[l].imageAlt || "")}" loading="lazy" decoding="async"></span><span class="plant-card-name">${escape(p[l].title)}</span><em class="plant-card-botanical">${escape(p.botanicalName)}</em>${(p.tags || []).length ? `<span class="plant-card-tags">${p.tags.filter((t) => f.short[t]).map((t) => `<span class="plant-tag plant-tag-${t}">${escape(f.short[t])}</span>`).join("")}</span>` : ""}</a></li>`;
-  return `<div class="plant-browser" data-count-template="${escape(f.count)}"><nav class="plant-chips" aria-label="${escape(f.title)}"><a href="#plant-grid" class="plant-chip" data-filter="all" aria-current="true">${escape(f.all)}</a>${groups.map(([id]) => `<a href="#${id}" class="plant-chip" data-filter="${id}">${escape(f.short[id])}</a>`).join("")}</nav>${f.note ? `<p class="plant-note">${f.note}</p>` : ""}<p class="plant-count" aria-live="polite">${count(own.length)}</p><ul class="plant-grid" id="plant-grid">${own.map(plantCard).join("")}</ul>${groups.map(([id, label, list]) => `<section id="${id}" class="plant-filter"><h2>${escape(label)}</h2><ul class="plant-filter-links">${list.map((p) => `<li><a href="${plantPath(p, l)}">${escape(p[l].title)}</a> <em>${escape(p.botanicalName)}</em></li>`).join("")}</ul></section>`).join("")}</div>`;
+  return `${finderHubLink(l)}<div class="plant-browser" data-count-template="${escape(f.count)}"><nav class="plant-chips" aria-label="${escape(f.title)}"><a href="#plant-grid" class="plant-chip" data-filter="all" aria-current="true">${escape(f.all)}</a>${groups.map(([id]) => `<a href="#${id}" class="plant-chip" data-filter="${id}">${escape(f.short[id])}</a>`).join("")}</nav>${f.note ? `<p class="plant-note">${f.note}</p>` : ""}<p class="plant-count" aria-live="polite">${count(own.length)}</p><ul class="plant-grid" id="plant-grid">${own.map(plantCard).join("")}</ul>${groups.map(([id, label, list]) => `<section id="${id}" class="plant-filter"><h2>${escape(label)}</h2><ul class="plant-filter-links">${list.map((p) => `<li><a href="${plantPath(p, l)}">${escape(p[l].title)}</a> <em>${escape(p.botanicalName)}</em></li>`).join("")}</ul></section>`).join("")}</div>`;
 };
 // Sitemap lastmod comes from the last commit that touched a page's sources, never
 // the build time. Files changed but not yet committed take today's date, which is
@@ -310,6 +311,23 @@ for (const a of plants)
       body: `<div class="wrap document"><nav class="breadcrumbs" aria-label="${t.home}"><a href="${prefix(l)}">lilora</a><span>/</span><a href="${prefix(l)}plants/">${t.plants}</a></nav><header class="specimen-header"><p>${escape(a.family)}</p><h1>${escape(c.title)}</h1><p class="botanical-name"><em>${escape(a.botanicalName)}</em></p><p class="byline">${t.published} <time datetime="${a.published}">${formatDate(a.published, l)}</time> · ${t.reviewed} <time datetime="${a.reviewed}">${formatDate(a.reviewed, l)}</time></p></header>${a.image ? `<figure class="article-image plant-image"><img src="${a.image}" width="${a.imageWidth}" height="${a.imageHeight}" alt="${escape(c.imageAlt || "")}" fetchpriority="high"><figcaption>${c.caption || ""}</figcaption></figure>` : ""}<section class="at-a-glance"><h2>${t.atAGlance}</h2><dl>${["light", "watering", "humidity", "temperature", "petSafety", "careLevel"].map((k) => `<div><dt>${t[k]}</dt><dd>${escape(g[k])}${k === "petSafety" && g.petSafetySource ? ` <a href="${escape(g.petSafetySource)}">${t.sources}</a>` : ""}</dd></div>`).join("")}</dl></section><article class="prose">${c.answerHtml}${c.sections.map((s) => `<section><h2>${escape(s.title)}</h2>${s.html}</section>`).join("")}<section id="sources"><h2>${t.sources}</h2><ul>${(a.sources || []).map((s) => `<li><a href="${escape(s.url)}">${escape(s.name)}</a></li>`).join("")}</ul></section>${appNote(l)}</article></div>${plantGuides(l)}${plantTopics(a, l)}`,
     });
   }
+// One plant-finder page per language; answers are matched in the browser, so no per-answer pages.
+const finderLanguages = languages.filter((l) => finderCopy[l] && plants.filter((p) => p[l] && p.finderLight).length >= 3);
+for (const l of finderLanguages) {
+  const t = locales[l],
+    c = finderCopy[l],
+    path = finderPath(l);
+  render({
+    lang: l,
+    path,
+    title: c.title,
+    description: c.description,
+    alternates: Object.fromEntries(finderLanguages.map((x) => [x, finderPath(x)])),
+    sources: ["scripts/plant-finder.mjs", ...plants.flatMap((p) => contentSources("plants", p.slug, l))],
+    schema: [breadcrumbs([[t.home, prefix(l)], [t.plants, prefix(l) + "plants/"], [c.title, path]])],
+    body: `<div class="wrap document"><nav class="breadcrumbs" aria-label="${t.home}"><a href="${prefix(l)}">lilora</a><span>/</span><a href="${prefix(l)}plants/">${t.plants}</a></nav><header class="article-heading"><h1>${escape(c.title)}</h1></header>${plantFinder(l, plants, articles, plantFilters[l])}</div>`,
+  });
+}
 for (const slug of staticSlugs) {
   const meta = JSON.parse(readFileSync(`pages/${slug}/meta.json`));
   const available = languages.filter((l) =>

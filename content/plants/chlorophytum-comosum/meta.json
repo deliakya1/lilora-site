@@ -8,6 +8,9 @@
     "petNonToxic",
     "beginner"
   ],
+  "finderLight": [
+    "medium"
+  ],
   "image": "/assets/images/plants/chlorophytum-comosum-v1.webp",
   "imageWidth": 540,
   "imageHeight": 720,

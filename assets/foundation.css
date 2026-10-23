@@ -513,7 +513,12 @@ body:has(.mobile-menu[open]) .back-to-top{display:none}
 .contact-form .button[disabled]{opacity:.65;cursor:progress}
 .document .contact-alt-heading{margin-top:48px}
 .document h3{font-size:21px;margin:28px 0 8px;font-family:var(--font-display);font-weight:500}
-@media(max-width:640px){.contact-form-section{padding:20px 16px;margin-inline:-4px}.contact-row{grid-template-columns:1fr}.contact-form .button{justify-self:stretch;justify-content:center}}
+.launch-signup{margin:24px 0;padding:24px;border:1px solid var(--color-border-subtle);border-radius:var(--radius-lg);background:var(--color-bg-surface)}
+.launch-signup h3{margin:0 0 8px}
+.launch-signup>p{margin:0 0 20px}
+.launch-signup .contact-status{margin:0;padding:12px 16px;border-radius:var(--radius-sm);background:var(--color-bg-sunken);color:var(--color-text-primary);border-left:3px solid var(--color-action-primary)}
+.launch-signup .contact-consent a{color:var(--color-action-primary)}
+@media(max-width:640px){.contact-form-section{padding:20px 16px;margin-inline:-4px}.launch-signup{padding:20px 16px}.contact-row{grid-template-columns:1fr}.contact-form .button{justify-self:stretch;justify-content:center}}
 /* Hubs append the comparison matrix inside the collection's own wrap; avoid a second gutter. */
 .collection>.comparison-matrix.wrap{width:100%}
 /* Small phones: long German/French words wrap with hyphens instead of breaking mid-word or overflowing,

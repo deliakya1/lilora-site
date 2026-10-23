@@ -7,6 +7,9 @@
   "tags": [
     "petNonToxic"
   ],
+  "finderLight": [
+    "medium"
+  ],
   "image": "/assets/images/plants/goeppertia-v1.webp",
   "imageWidth": 540,
   "imageHeight": 720,
