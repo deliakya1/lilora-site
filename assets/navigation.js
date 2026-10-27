@@ -17,7 +17,11 @@
   const media=matchMedia('(min-width: 1200px)');media.addEventListener('change',()=>{if(media.matches)menu.open=false;});
  }
  // FAQ answers open when a link points at them (for example /support/#reminders).
- const openTarget=()=>{const id=decodeURIComponent(location.hash.slice(1));const item=id&&document.getElementById(id);if(item&&item.matches('details.faq-item'))item.open=true;};
+ const openTarget=()=>{
+  let id;
+  try{id=decodeURIComponent(location.hash.slice(1));}catch{return;}
+  const item=id&&document.getElementById(id);if(item&&item.matches('details.faq-item'))item.open=true;
+ };
  openTarget();addEventListener('hashchange',openTarget);
  // Back to top appears after about one and a half screens of scrolling.
  const top=document.querySelector('.back-to-top');
