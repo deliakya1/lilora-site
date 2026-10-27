@@ -1090,3 +1090,39 @@ that also fails on unmodified main in this environment.
 - Known, unrelated: `scripts/foundation-check.cjs` already failed on `main` before this
   change (it expects the mobile-menu CTA to be `app-info`; the header CTA is `header`
   since SEO-10).
+
+## Maintenance — 27 October 2026 — malformed fragment recovery
+
+A URL such as `/contact/#%` could throw `URIError` while decoding its fragment,
+stopping later initialization of forms, plant filters, language dropdown handlers
+and share controls. The FAQ helper now ignores malformed encoding without changing
+the URL. Valid plain and encoded FAQ fragments still open their intended answer.
+This changes only the shared navigation script; existing content, styles, consent,
+support/privacy wording, redirects and indexing directives remain unchanged.
+
+`scripts/fragment-check.cjs` reproduces the original failure and passes **72**
+regression cases across all six languages at 390/1440 px after the fix. It covers
+malformed initial fragments, later control initialization, valid encoded FAQ links
+and recovery after an invalid hash change. All non-local requests are blocked and
+no forms are submitted. The build and **46** Node tests passed. The existing
+sitemap files are retained byte-for-byte: the build exposed unrelated pre-existing
+git-date drift, which is not part of this navigation fix.
+
+All 12 existing browser suites also passed: 1,344 responsive checks across 336
+pages, 1,080 contents checks across 180 article pages, 122 accessibility checks,
+36 promotion layouts, consent/storage, forms, language behavior, no-JS and 404
+recovery. No JavaScript errors or Google requests before consent were found.
+Representative contact, filtered-library and FAQ views were inspected at
+390/1440 px, with additional TR/DE narrow/tablet checks.
+
+Mobile Lighthouse 13.5.0, local gzip fixture with `max-age=600`, simulated
+throttling and external HTTPS requests blocked, 27 October 2026 08:14 UTC:
+TR/EN home **99/100/100/100**; English watering guide and support
+**100/100/100/100** (performance/accessibility/best practices/SEO), CLS **0**.
+These are local measurements. Deployment is verified through GitHub Pages for
+the merged commit; a successful deployment is not a live browser-render receipt.
+Previously denied website access is not bypassed, and no Search Console exclusion
+diagnosis is inferred without its affected URLs.
+
+CI impact: one implementation push and the existing GitHub Pages build/deploy after
+squash. No new dependency or workflow, mobile/native build, service or paid call.
