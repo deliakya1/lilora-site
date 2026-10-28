@@ -32,7 +32,7 @@
   const chips=[...browser.querySelectorAll('.plant-chip')],cards=[...browser.querySelectorAll('.plant-card')],count=browser.querySelector('.plant-count'),template=browser.dataset.countTemplate;
   for(const section of browser.querySelectorAll('.plant-filter'))section.hidden=true;
   const apply=filter=>{let shown=0;for(const card of cards){const match=filter==='all'||card.dataset.tags.split(' ').includes(filter);card.hidden=!match;if(match)shown++;}
-   for(const chip of chips)chip.toggleAttribute('aria-current',chip.dataset.filter===filter);if(count)count.textContent=template.replace('{n}',shown);};
+   for(const chip of chips){if(chip.dataset.filter===filter)chip.setAttribute('aria-current','true');else chip.removeAttribute('aria-current');}if(count)count.textContent=template.replace('{n}',shown);};
   for(const chip of chips)chip.addEventListener('click',event=>{event.preventDefault();const filter=chip.dataset.filter;apply(filter);history.replaceState(history.state,'',filter==='all'?location.pathname:'#'+filter);});
   const initial=location.hash.slice(1);if(chips.some(c=>c.dataset.filter===initial))apply(initial);
  }
