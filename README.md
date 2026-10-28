@@ -1126,3 +1126,41 @@ diagnosis is inferred without its affected URLs.
 
 CI impact: one implementation push and the existing GitHub Pages build/deploy after
 squash. No new dependency or workflow, mobile/native build, service or paid call.
+
+## Maintenance — 28 October 2026 — accessible plant-filter state
+
+Selecting a library category previously left its chip with `aria-current=""`.
+The visual highlight and filtered cards were correct, but the empty value does
+not expose a current item to assistive technology. The selected chip now has
+`aria-current="true"`; inactive chips have no current marker, following the
+[WAI-ARIA current-state definition](https://www.w3.org/TR/wai-aria-1.2/#aria-current)
+(checked 28 October 2026). Existing styling, filter choices and content stay intact.
+
+`node scripts/plant-filter-check.cjs` passes 132 checks across all six languages
+at 390/1440 px: pointer and keyboard selection, retained focus, matching cards and
+localized counts, fresh category deep links and no-JavaScript category lists.
+The original failure was reproduced before the fix. These are local Chromium and
+ARIA-attribute checks, not a claim of testing a particular screen reader. No
+external requests or form submissions occur in the regression suite.
+
+`npm run check` passed (build and 46 Node tests). The filtered TR/DE library was
+visually reviewed at 320/390/768/1440 px with no horizontal overflow. The six
+existing sitemap files remain byte-identical; unrelated pre-existing git-date
+drift produced by the build is excluded from this change.
+
+All 13 existing browser suites also passed, including 1,344 responsive checks
+across 336 routes, 1,080 contents checks across 180 article pages, 122 accessibility
+checks, consent/storage, forms, language behavior, 404 recovery and the previous
+malformed-fragment regression. Production HTTP/DOM verification is not claimed:
+previously denied domain access is not bypassed. The PR carries the exact Pages
+deployment receipt after merge. Search Console exclusions still require their
+affected URLs; intentional redirects and indexing directives remain untouched.
+
+Mobile Lighthouse 13.5.0, local gzip server with `max-age=600`, simulated
+throttling and external HTTPS blocked, 28 October 2026 07:37 UTC: TR home
+99/100/100/100; EN watering guide, support and plant library 100/100/100/100
+(performance/accessibility/best practices/SEO). CLS was 0.028 on the guide and
+0 on the other three pages. These are local lab results, not field measurements.
+
+CI impact: one implementation push and the existing GitHub Pages build/deploy after
+squash. No new dependency or workflow, mobile/native build, service or paid call.
