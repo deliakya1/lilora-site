@@ -368,9 +368,19 @@ try {
         `<div class="copy"><div class="brand"><img src="${icon}" width="64" height="64" alt=""><span class="wordmark">lilora</span></div><h1>${escape(title)}</h1><p class="address">lilora.app</p></div>${atmosphere ? `<img class="plant" src="${atmosphere}" width="410" height="630" alt="">` : ""}`,
       ),
     );
+    // Character count alone underestimates the width of CJK titles. Fit the
+    // actual rendered text, retaining the overflow gate if it cannot fit.
     const clipped = await page.locator("h1").evaluate((element) => {
-      const box = element.getBoundingClientRect();
-      return box.bottom > 525 || element.scrollWidth > element.clientWidth;
+      const overflows = () => {
+        const box = element.getBoundingClientRect();
+        return box.bottom > 525 || element.scrollWidth > element.clientWidth;
+      };
+      let size = parseFloat(getComputedStyle(element).fontSize);
+      while (overflows() && size > 36) {
+        size -= 1;
+        element.style.fontSize = `${size}px`;
+      }
+      return overflows();
     });
     if (clipped) throw new Error(`Share card title overflows: ${entry.path}`);
     save(

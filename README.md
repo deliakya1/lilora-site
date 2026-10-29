@@ -1425,3 +1425,41 @@ rules or rewrite content merely to reduce the report counters.
 
 Scope: language script, regression tests and this record. Existing GitHub Pages
 hosting and deployment only; no new dependency, workflow, app build or service.
+
+
+## Ten-language release verification — 29 October 2026
+
+The standard Chromium promotion renderer now measures rendered share-card titles
+and reduces their font size when necessary, retaining the overflow failure gate.
+This fixes the Japanese houseplant-pest card, which failed the first standard
+build of the recovered translation branch. All 40 QR SVGs, 20 print PDFs and 571
+share cards were rebuilt with the standard renderer; a repeat run reused the
+renders. The font and artwork provenance is unchanged.
+
+No-JavaScript title checks now allow concise CJK titles while retaining source
+presence, a single title element and the 60-character SEO limit. Download/press
+pages in the four new languages mark their existing localized app-language
+disclosures explicitly. The promotion check selects a visible disclosure so that
+a hidden desktop QR caption cannot mask the mobile caption. The mobile app still
+supports English and Turkish only.
+
+Local validation completed: 99 Node tests, five importer regressions, 2,240
+responsive checks across all 560 routes, 402 accessibility checks, 480 shared-layout
+checks, 75 language scenarios, 1,800 article-content checks, 530 no-JavaScript
+checks and the complete promotion suite (560 routes, 60 layouts, 40 QR payloads).
+All 15 browser suites completed successfully. Mobile Lighthouse
+13.4.1 scores (performance/accessibility/best practices/SEO): root home
+97/100/100/100, watering guide 98/100/100/100, support 99/100/100/100.
+These are local lab results, not production or field measurements.
+
+Backend regression PR deliakya1/botanumo#133 is merged as
+`8642b3afb861363ed7225ef606a26d6a3ea556e3`; its 25 Deno handler tests and both CI
+checks passed. Backend migration/handler sources from #132 were already merged.
+The migration receipt in #132 confirms the database update, but the three website
+Edge Functions must be deployed before this website is merged. A read-only live
+Japanese comment request still returned HTTP 400 during this verification. No
+real contact message, signup or comment was submitted by the tests.
+
+CI impact: one coherent website PR update runs the existing bounded Linux
+website checks, followed by the existing GitHub Pages deployment on merge.
+No mobile/native workflow, new paid service, DNS or store change is required.

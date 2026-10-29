@@ -120,7 +120,9 @@ async function loadLazyImages(page, route) {
           assert.ok(appImages.length > 0, `${route}: genuine app artwork`);
           assert.ok(appImages.every((src) => src.includes(lang === 'tr' ? '-tr-' : '-en-')), `${route}: artwork language`);
           if (!['tr', 'en'].includes(lang)) {
-            assert.ok(await page.locator('main .app-language-note, main .promo-language').count() > 0, `${route}: visible app-language disclosure`);
+            const disclosure = page.locator('main .app-language-note, main .promo-language, main [data-app-language-disclosure]').filter({ visible: true }).first();
+            assert.ok(await disclosure.isVisible(), `${route}: visible app-language disclosure`);
+            assert.ok((await disclosure.innerText()).trim().length > 0, `${route}: app-language disclosure text`);
           }
           if (kind === 'home') {
             assert.equal(await page.locator('h1').innerText(), homeCopy[lang].title, `${route}: own-language title`);

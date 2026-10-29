@@ -22,7 +22,10 @@ const mainLines=page=>page.locator('main').evaluate(main=>{for(const el of main.
    const label=`${path} (${name}, JS off)`,response=await page.goto(origin+path);assert.equal(response.status(),200,label);
    const html=await response.text();
    // Source HTML: metadata and structured data are present before any script runs.
-   assert.match(html,/<title>[^<]{10,}<\/title>/,label+' title');
+   assert.match(html,/<title>[^<]+<\/title>/,label+' title in source');
+   assert.equal(await page.locator('head title').count(),1,label+' unique title element');
+   const titleLength=Array.from((await page.title()).trim()).length;
+   assert.ok(titleLength>=(isCJK(lang)?2:10)&&titleLength<=60,label+' localized title length');
    assert.match(html,/<meta name="description" content="[^"]+">/,label+' description in source');
    const description=await page.locator('head meta[name="description"]').getAttribute('content');
    const [descriptionMin,descriptionMax]=descRange(lang),descriptionLength=Array.from(description||'').length;

@@ -2,7 +2,7 @@
 <header class="promo-header wrap">
   <p class="eyebrow">取得 Lilora</p>
   <h1>一起紀錄植物的生活與照護</h1>
-  <p class="dek">適用於 iPhone 與 iPad · 應用程式提供英文與土耳其文。</p>
+  <p class="dek" data-app-language-disclosure>適用於 iPhone 與 iPad · 應用程式提供英文與土耳其文。</p>
 </header>
 <section class="promo-split wrap" aria-labelledby="download-status">
   <div class="promo-panel">

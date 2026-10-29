@@ -2,7 +2,7 @@
 <header class="promo-header wrap">
   <p class="eyebrow">Scopri Lilora</p>
   <h1>Un diario condiviso per le tue piante</h1>
-  <p class="dek">Per iPhone e iPad · L’app è in inglese e turco.</p>
+  <p class="dek" data-app-language-disclosure>Per iPhone e iPad · L’app è in inglese e turco.</p>
 </header>
 <section class="promo-split wrap" aria-labelledby="download-status">
   <div class="promo-panel">

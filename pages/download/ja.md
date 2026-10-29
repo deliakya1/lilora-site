@@ -2,7 +2,7 @@
 <header class="promo-header wrap">
   <p class="eyebrow">Liloraを使う</p>
   <h1>みんなで使える、植物のノート</h1>
-  <p class="dek">iPhone・iPad向け · アプリの表示言語は英語とトルコ語です。</p>
+  <p class="dek" data-app-language-disclosure>iPhone・iPad向け · アプリの表示言語は英語とトルコ語です。</p>
 </header>
 <section class="promo-split wrap" aria-labelledby="download-status">
   <div class="promo-panel">

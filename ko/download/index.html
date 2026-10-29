@@ -2,7 +2,7 @@
 <header class="promo-header wrap">
   <p class="eyebrow">Lilora 이용 안내</p>
   <h1>함께 쓰는 식물 노트</h1>
-  <p class="dek">iPhone 및 iPad용 · 앱은 영어와 터키어로 제공됩니다.</p>
+  <p class="dek" data-app-language-disclosure>iPhone 및 iPad용 · 앱은 영어와 터키어로 제공됩니다.</p>
 </header>
 <section class="promo-split wrap" aria-labelledby="download-status">
   <div class="promo-panel">
