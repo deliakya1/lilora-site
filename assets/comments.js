@@ -6,7 +6,12 @@ const loadComments = async (section) => {
   const list = section.querySelector(".comments-list");
   const d = list.dataset.endpoint ? list.dataset : button.dataset;
   Object.assign(list.dataset, { endpoint: d.endpoint, page: d.page, lang: d.lang, empty: d.empty, error: d.error });
-  if (button) button.disabled = true;
+  // Keep the trigger focusable while loading so a delayed response can tell
+  // whether the reader is still waiting here or has moved elsewhere.
+  if (button) button.setAttribute("aria-disabled", "true");
+  list.tabIndex = -1;
+  list.setAttribute("aria-label", section.querySelector("h2").textContent);
+  let loaded = false;
   const item = (text, className) => {
     const li = document.createElement("li");
     li.className = className;
@@ -35,16 +40,19 @@ const loadComments = async (section) => {
       li.append(meta, body);
       return li;
     }) : [item(d.empty, "comments-empty")]));
-    if (button) button.remove();
+    loaded = true;
   } catch {
     list.replaceChildren(item(d.error, "comments-empty"));
-    if (button) button.disabled = false;
+    if (button) button.removeAttribute("aria-disabled");
   }
   list.hidden = false;
+  const focusResult = button && document.activeElement === button;
+  if (loaded && button) button.remove();
+  if (focusResult) list.focus();
 };
 document.addEventListener("click", (event) => {
   const button = event.target.closest(".comments-load");
-  if (button) loadComments(button.closest(".comments"));
+  if (button && button.getAttribute("aria-disabled") !== "true") loadComments(button.closest(".comments"));
 });
 document.addEventListener("comment-published", (event) => {
   const section = event.target.closest(".comments");
