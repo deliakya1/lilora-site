@@ -1,8 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync,existsSync} from 'node:fs';
-const languages=['tr','en','es','de','pt','fr'];
-const prefix=(lang)=>lang==='tr'?'/':`/${lang}/`;
+import { languages, prefix, htmlLang, languageOptions, descriptionRange, isCJK } from './locale-registry.mjs';
+
 const plants=JSON.parse(readFileSync('editorial/plants.json'));
 const articles=JSON.parse(readFileSync('editorial/articles.json'));
 const credits=readFileSync('assets/images/plants/CREDITS.md','utf8');
@@ -42,10 +42,10 @@ test('translated profiles and articles are not English bodies under another lang
  const items=[...plants,...articles];
  for(const item of items){
   if(!item.en)continue;const baseline=english(text(item.en));assert.ok(baseline>0.12,`${item.slug}: English baseline`);
-  for(const lang of languages.filter(l=>l!=='en'))if(item[lang]){const share=english(text(item[lang]));assert.ok(share<0.05,`${item.slug}/${lang}: ${share.toFixed(3)} English function words`);assert.notEqual(item[lang].title,item.en.title,`${item.slug}/${lang}: untranslated title`);}
+  for(const lang of languages.filter(l=>l!=='en'))if(item[lang]){const translated=text(item[lang]); const share=isCJK(lang)?((translated.match(/\b(the|and|your|when|water|plant|leaves|before|light|this|that|from|not|are)\b/gi)||[]).join('').length/Math.max(translated.replace(/[^\p{L}]/gu,'').length,1)):english(translated);assert.ok(share<0.05,`${item.slug}/${lang}: ${share.toFixed(3)} English function words`);assert.notEqual(item[lang].title,item.en.title,`${item.slug}/${lang}: untranslated title`);}
  }
  // Guides and comparisons ship in all six languages; blog posts need at least English and Turkish.
- for(const a of articles)for(const lang of a.type==='post'?['en','tr']:languages)assert.ok(a[lang],`${a.slug}/${lang}: missing translation`);
+ for(const a of articles)for(const lang of languages)assert.ok(a[lang],`${a.slug}/${lang}: missing translation`);
 });
 test('the plant hub offers no-JS filter anchors and the pet guide links every profile in every language',()=>{
  const guide=articles.find(a=>a.slug==='pet-safe-houseplants');assert.ok(guide);

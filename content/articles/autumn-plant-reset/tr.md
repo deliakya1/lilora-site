@@ -4,7 +4,7 @@ Günler kısalırken ev bitkisi bakımı da bir vites düşer. Yazı dışarıda
 
 ## Dışarıdaki bitkileri soğuktan önce içeri al
 
-<figure style="margin:24px 0"><img src="/assets/images/home/plant-shelf-v1-960.webp" width="960" height="640" alt="Sıcak ışıkta alçak meşe bir rafta beyaz saksıda sarkan bir salon sarmaşığı ve pişmiş toprak saksıda bir kauçuk bitkisi" loading="lazy" decoding="async" style="display:block;width:100%;height:auto;border-radius:4px"><figcaption style="font-size:14px;margin-top:8px">Lilora için üretilmiş bir illüstrasyon; belirli bir bitkinin fotoğrafı değildir. <a href="/editorial/#imagery">Görseller hakkında</a></figcaption></figure>
+<figure style="margin:24px 0"><img src="/assets/images/home/plant-shelf-v1-960.webp" width="960" height="640" alt="Sıcak ışıkta alçak meşe bir rafta beyaz saksıda sarkan bir salon sarmaşığı ve pişmiş toprak saksıda bir kauçuk bitkisi" loading="lazy" decoding="async" style="display:block;width:100%;height:auto;border-radius:4px"><figcaption style="font-size:14px;margin-top:8px">Lilora için üretilmiş bir illüstrasyon; belirli bir bitkinin fotoğrafı değildir. <a href="/tr/editorial/#imagery">Görseller hakkında</a></figcaption></figure>
 
 Ev bitkilerinin çoğu tropik kökenlidir. Birçoğu dondan çok önce, serin gecelerde zarar görür. Illinois Üniversitesi Extension, gece sıcaklıkları yaklaşık 13 °C’ye düştüğünde bitkilerin içeri alınmasını, yaklaşık 10 °C’de zarar görebilen en hassas tropik bitkiler için ise daha erken davranılmasını öneriyor. [Illinois Üniversitesi Extension: ilk dondan önce ev bitkilerini içeri al](https://extension.illinois.edu/news-releases/bring-houseplants-indoors-first-frost)
 
@@ -24,9 +24,9 @@ Yazı dışarıdaki parlak ışıkta geçiren bitkiler için oda çok daha karan
 
 ## İlk haftalarda nelere dikkat etmeli
 
-İçeri alındıktan sonra bitkiler daha az ışığa alışırken birkaç yaprağın sararması yaygındır. Sürekli yaprak kaybına, yumuşayan gövdelere ya da bir iki hafta sonra ortaya çıkan zararlılara dikkat et. Yapraklar renk değiştirirse [sararan yapraklarda neye bakmalı](/guides/yellow-houseplant-leaves/), kıpırdayan bir şey görürsen [ev bitkilerinde sık görülen zararlılar](/guides/houseplant-pests/) rehberiyle başla.
+İçeri alındıktan sonra bitkiler daha az ışığa alışırken birkaç yaprağın sararması yaygındır. Sürekli yaprak kaybına, yumuşayan gövdelere ya da bir iki hafta sonra ortaya çıkan zararlılara dikkat et. Yapraklar renk değiştirirse [sararan yapraklarda neye bakmalı](/tr/guides/yellow-houseplant-leaves/), kıpırdayan bir şey görürsen [ev bitkilerinde sık görülen zararlılar](/tr/guides/houseplant-pests/) rehberiyle başla.
 
-Bu dönemde dikkatli sula. Daha loş bir odadaki bitki dışarıdakinden daha az su kullanır ve saksılar artık rüzgârda, güneşte kurumaz. Nasıl ayırt edeceğini [fazla mı suladın, az mı?](/guides/overwatering-vs-underwatering/) rehberinde anlattık.
+Bu dönemde dikkatli sula. Daha loş bir odadaki bitki dışarıdakinden daha az su kullanır ve saksılar artık rüzgârda, güneşte kurumaz. Nasıl ayırt edeceğini [fazla mı suladın, az mı?](/tr/guides/overwatering-vs-underwatering/) rehberinde anlattık.
 
 ## Takvime uymayan iklimler
 
@@ -34,7 +34,7 @@ Kışların ılık geçtiği bir yerde ya da tropiklerde yaşıyorsan değişikl
 
 ## Neden yazmalı
 
-Sonbahar düzeni aynı anda birkaç şeyi değiştirir: yer, ışık, sıcaklık ve sulama. Kasımda zorlanan bir bitkinin nedenini bulmanın en hızlı yolu neyin ne zaman değiştiğine dair kısa bir kayıttır. Lilora’da oda değişikliği bitkinin geçmişinde görünür; kontroller ve sulamalar ayrı kayıtlar olduğu için sonbahardaki yavaşlama tahmin edilmez, görülür. Önümüzdeki aylar için [kışın ev bitkisi bakımı](/guides/winter-houseplant-care/) rehberine bak.
+Sonbahar düzeni aynı anda birkaç şeyi değiştirir: yer, ışık, sıcaklık ve sulama. Kasımda zorlanan bir bitkinin nedenini bulmanın en hızlı yolu neyin ne zaman değiştiğine dair kısa bir kayıttır. Lilora’da oda değişikliği bitkinin geçmişinde görünür; kontroller ve sulamalar ayrı kayıtlar olduğu için sonbahardaki yavaşlama tahmin edilmez, görülür. Önümüzdeki aylar için [kışın ev bitkisi bakımı](/tr/guides/winter-houseplant-care/) rehberine bak.
 
 ## Sık sorulan sorular
 

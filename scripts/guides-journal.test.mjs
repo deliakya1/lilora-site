@@ -4,7 +4,7 @@ import { readFileSync, existsSync } from "node:fs";
 import { articlePath } from "./layout.mjs";
 
 // Prompt 06: eight care guides and four journal posts in all six languages.
-const languages = ["tr", "en", "es", "de", "pt", "fr"];
+import { languages, prefix, htmlLang, languageOptions, descriptionRange, isCJK } from './locale-registry.mjs';
 const pieces = {
   "overwatering-vs-underwatering": "guide",
   "root-rot": "guide",
@@ -74,12 +74,9 @@ test("internal links resolve, stay in language where possible, and reach at leas
       assert.ok(guides.size >= 3, `${slug}/${lang}: ${guides.size} internal article links`);
       for (const link of links) {
         assert.ok(existsSync("." + link.split("#")[0] + (link.endsWith("/") ? "index.html" : "")), `${slug}/${lang}: ${link}`);
-        const prefix = lang === "tr" ? "/" : `/${lang}/`;
-        if (!link.startsWith(prefix) && /\/(guides|blog)\//.test(link)) {
-          // Cross-language links are only allowed as labelled English fallbacks.
-          assert.ok(link.startsWith("/en/"), `${slug}/${lang}: ${link}`);
-          const target = link.replace(/^\/en\//, prefix);
-          assert.ok(!existsSync("." + target + "index.html"), `${slug}/${lang}: ${link} has a ${lang} version`);
+        const home = prefix(lang);
+        if (!link.startsWith(home) && /\/(guides|blog)\//.test(link)) {
+          assert.fail(`${slug}/${lang}: ${link} must use the available ${lang} translation`);
         }
       }
     }
@@ -98,7 +95,7 @@ test("no English body under another language", () => {
       const hits = (text.match(english) || []).length;
       assert.ok(hits / words(text) < 0.01, `${slug}/${lang}: ${hits} English function words`);
       const page = built(articles.find((a) => a.slug === slug), lang);
-      assert.match(page, new RegExp(`<html lang="${lang === "pt" ? "pt-BR" : lang}"`));
+      assert.match(page, new RegExp(`<html lang="${htmlLang(lang)}"`));
     }
   }
 });
@@ -128,13 +125,13 @@ test("new pieces avoid banned brand words and filler conclusions", () => {
 });
 
 test("hubs and sitemap include every new page", () => {
-  const sitemap = ["tr", "en", "es", "de", "pt", "fr"].map((l) => readFileSync(`sitemap-${l}.xml`, "utf8")).join("\n");
+  const sitemap = languages.map((l) => readFileSync(`sitemap-${l}.xml`, "utf8")).join("\n");
   for (const slug of Object.keys(pieces)) {
     const article = articles.find((a) => a.slug === slug);
     for (const lang of languages) {
       const path = articlePath(article, lang);
       assert.ok(sitemap.includes(`<loc>https://lilora.app${path}</loc>`), path);
-      const hub = (lang === "tr" ? "" : lang + "/") + (article.type === "post" ? "blog" : "guides") + "/index.html";
+      const hub = prefix(lang).slice(1) + (article.type === "post" ? "blog" : "guides") + "/index.html";
       assert.ok(readFileSync(hub, "utf8").includes(`href="${path}"`), `${hub}: ${path}`);
     }
   }

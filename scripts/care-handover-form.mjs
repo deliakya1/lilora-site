@@ -1,6 +1,8 @@
 // Fillable, printable plant-care handover form. Nothing is stored or sent:
 // the form has no action and no submit button, and values live only in the open page.
+import { extraCopies } from './locale-extras.mjs';
 const copy = {
+  ...extraCopies('handover'),
   tr: {
     eyebrow: "Ücretsiz şablon",
     title: "Tatile giderken bitki bakımı devir formu",

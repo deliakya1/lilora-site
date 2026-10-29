@@ -1,7 +1,7 @@
 """Compile independent article/plant folders; no shared source manifest."""
 import re, json, html, pathlib
 ROOT=pathlib.Path(__file__).resolve().parents[1]
-LANGUAGES=('tr','en','es','de','pt','fr')
+LANGUAGES=tuple(item['code'] for item in json.loads((ROOT/'config/languages.json').read_text())['languages'])
 def inline(text):
  text=html.escape(text,quote=False)
  text=re.sub(r'\[([^\]]+)\]\((https?://[^\s]+|/[^\s]*)\)',r'<a href="\2">\1</a>',text)

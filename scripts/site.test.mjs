@@ -1,3 +1,4 @@
+import { languages, prefix, htmlLang, languageOptions } from './locale-registry.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync,readdirSync,existsSync} from 'node:fs';
@@ -10,13 +11,13 @@ const crawl=(dir)=>readdirSync(dir,{withFileTypes:true}).flatMap(x=>x.name.start
 const files=crawl(root).filter(f=>!readFileSync(f,'utf8').includes('http-equiv="refresh"'));
 const content=JSON.parse(readFileSync('editorial/articles.json'));
 const datedContent=[...content,...JSON.parse(readFileSync('editorial/plants.json'))];
-const allSitemaps=()=>['tr','en','es','de','pt','fr'].map(l=>readFileSync(`sitemap-${l}.xml`,'utf8')).join('\n');
+const allSitemaps=()=>languages.map(l=>readFileSync(`sitemap-${l}.xml`,'utf8')).join('\n');
 test('published substantial source-backed articles have complete English and Turkish counterparts',()=>{
  assert.equal(content.length,readdirSync('content/articles').filter(x=>existsSync('content/articles/'+x+'/meta.json')).length);
  for(const a of content){assert.ok(a.sources.length>=3);for(const lang of ['en','tr']){assert.ok(a[lang].sections.length>=6);assert.ok(a[lang].sections.map(s=>s.html).join(' ').split(/\s+/).length>=300);assert.ok(a[lang].answer.length>100);}}
 });
 test('all pages have one h1, declared language, description and local links/assets resolve',()=>{
- for(const file of files){const s=readFileSync(file,'utf8');assert.equal((s.match(/<h1[ >]/g)||[]).length,1,file);assert.match(s,/<html lang="(?:en|tr|es|de|pt-BR|fr)"/);assert.match(s,/<meta name="description" content="[^"]+"/);
+ for(const file of files){const s=readFileSync(file,'utf8');assert.equal((s.match(/<h1[ >]/g)||[]).length,1,file);assert.ok(languageOptions.some(option=>s.includes('<html lang="'+option.tag+'"')),file);assert.match(s,/<meta name="description" content="[^"]+"/);
  for(let [,url] of s.matchAll(/(?:href|src)="([^"]+)"/g)){
   if(url.startsWith('https://lilora.app/')){const local=new URL(url);url=local.pathname+local.hash;}
   if(/^(https?:|mailto:|data:)/.test(url))continue;
@@ -38,7 +39,7 @@ test('canonical, reciprocal hreflang, truthful JSON-LD and sitemap',()=>{
 });
 test('availability and owner-supplied consent-gated analytics are explicit',()=>{
  assert.match(readFileSync('assets/analytics-config.js','utf8'),/LILORA_ANALYTICS_ID = 'G-2CYS6B75ET'/);
- for(const lang of ['en','tr']){const home=lang==='en'?'en/':'';assert.match(readFileSync(home+'index.html','utf8'),lang==='en'?/(?:awaiting|in) App Store review/i:/App Store inceleme(?:sinde|sini bekliyor)/);}
+ for(const lang of ['en','tr']){const home=prefix(lang).slice(1);assert.match(readFileSync(home+'index.html','utf8'),lang==='en'?/(?:awaiting|in) App Store review/i:/App Store inceleme(?:sinde|sini bekliyor)/);}
  assert.doesNotMatch(files.map(f=>readFileSync(f,'utf8')).join(''),/Download on the App Store|AggregateRating|gtag\/js\?id=/);
 });
 
@@ -80,14 +81,14 @@ test('related reading follows editorial priority with valid distinct destination
 test('titles and descriptions are unique, source routes complete, and locale dictionaries agree',()=>{
  const titles=new Set(),descriptions=new Set();
  for(const f of files){const s=readFileSync(f,'utf8');const title=s.match(/<title>(.*?)<\/title>/)[1],description=s.match(/<meta name="description" content="([^"]+)"/)[1];assert.ok(!titles.has(title),f+': duplicate title');assert.ok(!descriptions.has(description),f+': duplicate description');titles.add(title);descriptions.add(description);}
- const dictionaries=['tr','en','es','de','pt','fr'].map(l=>JSON.parse(readFileSync('locales/'+l+'.json')));
+ const dictionaries=languages.map(l=>JSON.parse(readFileSync('locales/'+l+'.json')));
  for(const d of dictionaries)assert.deepEqual(Object.keys(d).sort(),Object.keys(dictionaries[0]).sort());
- for(const l of ['tr','en','es','de','pt','fr'])for(const slug of ['','support/','privacy/','contact/','about/','legal/','download/','editorial/','guides/','plants/','blog/','compare/'])assert.ok(existsSync((l==='tr'?'':l+'/')+slug+'index.html'));
+ for(const l of languages)for(const slug of ['','support/','privacy/','contact/','about/','legal/','download/','editorial/','guides/','plants/','blog/','compare/'])assert.ok(existsSync(prefix(l).slice(1)+slug+'index.html'));
 });
 
 
 test('content hubs list only their article type and preserve real fallback languages',()=>{
- for(const lang of ['tr','en','es','de','pt','fr'])for(const [hub,type] of [['guides','guide'],['blog','post'],['compare','comparison']]){
+ for(const lang of languages)for(const [hub,type] of [['guides','guide'],['blog','post'],['compare','comparison']]){
   const html=readFileSync((lang==='tr'?'':lang+'/')+hub+'/index.html','utf8');
   const cards=[...html.matchAll(/<article class="(?:story-card|post-card post-card-card)" lang="([^"]+)"><a href="([^"]+)"/g)];
   for(const [,cardLang,path] of cards){const a=content.find(a=>path.endsWith('/'+a.slug+'/'));assert.equal(a?.type,type,path);assert.ok(cardLang===(lang==='pt'?'pt-BR':lang)||cardLang==='en');assert.equal(path,articlePath(a,cardLang==='pt-BR'?'pt':cardLang));}
@@ -102,6 +103,6 @@ test('every indexable page has a same-language inbound link and guide plant link
  for(const [file,n] of inbound)if(!/name="robots" content="[^"]*noindex/.test(readFileSync(file,'utf8')))assert.ok(n>0,`${file}: no same-language inbound link`);
  const plants=JSON.parse(readFileSync('editorial/plants.json'));
  for(const a of content)for(const slug of a.plants||[]){const p=plants.find(x=>x.slug===slug);assert.ok(p,`${a.slug}: unknown plant ${slug}`);
-  for(const l of ['tr','en','es','de','pt','fr'])if(a[l]&&p[l]){const pre=l==='tr'?'':l+'/';
+  for(const l of languages)if(a[l]&&p[l]){const pre=l==='tr'?'':l+'/';
    assert.ok(readFileSync(articlePath(a,l).slice(1)+'index.html','utf8').includes(`href="/${pre}plants/${slug}/"`),`${a.slug}/${l}: missing plant link ${slug}`);}}
 });

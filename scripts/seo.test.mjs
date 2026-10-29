@@ -4,8 +4,8 @@ import assert from "node:assert/strict";
 import { readFileSync, readdirSync, existsSync, statSync } from "node:fs";
 import { join } from "node:path";
 
-const languages = ["tr", "en", "es", "de", "pt", "fr"];
-const prefix = (l) => (l === "tr" ? "/" : `/${l}/`);
+import { languages, prefix, htmlLang, languageOptions, descriptionRange, isCJK, languageOfPath } from './locale-registry.mjs';
+
 const pages = [];
 const walk = (dir) => {
   for (const name of readdirSync(dir)) {
@@ -23,14 +23,16 @@ const unescape = (s) => s.replace(/&#39;/g, "'").replace(/&quot;/g, '"').replace
 const pathOf = (file) => "/" + file.replace(/index\.html$/, "");
 const sitemaps = Object.fromEntries(languages.map((l) => [l, read(`sitemap-${l}.xml`)]));
 
-test("titles are unique and at most 60 characters; descriptions are unique and 120-155 characters", () => {
+test("titles are unique and at most 60 characters; descriptions are unique and fit their writing system", () => {
   const titles = new Set(), descriptions = new Set();
   for (const f of pages) {
     const s = read(f);
     const title = unescape(s.match(/<title>(.*?)<\/title>/)[1]);
     const description = unescape(s.match(/<meta name="description" content="([^"]*)"/)[1]);
     assert.ok(title.length <= 60, `${f}: title ${title.length} > 60: ${title}`);
-    assert.ok(description.length >= 120 && description.length <= 155, `${f}: description ${description.length}: ${description}`);
+    const language = languageOptions.find(option => option.tag === s.match(/<html lang="([^"]+)"/)[1]).code;
+    const [minimum, maximum] = descriptionRange(language);
+    assert.ok(description.length >= minimum && description.length <= maximum, `${f}: description ${description.length}: ${description}`);
     assert.ok(!titles.has(title), `${f}: duplicate title`);
     assert.ok(!descriptions.has(description), `${f}: duplicate description`);
     titles.add(title);
@@ -61,7 +63,7 @@ test("sitemap index lists one sitemap per language with real lastmod dates and i
   for (const l of languages) {
     const xml = sitemaps[l];
     for (const [, loc] of xml.matchAll(/<loc>https:\/\/lilora\.app(.*?)<\/loc>/g)) {
-      assert.ok(loc.startsWith(prefix(l)), `${loc} in sitemap-${l}`);
+      assert.equal(languageOfPath(loc), l, `${loc} in sitemap-${l}`);
       listed.push(loc);
     }
     for (const [, date] of xml.matchAll(/<lastmod>(.*?)<\/lastmod>/g)) assert.match(date, /^\d{4}-\d{2}-\d{2}$/);
@@ -131,7 +133,7 @@ test("one Atom feed per language for guides and blog posts, linked from every pa
       assert.ok(existsSync(`.${href}index.html`), href);
   }
   for (const f of pages) {
-    const l = languages.find((x) => x !== "tr" && f.startsWith(x + "/")) || "tr";
+    const l = languageOptions.find(option => option.tag === read(f).match(/<html lang="([^"]+)"/)[1]).code;
     assert.ok(read(f).includes(`type="application/atom+xml" title="`) && read(f).includes(`href="https://lilora.app${prefix(l)}feed.xml"`), f);
   }
 });
@@ -147,7 +149,7 @@ test("security.txt names the support contact and a future expiry", () => {
 test("lang attributes are valid language tags", () => {
   for (const f of pages)
     for (const [, value] of read(f).matchAll(/\slang="([^"]*)"/g))
-      assert.match(value, /^[a-z]{2}(-[A-Z]{2})?$/, `${f}: lang="${value}"`);
+      assert.match(value, /^[a-z]{2}(?:-[A-Z][a-z]{3})?(?:-[A-Z]{2})?$/, `${f}: lang="${value}"`);
 });
 
 test("images over 250 KB are only fallbacks behind a WebP source or press downloads", () => {
@@ -172,7 +174,7 @@ test("Bing ownership file names one user token", () => {
 });
 
 test("home pages carry the Bing ownership meta tag", () => {
-  for (const page of ["index.html", "en/index.html"])
+  for (const page of ["index.html", "tr/index.html"])
     assert.match(read(page), /<meta name="msvalidate\.01" content="1EC0BF8EFE417B237473AF8FD803D81B">/, page);
 });
 
@@ -262,10 +264,10 @@ test("each translation canonicalises to itself in its own language, never to ano
     const path = pathOf(f);
     const lang = languages.find((l) => l !== "tr" && path.startsWith(prefix(l))) || "tr";
     const canonical = s.match(/rel="canonical" href="([^"]+)"/)[1];
-    assert.equal(s.match(/<html lang="([^"]+)"/)[1], lang === "pt" ? "pt-BR" : lang, f);
+    assert.equal(s.match(/<html lang="([^"]+)"/)[1], htmlLang(lang), f);
     assert.equal(canonical, "https://lilora.app" + path, f);
     for (const [, hreflang, href] of s.matchAll(/rel="alternate" hreflang="([^"]+)" href="([^"]+)"/g))
-      if (href === canonical && hreflang !== "x-default") assert.equal(hreflang, lang === "pt" ? "pt-BR" : lang, `${f}: self hreflang`);
+      if (href === canonical && hreflang !== "x-default") assert.equal(hreflang, htmlLang(lang), `${f}: self hreflang`);
     assert.equal(s.match(/property="og:locale" content="([^"]+)"/)?.[1], ogLocales[lang], `${f}: og:locale`);
   }
 });

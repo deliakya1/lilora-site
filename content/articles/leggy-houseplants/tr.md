@@ -15,9 +15,9 @@ Minnesota Üniversitesi birçok ev bitkisinin kısıtlı kış ışığına doğ
 
 ## Birinci adım: daha fazla ışık
 
-Bitki aynı loş yerde kalırsa yalnızca budamak işe yaramaz; yeni sürgünler yine uzar. Bitkiyi pencereye daha yakın ya da daha aydınlık bir pencereye taşı. Bitkiyi çok daha güçlü bir ışığa alıyorsan, yaprakların yanmaması için bunu bir iki haftaya yayarak kademeli yap. [Minnesota Üniversitesi Extension: ilkbaharda ev bitkisi bakımı](https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/houseplants/spring-houseplant-care) Bir odadaki ışığı nasıl okuyacağını [iç mekân bitki ışığı rehberi](/guides/indoor-plant-light-guide/) anlatıyor.
+Bitki aynı loş yerde kalırsa yalnızca budamak işe yaramaz; yeni sürgünler yine uzar. Bitkiyi pencereye daha yakın ya da daha aydınlık bir pencereye taşı. Bitkiyi çok daha güçlü bir ışığa alıyorsan, yaprakların yanmaması için bunu bir iki haftaya yayarak kademeli yap. [Minnesota Üniversitesi Extension: ilkbaharda ev bitkisi bakımı](https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/houseplants/spring-houseplant-care) Bir odadaki ışığı nasıl okuyacağını [iç mekân bitki ışığı rehberi](/tr/guides/indoor-plant-light-guide/) anlatıyor.
 
-Daha aydınlık bir yer yoksa farkı bir bitki lambası kapatabilir. Clemson Üniversitesi Ev ve Bahçe Bilgi Merkezi, ışık süresini uzatmanın zayıf ışığı telafi edebileceğini ve çoğu bitki için 16 saat ışık ile 8 saat karanlığın uygun olduğunu belirtiyor. [Clemson HGIC: iç mekân bitkileri ve ışık ihtiyacı](https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/) Kurulumu [ev bitkileri için bitki lambaları](/blog/grow-lights-for-houseplants/) yazısı anlatıyor.
+Daha aydınlık bir yer yoksa farkı bir bitki lambası kapatabilir. Clemson Üniversitesi Ev ve Bahçe Bilgi Merkezi, ışık süresini uzatmanın zayıf ışığı telafi edebileceğini ve çoğu bitki için 16 saat ışık ile 8 saat karanlığın uygun olduğunu belirtiyor. [Clemson HGIC: iç mekân bitkileri ve ışık ihtiyacı](https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/) Kurulumu [ev bitkileri için bitki lambaları](/tr/blog/grow-lights-for-houseplants/) yazısı anlatıyor.
 
 Saksıyı bir iki haftada bir çeyrek tur çevirmek de bitkinin tek tarafa eğilmek yerine dengeli büyümesine yardım eder.
 
@@ -34,7 +34,7 @@ Nasıl kesilir:
 
 ## Üçüncü adım: kesilen parçaları köklendir
 
-Pothos, philodendron, telgraf çiçeği ve birçok begonya gibi sarkan ve yumuşak gövdeli bitkilerin çoğu gövde çeliklerinden kolayca köklenir. Su ve toprak yöntemlerini [ev bitkilerini çelikle çoğaltmak](/guides/propagating-cuttings/) rehberi anlatıyor. Köklenen çelikleri aynı saksıya geri dikmek, seyrek bir bitkiyi yeniden dolgun göstermenin basit bir yoludur.
+Pothos, philodendron, telgraf çiçeği ve birçok begonya gibi sarkan ve yumuşak gövdeli bitkilerin çoğu gövde çeliklerinden kolayca köklenir. Su ve toprak yöntemlerini [ev bitkilerini çelikle çoğaltmak](/tr/guides/propagating-cuttings/) rehberi anlatıyor. Köklenen çelikleri aynı saksıya geri dikmek, seyrek bir bitkiyi yeniden dolgun göstermenin basit bir yoludur.
 
 ## Bundan sonra toplu tutmak
 
@@ -42,7 +42,7 @@ Bitki daha iyi bir ışığa geçtikten sonra birkaç alışkanlık onu gür tut
 
 - Her tarafı ışık alsın diye saksıyı bir iki haftada bir çeyrek tur çevir.
 - Büyüme mevsiminde büyük bir kesimi beklemek yerine uzayan gövdenin ucunu bir boğumun hemen üstünden kısalt. [Minnesota Üniversitesi Extension: ilkbaharda ev bitkisi bakımı](https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/houseplants/spring-houseplant-care)
-- Yalnızca bitki aktif olarak büyürken ve etiketteki oranda ya da daha az besle; loş ışıkta fazla gübre ışığın yerini tutmaz. Bkz. [ev bitkilerini beslemek](/guides/fertilizing-houseplants/).
+- Yalnızca bitki aktif olarak büyürken ve etiketteki oranda ya da daha az besle; loş ışıkta fazla gübre ışığın yerini tutmaz. Bkz. [ev bitkilerini beslemek](/tr/guides/fertilizing-houseplants/).
 - Her kış biraz uzama bekle ve ilkbahar başı için hafif bir budama planla.
 
 ## Sık sorulan sorular

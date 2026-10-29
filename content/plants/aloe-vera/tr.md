@@ -6,13 +6,13 @@ Aloe vera, Arap Yarımadası kökenli bir sukulenttir. Evdeki en güneşli yeri,
 
 Tam güneşten yarı gölgeye kadar yetiştir. RHS aloeların güneşli bir pencere önü gibi tam güneşli ve kuru koşulları sevdiğini söylüyor. Az ışıkta yapraklar soluklaşır, incelir ve sarkar; rozet uzar. Gölgedeki bir aloeyi güçlü güneşe alacaksan yanmaması için bunu bir iki haftaya yay. [NC State Extension](https://plants.ces.ncsu.edu/plants/aloe-vera/) · [RHS](https://www.rhs.org.uk/getmedia/d02059a1-4e2c-45c3-956b-da5cc90db7f1/Indoor-plants-resources.pdf)
 
-En aydınlık yeri bulmak için [ışık rehberine](/guides/indoor-plant-light-guide/) bak.
+En aydınlık yeri bulmak için [ışık rehberine](/tr/guides/indoor-plant-light-guide/) bak.
 
 ## Sulamadan önce kontrol
 
 Sulamalar arasında harcın tamamen kurumasını bekle, kışın daha seyrek sula; RHS kışın neredeyse hiç sulamamayı söylüyor. Tahta bir şişle saksının dibine kadar kontrol et ya da saksıyı kaldır: kurumuş bir aloe saksısı belirgin şekilde hafiftir. Sonra iyice sula ve fazla suyun tamamen akmasını bekle. [NC State Extension](https://plants.ces.ncsu.edu/plants/aloe-vera/) · [RHS](https://www.rhs.org.uk/getmedia/d02059a1-4e2c-45c3-956b-da5cc90db7f1/Indoor-plants-resources.pdf)
 
-Sert ve dolgun yapraklar genellikle bitkinin yedeği olduğunu gösterir. Nem kontrolünü [sulama rehberi](/guides/watering-houseplants/) anlatıyor.
+Sert ve dolgun yapraklar genellikle bitkinin yedeği olduğunu gösterir. Nem kontrolünü [sulama rehberi](/tr/guides/watering-houseplants/) anlatıyor.
 
 ## Harç ve saksı
 
@@ -32,7 +32,7 @@ RHS büyüme döneminde (İngiltere'de nisan–eylül) ayda bir sıvı gübre ö
 - **Soluk, uzamış büyüme:** az ışık.
 - **Zararlılar:** NC State unlu bit ve yaprak bitini sayıyor; kabuklu bit, yaprak lekesi, aloe pası ve fumajini de anıyor.
 
-Daha geniş bir yaklaşım için [sararan yaprak kontrollerine](/guides/yellow-houseplant-leaves/) bak.
+Daha geniş bir yaklaşım için [sararan yaprak kontrollerine](/tr/guides/yellow-houseplant-leaves/) bak.
 
 ## Çoğaltma
 

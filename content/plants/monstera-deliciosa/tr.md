@@ -6,13 +6,13 @@ Deve tabanı, Meksika'dan Panama'ya kadar uzanan bölgenin tırmanıcı bir bitk
 
 NC State Extension, deve tabanının doğrudan güneş yerine orta düzey aydınlığı sevdiğini söylüyor. Doğu ya da batı penceresinden biraz geride bir yer veya güneş huzmesinin yaprakların üzerinde durmadığı aydınlık bir oda çoğu zaman uygundur. Alacalı çeşitler düz yeşil olanlardan daha çok ışık ister. [NC State Extension](https://plants.ces.ncsu.edu/plants/monstera-deliciosa/)
 
-Olgun bir bitkide yarıksız yapraklar ya da pencereye doğru eğilen uzun çıplak gövdeler ışığın az olduğuna işaret edebilir. Yeri gözlemlemek için [ışık rehberine](/guides/indoor-plant-light-guide/) bak.
+Olgun bir bitkide yarıksız yapraklar ya da pencereye doğru eğilen uzun çıplak gövdeler ışığın az olduğuna işaret edebilir. Yeri gözlemlemek için [ışık rehberine](/tr/guides/indoor-plant-light-guide/) bak.
 
 ## Sulamadan önce kontrol
 
 İyice sula, sonra bir sonraki sulamadan önce harcın üstten yaklaşık dörtte biri ile üçte birinin kurumasını bekle. 20 cm derinliğindeki bir saksıda bu, yalnızca yüzeye değil birkaç santimetre aşağıya bakmak demek. Harca nazikçe batırdığın tahta bir şiş işe yarar: üstüne nemli parçacıklar yapışıyorsa bekle. [NC State Extension](https://plants.ces.ncsu.edu/plants/monstera-deliciosa/)
 
-Suladıktan sonra fazla suyu süzdür ve dış saksıyı boşalt. Sabit takvim yerine kontrolün neden daha iyi olduğunu [sulama rehberi](/guides/watering-houseplants/) anlatıyor.
+Suladıktan sonra fazla suyu süzdür ve dış saksıyı boşalt. Sabit takvim yerine kontrolün neden daha iyi olduğunu [sulama rehberi](/tr/guides/watering-houseplants/) anlatıyor.
 
 ## Harç ve saksı
 
@@ -30,7 +30,7 @@ Yaklaşık 16–29 °C arasındaki ılık sıcaklıkları ve yüksek nemi sever.
 
 NC State kış için ayrı bir takvim vermiyor; aynı kontrolü sürdür: iyice sula, sonra harcın üstten yaklaşık dörtte biri ile üçte biri kuruyana kadar bekle. Kısa günlerde ve serin odalarda bu genellikle daha uzun sürer, yani kontroller seyrekleşir. Bitkiyi sevdiği 16–29 °C aralığında, soğuk camdan ve kaloriferin sıcak hava akımından uzak tut. Budama ve saksı değişimini NC State'in önerdiği gibi ilkbahara bırak. [NC State Extension](https://plants.ces.ncsu.edu/plants/monstera-deliciosa/)
 
-Yazın güneşli bir pencere fazla sert olabilir; güneş huzmesi saatlerce yaprakların üzerinde duruyorsa bitkiyi geri çek. Cereyan ve kalorifer için [kış bakımı rehberine](/guides/winter-houseplant-care/) bak. Lilora'da hatırlatma bir kontrol çağrısıdır, sulama emri değil: suladığını ya da ertelediğini kaydedersin; böylece soğuk aylarda harcın daha yavaş kuruduğu kendi geçmişinde görünür.
+Yazın güneşli bir pencere fazla sert olabilir; güneş huzmesi saatlerce yaprakların üzerinde duruyorsa bitkiyi geri çek. Cereyan ve kalorifer için [kış bakımı rehberine](/tr/guides/winter-houseplant-care/) bak. Lilora'da hatırlatma bir kontrol çağrısıdır, sulama emri değil: suladığını ya da ertelediğini kaydedersin; böylece soğuk aylarda harcın daha yavaş kuruduğu kendi geçmişinde görünür.
 
 ## Sık görülen sorunlar
 
@@ -38,7 +38,7 @@ Yazın güneşli bir pencere fazla sert olabilir; güneş huzmesi saatlerce yapr
 - **Kahverengi, kuru lekeler:** doğrudan güneşte duruyorsa güneş yanığı olabilir.
 - **Kabuklu bitler:** NC State eğrelti kabuklu bitini yaygın bir zararlı olarak sayıyor; gövdelere ve yaprak altlarına bak.
 
-[Sararan yaprak kontrolleri](/guides/yellow-houseplant-leaves/) bütün tabloya bakmana yardım eder.
+[Sararan yaprak kontrolleri](/tr/guides/yellow-houseplant-leaves/) bütün tabloya bakmana yardım eder.
 
 ## Çoğaltma
 
@@ -46,7 +46,7 @@ NC State gövde çeliği ve daldırmayı öneriyor. Çeliğin bir boğumu, terci
 
 ## Evcil hayvanlar ve insanlar
 
-[ASPCA Animal Poison Control Center](https://www.aspca.org/), deve tabanını çözünmeyen kalsiyum oksalatlar nedeniyle kedi ve köpekler için toksik olarak listeler. Saydığı belirtiler ağızda tahriş, ağız, dil ve dudaklarda yoğun yanma ve tahriş, aşırı salya, kusma ve yutma güçlüğüdür. NC State, özsuyun cildi tahriş edebileceğini ekliyor. Evcil hayvanın bitkiyi çiğnerse bir veterinere veya hayvan zehir danışma hizmetine başvur. İnsanlarda zehirlenme şüphesinde Türkiye'de 114 UZEM'i ara. Bu genel bilgidir; veteriner veya tıbbi tavsiye değildir. Başka bitkilerle karşılaştırmak için [evcil hayvan dostu bitkiler rehberine](/guides/pet-safe-houseplants/) ya da [bitki kütüphanesindeki toksik olmayan profillere](/plants/#petNonToxic) bak.
+[ASPCA Animal Poison Control Center](https://www.aspca.org/), deve tabanını çözünmeyen kalsiyum oksalatlar nedeniyle kedi ve köpekler için toksik olarak listeler. Saydığı belirtiler ağızda tahriş, ağız, dil ve dudaklarda yoğun yanma ve tahriş, aşırı salya, kusma ve yutma güçlüğüdür. NC State, özsuyun cildi tahriş edebileceğini ekliyor. Evcil hayvanın bitkiyi çiğnerse bir veterinere veya hayvan zehir danışma hizmetine başvur. İnsanlarda zehirlenme şüphesinde Türkiye'de 114 UZEM'i ara. Bu genel bilgidir; veteriner veya tıbbi tavsiye değildir. Başka bitkilerle karşılaştırmak için [evcil hayvan dostu bitkiler rehberine](/tr/guides/pet-safe-houseplants/) ya da [bitki kütüphanesindeki toksik olmayan profillere](/tr/plants/#petNonToxic) bak.
 
 ## Sık sorulan sorular
 

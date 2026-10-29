@@ -4,7 +4,7 @@ Ev bitkilerini aktif olarak büyürken besle; ev bitkisi gübresini veya genel a
 
 ## Saksı bitkileri neden beslenmeye ihtiyaç duyar
 
-<figure style="margin:24px 0"><img src="/assets/images/home/leaf-study-v1-960.webp" width="960" height="640" alt="Sıcak iç mekân ışığında, odunsu bir gövdedeki parlak koyu yeşil kauçuk bitkisi yapraklarının yakın görünümü" loading="lazy" decoding="async" style="display:block;width:100%;height:auto;border-radius:4px"><figcaption style="font-size:14px;margin-top:8px">Lilora için üretilmiş bir illüstrasyon; belirli bir bitkinin fotoğrafı değildir. <a href="/editorial/#imagery">Görseller hakkında</a></figcaption></figure>
+<figure style="margin:24px 0"><img src="/assets/images/home/leaf-study-v1-960.webp" width="960" height="640" alt="Sıcak iç mekân ışığında, odunsu bir gövdedeki parlak koyu yeşil kauçuk bitkisi yapraklarının yakın görünümü" loading="lazy" decoding="async" style="display:block;width:100%;height:auto;border-radius:4px"><figcaption style="font-size:14px;margin-top:8px">Lilora için üretilmiş bir illüstrasyon; belirli bir bitkinin fotoğrafı değildir. <a href="/tr/editorial/#imagery">Görseller hakkında</a></figcaption></figure>
 
 Saksıdaki bir bitki küçük bir harç hacminden beslenir. Sulama besinlerin bir kısmını yıkar, taze saksı harcı da çoğu zaman yalnızca sınırlı bir başlangıç besini içerir. RHS, ev bitkilerinin besin alabilecekleri toprak az olduğu için sağlıklı büyüme için beslemeye bağlı olduğunu belirtiyor. [RHS: bitkiler nasıl beslenir](https://www.rhs.org.uk/advice/profile?pid=450)
 
@@ -55,11 +55,11 @@ Olası belirtiler arasında kahverengileşen yaprak uçları ve kenarları, pör
 
 UConn, suyun serbestçe akabildiğinden emin olarak bol suyla yıkamayı ya da taze harçla yeniden saksılamayı öneriyor. [UConn: ev bitkilerini gübreleme](https://homegarden.cahnr.uconn.edu/wp-content/uploads/sites/3479/2022/08/Houseplant-Fertilization.pdf) Sonrasında bir süre beslemeye ara ver.
 
-Saksının drenaj deliği yoksa yıkama yapılamaz; [saksı harcı ve drenaj](/guides/potting-mix-and-drainage/) rehberine bak.
+Saksının drenaj deliği yoksa yıkama yapılamaz; [saksı harcı ve drenaj](/tr/guides/potting-mix-and-drainage/) rehberine bak.
 
 ## Besinleri suçlamadan önce
 
-Soluk veya sarı yaprakların nedeni besin eksikliği olabilir, ama fazla sulama, yetersiz ışık, soğuk veya yaşlanma da olabilir. [Sararan yapraklarda neye bakmalı](/guides/yellow-houseplant-leaves/) rehberini uygula, kökleri [fazla mı suladın, az mı?](/guides/overwatering-vs-underwatering/) ile kontrol et ve [ışık rehberimizle](/guides/indoor-plant-light-guide/) bitkinin yeterli ışık aldığından emin ol. Besleme yalnızca onu kullanacak ışığa ve sağlıklı köklere sahip bir bitkiye yarar.
+Soluk veya sarı yaprakların nedeni besin eksikliği olabilir, ama fazla sulama, yetersiz ışık, soğuk veya yaşlanma da olabilir. [Sararan yapraklarda neye bakmalı](/tr/guides/yellow-houseplant-leaves/) rehberini uygula, kökleri [fazla mı suladın, az mı?](/tr/guides/overwatering-vs-underwatering/) ile kontrol et ve [ışık rehberimizle](/tr/guides/indoor-plant-light-guide/) bitkinin yeterli ışık aldığından emin ol. Besleme yalnızca onu kullanacak ışığa ve sağlıklı köklere sahip bir bitkiye yarar.
 
 ## Sık sorulan sorular
 

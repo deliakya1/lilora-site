@@ -3,10 +3,10 @@ import { readFileSync } from 'node:fs';
 import test from 'node:test';
 import { runInNewContext } from 'node:vm';
 
-const languages = ['tr', 'en', 'es', 'de', 'pt', 'fr'];
+import { languages, prefix, htmlLang, languageOptions, descriptionRange, isCJK } from './locale-registry.mjs';
 const preferenceKey = 'lilora.language.v1';
 const origin = 'https://lilora.app';
-const prefix = (language) => language === 'tr' ? '/' : `/${language}/`;
+
 // The override permits reproducing the regression against an archived script.
 const source = readFileSync(process.env.LILORA_LANGUAGE_SCRIPT_UNDER_TEST ||
   new URL('../assets/language.js', import.meta.url), 'utf8');
@@ -60,7 +60,7 @@ function page({ language = 'en', route = 'support/', search = '', hash = '',
   const links = [...html.matchAll(/<a\b[^>]*class="language"[^>]*>/g)].map(([tag]) => {
     const link = new Element('a');
     for (const [, name, value] of tag.matchAll(/([\w-]+)="([^"]*)"/g)) link.setAttribute(name, value.replaceAll('&amp;', '&'));
-    if (link.hreflang.split('-')[0] === missingTranslation) link.href = prefix(missingTranslation);
+    if (languageOptions.find(option => option.tag === link.hreflang)?.code === missingTranslation) link.href = prefix(missingTranslation);
     return link;
   });
   assert.ok(links.length >= languages.length, 'Generated fixture contains native language links');
@@ -94,7 +94,7 @@ function page({ language = 'en', route = 'support/', search = '', hash = '',
     links, navigation, initialURL, localStorage, sessionStorage, config,
     get url() { return new URL(current); },
     get suggestion() { return bars.find((bar) => !bar.removed)?.children.find((child) => child.tagName === 'A'); },
-    link(language) { return links.find((link) => link.hreflang.split('-')[0] === language); },
+    link(language) { return links.find((link) => languageOptions.find(option => option.tag === link.hreflang)?.code === language); },
     activate(link, options = {}) {
       const event = { type: 'click', button: 0, detail: 1, ctrlKey: false, metaKey: false,
         shiftKey: false, altKey: false, defaultPrevented: false, ...options,
@@ -230,7 +230,7 @@ test('a canceled activation restores its clean link and does not prevent a later
 
 test('repeated legacy marker parameters are all removed from the current URL and outgoing links', () => {
   const fixture = page({ search: '?lilora_lang=en&campaign=care&lilora_lang=fr', hash: '#main' });
-  assert.equal(fixture.url.href, `${origin}/en/support/?campaign=care#main`);
+  assert.equal(fixture.url.href, `${origin}/support/?campaign=care#main`);
   assert.equal(fixture.localStorage.values.get(preferenceKey), 'en');
   cleanLinks(fixture);
 });
@@ -238,7 +238,7 @@ test('repeated legacy marker parameters are all removed from the current URL and
 test('a legacy matching marker is consumed without leaking into links or showing a contrary suggestion', () => {
   const fixture = page({ search: '?lilora_lang=en&campaign=care', hash: '#main',
     browser: ['de-DE'], local: 'throw', session: 'throw' });
-  assert.equal(fixture.url.href, `${origin}/en/support/?campaign=care#main`);
+  assert.equal(fixture.url.href, `${origin}/support/?campaign=care#main`);
   assert.equal(fixture.suggestion, undefined);
   assert.deepEqual(fixture.navigation, []);
   cleanLinks(fixture);
@@ -246,7 +246,7 @@ test('a legacy matching marker is consumed without leaking into links or showing
 
 for (const marker of ['fr', 'invalid']) test(`a ${marker === 'fr' ? 'mismatched' : 'malformed'} legacy marker is cleaned without being remembered`, () => {
   const fixture = page({ search: `?lilora_lang=${marker}&campaign=care`, hash: '#main', browser: ['de-DE'] });
-  assert.equal(fixture.url.href, `${origin}/en/support/?campaign=care#main`);
+  assert.equal(fixture.url.href, `${origin}/support/?campaign=care#main`);
   assert.equal(fixture.localStorage.values.has(preferenceKey), false);
   assert.equal(fixture.sessionStorage.values.has(preferenceKey), false);
   assert.ok(fixture.suggestion, 'Invalid incoming choice must not suppress a relevant language suggestion');

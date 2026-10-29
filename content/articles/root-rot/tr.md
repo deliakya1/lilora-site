@@ -17,7 +17,7 @@ Yalnızca su içinde kalmak da kökleri bozar ve belirtileri çok benzerdir. RHS
 - Koyulaşan veya yumuşayan gövde dibi
 - Günlerce ıslak kalan, ekşi kokabilen harç
 
-Maryland Üniversitesi Extension, harç nemi yeterli olsa bile bodur kalma, sararma ve pörsüme görülebileceğini anlatıyor. Bu belirtiler az sulama, soğuk ve zararlılarla da örtüşür; yalnızca yapraklara bakarak teşhis koyma. [Maryland Üniversitesi Extension: ev bitkilerinde kök çürüklükleri](https://extension.umd.edu/resource/root-rots-indoor-plants) [Fazla mı suladın, az mı?](/guides/overwatering-vs-underwatering/) rehberindeki kontrollerle başla.
+Maryland Üniversitesi Extension, harç nemi yeterli olsa bile bodur kalma, sararma ve pörsüme görülebileceğini anlatıyor. Bu belirtiler az sulama, soğuk ve zararlılarla da örtüşür; yalnızca yapraklara bakarak teşhis koyma. [Maryland Üniversitesi Extension: ev bitkilerinde kök çürüklükleri](https://extension.umd.edu/resource/root-rots-indoor-plants) [Fazla mı suladın, az mı?](/tr/guides/overwatering-vs-underwatering/) rehberindeki kontrollerle başla.
 
 ## Köklere nasıl bakılır
 
@@ -35,17 +35,17 @@ Sağlıklı kökler genellikle sert, beyaz veya açık renklidir ve çoğu zaman
 6. Bitkiyi iyi dolaylı ışıkta, soğuk hava akımından uzak tut; yeni büyüme görünene kadar gübre verme.
 7. Eski saksıyı ve aletleri tekrar kullanmadan önce yıka. [Utah State Üniversitesi Extension: Pythium kök çürüklüğü](https://extension.usu.edu/planthealth/ipm/ornamental-pest-guide/diseases/pythium-root-rot)
 
-Köklerin neredeyse tamamı çürümüşse toparlanma olasılığı düşüktür; bitkiyi harcıyla birlikte atmak çoğu zaman en gerçekçi seçenektir. Gövdede hâlâ sert, sağlıklı bir kısım varsa çelikle yeni bir bitki elde edebilirsin; [ev bitkilerini çelikle çoğaltma](/guides/propagating-cuttings/) rehberine bak.
+Köklerin neredeyse tamamı çürümüşse toparlanma olasılığı düşüktür; bitkiyi harcıyla birlikte atmak çoğu zaman en gerçekçi seçenektir. Gövdede hâlâ sert, sağlıklı bir kısım varsa çelikle yeni bir bitki elde edebilirsin; [ev bitkilerini çelikle çoğaltma](/tr/guides/propagating-cuttings/) rehberine bak.
 
 Burada fungisit önermiyoruz. Ürünler ve ruhsatları ülkeden ülkeye değişir; kullanmayı düşünürsen yalnızca ev bitkileri için etiketlenmiş bir ürün seç ve etiketteki talimata tam olarak uy.
 
 ## Bir dahaki sefere nasıl önlenir
 
-- Takvime göre değil, harç ihtiyaç duyduğunda sula. [Sulama rehberimiz](/guides/watering-houseplants/) nasıl kontrol edeceğini gösteriyor.
+- Takvime göre değil, harç ihtiyaç duyduğunda sula. [Sulama rehberimiz](/tr/guides/watering-houseplants/) nasıl kontrol edeceğini gösteriyor.
 - Drenaj delikli saksı kullan; sulamadan sonra tabağı ve dış saksıyı boşalt.
-- Bitkiye uygun, suyu iyi geçiren bir harç kullan; [saksı harcı ve drenaj](/guides/potting-mix-and-drainage/) rehberine bak.
+- Bitkiye uygun, suyu iyi geçiren bir harç kullan; [saksı harcı ve drenaj](/tr/guides/potting-mix-and-drainage/) rehberine bak.
 - Kışın az ışıkta ve serin odalarda harcın daha yavaş kuruyacağını hesaba kat.
-- Kökler gerektirdiğinde biraz daha büyük bir saksıya geçir; [ne zaman saksı değiştirmeli](/guides/when-to-repot-houseplants/) rehberinde anlattık.
+- Kökler gerektirdiğinde biraz daha büyük bir saksıya geçir; [ne zaman saksı değiştirmeli](/tr/guides/when-to-repot-houseplants/) rehberinde anlattık.
 
 Her kontrolü yazmak burada işe yarar. Lilora’da “Kontrol ettim, suya ihtiyacı yok” ve “Suladım” ayrı kayıtlardır; on gün boyunca ıslak kalan bir saksı akıldan çıkıp gitmez, art arda kontrol kayıtları olarak görünür.
 
@@ -61,7 +61,7 @@ Kökleri uzun süre açıkta bırakma. Kes, taze harçla saksıla ve bundan sonr
 
 ### Bitkim pörsüyor ama kökleri sağlıklı görünüyor. Şimdi ne olacak?
 
-O zaman kök çürüklüğü olası değil. Işığa, sıcaklığa, zararlılara ve son değişikliklere bak; [sararan yapraklarda neye bakmalı](/guides/yellow-houseplant-leaves/) rehberini kullan.
+O zaman kök çürüklüğü olası değil. Işığa, sıcaklığa, zararlılara ve son değişikliklere bak; [sararan yapraklarda neye bakmalı](/tr/guides/yellow-houseplant-leaves/) rehberini kullan.
 
 ### Oksijenli su iyi bir tedavi mi?
 

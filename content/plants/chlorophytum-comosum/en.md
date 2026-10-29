@@ -6,13 +6,13 @@ Spider plant is a forgiving, fast-growing houseplant from tropical and southern 
 
 Spider plant prefers medium light and tolerates shade, but it does not like direct sunlight. A spot a little back from a bright window, or a well-lit shelf, suits it. Variegated forms keep their stripes better with good indirect light. [NC State Extension](https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/)
 
-Read more in the [indoor light guide](/en/guides/indoor-plant-light-guide/).
+Read more in the [indoor light guide](/guides/indoor-plant-light-guide/).
 
 ## How to check before watering
 
 It grows best in moist soil and tolerates short dry spells. During growth, water when the surface of the mix has dried; in winter, reduce watering. Thick white roots store water, so a slightly dry pot is less risky than a constantly wet one. [NC State Extension](https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/)
 
-The [watering guide](/en/guides/watering-houseplants/) explains how to combine touch and pot weight.
+The [watering guide](/guides/watering-houseplants/) explains how to combine touch and pot weight.
 
 ## Potting mix and pot
 
@@ -30,7 +30,7 @@ Feed lightly during spring and summer. NC State warns that over-fertilizing redu
 
 NC State advises reducing watering in winter and keeping the plant above 7 °C (45 °F). It grows best in evenly moist mix but tolerates dry spells, so in cool months check before watering and let the top dry a little more. [NC State Extension](https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/)
 
-Short days have a useful side effect: NC State notes that runners form when the plant gets less than 12 hours of light a day for at least three weeks, so plantlets often appear after autumn. Keep it out of direct sun, which it does not tolerate, in summer. See the [winter care guide](/en/guides/winter-houseplant-care/). In Lilora, a reminder is a prompt to check, not an order to water: you record whether you watered or snoozed, so slower drying in the cold months shows up in your own history.
+Short days have a useful side effect: NC State notes that runners form when the plant gets less than 12 hours of light a day for at least three weeks, so plantlets often appear after autumn. Keep it out of direct sun, which it does not tolerate, in summer. See the [winter care guide](/guides/winter-houseplant-care/). In Lilora, a reminder is a prompt to check, not an order to water: you record whether you watered or snoozed, so slower drying in the cold months shows up in your own history.
 
 ## Common problems
 
@@ -38,7 +38,7 @@ Short days have a useful side effect: NC State notes that runners form when the 
 - **Pale, limp leaves with wet mix:** check drainage.
 - **No plantlets:** plants often make runners after several weeks of short days and long uninterrupted nights; heavy feeding also reduces them.
 
-See the [yellow-leaf checks](/en/guides/yellow-houseplant-leaves/) for broader troubleshooting.
+See the [yellow-leaf checks](/guides/yellow-houseplant-leaves/) for broader troubleshooting.
 
 ## Propagation
 
@@ -46,7 +46,7 @@ Spider plant propagates easily from plantlets or by division. Pin a plantlet ont
 
 ## Pets and people
 
-The [ASPCA Animal Poison Control Center](https://www.aspca.org/) lists spider plant as non-toxic to cats and dogs, and NC State Extension tags it the same way. Non-toxic does not mean a pet can eat it freely: chewing plant material can still upset a stomach, and cats are often drawn to the dangling leaves. Hang it out of reach if your cat chews it. If a pet seems unwell, contact a veterinarian. For people in Türkiye, the poison information line is 114 (UZEM). This is general information, not veterinary or medical advice. To compare other plants, see the [pet-safe houseplants guide](/en/guides/pet-safe-houseplants/) or the [non-toxic profiles in the plant library](/en/plants/#petNonToxic).
+The [ASPCA Animal Poison Control Center](https://www.aspca.org/) lists spider plant as non-toxic to cats and dogs, and NC State Extension tags it the same way. Non-toxic does not mean a pet can eat it freely: chewing plant material can still upset a stomach, and cats are often drawn to the dangling leaves. Hang it out of reach if your cat chews it. If a pet seems unwell, contact a veterinarian. For people in Türkiye, the poison information line is 114 (UZEM). This is general information, not veterinary or medical advice. To compare other plants, see the [pet-safe houseplants guide](/guides/pet-safe-houseplants/) or the [non-toxic profiles in the plant library](/plants/#petNonToxic).
 
 ## Common questions
 

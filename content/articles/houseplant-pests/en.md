@@ -16,7 +16,7 @@ We have not added photographs here. Pest identification needs accurate, close-up
 
 **What they do:** the adults do not damage plants; they are a nuisance. Larvae feed mainly on fungi and decaying matter, though they can occasionally damage seedlings and young cuttings. They are associated with damp compost. [RHS: fungus gnats](https://www.rhs.org.uk/biodiversity/fungus-gnats)
 
-**Least harmful steps:** let the mix dry to the level that suits the plant before watering again, and empty saucers. Yellow sticky traps catch adults and show whether numbers are falling. [University of Minnesota Extension: houseplant pests](https://extension.umn.edu/news/houseplant-pests) If gnats keep returning, check whether the pot drains properly; see [overwatered or underwatered?](/en/guides/overwatering-vs-underwatering/)
+**Least harmful steps:** let the mix dry to the level that suits the plant before watering again, and empty saucers. Yellow sticky traps catch adults and show whether numbers are falling. [University of Minnesota Extension: houseplant pests](https://extension.umn.edu/news/houseplant-pests) If gnats keep returning, check whether the pot drains properly; see [overwatered or underwatered?](/guides/overwatering-vs-underwatering/)
 
 ## Spider mites
 
@@ -57,9 +57,9 @@ We have not added photographs here. Pest identification needs accurate, close-up
 
 Products, their active ingredients and their legal use differ by country. We do not give doses: the label on the product you buy is the only reliable instruction. Keep products away from children and pets, and if anyone swallows one, contact a doctor or veterinarian; in Türkiye, people can call the poison line 114 (UZEM). This is general information, not veterinary or medical advice.
 
-If a plant also has yellow leaves, work through [yellow houseplant leaves](/en/guides/yellow-houseplant-leaves/) as well. Plants brought indoors after summer need extra checks; see [an autumn reset for houseplants](/en/blog/autumn-plant-reset/).
+If a plant also has yellow leaves, work through [yellow houseplant leaves](/guides/yellow-houseplant-leaves/) as well. Plants brought indoors after summer need extra checks; see [an autumn reset for houseplants](/blog/autumn-plant-reset/).
 
-If you share your home with cats or dogs, also read [houseplants and pets](/en/guides/pet-safe-houseplants/) before choosing new plants.
+If you share your home with cats or dogs, also read [houseplants and pets](/guides/pet-safe-houseplants/) before choosing new plants.
 
 ## Common questions
 

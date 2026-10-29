@@ -6,13 +6,13 @@ Kalp yapraklı filodendron, Meksika ve tropik Amerika kökenli, parlak kalp biç
 
 Orta ışığı sever ve çok az ışıkta uzun süre yaşayabilir. Missouri Botanik Bahçesi parlak dolaylı ışık öneriyor ve tam güneşten kaçınmayı söylüyor; ortam fazla karanlıksa gövdeler incelir, yapraklar seyrekleşir. [NC State Extension](https://plants.ces.ncsu.edu/plants/philodendron-hederaceum/) · [Missouri Botanik Bahçesi](https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=b611)
 
-[Işık rehberine](/guides/indoor-plant-light-guide/) bak.
+[Işık rehberine](/tr/guides/indoor-plant-light-guide/) bak.
 
 ## Sulamadan önce kontrol
 
 Büyüme döneminde harcı hafif nemli tut, kışın sulamayı azalt. Sulamadan önce üstteki birkaç santimetreyi yokla: kuruysa iyice sula ve süzdür; hâlâ nemliyse bekle. Fazla ıslak harçta kök çürümesi gelişebilir. [NC State Extension](https://plants.ces.ncsu.edu/plants/philodendron-hederaceum/)
 
-Diğer nem ipuçlarını [sulama rehberi](/guides/watering-houseplants/) anlatıyor.
+Diğer nem ipuçlarını [sulama rehberi](/tr/guides/watering-houseplants/) anlatıyor.
 
 ## Harç ve saksı
 
@@ -32,7 +32,7 @@ Ortalama ev sıcaklıklarını sever. Kuru havaya dayanır ama orta nemi tercih 
 - **Yaprak lekeleri ve kök çürümesi:** çoğunlukla fazla ıslak harçla ilgili.
 - **Zararlılar:** yaprak biti, kırmızı örümcek, unlu bit ve kabuklu bit.
 
-Bakımı değiştirmeden önce [sararan yaprak kontrollerini](/guides/yellow-houseplant-leaves/) oku.
+Bakımı değiştirmeden önce [sararan yaprak kontrollerini](/tr/guides/yellow-houseplant-leaves/) oku.
 
 ## Çoğaltma
 

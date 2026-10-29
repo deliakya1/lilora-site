@@ -20,22 +20,22 @@ Some plants are far more dangerous than typical houseplants. The ASPCA warns tha
 
 Listed as non-toxic to cats and dogs by the ASPCA:
 
-- [Spider plant](/en/plants/chlorophytum-comosum/) (*Chlorophytum comosum*)
-- [Moth orchid](/en/plants/phalaenopsis/) (*Phalaenopsis*)
-- [Calathea](/en/plants/goeppertia/) (*Goeppertia*, listed by the ASPCA as *Calathea*)
+- [Spider plant](/plants/chlorophytum-comosum/) (*Chlorophytum comosum*)
+- [Moth orchid](/plants/phalaenopsis/) (*Phalaenopsis*)
+- [Calathea](/plants/goeppertia/) (*Goeppertia*, listed by the ASPCA as *Calathea*)
 
 Listed as toxic to cats and dogs by the ASPCA:
 
-- [Pothos](/en/plants/epipremnum-aureum/), [monstera](/en/plants/monstera-deliciosa/), [peace lily](/en/plants/spathiphyllum/) and [heartleaf philodendron](/en/plants/philodendron-hederaceum/), which contain insoluble calcium oxalates
-- [Snake plant](/en/plants/dracaena-trifasciata/) and [aloe vera](/en/plants/aloe-vera/)
-- [Rubber plant](/en/plants/ficus-elastica/): the ASPCA entry is called “Indian rubber plant” but gives the name *Ficus benjamina*, so we explain the mismatch on the profile
+- [Pothos](/plants/epipremnum-aureum/), [monstera](/plants/monstera-deliciosa/), [peace lily](/plants/spathiphyllum/) and [heartleaf philodendron](/plants/philodendron-hederaceum/), which contain insoluble calcium oxalates
+- [Snake plant](/plants/dracaena-trifasciata/) and [aloe vera](/plants/aloe-vera/)
+- [Rubber plant](/plants/ficus-elastica/): the ASPCA entry is called “Indian rubber plant” but gives the name *Ficus benjamina*, so we explain the mismatch on the profile
 
 Not listed by name, or sources disagree:
 
-- [ZZ plant](/en/plants/zamioculcas-zamiifolia/) is not on the ASPCA list; NC State Extension lists it as toxic. [NC State Extension](https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/)
-- [Fiddle-leaf fig](/en/plants/ficus-lyrata/) is not in the ASPCA database by name; an ASPCA article mentions mild stomach upset and NC State lists it as toxic. [NC State Extension](https://plants.ces.ncsu.edu/plants/ficus-lyrata/)
+- [ZZ plant](/plants/zamioculcas-zamiifolia/) is not on the ASPCA list; NC State Extension lists it as toxic. [NC State Extension](https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/)
+- [Fiddle-leaf fig](/plants/ficus-lyrata/) is not in the ASPCA database by name; an ASPCA article mentions mild stomach upset and NC State lists it as toxic. [NC State Extension](https://plants.ces.ncsu.edu/plants/ficus-lyrata/)
 
-The [plant library](/en/plants/#petNonToxic) has a filter for plants the ASPCA lists as non-toxic.
+The [plant library](/plants/#petNonToxic) has a filter for plants the ASPCA lists as non-toxic.
 
 ## A short checklist before you buy
 

@@ -1,8 +1,98 @@
 {
-  "tr": {"title": "Bitkileri filtrele", "chips": {"petNonToxic": "ASPCA'ya göre kedi ve köpekler için toksik değil", "lowLight": "Az ışığa dayanıklı", "beginner": "Yeni başlayanlar için"}, "note": "Evcil hayvan filtresi yalnızca ASPCA Animal Poison Control Center'ın kedi ve köpekler için toksik değil olarak listelediği bitkileri gösterir. Toksik değil, hayvanın bitkiyi yiyebileceği anlamına gelmez. Ayrıntılar için <a href=\"/guides/pet-safe-houseplants/\">evcil hayvanlar ve ev bitkileri rehberine</a> bak.", "all": "Tümü", "count": "{n} bitki", "short": {"petNonToxic": "Toksik değil (ASPCA)", "lowLight": "Az ışık", "beginner": "Kolay"}},
-  "en": {"title": "Filter plants", "chips": {"petNonToxic": "Listed non-toxic to cats and dogs (ASPCA)", "lowLight": "Tolerates low light", "beginner": "Good for beginners"}, "note": "The pet filter shows only plants that the ASPCA Animal Poison Control Center lists as non-toxic to cats and dogs. Non-toxic does not mean a pet can eat it. See the <a href=\"/en/guides/pet-safe-houseplants/\">houseplants and pets guide</a>.", "all": "All", "count": "{n} plants", "short": {"petNonToxic": "Non-toxic (ASPCA)", "lowLight": "Low light", "beginner": "Easy"}},
-  "es": {"title": "Filtrar plantas", "chips": {"petNonToxic": "No tóxicas para gatos y perros según la ASPCA", "lowLight": "Toleran poca luz", "beginner": "Para principiantes"}, "note": "El filtro de mascotas muestra solo las plantas que el ASPCA Animal Poison Control Center incluye como no tóxicas para gatos y perros. No tóxica no significa que un animal pueda comérsela. Consulta la <a href=\"/es/guides/pet-safe-houseplants/\">guía de plantas y mascotas</a>.", "all": "Todas", "count": "{n} plantas", "short": {"petNonToxic": "No tóxica (ASPCA)", "lowLight": "Poca luz", "beginner": "Fácil"}},
-  "de": {"title": "Pflanzen filtern", "chips": {"petNonToxic": "Laut ASPCA ungiftig für Katzen und Hunde", "lowLight": "Kommt mit wenig Licht aus", "beginner": "Für Einsteiger"}, "note": "Der Haustierfilter zeigt nur Pflanzen, die das ASPCA Animal Poison Control Center als ungiftig für Katzen und Hunde führt. Ungiftig heißt nicht, dass ein Tier sie fressen darf. Mehr im <a href=\"/de/guides/pet-safe-houseplants/\">Ratgeber zu Zimmerpflanzen und Haustieren</a>.", "all": "Alle", "count": "{n} Pflanzen", "short": {"petNonToxic": "Ungiftig (ASPCA)", "lowLight": "Wenig Licht", "beginner": "Einfach"}},
-  "pt": {"title": "Filtrar plantas", "chips": {"petNonToxic": "Não tóxicas para gatos e cães segundo a ASPCA", "lowLight": "Toleram pouca luz", "beginner": "Para iniciantes"}, "note": "O filtro de pets mostra só as plantas que o ASPCA Animal Poison Control Center lista como não tóxicas para gatos e cães. Não tóxica não significa que o animal possa comê-la. Veja o <a href=\"/pt/guides/pet-safe-houseplants/\">guia de plantas e pets</a>.", "all": "Todas", "count": "{n} plantas", "short": {"petNonToxic": "Não tóxica (ASPCA)", "lowLight": "Pouca luz", "beginner": "Fácil"}},
-  "fr": {"title": "Filtrer les plantes", "chips": {"petNonToxic": "Non toxiques pour chats et chiens selon l’ASPCA", "lowLight": "Tolèrent peu de lumière", "beginner": "Pour débuter"}, "note": "Le filtre animaux n’affiche que les plantes que l’ASPCA Animal Poison Control Center classe non toxiques pour les chats et les chiens. Non toxique ne veut pas dire qu’un animal peut la manger. Voir le <a href=\"/fr/guides/pet-safe-houseplants/\">guide plantes et animaux</a>.", "all": "Toutes", "count": "{n} plantes", "short": {"petNonToxic": "Non toxique (ASPCA)", "lowLight": "Peu de lumière", "beginner": "Facile"}}
+  "tr": {
+    "title": "Bitkileri filtrele",
+    "chips": {
+      "petNonToxic": "ASPCA'ya göre kedi ve köpekler için toksik değil",
+      "lowLight": "Az ışığa dayanıklı",
+      "beginner": "Yeni başlayanlar için"
+    },
+    "note": "Evcil hayvan filtresi yalnızca ASPCA Animal Poison Control Center'ın kedi ve köpekler için toksik değil olarak listelediği bitkileri gösterir. Toksik değil, hayvanın bitkiyi yiyebileceği anlamına gelmez. Ayrıntılar için <a href=\"/tr/guides/pet-safe-houseplants/\">evcil hayvanlar ve ev bitkileri rehberine</a> bak.",
+    "all": "Tümü",
+    "count": "{n} bitki",
+    "short": {
+      "petNonToxic": "Toksik değil (ASPCA)",
+      "lowLight": "Az ışık",
+      "beginner": "Kolay"
+    }
+  },
+  "en": {
+    "title": "Filter plants",
+    "chips": {
+      "petNonToxic": "Listed non-toxic to cats and dogs (ASPCA)",
+      "lowLight": "Tolerates low light",
+      "beginner": "Good for beginners"
+    },
+    "note": "The pet filter shows only plants that the ASPCA Animal Poison Control Center lists as non-toxic to cats and dogs. Non-toxic does not mean a pet can eat it. See the <a href=\"/guides/pet-safe-houseplants/\">houseplants and pets guide</a>.",
+    "all": "All",
+    "count": "{n} plants",
+    "short": {
+      "petNonToxic": "Non-toxic (ASPCA)",
+      "lowLight": "Low light",
+      "beginner": "Easy"
+    }
+  },
+  "es": {
+    "title": "Filtrar plantas",
+    "chips": {
+      "petNonToxic": "No tóxicas para gatos y perros según la ASPCA",
+      "lowLight": "Toleran poca luz",
+      "beginner": "Para principiantes"
+    },
+    "note": "El filtro de mascotas muestra solo las plantas que el ASPCA Animal Poison Control Center incluye como no tóxicas para gatos y perros. No tóxica no significa que un animal pueda comérsela. Consulta la <a href=\"/es/guides/pet-safe-houseplants/\">guía de plantas y mascotas</a>.",
+    "all": "Todas",
+    "count": "{n} plantas",
+    "short": {
+      "petNonToxic": "No tóxica (ASPCA)",
+      "lowLight": "Poca luz",
+      "beginner": "Fácil"
+    }
+  },
+  "de": {
+    "title": "Pflanzen filtern",
+    "chips": {
+      "petNonToxic": "Laut ASPCA ungiftig für Katzen und Hunde",
+      "lowLight": "Kommt mit wenig Licht aus",
+      "beginner": "Für Einsteiger"
+    },
+    "note": "Der Haustierfilter zeigt nur Pflanzen, die das ASPCA Animal Poison Control Center als ungiftig für Katzen und Hunde führt. Ungiftig heißt nicht, dass ein Tier sie fressen darf. Mehr im <a href=\"/de/guides/pet-safe-houseplants/\">Ratgeber zu Zimmerpflanzen und Haustieren</a>.",
+    "all": "Alle",
+    "count": "{n} Pflanzen",
+    "short": {
+      "petNonToxic": "Ungiftig (ASPCA)",
+      "lowLight": "Wenig Licht",
+      "beginner": "Einfach"
+    }
+  },
+  "pt": {
+    "title": "Filtrar plantas",
+    "chips": {
+      "petNonToxic": "Não tóxicas para gatos e cães segundo a ASPCA",
+      "lowLight": "Toleram pouca luz",
+      "beginner": "Para iniciantes"
+    },
+    "note": "O filtro de pets mostra só as plantas que o ASPCA Animal Poison Control Center lista como não tóxicas para gatos e cães. Não tóxica não significa que o animal possa comê-la. Veja o <a href=\"/pt/guides/pet-safe-houseplants/\">guia de plantas e pets</a>.",
+    "all": "Todas",
+    "count": "{n} plantas",
+    "short": {
+      "petNonToxic": "Não tóxica (ASPCA)",
+      "lowLight": "Pouca luz",
+      "beginner": "Fácil"
+    }
+  },
+  "fr": {
+    "title": "Filtrer les plantes",
+    "chips": {
+      "petNonToxic": "Non toxiques pour chats et chiens selon l’ASPCA",
+      "lowLight": "Tolèrent peu de lumière",
+      "beginner": "Pour débuter"
+    },
+    "note": "Le filtre animaux n’affiche que les plantes que l’ASPCA Animal Poison Control Center classe non toxiques pour les chats et les chiens. Non toxique ne veut pas dire qu’un animal peut la manger. Voir le <a href=\"/fr/guides/pet-safe-houseplants/\">guide plantes et animaux</a>.",
+    "all": "Toutes",
+    "count": "{n} plantes",
+    "short": {
+      "petNonToxic": "Non toxique (ASPCA)",
+      "lowLight": "Peu de lumière",
+      "beginner": "Facile"
+    }
+  }
 }

@@ -6,7 +6,8 @@ import QRCode from "qrcode";
 
 const root = process.cwd();
 const require = createRequire(import.meta.url);
-const languages = ["tr", "en", "es", "de", "pt", "fr"];
+import { languages, prefix } from './locale-registry.mjs';
+import { extraCopies } from './locale-extras.mjs';
 const origin = "https://lilora.app";
 const ink = "#1E2620";
 const paper = "#F7F3EC";
@@ -39,7 +40,6 @@ const hash = (...values) => {
 const fileBytes = (path) => readFileSync(resolve(root, path));
 const data = (path, type) =>
   `data:${type};base64,${fileBytes(path).toString("base64")}`;
-const prefix = (lang) => (lang === "tr" ? "/" : `/${lang}/`);
 const qrUrl = (lang, context) =>
   `${origin}${prefix(lang)}download/?utm_source=qr&utm_medium=${context}&utm_campaign=prelaunch`;
 const unchanged = (file, fingerprint) => {
@@ -54,6 +54,7 @@ const save = (file, bytes) => {
 
 // Literal copy is independently localized; the app's UI is only English/Turkish.
 const printCopy = {
+  ...extraCopies('print'),
   tr: {
     title: "Aynı evde, aynı bitkinin hikâyesi.",
     shortPitch:

@@ -67,5 +67,5 @@
 <p>When a new version changes how data is handled, this policy will be updated before that version is released, and the date above will change.</p>
 </section>
 <section aria-labelledby="contact"><h2 id="contact">Contact</h2>
-<p>For privacy questions or requests, write to <a href="mailto:support@lilora.app">support@lilora.app</a>. For app help, visit <a href="/en/support/">Support</a>.</p></section>
+<p>For privacy questions or requests, write to <a href="mailto:support@lilora.app">support@lilora.app</a>. For app help, visit <a href="/support/">Support</a>.</p></section>
 </article>

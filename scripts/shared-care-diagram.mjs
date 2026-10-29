@@ -1,4 +1,5 @@
 // Original HTML/CSS educational diagram; text stays selectable and reflows on phones.
+import { extraCopies } from './locale-extras.mjs';
 export function sharedCareDiagram(lang){
  const copy={tr:{
  title:'İki kişi. Tek bakım kaydı.',people:['1. kişi','2. kişi'],record:'Ortak bitki kaydı',detail:'Adı · oda · fotoğraf',
@@ -25,6 +26,6 @@ export function sharedCareDiagram(lang){
  steps:['Lire la dernière entrée','Vérifier la plante elle-même','Noter ce qui s’est passé'],hints:['Qui a fait quoi, et quand ?','Observer le substrat et l’état de la plante.','Choisir ce qui s’est réellement passé ; ne pas confondre ces résultats.'],
  outcomes:[['« Checked, no water needed »','Vérifiée ; pas d’eau ajoutée.'],['« Watered »','Égouttée ; eau en excès vidée.'],['Rappel reporté','La vérification reste à faire.']],
  caption:'Deux personnes utilisent la même fiche : elles lisent la dernière entrée, vérifient la plante et notent une vérification ou un arrosage. Reporter le rappel ne crée aucune entrée de soin ; la vérification reste en attente. Les boutons de l’app sont en anglais, car Lilora est disponible en anglais et en turc. Schéma pédagogique original, pas une capture de l’app.'}};
- const t=copy[lang]||copy.en;
+ const t=extraCopies('diagram')[lang]||copy[lang]||copy.en;
  return `<figure class="shared-care-diagram" aria-labelledby="shared-care-title"><h2 id="shared-care-title">${t.title}</h2><div class="shared-care-people">${t.people.map(p=>`<div><span class="care-person" aria-hidden="true"></span><span>${p}</span></div>`).join('')}</div><div class="shared-care-record"><strong>${t.record}</strong><span>${t.detail}</span></div><ol class="shared-care-steps">${t.steps.map((step,i)=>`<li><span class="care-step-number" aria-hidden="true">${i+1}</span><div><h3>${step}</h3><p>${t.hints[i]}</p>${i===2?`<ul class="shared-care-outcomes">${t.outcomes.map(([title,detail],j)=>`<li class="${j===2?'care-pending':'care-completed'}"><strong>${title}</strong><span>${detail}</span></li>`).join('')}</ul>`:''}</div></li>`).join('')}</ol><figcaption>${t.caption}</figcaption></figure>`;
 }

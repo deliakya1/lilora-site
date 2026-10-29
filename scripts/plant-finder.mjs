@@ -3,10 +3,12 @@
 // Light fit comes from each plant's meta.json "finderLight"; care and pet lines
 // reuse the profile's localized at-a-glance summary, so the finder never adds claims.
 import { escape, json, prefix, plantPath, articlePath } from "./layout.mjs";
+import { extraCopies } from './locale-extras.mjs';
 
 export const finderPath = (l) => `${prefix(l)}plants/finder/`;
 
 export const finderCopy = {
+  ...extraCopies('finder'),
   tr: {
     title: "Sana uygun bitki hangisi?",
     description: "Işık, deneyim ve evcil hayvanlarla ilgili üç soruyu cevapla; Lilora kütüphanesinden iki üç bitkiyi, neden önerildiğini ve bakım rehberlerini gör.",

@@ -26,7 +26,7 @@ Illinois Üniversitesi'nin aktardığı daha eski bir tahmin bile, ortalama bir 
 
 ## Yine de bitki yetiştirmek için iyi nedenler
 
-Bunların hiçbiri ev bitkilerine karşı bir argüman değil. Iowa State onları yetiştirmek için hâlâ birçok neden olduğunu belirtiyor: evi güzelleştirirler ve kışın ortasında bile bahçıvanlık yapmanı sağlarlar. [Iowa State Üniversitesi Extension: ev bitkileri iç mekân havasını iyileştirir mi?](https://yardandgarden.extension.iastate.edu/faq/do-houseplants-actually-improve-indoor-air-quality) Bitkileri ışığına ve alışkanlıklarına göre seç; [iç mekân bitki ışığı rehberi](/guides/indoor-plant-light-guide/) ve [sağlıklı bir ev bitkisi nasıl seçilir](/blog/buying-a-healthy-houseplant/) iyi başlangıç noktaları. Evcil hayvanın varsa [ev bitkileri ve evcil hayvanlar](/guides/pet-safe-houseplants/) rehberine de bak; "havayı temizleyen" listelerdeki bazı bitkiler kediler için güvenli değil.
+Bunların hiçbiri ev bitkilerine karşı bir argüman değil. Iowa State onları yetiştirmek için hâlâ birçok neden olduğunu belirtiyor: evi güzelleştirirler ve kışın ortasında bile bahçıvanlık yapmanı sağlarlar. [Iowa State Üniversitesi Extension: ev bitkileri iç mekân havasını iyileştirir mi?](https://yardandgarden.extension.iastate.edu/faq/do-houseplants-actually-improve-indoor-air-quality) Bitkileri ışığına ve alışkanlıklarına göre seç; [iç mekân bitki ışığı rehberi](/tr/guides/indoor-plant-light-guide/) ve [sağlıklı bir ev bitkisi nasıl seçilir](/tr/blog/buying-a-healthy-houseplant/) iyi başlangıç noktaları. Evcil hayvanın varsa [ev bitkileri ve evcil hayvanlar](/tr/guides/pet-safe-houseplants/) rehberine de bak; "havayı temizleyen" listelerdeki bazı bitkiler kediler için güvenli değil.
 
 ## Sık sorulan sorular
 
@@ -40,4 +40,4 @@ Laboratuvar çalışmaları türleri farklı sıralıyor, ama evde hiçbirinin e
 
 ### Bitkiler nemi artırır mı?
 
-Verdikleri suyla biraz artırırlar, ama birkaç bitki oda nemini çok az değiştirir. Bkz. [ev bitkileri için nem](/guides/houseplant-humidity/).
+Verdikleri suyla biraz artırırlar, ama birkaç bitki oda nemini çok az değiştirir. Bkz. [ev bitkileri için nem](/tr/guides/houseplant-humidity/).

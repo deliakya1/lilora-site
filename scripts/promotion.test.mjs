@@ -5,9 +5,9 @@ import { chromium } from "playwright-core";
 import jsQR from "jsqr";
 import { PNG } from "pngjs";
 
-const languages = ["tr", "en", "es", "de", "pt", "fr"];
+import { languages, prefix, htmlLang, languageOptions, descriptionRange, isCJK } from './locale-registry.mjs';
 const contexts = ["home", "download", "a6", "a4"];
-const prefix = (lang) => (lang === "tr" ? "/" : `/${lang}/`);
+
 
 test("24 offline QR SVGs decode to stable, language-matched URLs with four-module quiet zones", async () => {
   const browserPath =

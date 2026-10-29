@@ -4,7 +4,7 @@ import { existsSync, readFileSync, writeFileSync } from "node:fs";
 const copy = JSON.parse(readFileSync("pages/home/copy.json", "utf8"));
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) =>
   ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
-const prefix = (l) => l === "tr" ? "/" : `/${l}/`;
+import { prefix } from './locale-registry.mjs';
 const illustration = (name, alt, caption, eager = false) => {
   const path = `/assets/images/home/${name}-640.webp`;
   if (!existsSync(`.${path}`)) return "";

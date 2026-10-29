@@ -4,7 +4,7 @@ Zararlıların çoğu eve yeni bir bitkiyle gelir; bu yüzden mağazada birkaç 
 
 ## Gitmeden önce: yerini tanı
 
-Yalnızca bitkiye göre değil, yere göre seç. O köşenin ne kadar ışık aldığını, kaloriferin ya da cereyan alan bir kapının yakınında olup olmadığını ve kedilerin ya da köpeklerin ulaşıp ulaşamayacağını not et. Işığı değerlendirmek için [iç mekân bitki ışığı rehberi](/guides/indoor-plant-light-guide/), bitkinin botanik adını eve gelmeden kontrol etmek için [ev bitkileri ve evcil hayvanlar](/guides/pet-safe-houseplants/) rehberi yardımcı olur.
+Yalnızca bitkiye göre değil, yere göre seç. O köşenin ne kadar ışık aldığını, kaloriferin ya da cereyan alan bir kapının yakınında olup olmadığını ve kedilerin ya da köpeklerin ulaşıp ulaşamayacağını not et. Işığı değerlendirmek için [iç mekân bitki ışığı rehberi](/tr/guides/indoor-plant-light-guide/), bitkinin botanik adını eve gelmeden kontrol etmek için [ev bitkileri ve evcil hayvanlar](/tr/guides/pet-safe-houseplants/) rehberi yardımcı olur.
 
 ## Yapraklar ve gövdeler
 
@@ -16,7 +16,7 @@ Yalnızca bitkiye göre değil, yere göre seç. O köşenin ne kadar ışık al
 
 ## Zararlı işaretleri
 
-Yaprakların alt yüzlerini ve büyüme uçlarını yakından kontrol et. [Wisconsin–Madison Üniversitesi Extension: ev bitkisi bakımı](https://hort.extension.wisc.edu/articles/houseplant-care/) RHS özellikle özsu emen ve kurtulması zor olan kabuklu bitlere ve unlu bitlere dikkat çekiyor. [RHS: sağlıklı bitki nasıl seçilir](https://www.rhs.org.uk/plants/how-to-choose-healthy-plants) Minnesota Üniversitesi bakılacak yerler olarak yapraklarda ya da rafta yapışkan bal özünü, ince ağları ve saksıların kenarlarını, aralıklarını ve diplerini ekliyor; küçük bir büyüteç işe yarar. [Minnesota Üniversitesi Extension: iç mekân bitkilerindeki böcekler](https://extension.umn.edu/product-and-houseplant-pests/insects-indoor-plants) Her birinin neye benzediğini [yaygın ev bitkisi zararlıları](/guides/houseplant-pests/) rehberi gösteriyor.
+Yaprakların alt yüzlerini ve büyüme uçlarını yakından kontrol et. [Wisconsin–Madison Üniversitesi Extension: ev bitkisi bakımı](https://hort.extension.wisc.edu/articles/houseplant-care/) RHS özellikle özsu emen ve kurtulması zor olan kabuklu bitlere ve unlu bitlere dikkat çekiyor. [RHS: sağlıklı bitki nasıl seçilir](https://www.rhs.org.uk/plants/how-to-choose-healthy-plants) Minnesota Üniversitesi bakılacak yerler olarak yapraklarda ya da rafta yapışkan bal özünü, ince ağları ve saksıların kenarlarını, aralıklarını ve diplerini ekliyor; küçük bir büyüteç işe yarar. [Minnesota Üniversitesi Extension: iç mekân bitkilerindeki böcekler](https://extension.umn.edu/product-and-houseplant-pests/insects-indoor-plants) Her birinin neye benzediğini [yaygın ev bitkisi zararlıları](/tr/guides/houseplant-pests/) rehberi gösteriyor.
 
 ## Saksı ve kökler
 
@@ -34,7 +34,7 @@ Mağaza izin veriyorsa bitkiyi saksısından yavaşça çıkar:
 
 1. **Ayrı tut.** Olası bir zararlı sorunu ortaya çıksın diye yeni bitkiyi bir iki hafta ayrı tut. [Minnesota Üniversitesi Extension: iç mekân bitkilerindeki böcekler](https://extension.umn.edu/product-and-houseplant-pests/insects-indoor-plants) En iyisi ayrı bir oda.
 2. Bu sürenin sonunda yaprak altları ve saksı altlığı dahil **yeniden incele**.
-3. Kökler kötü şekilde dolanmadıkça ya da saksının drenaj deliği yoksa **hemen saksı değiştirme**. Önce evin ışığına ve sıcaklığına alışmasına izin ver; bkz. [ev bitkisinin saksısı ne zaman değiştirilir](/guides/when-to-repot-houseplants/).
+3. Kökler kötü şekilde dolanmadıkça ya da saksının drenaj deliği yoksa **hemen saksı değiştirme**. Önce evin ışığına ve sıcaklığına alışmasına izin ver; bkz. [ev bitkisinin saksısı ne zaman değiştirilir](/tr/guides/when-to-repot-houseplants/).
 4. **Sulamadan önce kontrol et.** Mağaza bitkileri çoğu zaman takvime göre sulanır; toprağı hisset ve yalnızca ihtiyaç olduğunda sula.
 
 Bitkinin seradan daha az ışığa alışırken taşınmadan sonra birkaç yaprak dökmesi yaygındır. Bir iki eski yaprağa üzülmek yerine yeni büyümeyi izle.
@@ -51,4 +51,4 @@ Alabilirsin, ama eve giderken soğuktan koru ve ilkbahara kadar daha yavaş büy
 
 ### Ayrı tutarken zararlı çıkarsa ne yapmalıyım?
 
-Ayrı tutmaya devam et, zararlıyı tanımla ve diğer bitkilerin yanına almadan önce tedavi et. [Zararlılar rehberi](/guides/houseplant-pests/) en az zararlı seçeneklerle başlıyor.
+Ayrı tutmaya devam et, zararlıyı tanımla ve diğer bitkilerin yanına almadan önce tedavi et. [Zararlılar rehberi](/tr/guides/houseplant-pests/) en az zararlı seçeneklerle başlıyor.

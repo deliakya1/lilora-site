@@ -4,7 +4,7 @@ Kışın ev bitkilerinin çoğu daha az ışık alır ve daha yavaş büyür; bu
 
 ## Asıl sınır ışık
 
-<figure style="margin:24px 0"><img src="/assets/images/home/window-hero-v1-960.webp" width="960" height="640" alt="Keten perdeli aydınlık bir pencerenin yanında ahşap tabure üzerinde bir deve tabanı ve beyaz saksıda bir kauçuk bitkisi" loading="lazy" decoding="async" style="display:block;width:100%;height:auto;border-radius:4px"><figcaption style="font-size:14px;margin-top:8px">Lilora için üretilmiş bir illüstrasyon; belirli bir bitkinin fotoğrafı değildir. <a href="/editorial/#imagery">Görseller hakkında</a></figcaption></figure>
+<figure style="margin:24px 0"><img src="/assets/images/home/window-hero-v1-960.webp" width="960" height="640" alt="Keten perdeli aydınlık bir pencerenin yanında ahşap tabure üzerinde bir deve tabanı ve beyaz saksıda bir kauçuk bitkisi" loading="lazy" decoding="async" style="display:block;width:100%;height:auto;border-radius:4px"><figcaption style="font-size:14px;margin-top:8px">Lilora için üretilmiş bir illüstrasyon; belirli bir bitkinin fotoğrafı değildir. <a href="/tr/editorial/#imagery">Görseller hakkında</a></figcaption></figure>
 
 Günler kısalır, güneş alçalır; haziranda aydınlık olan bir köşe aralıkta loş kalabilir. Minnesota Üniversitesi Extension, pencere ışığının yetmediği yerlerde günde yaklaşık 12–14 saat çalışan bir LED bitki lambası gibi ek aydınlatma öneriyor; pencereye doğru eğilen bitkilerin de döndürülmesini tavsiye ediyor. [Minnesota Üniversitesi Extension: kış için ev bitkisi önerileri](https://extension.umn.edu/news/winter-houseplant-tips)
 
@@ -15,7 +15,7 @@ Lamba almadan önce:
 3. Saksıları bir iki haftada bir çeyrek tur döndür.
 4. Yavaş büyümeyi kabullen; yer değişikliğinden sonra birkaç alt yaprağın dökülmesi uyum sürecinin parçası olabilir.
 
-Bir yeri nasıl değerlendireceğini [ev bitkileri için ışık rehberimizde](/guides/indoor-plant-light-guide/) anlattık.
+Bir yeri nasıl değerlendireceğini [ev bitkileri için ışık rehberimizde](/tr/guides/indoor-plant-light-guide/) anlattık.
 
 ## Daha seyrek sula, ama her seferinde kontrol et
 
@@ -27,7 +27,7 @@ Az ışık ve serin odalar daha yavaş büyüme ve daha yavaş kuruma demektir. 
 - Bitki ihtiyaç duyduğunda iyice sula, tabağı boşalt.
 - Oda sıcaklığında su kullan; RHS kışın soğuk su kullanılmamasını öneriyor. [RHS: ev bitkileri nasıl yetiştirilir](https://www.rhs.org.uk/plants/types/houseplants/growing-guide)
 
-Kontrolün tamamı için [fazla mı suladın, az mı?](/guides/overwatering-vs-underwatering/) ve [sabit takvime bağlı kalmadan sulama](/guides/watering-houseplants/) rehberlerine bak.
+Kontrolün tamamı için [fazla mı suladın, az mı?](/tr/guides/overwatering-vs-underwatering/) ve [sabit takvime bağlı kalmadan sulama](/tr/guides/watering-houseplants/) rehberlerine bak.
 
 ## Kalorifer, hava akımı ve soğuk cam
 
@@ -39,11 +39,11 @@ Yaygın ev bitkilerinin çoğu tropik kökenlidir ve sabit bir oda sıcaklığı
 
 ## Kuru hava
 
-Kalorifer yanarken iç mekân havası çoğu zaman en kuru hâlindedir. Su püskürtmek nemi uzun süre artırmaz; nemlendirici ya da bitkileri ısı kaynaklarından uzakta bir araya toplamak biraz daha işe yarar. [Iowa State Üniversitesi Extension: nemi artırma](https://yardandgarden.extension.iastate.edu/faq/how-can-i-raise-relative-humidity-indoors-my-houseplants) Nelerin işe yaradığını [nem rehberimizde](/guides/houseplant-humidity/) anlattık.
+Kalorifer yanarken iç mekân havası çoğu zaman en kuru hâlindedir. Su püskürtmek nemi uzun süre artırmaz; nemlendirici ya da bitkileri ısı kaynaklarından uzakta bir araya toplamak biraz daha işe yarar. [Iowa State Üniversitesi Extension: nemi artırma](https://yardandgarden.extension.iastate.edu/faq/how-can-i-raise-relative-humidity-indoors-my-houseplants) Nelerin işe yaradığını [nem rehberimizde](/tr/guides/houseplant-humidity/) anlattık.
 
 ## Beslemeyi ve saksı değişimini ertele
 
-Büyüme yavaşladığı için bitkilerin çoğu kışın çok az gübreye ihtiyaç duyar ya da hiç duymaz. [Illinois Üniversitesi Extension: ev bitkisi bakımı](https://extension.illinois.edu/houseplants/care) İlkbaharda yeni sürgünler göründüğünde yeniden başla; [ev bitkilerini beslemek](/guides/fertilizing-houseplants/) rehberine bak.
+Büyüme yavaşladığı için bitkilerin çoğu kışın çok az gübreye ihtiyaç duyar ya da hiç duymaz. [Illinois Üniversitesi Extension: ev bitkisi bakımı](https://extension.illinois.edu/houseplants/care) İlkbaharda yeni sürgünler göründüğünde yeniden başla; [ev bitkilerini beslemek](/tr/guides/fertilizing-houseplants/) rehberine bak.
 
 Acil bir kök sorunu yoksa saksı değişimini de büyüme mevsimine bırakmak en iyisi. [Clemson Üniversitesi Extension: ev bitkilerini yeniden saksılama](https://hgic.clemson.edu/factsheet/indoor-plants-transplanting-repotting/)
 

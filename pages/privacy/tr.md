@@ -66,5 +66,5 @@
 <p>Yeni bir sürüm verilerin işlenişini değiştirirse politika o sürüm yayınlanmadan önce güncellenir ve yukarıdaki tarih değiştirilir.</p>
 </section>
 <section aria-labelledby="contact"><h2 id="contact">İletişim</h2>
-<p>Gizlilik soruların ve başvuruların için <a href="mailto:support@lilora.app">support@lilora.app</a> adresine yazabilirsin. Uygulama yardımı için <a href="/support/">Destek</a> sayfasına bakabilirsin.</p></section>
+<p>Gizlilik soruların ve başvuruların için <a href="mailto:support@lilora.app">support@lilora.app</a> adresine yazabilirsin. Uygulama yardımı için <a href="/tr/support/">Destek</a> sayfasına bakabilirsin.</p></section>
 </article>

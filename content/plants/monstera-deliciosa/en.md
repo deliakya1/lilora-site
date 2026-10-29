@@ -6,13 +6,13 @@ Monstera is a climbing aroid native from Mexico to Panama. Indoors it needs mode
 
 NC State Extension describes monstera as preferring moderate brightness rather than direct sun. A position a short distance from an east or west window, or a bright room where sunbeams do not sit on the leaves, usually works. Variegated cultivars need more light than plain green ones. [NC State Extension](https://plants.ces.ncsu.edu/plants/monstera-deliciosa/)
 
-Leaves without splits on a mature plant, or long bare stems leaning toward the window, can point to too little light. See the [indoor light guide](/en/guides/indoor-plant-light-guide/) for observing a spot.
+Leaves without splits on a mature plant, or long bare stems leaning toward the window, can point to too little light. See the [indoor light guide](/guides/indoor-plant-light-guide/) for observing a spot.
 
 ## How to check before watering
 
 Water thoroughly, then let roughly the top quarter to a third of the mix dry before the next watering. In a 20 cm deep pot, that means checking several centimetres down, not just the surface. A wooden skewer pushed gently into the mix helps: damp particles clinging to it mean wait. [NC State Extension](https://plants.ces.ncsu.edu/plants/monstera-deliciosa/)
 
-After watering, let surplus water drain and empty any outer pot. The [watering guide](/en/guides/watering-houseplants/) explains why checks beat a fixed calendar.
+After watering, let surplus water drain and empty any outer pot. The [watering guide](/guides/watering-houseplants/) explains why checks beat a fixed calendar.
 
 ## Potting mix and pot
 
@@ -30,7 +30,7 @@ Feed during spring and summer with a balanced houseplant fertilizer at the label
 
 NC State gives no separate winter schedule, so keep using the same check: water thoroughly, then wait until roughly the top quarter to third of the mix is dry. With shorter days and cooler rooms that usually takes longer, so checks come further apart. Keep the plant within its preferred 16–29 °C (60–85 °F), away from cold glass and hot air from heaters. Leave pruning and repotting for spring, as NC State suggests. [NC State Extension](https://plants.ces.ncsu.edu/plants/monstera-deliciosa/)
 
-In summer, a sunny window can become too strong; move it back if sunbeams sit on the leaves for hours. The [winter care guide](/en/guides/winter-houseplant-care/) covers draughts and heating. In Lilora, a reminder is a prompt to check, not an order to water: you record whether you watered or snoozed, so slower drying in the cold months shows up in your own history.
+In summer, a sunny window can become too strong; move it back if sunbeams sit on the leaves for hours. The [winter care guide](/guides/winter-houseplant-care/) covers draughts and heating. In Lilora, a reminder is a prompt to check, not an order to water: you record whether you watered or snoozed, so slower drying in the cold months shows up in your own history.
 
 ## Common problems
 
@@ -38,7 +38,7 @@ In summer, a sunny window can become too strong; move it back if sunbeams sit on
 - **Brown, crisp patches:** possible sun scorch if it stands in direct sun.
 - **Scale insects:** NC State lists fern scale as a common pest; check stems and leaf undersides.
 
-The [yellow-leaf checks](/en/guides/yellow-houseplant-leaves/) help you look at the whole pattern.
+The [yellow-leaf checks](/guides/yellow-houseplant-leaves/) help you look at the whole pattern.
 
 ## Propagation
 
@@ -46,7 +46,7 @@ NC State lists stem cuttings and layering. A cutting needs a node, ideally with 
 
 ## Pets and people
 
-The [ASPCA Animal Poison Control Center](https://www.aspca.org/) lists monstera (also called cutleaf philodendron) as toxic to cats and dogs because of insoluble calcium oxalates. The signs it lists are oral irritation, intense burning and irritation of the mouth, tongue and lips, excessive drooling, vomiting and difficulty swallowing. NC State adds that the sap may irritate skin. If a pet chews it, contact a veterinarian or an animal poison control service. For people in Türkiye, the poison information line is 114 (UZEM). This is general information, not veterinary or medical advice. To compare other plants, see the [pet-safe houseplants guide](/en/guides/pet-safe-houseplants/) or the [non-toxic profiles in the plant library](/en/plants/#petNonToxic).
+The [ASPCA Animal Poison Control Center](https://www.aspca.org/) lists monstera (also called cutleaf philodendron) as toxic to cats and dogs because of insoluble calcium oxalates. The signs it lists are oral irritation, intense burning and irritation of the mouth, tongue and lips, excessive drooling, vomiting and difficulty swallowing. NC State adds that the sap may irritate skin. If a pet chews it, contact a veterinarian or an animal poison control service. For people in Türkiye, the poison information line is 114 (UZEM). This is general information, not veterinary or medical advice. To compare other plants, see the [pet-safe houseplants guide](/guides/pet-safe-houseplants/) or the [non-toxic profiles in the plant library](/plants/#petNonToxic).
 
 ## Common questions
 

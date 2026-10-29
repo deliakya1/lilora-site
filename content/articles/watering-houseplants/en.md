@@ -53,4 +53,4 @@ They can share a check-in day. Decide separately whether each plant needs water,
 
 “Check the potting mix” is a useful prompt. Add water only after the check supports it. Keep a short note when you skip watering so the record reflects what actually happened.
 
-If someone else also cares for your plants, use one record and agree who checks next. Our [shared plant-care guide](https://lilora.app/en/guides/shared-plant-care/) explains how to distinguish a check, watering, and a postponed reminder.
+If someone else also cares for your plants, use one record and agree who checks next. Our [shared plant-care guide](https://lilora.app/guides/shared-plant-care/) explains how to distinguish a check, watering, and a postponed reminder.

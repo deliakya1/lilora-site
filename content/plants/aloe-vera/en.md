@@ -6,13 +6,13 @@ Aloe vera is a succulent from the Arabian Peninsula. It needs the sunniest spot 
 
 Grow it in full sun to partial shade. The RHS describes aloes as enjoying full sun and dry conditions, such as a sunny windowsill. In too little light, leaves become pale, thin and floppy and the rosette stretches. If moving an aloe from shade into strong sun, do it over a week or two to avoid scorch. [NC State Extension](https://plants.ces.ncsu.edu/plants/aloe-vera/) · [RHS](https://www.rhs.org.uk/getmedia/d02059a1-4e2c-45c3-956b-da5cc90db7f1/Indoor-plants-resources.pdf)
 
-The [indoor light guide](/en/guides/indoor-plant-light-guide/) helps you find the brightest position.
+The [indoor light guide](/guides/indoor-plant-light-guide/) helps you find the brightest position.
 
 ## How to check before watering
 
 Allow the mix to dry completely between waterings, and water less often in winter; the RHS says hardly at all. Check down to the bottom of the pot with a wooden skewer, or lift the pot: a dry aloe pot is noticeably light. Then water thoroughly and let all the excess drain. [NC State Extension](https://plants.ces.ncsu.edu/plants/aloe-vera/) · [RHS](https://www.rhs.org.uk/getmedia/d02059a1-4e2c-45c3-956b-da5cc90db7f1/Indoor-plants-resources.pdf)
 
-Firm, plump leaves usually mean the plant has reserves. The [watering guide](/en/guides/watering-houseplants/) explains moisture checks.
+Firm, plump leaves usually mean the plant has reserves. The [watering guide](/guides/watering-houseplants/) explains moisture checks.
 
 ## Potting mix and pot
 
@@ -32,7 +32,7 @@ The RHS suggests a liquid feed once a month during the growing season (April to 
 - **Pale, stretched growth:** too little light.
 - **Pests:** NC State lists mealybugs and aphids; it also mentions scale, leaf spot, aloe rust and sooty mould.
 
-See the [yellow-leaf checks](/en/guides/yellow-houseplant-leaves/) for a broader approach.
+See the [yellow-leaf checks](/guides/yellow-houseplant-leaves/) for a broader approach.
 
 ## Propagation
 

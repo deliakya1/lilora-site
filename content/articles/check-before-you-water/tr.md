@@ -4,7 +4,7 @@ Takvim bitkini göremez. Aynı bitki sıcak ve aydınlık bir temmuzda beş gün
 
 ## “Her pazar sula” düzeninin sorunu
 
-<figure style="margin:24px 0"><img src="/assets/images/home/shared-table-v1-960.webp" width="960" height="640" alt="Güneşli bir pencerenin yanında yuvarlak ahşap masada saksıda bir kauçuk bitkisi ve iki seramik kupa" loading="lazy" decoding="async" style="display:block;width:100%;height:auto;border-radius:4px"><figcaption style="font-size:14px;margin-top:8px">Lilora için üretilmiş bir illüstrasyon; belirli bir bitkinin fotoğrafı değildir. <a href="/editorial/#imagery">Görseller hakkında</a></figcaption></figure>
+<figure style="margin:24px 0"><img src="/assets/images/home/shared-table-v1-960.webp" width="960" height="640" alt="Güneşli bir pencerenin yanında yuvarlak ahşap masada saksıda bir kauçuk bitkisi ve iki seramik kupa" loading="lazy" decoding="async" style="display:block;width:100%;height:auto;border-radius:4px"><figcaption style="font-size:14px;margin-top:8px">Lilora için üretilmiş bir illüstrasyon; belirli bir bitkinin fotoğrafı değildir. <a href="/tr/editorial/#imagery">Görseller hakkında</a></figcaption></figure>
 
 Sabit takvimler cazip, çünkü akılda tutması kolay. Ama bir saksının ne kadar hızlı kuruduğu bitkiye, saksının boyutuna ve malzemesine, harca, ışığa, sıcaklığa ve mevsime bağlıdır. Örneğin RHS, kalorifer nemi düşürdüğünde saksıların daha hızlı kuruduğunu, serin odalardaki bitkilerin ise daha seyrek sulanması gerektiğini belirtiyor. [RHS: ev bitkileri nasıl yetiştirilir](https://www.rhs.org.uk/plants/types/houseplants/growing-guide)
 
@@ -21,7 +21,7 @@ Bir kontrol bir dakikadan kısa sürer:
 
 Maryland Üniversitesi Extension hem dokunma hem ağırlık yöntemini anlatıyor: bitki suyu kullandıkça harç kurur ve saksı hafifler. [Maryland Üniversitesi Extension: ev bitkilerini sulama](https://www.extension.umd.edu/resource/watering-indoor-plants) Sulayacaksan fazla su süzülene kadar sula, sonra tabağı boşalt. [Illinois Üniversitesi Extension: sulama](https://extension.illinois.edu/houseplants/watering)
 
-Daha uzun rehberimiz [sabit takvime bağlı kalmadan sulama](/guides/watering-houseplants/) bunu adım adım anlatıyor; bir bitki zaten keyifsiz görünüyorsa [fazla mı suladın, az mı?](/guides/overwatering-vs-underwatering/) rehberi yardımcı olur.
+Daha uzun rehberimiz [sabit takvime bağlı kalmadan sulama](/tr/guides/watering-houseplants/) bunu adım adım anlatıyor; bir bitki zaten keyifsiz görünüyorsa [fazla mı suladın, az mı?](/tr/guides/overwatering-vs-underwatering/) rehberi yardımcı olur.
 
 ## Uygulamada bu nasıl görünüyor
 
@@ -35,9 +35,9 @@ Tek düğme “Suladım” olsaydı, su verilmeden biten bir kontrol iz bırakma
 
 - Kışın art arda gelen “Kontrol ettim, suya ihtiyacı yok” kayıtları bir başarısızlık değil, olağan bir durumdur.
 - Bir bitki her kontrolde suya ihtiyaç duyuyorsa kontrol aralığına veya saksıya bakmaya değer.
-- Bitki kötüleşirken saksı kontrolden kontrole ıslak kalıyorsa drenaja ve köklere bakma zamanı gelmiştir; [ev bitkilerinde kök çürüklüğü](/guides/root-rot/) rehberine bak.
+- Bitki kötüleşirken saksı kontrolden kontrole ıslak kalıyorsa drenaja ve köklere bakma zamanı gelmiştir; [ev bitkilerinde kök çürüklüğü](/tr/guides/root-rot/) rehberine bak.
 
-Ortak bir evde bu daha da önemlidir. Sıradaki kişi, birinin bu sabah zaten baktığını ve harcın hâlâ nemli olduğuna karar verdiğini görebilir. Bu konuyu [bitki bakımını paylaşmak](/guides/shared-plant-care/) rehberimizde anlattık.
+Ortak bir evde bu daha da önemlidir. Sıradaki kişi, birinin bu sabah zaten baktığını ve harcın hâlâ nemli olduğuna karar verdiğini görebilir. Bu konuyu [bitki bakımını paylaşmak](/tr/guides/shared-plant-care/) rehberimizde anlattık.
 
 ## Bir hatırlatmanın yapamayacakları
 

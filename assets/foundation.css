@@ -63,6 +63,8 @@ summary {
   border: 1px solid var(--color-border-default);
   box-shadow: 0 6px 18px #1e26201a;
   gap: 0;
+  max-height: min(70vh, 30rem);
+  overflow-y: auto;
 }
 .language-picker a[aria-current] {
   text-decoration: underline;
@@ -537,3 +539,15 @@ body:has(.mobile-menu[open]) .back-to-top{display:none}
 @media (max-width:380px){.document-heading h1,.collection-heading h1{font-size:36px}}
 /* Tablet header: the app-language note lives in the menu and footer; keep the bar one line. */
 @media (min-width:768px) and (max-width:1199px){.header-tools>.app-cta .app-language-note{display:none}}
+
+/* Keep script-specific glyphs and line breaking readable without large web fonts. */
+html:lang(ja){--font-text:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;--font-display:Newsreader,"Hiragino Mincho ProN","Yu Mincho",serif}
+html:lang(ko){--font-text:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;--font-display:Newsreader,"AppleMyungjo","Batang",serif;word-break:keep-all;overflow-wrap:anywhere}
+html:lang(zh-Hant){--font-text:-apple-system,BlinkMacSystemFont,"PingFang TC","Microsoft JhengHei",sans-serif;--font-display:Newsreader,"Songti TC","PMingLiU",serif}
+html:lang(ja) h1,html:lang(ja) h2,html:lang(ja) h3,html:lang(ko) h1,html:lang(ko) h2,html:lang(ko) h3,html:lang(zh-Hant) h1,html:lang(zh-Hant) h2,html:lang(zh-Hant) h3{line-height:1.35;letter-spacing:normal;overflow-wrap:anywhere}
+html:lang(ja),html:lang(zh-Hant){line-break:strict}
+.flag-ja,.flag-ko,.flag-it,.flag-zh-Hant{display:inline-grid;place-items:center;background:none;line-height:1;font-family:var(--font-text);font-size:20px}
+.flag-ja::before{content:"🇯🇵"}.flag-ko::before{content:"🇰🇷"}.flag-it::before{content:"🇮🇹"}
+/* A writing system has no single national flag. */
+.flag-zh-Hant::before{content:"文";font-size:16px;color:var(--color-text-primary)}
+.footer-language>nav{max-height:min(70vh,30rem);overflow-y:auto}

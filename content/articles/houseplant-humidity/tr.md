@@ -4,7 +4,7 @@ Yaprakları su püskürtmek pek işe yaramaz: su dakikalar içinde buharlaşır 
 
 ## Bitkinin gerçekten daha fazla neme ihtiyacı var mı
 
-<figure style="margin:24px 0"><img src="/assets/images/home/plant-shelf-v1-960.webp" width="960" height="640" alt="Alçak meşe bir rafta yan yana beyaz saksıda sarkan bir salon sarmaşığı ve pişmiş toprak saksıda bir kauçuk bitkisi" loading="lazy" decoding="async" style="display:block;width:100%;height:auto;border-radius:4px"><figcaption style="font-size:14px;margin-top:8px">Lilora için üretilmiş bir illüstrasyon; belirli bir bitkinin fotoğrafı değildir. <a href="/editorial/#imagery">Görseller hakkında</a></figcaption></figure>
+<figure style="margin:24px 0"><img src="/assets/images/home/plant-shelf-v1-960.webp" width="960" height="640" alt="Alçak meşe bir rafta yan yana beyaz saksıda sarkan bir salon sarmaşığı ve pişmiş toprak saksıda bir kauçuk bitkisi" loading="lazy" decoding="async" style="display:block;width:100%;height:auto;border-radius:4px"><figcaption style="font-size:14px;margin-top:8px">Lilora için üretilmiş bir illüstrasyon; belirli bir bitkinin fotoğrafı değildir. <a href="/tr/editorial/#imagery">Görseller hakkında</a></figcaption></figure>
 
 Kahverengi, kuru yaprak uçları genellikle kuru havaya bağlanır, ama düzensiz sulama, gübre tuzları ve soğuk hava akımları da aynı sonucu verir. Önce bunlara bak. [Iowa State Üniversitesi Extension](https://yardandgarden.extension.iastate.edu/how-to/diagnosing-houseplant-problems-related-poor-culture)
 
@@ -32,11 +32,11 @@ Bitkileri bir araya toplamak da aynı ilkeyle çalışır: yapraklar su buharı 
 4. Bir grup bitki için oda nemlendiricisi kullan ve talimatına göre temizle.
 5. Küçük ve çok hassas bitkiler için kapalı bir cam fanus veya teraryum nemi yüksek tutar. Buğulanma ve küfe dikkat et, ara sıra havalandır.
 
-RHS nemi; ışık, sıcaklık ve sulamayla birlikte bir bitkiyi doğru yere yerleştirmenin parçası olarak sayıyor. [RHS: ev bitkileri nasıl yetiştirilir](https://www.rhs.org.uk/plants/types/houseplants/growing-guide) [Ev bitkileri için ışık rehberimiz](/guides/indoor-plant-light-guide/), iki açıdan da uygun bir yer seçmene yardım eder.
+RHS nemi; ışık, sıcaklık ve sulamayla birlikte bir bitkiyi doğru yere yerleştirmenin parçası olarak sayıyor. [RHS: ev bitkileri nasıl yetiştirilir](https://www.rhs.org.uk/plants/types/houseplants/growing-guide) [Ev bitkileri için ışık rehberimiz](/tr/guides/indoor-plant-light-guide/), iki açıdan da uygun bir yer seçmene yardım eder.
 
 ## Kalorifer mevsimi ve nem
 
-Isıtma çalıştığında iç mekân havası genellikle kurur. Kuzey Yarımküre’de bu dönem çoğunlukla ekim veya kasımdan marta kadar sürer; Güney Yarımküre’de kabaca mayıs–eylül arasıdır. Isıtma olmayan sıcak iklimlerde sorun klima olabilir. Isıtıcının yanındaki saksılar da daha hızlı kuruyabilir; bu yüzden takvime göre sulamak yerine harcı kontrol etmeye devam et. [Kışın ev bitkisi bakımı](/guides/winter-houseplant-care/) ve [sabit takvime bağlı kalmadan sulama](/guides/watering-houseplants/) rehberlerine bak.
+Isıtma çalıştığında iç mekân havası genellikle kurur. Kuzey Yarımküre’de bu dönem çoğunlukla ekim veya kasımdan marta kadar sürer; Güney Yarımküre’de kabaca mayıs–eylül arasıdır. Isıtma olmayan sıcak iklimlerde sorun klima olabilir. Isıtıcının yanındaki saksılar da daha hızlı kuruyabilir; bu yüzden takvime göre sulamak yerine harcı kontrol etmeye devam et. [Kışın ev bitkisi bakımı](/tr/guides/winter-houseplant-care/) ve [sabit takvime bağlı kalmadan sulama](/tr/guides/watering-houseplants/) rehberlerine bak.
 
 Kahverengi uçlar belirirse odayı, tarihi ve neyin değiştiğini not et. Haftalar içindeki bir örüntü, tek bir yapraktan daha çok şey anlatır.
 
@@ -56,4 +56,4 @@ Makul seviyede çalıştırıldığında yapmamalı, ama pencere ve duvarlarda b
 
 ### Bitkimin yaprak kenarları neden hâlâ kahverengi?
 
-Nem olası nedenlerden yalnızca biri. [Sararan yapraklarda neye bakmalı](/guides/yellow-houseplant-leaves/) rehberini oku ve sulamaya ve gübreye de bak.
+Nem olası nedenlerden yalnızca biri. [Sararan yapraklarda neye bakmalı](/tr/guides/yellow-houseplant-leaves/) rehberini oku ve sulamaya ve gübreye de bak.

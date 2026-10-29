@@ -6,13 +6,13 @@ Ficus lyrata, büyük ve keman biçimli yaprakları için evde yetiştirilen, Ba
 
 Parlak dolaylı ışığı sever ve sert öğleden sonra güneşinden korunmaktan fayda görür. RHS, bazı ficusların özellikle kışın birkaç saatlik sabah veya akşam güneşine dayanabildiğini belirtiyor. Az ışık yavaş büyümeye ve yaprak dökmeye, sıcak güneşe ani geçiş de yanığa yol açar. [NC State Extension](https://plants.ces.ncsu.edu/plants/ficus-lyrata/) · [RHS](https://www.rhs.org.uk/plants/ornamental-figs/growing-guide)
 
-[Işık rehberine](/guides/indoor-plant-light-guide/) bak.
+[Işık rehberine](/tr/guides/indoor-plant-light-guide/) bak.
 
 ## Sulamadan önce kontrol
 
 İlkbahar ve yazın harç biraz kuruyunca oda sıcaklığında suyla sula; kışın harcı ancak hafif nemli tut. NC State bitkiyi fazla suya hassas olarak tanımlıyor; RHS de ficuslarda yaprak dökmenin en yaygın nedeninin fazla sulama olduğunu söylüyor. Birkaç santimetre derine bak, mümkünse saksıyı kaldır. [RHS](https://www.rhs.org.uk/plants/ornamental-figs/growing-guide)
 
-Nem kontrolünü [sulama rehberimiz](/guides/watering-houseplants/) anlatıyor.
+Nem kontrolünü [sulama rehberimiz](/tr/guides/watering-houseplants/) anlatıyor.
 
 ## Harç ve saksı
 
@@ -33,7 +33,7 @@ RHS ilkbahardan yaz sonuna kadar etiketteki dozda azotu yüksek bir gübre öner
 - **Kahverengi lekeler:** menfez yakınındaki sıcaklık dalgalanmaları ya da fazla su; köklere bak.
 - **Zararlılar:** kabuklu bit, yaprak biti, unlu bit, trips ve kırmızı örümcek.
 
-Harekete geçmeden önce [sararan yaprak kontrollerini](/guides/yellow-houseplant-leaves/) uygula.
+Harekete geçmeden önce [sararan yaprak kontrollerini](/tr/guides/yellow-houseplant-leaves/) uygula.
 
 ## Çoğaltma
 

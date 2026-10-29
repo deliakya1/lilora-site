@@ -16,7 +16,7 @@ Buraya fotoğraf eklemedik. Zararlıyı tanımak doğru ve yakın çekim görün
 
 **Ne yaparlar:** erginler bitkiye zarar vermez, yalnızca rahatsız eder. Larvalar esas olarak mantarlar ve çürüyen organik maddeyle beslenir; yine de zaman zaman fidelere ve genç çeliklere zarar verebilir. Nemli harçla ilişkilidirler. [RHS: mantar sinekleri](https://www.rhs.org.uk/biodiversity/fungus-gnats)
 
-**En az zararlı adımlar:** yeniden sulamadan önce harcın bitkiye uygun seviyeye kadar kurumasını bekle ve tabakları boşalt. Sarı yapışkan tuzaklar erginleri yakalar ve sayının azalıp azalmadığını gösterir. [Minnesota Üniversitesi Extension: ev bitkisi zararlıları](https://extension.umn.edu/news/houseplant-pests) Sinekler geri geliyorsa saksının suyu iyi geçirip geçirmediğine bak; [fazla mı suladın, az mı?](/guides/overwatering-vs-underwatering/) rehberine göz at.
+**En az zararlı adımlar:** yeniden sulamadan önce harcın bitkiye uygun seviyeye kadar kurumasını bekle ve tabakları boşalt. Sarı yapışkan tuzaklar erginleri yakalar ve sayının azalıp azalmadığını gösterir. [Minnesota Üniversitesi Extension: ev bitkisi zararlıları](https://extension.umn.edu/news/houseplant-pests) Sinekler geri geliyorsa saksının suyu iyi geçirip geçirmediğine bak; [fazla mı suladın, az mı?](/tr/guides/overwatering-vs-underwatering/) rehberine göz at.
 
 ## Kırmızı örümcek
 
@@ -57,9 +57,9 @@ Buraya fotoğraf eklemedik. Zararlıyı tanımak doğru ve yakın çekim görün
 
 Ürünler, etken maddeleri ve yasal kullanım koşulları ülkeden ülkeye değişir. Doz vermiyoruz: güvenilir tek talimat, satın aldığın ürünün etiketidir. Ürünleri çocuklardan ve evcil hayvanlardan uzak tut. Biri yutarsa bir doktora veya veterinere başvur; Türkiye’de insanlarla ilgili zehirlenmelerde 114 Ulusal Zehir Danışma Merkezi’ni (UZEM) arayabilirsin. Bu genel bilgidir; veteriner veya tıbbi tavsiye değildir.
 
-Bitkinin yaprakları da sararıyorsa [sararan yapraklarda neye bakmalı](/guides/yellow-houseplant-leaves/) rehberini de uygula. Yazdan sonra içeri alınan bitkiler ek kontrol ister; [ev bitkileri için sonbahar düzeni](/blog/autumn-plant-reset/) yazımıza bak.
+Bitkinin yaprakları da sararıyorsa [sararan yapraklarda neye bakmalı](/tr/guides/yellow-houseplant-leaves/) rehberini de uygula. Yazdan sonra içeri alınan bitkiler ek kontrol ister; [ev bitkileri için sonbahar düzeni](/tr/blog/autumn-plant-reset/) yazımıza bak.
 
-Evinde kedi veya köpek varsa yeni bitki seçmeden önce [ev bitkileri ve evcil hayvanlar](/guides/pet-safe-houseplants/) rehberimizi de oku.
+Evinde kedi veya köpek varsa yeni bitki seçmeden önce [ev bitkileri ve evcil hayvanlar](/tr/guides/pet-safe-houseplants/) rehberimizi de oku.
 
 ## Sık sorulan sorular
 

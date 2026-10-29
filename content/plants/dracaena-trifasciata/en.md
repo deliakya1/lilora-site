@@ -6,13 +6,13 @@ Snake plant, long sold as *Sansevieria trifasciata*, is now placed in *Dracaena*
 
 Snake plant tolerates very low light, which makes it useful for hallways and rooms away from windows. It still grows more steadily with brighter light, including some direct sun. If you move a plant from a dim corner to a sunny sill, do it gradually so the leaves are not scorched. [NC State Extension](https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/)
 
-The [indoor light guide](/en/guides/indoor-plant-light-guide/) explains why “low light” never means “no light”.
+The [indoor light guide](/guides/indoor-plant-light-guide/) explains why “low light” never means “no light”.
 
 ## How to check before watering
 
 From spring to autumn, let the mix dry between waterings. Check deep in the pot, not just the top: the whole root zone should feel dry and the pot light. In winter, NC State suggests watering only every one to two months; use that as an upper guide and still check first. [NC State Extension](https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/)
 
-When you water, soak the mix and let it drain completely. Never leave the pot standing in water. The [watering guide](/en/guides/watering-houseplants/) shows how to read pot weight.
+When you water, soak the mix and let it drain completely. Never leave the pot standing in water. The [watering guide](/guides/watering-houseplants/) shows how to read pot weight.
 
 ## Potting mix and pot
 
@@ -30,7 +30,7 @@ Growth is slow, so feeding needs are modest. A light feed with houseplant fertil
 
 In the growing season, let the mix dry between waterings. NC State says that in winter it may need water only every one to two months; treat that as a sign of how slowly it dries, not as a calendar, and still check that the whole root zone is dry first. It tolerates cool rooms around 10 °C (50 °F) and dry air, but overwatering rots the roots, and cold, wet mix is the riskiest combination. [NC State Extension](https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/)
 
-NC State lists 2 to 6 hours of direct sun for part of the day as ideal, while the plant also copes with dim spots, where it grows and dries more slowly. See the [winter care guide](/en/guides/winter-houseplant-care/). In Lilora, a reminder is a prompt to check, not an order to water: you record whether you watered or snoozed, so slower drying in the cold months shows up in your own history.
+NC State lists 2 to 6 hours of direct sun for part of the day as ideal, while the plant also copes with dim spots, where it grows and dries more slowly. See the [winter care guide](/guides/winter-houseplant-care/). In Lilora, a reminder is a prompt to check, not an order to water: you record whether you watered or snoozed, so slower drying in the cold months shows up in your own history.
 
 ## Common problems
 
@@ -38,7 +38,7 @@ NC State lists 2 to 6 hours of direct sun for part of the day as ideal, while th
 - **Mealybugs and spider mites:** inspect the leaf bases.
 - **Wrinkled leaves:** can follow a long dry spell, but check the roots before watering heavily.
 
-See the [yellow-leaf checks](/en/guides/yellow-houseplant-leaves/) before changing care.
+See the [yellow-leaf checks](/guides/yellow-houseplant-leaves/) before changing care.
 
 ## Propagation
 
@@ -46,7 +46,7 @@ Divide an overcrowded clump at repotting time, giving each piece roots and leave
 
 ## Pets and people
 
-The [ASPCA Animal Poison Control Center](https://www.aspca.org/) lists snake plant (mother-in-law’s tongue) as toxic to cats and dogs. It names saponins as the toxic principle and lists nausea, vomiting and diarrhoea as signs. If a pet chews it, contact a veterinarian or an animal poison control service. For people in Türkiye, the poison information line is 114 (UZEM). This is general information, not veterinary or medical advice. To compare other plants, see the [pet-safe houseplants guide](/en/guides/pet-safe-houseplants/) or the [non-toxic profiles in the plant library](/en/plants/#petNonToxic).
+The [ASPCA Animal Poison Control Center](https://www.aspca.org/) lists snake plant (mother-in-law’s tongue) as toxic to cats and dogs. It names saponins as the toxic principle and lists nausea, vomiting and diarrhoea as signs. If a pet chews it, contact a veterinarian or an animal poison control service. For people in Türkiye, the poison information line is 114 (UZEM). This is general information, not veterinary or medical advice. To compare other plants, see the [pet-safe houseplants guide](/guides/pet-safe-houseplants/) or the [non-toxic profiles in the plant library](/plants/#petNonToxic).
 
 ## Common questions
 

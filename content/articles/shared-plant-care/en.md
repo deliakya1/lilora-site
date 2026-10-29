@@ -26,7 +26,7 @@ Use a small, consistent vocabulary:
 
 This distinction matters because a reminder's date cannot establish that a plant needs water. Moisture requirements and growing conditions vary, so check the potting mix against the needs of that plant. [University of Maryland Extension: watering indoor plants](https://www.extension.umd.edu/resource/watering-indoor-plants)
 
-For a practical moisture-check routine, see our guide to [watering houseplants without a rigid schedule](https://lilora.app/en/guides/watering-houseplants/).
+For a practical moisture-check routine, see our guide to [watering houseplants without a rigid schedule](https://lilora.app/guides/watering-houseplants/).
 
 For ordinary draining pots, finish by letting surplus water escape and emptying collected runoff. A short note such as “watered; outer pot emptied” records the completed job. [Illinois Extension: watering](https://extension.illinois.edu/houseplants/watering)
 
@@ -48,7 +48,7 @@ If nobody remembers the last watering, inspect the mix and ask the other caretak
 
 An overdue reminder also needs a fresh check. Do not try to compensate for missed dates with several waterings. Record the current observation, decide what the plant needs now, and agree who will check next.
 
-If a leaf has changed colour, work through these [yellow-leaf checks](https://lilora.app/en/guides/yellow-houseplant-leaves/) before deciding what to change.
+If a leaf has changed colour, work through these [yellow-leaf checks](https://lilora.app/guides/yellow-houseplant-leaves/) before deciding what to change.
 
 ## Leave a short handover before going away
 
@@ -82,8 +82,8 @@ No. A postponed reminder says nothing about its condition unless someone inspect
 
 ## Bring the shared record together with Lilora
 
-Lilora brings shared plants, rooms, photos, notes, and care history together, including who recorded care and when. Match checked and watered entries to what happened. Snoozing postpones a reminder; it does not create a completed care entry. The main caretaker and backup remain your household agreement. [Explore Lilora](https://lilora.app/en/) for product information and current availability.
+Lilora brings shared plants, rooms, photos, notes, and care history together, including who recorded care and when. Match checked and watered entries to what happened. Snoozing postpones a reminder; it does not create a completed care entry. The main caretaker and backup remain your household agreement. [Explore Lilora](https://lilora.app/) for product information and current availability.
 
 ## Related reading
 
-[Explore all plant-care guides](https://lilora.app/en/guides/) for practical advice on watering, light, repotting, and observing changes.
+[Explore all plant-care guides](https://lilora.app/guides/) for practical advice on watering, light, repotting, and observing changes.

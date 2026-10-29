@@ -6,13 +6,13 @@ Kalatya adıyla satılan bitkilerin çoğu bugün *Goeppertia* cinsinde; birço�
 
 Dolaylı, orta ile az ışık ver. Doğrudan güneş desenli yaprakları yakar ve soldurur. Güneş huzmesinden uzak aydınlık bir oda ya da kuzey penceresi çoğu zaman uygundur. Yapraklar gece yukarı katlanıp gündüz açılır; aileye “dua bitkisi” adını veren de bu harekettir. [NC State Extension](https://plants.ces.ncsu.edu/plants/goeppertia/)
 
-Bir yeri kontrol etmek için [ışık rehberini](/guides/indoor-plant-light-guide/) kullan.
+Bir yeri kontrol etmek için [ışık rehberini](/tr/guides/indoor-plant-light-guide/) kullan.
 
 ## Sulamadan önce kontrol
 
 Harcı nemli ve iyi süzülen bir durumda tut; ıslak ya da çamur gibi olmasın. Yüzeyi sık kontrol et: bütün saksı kurumadan, harcın üstü kurumaya başlar başlamaz sula. NC State yaprakları zedeleyebilen musluk suyu yerine damıtılmış su ya da yağmur suyu öneriyor. [NC State Extension](https://plants.ces.ncsu.edu/plants/goeppertia/)
 
-Kıvrılan ya da sararan yapraklar az suya; çürüyen gövdeyle birlikte sarkma ise fazla suya ya da soğuğa işaret edebilir. Harekete geçmeden önce harcı kontrol et. Nasıl yapacağını [sulama rehberi](/guides/watering-houseplants/) anlatıyor.
+Kıvrılan ya da sararan yapraklar az suya; çürüyen gövdeyle birlikte sarkma ise fazla suya ya da soğuğa işaret edebilir. Harekete geçmeden önce harcı kontrol et. Nasıl yapacağını [sulama rehberi](/tr/guides/watering-houseplants/) anlatıyor.
 
 ## Harç ve saksı
 
@@ -33,7 +33,7 @@ Yaklaşık 18–24 °C'yi hedefle; ani sıcaklık değişimlerinden ve cereyanda
 - **Çürüyen gövdeler ve sarkma:** fazla su ya da soğuk.
 - **Zararlılar:** kırmızı örümcek, unlu bit, kabuklu bit ve yaprak biti. Durgun, nemli havada kurşuni küf görülebilir; etkilenen kısımları çıkar ve havalandırmayı artır.
 
-[Sararan yaprak kontrolleri](/guides/yellow-houseplant-leaves/) birkaç ipucunu birlikte değerlendirmene yardım eder.
+[Sararan yaprak kontrolleri](/tr/guides/yellow-houseplant-leaves/) birkaç ipucunu birlikte değerlendirmene yardım eder.
 
 ## Çoğaltma
 

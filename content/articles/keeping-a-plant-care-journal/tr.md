@@ -4,7 +4,7 @@ Bitki bakım günlüğü, ne gördüğünün ve ne yaptığının tarihli bir li
 
 ## Neden yazmaya değer
 
-<figure style="margin:24px 0"><img src="/assets/images/home/notebook-404-v1-960.webp" width="960" height="640" alt="Düz kâğıt zemin üzerinde pişmiş toprak saksıda alacalı bir salon sarmaşığının mürekkep ve suluboya çizimi" loading="lazy" decoding="async" style="display:block;width:100%;height:auto;border-radius:4px"><figcaption style="font-size:14px;margin-top:8px">Lilora için herbaryum çizimi tarzında üretilmiş bir illüstrasyon. <a href="/editorial/#imagery">Görseller hakkında</a></figcaption></figure>
+<figure style="margin:24px 0"><img src="/assets/images/home/notebook-404-v1-960.webp" width="960" height="640" alt="Düz kâğıt zemin üzerinde pişmiş toprak saksıda alacalı bir salon sarmaşığının mürekkep ve suluboya çizimi" loading="lazy" decoding="async" style="display:block;width:100%;height:auto;border-radius:4px"><figcaption style="font-size:14px;margin-top:8px">Lilora için herbaryum çizimi tarzında üretilmiş bir illüstrasyon. <a href="/tr/editorial/#imagery">Görseller hakkında</a></figcaption></figure>
 
 Hafıza aralıkları iyi tutamaz. “Geçen hafta suladım” çoğu zaman on gün demektir; ortak bir evde sulayan başkası da olabilir. Üniversitelerin bahçecilik birimleri bahçe günlüğünü tam bu nedenle uzun zamandır öneriyor: zamanla kayıtlar hangi bitkilerin geliştiğini, hangilerinin zorlandığını ve neyi farklı yaptığını gösterir. [Iowa State Üniversitesi Extension: bahçe günlüğü](https://yardandgarden.extension.iastate.edu/how-to/garden-journaling) Penn State Extension’ın gönüllü bahçecileri de aynı alışkanlığı anlatıyor; olguların yanında izlenimleri yazmanın değerini de vurguluyorlar. [Penn State Extension: bahçe günlüğü tutmak](https://extension.psu.edu/keeping-a-garden-journal)
 
@@ -48,13 +48,13 @@ Birkaç haftada bir aynı yerde ve aynı ışıkta çekilen fotoğraf, günden g
 - Bir sorun başlamadan önceki haftada ne olduğuna bak: yer değişikliği, atlanan bir kontrol, besleme, soğuk bir gece.
 - Hiç fazla suya ihtiyaç duymayan bitkileri not et: fazladan sudan en çok zarar görenler çoğu zaman onlardır.
 
-Bu örüntüleri katı bir takvim kurmak için değil, kontrollerini ayarlamak için kullan; [sabit takvime bağlı kalmadan sulama](/guides/watering-houseplants/) rehberine bak. Bir sorun çıktığında notların, rehberlerimizin senden toplamanı istediği bilgilerin ta kendisidir: [sararan yapraklar](/guides/yellow-houseplant-leaves/), [fazla mı suladın, az mı?](/guides/overwatering-vs-underwatering/) ve [ev bitkilerinde sık görülen zararlılar](/guides/houseplant-pests/).
+Bu örüntüleri katı bir takvim kurmak için değil, kontrollerini ayarlamak için kullan; [sabit takvime bağlı kalmadan sulama](/tr/guides/watering-houseplants/) rehberine bak. Bir sorun çıktığında notların, rehberlerimizin senden toplamanı istediği bilgilerin ta kendisidir: [sararan yapraklar](/tr/guides/yellow-houseplant-leaves/), [fazla mı suladın, az mı?](/tr/guides/overwatering-vs-underwatering/) ve [ev bitkilerinde sık görülen zararlılar](/tr/guides/houseplant-pests/).
 
 ## Kâğıt mı uygulama mı
 
 Kâğıt ücretsizdir, kişiseldir, başlaması hızlıdır ve tutması keyiflidir. Zayıf yanları paylaşmak ve aramaktır: farklı odalardaki iki kişi aynı anda göremez, “eğreltiyi en son ne zaman besledim” sorusunun cevabı için sayfaları karıştırmak gerekir.
 
-Uygulama en çok, aynı bitkilere birkaç kişi baktığında işe yarar. Lilora bu tür bir kayıt üzerine kurulu: her bitkinin bir adı, odası, fotoğrafı ve notları vardır; her kontrol ve sulama, kimin ne zaman yaptığıyla ve isteğe bağlı bir notla ayrı bir kayıt olarak saklanır. Ortak bir evdeki herkes aynı geçmişi görür. Hangisini seçersen seç, önemli olan alışkanlıktır. Evdeki bakımı paylaşanlar için [bitki bakımını paylaşmak](/guides/shared-plant-care/) rehberinde daha fazlası var.
+Uygulama en çok, aynı bitkilere birkaç kişi baktığında işe yarar. Lilora bu tür bir kayıt üzerine kurulu: her bitkinin bir adı, odası, fotoğrafı ve notları vardır; her kontrol ve sulama, kimin ne zaman yaptığıyla ve isteğe bağlı bir notla ayrı bir kayıt olarak saklanır. Ortak bir evdeki herkes aynı geçmişi görür. Hangisini seçersen seç, önemli olan alışkanlıktır. Evdeki bakımı paylaşanlar için [bitki bakımını paylaşmak](/tr/guides/shared-plant-care/) rehberinde daha fazlası var.
 
 ## Sık sorulan sorular
 

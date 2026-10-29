@@ -20,22 +20,22 @@ Bazı bitkiler sıradan ev bitkilerinden çok daha tehlikelidir. ASPCA, gerçek 
 
 ASPCA'ya göre kedi ve köpekler için toksik değil:
 
-- [Kurdele çiçeği](/plants/chlorophytum-comosum/) (*Chlorophytum comosum*)
-- [Orkide](/plants/phalaenopsis/) (*Phalaenopsis*)
-- [Kalatya](/plants/goeppertia/) (*Goeppertia*; ASPCA'da *Calathea* olarak geçer)
+- [Kurdele çiçeği](/tr/plants/chlorophytum-comosum/) (*Chlorophytum comosum*)
+- [Orkide](/tr/plants/phalaenopsis/) (*Phalaenopsis*)
+- [Kalatya](/tr/plants/goeppertia/) (*Goeppertia*; ASPCA'da *Calathea* olarak geçer)
 
 ASPCA'ya göre kedi ve köpekler için toksik:
 
-- Çözünmeyen kalsiyum oksalat içeren [salon sarmaşığı](/plants/epipremnum-aureum/), [deve tabanı](/plants/monstera-deliciosa/), [barış çiçeği](/plants/spathiphyllum/) ve [kalp yapraklı filodendron](/plants/philodendron-hederaceum/)
-- [Paşa kılıcı](/plants/dracaena-trifasciata/) ve [aloe vera](/plants/aloe-vera/)
-- [Kauçuk bitkisi](/plants/ficus-elastica/): ASPCA kaydının adı “Indian rubber plant” ama botanik ad olarak *Ficus benjamina* veriyor; bu uyumsuzluğu profilde açıklıyoruz
+- Çözünmeyen kalsiyum oksalat içeren [salon sarmaşığı](/tr/plants/epipremnum-aureum/), [deve tabanı](/tr/plants/monstera-deliciosa/), [barış çiçeği](/tr/plants/spathiphyllum/) ve [kalp yapraklı filodendron](/tr/plants/philodendron-hederaceum/)
+- [Paşa kılıcı](/tr/plants/dracaena-trifasciata/) ve [aloe vera](/tr/plants/aloe-vera/)
+- [Kauçuk bitkisi](/tr/plants/ficus-elastica/): ASPCA kaydının adı “Indian rubber plant” ama botanik ad olarak *Ficus benjamina* veriyor; bu uyumsuzluğu profilde açıklıyoruz
 
 Adıyla listede olmayanlar veya kaynakların ayrıştığı bitkiler:
 
-- [ZZ bitkisi](/plants/zamioculcas-zamiifolia/) ASPCA listesinde yok; NC State Extension toksik olarak listeliyor. [NC State Extension](https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/)
-- [Keman yapraklı kauçuk](/plants/ficus-lyrata/) ASPCA veritabanında adıyla yok; bir ASPCA yazısı hafif mide rahatsızlığından söz ediyor, NC State toksik olarak listeliyor. [NC State Extension](https://plants.ces.ncsu.edu/plants/ficus-lyrata/)
+- [ZZ bitkisi](/tr/plants/zamioculcas-zamiifolia/) ASPCA listesinde yok; NC State Extension toksik olarak listeliyor. [NC State Extension](https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/)
+- [Keman yapraklı kauçuk](/tr/plants/ficus-lyrata/) ASPCA veritabanında adıyla yok; bir ASPCA yazısı hafif mide rahatsızlığından söz ediyor, NC State toksik olarak listeliyor. [NC State Extension](https://plants.ces.ncsu.edu/plants/ficus-lyrata/)
 
-[Bitki kütüphanesinde](/plants/#petNonToxic) ASPCA'nın toksik değil olarak listelediği bitkiler için bir filtre var.
+[Bitki kütüphanesinde](/tr/plants/#petNonToxic) ASPCA'nın toksik değil olarak listelediği bitkiler için bir filtre var.
 
 ## Satın almadan önce kısa kontrol listesi
 

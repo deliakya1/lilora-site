@@ -4,7 +4,7 @@
 
 ## İki sorun neden birbirine benzer
 
-<figure style="margin:24px 0"><img src="/assets/images/home/care-corner-v1-960.webp" width="960" height="640" alt="Pencereden gelen yumuşak ışıkta ahşap masada saksıda genç bir deve tabanı ve yanında mavi bir sulama kabı" loading="lazy" decoding="async" style="display:block;width:100%;height:auto;border-radius:4px"><figcaption style="font-size:14px;margin-top:8px">Lilora için üretilmiş bir illüstrasyon; belirli bir bitkinin fotoğrafı değildir. <a href="/editorial/#imagery">Görseller hakkında</a></figcaption></figure>
+<figure style="margin:24px 0"><img src="/assets/images/home/care-corner-v1-960.webp" width="960" height="640" alt="Pencereden gelen yumuşak ışıkta ahşap masada saksıda genç bir deve tabanı ve yanında mavi bir sulama kabı" loading="lazy" decoding="async" style="display:block;width:100%;height:auto;border-radius:4px"><figcaption style="font-size:14px;margin-top:8px">Lilora için üretilmiş bir illüstrasyon; belirli bir bitkinin fotoğrafı değildir. <a href="/tr/editorial/#imagery">Görseller hakkında</a></figcaption></figure>
 
 Köklerin hem suya hem havaya ihtiyacı vardır. Harç sürekli su içinde kalırsa aradaki hava boşlukları suyla dolar ve kökler zarar görebilir. Kökleri hasar görmüş bir bitki su alamaz, bu yüzden susuz kalmış gibi pörsür. [Maryland Üniversitesi Extension: fazla sulanan ev bitkileri](https://extension.umd.edu/resource/overwatered-indoor-plants)
 
@@ -18,7 +18,7 @@ Bu yüzden “yaprakları düşmüş, hemen sulayayım” en sık yapılan yanl�
 
 Önce yüzey kurur; alttaki harç hâlâ ıslakken üstü kuru görünebilir. Bitki suyu kullandıkça harç da hafifler, bu yüzden saksının ağırlığı iyi bir ikinci görüştür. [Maryland Üniversitesi Extension: fazla sulanan ev bitkileri](https://extension.umd.edu/resource/overwatered-indoor-plants)
 
-En son ne zaman suladığını ve bu arada neyin değiştiğini not et: kalorifer yandı mı, bitki pencereden uzaklaştı mı, saksısı değişti mi? Rutinin tamamı [sabit takvime bağlı kalmadan sulama rehberimizde](/guides/watering-houseplants/).
+En son ne zaman suladığını ve bu arada neyin değiştiğini not et: kalorifer yandı mı, bitki pencereden uzaklaştı mı, saksısı değişti mi? Rutinin tamamı [sabit takvime bağlı kalmadan sulama rehberimizde](/tr/guides/watering-houseplants/).
 
 ## Fazla suya işaret eden belirtiler
 
@@ -28,7 +28,7 @@ En son ne zaman suladığını ve bu arada neyin değiştiğini not et: kalorife
 - Gövdenin dibi yumuşamış ya da eskisinden koyu görünüyor
 - Harcın üstünde küçük koyu sinekler dolaşıyor; mantar sinekleri nemli harçla ilişkilidir [RHS: mantar sinekleri](https://www.rhs.org.uk/biodiversity/fungus-gnats)
 
-Tek bir belirti fazla sulamayı kanıtlamaz. Islak harç ve buna rağmen pörsüyen bir bitki, daha yakından bakmayı gerektiren birleşimdir. Nasıl bakacağını [kök çürüklüğü rehberimizde](/guides/root-rot/) anlattık.
+Tek bir belirti fazla sulamayı kanıtlamaz. Islak harç ve buna rağmen pörsüyen bir bitki, daha yakından bakmayı gerektiren birleşimdir. Nasıl bakacağını [kök çürüklüğü rehberimizde](/tr/guides/root-rot/) anlattık.
 
 ## Az suya işaret eden belirtiler
 
@@ -54,11 +54,11 @@ Harç ıslaksa:
 3. Köklerin sağlıklı olduğundan emin olana kadar gübre verme.
 4. Harç ıslak kalıyor ve bitki kötüleşmeye devam ediyorsa köklere bak.
 
-Renk değiştiren yaprakların kendi kontrol listesi var: [sararan yapraklarda neye bakmalı](/guides/yellow-houseplant-leaves/).
+Renk değiştiren yaprakların kendi kontrol listesi var: [sararan yapraklarda neye bakmalı](/tr/guides/yellow-houseplant-leaves/).
 
 ## Mevsim ve ışık cevabı değiştirir
 
-Kışın az ışıkta ya da serin bir odada duran bitki daha az su kullanır; yazın işe yarayan rutin harcın daha uzun süre ıslak kalmasına yol açabilir. Kuzey Yarımküre’de bu yavaşlama genellikle sonbahar sonundan kış sonuna kadar sürer; Güney Yarımküre’de haziran–ağustos dönemine denk gelir. Kalorifer ise saksıları yeniden hızlı kurutabilir; gün saymak yerine kontrol etmenin daha iyi olmasının nedeni bu. [Kışın ev bitkisi bakımı](/guides/winter-houseplant-care/) ve [ev bitkileri için ışık rehberimize](/guides/indoor-plant-light-guide/) göz at.
+Kışın az ışıkta ya da serin bir odada duran bitki daha az su kullanır; yazın işe yarayan rutin harcın daha uzun süre ıslak kalmasına yol açabilir. Kuzey Yarımküre’de bu yavaşlama genellikle sonbahar sonundan kış sonuna kadar sürer; Güney Yarımküre’de haziran–ağustos dönemine denk gelir. Kalorifer ise saksıları yeniden hızlı kurutabilir; gün saymak yerine kontrol etmenin daha iyi olmasının nedeni bu. [Kışın ev bitkisi bakımı](/tr/guides/winter-houseplant-care/) ve [ev bitkileri için ışık rehberimize](/tr/guides/indoor-plant-light-guide/) göz at.
 
 Lilora’da kontrol ve sulama iki ayrı kayıttır: “Kontrol ettim, suya ihtiyacı yok” ve “Suladım”. Birkaç hafta sonra bir bitkinin gerçekte ne sıklıkla suya ihtiyaç duyduğunu, hatırlatmanın ne sıklıkla geldiğinden bağımsız olarak görürsün.
 
@@ -78,4 +78,4 @@ Köklerin yeterli kısmı hâlâ sert ve açık renkliyse çoğu zaman toparlan�
 
 ### Drenaj deliği olmayan saksı sorun olur mu?
 
-Evet. Fazla suyun gidecek yeri yoktur. Yeniden sulamadan önce [saksı harcı ve drenaj rehberimizi](/guides/potting-mix-and-drainage/) oku.
+Evet. Fazla suyun gidecek yeri yoktur. Yeniden sulamadan önce [saksı harcı ve drenaj rehberimizi](/tr/guides/potting-mix-and-drainage/) oku.

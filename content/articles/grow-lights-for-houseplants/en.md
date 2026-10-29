@@ -4,7 +4,7 @@ A grow light helps when a room is too dark for the plants you want to keep, or w
 
 ## Does your plant need one?
 
-Signs that light is the limiting factor include slow, weak growth, long gaps between leaves and stems leaning hard towards the window. The RHS also lists poor growth with dark green foliage as a sign that plants under lamps need more light. [RHS: artificial lighting for indoor plants](https://www.rhs.org.uk/plants/types/houseplants/artificial-lighting) Before buying anything, try the brightest window you have; our [indoor plant light guide](/en/guides/indoor-plant-light-guide/) explains how to judge it, and [leggy houseplants](/en/blog/leggy-houseplants/) covers stretched growth.
+Signs that light is the limiting factor include slow, weak growth, long gaps between leaves and stems leaning hard towards the window. The RHS also lists poor growth with dark green foliage as a sign that plants under lamps need more light. [RHS: artificial lighting for indoor plants](https://www.rhs.org.uk/plants/types/houseplants/artificial-lighting) Before buying anything, try the brightest window you have; our [indoor plant light guide](/guides/indoor-plant-light-guide/) explains how to judge it, and [leggy houseplants](/blog/leggy-houseplants/) covers stretched growth.
 
 ## Which kind of light
 
@@ -28,7 +28,7 @@ A cheap plug-in timer does the remembering for you, so the lights switch on and 
 
 ## Adjust what else changes
 
-More light means faster growth, and faster growth means the plant uses more water and, in the growing season, more food. Check the mix more often in the first weeks under a lamp; [how to water houseplants without a rigid schedule](/en/guides/watering-houseplants/) explains the check. If you move a plant from a dim corner to a strong lamp, increase the time gradually over a week or two.
+More light means faster growth, and faster growth means the plant uses more water and, in the growing season, more food. Check the mix more often in the first weeks under a lamp; [how to water houseplants without a rigid schedule](/guides/watering-houseplants/) explains the check. If you move a plant from a dim corner to a strong lamp, increase the time gradually over a week or two.
 
 ## Common questions
 

@@ -4,7 +4,7 @@ Feed houseplants while they are actively growing, use a houseplant or general-pu
 
 ## Why potted plants need feeding at all
 
-<figure style="margin:24px 0"><img src="/assets/images/home/leaf-study-v1-960.webp" width="960" height="640" alt="Close view of glossy dark green rubber plant leaves on a woody stem, in warm indoor light" loading="lazy" decoding="async" style="display:block;width:100%;height:auto;border-radius:4px"><figcaption style="font-size:14px;margin-top:8px">Illustration generated for Lilora, not a photograph of a particular plant. <a href="/en/editorial/#imagery">About our images</a></figcaption></figure>
+<figure style="margin:24px 0"><img src="/assets/images/home/leaf-study-v1-960.webp" width="960" height="640" alt="Close view of glossy dark green rubber plant leaves on a woody stem, in warm indoor light" loading="lazy" decoding="async" style="display:block;width:100%;height:auto;border-radius:4px"><figcaption style="font-size:14px;margin-top:8px">Illustration generated for Lilora, not a photograph of a particular plant. <a href="/editorial/#imagery">About our images</a></figcaption></figure>
 
 A plant in a pot draws on a small volume of mix. Watering washes some nutrients out, and fresh potting mix often contains only a limited starter supply. The RHS points out that houseplants rely on feeding for healthy growth because they have little soil to draw from. [RHS: how to feed plants](https://www.rhs.org.uk/advice/profile?pid=450)
 
@@ -55,11 +55,11 @@ Possible signs include browning leaf tips and edges, wilting, poorly formed leav
 
 UConn suggests leaching with plenty of water, making sure it drains freely, or repotting into fresh mix. [UConn: houseplant fertilization](https://homegarden.cahnr.uconn.edu/wp-content/uploads/sites/3479/2022/08/Houseplant-Fertilization.pdf) Pause feeding for a while afterwards.
 
-If the pot has no drainage hole, flushing is not possible; see [potting mix and drainage](/en/guides/potting-mix-and-drainage/).
+If the pot has no drainage hole, flushing is not possible; see [potting mix and drainage](/guides/potting-mix-and-drainage/).
 
 ## Before you blame nutrients
 
-Pale or yellow leaves can come from nutrient shortage, but also from overwatering, too little light, cold or old age. Work through [yellow houseplant leaves: what to check](/en/guides/yellow-houseplant-leaves/), check the roots with [overwatered or underwatered?](/en/guides/overwatering-vs-underwatering/), and make sure the plant has enough light with our [indoor light guide](/en/guides/indoor-plant-light-guide/). Feeding only helps a plant that has the light and healthy roots to use it.
+Pale or yellow leaves can come from nutrient shortage, but also from overwatering, too little light, cold or old age. Work through [yellow houseplant leaves: what to check](/guides/yellow-houseplant-leaves/), check the roots with [overwatered or underwatered?](/guides/overwatering-vs-underwatering/), and make sure the plant has enough light with our [indoor light guide](/guides/indoor-plant-light-guide/). Feeding only helps a plant that has the light and healthy roots to use it.
 
 ## Common questions
 

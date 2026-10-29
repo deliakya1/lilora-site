@@ -6,7 +6,7 @@ Yapraklardaki toz yalnızca görüntü sorunu değildir: bitkinin ihtiyaç duydu
 
 Minnesota Üniversitesi, tozun ışığı bitkilerin ona en çok ihtiyaç duyduğu anda, loş bir kışın sonunda engelleyebileceğine dikkat çekiyor. [Minnesota Üniversitesi Extension: ilkbaharda ev bitkisi bakımı](https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/houseplants/spring-houseplant-care) Clemson Üniversitesi Ev ve Bahçe Bilgi Merkezi de temiz yaprakların sağlıklı büyümeyi desteklediğini ve temizliğin böceklerle mücadeleye yardım ettiğini ekliyor. [Clemson HGIC: iç mekân bitkileri ve temizlik](https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/)
 
-Temizlik aynı zamanda bitkiyi yakından incelemek için en iyi andır. Birçok zararlı yaprakların alt yüzünde küçük başlar; neye bakacağını [yaygın ev bitkisi zararlıları](/guides/houseplant-pests/) rehberi gösteriyor.
+Temizlik aynı zamanda bitkiyi yakından incelemek için en iyi andır. Birçok zararlı yaprakların alt yüzünde küçük başlar; neye bakacağını [yaygın ev bitkisi zararlıları](/tr/guides/houseplant-pests/) rehberi gösteriyor.
 
 ## Büyük, düz yapraklar
 
@@ -33,7 +33,7 @@ Afrika menekşesi gibi tüylü yapraklı bitkiler ıslak bezle silinmemeli. Bunu
 
 Hazır yaprak parlatıcı spreyler yaprakları parlatır, ama baktığımız iki kaynak da bunlara karşı. Minnesota Üniversitesi bunların gereksiz olduğunu ve yaprak gözeneklerini tıkayabileceğini söylüyor, [Minnesota Üniversitesi Extension: ilkbaharda ev bitkisi bakımı](https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/houseplants/spring-houseplant-care) Clemson ise mumsu kalıntının hava alışverişini etkileyebileceği için genellikle önerilmediğini belirtiyor. [Clemson HGIC: iç mekân bitkileri ve temizlik](https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/) Süt, yağ ya da mayonez gibi ev çözümleri de kalıntı bırakır. Sade su yeterlidir.
 
-Evde bitki bakımını paylaşıyorsan, kimse ertesi gün tekrarlamasın diye yaprak temizliğini [bitki bakım günlüğüne](/blog/keeping-a-plant-care-journal/) not etmeye değer.
+Evde bitki bakımını paylaşıyorsan, kimse ertesi gün tekrarlamasın diye yaprak temizliğini [bitki bakım günlüğüne](/tr/blog/keeping-a-plant-care-journal/) not etmeye değer.
 
 ## Sık sorulan sorular
 

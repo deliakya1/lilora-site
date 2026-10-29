@@ -4,7 +4,7 @@ A calendar cannot see your plant. The same plant can need water after five days 
 
 ## The problem with "water every Sunday"
 
-<figure style="margin:24px 0"><img src="/assets/images/home/shared-table-v1-960.webp" width="960" height="640" alt="A potted rubber plant and two ceramic mugs on a round wooden table beside a sunny window" loading="lazy" decoding="async" style="display:block;width:100%;height:auto;border-radius:4px"><figcaption style="font-size:14px;margin-top:8px">Illustration generated for Lilora, not a photograph of a particular plant. <a href="/en/editorial/#imagery">About our images</a></figcaption></figure>
+<figure style="margin:24px 0"><img src="/assets/images/home/shared-table-v1-960.webp" width="960" height="640" alt="A potted rubber plant and two ceramic mugs on a round wooden table beside a sunny window" loading="lazy" decoding="async" style="display:block;width:100%;height:auto;border-radius:4px"><figcaption style="font-size:14px;margin-top:8px">Illustration generated for Lilora, not a photograph of a particular plant. <a href="/editorial/#imagery">About our images</a></figcaption></figure>
 
 Fixed schedules are attractive because they are easy to remember. But how fast a pot dries depends on the plant, the size and material of the pot, the mix, the light, the temperature and the season. The RHS notes, for example, that pots dry out faster when central heating lowers humidity, and that plants in cooler rooms need watering less often. [RHS: how to grow houseplants](https://www.rhs.org.uk/plants/types/houseplants/growing-guide)
 
@@ -21,7 +21,7 @@ A check takes less than a minute:
 
 University of Maryland Extension describes both the touch test and the weight test; as a plant uses water, the mix dries and the pot becomes lighter. [University of Maryland Extension: watering indoor plants](https://www.extension.umd.edu/resource/watering-indoor-plants) When you do water, water until the excess drains and then empty the saucer. [Illinois Extension: watering](https://extension.illinois.edu/houseplants/watering)
 
-Our longer guide, [how to water houseplants without a rigid schedule](/en/guides/watering-houseplants/), goes through this step by step, and [overwatered or underwatered?](/en/guides/overwatering-vs-underwatering/) helps when a plant already looks unhappy.
+Our longer guide, [how to water houseplants without a rigid schedule](/guides/watering-houseplants/), goes through this step by step, and [overwatered or underwatered?](/guides/overwatering-vs-underwatering/) helps when a plant already looks unhappy.
 
 ## How this shows up in the app
 
@@ -35,9 +35,9 @@ If the only button were "Watered", a check that ended with no water would leave 
 
 - A run of "Checked, no water needed" in winter is normal, not a failure.
 - If a plant keeps needing water at every check, the interval or the pot may be worth a look.
-- If a pot stays wet check after check while the plant declines, it is time to look at drainage and roots; see [root rot in houseplants](/en/guides/root-rot/).
+- If a pot stays wet check after check while the plant declines, it is time to look at drainage and roots; see [root rot in houseplants](/guides/root-rot/).
 
-In a shared household this matters even more. Whoever checks next can see that someone already looked this morning and decided the mix was still moist. Our guide to [sharing plant care](/en/guides/shared-plant-care/) covers that side.
+In a shared household this matters even more. Whoever checks next can see that someone already looked this morning and decided the mix was still moist. Our guide to [sharing plant care](/guides/shared-plant-care/) covers that side.
 
 ## What a reminder cannot do
 

@@ -1,5 +1,8 @@
 // Shared promotional copy is website content; app availability stays in locales.
+import { prefix, defaultLanguage } from './locale-registry.mjs';
+import { extraCopies } from './locale-extras.mjs';
 export const promotionCopy = {
+  ...extraCopies('promotion'),
   tr: {
     recordTitle: "Bitki bakımı için ortak bir kayıt",
     recordBody:
@@ -50,7 +53,7 @@ export const defaultShareImagePath = (lang) =>
 export function shareImagePath(path, lang) {
   if (!path) return defaultShareImagePath(lang);
   const segments = path.split("/").filter(Boolean);
-  if (lang !== "tr" && segments[0] === lang) segments.shift();
+  if (lang !== defaultLanguage && segments[0] === prefix(lang).split('/')[1]) segments.shift();
   const route = segments.join("--").replace(/\.html$/, "") || "home";
   return `/assets/brand/share/${lang}-${route}.png`;
 }

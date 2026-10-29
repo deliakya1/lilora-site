@@ -1,0 +1,15 @@
+{
+  "defaultLanguage": "en",
+  "languages": [
+    {"code": "en", "name": "English", "tag": "en", "path": "/", "ogLocale": "en_GB", "matches": ["en"]},
+    {"code": "tr", "name": "Türkçe", "tag": "tr", "path": "/tr/", "ogLocale": "tr_TR", "matches": ["tr"]},
+    {"code": "es", "name": "Español", "tag": "es", "path": "/es/", "ogLocale": "es_ES", "matches": ["es"]},
+    {"code": "de", "name": "Deutsch", "tag": "de", "path": "/de/", "ogLocale": "de_DE", "matches": ["de"]},
+    {"code": "pt", "name": "Português", "tag": "pt-BR", "path": "/pt/", "ogLocale": "pt_BR", "matches": ["pt"]},
+    {"code": "fr", "name": "Français", "tag": "fr", "path": "/fr/", "ogLocale": "fr_FR", "matches": ["fr"]},
+    {"code": "ja", "name": "日本語", "tag": "ja", "path": "/ja/", "ogLocale": "ja_JP", "matches": ["ja"]},
+    {"code": "ko", "name": "한국어", "tag": "ko", "path": "/ko/", "ogLocale": "ko_KR", "matches": ["ko"]},
+    {"code": "it", "name": "Italiano", "tag": "it", "path": "/it/", "ogLocale": "it_IT", "matches": ["it"]},
+    {"code": "zh-Hant", "name": "繁體中文", "tag": "zh-Hant", "path": "/zh-hant/", "ogLocale": "zh_TW", "matches": ["zh-hant", "zh-tw", "zh-hk", "zh-mo"]}
+  ]
+}
