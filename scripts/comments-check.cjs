@@ -1,3 +1,4 @@
+const { languages, prefix, htmlLang } = require('./locale-registry.cjs');
 // Comment loading must preserve keyboard focus through success, errors and retry.
 // All endpoint calls are mocked; no comments are submitted or fetched from production.
 const { chromium } = require('playwright-core');
@@ -25,10 +26,10 @@ const axeSource = fs.readFileSync(require.resolve('axe-core/axe.min.js'), 'utf8'
   const browser = await chromium.launch({ executablePath: process.env.CHROMIUM_PATH || '/usr/bin/chromium', headless: true, args: ['--no-sandbox'] });
   const errors = [], unexpected = [];
   let checks = 0, mockedRequests = 0, accessibilityChecks = 0;
-  const languages = ['tr', 'en', 'es', 'de', 'pt', 'fr'], widths = [390, 1440];
+  const widths = [390, 1440];
   try {
     for (const lang of languages) for (const width of widths) {
-      const context = await browser.newContext({ viewport: { width, height: 900 }, locale: lang, reducedMotion: 'reduce' });
+      const context = await browser.newContext({ viewport: { width, height: 900 }, locale: htmlLang(lang), reducedMotion: 'reduce' });
       await context.addInitScript(() => localStorage.setItem('lilora.cookie-preferences.v2', JSON.stringify({ version: 2, analytics: false, savedAt: Date.now() })));
       let onRequest, requestCount = 0;
       await context.route('**/*', route => {
@@ -41,7 +42,7 @@ const axeSource = fs.readFileSync(require.resolve('axe-core/axe.min.js'), 'utf8'
       });
       const page = await context.newPage();
       page.on('pageerror', error => errors.push(error.message));
-      const url = `${origin}${lang === 'tr' ? '/' : `/${lang}/`}blog/check-before-you-water/`;
+      const url = `${origin}${prefix(lang)}blog/check-before-you-water/`;
       const button = page.locator('.comments-load'), list = page.locator('.comments-list');
       const focusIs = selector => page.evaluate(value => document.activeElement === document.querySelector(value), selector);
       const pending = () => new Promise((resolve, reject) => {

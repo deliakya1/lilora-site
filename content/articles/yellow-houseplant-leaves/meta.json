@@ -58,5 +58,17 @@
   "fr": {
     "description": "Vérifiez l’aspect des feuilles, l’humidité des racines, la lumière, la température et les ravageurs avant de modifier l’entretien d’une plante qui jaunit.",
     "seoTitle": "Feuilles jaunes : que vérifier avant d’agir"
+  },
+  "ja": {
+    "description": "観葉植物の葉が黄色くなったら、管理を変える前に、変色のパターン、根の周りの水分、光、温度、害虫を確認しましょう。"
+  },
+  "ko": {
+    "description": "잎이 노래지는 실내식물의 관리 방법을 바꾸기 전에 변색 패턴, 뿌리 주변 수분, 빛, 온도, 해충을 차례로 확인하세요."
+  },
+  "it": {
+    "description": "Prima di agire sulle foglie gialle, osserva quali cambiano e controlla acqua, radici, luce e parassiti. Una guida per distinguere i diversi indizi."
+  },
+  "zh-Hant": {
+    "description": "黃葉不只一種原因。記錄受影響葉片與近期變化，檢查介質、根、光溫和害蟲，再決定是否調整澆水或照護。"
   }
 }

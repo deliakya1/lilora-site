@@ -111,5 +111,61 @@
       "petSafetySource": "https://www.aspca.org/",
       "careLevel": "Facile"
     }
+  },
+  "ja": {
+    "description": "オリヅルランの育て方。適度な光、湿り気と排水を保つ用土、増やしやすい子株と、ASPCAによる猫・犬への無毒の掲載を紹介します。",
+    "imageAlt": "岩の間に育つ、クリーム色の縁を持つ緑の葉が弓なりに伸びた斑入りオリヅルラン",
+    "caption": "写真：<a href=\"https://www.inaturalist.org/observations/319516448\"><em>Chlorophytum comosum</em></a>、撮影：Jenny Christianson。iNaturalistより、<a href=\"https://creativecommons.org/publicdomain/zero/1.0/\">CC0 1.0</a>。サイズ変更済み。",
+    "atAGlance": {
+      "light": "中程度の光。日陰にも耐えるが直射日光は避ける",
+      "watering": "生育中は軽い湿り気を保ち、表面が乾いたら確認。冬は水を減らす",
+      "humidity": "中程度の湿度",
+      "temperature": "7℃（45℉）より高く保つ",
+      "petSafety": "ASPCAは猫・犬に無毒と掲載",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "育てやすい"
+    }
+  },
+  "ko": {
+    "description": "접란 관리: 중간 정도의 빛, 촉촉하되 배수되는 흙, 쉬운 새끼 포기 번식과 ASPCA의 고양이·개 무독성 분류를 알아보세요.",
+    "imageAlt": "바위 사이에서 자라는 접란. 크림색 가장자리가 있는 녹색 잎이 휘어집니다",
+    "caption": "사진: <a href=\"https://www.inaturalist.org/observations/319516448\"><em>Chlorophytum comosum</em></a> — 촬영: Jenny Christianson, iNaturalist 제공, <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\">CC0 1.0</a>. 크기를 조정했습니다.",
+    "atAGlance": {
+      "light": "중간 정도의 빛. 그늘을 견디지만 직사광은 피하세요",
+      "watering": "생장기에는 약간 촉촉하게 유지하고 표면은 말리세요. 겨울에는 물을 줄이세요",
+      "humidity": "중간 정도의 습도",
+      "temperature": "7 °C(45 °F) 이상을 유지하세요",
+      "petSafety": "ASPCA가 고양이와 개에게 무독성인 식물로 분류했습니다",
+      "careLevel": "쉬움",
+      "petSafetySource": "https://www.aspca.org/"
+    }
+  },
+  "it": {
+    "imageAlt": "Falangio variegato con foglie arcuate verdi bordate di crema, tra le rocce",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/319516448\"><em>Chlorophytum comosum</em></a> di Jenny Christianson, tramite iNaturalist, <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\">CC0 1.0</a>. Ridimensionata.",
+    "atAGlance": {
+      "light": "Luce media; tollera l’ombra; evita il sole diretto",
+      "watering": "Leggermente umido in crescita; lascia asciugare la superficie; meno acqua in inverno",
+      "humidity": "Umidità media",
+      "temperature": "Mantieni sopra 7 °C (45 °F)",
+      "petSafety": "Elencato dall’ASPCA come non tossico per gatti e cani",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Facile"
+    },
+    "description": "Cura del falangio: luce media, substrato umido ma drenante e piantine facili da moltiplicare. L’ASPCA lo indica come non tossico per cani e gatti."
+  },
+  "zh-Hant": {
+    "imageAlt": "吊蘭細長的綠白條紋葉片向外彎垂",
+    "caption": "照片： <a href=\"https://www.inaturalist.org/observations/319516448\"><em>Chlorophytum comosum</em></a>，攝影：Jenny Christianson，來源：iNaturalist， <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\">CC0 1.0</a>. 已調整尺寸。",
+    "atAGlance": {
+      "light": "中等光線、可耐陰；避免直射日光",
+      "watering": "表層乾燥再澆，生長期微濕，冬季減少",
+      "humidity": "中等；很乾時可用加濕器或濕卵石托盤",
+      "temperature": "保持 7 °C（45 °F）以上",
+      "petSafety": "ASPCA 列為對貓狗無毒",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "容易"
+    },
+    "description": "吊蘭照護指南：間接光、澆水檢查、葉尖變褐、小植株繁殖與季節變化，並說明 ASPCA 的貓狗無毒分類。"
   }
 }

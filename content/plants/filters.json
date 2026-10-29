@@ -94,5 +94,69 @@
       "lowLight": "Peu de lumière",
       "beginner": "Facile"
     }
+  },
+  "ja": {
+    "title": "植物を絞り込む",
+    "chips": {
+      "petNonToxic": "猫・犬に無毒と掲載（ASPCA）",
+      "lowLight": "弱い光に耐える",
+      "beginner": "初心者向け"
+    },
+    "note": "ペットの絞り込みでは、ASPCA動物中毒管理センターが猫・犬に無毒と掲載した植物だけを表示します。無毒でも、食べてよいという意味ではありません。<a href=\"/ja/guides/pet-safe-houseplants/\">観葉植物とペットのガイド</a>をご覧ください。",
+    "all": "すべて",
+    "count": "{n}種類の植物",
+    "short": {
+      "petNonToxic": "無毒（ASPCA）",
+      "lowLight": "弱い光",
+      "beginner": "育てやすい"
+    }
+  },
+  "ko": {
+    "title": "식물 필터",
+    "chips": {
+      "petNonToxic": "고양이·개에게 무독성으로 분류됨(ASPCA)",
+      "lowLight": "약한 빛을 견딤",
+      "beginner": "초보자에게 적합"
+    },
+    "note": "반려동물 필터는 ASPCA 동물독극물관리센터가 고양이와 개에게 무독성으로 분류한 식물만 보여 줍니다. 무독성이라고 해서 반려동물이 먹어도 된다는 뜻은 아닙니다. <a href=\"/ko/guides/pet-safe-houseplants/\">실내식물과 반려동물 안내</a>를 참고하세요.",
+    "all": "전체",
+    "count": "식물 {n}종",
+    "short": {
+      "petNonToxic": "무독성(ASPCA)",
+      "lowLight": "약한 빛",
+      "beginner": "쉬움"
+    }
+  },
+  "it": {
+    "title": "Filtra le piante",
+    "chips": {
+      "petNonToxic": "Non tossiche per cani e gatti secondo ASPCA",
+      "lowLight": "Tollerano poca luce",
+      "beginner": "Adatte ai principianti"
+    },
+    "note": "Il filtro per gli animali mostra solo piante elencate dall’ASPCA Animal Poison Control Center come non tossiche per cani e gatti. Non tossica non significa commestibile per un animale. Consulta la <a href=\"/it/guides/pet-safe-houseplants/\">guida alle piante e agli animali domestici</a>.",
+    "all": "Tutte",
+    "count": "{n} piante",
+    "short": {
+      "petNonToxic": "Non tossiche (ASPCA)",
+      "lowLight": "Poca luce",
+      "beginner": "Facili"
+    }
+  },
+  "zh-Hant": {
+    "title": "篩選植物",
+    "chips": {
+      "petNonToxic": "ASPCA 列為對貓狗無毒",
+      "lowLight": "耐弱光",
+      "beginner": "適合新手"
+    },
+    "note": "寵物篩選器只顯示 ASPCA 動物毒物控制中心列為對貓狗無毒的植物。無毒不代表寵物可以食用。請參閱<a href=\"/zh-hant/guides/pet-safe-houseplants/\">室內植物與寵物指南</a>。",
+    "all": "全部",
+    "count": "{n} 種植物",
+    "short": {
+      "petNonToxic": "無毒（ASPCA）",
+      "lowLight": "弱光",
+      "beginner": "容易照護"
+    }
   }
 }

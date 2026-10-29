@@ -1,3 +1,4 @@
+const { languages, prefix, htmlLang, defaultLanguage } = require('./locale-registry.cjs');
 const {chromium}=require('playwright-core');
 const assert=require('node:assert/strict');
 const key='lilora.cookie-preferences.v2';
@@ -5,8 +6,8 @@ const base='http://127.0.0.1:4173';
 (async()=>{
  const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',headless:true,args:['--no-sandbox']});
  let cases=0;
- for(const lang of ['en','tr','es','de','pt','fr'])for(const failure of ['throw','silent']){
-  const context=await browser.newContext({locale:'tr-TR'});const requests=[];const errors=[];
+ for(const lang of languages)for(const failure of ['throw','silent']){
+  const context=await browser.newContext({locale:htmlLang(lang)});const requests=[];const errors=[];
   await context.route(/https:\/\/.*google.*/,r=>{requests.push(r.request().url());return r.fulfill({body:''});});
   await context.addInitScript(({key,failure})=>{
    if(!localStorage.getItem(key))localStorage.setItem(key,JSON.stringify({version:2,analytics:true,savedAt:Date.now()}));
@@ -15,8 +16,10 @@ const base='http://127.0.0.1:4173';
    Storage.prototype.setItem=function(k,v){if(k.startsWith(key)){if(failure==='throw')throw new Error('read-only');return;}return set.call(this,k,v);};
    window.documentNonce=Math.random();
   },{key,failure});
-  const a=await context.newPage();a.on('pageerror',e=>errors.push(e.message));await a.goto(base+(lang==='tr'?'/':'/'+lang+'/'));
-  const b=await context.newPage();b.on('pageerror',e=>errors.push(e.message));await b.goto(base+(lang==='en'?'/':'/en/'));
+  const a=await context.newPage();a.on('pageerror',e=>errors.push(e.message));await a.goto(base+prefix(lang));
+  const secondLanguage=lang===defaultLanguage?'tr':defaultLanguage;
+  assert.notEqual(prefix(lang),prefix(secondLanguage),'two tabs use distinct locale routes');
+  const b=await context.newPage();b.on('pageerror',e=>errors.push(e.message));await b.goto(base+prefix(secondLanguage));
   await a.waitForFunction(()=>!!document.getElementById('lilora-google-tag'));await b.waitForFunction(()=>!!document.getElementById('lilora-google-tag'));
   const nonceA=await a.evaluate(()=>window.documentNonce),nonceB=await b.evaluate(()=>window.documentNonce);
   const before=requests.length;
@@ -53,13 +56,13 @@ const base='http://127.0.0.1:4173';
   const set=Storage.prototype.setItem;
   Storage.prototype.setItem=function(k,v){if(this===localStorage&&k===key)throw new Error('read-only');return set.call(this,k,v);};
  },key);
- const p=await context.newPage();await p.goto(base+'/en/');const before=calls;
+ const p=await context.newPage();await p.goto(base+prefix('en'));const before=calls;
  await p.locator('.cookie-settings').click();await Promise.all([p.waitForEvent('load'),p.locator('[data-action="withdraw"]').click()]);
  assert.equal(await p.locator('#lilora-google-tag').count(),0);
  assert.equal(await p.evaluate(k=>JSON.parse(localStorage.getItem(k)).analytics,key),true);
  assert.equal(await p.evaluate(k=>JSON.parse(sessionStorage.getItem(k+'.denied')).analytics,key),false);
- await p.goto(base+'/');assert.equal(await p.locator('#lilora-google-tag').count(),0);
+ await p.goto(base+prefix('tr'));assert.equal(await p.locator('#lilora-google-tag').count(),0);
  await p.locator('.cookie-settings').click();assert.equal(await p.locator('#cookie-analytics-choice').isChecked(),false);
  assert.equal(calls,before);await context.close();await browser.close();
- console.log(JSON.stringify({passed:true,staleGrantFailureCases:cases,locales:['en','tr','es','de','pt','fr'],failures:['throwing writes','silently ignored writes'],checks:['authoritative denial','no unsafe reload','reopen unchecked','cross-tab broadcast denial','later storage grant cannot undo denial','no post-rejection events','explicit regrant after persistence recovery','session denial protects reload and cross-locale navigation']},null,2));
+ console.log(JSON.stringify({passed:true,staleGrantFailureCases:cases,locales:languages,failures:['throwing writes','silently ignored writes'],checks:['authoritative denial','no unsafe reload','reopen unchecked','cross-tab broadcast denial','later storage grant cannot undo denial','no post-rejection events','explicit regrant after persistence recovery','session denial protects reload and cross-locale navigation']},null,2));
 })().catch(e=>{console.error(e);process.exit(1)});

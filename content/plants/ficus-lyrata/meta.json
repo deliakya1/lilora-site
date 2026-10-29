@@ -112,5 +112,61 @@
       "petSafetySource": "https://www.aspca.org/",
       "careLevel": "Moyen"
     }
+  },
+  "ja": {
+    "description": "カシワバゴムノキの育て方。明るい間接光、安定した環境、慎重な水やり、落葉への対応と、ペット情報の見解の違いを説明します。",
+    "imageAlt": "青空を背景に、縁が波打つ大きなバイオリン形の葉を広げたカシワバゴムノキ",
+    "caption": "写真：<a href=\"https://www.inaturalist.org/observations/61359233\"><em>Ficus lyrata</em></a>、撮影：Diogo Luiz。iNaturalistより、<a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>。トリミング・サイズ変更済み。",
+    "atAGlance": {
+      "light": "明るい間接光。強い午後の日差しは遮る",
+      "watering": "水やりの間に少し乾かす。水のやりすぎに敏感",
+      "humidity": "中程度から高めの湿度",
+      "temperature": "13℃（55℉）より高く保ち、すきま風や急な変化を避ける",
+      "petSafety": "ASPCAの植物データベースに学名での掲載なし。同機関の記事では軽い毒性に言及",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "ある程度の注意が必要"
+    }
+  },
+  "ko": {
+    "description": "떡갈고무나무 관리: 밝은 간접광, 일정한 환경, 신중한 물주기, 낙엽 대처와 반려동물 독성 자료가 서로 다른 이유를 알아보세요.",
+    "imageAlt": "푸른 하늘을 배경으로 큰 바이올린 모양의 물결치는 잎을 보이는 떡갈고무나무",
+    "caption": "사진: <a href=\"https://www.inaturalist.org/observations/61359233\"><em>Ficus lyrata</em></a> — 촬영: Diogo Luiz, iNaturalist 제공, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. 잘라내고 크기를 조정했습니다.",
+    "atAGlance": {
+      "light": "밝은 간접광. 강한 오후 햇빛은 가려 주세요",
+      "watering": "물주기 사이 흙을 약간 말리세요. 과습에 민감합니다",
+      "humidity": "중간에서 높은 습도",
+      "temperature": "13 °C(55 °F) 이상. 외풍과 급격한 변화를 피하세요",
+      "petSafety": "ASPCA 식물 목록에 이 이름은 없으나 ASPCA의 글에서는 약한 독성이 있다고 설명합니다",
+      "careLevel": "보통",
+      "petSafetySource": "https://www.aspca.org/"
+    }
+  },
+  "it": {
+    "imageAlt": "Ficus lyrata con grandi foglie ondulate a forma di violino contro un cielo azzurro",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/61359233\"><em>Ficus lyrata</em></a> di Diogo Luiz, tramite iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Ritagliata e ridimensionata.",
+    "atAGlance": {
+      "light": "Luce intensa indiretta; proteggi dal sole pomeridiano forte",
+      "watering": "Lascia asciugare leggermente; è sensibile all’eccesso d’acqua",
+      "humidity": "Umidità da media ad alta",
+      "temperature": "Sopra 13 °C (55 °F); evita correnti e sbalzi",
+      "petSafety": "Assente per nome dal database ASPCA; un suo articolo lo definisce lievemente tossico",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Media"
+    },
+    "description": "Cura del ficus lyrata: luce indiretta, condizioni stabili e acqua controllata. Caduta delle foglie e fonti discordanti sulla tossicità per animali."
+  },
+  "zh-Hant": {
+    "imageAlt": "琴葉榕寬大的小提琴形葉片，葉脈清晰可見",
+    "caption": "照片： <a href=\"https://www.inaturalist.org/observations/61359233\"><em>Ficus lyrata</em></a>，攝影：Diogo Luiz，來源：iNaturalist， <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. 已裁切並調整尺寸。",
+    "atAGlance": {
+      "light": "明亮間接光；避免強烈午後日照",
+      "watering": "介質稍乾再澆；對過度澆水敏感",
+      "humidity": "中至高濕度",
+      "temperature": "保持 13 °C（55 °F）以上，避免冷風與溫差",
+      "petSafety": "ASPCA 植物資料庫未以此學名列出；一篇 ASPCA 文章稱其具輕微毒性",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "中等至較難"
+    },
+    "description": "琴葉榕照護指南：穩定光線與溫度、澆水檢查、落葉排查及繁殖，並如實說明寵物毒性資料來源之間的差異。"
   }
 }

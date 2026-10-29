@@ -1,0 +1,164 @@
+name: Website checks
+
+on:
+  pull_request:
+    branches: [main]
+    types: [opened, synchronize, reopened, ready_for_review]
+    paths:
+      - '.github/workflows/website-checks.yml'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'config/**'
+      - 'scripts/**'
+      - 'locales/**'
+      - 'content/**'
+      - 'pages/**'
+      - 'editorial/**'
+      - 'assets/**'
+      - '**/*.html'
+      - '**/*.xml'
+      - 'site.webmanifest'
+      - 'robots.txt'
+      - 'CNAME'
+      - '.nojekyll'
+      - '.well-known/security.txt'
+      - '!**/README.md'
+      - '!assets/**/*.md'
+      - '!assets/**/*.txt'
+      - '!scripts/**/*.md'
+      - '!config/**/*.md'
+      - '!editorial/**/*.md'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: website-checks-pr-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  website:
+    name: Static, browser and mobile Lighthouse
+    if: ${{ !github.event.pull_request.draft }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    defaults:
+      run:
+        shell: bash
+    env:
+      CI: 'true'
+      # Official released pin; requires Node >=22.19.
+      LIGHTHOUSE_VERSION: '13.4.1'
+
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: package-lock.json
+
+      - name: Cheap source and importer checks
+        timeout-minutes: 2
+        run: |
+          set -euo pipefail
+          mkdir -p .test-results/ci
+          git diff --check
+          for script in scripts/*.cjs scripts/lighthouse-check.mjs; do
+            node --check "$script"
+          done
+          python3 scripts/import-content.test.py 2>&1 | tee .test-results/ci/importer.log
+
+      - name: Install locked website dependencies
+        timeout-minutes: 5
+        run: npm ci --no-audit --no-fund
+
+      - name: Select runner Chrome and local CJK font
+        timeout-minutes: 2
+        run: |
+          set -euo pipefail
+          chrome_path=''
+          for candidate in google-chrome google-chrome-stable chromium chromium-browser; do
+            if command -v "$candidate" >/dev/null 2>&1; then
+              chrome_path="$(command -v "$candidate")"
+              break
+            fi
+          done
+          test -n "$chrome_path"
+          "$chrome_path" --version
+          printf 'CHROMIUM_PATH=%s\nCHROME_PATH=%s\n' "$chrome_path" "$chrome_path" >> "$GITHUB_ENV"
+          # Reuse the checked-in export font; no browser/font download or asset rebuild.
+          font_dir="$HOME/.local/share/fonts/lilora-ci"
+          mkdir -p "$font_dir"
+          cp assets/fonts/DroidSansFallback.ttf "$font_dir/"
+          fc-cache -f "$font_dir"
+
+      - name: Complete npm test suite on committed outputs
+        timeout-minutes: 10
+        run: |
+          set -euo pipefail
+          timeout --kill-after=15s 8m npm test 2>&1 | tee .test-results/ci/npm-test.log
+
+      - name: Install pinned local Lighthouse CLI
+        timeout-minutes: 5
+        run: |
+          set -euo pipefail
+          npm install --prefix "$RUNNER_TEMP/lilora-lighthouse" --no-save --no-package-lock --no-audit --no-fund "lighthouse@$LIGHTHOUSE_VERSION"
+          printf 'LIGHTHOUSE_BIN=%s\n' "$RUNNER_TEMP/lilora-lighthouse/node_modules/.bin/lighthouse" >> "$GITHUB_ENV"
+
+      - name: All browser suites and mobile Lighthouse
+        timeout-minutes: 70
+        run: |
+          set -euo pipefail
+          python3 -u -m http.server 4173 --bind 127.0.0.1 > .test-results/ci/static-server.log 2>&1 &
+          server_pid=$!
+          cleanup() {
+            kill "$server_pid" 2>/dev/null || true
+            wait "$server_pid" 2>/dev/null || true
+          }
+          trap cleanup EXIT
+          trap 'exit 130' INT
+          trap 'exit 143' TERM
+          python3 - <<'PY'
+          import time
+          import urllib.error
+          import urllib.request
+          deadline = time.monotonic() + 30
+          while time.monotonic() < deadline:
+              try:
+                  with urllib.request.urlopen('http://127.0.0.1:4173/', timeout=1) as response:
+                      if response.status == 200:
+                          break
+              except (OSError, urllib.error.URLError):
+                  pass
+              time.sleep(0.25)
+          else:
+              raise SystemExit('Static server did not become ready within 30 seconds')
+          PY
+          # The glob includes every existing browser suite, excluding the registry helper.
+          # Contact/comment suites intercept their endpoints; they send no real submissions.
+          for suite in scripts/*-check.cjs; do
+            name="$(basename "$suite" .cjs)"
+            printf '::group::%s\n' "$name"
+            timeout --kill-after=15s 20m node "$suite" 2>&1 | tee ".test-results/ci/$name.log"
+            printf '::endgroup::\n'
+          done
+          node scripts/lighthouse-check.mjs 2>&1 | tee .test-results/ci/lighthouse.log
+
+      - name: Retain local logs and reports
+        if: ${{ always() && !cancelled() }}
+        timeout-minutes: 3
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: website-checks-${{ github.event.pull_request.number }}-${{ github.run_attempt }}
+          retention-days: 7
+          if-no-files-found: warn
+          include-hidden-files: true
+          path: |
+            .test-results/ci/
+            .test-results/lighthouse/
+            .test-results/**/report.json
+            .test-results/*-report.json

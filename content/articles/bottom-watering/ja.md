@@ -20,7 +20,7 @@
 
 ## 注意したい点
 
-コロラド州立大学エクステンションは、一般には上からの水やりを勧めています。下から吸水させる方法では、土の中や表面に水溶性塩類がたまりやすいためです。塩類の濃度が高くなると、水の吸収や根の生長が妨げられます。[コロラド州立大学エクステンション：観葉植物への水やり](https://planttalk.colostate.edu/topics/houseplants/1318-houseplants-watering/) メリーランド大学も、特に底面給水をする植物では、肥料由来の塩類が表面に白い crust 状の堆積物を作ることがあると説明しています。[メリーランド大学エクステンション：肥料の過剰と高濃度の水溶性塩類](https://extension.umd.edu/resource/fertilizer-toxicity-or-high-soluble-salts-indoor-plants)
+コロラド州立大学エクステンションは、一般には上からの水やりを勧めています。下から吸水させる方法では、土の中や表面に水溶性塩類がたまりやすいためです。塩類の濃度が高くなると、水の吸収や根の生長が妨げられます。[コロラド州立大学エクステンション：観葉植物への水やり](https://planttalk.colostate.edu/topics/houseplants/1318-houseplants-watering/) メリーランド大学も、特に底面給水をする植物では、肥料由来の塩類が表面に白い固い堆積物を作ることがあると説明しています。[メリーランド大学エクステンション：肥料の過剰と高濃度の水溶性塩類](https://extension.umd.edu/resource/fertilizer-toxicity-or-high-soluble-salts-indoor-plants)
 
 対策は、普段は底面給水でも、ときどき上からたっぷり水を与えて十分に排水し、余分な塩類を流すことです。[コロラド州立大学エクステンション：観葉植物への水やり](https://planttalk.colostate.edu/topics/houseplants/1318-houseplants-watering/) 洗い流す頻度については[観葉植物と水道水](/ja/blog/tap-water-for-houseplants/)でも取り上げています。
 

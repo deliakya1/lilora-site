@@ -28,5 +28,25 @@
     "title": "Les plantes de la maison, un carnet partagé.",
     "seoTitle": "Appli d’entretien des plantes pour toute la maison",
     "description": "Dans quelle pièce, vérifiée par qui, arrosée quand ? Gardez les photos, les notes et l’historique d’entretien de vos plantes au même endroit, dans Lilora."
+  },
+  "ja": {
+    "title": "みんなで使える、植物のノート。",
+    "seoTitle": "家族で植物のお世話を共有するアプリ",
+    "description": "どの部屋にあり、誰が最後に確認し、いつ水を与えたか。iPhone・iPadのLiloraで、植物の写真、メモ、お世話の履歴をまとめましょう。"
+  },
+  "ko": {
+    "title": "함께 쓰는 식물 노트.",
+    "seoTitle": "함께 돌보는 가정을 위한 식물 관리 앱",
+    "description": "어느 방에 있는지, 누가 마지막으로 확인했는지, 언제 물을 줬는지. iPhone과 iPad의 Lilora에 식물 사진, 메모, 관리 이력을 모아 보세요."
+  },
+  "it": {
+    "title": "Un diario condiviso per le tue piante.",
+    "seoTitle": "App per la cura condivisa delle piante",
+    "description": "In quale stanza, chi ha controllato per ultimo e quando ha annaffiato. Riunisci foto, note e cronologia delle tue piante in Lilora, su iPhone e iPad."
+  },
+  "zh-Hant": {
+    "title": "一起記錄植物的生活與照護。",
+    "seoTitle": "適合共同生活家庭的植物照護應用程式",
+    "description": "放在哪個房間、誰上次檢查、何時澆水。在 iPhone 與 iPad 上用 Lilora，把植物照片、筆記與照護歷程放在一起。"
   }
 }

@@ -40,7 +40,7 @@ L’aloe produce polloni alla base. Durante il rinvaso separane uno con qualche 
 
 ## Animali e persone
 
-L’[ASPCA Animal Poison Control Center](https://www.aspca.org/) indica l’aloe come tossica per gatti e cani. Cita saponine e antrachinoni come principi tossici e vomito, letargia e diarrea tra i sintomi. NC State Extension osserva che il lattice può irritare la pelle e l’ingestione causare crampi addominali e diarrea. L’aloe coltivata in casa non è un rimedio per gli animali. Se un animale la mastica, contatta un veterinario o un centro antiveleni per animali. In Turchia, il numero antiveleni per le persone è 114 (UZEM). Sono informazioni generali, non consigli medici o veterinari.
+L’[ASPCA Animal Poison Control Center](https://www.aspca.org/) indica l’aloe come tossica per gatti e cani. Cita saponine e antrachinoni come principi tossici e vomito, letargia e diarrea tra i sintomi. NC State Extension osserva che il lattice può irritare la pelle e l’ingestione causare crampi addominali e diarrea. L’aloe coltivata in casa non è un rimedio per gli animali. Se un animale la mastica, contatta un veterinario o un centro antiveleni per animali. Per le persone, contatta il centro antiveleni locale, un servizio distinto dall’assistenza veterinaria. Sono informazioni generali, non consigli medici o veterinari.
 
 ## Domande frequenti
 

@@ -112,5 +112,61 @@
       "petSafetySource": "https://www.aspca.org/",
       "careLevel": "Facile à moyen"
     }
+  },
+  "ja": {
+    "description": "インドゴムノキの育て方。明るい間接光、水やり前の軽い乾燥、樹液への注意、取り木、ASPCAのペット情報を紹介します。",
+    "imageAlt": "厚く濃いバーガンディー色の葉と、新葉を包む赤い托葉のあるインドゴムノキ",
+    "caption": "写真：<a href=\"https://www.inaturalist.org/observations/242572094\"><em>Ficus elastica</em></a>、撮影：Rosalinda Melendrez。iNaturalistより、<a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>。サイズ変更済み。",
+    "atAGlance": {
+      "light": "明るい間接光。斑入りにはより多くの光が必要",
+      "watering": "水やりの間に少し乾かす。冬はかすかな湿り気を保つ程度",
+      "humidity": "中程度の湿度",
+      "temperature": "13℃（55℉）より高く保ち、冷たいすきま風を避ける",
+      "petSafety": "ASPCAは猫・犬に有毒と掲載（項目名Indian rubber plant）",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "比較的育てやすい"
+    }
+  },
+  "ko": {
+    "description": "인도고무나무 관리: 밝은 간접광, 살짝 마른 뒤 물주기, 수액 주의, 취목과 ASPCA의 반려동물 관련 분류를 알아보세요.",
+    "imageAlt": "두꺼운 짙은 자주색 잎과 새 잎을 감싼 붉은 잎집이 보이는 인도고무나무",
+    "caption": "사진: <a href=\"https://www.inaturalist.org/observations/242572094\"><em>Ficus elastica</em></a> — 촬영: Rosalinda Melendrez, iNaturalist 제공, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. 크기를 조정했습니다.",
+    "atAGlance": {
+      "light": "밝은 간접광. 무늬종은 더 많은 빛이 필요합니다",
+      "watering": "물주기 사이 흙을 약간 말리고 겨울에는 간신히 촉촉한 정도로 유지하세요",
+      "humidity": "중간 정도의 습도",
+      "temperature": "13 °C(55 °F) 이상. 찬바람을 피하세요",
+      "petSafety": "ASPCA가 고양이와 개에게 유독한 식물로 분류했습니다(Indian rubber plant)",
+      "careLevel": "쉬움에서 보통",
+      "petSafetySource": "https://www.aspca.org/"
+    }
+  },
+  "it": {
+    "imageAlt": "Ficus elastica con foglie spesse color bordeaux scuro e guaina rossa intorno a una nuova foglia",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/242572094\"><em>Ficus elastica</em></a> di Rosalinda Melendrez, tramite iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Ridimensionata.",
+    "atAGlance": {
+      "light": "Luce intensa indiretta; le forme variegate ne richiedono di più",
+      "watering": "Lascia asciugare leggermente; mantieni appena umido in inverno",
+      "humidity": "Umidità media",
+      "temperature": "Sopra 13 °C (55 °F); niente correnti fredde",
+      "petSafety": "ASPCA: tossico per gatti e cani nella voce “Indian rubber plant”",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Da facile a media"
+    },
+    "description": "Cura del ficus elastica: luce indiretta, lieve asciugatura prima dell’acqua, cautela con la linfa, margotte e informazioni ASPCA sugli animali."
+  },
+  "zh-Hant": {
+    "imageAlt": "橡膠樹厚實亮澤的深綠葉片與包住新葉的紅色托葉",
+    "caption": "照片： <a href=\"https://www.inaturalist.org/observations/242572094\"><em>Ficus elastica</em></a>，攝影：Rosalinda Melendrez，來源：iNaturalist， <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. 已調整尺寸。",
+    "atAGlance": {
+      "light": "明亮間接光；避免強烈午後日照",
+      "watering": "生長期讓介質稍乾再澆；冬季只維持微濕",
+      "humidity": "中等濕度",
+      "temperature": "保持 13 °C（55 °F）以上，避開冷風",
+      "petSafety": "對貓狗有風險；ASPCA 俗名條目使用另一榕屬學名",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "容易至中等"
+    },
+    "description": "橡膠樹照護指南：明亮間接光、澆水與溫度檢查、修剪和高壓繁殖，並釐清汁液刺激及寵物資料的學名差異。"
   }
 }

@@ -9,10 +9,7 @@ const { PNG } = require('pngjs');
 
 const base = process.env.SITE_TEST_URL || 'http://127.0.0.1:4173';
 const siteOrigin = new URL(base).origin;
-const languages = ['tr', 'en', 'es', 'de', 'pt', 'fr'];
-const prefix = (lang) => lang === 'tr' ? '/' : `/${lang}/`;
-const htmlLang = (lang) => lang === 'pt' ? 'pt-BR' : lang;
-const langOf = (route) => languages.find((lang) => lang !== 'tr' && route.startsWith(`/${lang}/`)) || 'tr';
+const { languages, prefix, htmlLang, languageOfPath: langOf } = require('./locale-registry.cjs');
 const routes = JSON.parse(fs.readFileSync('editorial/routes.json', 'utf8'));
 const homeCopy = JSON.parse(fs.readFileSync('pages/home/copy.json', 'utf8'));
 const plants = JSON.parse(fs.readFileSync('editorial/plants.json', 'utf8'));
@@ -147,7 +144,7 @@ async function loadLazyImages(page, route) {
           }
           await loadLazyImages(page, route);
           assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), `${route}: loaded-image overflow`);
-          if (['tr', 'en', 'de', 'pt'].includes(lang) && kind !== 'press') {
+          if (kind !== 'press') {
             await page.screenshot({ path: `${output}/${lang}-${kind}-${width}.png`, fullPage: true });
             screenshots++;
           }
@@ -178,17 +175,17 @@ async function loadLazyImages(page, route) {
       }
       qrChecks++;
     }
-    assert.equal(qrChecks, 24, 'Six languages × four QR contexts');
+    assert.equal(qrChecks, languages.length * 4, 'Every language × four QR contexts');
     await qrContext.close();
 
     const failureContext = await browser.newContext({ viewport: { width: 390, height: 1000 } });
     const failurePage = await failureContext.newPage();
     watch(failurePage);
     await failurePage.route('**/assets/images/home/**', (route) => route.request().url().includes('/app-') ? route.continue() : route.abort());
-    await open(failurePage, '/en/');
+    await open(failurePage, prefix('en'));
     assert.equal(await failurePage.locator('h1').innerText(), homeCopy.en.title);
     assert.equal(await failurePage.locator('a[data-analytics-cta="home-hero"]').isVisible(), true, 'Illustration failures must not hide the download CTA');
-    assert.equal(await failurePage.locator('a[data-analytics-cta="home-hero"]').getAttribute('href'), '/en/download/');
+    assert.equal(await failurePage.locator('a[data-analytics-cta="home-hero"]').getAttribute('href'), prefix('en') + 'download/');
     await failureContext.close();
 
     assert.deepEqual(errors, [], 'Browser JavaScript errors');

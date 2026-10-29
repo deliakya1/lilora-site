@@ -22,5 +22,21 @@
   "fr": {
     "title": "Politique de confidentialité",
     "description": "Comment Lilora traite vos informations : compte, foyer, identification par photo, achats, formulaire et statistiques du site, conservation et droits."
+  },
+  "ja": {
+    "title": "プライバシーポリシー",
+    "description": "Liloraのアカウント、世帯、写真識別、購入、ウェブフォーム、解析の情報の取り扱い、保存期間、利用者の権利を説明します。"
+  },
+  "ko": {
+    "title": "개인정보 처리방침",
+    "description": "계정, 가정 그룹, 사진 식별, 구매, 웹사이트 양식과 분석, 보관 기간, 권리 등 Lilora의 개인정보 처리 방식을 안내합니다."
+  },
+  "it": {
+    "title": "Informativa sulla privacy",
+    "description": "Come Lilora tratta account, foto, acquisti e dati del sito: fornitori, conservazione, diritti sulla privacy e scelte per cookie e analisi."
+  },
+  "zh-Hant": {
+    "title": "隱私權政策",
+    "description": "了解 Lilora 如何處理帳號、家庭群組、照片辨識、購買、網站表單及分析資料，以及資料保留期間與您的隱私權利。"
   }
 }

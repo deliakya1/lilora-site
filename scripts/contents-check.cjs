@@ -1,3 +1,4 @@
+const { languages } = require('./locale-registry.cjs');
 const {chromium}=require('playwright-core');
 const assert=require('node:assert/strict');
 const fs=require('node:fs');
@@ -5,11 +6,12 @@ const fs=require('node:fs');
  const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',args:['--no-sandbox']});let checks=0;
  const {articlePath}=await import('./layout.mjs');
  const articles=JSON.parse(fs.readFileSync('editorial/articles.json','utf8'));
+ const articlePages=articles.reduce((count,article)=>count+languages.filter(lang=>article[lang]).length,0);
  for(const javaScriptEnabled of [true,false])for(const width of [320,390,1440]){
   const context=await browser.newContext({reducedMotion:'reduce',javaScriptEnabled,viewport:{width,height:900}});
   await context.addInitScript(()=>localStorage.setItem('lilora.cookie-preferences.v2',JSON.stringify({version:2,analytics:false,savedAt:Date.now()})));
   const page=await context.newPage();
-  for(const article of articles)for(const lang of ['tr','en','es','de','pt','fr'].filter(l=>article[l])){
+  for(const article of articles)for(const lang of languages.filter(l=>article[l])){
    const path=articlePath(article,lang);
    await page.goto('http://127.0.0.1:4173'+path);
    const details=page.locator('.toc'),summary=details.locator('summary');
@@ -29,8 +31,8 @@ const fs=require('node:fs');
    await summary.focus();await page.keyboard.press('Space');assert.equal(await details.getAttribute('open'),null);
    assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));checks++;
   }
-  console.log(`Passed ${width}px, JavaScript ${javaScriptEnabled}: 14 article pages`);
+  console.log(`Passed ${width}px, JavaScript ${javaScriptEnabled}: ${articlePages} article pages`);
   await context.close();
  }
- await browser.close();console.log(`${checks} contents checks passed: 14 articles, three widths, JS on/off, keyboard, section navigation and touch targets.`);
+ await browser.close();console.log(`${checks} contents checks passed: ${articlePages} translated article pages, three widths, JS on/off, keyboard, section navigation and touch targets.`);
 })().catch(e=>{console.error(e);process.exit(1)});

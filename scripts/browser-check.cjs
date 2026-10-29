@@ -1,9 +1,10 @@
+const { languages, prefix } = require('./locale-registry.cjs');
 const {chromium}=require('playwright-core');
 const fs=require('node:fs');
 const assert=require('node:assert/strict');
 (async()=>{
  const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',headless:true,args:['--no-sandbox']});
- const urls=[...['tr','en','es','de','pt','fr'].map(l=>fs.readFileSync(`sitemap-${l}.xml`,'utf8')).join('\n').matchAll(/<loc>https:\/\/lilora.app(.*?)<\/loc>/g)].map(x=>x[1]);
+ const urls=[...languages.map(l=>fs.readFileSync(`sitemap-${l}.xml`,'utf8')).join('\n').matchAll(/<loc>https:\/\/lilora.app(.*?)<\/loc>/g)].map(x=>x[1]);
  fs.mkdirSync('.test-results',{recursive:true});
  let count=0;let requests=[];let errors=[];
  for(const width of [320,390,768,1440]){
@@ -21,7 +22,7 @@ const assert=require('node:assert/strict');
    await page.waitForFunction(()=>[...document.images].every(i=>i.complete));
    assert.equal(await page.locator('img').evaluateAll(imgs=>imgs.filter(i=>!i.complete||i.naturalWidth===0).length),0,path);
    assert.equal(await page.locator('.cookie-banner').isVisible(),false,'saved rejection hides banner');
-   if(['/en/','/en/blog/','/en/guides/watering-houseplants/','/en/compare/lilora-vs-planta/','/','/de/','/de/support/','/de/privacy/'].includes(path))await page.screenshot({path:'.test-results/'+width+'-'+(path.replaceAll('/','_')||'home')+'.png',fullPage:true});
+   if([...languages.map(prefix),prefix('en')+'blog/',prefix('en')+'guides/watering-houseplants/',prefix('en')+'compare/lilora-vs-planta/',prefix('de')+'support/',prefix('de')+'privacy/'].includes(path))await page.screenshot({path:'.test-results/'+width+'-'+(path.replaceAll('/','_')||'home')+'.png',fullPage:true});
    count++;
   }
   await context.close();

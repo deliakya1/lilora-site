@@ -22,5 +22,21 @@
   "fr": {
     "title": "À propos de Lilora",
     "description": "Lilora est un carnet de plantes pour des soins attentifs et partagés, publié de manière indépendante par Umut OREN en Türkiye."
+  },
+  "ja": {
+    "title": "Liloraについて",
+    "description": "Liloraは、植物の観察とお世話を家族で共有するiPhone・iPad向けノートです。トルコのUmut ORENが独立して提供しています。"
+  },
+  "ko": {
+    "title": "Lilora 소개",
+    "description": "iPhone과 iPad에서 식물 관찰과 공동 관리를 기록하는 Lilora를 소개합니다. 튀르키예의 Umut OREN이 독립적으로 운영합니다."
+  },
+  "it": {
+    "title": "Informazioni su Lilora",
+    "description": "Lilora è un diario per la cura attenta e condivisa delle piante, pubblicato in modo indipendente da Umut OREN in Turchia per iPhone e iPad."
+  },
+  "zh-Hant": {
+    "title": "關於 Lilora",
+    "description": "Lilora 是為細心照護與共同生活家庭設計的植物筆記，由土耳其的 Umut OREN 獨立發行，適用於 iPhone 與 iPad。"
   }
 }

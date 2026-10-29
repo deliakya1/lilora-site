@@ -1,4 +1,4 @@
-import { languages, prefix, htmlLang, languageOptions } from './locale-registry.mjs';
+import { languages, prefix, htmlLang, languageOptions, languageOfPath } from './locale-registry.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync,readdirSync,existsSync} from 'node:fs';
@@ -67,7 +67,6 @@ test('related reading follows editorial priority with valid distinct destination
   assert.equal(new Set(priority).size,priority.length,'duplicate recommendation');
   for(const slug of priority){assert.ok(slugs.has(slug),`unknown recommendation ${slug}`);assert.notEqual(slug,article.slug);}
   for(const lang of ['tr','en']){
-   const prefix=lang==='en'?'en/':'';
    const path='.'+articlePath(article,lang)+'index.html';
    const related=readFileSync(path,'utf8').split('<section class="related">')[1];
    const links=[...related.matchAll(/<article class="(?:story-card|post-card post-card-card)"[^>]*><a href="([^"]+)"/g)].map(x=>x[1]);
@@ -89,20 +88,20 @@ test('titles and descriptions are unique, source routes complete, and locale dic
 
 test('content hubs list only their article type and preserve real fallback languages',()=>{
  for(const lang of languages)for(const [hub,type] of [['guides','guide'],['blog','post'],['compare','comparison']]){
-  const html=readFileSync((lang==='tr'?'':lang+'/')+hub+'/index.html','utf8');
+  const html=readFileSync(prefix(lang).slice(1)+hub+'/index.html','utf8');
   const cards=[...html.matchAll(/<article class="(?:story-card|post-card post-card-card)" lang="([^"]+)"><a href="([^"]+)"/g)];
   for(const [,cardLang,path] of cards){const a=content.find(a=>path.endsWith('/'+a.slug+'/'));assert.equal(a?.type,type,path);assert.ok(cardLang===(lang==='pt'?'pt-BR':lang)||cardLang==='en');assert.equal(path,articlePath(a,cardLang==='pt-BR'?'pt':cardLang));}
   assert.equal(cards.filter(c=>c[1]===(lang==='pt'?'pt-BR':lang)).length,content.filter(a=>a.type===type&&a[lang]).length);
  }
 });
 test('every indexable page has a same-language inbound link and guide plant links resolve both ways',()=>{
- const langOf=f=>(f.slice(root.length+1).match(/^(en|es|de|pt|fr)\//)||[,'tr'])[1];const inbound=new Map(files.map(f=>[f,0]));
+ const langOf=f=>languageOfPath(f.slice(root.length));const inbound=new Map(files.map(f=>[f,0]));
  for(const file of files){const s=readFileSync(file,'utf8');for(let [,url] of s.slice(s.indexOf('<body')).matchAll(/href="([^"]+)"/g)){
   if(url.startsWith('https://lilora.app/'))url=new URL(url).pathname;if(!url.startsWith('/'))continue;const t=root+url.split('#')[0]+(url.split('#')[0].endsWith('/')?'index.html':'');
   if(t!==file&&inbound.has(t)&&langOf(t)===langOf(file))inbound.set(t,inbound.get(t)+1);}}
  for(const [file,n] of inbound)if(!/name="robots" content="[^"]*noindex/.test(readFileSync(file,'utf8')))assert.ok(n>0,`${file}: no same-language inbound link`);
  const plants=JSON.parse(readFileSync('editorial/plants.json'));
  for(const a of content)for(const slug of a.plants||[]){const p=plants.find(x=>x.slug===slug);assert.ok(p,`${a.slug}: unknown plant ${slug}`);
-  for(const l of languages)if(a[l]&&p[l]){const pre=l==='tr'?'':l+'/';
+  for(const l of languages)if(a[l]&&p[l]){const pre=prefix(l).slice(1);
    assert.ok(readFileSync(articlePath(a,l).slice(1)+'index.html','utf8').includes(`href="/${pre}plants/${slug}/"`),`${a.slug}/${l}: missing plant link ${slug}`);}}
 });

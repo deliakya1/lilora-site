@@ -9,7 +9,7 @@ const credits=readFileSync('assets/images/plants/CREDITS.md','utf8');
 const text=(item)=>[item.answer,...item.sections.map(s=>s.html)].join(' ').replace(/<[^>]+>/g,' ');
 // Share of common English function words; translated bodies stay far below an English page.
 const english=(s)=>{const words=s.toLowerCase().match(/[a-z’']+/g)||[];return words.filter(w=>['the','and','with','your','when','water','plant','leaves','check','before','light','this','that','from','not','it','is','are','or','of','to'].includes(w)).length/Math.max(words.length,1);};
-test('twelve plant profiles exist in all six languages with botanical name, family and three or more institutional sources',()=>{
+test('twelve plant profiles exist in all supported languages with botanical name, family and three or more institutional sources',()=>{
  assert.equal(plants.length,12);
  for(const p of plants){
   assert.match(p.botanicalName,/^[A-Z][a-z]+( [a-z-]+)?$/,p.slug);assert.ok(p.family.endsWith('aceae'),p.slug);
@@ -20,7 +20,7 @@ test('twelve plant profiles exist in all six languages with botanical name, fami
 test('every profile states an ASPCA listing or says it is not listed, cites the ASPCA homepage only and never claims a plant is pet-safe',()=>{
  for(const p of plants)for(const lang of languages){
   const glance=p[lang].atAGlance;assert.equal(glance.petSafetySource,'https://www.aspca.org/');assert.match(glance.petSafety,/ASPCA/,`${p.slug}/${lang}`);
-  const body=text(p[lang]);assert.match(body,/ASPCA Animal Poison Control Center/,`${p.slug}/${lang}`);
+  const body=text(p[lang]);assert.match(body,/ASPCA(?: Animal Poison Control Center|動物中毒管理センター| 동물독극물관리센터)/,`${p.slug}/${lang}`);
   for(const [,url] of p[lang].sections.map(s=>s.html).join(' ').matchAll(/href="([^"]+)"/g))if(url.includes('aspca.org'))assert.equal(url,'https://www.aspca.org/',`${p.slug}/${lang}`);
   assert.doesNotMatch(body,/\b(?:is|are)\s+(?:completely\s+)?(?:pet[- ]safe|safe for pets)\b/i,`${p.slug}/${lang}`);
  }
@@ -44,7 +44,7 @@ test('translated profiles and articles are not English bodies under another lang
   if(!item.en)continue;const baseline=english(text(item.en));assert.ok(baseline>0.12,`${item.slug}: English baseline`);
   for(const lang of languages.filter(l=>l!=='en'))if(item[lang]){const translated=text(item[lang]); const share=isCJK(lang)?((translated.match(/\b(the|and|your|when|water|plant|leaves|before|light|this|that|from|not|are)\b/gi)||[]).join('').length/Math.max(translated.replace(/[^\p{L}]/gu,'').length,1)):english(translated);assert.ok(share<0.05,`${item.slug}/${lang}: ${share.toFixed(3)} English function words`);assert.notEqual(item[lang].title,item.en.title,`${item.slug}/${lang}: untranslated title`);}
  }
- // Guides and comparisons ship in all six languages; blog posts need at least English and Turkish.
+ // Every article type, including the blog, has complete locale coverage.
  for(const a of articles)for(const lang of languages)assert.ok(a[lang],`${a.slug}/${lang}: missing translation`);
 });
 test('the plant hub offers no-JS filter anchors and the pet guide links every profile in every language',()=>{

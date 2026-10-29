@@ -52,7 +52,7 @@ Allontana la pianta e conserva l’etichetta o scatta una foto. Annota all’inc
 
 ## Le persone in casa
 
-Anche i bambini piccoli possono masticare foglie. In Turchia, il National Poison Information Center (UZEM) risponde al 114: è un servizio per persone, non per animali. Altrove rivolgiti al centro antiveleni locale. Questa guida offre informazioni generali, non consigli medici o veterinari.
+Anche i bambini piccoli possono masticare foglie. Per le persone, contatta il centro antiveleni locale; questi servizi sono distinti dall’assistenza veterinaria per gli animali. Questa guida offre informazioni generali, non consigli medici o veterinari.
 
 ## Domande frequenti
 

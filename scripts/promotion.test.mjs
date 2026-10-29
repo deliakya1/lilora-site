@@ -9,7 +9,7 @@ import { languages, prefix, htmlLang, languageOptions, descriptionRange, isCJK }
 const contexts = ["home", "download", "a6", "a4"];
 
 
-test("24 offline QR SVGs decode to stable, language-matched URLs with four-module quiet zones", async () => {
+test("All offline QR SVGs decode to stable, language-matched URLs with four-module quiet zones", async () => {
   const browserPath =
     process.env.CHROMIUM_PATH ||
     [
@@ -25,7 +25,7 @@ test("24 offline QR SVGs decode to stable, language-matched URLs with four-modul
   });
   const page = await browser.newPage();
   const manifest = JSON.parse(readFileSync("assets/brand/qr/manifest.json"));
-  assert.equal(manifest.length, 24);
+  assert.equal(manifest.length, languages.length * contexts.length);
   try {
     for (const lang of languages) {
       for (const context of contexts) {
@@ -92,7 +92,7 @@ test("all print PDFs are single-page A6/A4 documents", () => {
       const pdf = readFileSync(path).toString("latin1");
       assert.ok(pdf.startsWith("%PDF-"), path);
       assert.equal((pdf.match(/\/Type \/Page\b/g) || []).length, 1, path);
-      const box = pdf.match(/\/MediaBox\s*\[0 0 ([\d.]+) ([\d.]+)\]/);
+      const box = pdf.match(/\/MediaBox\s*\[\s*0\s+0\s+([\d.]+)\s+([\d.]+)\s*\]/);
       assert.ok(box, path);
       const mm = format === "a6" ? [105, 148] : [210, 297];
       const expected = mm.map((value) => (value / 25.4) * 72);
@@ -106,7 +106,7 @@ test("every share card and locale default is 1200×630; the touch icon is 180×1
   const manifest = JSON.parse(readFileSync("assets/brand/share-manifest.json"));
   const routes = JSON.parse(readFileSync("editorial/routes.json"));
   assert.equal(manifest.pages.length, routes.length + 1);
-  assert.equal(manifest.defaults.length, 6);
+  assert.equal(manifest.defaults.length, languages.length);
   for (const page of [...manifest.pages, ...manifest.defaults]) {
     assert.ok(languages.includes(page.lang));
     const png = PNG.sync.read(readFileSync("." + page.image));

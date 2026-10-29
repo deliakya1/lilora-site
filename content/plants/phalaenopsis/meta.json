@@ -114,5 +114,61 @@
       "petSafetySource": "https://www.aspca.org/",
       "careLevel": "Moyen"
     }
+  },
+  "ja": {
+    "description": "コチョウランの育て方。明るい間接光、樹皮の培地、吸水後の排水、再び咲かせる手がかりと、ASPCAの無毒の掲載を紹介します。",
+    "imageAlt": "屋外の木に咲く、唇弁に黄色い模様がある白いコチョウランの花",
+    "caption": "写真：<a href=\"https://www.inaturalist.org/observations/208118863\"><em>Phalaenopsis amabilis</em></a>、撮影：Tom Heijnen。iNaturalistより、<a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>。サイズ変更済み。",
+    "atAGlance": {
+      "light": "明るい間接光。夏の直射日光を避ける",
+      "watering": "樹皮が乾き始めたら与え、十分に水を切る。水につけたままにしない",
+      "humidity": "高い湿度",
+      "temperature": "昼19〜30℃（66〜86℉）、夜16〜19℃（61〜66℉）",
+      "petSafety": "ASPCAは猫・犬に無毒と掲載",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "ある程度の注意が必要"
+    }
+  },
+  "ko": {
+    "description": "호접란 관리: 밝은 간접광, 수피 배양토, 담갔다 물 빼기, 재개화 조건과 ASPCA의 무독성 분류를 알아보세요.",
+    "imageAlt": "야외 나무에서 촬영한 흰 호접란 꽃. 입술꽃잎에 노란 무늬가 있습니다",
+    "caption": "사진: <a href=\"https://www.inaturalist.org/observations/208118863\"><em>Phalaenopsis amabilis</em></a> — 촬영: Tom Heijnen, iNaturalist 제공, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. 크기를 조정했습니다.",
+    "atAGlance": {
+      "light": "밝은 간접광. 여름 직사광을 피하세요",
+      "watering": "수피가 마르기 시작할 때 물을 주고 완전히 빼세요. 물에 담긴 채 두지 마세요",
+      "humidity": "높은 습도",
+      "temperature": "낮 19–30 °C(66–86 °F), 밤 16–19 °C(61–66 °F)",
+      "petSafety": "ASPCA가 고양이와 개에게 무독성인 식물로 분류했습니다",
+      "careLevel": "보통",
+      "petSafetySource": "https://www.aspca.org/"
+    }
+  },
+  "it": {
+    "imageAlt": "Fiori bianchi di Phalaenopsis con labello segnato di giallo, fotografati su un albero all’aperto",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/208118863\"><em>Phalaenopsis amabilis</em></a> di Tom Heijnen, tramite iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Ridimensionata.",
+    "atAGlance": {
+      "light": "Luce intensa indiretta; evita il sole diretto estivo",
+      "watering": "Annaffia quando la corteccia comincia ad asciugarsi; scola bene, senza ristagni",
+      "humidity": "Elevata; un vassoio ampio di ghiaia umida può aiutare",
+      "temperature": "19–30 °C di giorno; 16–19 °C di notte (66–86 / 61–66 °F)",
+      "petSafety": "Non tossica per cani e gatti secondo ASPCA",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Moderata"
+    },
+    "description": "Cura della Phalaenopsis: luce indiretta, corteccia drenante, radici e fioritura. Come annaffiare, concimare e controllare umidità e temperatura."
+  },
+  "zh-Hant": {
+    "imageAlt": "戶外樹上的白色蝴蝶蘭花，唇瓣帶黃色斑紋",
+    "caption": "照片： <a href=\"https://www.inaturalist.org/observations/208118863\"><em>Phalaenopsis amabilis</em></a>，攝影：Tom Heijnen，來源：iNaturalist， <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. 已調整尺寸。",
+    "atAGlance": {
+      "light": "明亮間接光；避免夏季直射日光",
+      "watering": "樹皮開始乾再澆，徹底瀝乾，不可長期泡水",
+      "humidity": "高濕度",
+      "temperature": "白天 19–30 °C（66–86 °F），夜間 16–19 °C（61–66 °F）",
+      "petSafety": "ASPCA 列為對貓狗無毒",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "中等"
+    },
+    "description": "蝴蝶蘭照護指南：樹皮介質、根色與澆水檢查、光照溫度、促花和施肥，並說明氣生根與寵物無毒分類。"
   }
 }

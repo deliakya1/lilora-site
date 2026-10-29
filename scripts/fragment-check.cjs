@@ -1,3 +1,4 @@
+const { languages, prefix: localePrefix } = require('./locale-registry.cjs');
 // Malformed URL fragments must not disable unrelated page controls.
 // All requests outside the local fixture are blocked; no forms are submitted.
 const { chromium } = require('playwright-core');
@@ -24,8 +25,8 @@ const path = require('node:path');
   const errors = [], external = [];
   let checks = 0;
   try {
-    for (const lang of ['tr', 'en', 'es', 'de', 'pt', 'fr']) {
-      const prefix = lang === 'tr' ? '/' : `/${lang}/`;
+    for (const lang of languages) {
+      const prefix = localePrefix(lang);
       for (const width of [390, 1440]) {
         const context = await browser.newContext({ viewport: { width, height: 900 }, reducedMotion: 'reduce' });
         await context.route('**/*', route => {
@@ -82,7 +83,7 @@ const path = require('node:path');
       }
     }
     assert.deepEqual(external, [], 'no third-party requests or form submissions');
-    const report = { checks, languages: ['tr', 'en', 'es', 'de', 'pt', 'fr'], widths: [390, 1440], javascriptErrors: errors.length, externalRequests: external.length, formSubmissions: 0, production: 'Not asserted by this local test' };
+    const report = { checks, languages, widths: [390, 1440], javascriptErrors: errors.length, externalRequests: external.length, formSubmissions: 0, production: 'Not asserted by this local test' };
     fs.mkdirSync('.test-results/fragment-recovery', { recursive: true });
     fs.writeFileSync('.test-results/fragment-recovery/report.json', JSON.stringify(report, null, 2) + '\n');
     console.log(JSON.stringify(report, null, 2));

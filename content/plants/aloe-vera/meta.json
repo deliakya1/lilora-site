@@ -114,5 +114,61 @@
       "petSafetySource": "https://www.aspca.org/",
       "careLevel": "Facile au soleil"
     }
+  },
+  "ja": {
+    "description": "アロエベラの育て方。日当たりのよい窓、粒の粗い用土、水やりの間の完全な乾燥と、ASPCAがペットに有毒とする理由を紹介します。",
+    "imageAlt": "壁を背に、鋸歯のある灰緑色の葉がロゼット状に茂り、高い黄色の花穂を伸ばすアロエの群生",
+    "caption": "写真：<a href=\"https://www.inaturalist.org/observations/264795601\"><em>Aloe vera</em></a>、撮影：nebrooks。iNaturalistより、<a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>。サイズ変更済み。",
+    "atAGlance": {
+      "light": "日なたから半日陰。日当たりのよい窓辺",
+      "watering": "用土が完全に乾いたときだけ与え、冬はほとんど与えない",
+      "humidity": "湿度の高い空気を嫌う",
+      "temperature": "暖かく明るい部屋。霜には耐えられない",
+      "petSafety": "ASPCAは猫・犬に有毒と掲載",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "日当たりがよければ育てやすい"
+    }
+  },
+  "ko": {
+    "description": "알로에 베라 관리: 햇볕 드는 창가, 입자가 굵은 흙, 완전히 마른 뒤 물주기와 ASPCA가 반려동물에게 유독한 식물로 분류한 이유입니다.",
+    "imageAlt": "벽 앞에서 톱니 모양 잎과 긴 노란 꽃대를 보이는 회녹색 알로에 로제트 무리",
+    "caption": "사진: <a href=\"https://www.inaturalist.org/observations/264795601\"><em>Aloe vera</em></a> — 촬영: nebrooks, iNaturalist 제공, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. 크기를 조정했습니다.",
+    "atAGlance": {
+      "light": "양지에서 반그늘까지, 햇볕이 드는 창턱",
+      "watering": "흙이 완전히 마른 뒤에만 물을 주세요. 겨울에는 거의 주지 않습니다",
+      "humidity": "높은 습도를 좋아하지 않습니다",
+      "temperature": "따뜻하고 밝은 실내. 서리를 견디지 못합니다",
+      "petSafety": "ASPCA가 고양이와 개에게 유독한 식물로 분류했습니다",
+      "careLevel": "햇볕 드는 자리에서는 쉬움",
+      "petSafetySource": "https://www.aspca.org/"
+    }
+  },
+  "it": {
+    "imageAlt": "Gruppi di rosette di aloe grigio-verdi con foglie dentate e alti steli di fiori gialli contro un muro",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/264795601\"><em>Aloe vera</em></a> di nebrooks, tramite iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Ridimensionata.",
+    "atAGlance": {
+      "light": "Dal pieno sole alla mezz’ombra; davanzale soleggiato",
+      "watering": "Annaffia solo a substrato completamente asciutto; quasi mai in inverno",
+      "humidity": "Non ama l’aria umida",
+      "temperature": "Stanza calda e luminosa; non tollera il gelo",
+      "petSafety": "Elencata dall’ASPCA come tossica per gatti e cani",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Facile in un posto soleggiato"
+    },
+    "description": "Cura dell’aloe vera: finestra soleggiata, substrato granuloso e asciugatura completa. Scopri anche perché l’ASPCA la considera tossica per animali."
+  },
+  "zh-Hant": {
+    "imageAlt": "灰綠色蘆薈葉片排列成蓮座，葉緣帶有小刺",
+    "caption": "照片： <a href=\"https://www.inaturalist.org/observations/264795601\"><em>Aloe vera</em></a>，攝影：nebrooks，來源：iNaturalist， <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. 已調整尺寸。",
+    "atAGlance": {
+      "light": "全日照至半陰；選擇最明亮的位置",
+      "watering": "介質完全乾透才澆水；冬季幾乎不用澆",
+      "humidity": "喜歡乾燥空氣，避免潮濕環境",
+      "temperature": "溫暖通風；不耐霜凍",
+      "petSafety": "ASPCA 列為對貓狗有毒",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "容易"
+    },
+    "description": "蘆薈照護指南：日照、排水介質、乾透後澆水與冬季管理，並說明繁殖、常見問題及對貓狗的毒性。"
   }
 }

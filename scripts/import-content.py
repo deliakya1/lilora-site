@@ -4,7 +4,11 @@ ROOT=pathlib.Path(__file__).resolve().parents[1]
 LANGUAGES=tuple(item['code'] for item in json.loads((ROOT/'config/languages.json').read_text())['languages'])
 def inline(text):
  text=html.escape(text,quote=False)
- text=re.sub(r'\[([^\]]+)\]\((https?://[^\s]+|/[^\s]*)\)',r'<a href="\2">\1</a>',text)
+ # Real app labels keep their declared language. Other inline HTML remains escaped.
+ text=re.sub(r'&lt;(span|strong) lang="([a-z]{2}(?:-[A-Za-z]{2,4})?)"&gt;(.*?)&lt;/\1&gt;',r'<\1 lang="\2">\3</\1>',text)
+ # CJK prose often puts punctuation/another link immediately after `)`. Stop at
+ # the Markdown delimiter rather than swallowing everything to the next space.
+ text=re.sub(r'\[([^\]]+)\]\((https?://[^\s)]+|/[^\s)]*)\)',r'<a href="\2">\1</a>',text)
  text=re.sub(r'\*\*([^*]+)\*\*',r'<strong>\1</strong>',text)
  return re.sub(r'(?<!\*)\*([^*]+)\*(?!\*)',r'<em>\1</em>',text)
 def blocks(text):
@@ -34,5 +38,6 @@ def compile_collection(kind):
    item[lang]={**item.get(lang,{}),'title':title.lstrip('# '),'answerHtml':blocks(sections[0]),'answer':re.sub(r'\[([^\]]+)\]\([^)]+\)',r'\1',sections[0]).strip(),'sections':[{'title':x.split('\n',1)[0],'html':blocks(x.split('\n',1)[1])} for x in sections[1:]]}
   result.append(item)
  return result
-for kind in ('articles','plants'):
- (ROOT/'editorial'/(kind+'.json')).write_text(json.dumps(compile_collection(kind),ensure_ascii=False,indent=2)+'\n')
+if __name__ == '__main__':
+ for kind in ('articles','plants'):
+  (ROOT/'editorial'/(kind+'.json')).write_text(json.dumps(compile_collection(kind),ensure_ascii=False,indent=2)+'\n')

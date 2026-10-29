@@ -112,5 +112,61 @@
       "petSafetySource": "https://www.aspca.org/",
       "careLevel": "Facile"
     }
+  },
+  "ja": {
+    "description": "ザミオクルカスの育て方。明るい間接光、水やり前の完全な乾燥、少ない施肥と、ASPCAのリストにない場合の注意点を説明します。",
+    "imageAlt": "屋外の落ち葉の間に育つ、光沢のある楕円形の小葉が2列に並ぶザミオクルカスの茎",
+    "caption": "写真：<a href=\"https://www.inaturalist.org/observations/321816909\"><em>Zamioculcas zamiifolia</em></a>、撮影：marius。iNaturalistより、<a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>。サイズ変更済み。",
+    "atAGlance": {
+      "light": "明るい間接光が最適。日陰に耐えるが直射日光で葉焼けすることがある",
+      "watering": "用土が完全に乾いたときだけ与える",
+      "humidity": "参照した大学の紹介に特別な湿度条件はない",
+      "temperature": "暖かい部屋。屋外の鉢は夜温が約16℃（60℉）未満になる前に取り込む",
+      "petSafety": "ASPCAに掲載なし。ノースカロライナ州立大学は有毒と掲載",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "育てやすい"
+    }
+  },
+  "ko": {
+    "description": "금전수 관리: 밝은 간접광, 흙이 완전히 마른 뒤 물주기, 드문 비료 사용과 ASPCA 식물 목록에 없는 이유를 알아보세요.",
+    "imageAlt": "야외 낙엽 사이에서 자라는 금전수 줄기. 윤기 나는 타원형 소엽이 두 줄로 배열되어 있습니다",
+    "caption": "사진: <a href=\"https://www.inaturalist.org/observations/321816909\"><em>Zamioculcas zamiifolia</em></a> — 촬영: marius, iNaturalist 제공, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. 크기를 조정했습니다.",
+    "atAGlance": {
+      "light": "밝은 간접광이 가장 좋습니다. 그늘을 견디지만 직사광은 잎을 태울 수 있습니다",
+      "watering": "흙이 완전히 마른 뒤에만 물을 주세요",
+      "humidity": "익스텐션 식물 정보에 특별한 습도 요구가 없습니다",
+      "temperature": "따뜻한 실내. 밤 기온이 약 16 °C(60 °F) 아래로 내려가기 전에 화분을 실내로 옮기세요",
+      "petSafety": "ASPCA 목록에는 없습니다. NC 주립대 익스텐션은 유독한 식물로 분류합니다",
+      "careLevel": "쉬움",
+      "petSafetySource": "https://www.aspca.org/"
+    }
+  },
+  "it": {
+    "imageAlt": "Foglioline ovali e lucide di zamioculcas disposte in due file, tra foglie cadute all’aperto",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/321816909\"><em>Zamioculcas zamiifolia</em></a> di marius, tramite iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Ridimensionata.",
+    "atAGlance": {
+      "light": "Luce intensa indiretta; tollera ombra, ma il sole forte brucia le foglie",
+      "watering": "Lascia asciugare completamente il substrato prima di annaffiare",
+      "humidity": "Nessuna esigenza particolare; normale aria di casa",
+      "temperature": "Al caldo; riporta dentro prima di 16 °C (60 °F)",
+      "petSafety": "Non elencata dall’ASPCA; tossica secondo NC State Extension",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Facile"
+    },
+    "description": "Cura della zamioculcas: luce indiretta, substrato asciutto e annaffiature prudenti. Controlli dei rizomi, concimazione e rischi per gli animali."
+  },
+  "zh-Hant": {
+    "imageAlt": "戶外落葉間生長的金錢樹，亮澤橢圓小葉排列成兩列",
+    "caption": "照片： <a href=\"https://www.inaturalist.org/observations/321816909\"><em>Zamioculcas zamiifolia</em></a>，攝影：marius，來源：iNaturalist， <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. 已調整尺寸。",
+    "atAGlance": {
+      "light": "明亮間接光最佳；耐陰，直射日光可能灼傷",
+      "watering": "介質完全乾透才澆水",
+      "humidity": "推廣資料未列特殊濕度需求",
+      "temperature": "溫暖房間；夜溫降至約 16 °C（60 °F）前搬回室內",
+      "petSafety": "ASPCA 未列出；NC State Extension 列為有毒",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "容易"
+    },
+    "description": "金錢樹照護指南：明亮間接光、整盆乾透後澆水、少量施肥與根莖檢查，並說明未列入 ASPCA 清單不等於安全。"
   }
 }

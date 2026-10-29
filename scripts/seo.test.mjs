@@ -4,7 +4,7 @@ import assert from "node:assert/strict";
 import { readFileSync, readdirSync, existsSync, statSync } from "node:fs";
 import { join } from "node:path";
 
-import { languages, prefix, htmlLang, languageOptions, descriptionRange, isCJK, languageOfPath } from './locale-registry.mjs';
+import { languages, prefix, htmlLang, languageOptions, descriptionRange, isCJK, languageOfPath, ogLocale } from './locale-registry.mjs';
 
 const pages = [];
 const walk = (dir) => {
@@ -258,17 +258,16 @@ test("titles stay distinct after ignoring punctuation and the brand suffix, so n
 });
 
 test("each translation canonicalises to itself in its own language, never to another language", () => {
-  const ogLocales = { tr: "tr_TR", en: "en_GB", es: "es_ES", de: "de_DE", pt: "pt_BR", fr: "fr_FR" };
   for (const f of pages) {
     const s = read(f);
     const path = pathOf(f);
-    const lang = languages.find((l) => l !== "tr" && path.startsWith(prefix(l))) || "tr";
+    const lang = languageOfPath(path);
     const canonical = s.match(/rel="canonical" href="([^"]+)"/)[1];
     assert.equal(s.match(/<html lang="([^"]+)"/)[1], htmlLang(lang), f);
     assert.equal(canonical, "https://lilora.app" + path, f);
     for (const [, hreflang, href] of s.matchAll(/rel="alternate" hreflang="([^"]+)" href="([^"]+)"/g))
       if (href === canonical && hreflang !== "x-default") assert.equal(hreflang, htmlLang(lang), `${f}: self hreflang`);
-    assert.equal(s.match(/property="og:locale" content="([^"]+)"/)?.[1], ogLocales[lang], `${f}: og:locale`);
+    assert.equal(s.match(/property="og:locale" content="([^"]+)"/)?.[1], ogLocale[lang], `${f}: og:locale`);
   }
 });
 

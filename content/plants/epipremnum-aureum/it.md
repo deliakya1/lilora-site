@@ -46,7 +46,7 @@ Radica facilmente da talee di fusto. Taglia un pezzo con almeno un nodo, il rili
 
 ## Animali e persone
 
-L’[ASPCA Animal Poison Control Center](https://www.aspca.org/) indica il pothos dorato come tossico per gatti e cani. NC State Extension cita cristalli di ossalato di calcio, con irritazione e gonfiore della bocca, salivazione, difficoltà a deglutire e vomito; la linfa può irritare la pelle. Tieni i fusti ricadenti fuori portata. Se un animale lo mastica, contatta un veterinario o un centro antiveleni per animali. In Turchia, il numero per le persone è 114 (UZEM). Sono informazioni generali, non consigli medici o veterinari. Consulta la [guida su piante e animali](/it/guides/pet-safe-houseplants/) o le [schede delle non tossiche](/it/plants/#petNonToxic) per confrontare altre specie.
+L’[ASPCA Animal Poison Control Center](https://www.aspca.org/) indica il pothos dorato come tossico per gatti e cani. NC State Extension cita cristalli di ossalato di calcio, con irritazione e gonfiore della bocca, salivazione, difficoltà a deglutire e vomito; la linfa può irritare la pelle. Tieni i fusti ricadenti fuori portata. Se un animale lo mastica, contatta un veterinario o un centro antiveleni per animali. Per le persone, contatta il centro antiveleni locale, un servizio distinto dall’assistenza veterinaria. Sono informazioni generali, non consigli medici o veterinari. Consulta la [guida su piante e animali](/it/guides/pet-safe-houseplants/) o le [schede delle non tossiche](/it/plants/#petNonToxic) per confrontare altre specie.
 
 ## Domande frequenti
 

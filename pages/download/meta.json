@@ -28,5 +28,25 @@
     "title": "Un carnet partagé pour vos plantes",
     "seoTitle": "Lilora pour iPhone et iPad : fonctions et disponibilité",
     "description": "Découvrez Lilora pour iPhone et iPad : suivi manuel gratuit et soins partagés, avec identification photo facultative. En cours d’examen pour l’App Store."
+  },
+  "ja": {
+    "title": "みんなで使える、植物のノート",
+    "seoTitle": "iPhone・iPad向けLilora：機能と提供状況",
+    "description": "無料の植物の手入力とお世話の共有、任意の写真識別を備えたiPhone・iPad向けLiloraをご紹介します。現在App Storeで審査中です。"
+  },
+  "ko": {
+    "title": "함께 쓰는 식물 노트",
+    "description": "iPhone 및 iPad용 Lilora를 알아보세요. 직접 기록하는 식물 관리와 공동 관리는 무료이며 사진 식별은 선택 사항입니다. App Store 심사 중입니다.",
+    "seoTitle": "iPhone 및 iPad용 Lilora: 기능과 출시 현황"
+  },
+  "it": {
+    "title": "Un diario condiviso per le tue piante",
+    "seoTitle": "Lilora per iPhone e iPad: funzioni e disponibilità",
+    "description": "Scopri Lilora per iPhone e iPad: diario gratuito e cura condivisa, con riconoscimento fotografico facoltativo. Revisione App Store in corso."
+  },
+  "zh-Hant": {
+    "title": "一起記錄植物的生活與照護",
+    "seoTitle": "iPhone 與 iPad 版 Lilora：功能與推出狀態",
+    "description": "認識 iPhone 與 iPad 版 Lilora：免費手動植物記錄與共同照護，以及選用的照片辨識功能。目前正在接受 App Store 審核。"
   }
 }

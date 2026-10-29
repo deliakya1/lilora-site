@@ -57,5 +57,18 @@
   "fr": {
     "description": "Nourrir pendant la croissance active à la dose de l’étiquette ou moins, s’arrêter quand la lumière baisse et rincer l’excès de sels.",
     "seoTitle": "Engrais pour plantes d’intérieur : quand et combien"
+  },
+  "ja": {
+    "description": "観葉植物の肥料は生育中に表示量以下で与え、冬の弱い光では控えます。余分な肥料の塩類を洗い流す方法も紹介します。"
+  },
+  "ko": {
+    "description": "활발하게 자라는 실내식물에는 표시량 이하로 비료를 주고, 겨울철 빛이 부족하면 쉬어 주세요. 과잉 비료의 염류를 씻어 내는 방법도 안내합니다."
+  },
+  "it": {
+    "seoTitle": "Concimare le piante da appartamento: tempi e dosi",
+    "description": "Concima durante la crescita attiva e riduci quando rallenta. Impara a dosare il prodotto, riconoscere i sali in eccesso e lavare il substrato."
+  },
+  "zh-Hant": {
+    "description": "室內植物施肥指南：依生長狀態決定時機與用量，認識鹽分累積、沖洗方法及停肥條件，避免把肥料當急救藥。"
   }
 }

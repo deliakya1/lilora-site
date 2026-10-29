@@ -108,5 +108,61 @@
       "petSafetySource": "https://www.aspca.org/",
       "careLevel": "Facile à moyen"
     }
+  },
+  "ja": {
+    "description": "モンステラの育て方。強い日差しを避けた適度な光、用土上部3分の1の確認、つるの支柱と、ASPCAのペット情報を紹介します。",
+    "imageAlt": "屋外のほかの植物の間に育つ、深い切れ込みと穴のある大きなMonstera deliciosaの葉",
+    "caption": "写真：<a href=\"https://www.inaturalist.org/observations/388706166\"><em>Monstera deliciosa</em></a>、撮影：Austen Armstrong。iNaturalistより、<a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>。サイズ変更済み。",
+    "atAGlance": {
+      "light": "中程度から明るい光。真昼の直射日光は避ける",
+      "watering": "用土の上部約4分の1〜3分の1を乾かしてから、たっぷり与える",
+      "humidity": "高い湿度を好む。乾いた部屋では加湿器を使う",
+      "temperature": "約16〜29℃（60〜85℉）",
+      "petSafety": "ASPCAは猫・犬に有毒と掲載",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "比較的育てやすい"
+    }
+  },
+  "ko": {
+    "description": "몬스테라 관리: 뜨거운 햇빛을 피한 적당한 빛, 흙 윗부분의 수분 확인, 타고 오르는 줄기 지지와 ASPCA 독성 분류를 알아보세요.",
+    "imageAlt": "다른 식물 사이에서 야외로 자란 몬스테라 델리시오사의 큰 잎. 깊은 갈라짐과 구멍이 보입니다",
+    "caption": "사진: <a href=\"https://www.inaturalist.org/observations/388706166\"><em>Monstera deliciosa</em></a> — 촬영: Austen Armstrong, iNaturalist 제공, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. 크기를 조정했습니다.",
+    "atAGlance": {
+      "light": "한낮의 직사광을 피한 적당히 밝은 빛",
+      "watering": "흙의 위쪽 약 4분의 1에서 3분의 1이 마르면 충분히 물을 주세요",
+      "humidity": "높은 습도를 좋아합니다. 건조한 방에서는 가습기를 사용하세요",
+      "temperature": "약 16–29 °C(60–85 °F)",
+      "petSafety": "ASPCA가 고양이와 개에게 유독한 식물로 분류했습니다",
+      "careLevel": "쉬움에서 보통",
+      "petSafetySource": "https://www.aspca.org/"
+    }
+  },
+  "it": {
+    "imageAlt": "Grande foglia di monstera con incisioni e fori, tra altre foglie all’aperto",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/388706166\"><em>Monstera deliciosa</em></a> di Austen Armstrong, tramite iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Ridimensionata.",
+    "atAGlance": {
+      "light": "Luce da moderata a intensa, senza sole diretto nelle ore centrali",
+      "watering": "Lascia asciugare il quarto o il terzo superiore del substrato",
+      "humidity": "Elevata; umidificatore o vassoio di ciottoli",
+      "temperature": "16–29 °C (60–85 °F)",
+      "petSafety": "Tossica per cani e gatti secondo ASPCA",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Da facile a moderata"
+    },
+    "description": "Cura della monstera: luce indiretta, controllo del substrato, sostegni e cure stagionali. Riconosci i problemi e verifica i rischi per cani e gatti."
+  },
+  "zh-Hant": {
+    "imageAlt": "戶外其他葉片間，一片帶裂口與孔洞的大型龜背芋葉",
+    "caption": "照片： <a href=\"https://www.inaturalist.org/observations/388706166\"><em>Monstera deliciosa</em></a>，攝影：Austen Armstrong，來源：iNaturalist， <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. 已調整尺寸。",
+    "atAGlance": {
+      "light": "中至明亮光線，避免炎熱的直射日光",
+      "watering": "上方約四分之一至三分之一乾燥再澆",
+      "humidity": "高濕度；可用加濕器或卵石托盤",
+      "temperature": "16–29 °C（60–85 °F）",
+      "petSafety": "ASPCA 列為對貓狗有毒",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "容易至中等"
+    },
+    "description": "龜背芋照護指南：間接光、介質乾燥深度、攀爬支撐與冬季管理，並介紹氣生根、繁殖及對貓狗的毒性。"
   }
 }

@@ -41,7 +41,7 @@ Preleva talee semilegnose in primavera o estate. Usa guanti: la linfa bianca app
 
 ## Animali e persone
 
-Le fonti non concordano. Il database dell’[ASPCA Animal Poison Control Center](https://www.aspca.org/) non elenca *Ficus lyrata* per nome, pur indicando altri ficus come tossici. Un articolo ASPCA sulle piante da appartamento lo include tra quelle che possono causare lievi disturbi di stomaco e osserva che la linfa può irritare la pelle. NC State Extension lo indica come tossico per gatti e cani. Tienilo fuori portata. Se un animale lo mastica, contatta un veterinario o un centro antiveleni per animali. In Turchia, il numero per le persone è 114 (UZEM). Sono informazioni generali, non consigli medici o veterinari.
+Le fonti non concordano. Il database dell’[ASPCA Animal Poison Control Center](https://www.aspca.org/) non elenca *Ficus lyrata* per nome, pur indicando altri ficus come tossici. Un articolo ASPCA sulle piante da appartamento lo include tra quelle che possono causare lievi disturbi di stomaco e osserva che la linfa può irritare la pelle. NC State Extension lo indica come tossico per gatti e cani. Tienilo fuori portata. Se un animale lo mastica, contatta un veterinario o un centro antiveleni per animali. Per le persone, contatta il centro antiveleni locale, un servizio distinto dall’assistenza veterinaria. Sono informazioni generali, non consigli medici o veterinari.
 
 ## Domande frequenti
 

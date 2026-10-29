@@ -1,3 +1,4 @@
+const { languages, prefix, htmlLang } = require('./locale-registry.cjs');
 // Model GitHub Pages' custom 404 handling locally; this is not a production probe.
 const {chromium}=require('playwright-core');
 const http=require('node:http');
@@ -24,14 +25,15 @@ const assert=require('node:assert/strict');
    const context=await browser.newContext({javaScriptEnabled,viewport:{width,height:900}});
    if(javaScriptEnabled)await context.addInitScript(()=>localStorage.setItem('lilora.cookie-preferences.v2',JSON.stringify({version:2,analytics:false,savedAt:Date.now()})));
    const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
-   for(const missing of ['/missing-guide/','/en/missing-guide/']){
+   for(const missing of languages.map(lang=>prefix(lang)+'missing-guide/')){
     const response=await page.goto(origin+missing);assert.equal(response.status(),404);
     assert.equal(await page.locator('meta[name="robots"]').getAttribute('content'),'noindex, follow');
     assert.equal(await page.locator('link[rel="canonical"],link[rel="alternate"][hreflang]').count(),0);
     assert.equal(await page.locator('h1').count(),1);
-    for(const l of ['tr','en','es','de','pt','fr'])assert.equal(await page.locator('#'+l).getAttribute('lang'),l==='pt'?'pt-BR':l);
+    for(const l of languages)assert.equal(await page.locator('#'+l).getAttribute('lang'),htmlLang(l));
     const links=await page.locator('.error-languages a').evaluateAll(xs=>xs.map(x=>x.getAttribute('href')));
-    assert.equal(links.length,18);
+    assert.equal(links.length,languages.length*3);
+    assert.deepEqual([...links].sort(),languages.flatMap(lang=>['','guides/','support/'].map(slug=>prefix(lang)+slug)).sort(),'all localized recovery destinations');
     for(const link of links)assert.equal((await context.request.get(origin+link)).status(),200,link);
     if(javaScriptEnabled)await page.evaluate(()=>document.fonts.ready);
     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
@@ -45,6 +47,6 @@ const assert=require('node:assert/strict');
    if(javaScriptEnabled&&width===320){fs.mkdirSync('.test-results',{recursive:true});await page.screenshot({path:'.test-results/404-recovery-320.png',fullPage:true});}
    assert.equal(errors.length,0);await context.close();
   }
-  console.log(JSON.stringify({passed:true,local404Scenarios:count,widths:[320,390,768,1440],javascript:['enabled','disabled'],recoveryLinks:18,checks:['true404 in local Pages model','deep-path absolute assets and destinations','six language annotations','keyboard skip','noindex; no false canonical/hreflang','no overflow or JS errors'],production:'Not asserted by this local test'},null,2));
+  console.log(JSON.stringify({passed:true,local404Scenarios:count,widths:[320,390,768,1440],javascript:['enabled','disabled'],recoveryLinks:languages.length*3,checks:['true404 in local Pages model','deep-path absolute assets and destinations',`${languages.length} language annotations`,'keyboard skip','noindex; no false canonical/hreflang','no overflow or JS errors'],production:'Not asserted by this local test'},null,2));
  }finally{await browser.close();await new Promise(r=>server.close(r));}
 })().catch(e=>{console.error(e);process.exit(1)});

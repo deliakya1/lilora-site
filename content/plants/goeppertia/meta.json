@@ -110,5 +110,61 @@
       "petSafetySource": "https://www.aspca.org/",
       "careLevel": "Exigeant"
     }
+  },
+  "ja": {
+    "description": "カラテア（Goeppertia）の育て方。弱めから中程度の間接光、安定した水分、軟水、湿度と、ASPCAの無毒の掲載を紹介します。",
+    "imageAlt": "林床に育つ、濃淡の緑の縞模様があるカラテアの葉",
+    "caption": "写真：<a href=\"https://www.inaturalist.org/observations/228534999\"><em>Goeppertia zebrina</em></a>、撮影：Cricket Raspet。iNaturalistより、<a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>。サイズ変更済み。",
+    "atAGlance": {
+      "light": "中程度から弱めの間接光。直射日光で葉焼けする",
+      "watering": "軽い湿り気を保ち、水浸しにしない。表面をこまめに確認",
+      "humidity": "高め。小石のトレーや湿度のある部屋が役立つ",
+      "temperature": "約18〜24℃（65〜75℉）。すきま風と急な変化を避ける",
+      "petSafety": "ASPCAは猫・犬に無毒と掲載（Calathea）",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "こまめな管理が必要"
+    }
+  },
+  "ko": {
+    "description": "칼라테아(Goeppertia) 관리: 약하거나 중간 정도의 간접광, 일정한 수분, 부드러운 물, 습도와 ASPCA의 무독성 분류를 알아보세요.",
+    "imageAlt": "숲 바닥에서 자라는 칼라테아. 짙고 연한 녹색 띠가 잎에 번갈아 있습니다",
+    "caption": "사진: <a href=\"https://www.inaturalist.org/observations/228534999\"><em>Goeppertia zebrina</em></a> — 촬영: Cricket Raspet, iNaturalist 제공, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. 크기를 조정했습니다.",
+    "atAGlance": {
+      "light": "중간에서 약한 간접광. 직사광은 잎을 태웁니다",
+      "watering": "흙을 약간 촉촉하게 유지하되 질척이지 않게 하세요. 표면을 자주 확인하세요",
+      "humidity": "높은 습도. 자갈 받침이나 습한 방이 도움이 됩니다",
+      "temperature": "약 18–24 °C(65–75 °F). 외풍과 급격한 변화를 피하세요",
+      "petSafety": "ASPCA가 고양이와 개에게 무독성인 식물로 분류했습니다(Calathea)",
+      "careLevel": "어려움",
+      "petSafetySource": "https://www.aspca.org/"
+    }
+  },
+  "it": {
+    "imageAlt": "Foglie di calatea a bande verde chiaro e scuro che crescono nel sottobosco",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/228534999\"><em>Goeppertia zebrina</em></a> di Cricket Raspet, tramite iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Ridimensionata.",
+    "atAGlance": {
+      "light": "Luce indiretta da media a scarsa; il sole diretto brucia le foglie",
+      "watering": "Mantieni il substrato leggermente umido, mai fradicio; controlla spesso",
+      "humidity": "Elevata; vassoio di ciottoli o stanza umida",
+      "temperature": "18–24 °C (65–75 °F); evita correnti e sbalzi",
+      "petSafety": "Non tossica per cani e gatti secondo ASPCA (Calathea)",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Impegnativa"
+    },
+    "description": "Cura della calatea: luce indiretta, umidità costante, acqua dolce e temperature stabili. Controlli prima di annaffiare e sicurezza per gli animali."
+  },
+  "zh-Hant": {
+    "imageAlt": "深淺綠色條紋相間的竹芋葉片，生長在森林地面",
+    "caption": "照片： <a href=\"https://www.inaturalist.org/observations/228534999\"><em>Goeppertia zebrina</em></a>，攝影：Cricket Raspet，來源：iNaturalist， <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. 已調整尺寸。",
+    "atAGlance": {
+      "light": "中至低度間接光；直射日光會灼傷葉片",
+      "watering": "維持微濕但不積水，經常檢查",
+      "humidity": "高濕度；濕卵石托盤或潮濕房間",
+      "temperature": "18–24 °C（65–75 °F），避免冷風與驟變",
+      "petSafety": "ASPCA 將 Calathea 列為對貓狗無毒",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "較難"
+    },
+    "description": "竹芋照護指南：中低間接光、穩定濕度、軟水與溫暖環境，說明捲葉、褐邊、分株及 ASPCA 的無毒分類。"
   }
 }

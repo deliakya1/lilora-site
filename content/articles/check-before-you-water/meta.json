@@ -51,5 +51,17 @@
   "fr": {
     "description": "Un calendrier ne voit pas votre plante. Pourquoi Lilora rappelle de vérifier et distingue l’arrosage de la vérification sans eau.",
     "seoTitle": "Rappels Lilora : « vérifier » plutôt qu’« arroser »"
+  },
+  "ja": {
+    "description": "カレンダーは植物の状態を見られません。Liloraが確認を促し、水やりと水を与えなかった確認を分けて記録する理由を説明します。"
+  },
+  "ko": {
+    "description": "달력은 식물을 볼 수 없습니다. Lilora가 확인을 알리고 물주기 기록과 물이 필요 없었던 확인 기록을 구분하는 이유를 설명합니다."
+  },
+  "it": {
+    "description": "I promemoria di Lilora invitano a controllare la pianta. Scopri perché controlli e annaffiature separati rendono più chiara la cura condivisa."
+  },
+  "zh-Hant": {
+    "description": "Lilora 為何提醒先檢查：用介質、盆重與葉片決定是否澆水，分開記錄檢查和澆水，延後提醒不算照護紀錄。"
   }
 }

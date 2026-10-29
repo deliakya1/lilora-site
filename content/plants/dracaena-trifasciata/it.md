@@ -46,7 +46,7 @@ Dividi un cespo affollato durante il rinvaso, lasciando radici e foglie a ogni p
 
 ## Animali e persone
 
-L’[ASPCA Animal Poison Control Center](https://www.aspca.org/) indica la sansevieria, detta anche lingua di suocera, come tossica per gatti e cani. Cita saponine come principio tossico e nausea, vomito e diarrea tra i sintomi. Se un animale la mastica, contatta un veterinario o un centro antiveleni per animali. In Turchia, il numero antiveleni per persone è 114 (UZEM). Sono informazioni generali, non consigli medici o veterinari. Per altre piante, consulta la [guida su piante e animali](/it/guides/pet-safe-houseplants/) o le [schede delle non tossiche](/it/plants/#petNonToxic).
+L’[ASPCA Animal Poison Control Center](https://www.aspca.org/) indica la sansevieria, detta anche lingua di suocera, come tossica per gatti e cani. Cita saponine come principio tossico e nausea, vomito e diarrea tra i sintomi. Se un animale la mastica, contatta un veterinario o un centro antiveleni per animali. Per le persone, contatta il centro antiveleni locale, un servizio distinto dall’assistenza veterinaria. Sono informazioni generali, non consigli medici o veterinari. Per altre piante, consulta la [guida su piante e animali](/it/guides/pet-safe-houseplants/) o le [schede delle non tossiche](/it/plants/#petNonToxic).
 
 ## Domande frequenti
 

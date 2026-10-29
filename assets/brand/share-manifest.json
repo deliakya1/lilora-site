@@ -3,14 +3,14 @@
   "height": 630,
   "defaults": [
     {
-      "lang": "tr",
-      "title": "lilora",
-      "image": "/assets/brand/share/tr-default.png"
-    },
-    {
       "lang": "en",
       "title": "lilora",
       "image": "/assets/brand/share/en-default.png"
+    },
+    {
+      "lang": "tr",
+      "title": "lilora",
+      "image": "/assets/brand/share/tr-default.png"
     },
     {
       "lang": "es",
@@ -31,15 +31,35 @@
       "lang": "fr",
       "title": "lilora",
       "image": "/assets/brand/share/fr-default.png"
+    },
+    {
+      "lang": "ja",
+      "title": "lilora",
+      "image": "/assets/brand/share/ja-default.png"
+    },
+    {
+      "lang": "ko",
+      "title": "lilora",
+      "image": "/assets/brand/share/ko-default.png"
+    },
+    {
+      "lang": "it",
+      "title": "lilora",
+      "image": "/assets/brand/share/it-default.png"
+    },
+    {
+      "lang": "zh-Hant",
+      "title": "lilora",
+      "image": "/assets/brand/share/zh-Hant-default.png"
     }
   ],
   "pages": [
     {
       "path": "/",
-      "lang": "tr",
-      "title": "Birlikte yaşadığın bitkiler, ortak bir defter.",
-      "description": "Hangi bitki nerede, en son kim kontrol etti, ne zaman sulandı? Fotoğrafları, notları ve bakım geçmişini Lilora’da bir arada tut.",
-      "image": "/assets/brand/share/tr-home.png"
+      "lang": "en",
+      "title": "A shared notebook for your plants.",
+      "description": "Which room, who last checked, when it was watered. Keep your plants’ photos, notes and care history together in Lilora, on iPhone and iPad.",
+      "image": "/assets/brand/share/en-home.png"
     },
     {
       "path": "/404.html",
@@ -50,143 +70,143 @@
     },
     {
       "path": "/about/",
-      "lang": "tr",
-      "title": "Lilora hakkında",
-      "description": "Lilora, bilinçli bakım ve ortak evler için bir bitki günlüğüdür. Türkiye’de Umut OREN tarafından bağımsız olarak yayımlanır.",
-      "image": "/assets/brand/share/tr-about.png"
+      "lang": "en",
+      "title": "About Lilora",
+      "description": "Lilora is a plant notebook for thoughtful care and shared households, independently published by Umut OREN in Türkiye for iPhone and iPad.",
+      "image": "/assets/brand/share/en-about.png"
     },
     {
       "path": "/blog/",
-      "lang": "tr",
-      "title": "Lilora Blog: bitki bakımı yazıları",
-      "description": "Bitki bakımı üzerine kaynaklı yazılar: kahverengi uçlar, toprakta küf, saksı seçimi, musluk suyu, bitki lambaları, bitki seçimi ve mevsim listeleri.",
-      "image": "/assets/brand/share/tr-blog.png"
+      "lang": "en",
+      "title": "Lilora Blog: houseplant care posts",
+      "description": "Source-backed posts on plant care: brown tips, soil mould, pots, tap water, grow lights, buying a healthy plant, seasonal checklists and shared care.",
+      "image": "/assets/brand/share/en-blog.png"
     },
     {
       "path": "/blog/autumn-plant-reset/",
-      "lang": "tr",
-      "title": "Ev bitkileri için sonbahar düzeni: kısa bir kontrol listesi",
-      "description": "Soğuk gecelerden önce bitkileri içeri al, zararlılara bak, pencereleri yeniden düzenle ve sulamayı yavaşlat: ev bitkileri için kısa bir sonbahar listesi.",
-      "image": "/assets/brand/share/tr-blog--autumn-plant-reset.png"
+      "lang": "en",
+      "title": "An autumn reset for houseplants: a short checklist",
+      "description": "Bring plants in before cold nights, check for pests, rearrange windows and slow down watering: a short autumn checklist for houseplants.",
+      "image": "/assets/brand/share/en-blog--autumn-plant-reset.png"
     },
     {
       "path": "/blog/bottom-watering/",
-      "lang": "tr",
-      "title": "Ev bitkilerini alttan sulamak: ne zaman işe yarar, ne zaman yaramaz",
-      "description": "Ev bitkisi alttan nasıl sulanır, hangi bitkiler bundan yararlanır, saksı suda ne kadar kalmalı ve neden ara sıra yine de üstten sulamak gerekir.",
-      "image": "/assets/brand/share/tr-blog--bottom-watering.png"
+      "lang": "en",
+      "title": "Bottom watering houseplants: when it helps and when it doesn't",
+      "description": "How to bottom water a houseplant, which plants benefit, how long to leave the pot in water, and why you should still water from the top now and then.",
+      "image": "/assets/brand/share/en-blog--bottom-watering.png"
     },
     {
       "path": "/blog/brown-leaf-tips/",
-      "lang": "tr",
-      "title": "Ev bitkilerinde kahverengi yaprak uçları: genellikle ne anlama gelir",
-      "description": "Kuru, kahverengi yaprak uçları genellikle kuru havaya, düzensiz sulamaya, tuz birikimine ya da musluk suyuna hassasiyete işaret eder. Nedeni bul ve düzelt.",
-      "image": "/assets/brand/share/tr-blog--brown-leaf-tips.png"
+      "lang": "en",
+      "title": "Brown leaf tips on houseplants: what they usually mean",
+      "description": "Brown, crispy leaf tips usually point to dry air, uneven watering, salt build-up or sensitive plants reacting to tap water. How to find which, and fix it.",
+      "image": "/assets/brand/share/en-blog--brown-leaf-tips.png"
     },
     {
       "path": "/blog/buying-a-healthy-houseplant/",
-      "lang": "tr",
-      "title": "Sağlıklı bir ev bitkisi nasıl seçilir ve evde nasıl alıştırılır",
-      "description": "Ev bitkisi almadan önce yapraklarda, zararlılarda, köklerde ve saksıda neye bakılır; ardından yeni bitkiyi iki hafta ayrı tutup eve nasıl alıştırırsın.",
-      "image": "/assets/brand/share/tr-blog--buying-a-healthy-houseplant.png"
+      "lang": "en",
+      "title": "How to choose a healthy houseplant and settle it in at home",
+      "description": "What to check before you buy a houseplant: leaves, pests, roots and pot. Then how to keep a new plant apart for two weeks and help it settle in at home.",
+      "image": "/assets/brand/share/en-blog--buying-a-healthy-houseplant.png"
     },
     {
       "path": "/blog/check-before-you-water/",
-      "lang": "tr",
-      "title": "Lilora’nın hatırlatmaları neden “sula” değil “kontrol et” diyor",
-      "description": "Takvim bitkini göremez. Lilora’nın hatırlatmaları neden kontrol istiyor ve “Suladım” ile “Kontrol ettim, suya ihtiyacı yok” kayıtlarını neden ayırıyor.",
-      "image": "/assets/brand/share/tr-blog--check-before-you-water.png"
+      "lang": "en",
+      "title": "Why Lilora's reminders say \"check\", not \"water\"",
+      "description": "A calendar cannot see your plant. Why Lilora's reminders ask for a check and keep \"Watered\" and \"Checked, no water needed\" apart.",
+      "image": "/assets/brand/share/en-blog--check-before-you-water.png"
     },
     {
       "path": "/blog/cleaning-houseplant-leaves/",
-      "lang": "tr",
-      "title": "Ev bitkilerinin yaprakları nasıl temizlenir (ve neden önemlidir)",
-      "description": "Toz, bitkinin ihtiyaç duyduğu ışığı keser. Büyük yaprakları silmek, küçük bitkileri durulamak, tüylü yaprakları fırçalamak ve parlatıcılardan kaçınmak.",
-      "image": "/assets/brand/share/tr-blog--cleaning-houseplant-leaves.png"
+      "lang": "en",
+      "title": "How to clean houseplant leaves (and why it matters)",
+      "description": "Dust blocks light that indoor plants need. How to wipe large leaves, rinse small plants, brush fuzzy leaves, and why leaf shine products are best avoided.",
+      "image": "/assets/brand/share/en-blog--cleaning-houseplant-leaves.png"
     },
     {
       "path": "/blog/do-houseplants-purify-air/",
-      "lang": "tr",
-      "title": "Ev bitkileri gerçekten iç mekân havasını temizler mi?",
-      "description": "Havayı temizleyen bitki listeleri, kapalı odacıklarda yapılan bir NASA deneyine dayanıyor. 2019 incelemesi gerçek evler için ne buldu, havaya ne iyi gelir?",
-      "image": "/assets/brand/share/tr-blog--do-houseplants-purify-air.png"
+      "lang": "en",
+      "title": "Do houseplants really purify indoor air?",
+      "description": "The NASA study behind air-purifying plant lists used sealed chambers. What a 2019 review found about real homes, and what actually improves indoor air.",
+      "image": "/assets/brand/share/en-blog--do-houseplants-purify-air.png"
     },
     {
       "path": "/blog/grow-lights-for-houseplants/",
-      "lang": "tr",
-      "title": "Ev bitkileri için bitki lambaları: basit bir başlangıç düzeni",
-      "description": "Ev bitkileri için basit bir lamba düzeni: hangi LED seçilmeli, yaprakların ne kadar üstüne asılmalı, günde kaç saat yanmalı ve zamanlayıcı neden önemli.",
-      "image": "/assets/brand/share/tr-blog--grow-lights-for-houseplants.png"
+      "lang": "en",
+      "title": "Grow lights for houseplants: a simple starting set-up",
+      "description": "A simple grow light set-up for houseplants: which LED to choose, how far above the leaves, how many hours a day, and why a timer and dark nights matter.",
+      "image": "/assets/brand/share/en-blog--grow-lights-for-houseplants.png"
     },
     {
       "path": "/blog/keeping-a-plant-care-journal/",
-      "lang": "tr",
-      "title": "Bitki bakım günlüğü nasıl tutulur (kâğıtta veya uygulamada)",
-      "description": "Her bitki için neleri kaydetmeli, basit bir sayfa düzeni, bir mevsim sonra notları nasıl okumalı ve kâğıt mı uygulama mı sana daha uygun.",
-      "image": "/assets/brand/share/tr-blog--keeping-a-plant-care-journal.png"
+      "lang": "en",
+      "title": "How to keep a plant care journal (paper or app)",
+      "description": "What to record about each plant, a simple page layout, how to read your notes after a season, and whether paper or an app suits you better.",
+      "image": "/assets/brand/share/en-blog--keeping-a-plant-care-journal.png"
     },
     {
       "path": "/blog/leggy-houseplants/",
-      "lang": "tr",
-      "title": "Boy atıp seyrelen ev bitkileri: neden uzarlar, nasıl toparlanır",
-      "description": "Yaprak araları açılmış uzun, ince gövdeler çoğunlukla az ışık demektir. Önce ışığı artır, sonra boğum üstünden buda, çelikleri köklendirip saksıyı doldur.",
-      "image": "/assets/brand/share/tr-blog--leggy-houseplants.png"
+      "lang": "en",
+      "title": "Leggy houseplants: why they stretch and how to fix them",
+      "description": "Long, thin stems with gaps between leaves usually mean too little light. Add light first, then prune above a node and root the cuttings to refill the pot.",
+      "image": "/assets/brand/share/en-blog--leggy-houseplants.png"
     },
     {
       "path": "/blog/mold-on-houseplant-soil/",
-      "lang": "tr",
-      "title": "Saksı toprağında beyaz küf: zararlı mı?",
-      "description": "Saksı toprağındaki beyaz pamuksu tabaka genellikle ıslak ve havasız koşulları gösteren zararsız bir mantardır. Tuz kabuğundan ayırt et, temizle, önle.",
-      "image": "/assets/brand/share/tr-blog--mold-on-houseplant-soil.png"
+      "lang": "en",
+      "title": "White mould on houseplant soil: is it harmful?",
+      "description": "White fuzz on potting mix is usually a harmless fungus that signals wet, still conditions. How to tell it from salt crust, remove it and prevent it.",
+      "image": "/assets/brand/share/en-blog--mold-on-houseplant-soil.png"
     },
     {
       "path": "/blog/moving-house-with-plants/",
-      "lang": "tr",
-      "title": "Bitkilerle ev taşımak",
-      "description": "Bitkilerini taşınma planına dahil et: zararlı kontrolü, sulama, paketleme, taşıma, sınır kuralları ve yeni ışığa alışma.",
-      "image": "/assets/brand/share/tr-blog--moving-house-with-plants.png"
+      "lang": "en",
+      "title": "Moving house with plants",
+      "description": "Plan your plants into the move: pest checks, watering, packing, transport, border rules and helping them settle into the light of a new home.",
+      "image": "/assets/brand/share/en-blog--moving-house-with-plants.png"
     },
     {
       "path": "/blog/tap-water-for-houseplants/",
-      "lang": "tr",
-      "title": "Ev bitkileri için musluk suyu uygun mu?",
-      "description": "Normal musluk suyu çoğu ev bitkisi için uygundur. Yumuşatılmış su, klor, florür, kireç tuzları ya da soğuk su ne zaman sorun olur, onun yerine ne yapılır.",
-      "image": "/assets/brand/share/tr-blog--tap-water-for-houseplants.png"
+      "lang": "en",
+      "title": "Is tap water OK for houseplants?",
+      "description": "Tap water suits most houseplants. When softened water, chlorine, fluoride, hard-water salts or cold water cause trouble, and what to do instead.",
+      "image": "/assets/brand/share/en-blog--tap-water-for-houseplants.png"
     },
     {
       "path": "/blog/terracotta-vs-plastic-pots/",
-      "lang": "tr",
-      "title": "Toprak (terakota) mı plastik saksı mı: ev bitkileri için hangisi daha iyi?",
-      "description": "Toprak saksı daha hızlı kurur ve nefes alır; plastik ve sırlı seramik nemi uzun tutar. Hangi bitkiye hangi saksı uyar ve drenaj neden malzemeden önemli.",
-      "image": "/assets/brand/share/tr-blog--terracotta-vs-plastic-pots.png"
+      "lang": "en",
+      "title": "Terracotta or plastic pots: which is better for houseplants?",
+      "description": "Terracotta dries faster and breathes; plastic and glazed ceramic hold moisture longer. Which pot suits which plant, and why drainage matters most.",
+      "image": "/assets/brand/share/en-blog--terracotta-vs-plastic-pots.png"
     },
     {
       "path": "/compare/",
-      "lang": "tr",
-      "title": "Bitki uygulaması karşılaştırmaları",
-      "description": "Bitki bakım uygulamalarının kaynaklı karşılaştırmaları: hatırlatmalar, ortak kayıtlar, bitki tanıma ve fiyat modelleri, dürüst notlarla.",
-      "image": "/assets/brand/share/tr-compare.png"
+      "lang": "en",
+      "title": "Plant app comparisons",
+      "description": "Source-backed comparisons of plant care apps covering reminders, shared records, identification and pricing, with honest launch notes.",
+      "image": "/assets/brand/share/en-compare.png"
     },
     {
       "path": "/compare/lilora-vs-picturethis/",
-      "lang": "tr",
-      "title": "Lilora ve PictureThis: tanıma ve günlük bitki bakımı",
-      "description": "Lilora ve PictureThis’i tanıma, hatırlatma, koleksiyon ve ortak bakım açısından karşılaştır. Resmi kaynaklar ve fiyat açıklamaları.",
-      "image": "/assets/brand/share/tr-compare--lilora-vs-picturethis.png"
+      "lang": "en",
+      "title": "Lilora vs PictureThis: identification and everyday plant care",
+      "description": "Compare Lilora and PictureThis for identification, reminders, collections and household care, with official sources and pricing caveats.",
+      "image": "/assets/brand/share/en-compare--lilora-vs-picturethis.png"
     },
     {
       "path": "/compare/lilora-vs-planta/",
-      "lang": "tr",
-      "title": "Lilora ve Planta: bakım rutinine göre seçim yapmak",
-      "description": "Lilora ve Planta’yı hatırlatma, ortak kayıt, tanıma ve fiyat açısından karşılaştır. Resmi kaynaklar ve açık yayın durumu bilgisi.",
-      "image": "/assets/brand/share/tr-compare--lilora-vs-planta.png"
+      "lang": "en",
+      "title": "Lilora vs Planta: choosing a plant care routine",
+      "description": "Compare Lilora and Planta for reminders, shared records, identification and prices, with official sources and honest launch-status information.",
+      "image": "/assets/brand/share/en-compare--lilora-vs-planta.png"
     },
     {
       "path": "/contact/",
-      "lang": "tr",
-      "title": "Lilora ile iletişim",
-      "description": "Uygulama desteği, gizlilik, basın, düzeltme veya iş birliği için formu kullan ya da support@lilora.app adresine yaz. Türkçe ve İngilizce yanıtlıyoruz.",
-      "image": "/assets/brand/share/tr-contact.png"
+      "lang": "en",
+      "title": "Contact Lilora",
+      "description": "Contact Lilora about app support, privacy, press, corrections or partnerships with the form or at support@lilora.app. We reply in English or Turkish.",
+      "image": "/assets/brand/share/en-contact.png"
     },
     {
       "path": "/de/",
@@ -582,409 +602,17 @@
     },
     {
       "path": "/download/",
-      "lang": "tr",
-      "title": "Bitkilerin için ortak bir bakım defteri",
-      "description": "iPhone ve iPad için Lilora’yı tanı: ücretsiz elle bitki kaydı ve ortak bakım, isteğe bağlı fotoğrafla bitki tanıma. App Store incelemesi sürüyor.",
-      "image": "/assets/brand/share/tr-download.png"
-    },
-    {
-      "path": "/editorial/",
-      "lang": "tr",
-      "title": "Yayın ilkeleri",
-      "description": "Lilora bitki rehberlerini ve uygulama karşılaştırmalarını nasıl araştırır, yapay zekâ yardımıyla taslaklar, doğrular, tarihler ve günceller.",
-      "image": "/assets/brand/share/tr-editorial.png"
-    },
-    {
-      "path": "/en/",
-      "lang": "en",
-      "title": "A shared notebook for your plants.",
-      "description": "Which room, who last checked, when it was watered. Keep your plants’ photos, notes and care history together in Lilora, on iPhone and iPad.",
-      "image": "/assets/brand/share/en-home.png"
-    },
-    {
-      "path": "/en/about/",
-      "lang": "en",
-      "title": "About Lilora",
-      "description": "Lilora is a plant notebook for thoughtful care and shared households, independently published by Umut OREN in Türkiye for iPhone and iPad.",
-      "image": "/assets/brand/share/en-about.png"
-    },
-    {
-      "path": "/en/blog/",
-      "lang": "en",
-      "title": "Lilora Blog: houseplant care posts",
-      "description": "Source-backed posts on plant care: brown tips, soil mould, pots, tap water, grow lights, buying a healthy plant, seasonal checklists and shared care.",
-      "image": "/assets/brand/share/en-blog.png"
-    },
-    {
-      "path": "/en/blog/autumn-plant-reset/",
-      "lang": "en",
-      "title": "An autumn reset for houseplants: a short checklist",
-      "description": "Bring plants in before cold nights, check for pests, rearrange windows and slow down watering: a short autumn checklist for houseplants.",
-      "image": "/assets/brand/share/en-blog--autumn-plant-reset.png"
-    },
-    {
-      "path": "/en/blog/bottom-watering/",
-      "lang": "en",
-      "title": "Bottom watering houseplants: when it helps and when it doesn't",
-      "description": "How to bottom water a houseplant, which plants benefit, how long to leave the pot in water, and why you should still water from the top now and then.",
-      "image": "/assets/brand/share/en-blog--bottom-watering.png"
-    },
-    {
-      "path": "/en/blog/brown-leaf-tips/",
-      "lang": "en",
-      "title": "Brown leaf tips on houseplants: what they usually mean",
-      "description": "Brown, crispy leaf tips usually point to dry air, uneven watering, salt build-up or sensitive plants reacting to tap water. How to find which, and fix it.",
-      "image": "/assets/brand/share/en-blog--brown-leaf-tips.png"
-    },
-    {
-      "path": "/en/blog/buying-a-healthy-houseplant/",
-      "lang": "en",
-      "title": "How to choose a healthy houseplant and settle it in at home",
-      "description": "What to check before you buy a houseplant: leaves, pests, roots and pot. Then how to keep a new plant apart for two weeks and help it settle in at home.",
-      "image": "/assets/brand/share/en-blog--buying-a-healthy-houseplant.png"
-    },
-    {
-      "path": "/en/blog/check-before-you-water/",
-      "lang": "en",
-      "title": "Why Lilora's reminders say \"check\", not \"water\"",
-      "description": "A calendar cannot see your plant. Why Lilora's reminders ask for a check and keep \"Watered\" and \"Checked, no water needed\" apart.",
-      "image": "/assets/brand/share/en-blog--check-before-you-water.png"
-    },
-    {
-      "path": "/en/blog/cleaning-houseplant-leaves/",
-      "lang": "en",
-      "title": "How to clean houseplant leaves (and why it matters)",
-      "description": "Dust blocks light that indoor plants need. How to wipe large leaves, rinse small plants, brush fuzzy leaves, and why leaf shine products are best avoided.",
-      "image": "/assets/brand/share/en-blog--cleaning-houseplant-leaves.png"
-    },
-    {
-      "path": "/en/blog/do-houseplants-purify-air/",
-      "lang": "en",
-      "title": "Do houseplants really purify indoor air?",
-      "description": "The NASA study behind air-purifying plant lists used sealed chambers. What a 2019 review found about real homes, and what actually improves indoor air.",
-      "image": "/assets/brand/share/en-blog--do-houseplants-purify-air.png"
-    },
-    {
-      "path": "/en/blog/grow-lights-for-houseplants/",
-      "lang": "en",
-      "title": "Grow lights for houseplants: a simple starting set-up",
-      "description": "A simple grow light set-up for houseplants: which LED to choose, how far above the leaves, how many hours a day, and why a timer and dark nights matter.",
-      "image": "/assets/brand/share/en-blog--grow-lights-for-houseplants.png"
-    },
-    {
-      "path": "/en/blog/keeping-a-plant-care-journal/",
-      "lang": "en",
-      "title": "How to keep a plant care journal (paper or app)",
-      "description": "What to record about each plant, a simple page layout, how to read your notes after a season, and whether paper or an app suits you better.",
-      "image": "/assets/brand/share/en-blog--keeping-a-plant-care-journal.png"
-    },
-    {
-      "path": "/en/blog/leggy-houseplants/",
-      "lang": "en",
-      "title": "Leggy houseplants: why they stretch and how to fix them",
-      "description": "Long, thin stems with gaps between leaves usually mean too little light. Add light first, then prune above a node and root the cuttings to refill the pot.",
-      "image": "/assets/brand/share/en-blog--leggy-houseplants.png"
-    },
-    {
-      "path": "/en/blog/mold-on-houseplant-soil/",
-      "lang": "en",
-      "title": "White mould on houseplant soil: is it harmful?",
-      "description": "White fuzz on potting mix is usually a harmless fungus that signals wet, still conditions. How to tell it from salt crust, remove it and prevent it.",
-      "image": "/assets/brand/share/en-blog--mold-on-houseplant-soil.png"
-    },
-    {
-      "path": "/en/blog/moving-house-with-plants/",
-      "lang": "en",
-      "title": "Moving house with plants",
-      "description": "Plan your plants into the move: pest checks, watering, packing, transport, border rules and helping them settle into the light of a new home.",
-      "image": "/assets/brand/share/en-blog--moving-house-with-plants.png"
-    },
-    {
-      "path": "/en/blog/tap-water-for-houseplants/",
-      "lang": "en",
-      "title": "Is tap water OK for houseplants?",
-      "description": "Tap water suits most houseplants. When softened water, chlorine, fluoride, hard-water salts or cold water cause trouble, and what to do instead.",
-      "image": "/assets/brand/share/en-blog--tap-water-for-houseplants.png"
-    },
-    {
-      "path": "/en/blog/terracotta-vs-plastic-pots/",
-      "lang": "en",
-      "title": "Terracotta or plastic pots: which is better for houseplants?",
-      "description": "Terracotta dries faster and breathes; plastic and glazed ceramic hold moisture longer. Which pot suits which plant, and why drainage matters most.",
-      "image": "/assets/brand/share/en-blog--terracotta-vs-plastic-pots.png"
-    },
-    {
-      "path": "/en/compare/",
-      "lang": "en",
-      "title": "Plant app comparisons",
-      "description": "Source-backed comparisons of plant care apps covering reminders, shared records, identification and pricing, with honest launch notes.",
-      "image": "/assets/brand/share/en-compare.png"
-    },
-    {
-      "path": "/en/compare/lilora-vs-picturethis/",
-      "lang": "en",
-      "title": "Lilora vs PictureThis: identification and everyday plant care",
-      "description": "Compare Lilora and PictureThis for identification, reminders, collections and household care, with official sources and pricing caveats.",
-      "image": "/assets/brand/share/en-compare--lilora-vs-picturethis.png"
-    },
-    {
-      "path": "/en/compare/lilora-vs-planta/",
-      "lang": "en",
-      "title": "Lilora vs Planta: choosing a plant care routine",
-      "description": "Compare Lilora and Planta for reminders, shared records, identification and prices, with official sources and honest launch-status information.",
-      "image": "/assets/brand/share/en-compare--lilora-vs-planta.png"
-    },
-    {
-      "path": "/en/contact/",
-      "lang": "en",
-      "title": "Contact Lilora",
-      "description": "Contact Lilora about app support, privacy, press, corrections or partnerships with the form or at support@lilora.app. We reply in English or Turkish.",
-      "image": "/assets/brand/share/en-contact.png"
-    },
-    {
-      "path": "/en/download/",
       "lang": "en",
       "title": "A shared notebook for your plants",
       "description": "Meet Lilora for iPhone and iPad: free manual plant records and shared care, with optional photo identification. App Store review is in progress.",
       "image": "/assets/brand/share/en-download.png"
     },
     {
-      "path": "/en/editorial/",
+      "path": "/editorial/",
       "lang": "en",
       "title": "Editorial approach",
       "description": "How Lilora researches, drafts with AI help, fact-checks, dates and updates its plant guides and app comparisons, and how images are labelled.",
       "image": "/assets/brand/share/en-editorial.png"
-    },
-    {
-      "path": "/en/guides/",
-      "lang": "en",
-      "title": "Houseplant care guides",
-      "description": "Source-backed guides on watering, light, pots, pests and seasonal care, written to help you observe a plant before you change its care.",
-      "image": "/assets/brand/share/en-guides.png"
-    },
-    {
-      "path": "/en/guides/fertilizing-houseplants/",
-      "lang": "en",
-      "title": "Feeding houseplants: when, how much and when to stop",
-      "description": "Feed houseplants during active growth at the label rate or less, pause in low winter light, and flush out excess fertiliser salts.",
-      "image": "/assets/brand/share/en-guides--fertilizing-houseplants.png"
-    },
-    {
-      "path": "/en/guides/houseplant-humidity/",
-      "lang": "en",
-      "title": "Humidity for houseplants: what helps and what doesn't",
-      "description": "Misting barely changes humidity. What pebble trays, grouping, humidifiers and a better spot can and cannot do for houseplants.",
-      "image": "/assets/brand/share/en-guides--houseplant-humidity.png"
-    },
-    {
-      "path": "/en/guides/houseplant-pests/",
-      "lang": "en",
-      "title": "Common houseplant pests: fungus gnats, spider mites, mealybugs, scale and thrips",
-      "description": "Identify fungus gnats, spider mites, mealybugs, scale and thrips before treating, and start with the least harmful step.",
-      "image": "/assets/brand/share/en-guides--houseplant-pests.png"
-    },
-    {
-      "path": "/en/guides/indoor-plant-light-guide/",
-      "lang": "en",
-      "title": "Indoor plant light: a beginner’s guide to choosing a spot",
-      "description": "Understand direct sunlight, bright indirect light and low light. Observe your window and choose a position around your plant’s needs.",
-      "image": "/assets/brand/share/en-guides--indoor-plant-light-guide.png"
-    },
-    {
-      "path": "/en/guides/overwatering-vs-underwatering/",
-      "lang": "en",
-      "title": "Overwatered or underwatered? How to tell before you act",
-      "description": "Wilting and yellow leaves can mean too much or too little water. Check the mix, the weight of the pot and the roots before you change anything.",
-      "image": "/assets/brand/share/en-guides--overwatering-vs-underwatering.png"
-    },
-    {
-      "path": "/en/guides/pet-safe-houseplants/",
-      "lang": "en",
-      "title": "Houseplants and pets: what to check before bringing a plant home",
-      "description": "Before a plant comes home, find its botanical name, check the ASPCA list and plan a spot your pet cannot reach. What “non-toxic” really means.",
-      "image": "/assets/brand/share/en-guides--pet-safe-houseplants.png"
-    },
-    {
-      "path": "/en/guides/potting-mix-and-drainage/",
-      "lang": "en",
-      "title": "Potting mix and drainage: what your pot needs",
-      "description": "A drainage hole, a proper container mix and no gravel layer: what a houseplant pot really needs, and how to pot up a plant step by step.",
-      "image": "/assets/brand/share/en-guides--potting-mix-and-drainage.png"
-    },
-    {
-      "path": "/en/guides/propagating-cuttings/",
-      "lang": "en",
-      "title": "Propagating houseplants from cuttings: water or soil",
-      "description": "Take a stem cutting with healthy nodes and root it in water or in a rooting mix. The pros and cons of each method, and how to pot it up later.",
-      "image": "/assets/brand/share/en-guides--propagating-cuttings.png"
-    },
-    {
-      "path": "/en/guides/root-rot/",
-      "lang": "en",
-      "title": "Root rot in houseplants: signs, causes and what to do",
-      "description": "How to recognise root rot in a houseplant, check the roots, trim the damaged parts, repot in fresh mix and keep the problem from coming back.",
-      "image": "/assets/brand/share/en-guides--root-rot.png"
-    },
-    {
-      "path": "/en/guides/shared-plant-care/",
-      "lang": "en",
-      "title": "Share plant care without watering twice",
-      "description": "Share plant care with a partner or housemate using clear check and watering records, a simple division of care, and a practical handover before travel.",
-      "image": "/assets/brand/share/en-guides--shared-plant-care.png"
-    },
-    {
-      "path": "/en/guides/watering-houseplants/",
-      "lang": "en",
-      "title": "How to water houseplants without a rigid schedule",
-      "description": "Check potting mix, pot weight and drainage to decide when to water. A practical routine that follows your plant, not a rigid calendar.",
-      "image": "/assets/brand/share/en-guides--watering-houseplants.png"
-    },
-    {
-      "path": "/en/guides/when-to-repot-houseplants/",
-      "lang": "en",
-      "title": "When to repot a houseplant, and how to do it carefully",
-      "description": "Inspect roots, choose a sensible pot size and preserve planting depth. A careful repotting guide for common foliage houseplants.",
-      "image": "/assets/brand/share/en-guides--when-to-repot-houseplants.png"
-    },
-    {
-      "path": "/en/guides/winter-houseplant-care/",
-      "lang": "en",
-      "title": "Winter houseplant care: light, heating and slower watering",
-      "description": "Less light, dry heated air and slower growth: how to adjust light, watering and feeding for houseplants in winter, in either hemisphere.",
-      "image": "/assets/brand/share/en-guides--winter-houseplant-care.png"
-    },
-    {
-      "path": "/en/guides/yellow-houseplant-leaves/",
-      "lang": "en",
-      "title": "Yellow houseplant leaves: what to check before you act",
-      "description": "Check the leaf pattern, root-zone moisture, light, temperature and pests before you change the care of a houseplant with yellowing leaves.",
-      "image": "/assets/brand/share/en-guides--yellow-houseplant-leaves.png"
-    },
-    {
-      "path": "/en/legal/",
-      "lang": "en",
-      "title": "Legal notice",
-      "description": "Publisher, contact and hosting information for the Lilora website: the legal notice, who is responsible for it and which services run the site.",
-      "image": "/assets/brand/share/en-legal.png"
-    },
-    {
-      "path": "/en/plants/",
-      "lang": "en",
-      "title": "Houseplant library",
-      "description": "Houseplant profiles organised by species: light, watering, humidity, temperature, pet information and care level, each with its sources.",
-      "image": "/assets/brand/share/en-plants.png"
-    },
-    {
-      "path": "/en/plants/aloe-vera/",
-      "lang": "en",
-      "title": "Aloe vera care",
-      "description": "Aloe vera care: a sunny window, gritty mix, a full dry-down between waterings and why the ASPCA lists it as toxic to pets.",
-      "image": "/assets/brand/share/en-plants--aloe-vera.png"
-    },
-    {
-      "path": "/en/plants/chlorophytum-comosum/",
-      "lang": "en",
-      "title": "Spider plant care",
-      "description": "Spider plant care: medium light, moist but drained mix, easy plantlets, and its listing as non-toxic to cats and dogs by the ASPCA.",
-      "image": "/assets/brand/share/en-plants--chlorophytum-comosum.png"
-    },
-    {
-      "path": "/en/plants/dracaena-trifasciata/",
-      "lang": "en",
-      "title": "Snake plant care",
-      "description": "Snake plant care: tolerates low light, needs a full dry-down between waterings, and is listed as toxic to cats and dogs by the ASPCA.",
-      "image": "/assets/brand/share/en-plants--dracaena-trifasciata.png"
-    },
-    {
-      "path": "/en/plants/epipremnum-aureum/",
-      "lang": "en",
-      "title": "Pothos care",
-      "description": "Pothos care: bright indirect light, a check before every watering, trailing-stem cuttings and what the ASPCA lists for cats and dogs.",
-      "image": "/assets/brand/share/en-plants--epipremnum-aureum.png"
-    },
-    {
-      "path": "/en/plants/ficus-elastica/",
-      "lang": "en",
-      "title": "Rubber plant care",
-      "description": "Rubber plant care: bright indirect light, a slight dry-down before watering, sap safety, air layering and ASPCA pet status.",
-      "image": "/assets/brand/share/en-plants--ficus-elastica.png"
-    },
-    {
-      "path": "/en/plants/ficus-lyrata/",
-      "lang": "en",
-      "title": "Fiddle-leaf fig care",
-      "description": "Fiddle-leaf fig care: bright indirect light, steady conditions, careful watering, how to handle leaf drop and why pet-safety sources disagree.",
-      "image": "/assets/brand/share/en-plants--ficus-lyrata.png"
-    },
-    {
-      "path": "/en/plants/finder/",
-      "lang": "en",
-      "title": "Which houseplant suits you?",
-      "description": "Answer three questions about light, experience and pets to see two or three plants from the Lilora library, why they fit and their care guides.",
-      "image": "/assets/brand/share/en-plants--finder.png"
-    },
-    {
-      "path": "/en/plants/goeppertia/",
-      "lang": "en",
-      "title": "Calathea (prayer plant) care",
-      "description": "Calathea (Goeppertia) care: low to medium indirect light, steady moisture, soft water, humidity and the ASPCA non-toxic listing.",
-      "image": "/assets/brand/share/en-plants--goeppertia.png"
-    },
-    {
-      "path": "/en/plants/monstera-deliciosa/",
-      "lang": "en",
-      "title": "Monstera care",
-      "description": "Monstera care: moderate light without hot sun, checking the top third of the mix, support for climbing stems and ASPCA pet status.",
-      "image": "/assets/brand/share/en-plants--monstera-deliciosa.png"
-    },
-    {
-      "path": "/en/plants/phalaenopsis/",
-      "lang": "en",
-      "title": "Moth orchid care",
-      "description": "Moth orchid care: bright indirect light, bark mix, soak-and-drain watering, rebloom cues and its ASPCA non-toxic listing.",
-      "image": "/assets/brand/share/en-plants--phalaenopsis.png"
-    },
-    {
-      "path": "/en/plants/philodendron-hederaceum/",
-      "lang": "en",
-      "title": "Heartleaf philodendron care",
-      "description": "Heartleaf philodendron care: medium light, a slightly moist mix, easy stem cuttings, trailing or climbing growth and its ASPCA pet status.",
-      "image": "/assets/brand/share/en-plants--philodendron-hederaceum.png"
-    },
-    {
-      "path": "/en/plants/spathiphyllum/",
-      "lang": "en",
-      "title": "Peace lily care",
-      "description": "Peace lily care: shade without direct sun, an evenly moist but never soggy mix, gentle feeding, what drooping means and its ASPCA pet status.",
-      "image": "/assets/brand/share/en-plants--spathiphyllum.png"
-    },
-    {
-      "path": "/en/plants/zamioculcas-zamiifolia/",
-      "lang": "en",
-      "title": "ZZ plant care",
-      "description": "ZZ plant care: bright indirect light, letting the mix dry out fully before watering, rare feeding and why it is not on the ASPCA plant list.",
-      "image": "/assets/brand/share/en-plants--zamioculcas-zamiifolia.png"
-    },
-    {
-      "path": "/en/press/",
-      "lang": "en",
-      "title": "Lilora press resources",
-      "description": "Descriptions, product facts, real app artwork and printable Lilora cards for press and sharing. Lilora is in App Store review.",
-      "image": "/assets/brand/share/en-press.png"
-    },
-    {
-      "path": "/en/privacy/",
-      "lang": "en",
-      "title": "Privacy policy",
-      "description": "How Lilora handles your information: account, household, photo identification, purchases, website form and analytics, retention and your rights.",
-      "image": "/assets/brand/share/en-privacy.png"
-    },
-    {
-      "path": "/en/support/",
-      "lang": "en",
-      "title": "A little help for your garden.",
-      "description": "Answers to common Lilora questions about language, where plants are stored, deleting an account, reminders, identification and purchases.",
-      "image": "/assets/brand/share/en-support.png"
     },
     {
       "path": "/es/",
@@ -1772,227 +1400,1403 @@
     },
     {
       "path": "/guides/",
-      "lang": "tr",
-      "title": "Bitki bakım rehberleri",
-      "description": "Sulama, ışık, saksı, zararlılar ve mevsim bakımı üzerine kaynaklı rehberler: bakımını değiştirmeden önce bitkini gözlemlemeyi öğren.",
-      "image": "/assets/brand/share/tr-guides.png"
+      "lang": "en",
+      "title": "Houseplant care guides",
+      "description": "Source-backed guides on watering, light, pots, pests and seasonal care, written to help you observe a plant before you change its care.",
+      "image": "/assets/brand/share/en-guides.png"
     },
     {
       "path": "/guides/fertilizing-houseplants/",
-      "lang": "tr",
-      "title": "Ev bitkilerini beslemek: ne zaman, ne kadar ve ne zaman durmalı",
-      "description": "Ev bitkilerini aktif büyüme döneminde etiketteki oranda veya daha azıyla besle, kışın az ışıkta ara ver ve biriken gübre tuzlarını yıka.",
-      "image": "/assets/brand/share/tr-guides--fertilizing-houseplants.png"
+      "lang": "en",
+      "title": "Feeding houseplants: when, how much and when to stop",
+      "description": "Feed houseplants during active growth at the label rate or less, pause in low winter light, and flush out excess fertiliser salts.",
+      "image": "/assets/brand/share/en-guides--fertilizing-houseplants.png"
     },
     {
       "path": "/guides/houseplant-humidity/",
-      "lang": "tr",
-      "title": "Ev bitkileri için nem: ne işe yarar, ne yaramaz",
-      "description": "Su püskürtmek nemi neredeyse değiştirmez. Çakıllı tepsi, gruplama, nemlendirici ve doğru yerin ev bitkilerine neler katıp neler katamayacağı.",
-      "image": "/assets/brand/share/tr-guides--houseplant-humidity.png"
+      "lang": "en",
+      "title": "Humidity for houseplants: what helps and what doesn't",
+      "description": "Misting barely changes humidity. What pebble trays, grouping, humidifiers and a better spot can and cannot do for houseplants.",
+      "image": "/assets/brand/share/en-guides--houseplant-humidity.png"
     },
     {
       "path": "/guides/houseplant-pests/",
-      "lang": "tr",
-      "title": "Ev bitkilerinde sık görülen zararlılar: mantar sineği, kırmızı örümcek, unlu bit, kabuklu bit ve trips",
-      "description": "Mantar sineği, kırmızı örümcek, unlu bit, kabuklu bit ve tripsi müdahale etmeden önce tanı; bitkiyi ayır ve en az zararlı adımla başla.",
-      "image": "/assets/brand/share/tr-guides--houseplant-pests.png"
+      "lang": "en",
+      "title": "Common houseplant pests: fungus gnats, spider mites, mealybugs, scale and thrips",
+      "description": "Identify fungus gnats, spider mites, mealybugs, scale and thrips before treating, and start with the least harmful step.",
+      "image": "/assets/brand/share/en-guides--houseplant-pests.png"
     },
     {
       "path": "/guides/indoor-plant-light-guide/",
-      "lang": "tr",
-      "title": "Ev bitkilerinde ışık: doğru yeri seçme rehberi",
-      "description": "Doğrudan güneşi, parlak dolaylı ışığı ve az ışığı ayırt et. Pencereni gün boyunca gözlemle ve bitkine ihtiyacına uygun bir yer seç.",
-      "image": "/assets/brand/share/tr-guides--indoor-plant-light-guide.png"
+      "lang": "en",
+      "title": "Indoor plant light: a beginner’s guide to choosing a spot",
+      "description": "Understand direct sunlight, bright indirect light and low light. Observe your window and choose a position around your plant’s needs.",
+      "image": "/assets/brand/share/en-guides--indoor-plant-light-guide.png"
     },
     {
       "path": "/guides/overwatering-vs-underwatering/",
-      "lang": "tr",
-      "title": "Fazla mı suladın, az mı? Harekete geçmeden önce nasıl anlarsın",
-      "description": "Pörsüme ve sararma hem fazla hem az suyun işareti olabilir. Bir şeyi değiştirmeden önce harcı, saksının ağırlığını ve kökleri kontrol et.",
-      "image": "/assets/brand/share/tr-guides--overwatering-vs-underwatering.png"
+      "lang": "en",
+      "title": "Overwatered or underwatered? How to tell before you act",
+      "description": "Wilting and yellow leaves can mean too much or too little water. Check the mix, the weight of the pot and the roots before you change anything.",
+      "image": "/assets/brand/share/en-guides--overwatering-vs-underwatering.png"
     },
     {
       "path": "/guides/pet-safe-houseplants/",
-      "lang": "tr",
-      "title": "Ev bitkileri ve evcil hayvanlar: bitkiyi eve getirmeden önce neye bakmalı?",
-      "description": "Yeni bir bitkiyi eve getirmeden önce botanik adını bul, ASPCA listesine bak ve hayvanının ulaşamayacağı bir yer seç. “Toksik değil” ne demek?",
-      "image": "/assets/brand/share/tr-guides--pet-safe-houseplants.png"
+      "lang": "en",
+      "title": "Houseplants and pets: what to check before bringing a plant home",
+      "description": "Before a plant comes home, find its botanical name, check the ASPCA list and plan a spot your pet cannot reach. What “non-toxic” really means.",
+      "image": "/assets/brand/share/en-guides--pet-safe-houseplants.png"
     },
     {
       "path": "/guides/potting-mix-and-drainage/",
-      "lang": "tr",
-      "title": "Saksı harcı ve drenaj: saksının nelere ihtiyacı var",
-      "description": "Drenaj deliği, uygun bir saksı harcı ve çakılsız bir dip: bir ev bitkisi saksısının gerçekten neye ihtiyacı var ve adım adım nasıl dikilir.",
-      "image": "/assets/brand/share/tr-guides--potting-mix-and-drainage.png"
+      "lang": "en",
+      "title": "Potting mix and drainage: what your pot needs",
+      "description": "A drainage hole, a proper container mix and no gravel layer: what a houseplant pot really needs, and how to pot up a plant step by step.",
+      "image": "/assets/brand/share/en-guides--potting-mix-and-drainage.png"
     },
     {
       "path": "/guides/propagating-cuttings/",
-      "lang": "tr",
-      "title": "Ev bitkilerini çelikle çoğaltmak: suda mı, toprakta mı",
-      "description": "Sağlıklı boğumları olan bir gövde çeliği al ve suda ya da köklendirme harcında köklendir; iki yöntemin artıları ve eksileri.",
-      "image": "/assets/brand/share/tr-guides--propagating-cuttings.png"
+      "lang": "en",
+      "title": "Propagating houseplants from cuttings: water or soil",
+      "description": "Take a stem cutting with healthy nodes and root it in water or in a rooting mix. The pros and cons of each method, and how to pot it up later.",
+      "image": "/assets/brand/share/en-guides--propagating-cuttings.png"
     },
     {
       "path": "/guides/root-rot/",
-      "lang": "tr",
-      "title": "Ev bitkilerinde kök çürüklüğü: belirtiler, nedenler ve yapılacaklar",
-      "description": "Ev bitkisinde kök çürüklüğünü tanıma, köklere bakma, çürük kısımları kesip yeniden saksılama ve tekrarını önleme yolları.",
-      "image": "/assets/brand/share/tr-guides--root-rot.png"
+      "lang": "en",
+      "title": "Root rot in houseplants: signs, causes and what to do",
+      "description": "How to recognise root rot in a houseplant, check the roots, trim the damaged parts, repot in fresh mix and keep the problem from coming back.",
+      "image": "/assets/brand/share/en-guides--root-rot.png"
     },
     {
       "path": "/guides/shared-plant-care/",
-      "lang": "tr",
-      "title": "Bitki bakımını paylaşırken aynı bitkiyi iki kez sulama",
-      "description": "Partnerin veya ev arkadaşınla bitki bakımını paylaş. Kontrol ile sulamayı ayıran kayıtlar, görev paylaşımı ve seyahat öncesi devir planı oluştur.",
-      "image": "/assets/brand/share/tr-guides--shared-plant-care.png"
+      "lang": "en",
+      "title": "Share plant care without watering twice",
+      "description": "Share plant care with a partner or housemate using clear check and watering records, a simple division of care, and a practical handover before travel.",
+      "image": "/assets/brand/share/en-guides--shared-plant-care.png"
     },
     {
       "path": "/guides/watering-houseplants/",
-      "lang": "tr",
-      "title": "Ev bitkilerini sabit bir takvime bağlı kalmadan sulamak",
-      "description": "Saksı harcını, ağırlığı ve drenajı kontrol ederek sulama zamanını belirle. Sabit takvim yerine bitkini izleyen pratik bir rutin.",
-      "image": "/assets/brand/share/tr-guides--watering-houseplants.png"
+      "lang": "en",
+      "title": "How to water houseplants without a rigid schedule",
+      "description": "Check potting mix, pot weight and drainage to decide when to water. A practical routine that follows your plant, not a rigid calendar.",
+      "image": "/assets/brand/share/en-guides--watering-houseplants.png"
     },
     {
       "path": "/guides/when-to-repot-houseplants/",
-      "lang": "tr",
-      "title": "Saksı ne zaman değiştirilmeli, nasıl dikkatli yapılmalı?",
-      "description": "Kökleri incele, uygun saksı boyutunu seç ve dikim derinliğini koru. Yaygın yapraklı ev bitkileri için dikkatli saksı değiştirme rehberi.",
-      "image": "/assets/brand/share/tr-guides--when-to-repot-houseplants.png"
+      "lang": "en",
+      "title": "When to repot a houseplant, and how to do it carefully",
+      "description": "Inspect roots, choose a sensible pot size and preserve planting depth. A careful repotting guide for common foliage houseplants.",
+      "image": "/assets/brand/share/en-guides--when-to-repot-houseplants.png"
     },
     {
       "path": "/guides/winter-houseplant-care/",
-      "lang": "tr",
-      "title": "Kışın ev bitkisi bakımı: ışık, kalorifer ve daha seyrek sulama",
-      "description": "Az ışık, kuru kalorifer havası ve yavaş büyüme: kışın ev bitkilerinde ışığı, sulamayı ve beslemeyi nasıl ayarlayacağını adım adım gör.",
-      "image": "/assets/brand/share/tr-guides--winter-houseplant-care.png"
+      "lang": "en",
+      "title": "Winter houseplant care: light, heating and slower watering",
+      "description": "Less light, dry heated air and slower growth: how to adjust light, watering and feeding for houseplants in winter, in either hemisphere.",
+      "image": "/assets/brand/share/en-guides--winter-houseplant-care.png"
     },
     {
       "path": "/guides/yellow-houseplant-leaves/",
-      "lang": "tr",
-      "title": "Sararan yapraklar: bir şey yapmadan önce neleri kontrol etmeli?",
-      "description": "Sararan yapraklarda bakımını değiştirmeden önce yaprak desenini, kök nemini, ışığı, sıcaklığı ve zararlı belirtilerini kontrol et.",
-      "image": "/assets/brand/share/tr-guides--yellow-houseplant-leaves.png"
+      "lang": "en",
+      "title": "Yellow houseplant leaves: what to check before you act",
+      "description": "Check the leaf pattern, root-zone moisture, light, temperature and pests before you change the care of a houseplant with yellowing leaves.",
+      "image": "/assets/brand/share/en-guides--yellow-houseplant-leaves.png"
+    },
+    {
+      "path": "/it/",
+      "lang": "it",
+      "title": "Un diario condiviso per le tue piante.",
+      "description": "In quale stanza, chi ha controllato per ultimo e quando ha annaffiato. Riunisci foto, note e cronologia delle tue piante in Lilora, su iPhone e iPad.",
+      "image": "/assets/brand/share/it-home.png"
+    },
+    {
+      "path": "/it/about/",
+      "lang": "it",
+      "title": "Informazioni su Lilora",
+      "description": "Lilora è un diario per la cura attenta e condivisa delle piante, pubblicato in modo indipendente da Umut OREN in Turchia per iPhone e iPad.",
+      "image": "/assets/brand/share/it-about.png"
+    },
+    {
+      "path": "/it/blog/",
+      "lang": "it",
+      "title": "Blog di Lilora: cura delle piante da appartamento",
+      "description": "Articoli documentati sulla cura delle piante: punte secche, muffa, vasi, acqua del rubinetto, lampade, acquisti e cure stagionali condivise.",
+      "image": "/assets/brand/share/it-blog.png"
+    },
+    {
+      "path": "/it/blog/autumn-plant-reset/",
+      "lang": "it",
+      "title": "Preparare le piante all’autunno: una breve lista di controlli",
+      "description": "Prepara le piante all’autunno: controlla parassiti e luce, riportale in casa prima del freddo e adatta acqua e concime alle nuove condizioni.",
+      "image": "/assets/brand/share/it-blog--autumn-plant-reset.png"
+    },
+    {
+      "path": "/it/blog/bottom-watering/",
+      "lang": "it",
+      "title": "Annaffiare dal basso: quando aiuta e quando no",
+      "description": "Scopri quando annaffiare dal basso, come capire se il substrato è umido e perché alternare il metodo con lavaggi dall’alto contro i sali.",
+      "image": "/assets/brand/share/it-blog--bottom-watering.png"
+    },
+    {
+      "path": "/it/blog/brown-leaf-tips/",
+      "lang": "it",
+      "title": "Punte marroni delle foglie: cosa significano di solito",
+      "description": "Punte e margini marroni possono dipendere da aria secca, acqua irregolare o sali. Scopri cosa controllare e come valutare la nuova crescita.",
+      "image": "/assets/brand/share/it-blog--brown-leaf-tips.png"
+    },
+    {
+      "path": "/it/blog/buying-a-healthy-houseplant/",
+      "lang": "it",
+      "title": "Scegliere una pianta sana e farla ambientare in casa",
+      "description": "Scegli una pianta sana controllando foglie, parassiti, vaso e radici. Ecco come isolarla e aiutarla ad ambientarsi nelle prime settimane a casa.",
+      "image": "/assets/brand/share/it-blog--buying-a-healthy-houseplant.png"
+    },
+    {
+      "path": "/it/blog/check-before-you-water/",
+      "lang": "it",
+      "title": "Perché i promemoria di Lilora dicono “controlla”",
+      "description": "I promemoria di Lilora invitano a controllare la pianta. Scopri perché controlli e annaffiature separati rendono più chiara la cura condivisa.",
+      "image": "/assets/brand/share/it-blog--check-before-you-water.png"
+    },
+    {
+      "path": "/it/blog/cleaning-houseplant-leaves/",
+      "lang": "it",
+      "title": "Come pulire le foglie delle piante da appartamento",
+      "description": "Pulisci foglie lisce, piccole o pelose con metodi delicati. Scopri perché rimuovere la polvere aiuta la luce e quando evitare i lucidanti.",
+      "image": "/assets/brand/share/it-blog--cleaning-houseplant-leaves.png"
+    },
+    {
+      "path": "/it/blog/do-houseplants-purify-air/",
+      "lang": "it",
+      "title": "Le piante purificano davvero l’aria di casa?",
+      "description": "Gli esperimenti in camere sigillate non descrivono una casa. Scopri cosa dicono gli studi sulle piante e perché la ventilazione conta di più.",
+      "image": "/assets/brand/share/it-blog--do-houseplants-purify-air.png"
+    },
+    {
+      "path": "/it/blog/grow-lights-for-houseplants/",
+      "lang": "it",
+      "title": "Lampade per piante: una configurazione semplice per iniziare",
+      "description": "Scegli una lampada LED per le piante, imposta distanza e timer e osserva la crescita. Una guida pratica alla luce supplementare in casa.",
+      "image": "/assets/brand/share/it-blog--grow-lights-for-houseplants.png"
+    },
+    {
+      "path": "/it/blog/keeping-a-plant-care-journal/",
+      "lang": "it",
+      "title": "Come tenere un diario delle piante, su carta o app",
+      "description": "Un diario breve registra controlli, annaffiature e cambiamenti. Scopri cosa annotare, come usare le foto e come leggere le abitudini stagionali.",
+      "image": "/assets/brand/share/it-blog--keeping-a-plant-care-journal.png"
+    },
+    {
+      "path": "/it/blog/leggy-houseplants/",
+      "lang": "it",
+      "title": "Fusti lunghi e sottili: perché le piante si allungano",
+      "description": "Fusti sottili e foglie distanti indicano spesso poca luce. Scopri come aumentarla, potare sopra un nodo e usare le talee per una pianta più folta.",
+      "image": "/assets/brand/share/it-blog--leggy-houseplants.png"
+    },
+    {
+      "path": "/it/blog/mold-on-houseplant-soil/",
+      "lang": "it",
+      "title": "Muffa bianca sul terriccio: è dannosa?",
+      "description": "Distingui la muffa bianca dai sali sul terriccio. Scopri come migliorare umidità, aerazione e drenaggio e quando controllare anche le radici.",
+      "image": "/assets/brand/share/it-blog--mold-on-houseplant-soil.png"
+    },
+    {
+      "path": "/it/blog/moving-house-with-plants/",
+      "lang": "it",
+      "title": "Traslocare con le piante",
+      "description": "Prepara le piante al trasloco: controlli, imballaggio, protezione dal caldo e dal freddo e ambientamento nella nuova casa, con attenzione alle frontiere.",
+      "image": "/assets/brand/share/it-blog--moving-house-with-plants.png"
+    },
+    {
+      "path": "/it/blog/tap-water-for-houseplants/",
+      "lang": "it",
+      "title": "L’acqua del rubinetto va bene per le piante?",
+      "description": "Acqua del rubinetto, addolcitori, fluoruri e sali: cosa sapere per le piante da appartamento e quando cambiare acqua o lavare il substrato.",
+      "image": "/assets/brand/share/it-blog--tap-water-for-houseplants.png"
+    },
+    {
+      "path": "/it/blog/terracotta-vs-plastic-pots/",
+      "lang": "it",
+      "title": "Vasi di terracotta o plastica: quale scegliere?",
+      "description": "Terracotta, plastica e ceramica trattengono l’acqua in modo diverso. Scegli il vaso secondo pianta, abitudini e drenaggio, senza regole universali.",
+      "image": "/assets/brand/share/it-blog--terracotta-vs-plastic-pots.png"
+    },
+    {
+      "path": "/it/compare/",
+      "lang": "it",
+      "title": "Confronti tra app per piante",
+      "description": "Confronti documentati tra app per piante: promemoria, registri condivisi, riconoscimento e prezzi, con informazioni chiare sul lancio.",
+      "image": "/assets/brand/share/it-compare.png"
+    },
+    {
+      "path": "/it/compare/lilora-vs-picturethis/",
+      "lang": "it",
+      "title": "Lilora e PictureThis: riconoscimento e cura quotidiana",
+      "description": "Confronta le funzioni documentate di Lilora e PictureThis: riconoscimento, registri, promemoria e acquisti, con limiti e disponibilità dichiarati.",
+      "image": "/assets/brand/share/it-compare--lilora-vs-picturethis.png"
+    },
+    {
+      "path": "/it/compare/lilora-vs-planta/",
+      "lang": "it",
+      "title": "Lilora e Planta: scegliere una routine di cura",
+      "description": "Confronta Lilora e Planta per routine, promemoria, registri condivisi e strumenti. Funzioni e prezzi documentati, senza prove pratiche inventate.",
+      "image": "/assets/brand/share/it-compare--lilora-vs-planta.png"
+    },
+    {
+      "path": "/it/contact/",
+      "lang": "it",
+      "title": "Contatta Lilora",
+      "description": "Contatta Lilora per assistenza, privacy, stampa, correzioni o collaborazioni tramite il modulo o via email. Rispondiamo in inglese o turco.",
+      "image": "/assets/brand/share/it-contact.png"
+    },
+    {
+      "path": "/it/download/",
+      "lang": "it",
+      "title": "Un diario condiviso per le tue piante",
+      "description": "Scopri Lilora per iPhone e iPad: diario gratuito e cura condivisa, con riconoscimento fotografico facoltativo. Revisione App Store in corso.",
+      "image": "/assets/brand/share/it-download.png"
+    },
+    {
+      "path": "/it/editorial/",
+      "lang": "it",
+      "title": "Criteri editoriali",
+      "description": "Come Lilora ricerca, scrive con l’aiuto dell’IA, verifica e aggiorna guide e confronti tra app, indica le date e descrive le immagini usate.",
+      "image": "/assets/brand/share/it-editorial.png"
+    },
+    {
+      "path": "/it/guides/",
+      "lang": "it",
+      "title": "Guide alla cura delle piante da appartamento",
+      "description": "Guide documentate su acqua, luce, vasi, parassiti e cure stagionali, per osservare la pianta prima di cambiarne le cure.",
+      "image": "/assets/brand/share/it-guides.png"
+    },
+    {
+      "path": "/it/guides/fertilizing-houseplants/",
+      "lang": "it",
+      "title": "Concimare le piante: quando, quanto e quando fermarsi",
+      "description": "Concima durante la crescita attiva e riduci quando rallenta. Impara a dosare il prodotto, riconoscere i sali in eccesso e lavare il substrato.",
+      "image": "/assets/brand/share/it-guides--fertilizing-houseplants.png"
+    },
+    {
+      "path": "/it/guides/houseplant-humidity/",
+      "lang": "it",
+      "title": "Umidità per le piante: cosa aiuta e cosa no",
+      "description": "Nebulizzare e usare ciottoli modifica poco l’umidità. Scopri quando servono misurazioni, una posizione diversa o un umidificatore per le piante.",
+      "image": "/assets/brand/share/it-guides--houseplant-humidity.png"
+    },
+    {
+      "path": "/it/guides/houseplant-pests/",
+      "lang": "it",
+      "title": "Parassiti delle piante: moscerini, acari e cocciniglie",
+      "description": "Riconosci moscerini, acari, cocciniglie e tripidi. Isola la pianta e parti dai metodi meno dannosi prima di usare un prodotto secondo etichetta.",
+      "image": "/assets/brand/share/it-guides--houseplant-pests.png"
+    },
+    {
+      "path": "/it/guides/indoor-plant-light-guide/",
+      "lang": "it",
+      "title": "Luce per le piante in casa: come scegliere il posto",
+      "description": "Valuta la luce che raggiunge le foglie, oltre all’esposizione della finestra. Una guida a sole diretto, luce indiretta e posizioni poco luminose.",
+      "image": "/assets/brand/share/it-guides--indoor-plant-light-guide.png"
+    },
+    {
+      "path": "/it/guides/overwatering-vs-underwatering/",
+      "lang": "it",
+      "title": "Troppa o troppo poca acqua? Controlla prima di agire",
+      "description": "Troppa e poca acqua possono dare sintomi simili. Controlla umidità, peso del vaso e radici prima di decidere se annaffiare o aspettare.",
+      "image": "/assets/brand/share/it-guides--overwatering-vs-underwatering.png"
+    },
+    {
+      "path": "/it/guides/pet-safe-houseplants/",
+      "lang": "it",
+      "title": "Piante e animali: cosa verificare prima dell’acquisto",
+      "description": "Verifica il nome botanico e le informazioni ASPCA prima di portare una pianta in una casa con animali. Tossicità, limiti e controlli pratici.",
+      "image": "/assets/brand/share/it-guides--pet-safe-houseplants.png"
+    },
+    {
+      "path": "/it/guides/potting-mix-and-drainage/",
+      "lang": "it",
+      "title": "Substrato e drenaggio: cosa serve al vaso",
+      "description": "Un vaso forato e un substrato adatto aiutano le radici. Scopri perché la ghiaia sul fondo non migliora il drenaggio e come scegliere le dimensioni.",
+      "image": "/assets/brand/share/it-guides--potting-mix-and-drainage.png"
+    },
+    {
+      "path": "/it/guides/propagating-cuttings/",
+      "lang": "it",
+      "title": "Moltiplicare le piante per talea: acqua o substrato",
+      "description": "Preleva una talea sana con nodi e scegli acqua o substrato. Guida a taglio, radicazione, primo vaso e cure successive, con fonti istituzionali.",
+      "image": "/assets/brand/share/it-guides--propagating-cuttings.png"
+    },
+    {
+      "path": "/it/guides/root-rot/",
+      "lang": "it",
+      "title": "Marciume radicale: segnali, cause e cosa fare",
+      "description": "Una pianta può appassire anche nel terriccio bagnato. Scopri come controllare le radici, rimuovere il marciume e prevenire nuovi ristagni.",
+      "image": "/assets/brand/share/it-guides--root-rot.png"
+    },
+    {
+      "path": "/it/guides/shared-plant-care/",
+      "lang": "it",
+      "title": "Condividere la cura senza annaffiare due volte",
+      "description": "Condividi un solo registro per pianta, distingui controlli e annaffiature e organizza il passaggio di consegne senza ripetere le stesse cure.",
+      "image": "/assets/brand/share/it-guides--shared-plant-care.png"
+    },
+    {
+      "path": "/it/guides/watering-houseplants/",
+      "lang": "it",
+      "title": "Annaffiare le piante senza un calendario rigido",
+      "description": "Controlla substrato, peso del vaso e drenaggio prima di annaffiare. Una routine pratica che segue le esigenze della pianta, non un calendario.",
+      "image": "/assets/brand/share/it-guides--watering-houseplants.png"
+    },
+    {
+      "path": "/it/guides/when-to-repot-houseplants/",
+      "lang": "it",
+      "title": "Quando rinvasare una pianta e come farlo con cura",
+      "description": "Rinvasa quando radici o substrato lo richiedono. Riconosci gli indizi, scegli un vaso poco più grande e conserva la corretta profondità di impianto.",
+      "image": "/assets/brand/share/it-guides--when-to-repot-houseplants.png"
+    },
+    {
+      "path": "/it/guides/winter-houseplant-care/",
+      "lang": "it",
+      "title": "Piante in inverno: luce, riscaldamento e meno acqua",
+      "description": "In inverno adatta luce, acqua e concime alla crescita più lenta. Proteggi le piante da termosifoni, correnti e vetri freddi e controlla il substrato.",
+      "image": "/assets/brand/share/it-guides--winter-houseplant-care.png"
+    },
+    {
+      "path": "/it/guides/yellow-houseplant-leaves/",
+      "lang": "it",
+      "title": "Foglie gialle: cosa controllare prima di intervenire",
+      "description": "Prima di agire sulle foglie gialle, osserva quali cambiano e controlla acqua, radici, luce e parassiti. Una guida per distinguere i diversi indizi.",
+      "image": "/assets/brand/share/it-guides--yellow-houseplant-leaves.png"
+    },
+    {
+      "path": "/it/legal/",
+      "lang": "it",
+      "title": "Note legali",
+      "description": "Editore, contatti e hosting del sito Lilora: le note legali, chi è responsabile della pubblicazione e i servizi che fanno funzionare il sito.",
+      "image": "/assets/brand/share/it-legal.png"
+    },
+    {
+      "path": "/it/plants/",
+      "lang": "it",
+      "title": "Enciclopedia delle piante da appartamento",
+      "description": "Schede delle piante da appartamento per specie: luce, acqua, umidità, temperatura, animali e difficoltà di cura, con le relative fonti.",
+      "image": "/assets/brand/share/it-plants.png"
+    },
+    {
+      "path": "/it/plants/aloe-vera/",
+      "lang": "it",
+      "title": "Cura dell’aloe vera",
+      "description": "Cura dell’aloe vera: finestra soleggiata, substrato granuloso e asciugatura completa. Scopri anche perché l’ASPCA la considera tossica per animali.",
+      "image": "/assets/brand/share/it-plants--aloe-vera.png"
+    },
+    {
+      "path": "/it/plants/chlorophytum-comosum/",
+      "lang": "it",
+      "title": "Cura del falangio",
+      "description": "Cura del falangio: luce media, substrato umido ma drenante e piantine facili da moltiplicare. L’ASPCA lo indica come non tossico per cani e gatti.",
+      "image": "/assets/brand/share/it-plants--chlorophytum-comosum.png"
+    },
+    {
+      "path": "/it/plants/dracaena-trifasciata/",
+      "lang": "it",
+      "title": "Cura della sansevieria",
+      "description": "Cura della sansevieria: tollera poca luce, richiede asciugatura tra le annaffiature ed è elencata dall’ASPCA come tossica per gatti e cani.",
+      "image": "/assets/brand/share/it-plants--dracaena-trifasciata.png"
+    },
+    {
+      "path": "/it/plants/epipremnum-aureum/",
+      "lang": "it",
+      "title": "Cura del pothos",
+      "description": "Cura del pothos: luce indiretta, controllo prima dell’acqua, talee dei fusti e informazioni ASPCA per gatti e cani, con problemi comuni.",
+      "image": "/assets/brand/share/it-plants--epipremnum-aureum.png"
+    },
+    {
+      "path": "/it/plants/ficus-elastica/",
+      "lang": "it",
+      "title": "Cura del ficus elastica",
+      "description": "Cura del ficus elastica: luce indiretta, lieve asciugatura prima dell’acqua, cautela con la linfa, margotte e informazioni ASPCA sugli animali.",
+      "image": "/assets/brand/share/it-plants--ficus-elastica.png"
+    },
+    {
+      "path": "/it/plants/ficus-lyrata/",
+      "lang": "it",
+      "title": "Cura del ficus lyrata",
+      "description": "Cura del ficus lyrata: luce indiretta, condizioni stabili e acqua controllata. Caduta delle foglie e fonti discordanti sulla tossicità per animali.",
+      "image": "/assets/brand/share/it-plants--ficus-lyrata.png"
+    },
+    {
+      "path": "/it/plants/finder/",
+      "lang": "it",
+      "title": "Quale pianta da appartamento fa per te?",
+      "description": "Rispondi a tre domande su luce, esperienza e animali: scopri due o tre piante dell’enciclopedia di Lilora, perché sono adatte e come curarle.",
+      "image": "/assets/brand/share/it-plants--finder.png"
+    },
+    {
+      "path": "/it/plants/goeppertia/",
+      "lang": "it",
+      "title": "Cura della calatea (pianta della preghiera)",
+      "description": "Cura della calatea: luce indiretta, umidità costante, acqua dolce e temperature stabili. Controlli prima di annaffiare e sicurezza per gli animali.",
+      "image": "/assets/brand/share/it-plants--goeppertia.png"
+    },
+    {
+      "path": "/it/plants/monstera-deliciosa/",
+      "lang": "it",
+      "title": "Cura della monstera",
+      "description": "Cura della monstera: luce indiretta, controllo del substrato, sostegni e cure stagionali. Riconosci i problemi e verifica i rischi per cani e gatti.",
+      "image": "/assets/brand/share/it-plants--monstera-deliciosa.png"
+    },
+    {
+      "path": "/it/plants/phalaenopsis/",
+      "lang": "it",
+      "title": "Cura dell'orchidea falena",
+      "description": "Cura della Phalaenopsis: luce indiretta, corteccia drenante, radici e fioritura. Come annaffiare, concimare e controllare umidità e temperatura.",
+      "image": "/assets/brand/share/it-plants--phalaenopsis.png"
+    },
+    {
+      "path": "/it/plants/philodendron-hederaceum/",
+      "lang": "it",
+      "title": "Cura del filodendro a foglia di cuore",
+      "description": "Cura del filodendro a foglia di cuore: luce, controllo del substrato, talee e problemi comuni. Indicazioni pratiche e rischi per cani e gatti.",
+      "image": "/assets/brand/share/it-plants--philodendron-hederaceum.png"
+    },
+    {
+      "path": "/it/plants/spathiphyllum/",
+      "lang": "it",
+      "title": "Cura dello spatifillo",
+      "description": "Cura dello spatifillo: luce, umidità e controlli prima di annaffiare. Come interpretare foglie afflosciate, cure stagionali e rischi per gli animali.",
+      "image": "/assets/brand/share/it-plants--spathiphyllum.png"
+    },
+    {
+      "path": "/it/plants/zamioculcas-zamiifolia/",
+      "lang": "it",
+      "title": "Cura della zamioculcas",
+      "description": "Cura della zamioculcas: luce indiretta, substrato asciutto e annaffiature prudenti. Controlli dei rizomi, concimazione e rischi per gli animali.",
+      "image": "/assets/brand/share/it-plants--zamioculcas-zamiifolia.png"
+    },
+    {
+      "path": "/it/press/",
+      "lang": "it",
+      "title": "Risorse stampa di Lilora",
+      "description": "Descrizioni, informazioni, immagini reali dell’app e materiali stampabili di Lilora per la stampa. Revisione sull’App Store ancora in corso.",
+      "image": "/assets/brand/share/it-press.png"
+    },
+    {
+      "path": "/it/privacy/",
+      "lang": "it",
+      "title": "Informativa sulla privacy",
+      "description": "Come Lilora tratta account, foto, acquisti e dati del sito: fornitori, conservazione, diritti sulla privacy e scelte per cookie e analisi.",
+      "image": "/assets/brand/share/it-privacy.png"
+    },
+    {
+      "path": "/it/support/",
+      "lang": "it",
+      "title": "Un piccolo aiuto per il tuo giardino.",
+      "description": "Risposte su lingua, archiviazione delle piante, eliminazione dell’account, promemoria, riconoscimento e acquisti nell’app Lilora per iOS.",
+      "image": "/assets/brand/share/it-support.png"
+    },
+    {
+      "path": "/ja/",
+      "lang": "ja",
+      "title": "みんなで使える、植物のノート。",
+      "description": "どの部屋にあり、誰が最後に確認し、いつ水を与えたか。iPhone・iPadのLiloraで、植物の写真、メモ、お世話の履歴をまとめましょう。",
+      "image": "/assets/brand/share/ja-home.png"
+    },
+    {
+      "path": "/ja/about/",
+      "lang": "ja",
+      "title": "Liloraについて",
+      "description": "Liloraは、植物の観察とお世話を家族で共有するiPhone・iPad向けノートです。トルコのUmut ORENが独立して提供しています。",
+      "image": "/assets/brand/share/ja-about.png"
+    },
+    {
+      "path": "/ja/blog/",
+      "lang": "ja",
+      "title": "Liloraブログ：観葉植物のお手入れ",
+      "description": "葉先の変色、土のカビ、鉢、水道水、育成ライト、元気な株の選び方、季節の確認項目や共同での世話を扱う、出典付きの記事です。",
+      "image": "/assets/brand/share/ja-blog.png"
+    },
+    {
+      "path": "/ja/blog/autumn-plant-reset/",
+      "lang": "ja",
+      "title": "観葉植物の秋支度：短いチェックリスト",
+      "description": "寒い夜の前に植物を室内へ取り込み、害虫を確認し、窓辺を見直して水やりを調整する、観葉植物のための秋のチェックリストです。",
+      "image": "/assets/brand/share/ja-blog--autumn-plant-reset.png"
+    },
+    {
+      "path": "/ja/blog/bottom-watering/",
+      "lang": "ja",
+      "title": "観葉植物の底面給水：役立つ場面と注意点",
+      "description": "観葉植物に下から水を吸わせる手順、向いている植物、浸す時間と、ときどき上からも水を与える理由を紹介します。",
+      "image": "/assets/brand/share/ja-blog--bottom-watering.png"
+    },
+    {
+      "path": "/ja/blog/brown-leaf-tips/",
+      "lang": "ja",
+      "title": "観葉植物の葉先が茶色くなる原因",
+      "description": "茶色く乾いた葉先は、空気の乾燥、水やりのむら、塩類の蓄積、水道水への反応などが原因になります。見分け方と対処法を説明します。",
+      "image": "/assets/brand/share/ja-blog--brown-leaf-tips.png"
+    },
+    {
+      "path": "/ja/blog/buying-a-healthy-houseplant/",
+      "lang": "ja",
+      "title": "元気な観葉植物を選び、家の環境に慣らす方法",
+      "description": "購入前に観葉植物の葉、害虫、根、鉢を確認する方法と、新しい株を2週間離して管理し、家に慣らす手順を紹介します。",
+      "image": "/assets/brand/share/ja-blog--buying-a-healthy-houseplant.png"
+    },
+    {
+      "path": "/ja/blog/check-before-you-water/",
+      "lang": "ja",
+      "title": "Liloraのリマインダーが「水やり」より「確認」を促す理由",
+      "description": "カレンダーは植物の状態を見られません。Liloraが確認を促し、水やりと水を与えなかった確認を分けて記録する理由を説明します。",
+      "image": "/assets/brand/share/ja-blog--check-before-you-water.png"
+    },
+    {
+      "path": "/ja/blog/cleaning-houseplant-leaves/",
+      "lang": "ja",
+      "title": "観葉植物の葉をきれいにする方法と、その理由",
+      "description": "ほこりは室内植物に必要な光を遮ります。大きな葉の拭き方、小さな株の洗い方、毛のある葉の掃除と、葉のつや出し剤を避ける理由を紹介します。",
+      "image": "/assets/brand/share/ja-blog--cleaning-houseplant-leaves.png"
+    },
+    {
+      "path": "/ja/blog/do-houseplants-purify-air/",
+      "lang": "ja",
+      "title": "観葉植物は本当に室内の空気をきれいにする？",
+      "description": "空気をきれいにする植物リストの元になったNASA研究は密閉容器の実験でした。2019年のレビューと、実際の室内空気の改善方法を説明します。",
+      "image": "/assets/brand/share/ja-blog--do-houseplants-purify-air.png"
+    },
+    {
+      "path": "/ja/blog/grow-lights-for-houseplants/",
+      "lang": "ja",
+      "title": "観葉植物の育成ライト：初めての基本設定",
+      "description": "観葉植物の育成ライトをシンプルに使う方法。LEDの選び方、葉との距離、点灯時間、タイマーと暗い夜が大切な理由を紹介します。",
+      "image": "/assets/brand/share/ja-blog--grow-lights-for-houseplants.png"
+    },
+    {
+      "path": "/ja/blog/keeping-a-plant-care-journal/",
+      "lang": "ja",
+      "title": "植物のお手入れ日誌の付け方：紙でもアプリでも",
+      "description": "植物ごとに残す内容、簡単なノートの構成、季節が過ぎてから記録を読み返す方法と、紙とアプリの選び方を紹介します。",
+      "image": "/assets/brand/share/ja-blog--keeping-a-plant-care-journal.png"
+    },
+    {
+      "path": "/ja/blog/leggy-houseplants/",
+      "lang": "ja",
+      "title": "観葉植物がひょろ長く伸びる理由と整え方",
+      "description": "葉の間隔が広く細長い茎は、光不足のサインであることが多いものです。まず光を増やし、節の上で剪定して挿し穂を育てる方法を紹介します。",
+      "image": "/assets/brand/share/ja-blog--leggy-houseplants.png"
+    },
+    {
+      "path": "/ja/blog/mold-on-houseplant-soil/",
+      "lang": "ja",
+      "title": "観葉植物の土に白いカビ：害はある？",
+      "description": "用土の白い綿毛は、通常は無害な菌で、湿りすぎや空気の停滞を示します。塩類との見分け方、取り除き方、予防方法を紹介します。",
+      "image": "/assets/brand/share/ja-blog--mold-on-houseplant-soil.png"
+    },
+    {
+      "path": "/ja/blog/moving-house-with-plants/",
+      "lang": "ja",
+      "title": "植物と一緒に引っ越すには",
+      "description": "植物も引っ越し計画に含めましょう。害虫の確認、水やり、梱包、運搬、国境の規則、新居の光に慣らす方法を紹介します。",
+      "image": "/assets/brand/share/ja-blog--moving-house-with-plants.png"
+    },
+    {
+      "path": "/ja/blog/tap-water-for-houseplants/",
+      "lang": "ja",
+      "title": "観葉植物に水道水を使っても大丈夫？",
+      "description": "多くの観葉植物には水道水を使えます。軟水器の水、塩素、フッ化物、硬水の塩類、冷水が問題になる場合と、代替方法を説明します。",
+      "image": "/assets/brand/share/ja-blog--tap-water-for-houseplants.png"
+    },
+    {
+      "path": "/ja/blog/terracotta-vs-plastic-pots/",
+      "lang": "ja",
+      "title": "観葉植物にはテラコッタ鉢とプラスチック鉢、どちらがよい？",
+      "description": "テラコッタは乾きが速く、プラスチックや釉薬のある陶器は水分を長く保ちます。植物に合う鉢の選び方と、排水の大切さを説明します。",
+      "image": "/assets/brand/share/ja-blog--terracotta-vs-plastic-pots.png"
+    },
+    {
+      "path": "/ja/compare/",
+      "lang": "ja",
+      "title": "植物アプリの比較",
+      "description": "植物アプリのリマインダー、共有記録、植物識別、料金を出典に基づいて比較します。Liloraの公開状況や制約も正確にお伝えします。",
+      "image": "/assets/brand/share/ja-compare.png"
+    },
+    {
+      "path": "/ja/compare/lilora-vs-picturethis/",
+      "lang": "ja",
+      "title": "LiloraとPictureThis：植物識別と日々のお手入れを比較",
+      "description": "LiloraとPictureThisを、識別、通知、植物一覧、家族でのお世話について比較します。公式資料と、料金を見る際の注意点を示します。",
+      "image": "/assets/brand/share/ja-compare--lilora-vs-picturethis.png"
+    },
+    {
+      "path": "/ja/compare/lilora-vs-planta/",
+      "lang": "ja",
+      "title": "LiloraとPlanta：自分に合う植物のお手入れ習慣を選ぶ",
+      "description": "LiloraとPlantaを、通知、共有記録、識別、料金で比較します。公式資料に基づき、Liloraの公開状況も正確にお伝えします。",
+      "image": "/assets/brand/share/ja-compare--lilora-vs-planta.png"
+    },
+    {
+      "path": "/ja/contact/",
+      "lang": "ja",
+      "title": "Liloraへのお問い合わせ",
+      "description": "アプリのサポート、プライバシー、報道、訂正、協業について、フォームまたはメールでお問い合わせください。英語・トルコ語で対応します。",
+      "image": "/assets/brand/share/ja-contact.png"
+    },
+    {
+      "path": "/ja/download/",
+      "lang": "ja",
+      "title": "みんなで使える、植物のノート",
+      "description": "無料の植物の手入力とお世話の共有、任意の写真識別を備えたiPhone・iPad向けLiloraをご紹介します。現在App Storeで審査中です。",
+      "image": "/assets/brand/share/ja-download.png"
+    },
+    {
+      "path": "/ja/editorial/",
+      "lang": "ja",
+      "title": "編集方針",
+      "description": "Liloraの植物ガイドとアプリ比較の調査、AIを使った下書き、事実確認、日付の更新、画像の表示について、編集方針を説明します。",
+      "image": "/assets/brand/share/ja-editorial.png"
+    },
+    {
+      "path": "/ja/guides/",
+      "lang": "ja",
+      "title": "観葉植物の育て方ガイド",
+      "description": "水やり、光、鉢、害虫、季節ごとのお手入れを出典に基づいて解説します。まず植物を観察し、その結果をもとに育て方を見直すためのガイドです。",
+      "image": "/assets/brand/share/ja-guides.png"
+    },
+    {
+      "path": "/ja/guides/fertilizing-houseplants/",
+      "lang": "ja",
+      "title": "観葉植物の肥料：与える時期、量、休むタイミング",
+      "description": "観葉植物の肥料は生育中に表示量以下で与え、冬の弱い光では控えます。余分な肥料の塩類を洗い流す方法も紹介します。",
+      "image": "/assets/brand/share/ja-guides--fertilizing-houseplants.png"
+    },
+    {
+      "path": "/ja/guides/houseplant-humidity/",
+      "lang": "ja",
+      "title": "観葉植物の湿度管理：役立つ方法と効果の小さい方法",
+      "description": "霧吹きでは湿度はほとんど変わりません。小石のトレー、寄せ置き、加湿器、置き場所の変更でできることと、できないことを説明します。",
+      "image": "/assets/brand/share/ja-guides--houseplant-humidity.png"
+    },
+    {
+      "path": "/ja/guides/houseplant-pests/",
+      "lang": "ja",
+      "title": "観葉植物によく付く害虫：キノコバエ、ハダニ、コナカイガラムシ、カイガラムシ、アザミウマ",
+      "description": "キノコバエ、ハダニ、コナカイガラムシ、カイガラムシ、アザミウマを処置の前に見分け、影響の少ない方法から対処するガイドです。",
+      "image": "/assets/brand/share/ja-guides--houseplant-pests.png"
+    },
+    {
+      "path": "/ja/guides/indoor-plant-light-guide/",
+      "lang": "ja",
+      "title": "室内植物の光：置き場所を選ぶための入門ガイド",
+      "description": "直射日光、明るい間接光、弱い光の違いを理解し、窓辺を観察して、植物の必要とする条件に合う室内の置き場所を選びましょう。",
+      "image": "/assets/brand/share/ja-guides--indoor-plant-light-guide.png"
+    },
+    {
+      "path": "/ja/guides/overwatering-vs-underwatering/",
+      "lang": "ja",
+      "title": "水のやりすぎ？水不足？対処する前に見分ける方法",
+      "description": "しおれや黄色い葉は、水のやりすぎでも水不足でも起こります。管理を変える前に、用土、鉢の重さ、根を確かめる方法を説明します。",
+      "image": "/assets/brand/share/ja-guides--overwatering-vs-underwatering.png"
+    },
+    {
+      "path": "/ja/guides/pet-safe-houseplants/",
+      "lang": "ja",
+      "title": "観葉植物とペット：家に迎える前に確認したいこと",
+      "description": "植物を迎える前に学名とASPCAのリストを確認し、ペットが届かない場所を決めましょう。「無毒」の意味も説明します。",
+      "image": "/assets/brand/share/ja-guides--pet-safe-houseplants.png"
+    },
+    {
+      "path": "/ja/guides/potting-mix-and-drainage/",
+      "lang": "ja",
+      "title": "用土と排水：植物の鉢に必要なこと",
+      "description": "排水穴、適した鉢植え用土、砂利の層を作らないこと。観葉植物の鉢に必要な条件と、植え付けの手順を説明します。",
+      "image": "/assets/brand/share/ja-guides--potting-mix-and-drainage.png"
+    },
+    {
+      "path": "/ja/guides/propagating-cuttings/",
+      "lang": "ja",
+      "title": "観葉植物の挿し木：水で発根させるか、用土に挿すか",
+      "description": "健康な節を含む茎の挿し穂を取り、水や挿し木用土で発根させる方法。それぞれの利点・欠点と、鉢に植える手順を紹介します。",
+      "image": "/assets/brand/share/ja-guides--propagating-cuttings.png"
+    },
+    {
+      "path": "/ja/guides/root-rot/",
+      "lang": "ja",
+      "title": "観葉植物の根腐れ：サイン、原因、対処法",
+      "description": "観葉植物の根腐れを見分け、根を確認し、傷んだ部分を切って新しい用土へ植え替える方法と、再発を防ぐ管理を説明します。",
+      "image": "/assets/brand/share/ja-guides--root-rot.png"
+    },
+    {
+      "path": "/ja/guides/shared-plant-care/",
+      "lang": "ja",
+      "title": "二重に水を与えずに、植物の世話を分担する",
+      "description": "確認と水やりの明確な記録、簡単な担当分け、旅行前の実用的な引き継ぎで、パートナーや同居人と植物のお世話を共有しましょう。",
+      "image": "/assets/brand/share/ja-guides--shared-plant-care.png"
+    },
+    {
+      "path": "/ja/guides/watering-houseplants/",
+      "lang": "ja",
+      "title": "日数を固定しない、観葉植物の水やり",
+      "description": "用土、鉢の重さ、排水を確認して、水やりの時期を判断します。固定した日程ではなく、植物の状態に合わせる実用的な手順です。",
+      "image": "/assets/brand/share/ja-guides--watering-houseplants.png"
+    },
+    {
+      "path": "/ja/guides/when-to-repot-houseplants/",
+      "lang": "ja",
+      "title": "観葉植物を植え替える時期と、傷めにくい手順",
+      "description": "根を調べ、適切な大きさの鉢を選び、元の植え付けの深さを保つ。一般的な葉もの観葉植物を丁寧に植え替えるためのガイドです。",
+      "image": "/assets/brand/share/ja-guides--when-to-repot-houseplants.png"
+    },
+    {
+      "path": "/ja/guides/winter-houseplant-care/",
+      "lang": "ja",
+      "title": "冬の観葉植物の手入れ：光、暖房、水やりの間隔",
+      "description": "少ない光、暖房による乾燥、ゆっくりした成長。北半球・南半球それぞれの冬に、観葉植物の光、水やり、肥料を調整する方法です。",
+      "image": "/assets/brand/share/ja-guides--winter-houseplant-care.png"
+    },
+    {
+      "path": "/ja/guides/yellow-houseplant-leaves/",
+      "lang": "ja",
+      "title": "観葉植物の葉が黄色い：対処する前に確認すること",
+      "description": "観葉植物の葉が黄色くなったら、管理を変える前に、変色のパターン、根の周りの水分、光、温度、害虫を確認しましょう。",
+      "image": "/assets/brand/share/ja-guides--yellow-houseplant-leaves.png"
+    },
+    {
+      "path": "/ja/legal/",
+      "lang": "ja",
+      "title": "運営者情報",
+      "description": "Liloraウェブサイトの提供者、連絡先、ホスティングについての情報です。運営責任者と、サイトを支えるサービスをご案内します。",
+      "image": "/assets/brand/share/ja-legal.png"
+    },
+    {
+      "path": "/ja/plants/",
+      "lang": "ja",
+      "title": "観葉植物図鑑",
+      "description": "観葉植物を種類別に紹介します。光、水やり、湿度、温度、ペットに関する情報、育てやすさを、参照した出典とともに確認できます。",
+      "image": "/assets/brand/share/ja-plants.png"
+    },
+    {
+      "path": "/ja/plants/aloe-vera/",
+      "lang": "ja",
+      "title": "アロエベラの育て方",
+      "description": "アロエベラの育て方。日当たりのよい窓、粒の粗い用土、水やりの間の完全な乾燥と、ASPCAがペットに有毒とする理由を紹介します。",
+      "image": "/assets/brand/share/ja-plants--aloe-vera.png"
+    },
+    {
+      "path": "/ja/plants/chlorophytum-comosum/",
+      "lang": "ja",
+      "title": "オリヅルランの育て方",
+      "description": "オリヅルランの育て方。適度な光、湿り気と排水を保つ用土、増やしやすい子株と、ASPCAによる猫・犬への無毒の掲載を紹介します。",
+      "image": "/assets/brand/share/ja-plants--chlorophytum-comosum.png"
+    },
+    {
+      "path": "/ja/plants/dracaena-trifasciata/",
+      "lang": "ja",
+      "title": "サンスベリアの育て方",
+      "description": "サンスベリアの育て方。弱い光への耐性、水やりの間に完全に乾かす管理、ASPCAによる猫・犬への有毒の掲載を説明します。",
+      "image": "/assets/brand/share/ja-plants--dracaena-trifasciata.png"
+    },
+    {
+      "path": "/ja/plants/epipremnum-aureum/",
+      "lang": "ja",
+      "title": "ポトスの育て方",
+      "description": "ポトスの育て方。明るい間接光、毎回の水やり前の確認、つるの挿し木と、ASPCAによる猫・犬への毒性情報を紹介します。",
+      "image": "/assets/brand/share/ja-plants--epipremnum-aureum.png"
+    },
+    {
+      "path": "/ja/plants/ficus-elastica/",
+      "lang": "ja",
+      "title": "インドゴムノキの育て方",
+      "description": "インドゴムノキの育て方。明るい間接光、水やり前の軽い乾燥、樹液への注意、取り木、ASPCAのペット情報を紹介します。",
+      "image": "/assets/brand/share/ja-plants--ficus-elastica.png"
+    },
+    {
+      "path": "/ja/plants/ficus-lyrata/",
+      "lang": "ja",
+      "title": "カシワバゴムノキの育て方",
+      "description": "カシワバゴムノキの育て方。明るい間接光、安定した環境、慎重な水やり、落葉への対応と、ペット情報の見解の違いを説明します。",
+      "image": "/assets/brand/share/ja-plants--ficus-lyrata.png"
+    },
+    {
+      "path": "/ja/plants/finder/",
+      "lang": "ja",
+      "title": "あなたに合う観葉植物は？",
+      "description": "光、経験、ペットについて三つの質問に答えると、Liloraの図鑑から2〜3種類の植物と、選んだ理由、育て方を紹介します。",
+      "image": "/assets/brand/share/ja-plants--finder.png"
+    },
+    {
+      "path": "/ja/plants/goeppertia/",
+      "lang": "ja",
+      "title": "カラテアの育て方",
+      "description": "カラテア（Goeppertia）の育て方。弱めから中程度の間接光、安定した水分、軟水、湿度と、ASPCAの無毒の掲載を紹介します。",
+      "image": "/assets/brand/share/ja-plants--goeppertia.png"
+    },
+    {
+      "path": "/ja/plants/monstera-deliciosa/",
+      "lang": "ja",
+      "title": "モンステラの育て方",
+      "description": "モンステラの育て方。強い日差しを避けた適度な光、用土上部3分の1の確認、つるの支柱と、ASPCAのペット情報を紹介します。",
+      "image": "/assets/brand/share/ja-plants--monstera-deliciosa.png"
+    },
+    {
+      "path": "/ja/plants/phalaenopsis/",
+      "lang": "ja",
+      "title": "コチョウランの育て方",
+      "description": "コチョウランの育て方。明るい間接光、樹皮の培地、吸水後の排水、再び咲かせる手がかりと、ASPCAの無毒の掲載を紹介します。",
+      "image": "/assets/brand/share/ja-plants--phalaenopsis.png"
+    },
+    {
+      "path": "/ja/plants/philodendron-hederaceum/",
+      "lang": "ja",
+      "title": "ヒメカズラの育て方",
+      "description": "ヒメカズラの育て方。適度な光、軽く湿った用土、簡単な挿し木、つるを垂らす・登らせる管理と、ASPCAのペット情報を紹介します。",
+      "image": "/assets/brand/share/ja-plants--philodendron-hederaceum.png"
+    },
+    {
+      "path": "/ja/plants/spathiphyllum/",
+      "lang": "ja",
+      "title": "スパティフィラムの育て方",
+      "description": "スパティフィラムの育て方。直射日光のない日陰、過湿にしない安定した水分、控えめな肥料、しおれの意味とペット情報を説明します。",
+      "image": "/assets/brand/share/ja-plants--spathiphyllum.png"
+    },
+    {
+      "path": "/ja/plants/zamioculcas-zamiifolia/",
+      "lang": "ja",
+      "title": "ザミオクルカスの育て方",
+      "description": "ザミオクルカスの育て方。明るい間接光、水やり前の完全な乾燥、少ない施肥と、ASPCAのリストにない場合の注意点を説明します。",
+      "image": "/assets/brand/share/ja-plants--zamioculcas-zamiifolia.png"
+    },
+    {
+      "path": "/ja/press/",
+      "lang": "ja",
+      "title": "Liloraの報道向け資料",
+      "description": "Liloraの紹介文、製品情報、実際のアプリ画像、印刷して共有できるカードを掲載しています。アプリは現在App Storeで審査中です。",
+      "image": "/assets/brand/share/ja-press.png"
+    },
+    {
+      "path": "/ja/privacy/",
+      "lang": "ja",
+      "title": "プライバシーポリシー",
+      "description": "Liloraのアカウント、世帯、写真識別、購入、ウェブフォーム、解析の情報の取り扱い、保存期間、利用者の権利を説明します。",
+      "image": "/assets/brand/share/ja-privacy.png"
+    },
+    {
+      "path": "/ja/support/",
+      "lang": "ja",
+      "title": "植物との暮らしをお手伝い。",
+      "description": "Liloraの言語、植物の保存場所、アカウントの削除、リマインダー、写真識別、購入について、よくある質問にお答えします。",
+      "image": "/assets/brand/share/ja-support.png"
+    },
+    {
+      "path": "/ko/",
+      "lang": "ko",
+      "title": "함께 쓰는 식물 노트.",
+      "description": "어느 방에 있는지, 누가 마지막으로 확인했는지, 언제 물을 줬는지. iPhone과 iPad의 Lilora에 식물 사진, 메모, 관리 이력을 모아 보세요.",
+      "image": "/assets/brand/share/ko-home.png"
+    },
+    {
+      "path": "/ko/about/",
+      "lang": "ko",
+      "title": "Lilora 소개",
+      "description": "iPhone과 iPad에서 식물 관찰과 공동 관리를 기록하는 Lilora를 소개합니다. 튀르키예의 Umut OREN이 독립적으로 운영합니다.",
+      "image": "/assets/brand/share/ko-about.png"
+    },
+    {
+      "path": "/ko/blog/",
+      "lang": "ko",
+      "title": "Lilora 블로그: 실내식물 관리 이야기",
+      "description": "잎끝 갈변, 흙의 곰팡이, 화분, 수돗물, 식물 조명, 건강한 식물 고르기, 계절별 점검과 공동 관리에 관한 출처 기반 글입니다.",
+      "image": "/assets/brand/share/ko-blog.png"
+    },
+    {
+      "path": "/ko/blog/autumn-plant-reset/",
+      "lang": "ko",
+      "title": "실내식물의 가을 준비: 짧은 점검표",
+      "description": "추운 밤이 오기 전에 식물을 들이고, 해충을 확인하고, 창가 자리를 조정하며 물주기를 줄여 보세요. 실내식물을 위한 짧은 가을 점검표입니다.",
+      "image": "/assets/brand/share/ko-blog--autumn-plant-reset.png"
+    },
+    {
+      "path": "/ko/blog/bottom-watering/",
+      "lang": "ko",
+      "title": "실내식물 저면관수: 도움이 되는 경우와 그렇지 않은 경우",
+      "description": "실내식물에 저면관수하는 방법, 적합한 식물, 화분을 물에 담가 두는 시간, 가끔은 위에서 물을 줘야 하는 이유를 알아보세요.",
+      "image": "/assets/brand/share/ko-blog--bottom-watering.png"
+    },
+    {
+      "path": "/ko/blog/brown-leaf-tips/",
+      "lang": "ko",
+      "title": "실내식물의 갈색 잎끝: 흔히 뜻하는 것",
+      "description": "갈색으로 바싹 마른 잎끝은 건조한 공기, 불규칙한 물주기, 염류 축적, 수돗물에 민감한 식물의 반응일 수 있습니다. 원인을 구분하고 대처하세요.",
+      "image": "/assets/brand/share/ko-blog--brown-leaf-tips.png"
+    },
+    {
+      "path": "/ko/blog/buying-a-healthy-houseplant/",
+      "lang": "ko",
+      "title": "건강한 실내식물을 고르고 집에 적응시키는 방법",
+      "description": "실내식물을 사기 전에 잎, 해충, 뿌리, 화분을 확인하세요. 새 식물을 2주간 따로 두고 집에 적응시키는 방법도 안내합니다.",
+      "image": "/assets/brand/share/ko-blog--buying-a-healthy-houseplant.png"
+    },
+    {
+      "path": "/ko/blog/check-before-you-water/",
+      "lang": "ko",
+      "title": "Lilora 알림이 물주기보다 확인을 말하는 이유",
+      "description": "달력은 식물을 볼 수 없습니다. Lilora가 확인을 알리고 물주기 기록과 물이 필요 없었던 확인 기록을 구분하는 이유를 설명합니다.",
+      "image": "/assets/brand/share/ko-blog--check-before-you-water.png"
+    },
+    {
+      "path": "/ko/blog/cleaning-houseplant-leaves/",
+      "lang": "ko",
+      "title": "실내식물 잎을 닦는 방법과 그 이유",
+      "description": "먼지는 실내식물에 필요한 빛을 막습니다. 큰 잎 닦기, 작은 식물 씻기, 털이 있는 잎 털기와 잎 광택제를 피해야 하는 이유를 알아보세요.",
+      "image": "/assets/brand/share/ko-blog--cleaning-houseplant-leaves.png"
+    },
+    {
+      "path": "/ko/blog/do-houseplants-purify-air/",
+      "lang": "ko",
+      "title": "실내식물이 정말 공기를 정화할까요?",
+      "description": "공기 정화 식물 목록의 근거가 된 NASA 연구는 밀폐 공간에서 진행됐습니다. 2019년 검토가 실제 주택에 대해 밝힌 점과 도움이 되는 방법입니다.",
+      "image": "/assets/brand/share/ko-blog--do-houseplants-purify-air.png"
+    },
+    {
+      "path": "/ko/blog/grow-lights-for-houseplants/",
+      "lang": "ko",
+      "title": "실내 식물용 식물등: 간단한 시작 방법",
+      "description": "실내식물용 조명의 간단한 설치법입니다. LED 선택, 잎과의 거리, 하루 사용 시간, 타이머와 밤의 어둠이 중요한 이유를 알아보세요.",
+      "image": "/assets/brand/share/ko-blog--grow-lights-for-houseplants.png"
+    },
+    {
+      "path": "/ko/blog/keeping-a-plant-care-journal/",
+      "lang": "ko",
+      "title": "식물 관리 일지 쓰기: 종이와 앱 모두 가능해요",
+      "description": "식물별로 기록할 내용, 간단한 기록 양식, 한 계절 뒤 메모를 읽는 법을 알아보세요. 종이와 앱 중 무엇이 맞는지도 살펴봅니다.",
+      "image": "/assets/brand/share/ko-blog--keeping-a-plant-care-journal.png"
+    },
+    {
+      "path": "/ko/blog/leggy-houseplants/",
+      "lang": "ko",
+      "title": "웃자란 실내 식물: 길게 늘어지는 이유와 관리 방법",
+      "description": "잎 사이가 벌어지고 줄기가 길고 가늘어지면 대개 빛이 부족합니다. 먼저 빛을 늘리고 마디 위를 잘라 삽수를 뿌리내려 화분을 풍성하게 해 보세요.",
+      "image": "/assets/brand/share/ko-blog--leggy-houseplants.png"
+    },
+    {
+      "path": "/ko/blog/mold-on-houseplant-soil/",
+      "lang": "ko",
+      "title": "실내 식물 흙의 흰 곰팡이: 해로울까요?",
+      "description": "흙 위의 흰 솜털은 대개 젖고 공기가 정체된 환경을 알리는 무해한 곰팡이입니다. 염류와 구별하고 제거·예방하는 방법을 알아보세요.",
+      "image": "/assets/brand/share/ko-blog--mold-on-houseplant-soil.png"
+    },
+    {
+      "path": "/ko/blog/moving-house-with-plants/",
+      "lang": "ko",
+      "title": "식물과 함께 이사하기",
+      "description": "이사 계획에 식물도 포함하세요. 해충 확인, 물주기, 포장, 운송, 국경 규정과 새집의 빛에 적응시키는 방법을 안내합니다.",
+      "image": "/assets/brand/share/ko-blog--moving-house-with-plants.png"
+    },
+    {
+      "path": "/ko/blog/tap-water-for-houseplants/",
+      "lang": "ko",
+      "title": "실내 식물에 수돗물을 줘도 될까요?",
+      "description": "수돗물은 대부분의 실내식물에 적합합니다. 연수, 염소, 불소, 경수의 염류, 찬물이 문제가 되는 경우와 대안을 알아보세요.",
+      "image": "/assets/brand/share/ko-blog--tap-water-for-houseplants.png"
+    },
+    {
+      "path": "/ko/blog/terracotta-vs-plastic-pots/",
+      "lang": "ko",
+      "title": "테라코타와 플라스틱 화분: 실내 식물에는 어느 쪽이 좋을까요?",
+      "description": "토분은 빨리 마르고 공기가 통하며 플라스틱과 유약 화분은 수분을 오래 유지합니다. 식물에 맞는 화분과 배수가 가장 중요한 이유입니다.",
+      "image": "/assets/brand/share/ko-blog--terracotta-vs-plastic-pots.png"
+    },
+    {
+      "path": "/ko/compare/",
+      "lang": "ko",
+      "title": "식물 앱 비교",
+      "description": "알림, 공동 기록, 식물 식별, 가격을 살펴보는 출처 기반 식물 관리 앱 비교입니다. 출시 현황도 있는 그대로 안내합니다.",
+      "image": "/assets/brand/share/ko-compare.png"
+    },
+    {
+      "path": "/ko/compare/lilora-vs-picturethis/",
+      "lang": "ko",
+      "title": "Lilora와 PictureThis 비교: 식물 식별과 일상 관리",
+      "description": "식물 식별, 알림, 식물 목록, 가정 내 공동 관리에서 Lilora와 PictureThis를 비교합니다. 공식 출처와 가격 확인 시 유의점도 안내합니다.",
+      "image": "/assets/brand/share/ko-compare--lilora-vs-picturethis.png"
+    },
+    {
+      "path": "/ko/compare/lilora-vs-planta/",
+      "lang": "ko",
+      "title": "Lilora와 Planta 비교: 나에게 맞는 식물 관리 방식",
+      "description": "알림, 공동 기록, 식별, 가격을 기준으로 Lilora와 Planta를 비교합니다. 공식 출처와 정확한 출시 현황을 바탕으로 살펴봅니다.",
+      "image": "/assets/brand/share/ko-compare--lilora-vs-planta.png"
+    },
+    {
+      "path": "/ko/contact/",
+      "lang": "ko",
+      "title": "Lilora에 문의",
+      "description": "앱 지원, 개인정보, 보도, 수정, 협업에 관해 양식이나 support@lilora.app으로 문의하세요. 영어 또는 터키어로 답변합니다.",
+      "image": "/assets/brand/share/ko-contact.png"
+    },
+    {
+      "path": "/ko/download/",
+      "lang": "ko",
+      "title": "함께 쓰는 식물 노트",
+      "description": "iPhone 및 iPad용 Lilora를 알아보세요. 직접 기록하는 식물 관리와 공동 관리는 무료이며 사진 식별은 선택 사항입니다. App Store 심사 중입니다.",
+      "image": "/assets/brand/share/ko-download.png"
+    },
+    {
+      "path": "/ko/editorial/",
+      "lang": "ko",
+      "title": "콘텐츠 작성 원칙",
+      "description": "Lilora의 식물 안내와 앱 비교를 위한 조사, AI 초안, 사실 확인, 날짜와 업데이트, 이미지 표시 원칙을 설명합니다.",
+      "image": "/assets/brand/share/ko-editorial.png"
+    },
+    {
+      "path": "/ko/guides/",
+      "lang": "ko",
+      "title": "실내식물 관리 안내",
+      "description": "물주기, 빛, 화분, 해충, 계절별 관리에 관한 출처 기반 안내입니다. 관리 방법을 바꾸기 전에 식물을 관찰하도록 도와드립니다.",
+      "image": "/assets/brand/share/ko-guides.png"
+    },
+    {
+      "path": "/ko/guides/fertilizing-houseplants/",
+      "lang": "ko",
+      "title": "실내 식물에 비료 주기: 시기, 양, 멈춰야 할 때",
+      "description": "활발하게 자라는 실내식물에는 표시량 이하로 비료를 주고, 겨울철 빛이 부족하면 쉬어 주세요. 과잉 비료의 염류를 씻어 내는 방법도 안내합니다.",
+      "image": "/assets/brand/share/ko-guides--fertilizing-houseplants.png"
+    },
+    {
+      "path": "/ko/guides/houseplant-humidity/",
+      "lang": "ko",
+      "title": "실내 식물과 습도: 도움이 되는 방법과 효과가 작은 방법",
+      "description": "분무는 습도를 거의 바꾸지 못합니다. 자갈 받침, 식물 모아 두기, 가습기, 자리 변경이 할 수 있는 일과 한계를 알아보세요.",
+      "image": "/assets/brand/share/ko-guides--houseplant-humidity.png"
+    },
+    {
+      "path": "/ko/guides/houseplant-pests/",
+      "lang": "ko",
+      "title": "흔한 실내 식물 해충: 뿌리파리, 응애, 가루깍지벌레, 깍지벌레, 총채벌레",
+      "description": "처리 전에 뿌리파리, 응애, 깍지벌레류, 총채벌레를 구분하세요. 피해가 가장 적은 방법부터 시작하는 실내식물 해충 안내입니다.",
+      "image": "/assets/brand/share/ko-guides--houseplant-pests.png"
+    },
+    {
+      "path": "/ko/guides/indoor-plant-light-guide/",
+      "lang": "ko",
+      "title": "실내 식물과 빛: 초보자를 위한 자리 고르기",
+      "description": "직사광, 밝은 간접광, 약한 빛을 이해해 보세요. 창가의 빛을 관찰하고 식물의 필요에 맞춰 자리를 고르는 방법을 안내합니다.",
+      "image": "/assets/brand/share/ko-guides--indoor-plant-light-guide.png"
+    },
+    {
+      "path": "/ko/guides/overwatering-vs-underwatering/",
+      "lang": "ko",
+      "title": "과습일까요, 물 부족일까요? 행동하기 전에 구별하기",
+      "description": "시듦과 노란 잎은 물이 너무 많거나 부족할 때 모두 나타납니다. 관리 방법을 바꾸기 전에 흙, 화분 무게, 뿌리를 확인하세요.",
+      "image": "/assets/brand/share/ko-guides--overwatering-vs-underwatering.png"
+    },
+    {
+      "path": "/ko/guides/pet-safe-houseplants/",
+      "lang": "ko",
+      "title": "실내 식물과 반려동물: 새 식물을 들이기 전 확인할 것",
+      "description": "식물을 들이기 전에 학명을 확인하고 ASPCA 목록을 살펴본 뒤 반려동물이 닿지 못할 자리를 정하세요. 무독성의 의미도 설명합니다.",
+      "image": "/assets/brand/share/ko-guides--pet-safe-houseplants.png"
+    },
+    {
+      "path": "/ko/guides/potting-mix-and-drainage/",
+      "lang": "ko",
+      "title": "분갈이 흙과 배수: 화분에 필요한 것",
+      "description": "배수구, 알맞은 화분용 배양토, 자갈층 없는 화분. 실내식물 화분에 필요한 조건과 단계별 심기 방법을 안내합니다.",
+      "image": "/assets/brand/share/ko-guides--potting-mix-and-drainage.png"
+    },
+    {
+      "path": "/ko/guides/propagating-cuttings/",
+      "lang": "ko",
+      "title": "삽목으로 실내 식물 번식하기: 물과 흙",
+      "description": "건강한 마디가 있는 줄기 삽수를 물이나 삽목용 배양토에서 뿌리내려 보세요. 각 방법의 장단점과 이후 화분에 심는 방법을 설명합니다.",
+      "image": "/assets/brand/share/ko-guides--propagating-cuttings.png"
+    },
+    {
+      "path": "/ko/guides/root-rot/",
+      "lang": "ko",
+      "title": "실내 식물 뿌리썩음: 신호, 원인, 대응 방법",
+      "description": "실내식물의 뿌리 썩음을 알아보고, 뿌리를 확인하고, 손상된 부분을 자른 뒤 새 흙에 옮겨 심는 방법과 재발 방지법을 알아보세요.",
+      "image": "/assets/brand/share/ko-guides--root-rot.png"
+    },
+    {
+      "path": "/ko/guides/shared-plant-care/",
+      "lang": "ko",
+      "title": "두 번 물 주지 않고 식물 함께 돌보기",
+      "description": "확인과 물주기 기록, 간단한 역할 분담, 여행 전 인계 방법으로 배우자나 동거인과 식물 관리를 나누는 실용적인 안내입니다.",
+      "image": "/assets/brand/share/ko-guides--shared-plant-care.png"
+    },
+    {
+      "path": "/ko/guides/watering-houseplants/",
+      "lang": "ko",
+      "title": "정해진 일정에 얽매이지 않고 실내 식물에 물 주는 방법",
+      "description": "흙, 화분 무게, 배수를 확인해 물을 줄 시점을 판단하세요. 고정된 달력이 아니라 식물의 상태를 따르는 실용적인 방법입니다.",
+      "image": "/assets/brand/share/ko-guides--watering-houseplants.png"
+    },
+    {
+      "path": "/ko/guides/when-to-repot-houseplants/",
+      "lang": "ko",
+      "title": "실내 식물 분갈이가 필요한 때와 조심스럽게 하는 방법",
+      "description": "뿌리를 살피고 적절한 화분 크기를 고른 뒤 원래 심긴 깊이를 유지하세요. 일반적인 실내 관엽식물을 위한 신중한 분갈이 안내입니다.",
+      "image": "/assets/brand/share/ko-guides--when-to-repot-houseplants.png"
+    },
+    {
+      "path": "/ko/guides/winter-houseplant-care/",
+      "lang": "ko",
+      "title": "겨울철 실내 식물 관리: 빛, 난방, 달라지는 물주기",
+      "description": "줄어든 빛, 난방으로 건조한 공기, 느린 생장에 맞춰 겨울철 실내식물의 빛과 물주기, 비료를 조정하는 방법입니다. 남반구에도 적용됩니다.",
+      "image": "/assets/brand/share/ko-guides--winter-houseplant-care.png"
+    },
+    {
+      "path": "/ko/guides/yellow-houseplant-leaves/",
+      "lang": "ko",
+      "title": "실내 식물의 잎이 노랗게 변할 때: 행동하기 전 확인할 것",
+      "description": "잎이 노래지는 실내식물의 관리 방법을 바꾸기 전에 변색 패턴, 뿌리 주변 수분, 빛, 온도, 해충을 차례로 확인하세요.",
+      "image": "/assets/brand/share/ko-guides--yellow-houseplant-leaves.png"
+    },
+    {
+      "path": "/ko/legal/",
+      "lang": "ko",
+      "title": "법적 고지",
+      "description": "Lilora 웹사이트의 운영자, 연락처, 호스팅 정보를 확인하세요. 책임 주체와 사이트 운영에 사용되는 서비스를 안내합니다.",
+      "image": "/assets/brand/share/ko-legal.png"
+    },
+    {
+      "path": "/ko/plants/",
+      "lang": "ko",
+      "title": "실내식물 도감",
+      "description": "종별 실내식물 정보입니다. 빛, 물주기, 습도, 온도, 반려동물 관련 정보, 관리 난이도를 각각 출처와 함께 정리했습니다.",
+      "image": "/assets/brand/share/ko-plants.png"
+    },
+    {
+      "path": "/ko/plants/aloe-vera/",
+      "lang": "ko",
+      "title": "알로에 베라 관리",
+      "description": "알로에 베라 관리: 햇볕 드는 창가, 입자가 굵은 흙, 완전히 마른 뒤 물주기와 ASPCA가 반려동물에게 유독한 식물로 분류한 이유입니다.",
+      "image": "/assets/brand/share/ko-plants--aloe-vera.png"
+    },
+    {
+      "path": "/ko/plants/chlorophytum-comosum/",
+      "lang": "ko",
+      "title": "접란 관리",
+      "description": "접란 관리: 중간 정도의 빛, 촉촉하되 배수되는 흙, 쉬운 새끼 포기 번식과 ASPCA의 고양이·개 무독성 분류를 알아보세요.",
+      "image": "/assets/brand/share/ko-plants--chlorophytum-comosum.png"
+    },
+    {
+      "path": "/ko/plants/dracaena-trifasciata/",
+      "lang": "ko",
+      "title": "산세베리아 관리",
+      "description": "산세베리아 관리: 약한 빛을 견디며 물주기 사이 흙을 말려야 합니다. ASPCA의 고양이와 개에 대한 독성 분류도 확인하세요.",
+      "image": "/assets/brand/share/ko-plants--dracaena-trifasciata.png"
+    },
+    {
+      "path": "/ko/plants/epipremnum-aureum/",
+      "lang": "ko",
+      "title": "스킨답서스 관리",
+      "description": "스킨답서스 관리: 밝은 간접광, 매번 물주기 전 확인, 늘어진 줄기의 삽목과 고양이·개에 관한 ASPCA 분류를 알아보세요.",
+      "image": "/assets/brand/share/ko-plants--epipremnum-aureum.png"
+    },
+    {
+      "path": "/ko/plants/ficus-elastica/",
+      "lang": "ko",
+      "title": "인도고무나무 관리",
+      "description": "인도고무나무 관리: 밝은 간접광, 살짝 마른 뒤 물주기, 수액 주의, 취목과 ASPCA의 반려동물 관련 분류를 알아보세요.",
+      "image": "/assets/brand/share/ko-plants--ficus-elastica.png"
+    },
+    {
+      "path": "/ko/plants/ficus-lyrata/",
+      "lang": "ko",
+      "title": "떡갈고무나무 관리",
+      "description": "떡갈고무나무 관리: 밝은 간접광, 일정한 환경, 신중한 물주기, 낙엽 대처와 반려동물 독성 자료가 서로 다른 이유를 알아보세요.",
+      "image": "/assets/brand/share/ko-plants--ficus-lyrata.png"
+    },
+    {
+      "path": "/ko/plants/finder/",
+      "lang": "ko",
+      "title": "나에게 맞는 실내식물은 무엇일까요?",
+      "description": "빛, 경험, 반려동물에 관한 세 질문에 답하면 Lilora 도감에서 어울리는 식물 두세 가지와 이유, 관리 안내를 볼 수 있습니다.",
+      "image": "/assets/brand/share/ko-plants--finder.png"
+    },
+    {
+      "path": "/ko/plants/goeppertia/",
+      "lang": "ko",
+      "title": "칼라테아 관리",
+      "description": "칼라테아(Goeppertia) 관리: 약하거나 중간 정도의 간접광, 일정한 수분, 부드러운 물, 습도와 ASPCA의 무독성 분류를 알아보세요.",
+      "image": "/assets/brand/share/ko-plants--goeppertia.png"
+    },
+    {
+      "path": "/ko/plants/monstera-deliciosa/",
+      "lang": "ko",
+      "title": "몬스테라 관리",
+      "description": "몬스테라 관리: 뜨거운 햇빛을 피한 적당한 빛, 흙 윗부분의 수분 확인, 타고 오르는 줄기 지지와 ASPCA 독성 분류를 알아보세요.",
+      "image": "/assets/brand/share/ko-plants--monstera-deliciosa.png"
+    },
+    {
+      "path": "/ko/plants/phalaenopsis/",
+      "lang": "ko",
+      "title": "호접란 관리",
+      "description": "호접란 관리: 밝은 간접광, 수피 배양토, 담갔다 물 빼기, 재개화 조건과 ASPCA의 무독성 분류를 알아보세요.",
+      "image": "/assets/brand/share/ko-plants--phalaenopsis.png"
+    },
+    {
+      "path": "/ko/plants/philodendron-hederaceum/",
+      "lang": "ko",
+      "title": "하트잎 필로덴드론 관리",
+      "description": "하트잎 필로덴드론 관리: 중간 정도의 빛, 약간 촉촉한 흙, 쉬운 줄기 삽목, 늘어지거나 오르는 생장과 ASPCA 독성 분류입니다.",
+      "image": "/assets/brand/share/ko-plants--philodendron-hederaceum.png"
+    },
+    {
+      "path": "/ko/plants/spathiphyllum/",
+      "lang": "ko",
+      "title": "스파티필룸 관리",
+      "description": "스파티필룸 관리: 직사광 없는 그늘, 질척이지 않게 일정한 수분, 소량의 비료, 처진 잎의 의미와 ASPCA 독성 분류입니다.",
+      "image": "/assets/brand/share/ko-plants--spathiphyllum.png"
+    },
+    {
+      "path": "/ko/plants/zamioculcas-zamiifolia/",
+      "lang": "ko",
+      "title": "금전수 관리",
+      "description": "금전수 관리: 밝은 간접광, 흙이 완전히 마른 뒤 물주기, 드문 비료 사용과 ASPCA 식물 목록에 없는 이유를 알아보세요.",
+      "image": "/assets/brand/share/ko-plants--zamioculcas-zamiifolia.png"
+    },
+    {
+      "path": "/ko/press/",
+      "lang": "ko",
+      "title": "Lilora 보도 자료",
+      "description": "보도와 공유에 사용할 소개 문구, 제품 정보, 실제 앱 이미지, 인쇄용 Lilora 카드를 제공합니다. Lilora는 App Store 심사 중입니다.",
+      "image": "/assets/brand/share/ko-press.png"
+    },
+    {
+      "path": "/ko/privacy/",
+      "lang": "ko",
+      "title": "개인정보 처리방침",
+      "description": "계정, 가정 그룹, 사진 식별, 구매, 웹사이트 양식과 분석, 보관 기간, 권리 등 Lilora의 개인정보 처리 방식을 안내합니다.",
+      "image": "/assets/brand/share/ko-privacy.png"
+    },
+    {
+      "path": "/ko/support/",
+      "lang": "ko",
+      "title": "식물을 돌보는 데 필요한 작은 도움.",
+      "description": "언어, 식물 기록 저장 위치, 계정 삭제, 알림, 사진 식별과 구매 등 Lilora에 관한 자주 묻는 질문에 답합니다.",
+      "image": "/assets/brand/share/ko-support.png"
     },
     {
       "path": "/legal/",
-      "lang": "tr",
-      "title": "Yasal bilgiler",
-      "description": "Lilora web sitesinin yayıncısı, iletişim adresi ve barındırma bilgileri: yasal bildirim, sorumlu kişi ve sitenin hangi hizmetlerde çalıştığı.",
-      "image": "/assets/brand/share/tr-legal.png"
+      "lang": "en",
+      "title": "Legal notice",
+      "description": "Publisher, contact and hosting information for the Lilora website: the legal notice, who is responsible for it and which services run the site.",
+      "image": "/assets/brand/share/en-legal.png"
     },
     {
       "path": "/plants/",
-      "lang": "tr",
-      "title": "Bitki kütüphanesi",
-      "description": "Türlerine göre ev bitkisi profilleri: ışık, sulama, nem, sıcaklık, evcil hayvan bilgisi ve bakım zorluğu, kaynaklarıyla birlikte.",
-      "image": "/assets/brand/share/tr-plants.png"
+      "lang": "en",
+      "title": "Houseplant library",
+      "description": "Houseplant profiles organised by species: light, watering, humidity, temperature, pet information and care level, each with its sources.",
+      "image": "/assets/brand/share/en-plants.png"
     },
     {
       "path": "/plants/aloe-vera/",
-      "lang": "tr",
-      "title": "Aloe vera (sarısabır) bakımı",
-      "description": "Aloe vera (sarısabır) bakımı: güneşli pencere, süzek harç, sulamalar arasında tam kuruma ve ASPCA'nın evcil hayvanlar için toksik kaydı.",
-      "image": "/assets/brand/share/tr-plants--aloe-vera.png"
+      "lang": "en",
+      "title": "Aloe vera care",
+      "description": "Aloe vera care: a sunny window, gritty mix, a full dry-down between waterings and why the ASPCA lists it as toxic to pets.",
+      "image": "/assets/brand/share/en-plants--aloe-vera.png"
     },
     {
       "path": "/plants/chlorophytum-comosum/",
-      "lang": "tr",
-      "title": "Kurdele çiçeği bakımı",
-      "description": "Kurdele çiçeği bakımı: orta ışık, nemli ama süzülen harç, kolay yavrular ve ASPCA'nın kedi-köpek için toksik değil kaydı.",
-      "image": "/assets/brand/share/tr-plants--chlorophytum-comosum.png"
+      "lang": "en",
+      "title": "Spider plant care",
+      "description": "Spider plant care: medium light, moist but drained mix, easy plantlets, and its listing as non-toxic to cats and dogs by the ASPCA.",
+      "image": "/assets/brand/share/en-plants--chlorophytum-comosum.png"
     },
     {
       "path": "/plants/dracaena-trifasciata/",
-      "lang": "tr",
-      "title": "Paşa kılıcı bakımı",
-      "description": "Paşa kılıcı bakımı: az ışığa dayanır, sulamalar arasında harcın tamamen kuruması gerekir; ASPCA kedi ve köpekler için toksik listeler.",
-      "image": "/assets/brand/share/tr-plants--dracaena-trifasciata.png"
+      "lang": "en",
+      "title": "Snake plant care",
+      "description": "Snake plant care: tolerates low light, needs a full dry-down between waterings, and is listed as toxic to cats and dogs by the ASPCA.",
+      "image": "/assets/brand/share/en-plants--dracaena-trifasciata.png"
     },
     {
       "path": "/plants/epipremnum-aureum/",
-      "lang": "tr",
-      "title": "Salon sarmaşığı (potos) bakımı",
-      "description": "Salon sarmaşığı (potos) bakımı: parlak dolaylı ışık, her sulamadan önce kontrol, çelikle çoğaltma ve ASPCA'nın kedi-köpek kaydı.",
-      "image": "/assets/brand/share/tr-plants--epipremnum-aureum.png"
+      "lang": "en",
+      "title": "Pothos care",
+      "description": "Pothos care: bright indirect light, a check before every watering, trailing-stem cuttings and what the ASPCA lists for cats and dogs.",
+      "image": "/assets/brand/share/en-plants--epipremnum-aureum.png"
     },
     {
       "path": "/plants/ficus-elastica/",
-      "lang": "tr",
-      "title": "Kauçuk bitkisi bakımı",
-      "description": "Kauçuk bitkisi bakımı: parlak dolaylı ışık, sulamadan önce hafif kuruma, süt özsuyuna dikkat, hava daldırması ve ASPCA kaydı.",
-      "image": "/assets/brand/share/tr-plants--ficus-elastica.png"
+      "lang": "en",
+      "title": "Rubber plant care",
+      "description": "Rubber plant care: bright indirect light, a slight dry-down before watering, sap safety, air layering and ASPCA pet status.",
+      "image": "/assets/brand/share/en-plants--ficus-elastica.png"
     },
     {
       "path": "/plants/ficus-lyrata/",
-      "lang": "tr",
-      "title": "Keman yapraklı kauçuk (Ficus lyrata) bakımı",
-      "description": "Keman yapraklı kauçuk (Ficus lyrata) bakımı: parlak dolaylı ışık, sabit koşullar, dikkatli sulama ve evcil hayvan kaynaklarının neden ayrıştığı.",
-      "image": "/assets/brand/share/tr-plants--ficus-lyrata.png"
+      "lang": "en",
+      "title": "Fiddle-leaf fig care",
+      "description": "Fiddle-leaf fig care: bright indirect light, steady conditions, careful watering, how to handle leaf drop and why pet-safety sources disagree.",
+      "image": "/assets/brand/share/en-plants--ficus-lyrata.png"
     },
     {
       "path": "/plants/finder/",
-      "lang": "tr",
-      "title": "Sana uygun bitki hangisi?",
-      "description": "Işık, deneyim ve evcil hayvanlarla ilgili üç soruyu cevapla; Lilora kütüphanesinden iki üç bitkiyi, neden önerildiğini ve bakım rehberlerini gör.",
-      "image": "/assets/brand/share/tr-plants--finder.png"
+      "lang": "en",
+      "title": "Which houseplant suits you?",
+      "description": "Answer three questions about light, experience and pets to see two or three plants from the Lilora library, why they fit and their care guides.",
+      "image": "/assets/brand/share/en-plants--finder.png"
     },
     {
       "path": "/plants/goeppertia/",
-      "lang": "tr",
-      "title": "Kalatya (Calathea) bakımı",
-      "description": "Kalatya (Calathea, Goeppertia) bakımı: az–orta dolaylı ışık, düzenli nem, yumuşak su, yüksek nem ve ASPCA'nın toksik değil kaydı.",
-      "image": "/assets/brand/share/tr-plants--goeppertia.png"
+      "lang": "en",
+      "title": "Calathea (prayer plant) care",
+      "description": "Calathea (Goeppertia) care: low to medium indirect light, steady moisture, soft water, humidity and the ASPCA non-toxic listing.",
+      "image": "/assets/brand/share/en-plants--goeppertia.png"
     },
     {
       "path": "/plants/monstera-deliciosa/",
-      "lang": "tr",
-      "title": "Deve tabanı (Monstera) bakımı",
-      "description": "Deve tabanı (Monstera) bakımı: sert güneş olmadan aydınlık yer, harcın üçte birini kontrol etme, destek ve ASPCA'nın evcil hayvan kaydı.",
-      "image": "/assets/brand/share/tr-plants--monstera-deliciosa.png"
+      "lang": "en",
+      "title": "Monstera care",
+      "description": "Monstera care: moderate light without hot sun, checking the top third of the mix, support for climbing stems and ASPCA pet status.",
+      "image": "/assets/brand/share/en-plants--monstera-deliciosa.png"
     },
     {
       "path": "/plants/phalaenopsis/",
-      "lang": "tr",
-      "title": "Orkide (Phalaenopsis) bakımı",
-      "description": "Orkide (Phalaenopsis) bakımı: parlak dolaylı ışık, kabuk harcı, ıslat-süzdür sulama, yeniden çiçek için ipuçları ve ASPCA kaydı.",
-      "image": "/assets/brand/share/tr-plants--phalaenopsis.png"
+      "lang": "en",
+      "title": "Moth orchid care",
+      "description": "Moth orchid care: bright indirect light, bark mix, soak-and-drain watering, rebloom cues and its ASPCA non-toxic listing.",
+      "image": "/assets/brand/share/en-plants--phalaenopsis.png"
     },
     {
       "path": "/plants/philodendron-hederaceum/",
-      "lang": "tr",
-      "title": "Kalp yapraklı filodendron bakımı",
-      "description": "Kalp yapraklı filodendron bakımı: orta ışık, hafif nemli harç, kolay gövde çeliği, sarkan ya da tırmanan büyüme ve ASPCA’daki evcil hayvan kaydı.",
-      "image": "/assets/brand/share/tr-plants--philodendron-hederaceum.png"
+      "lang": "en",
+      "title": "Heartleaf philodendron care",
+      "description": "Heartleaf philodendron care: medium light, a slightly moist mix, easy stem cuttings, trailing or climbing growth and its ASPCA pet status.",
+      "image": "/assets/brand/share/en-plants--philodendron-hederaceum.png"
     },
     {
       "path": "/plants/spathiphyllum/",
-      "lang": "tr",
-      "title": "Barış çiçeği (Spatifilum) bakımı",
-      "description": "Barış çiçeği (Spatifilum) bakımı: doğrudan güneş görmeyen gölge, eşit nemli ama asla çamurlaşmayan harç, hafif besleme ve ASPCA kaydı.",
-      "image": "/assets/brand/share/tr-plants--spathiphyllum.png"
+      "lang": "en",
+      "title": "Peace lily care",
+      "description": "Peace lily care: shade without direct sun, an evenly moist but never soggy mix, gentle feeding, what drooping means and its ASPCA pet status.",
+      "image": "/assets/brand/share/en-plants--spathiphyllum.png"
     },
     {
       "path": "/plants/zamioculcas-zamiifolia/",
-      "lang": "tr",
-      "title": "ZZ bitkisi (Zamia) bakımı",
-      "description": "ZZ bitkisi (Zamia) bakımı: parlak dolaylı ışık, sulamadan önce tamamen kuruyan harç, seyrek besleme ve ASPCA listesinde neden yer almadığı.",
-      "image": "/assets/brand/share/tr-plants--zamioculcas-zamiifolia.png"
+      "lang": "en",
+      "title": "ZZ plant care",
+      "description": "ZZ plant care: bright indirect light, letting the mix dry out fully before watering, rare feeding and why it is not on the ASPCA plant list.",
+      "image": "/assets/brand/share/en-plants--zamioculcas-zamiifolia.png"
     },
     {
       "path": "/press/",
-      "lang": "tr",
-      "title": "Lilora basın kaynakları",
-      "description": "Basın ve paylaşım için Lilora açıklamaları, ürün bilgileri, gerçek uygulama görselleri ve yazdırılabilir kartlar. Lilora, App Store incelemesinde.",
-      "image": "/assets/brand/share/tr-press.png"
+      "lang": "en",
+      "title": "Lilora press resources",
+      "description": "Descriptions, product facts, real app artwork and printable Lilora cards for press and sharing. Lilora is in App Store review.",
+      "image": "/assets/brand/share/en-press.png"
     },
     {
       "path": "/privacy/",
-      "lang": "tr",
-      "title": "Gizlilik politikası",
-      "description": "Lilora bilgilerini nasıl işler: hesap, ev, fotoğraf tanıma, satın almalar, web sitesi formu ve analizleri, saklama süreleri ve KVKK ile GDPR hakların.",
-      "image": "/assets/brand/share/tr-privacy.png"
+      "lang": "en",
+      "title": "Privacy policy",
+      "description": "How Lilora handles your information: account, household, photo identification, purchases, website form and analytics, retention and your rights.",
+      "image": "/assets/brand/share/en-privacy.png"
     },
     {
       "path": "/pt/",
@@ -2388,10 +3192,794 @@
     },
     {
       "path": "/support/",
+      "lang": "en",
+      "title": "A little help for your garden.",
+      "description": "Answers to common Lilora questions about language, where plants are stored, deleting an account, reminders, identification and purchases.",
+      "image": "/assets/brand/share/en-support.png"
+    },
+    {
+      "path": "/tr/",
+      "lang": "tr",
+      "title": "Birlikte yaşadığın bitkiler, ortak bir defter.",
+      "description": "Hangi bitki nerede, en son kim kontrol etti, ne zaman sulandı? Fotoğrafları, notları ve bakım geçmişini Lilora’da bir arada tut.",
+      "image": "/assets/brand/share/tr-home.png"
+    },
+    {
+      "path": "/tr/about/",
+      "lang": "tr",
+      "title": "Lilora hakkında",
+      "description": "Lilora, bilinçli bakım ve ortak evler için bir bitki günlüğüdür. Türkiye’de Umut OREN tarafından bağımsız olarak yayımlanır.",
+      "image": "/assets/brand/share/tr-about.png"
+    },
+    {
+      "path": "/tr/blog/",
+      "lang": "tr",
+      "title": "Lilora Blog: bitki bakımı yazıları",
+      "description": "Bitki bakımı üzerine kaynaklı yazılar: kahverengi uçlar, toprakta küf, saksı seçimi, musluk suyu, bitki lambaları, bitki seçimi ve mevsim listeleri.",
+      "image": "/assets/brand/share/tr-blog.png"
+    },
+    {
+      "path": "/tr/blog/autumn-plant-reset/",
+      "lang": "tr",
+      "title": "Ev bitkileri için sonbahar düzeni: kısa bir kontrol listesi",
+      "description": "Soğuk gecelerden önce bitkileri içeri al, zararlılara bak, pencereleri yeniden düzenle ve sulamayı yavaşlat: ev bitkileri için kısa bir sonbahar listesi.",
+      "image": "/assets/brand/share/tr-blog--autumn-plant-reset.png"
+    },
+    {
+      "path": "/tr/blog/bottom-watering/",
+      "lang": "tr",
+      "title": "Ev bitkilerini alttan sulamak: ne zaman işe yarar, ne zaman yaramaz",
+      "description": "Ev bitkisi alttan nasıl sulanır, hangi bitkiler bundan yararlanır, saksı suda ne kadar kalmalı ve neden ara sıra yine de üstten sulamak gerekir.",
+      "image": "/assets/brand/share/tr-blog--bottom-watering.png"
+    },
+    {
+      "path": "/tr/blog/brown-leaf-tips/",
+      "lang": "tr",
+      "title": "Ev bitkilerinde kahverengi yaprak uçları: genellikle ne anlama gelir",
+      "description": "Kuru, kahverengi yaprak uçları genellikle kuru havaya, düzensiz sulamaya, tuz birikimine ya da musluk suyuna hassasiyete işaret eder. Nedeni bul ve düzelt.",
+      "image": "/assets/brand/share/tr-blog--brown-leaf-tips.png"
+    },
+    {
+      "path": "/tr/blog/buying-a-healthy-houseplant/",
+      "lang": "tr",
+      "title": "Sağlıklı bir ev bitkisi nasıl seçilir ve evde nasıl alıştırılır",
+      "description": "Ev bitkisi almadan önce yapraklarda, zararlılarda, köklerde ve saksıda neye bakılır; ardından yeni bitkiyi iki hafta ayrı tutup eve nasıl alıştırırsın.",
+      "image": "/assets/brand/share/tr-blog--buying-a-healthy-houseplant.png"
+    },
+    {
+      "path": "/tr/blog/check-before-you-water/",
+      "lang": "tr",
+      "title": "Lilora’nın hatırlatmaları neden “sula” değil “kontrol et” diyor",
+      "description": "Takvim bitkini göremez. Lilora’nın hatırlatmaları neden kontrol istiyor ve “Suladım” ile “Kontrol ettim, suya ihtiyacı yok” kayıtlarını neden ayırıyor.",
+      "image": "/assets/brand/share/tr-blog--check-before-you-water.png"
+    },
+    {
+      "path": "/tr/blog/cleaning-houseplant-leaves/",
+      "lang": "tr",
+      "title": "Ev bitkilerinin yaprakları nasıl temizlenir (ve neden önemlidir)",
+      "description": "Toz, bitkinin ihtiyaç duyduğu ışığı keser. Büyük yaprakları silmek, küçük bitkileri durulamak, tüylü yaprakları fırçalamak ve parlatıcılardan kaçınmak.",
+      "image": "/assets/brand/share/tr-blog--cleaning-houseplant-leaves.png"
+    },
+    {
+      "path": "/tr/blog/do-houseplants-purify-air/",
+      "lang": "tr",
+      "title": "Ev bitkileri gerçekten iç mekân havasını temizler mi?",
+      "description": "Havayı temizleyen bitki listeleri, kapalı odacıklarda yapılan bir NASA deneyine dayanıyor. 2019 incelemesi gerçek evler için ne buldu, havaya ne iyi gelir?",
+      "image": "/assets/brand/share/tr-blog--do-houseplants-purify-air.png"
+    },
+    {
+      "path": "/tr/blog/grow-lights-for-houseplants/",
+      "lang": "tr",
+      "title": "Ev bitkileri için bitki lambaları: basit bir başlangıç düzeni",
+      "description": "Ev bitkileri için basit bir lamba düzeni: hangi LED seçilmeli, yaprakların ne kadar üstüne asılmalı, günde kaç saat yanmalı ve zamanlayıcı neden önemli.",
+      "image": "/assets/brand/share/tr-blog--grow-lights-for-houseplants.png"
+    },
+    {
+      "path": "/tr/blog/keeping-a-plant-care-journal/",
+      "lang": "tr",
+      "title": "Bitki bakım günlüğü nasıl tutulur (kâğıtta veya uygulamada)",
+      "description": "Her bitki için neleri kaydetmeli, basit bir sayfa düzeni, bir mevsim sonra notları nasıl okumalı ve kâğıt mı uygulama mı sana daha uygun.",
+      "image": "/assets/brand/share/tr-blog--keeping-a-plant-care-journal.png"
+    },
+    {
+      "path": "/tr/blog/leggy-houseplants/",
+      "lang": "tr",
+      "title": "Boy atıp seyrelen ev bitkileri: neden uzarlar, nasıl toparlanır",
+      "description": "Yaprak araları açılmış uzun, ince gövdeler çoğunlukla az ışık demektir. Önce ışığı artır, sonra boğum üstünden buda, çelikleri köklendirip saksıyı doldur.",
+      "image": "/assets/brand/share/tr-blog--leggy-houseplants.png"
+    },
+    {
+      "path": "/tr/blog/mold-on-houseplant-soil/",
+      "lang": "tr",
+      "title": "Saksı toprağında beyaz küf: zararlı mı?",
+      "description": "Saksı toprağındaki beyaz pamuksu tabaka genellikle ıslak ve havasız koşulları gösteren zararsız bir mantardır. Tuz kabuğundan ayırt et, temizle, önle.",
+      "image": "/assets/brand/share/tr-blog--mold-on-houseplant-soil.png"
+    },
+    {
+      "path": "/tr/blog/moving-house-with-plants/",
+      "lang": "tr",
+      "title": "Bitkilerle ev taşımak",
+      "description": "Bitkilerini taşınma planına dahil et: zararlı kontrolü, sulama, paketleme, taşıma, sınır kuralları ve yeni ışığa alışma.",
+      "image": "/assets/brand/share/tr-blog--moving-house-with-plants.png"
+    },
+    {
+      "path": "/tr/blog/tap-water-for-houseplants/",
+      "lang": "tr",
+      "title": "Ev bitkileri için musluk suyu uygun mu?",
+      "description": "Normal musluk suyu çoğu ev bitkisi için uygundur. Yumuşatılmış su, klor, florür, kireç tuzları ya da soğuk su ne zaman sorun olur, onun yerine ne yapılır.",
+      "image": "/assets/brand/share/tr-blog--tap-water-for-houseplants.png"
+    },
+    {
+      "path": "/tr/blog/terracotta-vs-plastic-pots/",
+      "lang": "tr",
+      "title": "Toprak (terakota) mı plastik saksı mı: ev bitkileri için hangisi daha iyi?",
+      "description": "Toprak saksı daha hızlı kurur ve nefes alır; plastik ve sırlı seramik nemi uzun tutar. Hangi bitkiye hangi saksı uyar ve drenaj neden malzemeden önemli.",
+      "image": "/assets/brand/share/tr-blog--terracotta-vs-plastic-pots.png"
+    },
+    {
+      "path": "/tr/compare/",
+      "lang": "tr",
+      "title": "Bitki uygulaması karşılaştırmaları",
+      "description": "Bitki bakım uygulamalarının kaynaklı karşılaştırmaları: hatırlatmalar, ortak kayıtlar, bitki tanıma ve fiyat modelleri, dürüst notlarla.",
+      "image": "/assets/brand/share/tr-compare.png"
+    },
+    {
+      "path": "/tr/compare/lilora-vs-picturethis/",
+      "lang": "tr",
+      "title": "Lilora ve PictureThis: tanıma ve günlük bitki bakımı",
+      "description": "Lilora ve PictureThis’i tanıma, hatırlatma, koleksiyon ve ortak bakım açısından karşılaştır. Resmi kaynaklar ve fiyat açıklamaları.",
+      "image": "/assets/brand/share/tr-compare--lilora-vs-picturethis.png"
+    },
+    {
+      "path": "/tr/compare/lilora-vs-planta/",
+      "lang": "tr",
+      "title": "Lilora ve Planta: bakım rutinine göre seçim yapmak",
+      "description": "Lilora ve Planta’yı hatırlatma, ortak kayıt, tanıma ve fiyat açısından karşılaştır. Resmi kaynaklar ve açık yayın durumu bilgisi.",
+      "image": "/assets/brand/share/tr-compare--lilora-vs-planta.png"
+    },
+    {
+      "path": "/tr/contact/",
+      "lang": "tr",
+      "title": "Lilora ile iletişim",
+      "description": "Uygulama desteği, gizlilik, basın, düzeltme veya iş birliği için formu kullan ya da support@lilora.app adresine yaz. Türkçe ve İngilizce yanıtlıyoruz.",
+      "image": "/assets/brand/share/tr-contact.png"
+    },
+    {
+      "path": "/tr/download/",
+      "lang": "tr",
+      "title": "Bitkilerin için ortak bir bakım defteri",
+      "description": "iPhone ve iPad için Lilora’yı tanı: ücretsiz elle bitki kaydı ve ortak bakım, isteğe bağlı fotoğrafla bitki tanıma. App Store incelemesi sürüyor.",
+      "image": "/assets/brand/share/tr-download.png"
+    },
+    {
+      "path": "/tr/editorial/",
+      "lang": "tr",
+      "title": "Yayın ilkeleri",
+      "description": "Lilora bitki rehberlerini ve uygulama karşılaştırmalarını nasıl araştırır, yapay zekâ yardımıyla taslaklar, doğrular, tarihler ve günceller.",
+      "image": "/assets/brand/share/tr-editorial.png"
+    },
+    {
+      "path": "/tr/guides/",
+      "lang": "tr",
+      "title": "Bitki bakım rehberleri",
+      "description": "Sulama, ışık, saksı, zararlılar ve mevsim bakımı üzerine kaynaklı rehberler: bakımını değiştirmeden önce bitkini gözlemlemeyi öğren.",
+      "image": "/assets/brand/share/tr-guides.png"
+    },
+    {
+      "path": "/tr/guides/fertilizing-houseplants/",
+      "lang": "tr",
+      "title": "Ev bitkilerini beslemek: ne zaman, ne kadar ve ne zaman durmalı",
+      "description": "Ev bitkilerini aktif büyüme döneminde etiketteki oranda veya daha azıyla besle, kışın az ışıkta ara ver ve biriken gübre tuzlarını yıka.",
+      "image": "/assets/brand/share/tr-guides--fertilizing-houseplants.png"
+    },
+    {
+      "path": "/tr/guides/houseplant-humidity/",
+      "lang": "tr",
+      "title": "Ev bitkileri için nem: ne işe yarar, ne yaramaz",
+      "description": "Su püskürtmek nemi neredeyse değiştirmez. Çakıllı tepsi, gruplama, nemlendirici ve doğru yerin ev bitkilerine neler katıp neler katamayacağı.",
+      "image": "/assets/brand/share/tr-guides--houseplant-humidity.png"
+    },
+    {
+      "path": "/tr/guides/houseplant-pests/",
+      "lang": "tr",
+      "title": "Ev bitkilerinde sık görülen zararlılar: mantar sineği, kırmızı örümcek, unlu bit, kabuklu bit ve trips",
+      "description": "Mantar sineği, kırmızı örümcek, unlu bit, kabuklu bit ve tripsi müdahale etmeden önce tanı; bitkiyi ayır ve en az zararlı adımla başla.",
+      "image": "/assets/brand/share/tr-guides--houseplant-pests.png"
+    },
+    {
+      "path": "/tr/guides/indoor-plant-light-guide/",
+      "lang": "tr",
+      "title": "Ev bitkilerinde ışık: doğru yeri seçme rehberi",
+      "description": "Doğrudan güneşi, parlak dolaylı ışığı ve az ışığı ayırt et. Pencereni gün boyunca gözlemle ve bitkine ihtiyacına uygun bir yer seç.",
+      "image": "/assets/brand/share/tr-guides--indoor-plant-light-guide.png"
+    },
+    {
+      "path": "/tr/guides/overwatering-vs-underwatering/",
+      "lang": "tr",
+      "title": "Fazla mı suladın, az mı? Harekete geçmeden önce nasıl anlarsın",
+      "description": "Pörsüme ve sararma hem fazla hem az suyun işareti olabilir. Bir şeyi değiştirmeden önce harcı, saksının ağırlığını ve kökleri kontrol et.",
+      "image": "/assets/brand/share/tr-guides--overwatering-vs-underwatering.png"
+    },
+    {
+      "path": "/tr/guides/pet-safe-houseplants/",
+      "lang": "tr",
+      "title": "Ev bitkileri ve evcil hayvanlar: bitkiyi eve getirmeden önce neye bakmalı?",
+      "description": "Yeni bir bitkiyi eve getirmeden önce botanik adını bul, ASPCA listesine bak ve hayvanının ulaşamayacağı bir yer seç. “Toksik değil” ne demek?",
+      "image": "/assets/brand/share/tr-guides--pet-safe-houseplants.png"
+    },
+    {
+      "path": "/tr/guides/potting-mix-and-drainage/",
+      "lang": "tr",
+      "title": "Saksı harcı ve drenaj: saksının nelere ihtiyacı var",
+      "description": "Drenaj deliği, uygun bir saksı harcı ve çakılsız bir dip: bir ev bitkisi saksısının gerçekten neye ihtiyacı var ve adım adım nasıl dikilir.",
+      "image": "/assets/brand/share/tr-guides--potting-mix-and-drainage.png"
+    },
+    {
+      "path": "/tr/guides/propagating-cuttings/",
+      "lang": "tr",
+      "title": "Ev bitkilerini çelikle çoğaltmak: suda mı, toprakta mı",
+      "description": "Sağlıklı boğumları olan bir gövde çeliği al ve suda ya da köklendirme harcında köklendir; iki yöntemin artıları ve eksileri.",
+      "image": "/assets/brand/share/tr-guides--propagating-cuttings.png"
+    },
+    {
+      "path": "/tr/guides/root-rot/",
+      "lang": "tr",
+      "title": "Ev bitkilerinde kök çürüklüğü: belirtiler, nedenler ve yapılacaklar",
+      "description": "Ev bitkisinde kök çürüklüğünü tanıma, köklere bakma, çürük kısımları kesip yeniden saksılama ve tekrarını önleme yolları.",
+      "image": "/assets/brand/share/tr-guides--root-rot.png"
+    },
+    {
+      "path": "/tr/guides/shared-plant-care/",
+      "lang": "tr",
+      "title": "Bitki bakımını paylaşırken aynı bitkiyi iki kez sulama",
+      "description": "Partnerin veya ev arkadaşınla bitki bakımını paylaş. Kontrol ile sulamayı ayıran kayıtlar, görev paylaşımı ve seyahat öncesi devir planı oluştur.",
+      "image": "/assets/brand/share/tr-guides--shared-plant-care.png"
+    },
+    {
+      "path": "/tr/guides/watering-houseplants/",
+      "lang": "tr",
+      "title": "Ev bitkilerini sabit bir takvime bağlı kalmadan sulamak",
+      "description": "Saksı harcını, ağırlığı ve drenajı kontrol ederek sulama zamanını belirle. Sabit takvim yerine bitkini izleyen pratik bir rutin.",
+      "image": "/assets/brand/share/tr-guides--watering-houseplants.png"
+    },
+    {
+      "path": "/tr/guides/when-to-repot-houseplants/",
+      "lang": "tr",
+      "title": "Saksı ne zaman değiştirilmeli, nasıl dikkatli yapılmalı?",
+      "description": "Kökleri incele, uygun saksı boyutunu seç ve dikim derinliğini koru. Yaygın yapraklı ev bitkileri için dikkatli saksı değiştirme rehberi.",
+      "image": "/assets/brand/share/tr-guides--when-to-repot-houseplants.png"
+    },
+    {
+      "path": "/tr/guides/winter-houseplant-care/",
+      "lang": "tr",
+      "title": "Kışın ev bitkisi bakımı: ışık, kalorifer ve daha seyrek sulama",
+      "description": "Az ışık, kuru kalorifer havası ve yavaş büyüme: kışın ev bitkilerinde ışığı, sulamayı ve beslemeyi nasıl ayarlayacağını adım adım gör.",
+      "image": "/assets/brand/share/tr-guides--winter-houseplant-care.png"
+    },
+    {
+      "path": "/tr/guides/yellow-houseplant-leaves/",
+      "lang": "tr",
+      "title": "Sararan yapraklar: bir şey yapmadan önce neleri kontrol etmeli?",
+      "description": "Sararan yapraklarda bakımını değiştirmeden önce yaprak desenini, kök nemini, ışığı, sıcaklığı ve zararlı belirtilerini kontrol et.",
+      "image": "/assets/brand/share/tr-guides--yellow-houseplant-leaves.png"
+    },
+    {
+      "path": "/tr/legal/",
+      "lang": "tr",
+      "title": "Yasal bilgiler",
+      "description": "Lilora web sitesinin yayıncısı, iletişim adresi ve barındırma bilgileri: yasal bildirim, sorumlu kişi ve sitenin hangi hizmetlerde çalıştığı.",
+      "image": "/assets/brand/share/tr-legal.png"
+    },
+    {
+      "path": "/tr/plants/",
+      "lang": "tr",
+      "title": "Bitki kütüphanesi",
+      "description": "Türlerine göre ev bitkisi profilleri: ışık, sulama, nem, sıcaklık, evcil hayvan bilgisi ve bakım zorluğu, kaynaklarıyla birlikte.",
+      "image": "/assets/brand/share/tr-plants.png"
+    },
+    {
+      "path": "/tr/plants/aloe-vera/",
+      "lang": "tr",
+      "title": "Aloe vera (sarısabır) bakımı",
+      "description": "Aloe vera (sarısabır) bakımı: güneşli pencere, süzek harç, sulamalar arasında tam kuruma ve ASPCA'nın evcil hayvanlar için toksik kaydı.",
+      "image": "/assets/brand/share/tr-plants--aloe-vera.png"
+    },
+    {
+      "path": "/tr/plants/chlorophytum-comosum/",
+      "lang": "tr",
+      "title": "Kurdele çiçeği bakımı",
+      "description": "Kurdele çiçeği bakımı: orta ışık, nemli ama süzülen harç, kolay yavrular ve ASPCA'nın kedi-köpek için toksik değil kaydı.",
+      "image": "/assets/brand/share/tr-plants--chlorophytum-comosum.png"
+    },
+    {
+      "path": "/tr/plants/dracaena-trifasciata/",
+      "lang": "tr",
+      "title": "Paşa kılıcı bakımı",
+      "description": "Paşa kılıcı bakımı: az ışığa dayanır, sulamalar arasında harcın tamamen kuruması gerekir; ASPCA kedi ve köpekler için toksik listeler.",
+      "image": "/assets/brand/share/tr-plants--dracaena-trifasciata.png"
+    },
+    {
+      "path": "/tr/plants/epipremnum-aureum/",
+      "lang": "tr",
+      "title": "Salon sarmaşığı (potos) bakımı",
+      "description": "Salon sarmaşığı (potos) bakımı: parlak dolaylı ışık, her sulamadan önce kontrol, çelikle çoğaltma ve ASPCA'nın kedi-köpek kaydı.",
+      "image": "/assets/brand/share/tr-plants--epipremnum-aureum.png"
+    },
+    {
+      "path": "/tr/plants/ficus-elastica/",
+      "lang": "tr",
+      "title": "Kauçuk bitkisi bakımı",
+      "description": "Kauçuk bitkisi bakımı: parlak dolaylı ışık, sulamadan önce hafif kuruma, süt özsuyuna dikkat, hava daldırması ve ASPCA kaydı.",
+      "image": "/assets/brand/share/tr-plants--ficus-elastica.png"
+    },
+    {
+      "path": "/tr/plants/ficus-lyrata/",
+      "lang": "tr",
+      "title": "Keman yapraklı kauçuk (Ficus lyrata) bakımı",
+      "description": "Keman yapraklı kauçuk (Ficus lyrata) bakımı: parlak dolaylı ışık, sabit koşullar, dikkatli sulama ve evcil hayvan kaynaklarının neden ayrıştığı.",
+      "image": "/assets/brand/share/tr-plants--ficus-lyrata.png"
+    },
+    {
+      "path": "/tr/plants/finder/",
+      "lang": "tr",
+      "title": "Sana uygun bitki hangisi?",
+      "description": "Işık, deneyim ve evcil hayvanlarla ilgili üç soruyu cevapla; Lilora kütüphanesinden iki üç bitkiyi, neden önerildiğini ve bakım rehberlerini gör.",
+      "image": "/assets/brand/share/tr-plants--finder.png"
+    },
+    {
+      "path": "/tr/plants/goeppertia/",
+      "lang": "tr",
+      "title": "Kalatya (Calathea) bakımı",
+      "description": "Kalatya (Calathea, Goeppertia) bakımı: az–orta dolaylı ışık, düzenli nem, yumuşak su, yüksek nem ve ASPCA'nın toksik değil kaydı.",
+      "image": "/assets/brand/share/tr-plants--goeppertia.png"
+    },
+    {
+      "path": "/tr/plants/monstera-deliciosa/",
+      "lang": "tr",
+      "title": "Deve tabanı (Monstera) bakımı",
+      "description": "Deve tabanı (Monstera) bakımı: sert güneş olmadan aydınlık yer, harcın üçte birini kontrol etme, destek ve ASPCA'nın evcil hayvan kaydı.",
+      "image": "/assets/brand/share/tr-plants--monstera-deliciosa.png"
+    },
+    {
+      "path": "/tr/plants/phalaenopsis/",
+      "lang": "tr",
+      "title": "Orkide (Phalaenopsis) bakımı",
+      "description": "Orkide (Phalaenopsis) bakımı: parlak dolaylı ışık, kabuk harcı, ıslat-süzdür sulama, yeniden çiçek için ipuçları ve ASPCA kaydı.",
+      "image": "/assets/brand/share/tr-plants--phalaenopsis.png"
+    },
+    {
+      "path": "/tr/plants/philodendron-hederaceum/",
+      "lang": "tr",
+      "title": "Kalp yapraklı filodendron bakımı",
+      "description": "Kalp yapraklı filodendron bakımı: orta ışık, hafif nemli harç, kolay gövde çeliği, sarkan ya da tırmanan büyüme ve ASPCA’daki evcil hayvan kaydı.",
+      "image": "/assets/brand/share/tr-plants--philodendron-hederaceum.png"
+    },
+    {
+      "path": "/tr/plants/spathiphyllum/",
+      "lang": "tr",
+      "title": "Barış çiçeği (Spatifilum) bakımı",
+      "description": "Barış çiçeği (Spatifilum) bakımı: doğrudan güneş görmeyen gölge, eşit nemli ama asla çamurlaşmayan harç, hafif besleme ve ASPCA kaydı.",
+      "image": "/assets/brand/share/tr-plants--spathiphyllum.png"
+    },
+    {
+      "path": "/tr/plants/zamioculcas-zamiifolia/",
+      "lang": "tr",
+      "title": "ZZ bitkisi (Zamia) bakımı",
+      "description": "ZZ bitkisi (Zamia) bakımı: parlak dolaylı ışık, sulamadan önce tamamen kuruyan harç, seyrek besleme ve ASPCA listesinde neden yer almadığı.",
+      "image": "/assets/brand/share/tr-plants--zamioculcas-zamiifolia.png"
+    },
+    {
+      "path": "/tr/press/",
+      "lang": "tr",
+      "title": "Lilora basın kaynakları",
+      "description": "Basın ve paylaşım için Lilora açıklamaları, ürün bilgileri, gerçek uygulama görselleri ve yazdırılabilir kartlar. Lilora, App Store incelemesinde.",
+      "image": "/assets/brand/share/tr-press.png"
+    },
+    {
+      "path": "/tr/privacy/",
+      "lang": "tr",
+      "title": "Gizlilik politikası",
+      "description": "Lilora bilgilerini nasıl işler: hesap, ev, fotoğraf tanıma, satın almalar, web sitesi formu ve analizleri, saklama süreleri ve KVKK ile GDPR hakların.",
+      "image": "/assets/brand/share/tr-privacy.png"
+    },
+    {
+      "path": "/tr/support/",
       "lang": "tr",
       "title": "Bitkilerin için biraz yardım.",
       "description": "Lilora için sık sorulan sorular: dil, bitkilerin nerede saklandığı, hesap silme, hatırlatmalar, fotoğraf tanıma ve satın almalar; bize nasıl ulaşırsın.",
       "image": "/assets/brand/share/tr-support.png"
+    },
+    {
+      "path": "/zh-hant/",
+      "lang": "zh-Hant",
+      "title": "一起記錄植物的生活與照護。",
+      "description": "放在哪個房間、誰上次檢查、何時澆水。在 iPhone 與 iPad 上用 Lilora，把植物照片、筆記與照護歷程放在一起。",
+      "image": "/assets/brand/share/zh-Hant-home.png"
+    },
+    {
+      "path": "/zh-hant/about/",
+      "lang": "zh-Hant",
+      "title": "關於 Lilora",
+      "description": "Lilora 是為細心照護與共同生活家庭設計的植物筆記，由土耳其的 Umut OREN 獨立發行，適用於 iPhone 與 iPad。",
+      "image": "/assets/brand/share/zh-Hant-about.png"
+    },
+    {
+      "path": "/zh-hant/blog/",
+      "lang": "zh-Hant",
+      "title": "Lilora 網誌：室內植物照護文章",
+      "description": "有資料來源的植物照護文章：葉尖變褐、介質發霉、花盆、自來水、植物燈、選購健康植物，以及季節檢查與共同照護。",
+      "image": "/assets/brand/share/zh-Hant-blog.png"
+    },
+    {
+      "path": "/zh-hant/blog/autumn-plant-reset/",
+      "lang": "zh-Hant",
+      "title": "室內植物的秋季調整清單",
+      "description": "室內植物秋季調整清單：搬入時機、蟲害隔離、光線重分配與減水停肥，並說明不同半球和氣候的季節差異。",
+      "image": "/assets/brand/share/zh-Hant-blog--autumn-plant-reset.png"
+    },
+    {
+      "path": "/zh-hant/blog/bottom-watering/",
+      "lang": "zh-Hant",
+      "title": "底部澆水：何時有用，何時不適合",
+      "description": "底部澆水的完整方法：何時適合、浸泡多久、如何瀝乾與避免鹽分累積，以及搭配上方沖洗的注意事項。",
+      "image": "/assets/brand/share/zh-Hant-blog--bottom-watering.png"
+    },
+    {
+      "path": "/zh-hant/blog/brown-leaf-tips/",
+      "lang": "zh-Hant",
+      "title": "室內植物葉尖變褐通常代表什麼",
+      "description": "葉尖變褐不只因為缺水。了解乾燥空氣、澆水不均、肥料鹽分與水質的線索，並學會檢查與安全修剪。",
+      "image": "/assets/brand/share/zh-Hant-blog--brown-leaf-tips.png"
+    },
+    {
+      "path": "/zh-hant/blog/buying-a-healthy-houseplant/",
+      "lang": "zh-Hant",
+      "title": "如何挑選健康室內植物並安頓新家",
+      "description": "選購健康室內植物的檢查步驟：觀察葉片、害蟲、根系與介質，回家後隔離並適應光線，避免急著換盆或澆水。",
+      "image": "/assets/brand/share/zh-Hant-blog--buying-a-healthy-houseplant.png"
+    },
+    {
+      "path": "/zh-hant/blog/check-before-you-water/",
+      "lang": "zh-Hant",
+      "title": "為什麼 Lilora 的提醒說「檢查」",
+      "description": "Lilora 為何提醒先檢查：用介質、盆重與葉片決定是否澆水，分開記錄檢查和澆水，延後提醒不算照護紀錄。",
+      "image": "/assets/brand/share/zh-Hant-blog--check-before-you-water.png"
+    },
+    {
+      "path": "/zh-hant/blog/cleaning-houseplant-leaves/",
+      "lang": "zh-Hant",
+      "title": "如何清潔室內植物葉片，為什麼重要",
+      "description": "室內植物葉片清潔指南：大葉用濕布、小葉沖洗、毛葉用軟刷；了解灰塵對光線的影響，以及為何不需要亮光劑。",
+      "image": "/assets/brand/share/zh-Hant-blog--cleaning-houseplant-leaves.png"
+    },
+    {
+      "path": "/zh-hant/blog/do-houseplants-purify-air/",
+      "lang": "zh-Hant",
+      "title": "室內植物真的能淨化空氣嗎？",
+      "description": "室內植物能否淨化空氣？了解 NASA 密閉箱實驗、2019 年研究回顧與真實住宅的差異，以及通風為何更有效。",
+      "image": "/assets/brand/share/zh-Hant-blog--do-houseplants-purify-air.png"
+    },
+    {
+      "path": "/zh-hant/blog/grow-lights-for-houseplants/",
+      "lang": "zh-Hant",
+      "title": "室內植物燈：簡單的入門配置",
+      "description": "植物燈入門指南：選擇廣光譜 LED、設定距離與照明時數、保留黑暗期，並依葉片反應和水分需求逐步調整。",
+      "image": "/assets/brand/share/zh-Hant-blog--grow-lights-for-houseplants.png"
+    },
+    {
+      "path": "/zh-hant/blog/keeping-a-plant-care-journal/",
+      "lang": "zh-Hant",
+      "title": "如何寫植物照護日誌：紙本或應用程式",
+      "description": "用簡短日期、觀察和行動建立植物照護日誌，記下檢查、澆水與環境變化，並比較紙本及共同照護應用程式。",
+      "image": "/assets/brand/share/zh-Hant-blog--keeping-a-plant-care-journal.png"
+    },
+    {
+      "path": "/zh-hant/blog/leggy-houseplants/",
+      "lang": "zh-Hant",
+      "title": "室內植物徒長：原因與改善方法",
+      "description": "植物徒長怎麼辦？先增加合適光線，再於葉節上方修剪並利用插穗，透過轉盆、摘心與適量施肥維持緊湊。",
+      "image": "/assets/brand/share/zh-Hant-blog--leggy-houseplants.png"
+    },
+    {
+      "path": "/zh-hant/blog/mold-on-houseplant-soil/",
+      "lang": "zh-Hant",
+      "title": "盆栽介質上的白黴有害嗎？",
+      "description": "盆栽白黴通常是分解有機物的真菌。學會分辨柔軟黴層與硬鹽殼，改善水分和通風，並辨認需要檢查根系的情況。",
+      "image": "/assets/brand/share/zh-Hant-blog--mold-on-houseplant-soil.png"
+    },
+    {
+      "path": "/zh-hant/blog/moving-house-with-plants/",
+      "lang": "zh-Hant",
+      "title": "帶著植物搬家",
+      "description": "帶植物搬家的完整準備：提前查蟲與跨境規則、澆水和包裝、避免運輸溫差，以及新家的光線適應與照護交接。",
+      "image": "/assets/brand/share/zh-Hant-blog--moving-house-with-plants.png"
+    },
+    {
+      "path": "/zh-hant/blog/tap-water-for-houseplants/",
+      "lang": "zh-Hant",
+      "title": "自來水適合澆室內植物嗎？",
+      "description": "自來水通常適合室內植物，但軟水機、氯氟敏感與礦物累積值得注意。了解水溫、雨水選擇及定期沖洗方法。",
+      "image": "/assets/brand/share/zh-Hant-blog--tap-water-for-houseplants.png"
+    },
+    {
+      "path": "/zh-hant/blog/terracotta-vs-plastic-pots/",
+      "lang": "zh-Hant",
+      "title": "赤陶盆還是塑膠盆：室內植物怎麼選",
+      "description": "比較赤陶、塑膠與釉陶花盆的乾燥速度、重量和排水，依植物與澆水習慣選擇，並了解換盆後如何調整檢查。",
+      "image": "/assets/brand/share/zh-Hant-blog--terracotta-vs-plastic-pots.png"
+    },
+    {
+      "path": "/zh-hant/compare/",
+      "lang": "zh-Hant",
+      "title": "植物應用程式比較",
+      "description": "依據資料來源比較植物照護應用程式，涵蓋提醒、共同紀錄、辨識與價格，並如實說明上架狀態。",
+      "image": "/assets/brand/share/zh-Hant-compare.png"
+    },
+    {
+      "path": "/zh-hant/compare/lilora-vs-picturethis/",
+      "lang": "zh-Hant",
+      "title": "Lilora 與 PictureThis：辨識與日常植物照護",
+      "description": "依官方資料比較 Lilora 與 PictureThis 的照片辨識、照護提醒、收藏與家庭紀錄，並說明價格和上架狀態的限制。",
+      "image": "/assets/brand/share/zh-Hant-compare--lilora-vs-picturethis.png"
+    },
+    {
+      "path": "/zh-hant/compare/lilora-vs-planta/",
+      "lang": "zh-Hant",
+      "title": "Lilora 與 Planta：選擇植物照護流程",
+      "description": "依官方資料比較 Lilora 與 Planta 的提醒、共同照護、植物辨識與價格，說明功能差異、付費方案及審核狀態。",
+      "image": "/assets/brand/share/zh-Hant-compare--lilora-vs-planta.png"
+    },
+    {
+      "path": "/zh-hant/contact/",
+      "lang": "zh-Hant",
+      "title": "聯絡 Lilora",
+      "description": "透過表單或 support@lilora.app 聯絡 Lilora，詢問應用程式支援、隱私、媒體、更正或合作事宜。我們以英文或土耳其文回覆。",
+      "image": "/assets/brand/share/zh-Hant-contact.png"
+    },
+    {
+      "path": "/zh-hant/download/",
+      "lang": "zh-Hant",
+      "title": "一起記錄植物的生活與照護",
+      "description": "認識 iPhone 與 iPad 版 Lilora：免費手動植物記錄與共同照護，以及選用的照片辨識功能。目前正在接受 App Store 審核。",
+      "image": "/assets/brand/share/zh-Hant-download.png"
+    },
+    {
+      "path": "/zh-hant/editorial/",
+      "lang": "zh-Hant",
+      "title": "編輯原則",
+      "description": "了解 Lilora 如何研究資料、運用 AI 協助起草、核實內容、標示及更新植物指南與應用程式比較的日期，以及如何說明圖片來源。",
+      "image": "/assets/brand/share/zh-Hant-editorial.png"
+    },
+    {
+      "path": "/zh-hant/guides/",
+      "lang": "zh-Hant",
+      "title": "室內植物照護指南",
+      "description": "有資料來源的澆水、光照、花盆、蟲害與季節照護指南，協助你先觀察植物，再決定是否調整照護方式。",
+      "image": "/assets/brand/share/zh-Hant-guides.png"
+    },
+    {
+      "path": "/zh-hant/guides/fertilizing-houseplants/",
+      "lang": "zh-Hant",
+      "title": "室內植物施肥：時機、用量與停肥",
+      "description": "室內植物施肥指南：依生長狀態決定時機與用量，認識鹽分累積、沖洗方法及停肥條件，避免把肥料當急救藥。",
+      "image": "/assets/brand/share/zh-Hant-guides--fertilizing-houseplants.png"
+    },
+    {
+      "path": "/zh-hant/guides/houseplant-humidity/",
+      "lang": "zh-Hant",
+      "title": "室內植物濕度：哪些方法有幫助",
+      "description": "了解室內植物濕度需求：先測量，再評估噴霧、卵石托盤、集中擺放與加濕器，並排查褐尖的其他原因。",
+      "image": "/assets/brand/share/zh-Hant-guides--houseplant-humidity.png"
+    },
+    {
+      "path": "/zh-hant/guides/houseplant-pests/",
+      "lang": "zh-Hant",
+      "title": "常見室內植物害蟲：蕈蚋、葉蟎與介殼蟲等",
+      "description": "辨認蕈蚋、葉蟎、粉介殼蟲、介殼蟲與薊馬，從隔離和手動移除開始，並依產品標籤安排處理與後續檢查。",
+      "image": "/assets/brand/share/zh-Hant-guides--houseplant-pests.png"
+    },
+    {
+      "path": "/zh-hant/guides/indoor-plant-light-guide/",
+      "lang": "zh-Hant",
+      "title": "室內植物光線：選擇位置的入門指南",
+      "description": "依葉片實際受光選位置：了解直射光、明亮間接光與低光，觀察窗向、遮蔭和季節，必要時評估植物燈。",
+      "image": "/assets/brand/share/zh-Hant-guides--indoor-plant-light-guide.png"
+    },
+    {
+      "path": "/zh-hant/guides/overwatering-vs-underwatering/",
+      "lang": "zh-Hant",
+      "title": "水太多還是太少？行動前先分辨",
+      "description": "萎蔫不一定缺水。用介質深層濕度、盆重、積水與根系分辨澆水過多或不足，再依物種、光線與季節決定行動。",
+      "image": "/assets/brand/share/zh-Hant-guides--overwatering-vs-underwatering.png"
+    },
+    {
+      "path": "/zh-hant/guides/pet-safe-houseplants/",
+      "lang": "zh-Hant",
+      "title": "植物與寵物：帶新植物回家前先查什麼",
+      "description": "帶植物回家前先核對學名與 ASPCA 貓狗清單，理解有毒、無毒和未列出的差異，並安排位置與誤食時的聯絡方式。",
+      "image": "/assets/brand/share/zh-Hant-guides--pet-safe-houseplants.png"
+    },
+    {
+      "path": "/zh-hant/guides/potting-mix-and-drainage/",
+      "lang": "zh-Hant",
+      "title": "介質與排水：花盆真正需要什麼",
+      "description": "花盆排水與介質指南：選有孔容器、合適尺寸和介質，了解碎石層為何無助排水，以及安全換盆和套盆使用方法。",
+      "image": "/assets/brand/share/zh-Hant-guides--potting-mix-and-drainage.png"
+    },
+    {
+      "path": "/zh-hant/guides/propagating-cuttings/",
+      "lang": "zh-Hant",
+      "title": "室內植物扦插繁殖：水培或介質",
+      "description": "室內植物扦插完整指南：選健康節點、剪取莖段，比較水培與介質生根，並介紹多肉切口、上盆和後續照護。",
+      "image": "/assets/brand/share/zh-Hant-guides--propagating-cuttings.png"
+    },
+    {
+      "path": "/zh-hant/guides/root-rot/",
+      "lang": "zh-Hant",
+      "title": "室內植物爛根：跡象、原因與處理",
+      "description": "室內植物爛根的辨認與處理：檢查根色和硬度、剪除腐根、換新介質，並改善澆水、排水和工具清潔來預防復發。",
+      "image": "/assets/brand/share/zh-Hant-guides--root-rot.png"
+    },
+    {
+      "path": "/zh-hant/guides/shared-plant-care/",
+      "lang": "zh-Hant",
+      "title": "共同照護植物，避免重複澆水",
+      "description": "共同照護植物的實用流程：每株共用紀錄，區分檢查、澆水和延後，約定下次負責人，並在旅行前完成清楚交接。",
+      "image": "/assets/brand/share/zh-Hant-guides--shared-plant-care.png"
+    },
+    {
+      "path": "/zh-hant/guides/watering-houseplants/",
+      "lang": "zh-Hant",
+      "title": "不靠固定日程，如何替室內植物澆水",
+      "description": "室內植物澆水不必照日曆。依物種需求檢查介質深度與盆重，澆透瀝乾，並隨光線、季節和環境調整檢查。",
+      "image": "/assets/brand/share/zh-Hant-guides--watering-houseplants.png"
+    },
+    {
+      "path": "/zh-hant/guides/when-to-repot-houseplants/",
+      "lang": "zh-Hant",
+      "title": "何時換盆，以及如何小心操作",
+      "description": "依根系和介質判斷換盆時機，選稍大有孔花盆並保留原深度，了解準備、操作、換盆後澆水和施肥觀察。",
+      "image": "/assets/brand/share/zh-Hant-guides--when-to-repot-houseplants.png"
+    },
+    {
+      "path": "/zh-hant/guides/winter-houseplant-care/",
+      "lang": "zh-Hant",
+      "title": "冬季室內植物照護：光線、暖氣與減緩澆水",
+      "description": "冬季室內植物照護指南：改善光線、避開暖氣與冷風，依介質決定澆水並暫緩施肥換盆，兼顧不同半球與氣候。",
+      "image": "/assets/brand/share/zh-Hant-guides--winter-houseplant-care.png"
+    },
+    {
+      "path": "/zh-hant/guides/yellow-houseplant-leaves/",
+      "lang": "zh-Hant",
+      "title": "室內植物黃葉：行動前先檢查什麼",
+      "description": "黃葉不只一種原因。記錄受影響葉片與近期變化，檢查介質、根、光溫和害蟲，再決定是否調整澆水或照護。",
+      "image": "/assets/brand/share/zh-Hant-guides--yellow-houseplant-leaves.png"
+    },
+    {
+      "path": "/zh-hant/legal/",
+      "lang": "zh-Hant",
+      "title": "法律聲明",
+      "description": "Lilora 網站的發行者、聯絡方式及託管資訊：了解網站由誰負責、使用哪些服務，以及相關法律聲明與隱私資訊。",
+      "image": "/assets/brand/share/zh-Hant-legal.png"
+    },
+    {
+      "path": "/zh-hant/plants/",
+      "lang": "zh-Hant",
+      "title": "室內植物圖鑑",
+      "description": "依物種整理的室內植物圖鑑，涵蓋光線、澆水、濕度、溫度、寵物資訊與照護難度，每篇均附資料來源。",
+      "image": "/assets/brand/share/zh-Hant-plants.png"
+    },
+    {
+      "path": "/zh-hant/plants/aloe-vera/",
+      "lang": "zh-Hant",
+      "title": "蘆薈照護",
+      "description": "蘆薈照護指南：日照、排水介質、乾透後澆水與冬季管理，並說明繁殖、常見問題及對貓狗的毒性。",
+      "image": "/assets/brand/share/zh-Hant-plants--aloe-vera.png"
+    },
+    {
+      "path": "/zh-hant/plants/chlorophytum-comosum/",
+      "lang": "zh-Hant",
+      "title": "吊蘭照護",
+      "description": "吊蘭照護指南：間接光、澆水檢查、葉尖變褐、小植株繁殖與季節變化，並說明 ASPCA 的貓狗無毒分類。",
+      "image": "/assets/brand/share/zh-Hant-plants--chlorophytum-comosum.png"
+    },
+    {
+      "path": "/zh-hant/plants/dracaena-trifasciata/",
+      "lang": "zh-Hant",
+      "title": "虎尾蘭照護",
+      "description": "虎尾蘭照護指南：深層乾透再澆水、冬季減水、光照適應與繁殖，並解釋學名變更及對貓狗的毒性。",
+      "image": "/assets/brand/share/zh-Hant-plants--dracaena-trifasciata.png"
+    },
+    {
+      "path": "/zh-hant/plants/epipremnum-aureum/",
+      "lang": "zh-Hant",
+      "title": "黃金葛照護",
+      "description": "黃金葛照護指南：明亮間接光、介質與盆重檢查、冬季減水、莖插繁殖，以及斑紋消失和對貓狗的毒性。",
+      "image": "/assets/brand/share/zh-Hant-plants--epipremnum-aureum.png"
+    },
+    {
+      "path": "/zh-hant/plants/ficus-elastica/",
+      "lang": "zh-Hant",
+      "title": "橡膠樹照護",
+      "description": "橡膠樹照護指南：明亮間接光、澆水與溫度檢查、修剪和高壓繁殖，並釐清汁液刺激及寵物資料的學名差異。",
+      "image": "/assets/brand/share/zh-Hant-plants--ficus-elastica.png"
+    },
+    {
+      "path": "/zh-hant/plants/ficus-lyrata/",
+      "lang": "zh-Hant",
+      "title": "琴葉榕照護",
+      "description": "琴葉榕照護指南：穩定光線與溫度、澆水檢查、落葉排查及繁殖，並如實說明寵物毒性資料來源之間的差異。",
+      "image": "/assets/brand/share/zh-Hant-plants--ficus-lyrata.png"
+    },
+    {
+      "path": "/zh-hant/plants/finder/",
+      "lang": "zh-Hant",
+      "title": "哪種室內植物適合您？",
+      "description": "回答光線、經驗與寵物三個問題，查看 Lilora 圖鑑中兩三種適合的植物、推薦原因與照護指南。",
+      "image": "/assets/brand/share/zh-Hant-plants--finder.png"
+    },
+    {
+      "path": "/zh-hant/plants/goeppertia/",
+      "lang": "zh-Hant",
+      "title": "竹芋照護",
+      "description": "竹芋照護指南：中低間接光、穩定濕度、軟水與溫暖環境，說明捲葉、褐邊、分株及 ASPCA 的無毒分類。",
+      "image": "/assets/brand/share/zh-Hant-plants--goeppertia.png"
+    },
+    {
+      "path": "/zh-hant/plants/monstera-deliciosa/",
+      "lang": "zh-Hant",
+      "title": "龜背芋照護",
+      "description": "龜背芋照護指南：間接光、介質乾燥深度、攀爬支撐與冬季管理，並介紹氣生根、繁殖及對貓狗的毒性。",
+      "image": "/assets/brand/share/zh-Hant-plants--monstera-deliciosa.png"
+    },
+    {
+      "path": "/zh-hant/plants/phalaenopsis/",
+      "lang": "zh-Hant",
+      "title": "蝴蝶蘭照護",
+      "description": "蝴蝶蘭照護指南：樹皮介質、根色與澆水檢查、光照溫度、促花和施肥，並說明氣生根與寵物無毒分類。",
+      "image": "/assets/brand/share/zh-Hant-plants--phalaenopsis.png"
+    },
+    {
+      "path": "/zh-hant/plants/philodendron-hederaceum/",
+      "lang": "zh-Hant",
+      "title": "心葉蔓綠絨照護",
+      "description": "心葉蔓綠絨照護指南：中等間接光、微濕介質、垂吊或攀爬與莖插繁殖，並說明常見問題及對貓狗的毒性。",
+      "image": "/assets/brand/share/zh-Hant-plants--philodendron-hederaceum.png"
+    },
+    {
+      "path": "/zh-hant/plants/spathiphyllum/",
+      "lang": "zh-Hant",
+      "title": "白鶴芋照護",
+      "description": "白鶴芋照護指南：遮蔭、均勻水分、溫和施肥與季節管理，說明下垂和褐尖的原因，以及對貓狗的毒性。",
+      "image": "/assets/brand/share/zh-Hant-plants--spathiphyllum.png"
+    },
+    {
+      "path": "/zh-hant/plants/zamioculcas-zamiifolia/",
+      "lang": "zh-Hant",
+      "title": "金錢樹照護",
+      "description": "金錢樹照護指南：明亮間接光、整盆乾透後澆水、少量施肥與根莖檢查，並說明未列入 ASPCA 清單不等於安全。",
+      "image": "/assets/brand/share/zh-Hant-plants--zamioculcas-zamiifolia.png"
+    },
+    {
+      "path": "/zh-hant/press/",
+      "lang": "zh-Hant",
+      "title": "Lilora 媒體資源",
+      "description": "提供 Lilora 簡介、產品資訊、真實應用程式圖片與可列印卡片，供報導和分享使用。Lilora 目前正在接受 App Store 審核。",
+      "image": "/assets/brand/share/zh-Hant-press.png"
+    },
+    {
+      "path": "/zh-hant/privacy/",
+      "lang": "zh-Hant",
+      "title": "隱私權政策",
+      "description": "了解 Lilora 如何處理帳號、家庭群組、照片辨識、購買、網站表單及分析資料，以及資料保留期間與您的隱私權利。",
+      "image": "/assets/brand/share/zh-Hant-privacy.png"
+    },
+    {
+      "path": "/zh-hant/support/",
+      "lang": "zh-Hant",
+      "title": "為您的綠意生活提供一點協助。",
+      "description": "解答 Lilora 常見問題，包括切換語言、植物資料儲存位置、刪除帳號、提醒、照片辨識與購買，並提供聯絡支援的方式。",
+      "image": "/assets/brand/share/zh-Hant-support.png"
     }
   ]
 }

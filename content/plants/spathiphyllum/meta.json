@@ -115,5 +115,61 @@
       "petSafetySource": "https://www.aspca.org/",
       "careLevel": "Facile à moyen"
     }
+  },
+  "ja": {
+    "description": "スパティフィラムの育て方。直射日光のない日陰、過湿にしない安定した水分、控えめな肥料、しおれの意味とペット情報を説明します。",
+    "imageAlt": "幅広い緑の葉の上に、クリーム色の花穂を包む白い仏炎苞があるスパティフィラム",
+    "caption": "写真：<a href=\"https://www.inaturalist.org/observations/259532560\"><em>Spathiphyllum wallisii</em></a>、撮影：Jeffry Cubero。iNaturalistより、<a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>。サイズ変更済み。",
+    "atAGlance": {
+      "light": "半日陰から深い日陰。直射日光を避ける",
+      "watering": "こまめに確認し、乾ききる前に与える。水浸しにはしない",
+      "humidity": "湿った空気を好む。乾燥すると葉先が茶色くなることがある",
+      "temperature": "昼は約20〜29℃（68〜85℉）。16℃（60℉）未満では成長が遅くなる",
+      "petSafety": "ASPCAは猫・犬に有毒と掲載",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "比較的育てやすい"
+    }
+  },
+  "ko": {
+    "description": "스파티필룸 관리: 직사광 없는 그늘, 질척이지 않게 일정한 수분, 소량의 비료, 처진 잎의 의미와 ASPCA 독성 분류입니다.",
+    "imageAlt": "넓은 녹색 잎 위로 크림색 꽃차례를 감싼 흰 두건 모양 포엽이 보이는 스파티필룸",
+    "caption": "사진: <a href=\"https://www.inaturalist.org/observations/259532560\"><em>Spathiphyllum wallisii</em></a> — 촬영: Jeffry Cubero, iNaturalist 제공, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. 크기를 조정했습니다.",
+    "atAGlance": {
+      "light": "반그늘에서 깊은 그늘까지. 직사광은 피하세요",
+      "watering": "자주 확인해 흙이 마르기 전에 물을 주되 질척이게 두지 마세요",
+      "humidity": "습한 공기를 좋아합니다. 건조하면 잎끝이 갈색으로 변할 수 있습니다",
+      "temperature": "낮 약 20–29 °C(68–85 °F). 16 °C(60 °F) 아래에서는 생장이 느려집니다",
+      "petSafety": "ASPCA가 고양이와 개에게 유독한 식물로 분류했습니다",
+      "careLevel": "쉬움에서 보통",
+      "petSafetySource": "https://www.aspca.org/"
+    }
+  },
+  "it": {
+    "imageAlt": "Spatifillo con spata bianca e spadice color crema tra grandi foglie verdi",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/259532560\"><em>Spathiphyllum wallisii</em></a> di Jeffry Cubero, tramite iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Ridimensionata.",
+    "atAGlance": {
+      "light": "Ombra da parziale a intensa; evita il sole diretto",
+      "watering": "Controlla spesso; non far asciugare del tutto e non lasciare fradicio",
+      "humidity": "Aria umida; quella secca può causare punte marroni",
+      "temperature": "20–29 °C (68–85 °F) di giorno; rallenta sotto 16 °C",
+      "petSafety": "Tossico per cani e gatti secondo ASPCA",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Da facile a moderata"
+    },
+    "description": "Cura dello spatifillo: luce, umidità e controlli prima di annaffiare. Come interpretare foglie afflosciate, cure stagionali e rischi per gli animali."
+  },
+  "zh-Hant": {
+    "imageAlt": "白鶴芋白色兜狀佛焰苞包圍乳白花穗，下方是寬大綠葉",
+    "caption": "照片： <a href=\"https://www.inaturalist.org/observations/259532560\"><em>Spathiphyllum wallisii</em></a>，攝影：Jeffry Cubero，來源：iNaturalist， <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. 已調整尺寸。",
+    "atAGlance": {
+      "light": "半陰至深陰；避免直射日光",
+      "watering": "經常檢查，介質未全乾前澆水，但不可積水",
+      "humidity": "喜歡濕潤空氣；乾燥可使葉尖變褐",
+      "temperature": "白天約 20–29 °C（68–85 °F），低於 16 °C 時生長減慢",
+      "petSafety": "ASPCA 列為對貓狗有毒",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "容易至中等"
+    },
+    "description": "白鶴芋照護指南：遮蔭、均勻水分、溫和施肥與季節管理，說明下垂和褐尖的原因，以及對貓狗的毒性。"
   }
 }

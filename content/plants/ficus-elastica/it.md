@@ -40,7 +40,7 @@ La margotta aerea funziona bene in primavera o a fine estate; la RHS osserva che
 
 ## Animali e persone
 
-L’[ASPCA Animal Poison Control Center](https://www.aspca.org/) indica “Indian rubber plant” come tossica per gatti e cani; la voce riporta il nome botanico *Ficus benjamina* e cita un enzima proteolitico, ficina, e psoralene, ficusina, senza elencare sintomi. Anche NC State Extension segnala *Ficus elastica* come problematico per gatti e cani e la RHS avverte che la linfa dei ficus irrita la pelle. Se un animale lo mastica, contatta un veterinario o un centro antiveleni per animali. In Turchia, il numero per le persone è 114 (UZEM). Sono informazioni generali, non consigli medici o veterinari.
+L’[ASPCA Animal Poison Control Center](https://www.aspca.org/) indica “Indian rubber plant” come tossica per gatti e cani; la voce riporta il nome botanico *Ficus benjamina* e cita un enzima proteolitico, ficina, e psoralene, ficusina, senza elencare sintomi. Anche NC State Extension segnala *Ficus elastica* come problematico per gatti e cani e la RHS avverte che la linfa dei ficus irrita la pelle. Se un animale lo mastica, contatta un veterinario o un centro antiveleni per animali. Per le persone, contatta il centro antiveleni locale, un servizio distinto dall’assistenza veterinaria. Sono informazioni generali, non consigli medici o veterinari.
 
 ## Domande frequenti
 

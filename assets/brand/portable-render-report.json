@@ -1,0 +1,4622 @@
+{
+  "renderer": "promotion-assets-portable.py",
+  "languages": [
+    "en",
+    "tr",
+    "es",
+    "de",
+    "pt",
+    "fr",
+    "ja",
+    "ko",
+    "it",
+    "zh-Hant"
+  ],
+  "networkRequests": 0,
+  "qrDecodedFromRenderedPixels": [
+    {
+      "file": "assets/brand/qr/en-home.svg",
+      "url": "https://lilora.app/download/?utm_source=qr&utm_medium=home&utm_campaign=prelaunch"
+    },
+    {
+      "file": "assets/brand/qr/en-download.svg",
+      "url": "https://lilora.app/download/?utm_source=qr&utm_medium=download&utm_campaign=prelaunch"
+    },
+    {
+      "file": "assets/brand/qr/en-a6.svg",
+      "url": "https://lilora.app/download/?utm_source=qr&utm_medium=a6&utm_campaign=prelaunch"
+    },
+    {
+      "file": "assets/brand/qr/en-a4.svg",
+      "url": "https://lilora.app/download/?utm_source=qr&utm_medium=a4&utm_campaign=prelaunch"
+    },
+    {
+      "file": "assets/brand/qr/tr-home.svg",
+      "url": "https://lilora.app/tr/download/?utm_source=qr&utm_medium=home&utm_campaign=prelaunch"
+    },
+    {
+      "file": "assets/brand/qr/tr-download.svg",
+      "url": "https://lilora.app/tr/download/?utm_source=qr&utm_medium=download&utm_campaign=prelaunch"
+    },
+    {
+      "file": "assets/brand/qr/tr-a6.svg",
+      "url": "https://lilora.app/tr/download/?utm_source=qr&utm_medium=a6&utm_campaign=prelaunch"
+    },
+    {
+      "file": "assets/brand/qr/tr-a4.svg",
+      "url": "https://lilora.app/tr/download/?utm_source=qr&utm_medium=a4&utm_campaign=prelaunch"
+    },
+    {
+      "file": "assets/brand/qr/es-home.svg",
+      "url": "https://lilora.app/es/download/?utm_source=qr&utm_medium=home&utm_campaign=prelaunch"
+    },
+    {
+      "file": "assets/brand/qr/es-download.svg",
+      "url": "https://lilora.app/es/download/?utm_source=qr&utm_medium=download&utm_campaign=prelaunch"
+    },
+    {
+      "file": "assets/brand/qr/es-a6.svg",
+      "url": "https://lilora.app/es/download/?utm_source=qr&utm_medium=a6&utm_campaign=prelaunch"
+    },
+    {
+      "file": "assets/brand/qr/es-a4.svg",
+      "url": "https://lilora.app/es/download/?utm_source=qr&utm_medium=a4&utm_campaign=prelaunch"
+    },
+    {
+      "file": "assets/brand/qr/de-home.svg",
+      "url": "https://lilora.app/de/download/?utm_source=qr&utm_medium=home&utm_campaign=prelaunch"
+    },
+    {
+      "file": "assets/brand/qr/de-download.svg",
+      "url": "https://lilora.app/de/download/?utm_source=qr&utm_medium=download&utm_campaign=prelaunch"
+    },
+    {
+      "file": "assets/brand/qr/de-a6.svg",
+      "url": "https://lilora.app/de/download/?utm_source=qr&utm_medium=a6&utm_campaign=prelaunch"
+    },
+    {
+      "file": "assets/brand/qr/de-a4.svg",
+      "url": "https://lilora.app/de/download/?utm_source=qr&utm_medium=a4&utm_campaign=prelaunch"
+    },
+    {
+      "file": "assets/brand/qr/pt-home.svg",
+      "url": "https://lilora.app/pt/download/?utm_source=qr&utm_medium=home&utm_campaign=prelaunch"
+    },
+    {
+      "file": "assets/brand/qr/pt-download.svg",
+      "url": "https://lilora.app/pt/download/?utm_source=qr&utm_medium=download&utm_campaign=prelaunch"
+    },
+    {
+      "file": "assets/brand/qr/pt-a6.svg",
+      "url": "https://lilora.app/pt/download/?utm_source=qr&utm_medium=a6&utm_campaign=prelaunch"
+    },
+    {
+      "file": "assets/brand/qr/pt-a4.svg",
+      "url": "https://lilora.app/pt/download/?utm_source=qr&utm_medium=a4&utm_campaign=prelaunch"
+    },
+    {
+      "file": "assets/brand/qr/fr-home.svg",
+      "url": "https://lilora.app/fr/download/?utm_source=qr&utm_medium=home&utm_campaign=prelaunch"
+    },
+    {
+      "file": "assets/brand/qr/fr-download.svg",
+      "url": "https://lilora.app/fr/download/?utm_source=qr&utm_medium=download&utm_campaign=prelaunch"
+    },
+    {
+      "file": "assets/brand/qr/fr-a6.svg",
+      "url": "https://lilora.app/fr/download/?utm_source=qr&utm_medium=a6&utm_campaign=prelaunch"
+    },
+    {
+      "file": "assets/brand/qr/fr-a4.svg",
+      "url": "https://lilora.app/fr/download/?utm_source=qr&utm_medium=a4&utm_campaign=prelaunch"
+    },
+    {
+      "file": "assets/brand/qr/ja-home.svg",
+      "url": "https://lilora.app/ja/download/?utm_source=qr&utm_medium=home&utm_campaign=prelaunch"
+    },
+    {
+      "file": "assets/brand/qr/ja-download.svg",
+      "url": "https://lilora.app/ja/download/?utm_source=qr&utm_medium=download&utm_campaign=prelaunch"
+    },
+    {
+      "file": "assets/brand/qr/ja-a6.svg",
+      "url": "https://lilora.app/ja/download/?utm_source=qr&utm_medium=a6&utm_campaign=prelaunch"
+    },
+    {
+      "file": "assets/brand/qr/ja-a4.svg",
+      "url": "https://lilora.app/ja/download/?utm_source=qr&utm_medium=a4&utm_campaign=prelaunch"
+    },
+    {
+      "file": "assets/brand/qr/ko-home.svg",
+      "url": "https://lilora.app/ko/download/?utm_source=qr&utm_medium=home&utm_campaign=prelaunch"
+    },
+    {
+      "file": "assets/brand/qr/ko-download.svg",
+      "url": "https://lilora.app/ko/download/?utm_source=qr&utm_medium=download&utm_campaign=prelaunch"
+    },
+    {
+      "file": "assets/brand/qr/ko-a6.svg",
+      "url": "https://lilora.app/ko/download/?utm_source=qr&utm_medium=a6&utm_campaign=prelaunch"
+    },
+    {
+      "file": "assets/brand/qr/ko-a4.svg",
+      "url": "https://lilora.app/ko/download/?utm_source=qr&utm_medium=a4&utm_campaign=prelaunch"
+    },
+    {
+      "file": "assets/brand/qr/it-home.svg",
+      "url": "https://lilora.app/it/download/?utm_source=qr&utm_medium=home&utm_campaign=prelaunch"
+    },
+    {
+      "file": "assets/brand/qr/it-download.svg",
+      "url": "https://lilora.app/it/download/?utm_source=qr&utm_medium=download&utm_campaign=prelaunch"
+    },
+    {
+      "file": "assets/brand/qr/it-a6.svg",
+      "url": "https://lilora.app/it/download/?utm_source=qr&utm_medium=a6&utm_campaign=prelaunch"
+    },
+    {
+      "file": "assets/brand/qr/it-a4.svg",
+      "url": "https://lilora.app/it/download/?utm_source=qr&utm_medium=a4&utm_campaign=prelaunch"
+    },
+    {
+      "file": "assets/brand/qr/zh-Hant-home.svg",
+      "url": "https://lilora.app/zh-hant/download/?utm_source=qr&utm_medium=home&utm_campaign=prelaunch"
+    },
+    {
+      "file": "assets/brand/qr/zh-Hant-download.svg",
+      "url": "https://lilora.app/zh-hant/download/?utm_source=qr&utm_medium=download&utm_campaign=prelaunch"
+    },
+    {
+      "file": "assets/brand/qr/zh-Hant-a6.svg",
+      "url": "https://lilora.app/zh-hant/download/?utm_source=qr&utm_medium=a6&utm_campaign=prelaunch"
+    },
+    {
+      "file": "assets/brand/qr/zh-Hant-a4.svg",
+      "url": "https://lilora.app/zh-hant/download/?utm_source=qr&utm_medium=a4&utm_campaign=prelaunch"
+    }
+  ],
+  "pdfs": [
+    {
+      "file": "assets/brand/print/lilora-en-a6.pdf",
+      "pages": 1,
+      "textVerified": true,
+      "decodedQrUrl": "https://lilora.app/download/?utm_source=qr&utm_medium=a6&utm_campaign=prelaunch",
+      "layoutScale": 1
+    },
+    {
+      "file": "assets/brand/print/lilora-en-a4.pdf",
+      "pages": 1,
+      "textVerified": true,
+      "decodedQrUrl": "https://lilora.app/download/?utm_source=qr&utm_medium=a4&utm_campaign=prelaunch",
+      "layoutScale": 1
+    },
+    {
+      "file": "assets/brand/print/lilora-tr-a6.pdf",
+      "pages": 1,
+      "textVerified": true,
+      "decodedQrUrl": "https://lilora.app/tr/download/?utm_source=qr&utm_medium=a6&utm_campaign=prelaunch",
+      "layoutScale": 1
+    },
+    {
+      "file": "assets/brand/print/lilora-tr-a4.pdf",
+      "pages": 1,
+      "textVerified": true,
+      "decodedQrUrl": "https://lilora.app/tr/download/?utm_source=qr&utm_medium=a4&utm_campaign=prelaunch",
+      "layoutScale": 1
+    },
+    {
+      "file": "assets/brand/print/lilora-es-a6.pdf",
+      "pages": 1,
+      "textVerified": true,
+      "decodedQrUrl": "https://lilora.app/es/download/?utm_source=qr&utm_medium=a6&utm_campaign=prelaunch",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/print/lilora-es-a4.pdf",
+      "pages": 1,
+      "textVerified": true,
+      "decodedQrUrl": "https://lilora.app/es/download/?utm_source=qr&utm_medium=a4&utm_campaign=prelaunch",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/print/lilora-de-a6.pdf",
+      "pages": 1,
+      "textVerified": true,
+      "decodedQrUrl": "https://lilora.app/de/download/?utm_source=qr&utm_medium=a6&utm_campaign=prelaunch",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/print/lilora-de-a4.pdf",
+      "pages": 1,
+      "textVerified": true,
+      "decodedQrUrl": "https://lilora.app/de/download/?utm_source=qr&utm_medium=a4&utm_campaign=prelaunch",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/print/lilora-pt-a6.pdf",
+      "pages": 1,
+      "textVerified": true,
+      "decodedQrUrl": "https://lilora.app/pt/download/?utm_source=qr&utm_medium=a6&utm_campaign=prelaunch",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/print/lilora-pt-a4.pdf",
+      "pages": 1,
+      "textVerified": true,
+      "decodedQrUrl": "https://lilora.app/pt/download/?utm_source=qr&utm_medium=a4&utm_campaign=prelaunch",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/print/lilora-fr-a6.pdf",
+      "pages": 1,
+      "textVerified": true,
+      "decodedQrUrl": "https://lilora.app/fr/download/?utm_source=qr&utm_medium=a6&utm_campaign=prelaunch",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/print/lilora-fr-a4.pdf",
+      "pages": 1,
+      "textVerified": true,
+      "decodedQrUrl": "https://lilora.app/fr/download/?utm_source=qr&utm_medium=a4&utm_campaign=prelaunch",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/print/lilora-ja-a6.pdf",
+      "pages": 1,
+      "textVerified": true,
+      "decodedQrUrl": "https://lilora.app/ja/download/?utm_source=qr&utm_medium=a6&utm_campaign=prelaunch",
+      "layoutScale": 1
+    },
+    {
+      "file": "assets/brand/print/lilora-ja-a4.pdf",
+      "pages": 1,
+      "textVerified": true,
+      "decodedQrUrl": "https://lilora.app/ja/download/?utm_source=qr&utm_medium=a4&utm_campaign=prelaunch",
+      "layoutScale": 1
+    },
+    {
+      "file": "assets/brand/print/lilora-ko-a6.pdf",
+      "pages": 1,
+      "textVerified": true,
+      "decodedQrUrl": "https://lilora.app/ko/download/?utm_source=qr&utm_medium=a6&utm_campaign=prelaunch",
+      "layoutScale": 1
+    },
+    {
+      "file": "assets/brand/print/lilora-ko-a4.pdf",
+      "pages": 1,
+      "textVerified": true,
+      "decodedQrUrl": "https://lilora.app/ko/download/?utm_source=qr&utm_medium=a4&utm_campaign=prelaunch",
+      "layoutScale": 1
+    },
+    {
+      "file": "assets/brand/print/lilora-it-a6.pdf",
+      "pages": 1,
+      "textVerified": true,
+      "decodedQrUrl": "https://lilora.app/it/download/?utm_source=qr&utm_medium=a6&utm_campaign=prelaunch",
+      "layoutScale": 1
+    },
+    {
+      "file": "assets/brand/print/lilora-it-a4.pdf",
+      "pages": 1,
+      "textVerified": true,
+      "decodedQrUrl": "https://lilora.app/it/download/?utm_source=qr&utm_medium=a4&utm_campaign=prelaunch",
+      "layoutScale": 0.96
+    },
+    {
+      "file": "assets/brand/print/lilora-zh-Hant-a6.pdf",
+      "pages": 1,
+      "textVerified": true,
+      "decodedQrUrl": "https://lilora.app/zh-hant/download/?utm_source=qr&utm_medium=a6&utm_campaign=prelaunch",
+      "layoutScale": 1
+    },
+    {
+      "file": "assets/brand/print/lilora-zh-Hant-a4.pdf",
+      "pages": 1,
+      "textVerified": true,
+      "decodedQrUrl": "https://lilora.app/zh-hant/download/?utm_source=qr&utm_medium=a4&utm_campaign=prelaunch",
+      "layoutScale": 1
+    }
+  ],
+  "social": [
+    {
+      "file": "assets/brand/share/en-default.png",
+      "lang": "en",
+      "title": "lilora",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-default.png",
+      "lang": "tr",
+      "title": "lilora",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-default.png",
+      "lang": "es",
+      "title": "lilora",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-default.png",
+      "lang": "de",
+      "title": "lilora",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-default.png",
+      "lang": "pt",
+      "title": "lilora",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-default.png",
+      "lang": "fr",
+      "title": "lilora",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/ja-default.png",
+      "lang": "ja",
+      "title": "lilora",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/ko-default.png",
+      "lang": "ko",
+      "title": "lilora",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/it-default.png",
+      "lang": "it",
+      "title": "lilora",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-default.png",
+      "lang": "zh-Hant",
+      "title": "lilora",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/en-home.png",
+      "lang": "en",
+      "title": "A shared notebook for your plants.",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-404.png",
+      "lang": "en",
+      "title": "Page not found",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-about.png",
+      "lang": "en",
+      "title": "About Lilora",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-blog.png",
+      "lang": "en",
+      "title": "Lilora Blog: houseplant care posts",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-blog--autumn-plant-reset.png",
+      "lang": "en",
+      "title": "An autumn reset for houseplants: a short checklist",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-blog--bottom-watering.png",
+      "lang": "en",
+      "title": "Bottom watering houseplants: when it helps and when it doesn't",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-blog--brown-leaf-tips.png",
+      "lang": "en",
+      "title": "Brown leaf tips on houseplants: what they usually mean",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-blog--buying-a-healthy-houseplant.png",
+      "lang": "en",
+      "title": "How to choose a healthy houseplant and settle it in at home",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-blog--check-before-you-water.png",
+      "lang": "en",
+      "title": "Why Lilora's reminders say \"check\", not \"water\"",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-blog--cleaning-houseplant-leaves.png",
+      "lang": "en",
+      "title": "How to clean houseplant leaves (and why it matters)",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-blog--do-houseplants-purify-air.png",
+      "lang": "en",
+      "title": "Do houseplants really purify indoor air?",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-blog--grow-lights-for-houseplants.png",
+      "lang": "en",
+      "title": "Grow lights for houseplants: a simple starting set-up",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-blog--keeping-a-plant-care-journal.png",
+      "lang": "en",
+      "title": "How to keep a plant care journal (paper or app)",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-blog--leggy-houseplants.png",
+      "lang": "en",
+      "title": "Leggy houseplants: why they stretch and how to fix them",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-blog--mold-on-houseplant-soil.png",
+      "lang": "en",
+      "title": "White mould on houseplant soil: is it harmful?",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-blog--moving-house-with-plants.png",
+      "lang": "en",
+      "title": "Moving house with plants",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-blog--tap-water-for-houseplants.png",
+      "lang": "en",
+      "title": "Is tap water OK for houseplants?",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-blog--terracotta-vs-plastic-pots.png",
+      "lang": "en",
+      "title": "Terracotta or plastic pots: which is better for houseplants?",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-compare.png",
+      "lang": "en",
+      "title": "Plant app comparisons",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-compare--lilora-vs-picturethis.png",
+      "lang": "en",
+      "title": "Lilora vs PictureThis: identification and everyday plant care",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-compare--lilora-vs-planta.png",
+      "lang": "en",
+      "title": "Lilora vs Planta: choosing a plant care routine",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-contact.png",
+      "lang": "en",
+      "title": "Contact Lilora",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-home.png",
+      "lang": "de",
+      "title": "Ein gemeinsames Notizbuch für eure Pflanzen.",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-about.png",
+      "lang": "de",
+      "title": "Über Lilora",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-blog.png",
+      "lang": "de",
+      "title": "Lilora Blog: Beiträge zur Pflanzenpflege",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-blog--autumn-plant-reset.png",
+      "lang": "de",
+      "title": "Herbst-Neustart für Zimmerpflanzen: eine kurze Checkliste",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-blog--bottom-watering.png",
+      "lang": "de",
+      "title": "Zimmerpflanzen von unten gießen: wann es hilft und wann nicht",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-blog--brown-leaf-tips.png",
+      "lang": "de",
+      "title": "Braune Blattspitzen bei Zimmerpflanzen: was sie meist bedeuten",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-blog--buying-a-healthy-houseplant.png",
+      "lang": "de",
+      "title": "Eine gesunde Zimmerpflanze aussuchen und zu Hause eingewöhnen",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-blog--check-before-you-water.png",
+      "lang": "de",
+      "title": "Warum Lilora ans Prüfen erinnert, nicht ans Gießen",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-blog--cleaning-houseplant-leaves.png",
+      "lang": "de",
+      "title": "Blätter von Zimmerpflanzen reinigen (und warum das wichtig ist)",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-blog--do-houseplants-purify-air.png",
+      "lang": "de",
+      "title": "Reinigen Zimmerpflanzen wirklich die Raumluft?",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-blog--grow-lights-for-houseplants.png",
+      "lang": "de",
+      "title": "Pflanzenlampen für Zimmerpflanzen: ein einfacher Einstieg",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-blog--keeping-a-plant-care-journal.png",
+      "lang": "de",
+      "title": "So führst du ein Pflanzenpflege-Tagebuch (auf Papier oder in einer App)",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-blog--leggy-houseplants.png",
+      "lang": "de",
+      "title": "Vergeilte Zimmerpflanzen: warum sie sich strecken",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-blog--mold-on-houseplant-soil.png",
+      "lang": "de",
+      "title": "Weißer Schimmel auf der Blumenerde: ist er schädlich?",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-blog--moving-house-with-plants.png",
+      "lang": "de",
+      "title": "Umziehen mit Zimmerpflanzen",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-blog--tap-water-for-houseplants.png",
+      "lang": "de",
+      "title": "Ist Leitungswasser für Zimmerpflanzen in Ordnung?",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-blog--terracotta-vs-plastic-pots.png",
+      "lang": "de",
+      "title": "Terrakotta oder Plastik: welcher Topf ist besser für Zimmerpflanzen?",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-compare.png",
+      "lang": "de",
+      "title": "Pflanzen-Apps im Vergleich",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-compare--lilora-vs-picturethis.png",
+      "lang": "de",
+      "title": "Lilora vs. PictureThis: Bestimmen und pflegen",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-compare--lilora-vs-planta.png",
+      "lang": "de",
+      "title": "Lilora vs. Planta: die passende Pflegeroutine wählen",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-contact.png",
+      "lang": "de",
+      "title": "Kontakt zu Lilora",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-download.png",
+      "lang": "de",
+      "title": "Ein gemeinsames Notizbuch für deine Pflanzen",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-editorial.png",
+      "lang": "de",
+      "title": "Redaktionelle Grundsätze",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-guides.png",
+      "lang": "de",
+      "title": "Ratgeber zur Zimmerpflanzenpflege",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-guides--fertilizing-houseplants.png",
+      "lang": "de",
+      "title": "Zimmerpflanzen düngen: wann, wie viel und wann du aufhörst",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-guides--houseplant-humidity.png",
+      "lang": "de",
+      "title": "Luftfeuchtigkeit für Zimmerpflanzen: was hilft und was nicht",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-guides--houseplant-pests.png",
+      "lang": "de",
+      "title": "Häufige Schädlinge an Zimmerpflanzen: Trauermücken, Spinnmilben, Wollläuse, Schildläuse und Thripse",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-guides--indoor-plant-light-guide.png",
+      "lang": "de",
+      "title": "Licht für Zimmerpflanzen: den richtigen Platz finden",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-guides--overwatering-vs-underwatering.png",
+      "lang": "de",
+      "title": "Zu viel oder zu wenig gegossen? So erkennst du es, bevor du handelst",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-guides--pet-safe-houseplants.png",
+      "lang": "de",
+      "title": "Zimmerpflanzen und Haustiere: was du vor dem Kauf prüfen solltest",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-guides--potting-mix-and-drainage.png",
+      "lang": "de",
+      "title": "Blumenerde und Drainage: was dein Topf braucht",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-guides--propagating-cuttings.png",
+      "lang": "de",
+      "title": "Zimmerpflanzen aus Stecklingen vermehren: im Wasser oder in Erde",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-guides--root-rot.png",
+      "lang": "de",
+      "title": "Wurzelfäule bei Zimmerpflanzen: Anzeichen, Ursachen und was du tun kannst",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-guides--shared-plant-care.png",
+      "lang": "de",
+      "title": "Pflanzenpflege teilen, ohne doppelt zu gießen",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-guides--watering-houseplants.png",
+      "lang": "de",
+      "title": "Zimmerpflanzen gießen ohne starren Plan",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-guides--when-to-repot-houseplants.png",
+      "lang": "de",
+      "title": "Wann du eine Zimmerpflanze umtopfst und wie es schonend gelingt",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-guides--winter-houseplant-care.png",
+      "lang": "de",
+      "title": "Zimmerpflanzen im Winter: Licht, Heizung und seltener gießen",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-guides--yellow-houseplant-leaves.png",
+      "lang": "de",
+      "title": "Gelbe Blätter an Zimmerpflanzen: was du vor dem Handeln prüfen solltest",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-legal.png",
+      "lang": "de",
+      "title": "Rechtliche Hinweise",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-plants.png",
+      "lang": "de",
+      "title": "Zimmerpflanzen-Bibliothek",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-plants--aloe-vera.png",
+      "lang": "de",
+      "title": "Aloe vera pflegen",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-plants--chlorophytum-comosum.png",
+      "lang": "de",
+      "title": "Grünlilie pflegen",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-plants--dracaena-trifasciata.png",
+      "lang": "de",
+      "title": "Bogenhanf (Sansevieria) pflegen",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-plants--epipremnum-aureum.png",
+      "lang": "de",
+      "title": "Efeutute pflegen",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-plants--ficus-elastica.png",
+      "lang": "de",
+      "title": "Gummibaum pflegen",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-plants--ficus-lyrata.png",
+      "lang": "de",
+      "title": "Geigenfeige pflegen",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-plants--finder.png",
+      "lang": "de",
+      "title": "Welche Zimmerpflanze passt zu dir?",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-plants--goeppertia.png",
+      "lang": "de",
+      "title": "Korbmarante (Calathea) pflegen",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-plants--monstera-deliciosa.png",
+      "lang": "de",
+      "title": "Monstera pflegen",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-plants--phalaenopsis.png",
+      "lang": "de",
+      "title": "Schmetterlingsorchidee (Phalaenopsis) pflegen",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-plants--philodendron-hederaceum.png",
+      "lang": "de",
+      "title": "Kletter-Philodendron pflegen",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-plants--spathiphyllum.png",
+      "lang": "de",
+      "title": "Einblatt (Spathiphyllum) pflegen",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-plants--zamioculcas-zamiifolia.png",
+      "lang": "de",
+      "title": "Glücksfeder (Zamioculcas) pflegen",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-press.png",
+      "lang": "de",
+      "title": "Lilora für die Presse",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-privacy.png",
+      "lang": "de",
+      "title": "Datenschutzerklärung",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/de-support.png",
+      "lang": "de",
+      "title": "Ein wenig Hilfe für deine Pflanzen.",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-download.png",
+      "lang": "en",
+      "title": "A shared notebook for your plants",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-editorial.png",
+      "lang": "en",
+      "title": "Editorial approach",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-home.png",
+      "lang": "es",
+      "title": "Las plantas de casa, en un cuaderno compartido.",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-about.png",
+      "lang": "es",
+      "title": "Acerca de Lilora",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-blog.png",
+      "lang": "es",
+      "title": "Blog de Lilora: cuidado de plantas",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-blog--autumn-plant-reset.png",
+      "lang": "es",
+      "title": "Una puesta a punto de otoño para tus plantas de interior: lista breve",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-blog--bottom-watering.png",
+      "lang": "es",
+      "title": "Regar las plantas de interior por abajo: cuándo ayuda y cuándo no",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-blog--brown-leaf-tips.png",
+      "lang": "es",
+      "title": "Puntas marrones en las hojas de las plantas de interior: qué suelen indicar",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-blog--buying-a-healthy-houseplant.png",
+      "lang": "es",
+      "title": "Cómo elegir una planta de interior sana y ayudarla a adaptarse en casa",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-blog--check-before-you-water.png",
+      "lang": "es",
+      "title": "Por qué Lilora te recuerda comprobar y no regar",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-blog--cleaning-houseplant-leaves.png",
+      "lang": "es",
+      "title": "Cómo limpiar las hojas de las plantas de interior (y por qué importa)",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-blog--do-houseplants-purify-air.png",
+      "lang": "es",
+      "title": "¿De verdad las plantas de interior purifican el aire?",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-blog--grow-lights-for-houseplants.png",
+      "lang": "es",
+      "title": "Luces de cultivo para plantas de interior: una instalación sencilla para empezar",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-blog--keeping-a-plant-care-journal.png",
+      "lang": "es",
+      "title": "Cómo llevar un diario de cuidado de plantas (en papel o en una app)",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-blog--leggy-houseplants.png",
+      "lang": "es",
+      "title": "Plantas de interior ahiladas: por qué se estiran y cómo arreglarlo",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-blog--mold-on-houseplant-soil.png",
+      "lang": "es",
+      "title": "Moho blanco en la tierra de las plantas de interior: ¿es dañino?",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-blog--moving-house-with-plants.png",
+      "lang": "es",
+      "title": "Mudarse de casa con plantas",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-blog--tap-water-for-houseplants.png",
+      "lang": "es",
+      "title": "¿Sirve el agua del grifo para las plantas de interior?",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-blog--terracotta-vs-plastic-pots.png",
+      "lang": "es",
+      "title": "Macetas de terracota o de plástico: ¿cuál es mejor para las plantas de interior?",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-compare.png",
+      "lang": "es",
+      "title": "Comparativas de aplicaciones para plantas",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-compare--lilora-vs-picturethis.png",
+      "lang": "es",
+      "title": "Lilora vs PictureThis: identificación y cuidado diario de las plantas",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-compare--lilora-vs-planta.png",
+      "lang": "es",
+      "title": "Lilora vs Planta: elegir una rutina de cuidado de plantas",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-contact.png",
+      "lang": "es",
+      "title": "Contacta con Lilora",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-download.png",
+      "lang": "es",
+      "title": "Un cuaderno compartido para tus plantas",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-editorial.png",
+      "lang": "es",
+      "title": "Criterios editoriales",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-guides.png",
+      "lang": "es",
+      "title": "Guías para cuidar plantas de interior",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-guides--fertilizing-houseplants.png",
+      "lang": "es",
+      "title": "Cómo abonar las plantas de interior: cuándo, cuánto y cuándo parar",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-guides--houseplant-humidity.png",
+      "lang": "es",
+      "title": "Humedad para plantas de interior: qué ayuda y qué no",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-guides--houseplant-pests.png",
+      "lang": "es",
+      "title": "Plagas comunes de las plantas de interior: mosquitos del sustrato, araña roja, cochinilla algodonosa, cochinillas de escudo y trips",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-guides--indoor-plant-light-guide.png",
+      "lang": "es",
+      "title": "Luz para plantas de interior: guía para principiantes para elegir un sitio",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-guides--overwatering-vs-underwatering.png",
+      "lang": "es",
+      "title": "¿Exceso o falta de riego? Cómo saberlo antes de actuar",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-guides--pet-safe-houseplants.png",
+      "lang": "es",
+      "title": "Plantas de interior y mascotas: qué comprobar antes de llevar una planta a casa",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-guides--potting-mix-and-drainage.png",
+      "lang": "es",
+      "title": "Sustrato y drenaje: lo que necesita tu maceta",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-guides--propagating-cuttings.png",
+      "lang": "es",
+      "title": "Multiplicar plantas de interior por esquejes: en agua o en sustrato",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-guides--root-rot.png",
+      "lang": "es",
+      "title": "Pudrición de raíces en plantas de interior: señales, causas y qué hacer",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-guides--shared-plant-care.png",
+      "lang": "es",
+      "title": "Compartir el cuidado de las plantas sin regar dos veces",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-guides--watering-houseplants.png",
+      "lang": "es",
+      "title": "Cómo regar las plantas de interior sin un calendario rígido",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-guides--when-to-repot-houseplants.png",
+      "lang": "es",
+      "title": "Cuándo trasplantar una planta de interior y cómo hacerlo con cuidado",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-guides--winter-houseplant-care.png",
+      "lang": "es",
+      "title": "Cuidados de invierno para plantas de interior: luz, calefacción y riegos más espaciados",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-guides--yellow-houseplant-leaves.png",
+      "lang": "es",
+      "title": "Hojas amarillas en plantas de interior: qué comprobar antes de actuar",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-legal.png",
+      "lang": "es",
+      "title": "Información legal",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-plants.png",
+      "lang": "es",
+      "title": "Biblioteca de plantas para casa",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-plants--aloe-vera.png",
+      "lang": "es",
+      "title": "Cuidados del aloe vera",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-plants--chlorophytum-comosum.png",
+      "lang": "es",
+      "title": "Cuidados de la cinta",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-plants--dracaena-trifasciata.png",
+      "lang": "es",
+      "title": "Cuidados de la lengua de suegra (sansevieria)",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-plants--epipremnum-aureum.png",
+      "lang": "es",
+      "title": "Cuidados del potos",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-plants--ficus-elastica.png",
+      "lang": "es",
+      "title": "Cuidados del ficus elástica (árbol del caucho)",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-plants--ficus-lyrata.png",
+      "lang": "es",
+      "title": "Cuidados del ficus lira",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-plants--finder.png",
+      "lang": "es",
+      "title": "¿Qué planta de interior te conviene?",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-plants--goeppertia.png",
+      "lang": "es",
+      "title": "Cuidados de la calathea",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-plants--monstera-deliciosa.png",
+      "lang": "es",
+      "title": "Cuidados de la costilla de Adán (Monstera)",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-plants--phalaenopsis.png",
+      "lang": "es",
+      "title": "Cuidados de la orquídea mariposa (Phalaenopsis)",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-plants--philodendron-hederaceum.png",
+      "lang": "es",
+      "title": "Cuidados del filodendro trepador",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-plants--spathiphyllum.png",
+      "lang": "es",
+      "title": "Cuidados del espatifilo",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-plants--zamioculcas-zamiifolia.png",
+      "lang": "es",
+      "title": "Cuidados de la zamioculca",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-press.png",
+      "lang": "es",
+      "title": "Recursos de prensa de Lilora",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-privacy.png",
+      "lang": "es",
+      "title": "Política de privacidad",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/es-support.png",
+      "lang": "es",
+      "title": "Un poco de ayuda para tus plantas.",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-home.png",
+      "lang": "fr",
+      "title": "Les plantes de la maison, un carnet partagé.",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-about.png",
+      "lang": "fr",
+      "title": "À propos de Lilora",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-blog.png",
+      "lang": "fr",
+      "title": "Blog Lilora : entretien des plantes",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-blog--autumn-plant-reset.png",
+      "lang": "fr",
+      "title": "Le grand ménage d’automne des plantes d’intérieur : une courte liste",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-blog--bottom-watering.png",
+      "lang": "fr",
+      "title": "Arroser les plantes d’intérieur par le bas : quand ça aide, et quand non",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-blog--brown-leaf-tips.png",
+      "lang": "fr",
+      "title": "Pointes de feuilles brunes sur les plantes d’intérieur : ce qu’elles signifient le plus souvent",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-blog--buying-a-healthy-houseplant.png",
+      "lang": "fr",
+      "title": "Choisir une plante d’intérieur en bonne santé et l’aider à s’installer chez vous",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-blog--check-before-you-water.png",
+      "lang": "fr",
+      "title": "Pourquoi les rappels de Lilora disent « vérifier » et non « arroser »",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-blog--cleaning-houseplant-leaves.png",
+      "lang": "fr",
+      "title": "Comment nettoyer les feuilles des plantes d’intérieur (et pourquoi c’est important)",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-blog--do-houseplants-purify-air.png",
+      "lang": "fr",
+      "title": "Les plantes d’intérieur purifient-elles vraiment l’air ?",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-blog--grow-lights-for-houseplants.png",
+      "lang": "fr",
+      "title": "Lampes de croissance pour plantes d’intérieur : une installation simple pour débuter",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-blog--keeping-a-plant-care-journal.png",
+      "lang": "fr",
+      "title": "Tenir un carnet d’entretien des plantes (papier ou application)",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-blog--leggy-houseplants.png",
+      "lang": "fr",
+      "title": "Plantes d’intérieur qui s’étiolent : pourquoi elles s’étirent",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-blog--mold-on-houseplant-soil.png",
+      "lang": "fr",
+      "title": "Moisissure blanche sur le terreau : est-ce dangereux ?",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-blog--moving-house-with-plants.png",
+      "lang": "fr",
+      "title": "Déménager avec ses plantes",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-blog--tap-water-for-houseplants.png",
+      "lang": "fr",
+      "title": "L’eau du robinet convient-elle aux plantes d’intérieur ?",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-blog--terracotta-vs-plastic-pots.png",
+      "lang": "fr",
+      "title": "Pot en terre cuite ou en plastique : lequel choisir pour les plantes d’intérieur ?",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-compare.png",
+      "lang": "fr",
+      "title": "Comparatifs des applications pour plantes",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-compare--lilora-vs-picturethis.png",
+      "lang": "fr",
+      "title": "Lilora vs PictureThis : identification et entretien des plantes au quotidien",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-compare--lilora-vs-planta.png",
+      "lang": "fr",
+      "title": "Lilora vs Planta : choisir une routine d’entretien des plantes",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-contact.png",
+      "lang": "fr",
+      "title": "Contacter Lilora",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-download.png",
+      "lang": "fr",
+      "title": "Un carnet partagé pour vos plantes",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-editorial.png",
+      "lang": "fr",
+      "title": "Principes éditoriaux",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-guides.png",
+      "lang": "fr",
+      "title": "Guides de soin des plantes",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-guides--fertilizing-houseplants.png",
+      "lang": "fr",
+      "title": "Nourrir les plantes d’intérieur : quand, combien et quand s’arrêter",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-guides--houseplant-humidity.png",
+      "lang": "fr",
+      "title": "L’humidité de l’air pour les plantes d’intérieur : ce qui aide et ce qui n’aide pas",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-guides--houseplant-pests.png",
+      "lang": "fr",
+      "title": "Les ravageurs courants des plantes d’intérieur : moucherons des terreaux, tétranyques, cochenilles farineuses, cochenilles à bouclier et thrips",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-guides--indoor-plant-light-guide.png",
+      "lang": "fr",
+      "title": "La lumière pour les plantes d’intérieur : guide pour bien choisir l’emplacement",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-guides--overwatering-vs-underwatering.png",
+      "lang": "fr",
+      "title": "Trop ou pas assez d’eau ? Comment le savoir avant d’agir",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-guides--pet-safe-houseplants.png",
+      "lang": "fr",
+      "title": "Plantes d’intérieur et animaux : ce qu’il faut vérifier avant d’adopter une plante",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-guides--potting-mix-and-drainage.png",
+      "lang": "fr",
+      "title": "Substrat et drainage : ce dont votre pot a besoin",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-guides--propagating-cuttings.png",
+      "lang": "fr",
+      "title": "Bouturer les plantes d’intérieur : dans l’eau ou dans le substrat",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-guides--root-rot.png",
+      "lang": "fr",
+      "title": "La pourriture des racines chez les plantes d’intérieur : signes, causes et que faire",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-guides--shared-plant-care.png",
+      "lang": "fr",
+      "title": "Partager l’entretien des plantes sans arroser deux fois",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-guides--watering-houseplants.png",
+      "lang": "fr",
+      "title": "Arroser ses plantes d’intérieur sans calendrier rigide",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-guides--when-to-repot-houseplants.png",
+      "lang": "fr",
+      "title": "Quand rempoter une plante d’intérieur, et comment le faire avec soin",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-guides--winter-houseplant-care.png",
+      "lang": "fr",
+      "title": "Les soins d’hiver des plantes d’intérieur : lumière, chauffage et arrosages espacés",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-guides--yellow-houseplant-leaves.png",
+      "lang": "fr",
+      "title": "Feuilles jaunes sur les plantes d’intérieur : que vérifier avant d’agir",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-legal.png",
+      "lang": "fr",
+      "title": "Mentions légales",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-plants.png",
+      "lang": "fr",
+      "title": "Bibliothèque des plantes",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-plants--aloe-vera.png",
+      "lang": "fr",
+      "title": "Entretien de l’aloe vera",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-plants--chlorophytum-comosum.png",
+      "lang": "fr",
+      "title": "Entretien de la plante araignée (chlorophytum)",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-plants--dracaena-trifasciata.png",
+      "lang": "fr",
+      "title": "Entretien de la sansevière",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-plants--epipremnum-aureum.png",
+      "lang": "fr",
+      "title": "Entretien du pothos",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-plants--ficus-elastica.png",
+      "lang": "fr",
+      "title": "Entretien du caoutchouc (Ficus elastica)",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-plants--ficus-lyrata.png",
+      "lang": "fr",
+      "title": "Entretien du Ficus lyrata",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-plants--finder.png",
+      "lang": "fr",
+      "title": "Quelle plante d’intérieur vous convient ?",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-plants--goeppertia.png",
+      "lang": "fr",
+      "title": "Entretien du calathea",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-plants--monstera-deliciosa.png",
+      "lang": "fr",
+      "title": "Entretien du monstera",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-plants--phalaenopsis.png",
+      "lang": "fr",
+      "title": "Entretien de l’orchidée papillon (Phalaenopsis)",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-plants--philodendron-hederaceum.png",
+      "lang": "fr",
+      "title": "Entretien du philodendron grimpant",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-plants--spathiphyllum.png",
+      "lang": "fr",
+      "title": "Entretien du spathiphyllum",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-plants--zamioculcas-zamiifolia.png",
+      "lang": "fr",
+      "title": "Entretien du zamioculcas",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-press.png",
+      "lang": "fr",
+      "title": "Lilora : ressources presse",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-privacy.png",
+      "lang": "fr",
+      "title": "Politique de confidentialité",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/fr-support.png",
+      "lang": "fr",
+      "title": "Un peu d’aide pour vos plantes.",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-guides.png",
+      "lang": "en",
+      "title": "Houseplant care guides",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-guides--fertilizing-houseplants.png",
+      "lang": "en",
+      "title": "Feeding houseplants: when, how much and when to stop",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-guides--houseplant-humidity.png",
+      "lang": "en",
+      "title": "Humidity for houseplants: what helps and what doesn't",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-guides--houseplant-pests.png",
+      "lang": "en",
+      "title": "Common houseplant pests: fungus gnats, spider mites, mealybugs, scale and thrips",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-guides--indoor-plant-light-guide.png",
+      "lang": "en",
+      "title": "Indoor plant light: a beginner’s guide to choosing a spot",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-guides--overwatering-vs-underwatering.png",
+      "lang": "en",
+      "title": "Overwatered or underwatered? How to tell before you act",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-guides--pet-safe-houseplants.png",
+      "lang": "en",
+      "title": "Houseplants and pets: what to check before bringing a plant home",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-guides--potting-mix-and-drainage.png",
+      "lang": "en",
+      "title": "Potting mix and drainage: what your pot needs",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-guides--propagating-cuttings.png",
+      "lang": "en",
+      "title": "Propagating houseplants from cuttings: water or soil",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-guides--root-rot.png",
+      "lang": "en",
+      "title": "Root rot in houseplants: signs, causes and what to do",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-guides--shared-plant-care.png",
+      "lang": "en",
+      "title": "Share plant care without watering twice",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-guides--watering-houseplants.png",
+      "lang": "en",
+      "title": "How to water houseplants without a rigid schedule",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-guides--when-to-repot-houseplants.png",
+      "lang": "en",
+      "title": "When to repot a houseplant, and how to do it carefully",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-guides--winter-houseplant-care.png",
+      "lang": "en",
+      "title": "Winter houseplant care: light, heating and slower watering",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-guides--yellow-houseplant-leaves.png",
+      "lang": "en",
+      "title": "Yellow houseplant leaves: what to check before you act",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/it-home.png",
+      "lang": "it",
+      "title": "Un diario condiviso per le tue piante.",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/it-about.png",
+      "lang": "it",
+      "title": "Informazioni su Lilora",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/it-blog.png",
+      "lang": "it",
+      "title": "Blog di Lilora: cura delle piante da appartamento",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/it-blog--autumn-plant-reset.png",
+      "lang": "it",
+      "title": "Preparare le piante all’autunno: una breve lista di controlli",
+      "font": "Newsreader",
+      "fontSize": 72,
+      "lines": 4
+    },
+    {
+      "file": "assets/brand/share/it-blog--bottom-watering.png",
+      "lang": "it",
+      "title": "Annaffiare dal basso: quando aiuta e quando no",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/it-blog--brown-leaf-tips.png",
+      "lang": "it",
+      "title": "Punte marroni delle foglie: cosa significano di solito",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/it-blog--buying-a-healthy-houseplant.png",
+      "lang": "it",
+      "title": "Scegliere una pianta sana e farla ambientare in casa",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/it-blog--check-before-you-water.png",
+      "lang": "it",
+      "title": "Perché i promemoria di Lilora dicono “controlla”",
+      "font": "Newsreader",
+      "fontSize": 73,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/it-blog--cleaning-houseplant-leaves.png",
+      "lang": "it",
+      "title": "Come pulire le foglie delle piante da appartamento",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/it-blog--do-houseplants-purify-air.png",
+      "lang": "it",
+      "title": "Le piante purificano davvero l’aria di casa?",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/it-blog--grow-lights-for-houseplants.png",
+      "lang": "it",
+      "title": "Lampade per piante: una configurazione semplice per iniziare",
+      "font": "Newsreader",
+      "fontSize": 74,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/it-blog--keeping-a-plant-care-journal.png",
+      "lang": "it",
+      "title": "Come tenere un diario delle piante, su carta o app",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/it-blog--leggy-houseplants.png",
+      "lang": "it",
+      "title": "Fusti lunghi e sottili: perché le piante si allungano",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/it-blog--mold-on-houseplant-soil.png",
+      "lang": "it",
+      "title": "Muffa bianca sul terriccio: è dannosa?",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/it-blog--moving-house-with-plants.png",
+      "lang": "it",
+      "title": "Traslocare con le piante",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/it-blog--tap-water-for-houseplants.png",
+      "lang": "it",
+      "title": "L’acqua del rubinetto va bene per le piante?",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/it-blog--terracotta-vs-plastic-pots.png",
+      "lang": "it",
+      "title": "Vasi di terracotta o plastica: quale scegliere?",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/it-compare.png",
+      "lang": "it",
+      "title": "Confronti tra app per piante",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/it-compare--lilora-vs-picturethis.png",
+      "lang": "it",
+      "title": "Lilora e PictureThis: riconoscimento e cura quotidiana",
+      "font": "Newsreader",
+      "fontSize": 75,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/it-compare--lilora-vs-planta.png",
+      "lang": "it",
+      "title": "Lilora e Planta: scegliere una routine di cura",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/it-contact.png",
+      "lang": "it",
+      "title": "Contatta Lilora",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/it-download.png",
+      "lang": "it",
+      "title": "Un diario condiviso per le tue piante",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/it-editorial.png",
+      "lang": "it",
+      "title": "Criteri editoriali",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/it-guides.png",
+      "lang": "it",
+      "title": "Guide alla cura delle piante da appartamento",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/it-guides--fertilizing-houseplants.png",
+      "lang": "it",
+      "title": "Concimare le piante: quando, quanto e quando fermarsi",
+      "font": "Newsreader",
+      "fontSize": 73,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/it-guides--houseplant-humidity.png",
+      "lang": "it",
+      "title": "Umidità per le piante: cosa aiuta e cosa no",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/it-guides--houseplant-pests.png",
+      "lang": "it",
+      "title": "Parassiti delle piante: moscerini, acari e cocciniglie",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/it-guides--indoor-plant-light-guide.png",
+      "lang": "it",
+      "title": "Luce per le piante in casa: come scegliere il posto",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/it-guides--overwatering-vs-underwatering.png",
+      "lang": "it",
+      "title": "Troppa o troppo poca acqua? Controlla prima di agire",
+      "font": "Newsreader",
+      "fontSize": 72,
+      "lines": 4
+    },
+    {
+      "file": "assets/brand/share/it-guides--pet-safe-houseplants.png",
+      "lang": "it",
+      "title": "Piante e animali: cosa verificare prima dell’acquisto",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/it-guides--potting-mix-and-drainage.png",
+      "lang": "it",
+      "title": "Substrato e drenaggio: cosa serve al vaso",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/it-guides--propagating-cuttings.png",
+      "lang": "it",
+      "title": "Moltiplicare le piante per talea: acqua o substrato",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/it-guides--root-rot.png",
+      "lang": "it",
+      "title": "Marciume radicale: segnali, cause e cosa fare",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/it-guides--shared-plant-care.png",
+      "lang": "it",
+      "title": "Condividere la cura senza annaffiare due volte",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/it-guides--watering-houseplants.png",
+      "lang": "it",
+      "title": "Annaffiare le piante senza un calendario rigido",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/it-guides--when-to-repot-houseplants.png",
+      "lang": "it",
+      "title": "Quando rinvasare una pianta e come farlo con cura",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/it-guides--winter-houseplant-care.png",
+      "lang": "it",
+      "title": "Piante in inverno: luce, riscaldamento e meno acqua",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/it-guides--yellow-houseplant-leaves.png",
+      "lang": "it",
+      "title": "Foglie gialle: cosa controllare prima di intervenire",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/it-legal.png",
+      "lang": "it",
+      "title": "Note legali",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/it-plants.png",
+      "lang": "it",
+      "title": "Enciclopedia delle piante da appartamento",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/it-plants--aloe-vera.png",
+      "lang": "it",
+      "title": "Cura dell’aloe vera",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/it-plants--chlorophytum-comosum.png",
+      "lang": "it",
+      "title": "Cura del falangio",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/it-plants--dracaena-trifasciata.png",
+      "lang": "it",
+      "title": "Cura della sansevieria",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/it-plants--epipremnum-aureum.png",
+      "lang": "it",
+      "title": "Cura del pothos",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/it-plants--ficus-elastica.png",
+      "lang": "it",
+      "title": "Cura del ficus elastica",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/it-plants--ficus-lyrata.png",
+      "lang": "it",
+      "title": "Cura del ficus lyrata",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/it-plants--finder.png",
+      "lang": "it",
+      "title": "Quale pianta da appartamento fa per te?",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/it-plants--goeppertia.png",
+      "lang": "it",
+      "title": "Cura della calatea (pianta della preghiera)",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/it-plants--monstera-deliciosa.png",
+      "lang": "it",
+      "title": "Cura della monstera",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/it-plants--phalaenopsis.png",
+      "lang": "it",
+      "title": "Cura dell'orchidea falena",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/it-plants--philodendron-hederaceum.png",
+      "lang": "it",
+      "title": "Cura del filodendro a foglia di cuore",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/it-plants--spathiphyllum.png",
+      "lang": "it",
+      "title": "Cura dello spatifillo",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/it-plants--zamioculcas-zamiifolia.png",
+      "lang": "it",
+      "title": "Cura della zamioculcas",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/it-press.png",
+      "lang": "it",
+      "title": "Risorse stampa di Lilora",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/it-privacy.png",
+      "lang": "it",
+      "title": "Informativa sulla privacy",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/it-support.png",
+      "lang": "it",
+      "title": "Un piccolo aiuto per il tuo giardino.",
+      "font": "Newsreader",
+      "fontSize": 76,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/ja-home.png",
+      "lang": "ja",
+      "title": "みんなで使える、植物のノート。",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/ja-about.png",
+      "lang": "ja",
+      "title": "Liloraについて",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/ja-blog.png",
+      "lang": "ja",
+      "title": "Liloraブログ：観葉植物のお手入れ",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/ja-blog--autumn-plant-reset.png",
+      "lang": "ja",
+      "title": "観葉植物の秋支度：短いチェックリスト",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/ja-blog--bottom-watering.png",
+      "lang": "ja",
+      "title": "観葉植物の底面給水：役立つ場面と注意点",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/ja-blog--brown-leaf-tips.png",
+      "lang": "ja",
+      "title": "観葉植物の葉先が茶色くなる原因",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/ja-blog--buying-a-healthy-houseplant.png",
+      "lang": "ja",
+      "title": "元気な観葉植物を選び、家の環境に慣らす方法",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/ja-blog--check-before-you-water.png",
+      "lang": "ja",
+      "title": "Liloraのリマインダーが「水やり」より「確認」を促す理由",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/ja-blog--cleaning-houseplant-leaves.png",
+      "lang": "ja",
+      "title": "観葉植物の葉をきれいにする方法と、その理由",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/ja-blog--do-houseplants-purify-air.png",
+      "lang": "ja",
+      "title": "観葉植物は本当に室内の空気をきれいにする？",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/ja-blog--grow-lights-for-houseplants.png",
+      "lang": "ja",
+      "title": "観葉植物の育成ライト：初めての基本設定",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/ja-blog--keeping-a-plant-care-journal.png",
+      "lang": "ja",
+      "title": "植物のお手入れ日誌の付け方：紙でもアプリでも",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/ja-blog--leggy-houseplants.png",
+      "lang": "ja",
+      "title": "観葉植物がひょろ長く伸びる理由と整え方",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/ja-blog--mold-on-houseplant-soil.png",
+      "lang": "ja",
+      "title": "観葉植物の土に白いカビ：害はある？",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/ja-blog--moving-house-with-plants.png",
+      "lang": "ja",
+      "title": "植物と一緒に引っ越すには",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/ja-blog--tap-water-for-houseplants.png",
+      "lang": "ja",
+      "title": "観葉植物に水道水を使っても大丈夫？",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/ja-blog--terracotta-vs-plastic-pots.png",
+      "lang": "ja",
+      "title": "観葉植物にはテラコッタ鉢とプラスチック鉢、どちらがよい？",
+      "font": "CJK",
+      "fontSize": 66,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/ja-compare.png",
+      "lang": "ja",
+      "title": "植物アプリの比較",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/ja-compare--lilora-vs-picturethis.png",
+      "lang": "ja",
+      "title": "LiloraとPictureThis：植物識別と日々のお手入れを比較",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/ja-compare--lilora-vs-planta.png",
+      "lang": "ja",
+      "title": "LiloraとPlanta：自分に合う植物のお手入れ習慣を選ぶ",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/ja-contact.png",
+      "lang": "ja",
+      "title": "Liloraへのお問い合わせ",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/ja-download.png",
+      "lang": "ja",
+      "title": "みんなで使える、植物のノート",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/ja-editorial.png",
+      "lang": "ja",
+      "title": "編集方針",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/ja-guides.png",
+      "lang": "ja",
+      "title": "観葉植物の育て方ガイド",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/ja-guides--fertilizing-houseplants.png",
+      "lang": "ja",
+      "title": "観葉植物の肥料：与える時期、量、休むタイミング",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/ja-guides--houseplant-humidity.png",
+      "lang": "ja",
+      "title": "観葉植物の湿度管理：役立つ方法と効果の小さい方法",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/ja-guides--houseplant-pests.png",
+      "lang": "ja",
+      "title": "観葉植物によく付く害虫：キノコバエ、ハダニ、コナカイガラムシ、カイガラムシ、アザミウマ",
+      "font": "CJK",
+      "fontSize": 55,
+      "lines": 4
+    },
+    {
+      "file": "assets/brand/share/ja-guides--indoor-plant-light-guide.png",
+      "lang": "ja",
+      "title": "室内植物の光：置き場所を選ぶための入門ガイド",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/ja-guides--overwatering-vs-underwatering.png",
+      "lang": "ja",
+      "title": "水のやりすぎ？水不足？対処する前に見分ける方法",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/ja-guides--pet-safe-houseplants.png",
+      "lang": "ja",
+      "title": "観葉植物とペット：家に迎える前に確認したいこと",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/ja-guides--potting-mix-and-drainage.png",
+      "lang": "ja",
+      "title": "用土と排水：植物の鉢に必要なこと",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/ja-guides--propagating-cuttings.png",
+      "lang": "ja",
+      "title": "観葉植物の挿し木：水で発根させるか、用土に挿すか",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/ja-guides--root-rot.png",
+      "lang": "ja",
+      "title": "観葉植物の根腐れ：サイン、原因、対処法",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/ja-guides--shared-plant-care.png",
+      "lang": "ja",
+      "title": "二重に水を与えずに、植物の世話を分担する",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/ja-guides--watering-houseplants.png",
+      "lang": "ja",
+      "title": "日数を固定しない、観葉植物の水やり",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/ja-guides--when-to-repot-houseplants.png",
+      "lang": "ja",
+      "title": "観葉植物を植え替える時期と、傷めにくい手順",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/ja-guides--winter-houseplant-care.png",
+      "lang": "ja",
+      "title": "冬の観葉植物の手入れ：光、暖房、水やりの間隔",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/ja-guides--yellow-houseplant-leaves.png",
+      "lang": "ja",
+      "title": "観葉植物の葉が黄色い：対処する前に確認すること",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/ja-legal.png",
+      "lang": "ja",
+      "title": "運営者情報",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/ja-plants.png",
+      "lang": "ja",
+      "title": "観葉植物図鑑",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/ja-plants--aloe-vera.png",
+      "lang": "ja",
+      "title": "アロエベラの育て方",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/ja-plants--chlorophytum-comosum.png",
+      "lang": "ja",
+      "title": "オリヅルランの育て方",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/ja-plants--dracaena-trifasciata.png",
+      "lang": "ja",
+      "title": "サンスベリアの育て方",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/ja-plants--epipremnum-aureum.png",
+      "lang": "ja",
+      "title": "ポトスの育て方",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/ja-plants--ficus-elastica.png",
+      "lang": "ja",
+      "title": "インドゴムノキの育て方",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/ja-plants--ficus-lyrata.png",
+      "lang": "ja",
+      "title": "カシワバゴムノキの育て方",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/ja-plants--finder.png",
+      "lang": "ja",
+      "title": "あなたに合う観葉植物は？",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/ja-plants--goeppertia.png",
+      "lang": "ja",
+      "title": "カラテアの育て方",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/ja-plants--monstera-deliciosa.png",
+      "lang": "ja",
+      "title": "モンステラの育て方",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/ja-plants--phalaenopsis.png",
+      "lang": "ja",
+      "title": "コチョウランの育て方",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/ja-plants--philodendron-hederaceum.png",
+      "lang": "ja",
+      "title": "ヒメカズラの育て方",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/ja-plants--spathiphyllum.png",
+      "lang": "ja",
+      "title": "スパティフィラムの育て方",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/ja-plants--zamioculcas-zamiifolia.png",
+      "lang": "ja",
+      "title": "ザミオクルカスの育て方",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/ja-press.png",
+      "lang": "ja",
+      "title": "Liloraの報道向け資料",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/ja-privacy.png",
+      "lang": "ja",
+      "title": "プライバシーポリシー",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/ja-support.png",
+      "lang": "ja",
+      "title": "植物との暮らしをお手伝い。",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/ko-home.png",
+      "lang": "ko",
+      "title": "함께 쓰는 식물 노트.",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/ko-about.png",
+      "lang": "ko",
+      "title": "Lilora 소개",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/ko-blog.png",
+      "lang": "ko",
+      "title": "Lilora 블로그: 실내식물 관리 이야기",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/ko-blog--autumn-plant-reset.png",
+      "lang": "ko",
+      "title": "실내식물의 가을 준비: 짧은 점검표",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/ko-blog--bottom-watering.png",
+      "lang": "ko",
+      "title": "실내식물 저면관수: 도움이 되는 경우와 그렇지 않은 경우",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/ko-blog--brown-leaf-tips.png",
+      "lang": "ko",
+      "title": "실내식물의 갈색 잎끝: 흔히 뜻하는 것",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/ko-blog--buying-a-healthy-houseplant.png",
+      "lang": "ko",
+      "title": "건강한 실내식물을 고르고 집에 적응시키는 방법",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/ko-blog--check-before-you-water.png",
+      "lang": "ko",
+      "title": "Lilora 알림이 물주기보다 확인을 말하는 이유",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/ko-blog--cleaning-houseplant-leaves.png",
+      "lang": "ko",
+      "title": "실내식물 잎을 닦는 방법과 그 이유",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/ko-blog--do-houseplants-purify-air.png",
+      "lang": "ko",
+      "title": "실내식물이 정말 공기를 정화할까요?",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/ko-blog--grow-lights-for-houseplants.png",
+      "lang": "ko",
+      "title": "실내 식물용 식물등: 간단한 시작 방법",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/ko-blog--keeping-a-plant-care-journal.png",
+      "lang": "ko",
+      "title": "식물 관리 일지 쓰기: 종이와 앱 모두 가능해요",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/ko-blog--leggy-houseplants.png",
+      "lang": "ko",
+      "title": "웃자란 실내 식물: 길게 늘어지는 이유와 관리 방법",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/ko-blog--mold-on-houseplant-soil.png",
+      "lang": "ko",
+      "title": "실내 식물 흙의 흰 곰팡이: 해로울까요?",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/ko-blog--moving-house-with-plants.png",
+      "lang": "ko",
+      "title": "식물과 함께 이사하기",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/ko-blog--tap-water-for-houseplants.png",
+      "lang": "ko",
+      "title": "실내 식물에 수돗물을 줘도 될까요?",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/ko-blog--terracotta-vs-plastic-pots.png",
+      "lang": "ko",
+      "title": "테라코타와 플라스틱 화분: 실내 식물에는 어느 쪽이 좋을까요?",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/ko-compare.png",
+      "lang": "ko",
+      "title": "식물 앱 비교",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/ko-compare--lilora-vs-picturethis.png",
+      "lang": "ko",
+      "title": "Lilora와 PictureThis 비교: 식물 식별과 일상 관리",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/ko-compare--lilora-vs-planta.png",
+      "lang": "ko",
+      "title": "Lilora와 Planta 비교: 나에게 맞는 식물 관리 방식",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/ko-contact.png",
+      "lang": "ko",
+      "title": "Lilora에 문의",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/ko-download.png",
+      "lang": "ko",
+      "title": "함께 쓰는 식물 노트",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/ko-editorial.png",
+      "lang": "ko",
+      "title": "콘텐츠 작성 원칙",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/ko-guides.png",
+      "lang": "ko",
+      "title": "실내식물 관리 안내",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/ko-guides--fertilizing-houseplants.png",
+      "lang": "ko",
+      "title": "실내 식물에 비료 주기: 시기, 양, 멈춰야 할 때",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/ko-guides--houseplant-humidity.png",
+      "lang": "ko",
+      "title": "실내 식물과 습도: 도움이 되는 방법과 효과가 작은 방법",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/ko-guides--houseplant-pests.png",
+      "lang": "ko",
+      "title": "흔한 실내 식물 해충: 뿌리파리, 응애, 가루깍지벌레, 깍지벌레, 총채벌레",
+      "font": "CJK",
+      "fontSize": 66,
+      "lines": 4
+    },
+    {
+      "file": "assets/brand/share/ko-guides--indoor-plant-light-guide.png",
+      "lang": "ko",
+      "title": "실내 식물과 빛: 초보자를 위한 자리 고르기",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/ko-guides--overwatering-vs-underwatering.png",
+      "lang": "ko",
+      "title": "과습일까요, 물 부족일까요? 행동하기 전에 구별하기",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/ko-guides--pet-safe-houseplants.png",
+      "lang": "ko",
+      "title": "실내 식물과 반려동물: 새 식물을 들이기 전 확인할 것",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/ko-guides--potting-mix-and-drainage.png",
+      "lang": "ko",
+      "title": "분갈이 흙과 배수: 화분에 필요한 것",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/ko-guides--propagating-cuttings.png",
+      "lang": "ko",
+      "title": "삽목으로 실내 식물 번식하기: 물과 흙",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/ko-guides--root-rot.png",
+      "lang": "ko",
+      "title": "실내 식물 뿌리썩음: 신호, 원인, 대응 방법",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/ko-guides--shared-plant-care.png",
+      "lang": "ko",
+      "title": "두 번 물 주지 않고 식물 함께 돌보기",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/ko-guides--watering-houseplants.png",
+      "lang": "ko",
+      "title": "정해진 일정에 얽매이지 않고 실내 식물에 물 주는 방법",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/ko-guides--when-to-repot-houseplants.png",
+      "lang": "ko",
+      "title": "실내 식물 분갈이가 필요한 때와 조심스럽게 하는 방법",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/ko-guides--winter-houseplant-care.png",
+      "lang": "ko",
+      "title": "겨울철 실내 식물 관리: 빛, 난방, 달라지는 물주기",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/ko-guides--yellow-houseplant-leaves.png",
+      "lang": "ko",
+      "title": "실내 식물의 잎이 노랗게 변할 때: 행동하기 전 확인할 것",
+      "font": "CJK",
+      "fontSize": 67,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/ko-legal.png",
+      "lang": "ko",
+      "title": "법적 고지",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/ko-plants.png",
+      "lang": "ko",
+      "title": "실내식물 도감",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/ko-plants--aloe-vera.png",
+      "lang": "ko",
+      "title": "알로에 베라 관리",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/ko-plants--chlorophytum-comosum.png",
+      "lang": "ko",
+      "title": "접란 관리",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/ko-plants--dracaena-trifasciata.png",
+      "lang": "ko",
+      "title": "산세베리아 관리",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/ko-plants--epipremnum-aureum.png",
+      "lang": "ko",
+      "title": "스킨답서스 관리",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/ko-plants--ficus-elastica.png",
+      "lang": "ko",
+      "title": "인도고무나무 관리",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/ko-plants--ficus-lyrata.png",
+      "lang": "ko",
+      "title": "떡갈고무나무 관리",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/ko-plants--finder.png",
+      "lang": "ko",
+      "title": "나에게 맞는 실내식물은 무엇일까요?",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/ko-plants--goeppertia.png",
+      "lang": "ko",
+      "title": "칼라테아 관리",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/ko-plants--monstera-deliciosa.png",
+      "lang": "ko",
+      "title": "몬스테라 관리",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/ko-plants--phalaenopsis.png",
+      "lang": "ko",
+      "title": "호접란 관리",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/ko-plants--philodendron-hederaceum.png",
+      "lang": "ko",
+      "title": "하트잎 필로덴드론 관리",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/ko-plants--spathiphyllum.png",
+      "lang": "ko",
+      "title": "스파티필룸 관리",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/ko-plants--zamioculcas-zamiifolia.png",
+      "lang": "ko",
+      "title": "금전수 관리",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/ko-press.png",
+      "lang": "ko",
+      "title": "Lilora 보도 자료",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/ko-privacy.png",
+      "lang": "ko",
+      "title": "개인정보 처리방침",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/ko-support.png",
+      "lang": "ko",
+      "title": "식물을 돌보는 데 필요한 작은 도움.",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/en-legal.png",
+      "lang": "en",
+      "title": "Legal notice",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-plants.png",
+      "lang": "en",
+      "title": "Houseplant library",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-plants--aloe-vera.png",
+      "lang": "en",
+      "title": "Aloe vera care",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-plants--chlorophytum-comosum.png",
+      "lang": "en",
+      "title": "Spider plant care",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-plants--dracaena-trifasciata.png",
+      "lang": "en",
+      "title": "Snake plant care",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-plants--epipremnum-aureum.png",
+      "lang": "en",
+      "title": "Pothos care",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-plants--ficus-elastica.png",
+      "lang": "en",
+      "title": "Rubber plant care",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-plants--ficus-lyrata.png",
+      "lang": "en",
+      "title": "Fiddle-leaf fig care",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-plants--finder.png",
+      "lang": "en",
+      "title": "Which houseplant suits you?",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-plants--goeppertia.png",
+      "lang": "en",
+      "title": "Calathea (prayer plant) care",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-plants--monstera-deliciosa.png",
+      "lang": "en",
+      "title": "Monstera care",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-plants--phalaenopsis.png",
+      "lang": "en",
+      "title": "Moth orchid care",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-plants--philodendron-hederaceum.png",
+      "lang": "en",
+      "title": "Heartleaf philodendron care",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-plants--spathiphyllum.png",
+      "lang": "en",
+      "title": "Peace lily care",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-plants--zamioculcas-zamiifolia.png",
+      "lang": "en",
+      "title": "ZZ plant care",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-press.png",
+      "lang": "en",
+      "title": "Lilora press resources",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-privacy.png",
+      "lang": "en",
+      "title": "Privacy policy",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-home.png",
+      "lang": "pt",
+      "title": "As plantas da casa, num caderno compartilhado.",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-about.png",
+      "lang": "pt",
+      "title": "Sobre o Lilora",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-blog.png",
+      "lang": "pt",
+      "title": "Blog do Lilora: cuidados com plantas",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-blog--autumn-plant-reset.png",
+      "lang": "pt",
+      "title": "Uma arrumação de outono para as plantas de interior: lista rápida",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-blog--bottom-watering.png",
+      "lang": "pt",
+      "title": "Regar plantas de interior por baixo: quando ajuda e quando não",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-blog--brown-leaf-tips.png",
+      "lang": "pt",
+      "title": "Pontas marrons nas folhas de plantas de interior: o que costumam indicar",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-blog--buying-a-healthy-houseplant.png",
+      "lang": "pt",
+      "title": "Como escolher uma planta de interior saudável e ajudá-la a se adaptar em casa",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-blog--check-before-you-water.png",
+      "lang": "pt",
+      "title": "Por que os lembretes do Lilora dizem “verificar”, e não “regar”",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-blog--cleaning-houseplant-leaves.png",
+      "lang": "pt",
+      "title": "Como limpar as folhas das plantas de interior (e por que isso importa)",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-blog--do-houseplants-purify-air.png",
+      "lang": "pt",
+      "title": "Plantas de interior purificam mesmo o ar?",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-blog--grow-lights-for-houseplants.png",
+      "lang": "pt",
+      "title": "Luz de cultivo para plantas de interior: uma montagem simples para começar",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-blog--keeping-a-plant-care-journal.png",
+      "lang": "pt",
+      "title": "Como manter um diário de cuidados com as plantas (no papel ou num app)",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-blog--leggy-houseplants.png",
+      "lang": "pt",
+      "title": "Plantas de interior estioladas: por que esticam e como resolver",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-blog--mold-on-houseplant-soil.png",
+      "lang": "pt",
+      "title": "Mofo branco na terra das plantas de interior: faz mal?",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-blog--moving-house-with-plants.png",
+      "lang": "pt",
+      "title": "Mudança de casa com plantas",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-blog--tap-water-for-houseplants.png",
+      "lang": "pt",
+      "title": "Água da torneira serve para plantas de interior?",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-blog--terracotta-vs-plastic-pots.png",
+      "lang": "pt",
+      "title": "Vaso de barro ou de plástico: qual é melhor para plantas de interior?",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-compare.png",
+      "lang": "pt",
+      "title": "Comparativos de aplicativos de plantas",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-compare--lilora-vs-picturethis.png",
+      "lang": "pt",
+      "title": "Lilora vs PictureThis: identificação e cuidado das plantas no dia a dia",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-compare--lilora-vs-planta.png",
+      "lang": "pt",
+      "title": "Lilora vs Planta: como escolher uma rotina de cuidado de plantas",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-contact.png",
+      "lang": "pt",
+      "title": "Fale com o Lilora",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-download.png",
+      "lang": "pt",
+      "title": "Um caderno compartilhado para suas plantas",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-editorial.png",
+      "lang": "pt",
+      "title": "Princípios editoriais",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-guides.png",
+      "lang": "pt",
+      "title": "Guias de cuidados com plantas",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-guides--fertilizing-houseplants.png",
+      "lang": "pt",
+      "title": "Como adubar plantas de interior: quando, quanto e quando parar",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-guides--houseplant-humidity.png",
+      "lang": "pt",
+      "title": "Umidade para plantas de interior: o que ajuda e o que não ajuda",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-guides--houseplant-pests.png",
+      "lang": "pt",
+      "title": "Pragas comuns em plantas de interior: mosquitos-do-fungo, ácaros, cochonilha-farinhenta, cochonilhas de carapaça e tripes",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-guides--indoor-plant-light-guide.png",
+      "lang": "pt",
+      "title": "Luz para plantas de interior: guia para iniciantes escolherem o lugar",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-guides--overwatering-vs-underwatering.png",
+      "lang": "pt",
+      "title": "Rega demais ou de menos? Como saber antes de agir",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-guides--pet-safe-houseplants.png",
+      "lang": "pt",
+      "title": "Plantas de interior e pets: o que conferir antes de levar uma planta para casa",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-guides--potting-mix-and-drainage.png",
+      "lang": "pt",
+      "title": "Substrato e drenagem: o que o seu vaso precisa",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-guides--propagating-cuttings.png",
+      "lang": "pt",
+      "title": "Mudas por estaca: enraizar na água ou no substrato",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-guides--root-rot.png",
+      "lang": "pt",
+      "title": "Podridão das raízes em plantas de interior: sinais, causas e o que fazer",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-guides--shared-plant-care.png",
+      "lang": "pt",
+      "title": "Dividir o cuidado das plantas sem regar duas vezes",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-guides--watering-houseplants.png",
+      "lang": "pt",
+      "title": "Como regar plantas de interior sem um calendário rígido",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-guides--when-to-repot-houseplants.png",
+      "lang": "pt",
+      "title": "Quando trocar uma planta de interior de vaso e como fazer isso com cuidado",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-guides--winter-houseplant-care.png",
+      "lang": "pt",
+      "title": "Cuidados no inverno com plantas de interior: luz, aquecimento e regas mais espaçadas",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-guides--yellow-houseplant-leaves.png",
+      "lang": "pt",
+      "title": "Folhas amarelas em plantas de interior: o que conferir antes de agir",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-legal.png",
+      "lang": "pt",
+      "title": "Informações legais",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-plants.png",
+      "lang": "pt",
+      "title": "Biblioteca de plantas de interior",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-plants--aloe-vera.png",
+      "lang": "pt",
+      "title": "Cuidados com a babosa (aloe vera)",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-plants--chlorophytum-comosum.png",
+      "lang": "pt",
+      "title": "Cuidados com o clorofito",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-plants--dracaena-trifasciata.png",
+      "lang": "pt",
+      "title": "Cuidados com a espada-de-são-jorge",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-plants--epipremnum-aureum.png",
+      "lang": "pt",
+      "title": "Cuidados com a jiboia",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-plants--ficus-elastica.png",
+      "lang": "pt",
+      "title": "Cuidados com a falsa-seringueira",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-plants--ficus-lyrata.png",
+      "lang": "pt",
+      "title": "Cuidados com a figueira-lira",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-plants--finder.png",
+      "lang": "pt",
+      "title": "Qual planta combina com você?",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-plants--goeppertia.png",
+      "lang": "pt",
+      "title": "Cuidados com a calathea",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-plants--monstera-deliciosa.png",
+      "lang": "pt",
+      "title": "Cuidados com a costela-de-adão",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-plants--phalaenopsis.png",
+      "lang": "pt",
+      "title": "Cuidados com a orquídea-borboleta (Phalaenopsis)",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-plants--philodendron-hederaceum.png",
+      "lang": "pt",
+      "title": "Cuidados com o filodendro-cordato",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-plants--spathiphyllum.png",
+      "lang": "pt",
+      "title": "Cuidados com o lírio-da-paz",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-plants--zamioculcas-zamiifolia.png",
+      "lang": "pt",
+      "title": "Cuidados com a zamioculca",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-press.png",
+      "lang": "pt",
+      "title": "Lilora para a imprensa",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-privacy.png",
+      "lang": "pt",
+      "title": "Política de privacidade",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/pt-support.png",
+      "lang": "pt",
+      "title": "Uma ajuda para suas plantas.",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/en-support.png",
+      "lang": "en",
+      "title": "A little help for your garden.",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-home.png",
+      "lang": "tr",
+      "title": "Birlikte yaşadığın bitkiler, ortak bir defter.",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-about.png",
+      "lang": "tr",
+      "title": "Lilora hakkında",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-blog.png",
+      "lang": "tr",
+      "title": "Lilora Blog: bitki bakımı yazıları",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-blog--autumn-plant-reset.png",
+      "lang": "tr",
+      "title": "Ev bitkileri için sonbahar düzeni: kısa bir kontrol listesi",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-blog--bottom-watering.png",
+      "lang": "tr",
+      "title": "Ev bitkilerini alttan sulamak: ne zaman işe yarar, ne zaman yaramaz",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-blog--brown-leaf-tips.png",
+      "lang": "tr",
+      "title": "Ev bitkilerinde kahverengi yaprak uçları: genellikle ne anlama gelir",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-blog--buying-a-healthy-houseplant.png",
+      "lang": "tr",
+      "title": "Sağlıklı bir ev bitkisi nasıl seçilir ve evde nasıl alıştırılır",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-blog--check-before-you-water.png",
+      "lang": "tr",
+      "title": "Lilora’nın hatırlatmaları neden “sula” değil “kontrol et” diyor",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-blog--cleaning-houseplant-leaves.png",
+      "lang": "tr",
+      "title": "Ev bitkilerinin yaprakları nasıl temizlenir (ve neden önemlidir)",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-blog--do-houseplants-purify-air.png",
+      "lang": "tr",
+      "title": "Ev bitkileri gerçekten iç mekân havasını temizler mi?",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-blog--grow-lights-for-houseplants.png",
+      "lang": "tr",
+      "title": "Ev bitkileri için bitki lambaları: basit bir başlangıç düzeni",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-blog--keeping-a-plant-care-journal.png",
+      "lang": "tr",
+      "title": "Bitki bakım günlüğü nasıl tutulur (kâğıtta veya uygulamada)",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-blog--leggy-houseplants.png",
+      "lang": "tr",
+      "title": "Boy atıp seyrelen ev bitkileri: neden uzarlar, nasıl toparlanır",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-blog--mold-on-houseplant-soil.png",
+      "lang": "tr",
+      "title": "Saksı toprağında beyaz küf: zararlı mı?",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-blog--moving-house-with-plants.png",
+      "lang": "tr",
+      "title": "Bitkilerle ev taşımak",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-blog--tap-water-for-houseplants.png",
+      "lang": "tr",
+      "title": "Ev bitkileri için musluk suyu uygun mu?",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-blog--terracotta-vs-plastic-pots.png",
+      "lang": "tr",
+      "title": "Toprak (terakota) mı plastik saksı mı: ev bitkileri için hangisi daha iyi?",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-compare.png",
+      "lang": "tr",
+      "title": "Bitki uygulaması karşılaştırmaları",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-compare--lilora-vs-picturethis.png",
+      "lang": "tr",
+      "title": "Lilora ve PictureThis: tanıma ve günlük bitki bakımı",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-compare--lilora-vs-planta.png",
+      "lang": "tr",
+      "title": "Lilora ve Planta: bakım rutinine göre seçim yapmak",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-contact.png",
+      "lang": "tr",
+      "title": "Lilora ile iletişim",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-download.png",
+      "lang": "tr",
+      "title": "Bitkilerin için ortak bir bakım defteri",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-editorial.png",
+      "lang": "tr",
+      "title": "Yayın ilkeleri",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-guides.png",
+      "lang": "tr",
+      "title": "Bitki bakım rehberleri",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-guides--fertilizing-houseplants.png",
+      "lang": "tr",
+      "title": "Ev bitkilerini beslemek: ne zaman, ne kadar ve ne zaman durmalı",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-guides--houseplant-humidity.png",
+      "lang": "tr",
+      "title": "Ev bitkileri için nem: ne işe yarar, ne yaramaz",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-guides--houseplant-pests.png",
+      "lang": "tr",
+      "title": "Ev bitkilerinde sık görülen zararlılar: mantar sineği, kırmızı örümcek, unlu bit, kabuklu bit ve trips",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-guides--indoor-plant-light-guide.png",
+      "lang": "tr",
+      "title": "Ev bitkilerinde ışık: doğru yeri seçme rehberi",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-guides--overwatering-vs-underwatering.png",
+      "lang": "tr",
+      "title": "Fazla mı suladın, az mı? Harekete geçmeden önce nasıl anlarsın",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-guides--pet-safe-houseplants.png",
+      "lang": "tr",
+      "title": "Ev bitkileri ve evcil hayvanlar: bitkiyi eve getirmeden önce neye bakmalı?",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-guides--potting-mix-and-drainage.png",
+      "lang": "tr",
+      "title": "Saksı harcı ve drenaj: saksının nelere ihtiyacı var",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-guides--propagating-cuttings.png",
+      "lang": "tr",
+      "title": "Ev bitkilerini çelikle çoğaltmak: suda mı, toprakta mı",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-guides--root-rot.png",
+      "lang": "tr",
+      "title": "Ev bitkilerinde kök çürüklüğü: belirtiler, nedenler ve yapılacaklar",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-guides--shared-plant-care.png",
+      "lang": "tr",
+      "title": "Bitki bakımını paylaşırken aynı bitkiyi iki kez sulama",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-guides--watering-houseplants.png",
+      "lang": "tr",
+      "title": "Ev bitkilerini sabit bir takvime bağlı kalmadan sulamak",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-guides--when-to-repot-houseplants.png",
+      "lang": "tr",
+      "title": "Saksı ne zaman değiştirilmeli, nasıl dikkatli yapılmalı?",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-guides--winter-houseplant-care.png",
+      "lang": "tr",
+      "title": "Kışın ev bitkisi bakımı: ışık, kalorifer ve daha seyrek sulama",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-guides--yellow-houseplant-leaves.png",
+      "lang": "tr",
+      "title": "Sararan yapraklar: bir şey yapmadan önce neleri kontrol etmeli?",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-legal.png",
+      "lang": "tr",
+      "title": "Yasal bilgiler",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-plants.png",
+      "lang": "tr",
+      "title": "Bitki kütüphanesi",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-plants--aloe-vera.png",
+      "lang": "tr",
+      "title": "Aloe vera (sarısabır) bakımı",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-plants--chlorophytum-comosum.png",
+      "lang": "tr",
+      "title": "Kurdele çiçeği bakımı",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-plants--dracaena-trifasciata.png",
+      "lang": "tr",
+      "title": "Paşa kılıcı bakımı",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-plants--epipremnum-aureum.png",
+      "lang": "tr",
+      "title": "Salon sarmaşığı (potos) bakımı",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-plants--ficus-elastica.png",
+      "lang": "tr",
+      "title": "Kauçuk bitkisi bakımı",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-plants--ficus-lyrata.png",
+      "lang": "tr",
+      "title": "Keman yapraklı kauçuk (Ficus lyrata) bakımı",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-plants--finder.png",
+      "lang": "tr",
+      "title": "Sana uygun bitki hangisi?",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-plants--goeppertia.png",
+      "lang": "tr",
+      "title": "Kalatya (Calathea) bakımı",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-plants--monstera-deliciosa.png",
+      "lang": "tr",
+      "title": "Deve tabanı (Monstera) bakımı",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-plants--phalaenopsis.png",
+      "lang": "tr",
+      "title": "Orkide (Phalaenopsis) bakımı",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-plants--philodendron-hederaceum.png",
+      "lang": "tr",
+      "title": "Kalp yapraklı filodendron bakımı",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-plants--spathiphyllum.png",
+      "lang": "tr",
+      "title": "Barış çiçeği (Spatifilum) bakımı",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-plants--zamioculcas-zamiifolia.png",
+      "lang": "tr",
+      "title": "ZZ bitkisi (Zamia) bakımı",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-press.png",
+      "lang": "tr",
+      "title": "Lilora basın kaynakları",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-privacy.png",
+      "lang": "tr",
+      "title": "Gizlilik politikası",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/tr-support.png",
+      "lang": "tr",
+      "title": "Bitkilerin için biraz yardım.",
+      "retainedOriginal": true
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-home.png",
+      "lang": "zh-Hant",
+      "title": "一起記錄植物的生活與照護。",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-about.png",
+      "lang": "zh-Hant",
+      "title": "關於 Lilora",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-blog.png",
+      "lang": "zh-Hant",
+      "title": "Lilora 網誌：室內植物照護文章",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-blog--autumn-plant-reset.png",
+      "lang": "zh-Hant",
+      "title": "室內植物的秋季調整清單",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-blog--bottom-watering.png",
+      "lang": "zh-Hant",
+      "title": "底部澆水：何時有用，何時不適合",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-blog--brown-leaf-tips.png",
+      "lang": "zh-Hant",
+      "title": "室內植物葉尖變褐通常代表什麼",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-blog--buying-a-healthy-houseplant.png",
+      "lang": "zh-Hant",
+      "title": "如何挑選健康室內植物並安頓新家",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-blog--check-before-you-water.png",
+      "lang": "zh-Hant",
+      "title": "為什麼 Lilora 的提醒說「檢查」",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-blog--cleaning-houseplant-leaves.png",
+      "lang": "zh-Hant",
+      "title": "如何清潔室內植物葉片，為什麼重要",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-blog--do-houseplants-purify-air.png",
+      "lang": "zh-Hant",
+      "title": "室內植物真的能淨化空氣嗎？",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-blog--grow-lights-for-houseplants.png",
+      "lang": "zh-Hant",
+      "title": "室內植物燈：簡單的入門配置",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-blog--keeping-a-plant-care-journal.png",
+      "lang": "zh-Hant",
+      "title": "如何寫植物照護日誌：紙本或應用程式",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-blog--leggy-houseplants.png",
+      "lang": "zh-Hant",
+      "title": "室內植物徒長：原因與改善方法",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-blog--mold-on-houseplant-soil.png",
+      "lang": "zh-Hant",
+      "title": "盆栽介質上的白黴有害嗎？",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-blog--moving-house-with-plants.png",
+      "lang": "zh-Hant",
+      "title": "帶著植物搬家",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-blog--tap-water-for-houseplants.png",
+      "lang": "zh-Hant",
+      "title": "自來水適合澆室內植物嗎？",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-blog--terracotta-vs-plastic-pots.png",
+      "lang": "zh-Hant",
+      "title": "赤陶盆還是塑膠盆：室內植物怎麼選",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-compare.png",
+      "lang": "zh-Hant",
+      "title": "植物應用程式比較",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-compare--lilora-vs-picturethis.png",
+      "lang": "zh-Hant",
+      "title": "Lilora 與 PictureThis：辨識與日常植物照護",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-compare--lilora-vs-planta.png",
+      "lang": "zh-Hant",
+      "title": "Lilora 與 Planta：選擇植物照護流程",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-contact.png",
+      "lang": "zh-Hant",
+      "title": "聯絡 Lilora",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-download.png",
+      "lang": "zh-Hant",
+      "title": "一起記錄植物的生活與照護",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-editorial.png",
+      "lang": "zh-Hant",
+      "title": "編輯原則",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-guides.png",
+      "lang": "zh-Hant",
+      "title": "室內植物照護指南",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-guides--fertilizing-houseplants.png",
+      "lang": "zh-Hant",
+      "title": "室內植物施肥：時機、用量與停肥",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-guides--houseplant-humidity.png",
+      "lang": "zh-Hant",
+      "title": "室內植物濕度：哪些方法有幫助",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-guides--houseplant-pests.png",
+      "lang": "zh-Hant",
+      "title": "常見室內植物害蟲：蕈蚋、葉蟎與介殼蟲等",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-guides--indoor-plant-light-guide.png",
+      "lang": "zh-Hant",
+      "title": "室內植物光線：選擇位置的入門指南",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-guides--overwatering-vs-underwatering.png",
+      "lang": "zh-Hant",
+      "title": "水太多還是太少？行動前先分辨",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-guides--pet-safe-houseplants.png",
+      "lang": "zh-Hant",
+      "title": "植物與寵物：帶新植物回家前先查什麼",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-guides--potting-mix-and-drainage.png",
+      "lang": "zh-Hant",
+      "title": "介質與排水：花盆真正需要什麼",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-guides--propagating-cuttings.png",
+      "lang": "zh-Hant",
+      "title": "室內植物扦插繁殖：水培或介質",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-guides--root-rot.png",
+      "lang": "zh-Hant",
+      "title": "室內植物爛根：跡象、原因與處理",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-guides--shared-plant-care.png",
+      "lang": "zh-Hant",
+      "title": "共同照護植物，避免重複澆水",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-guides--watering-houseplants.png",
+      "lang": "zh-Hant",
+      "title": "不靠固定日程，如何替室內植物澆水",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-guides--when-to-repot-houseplants.png",
+      "lang": "zh-Hant",
+      "title": "何時換盆，以及如何小心操作",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-guides--winter-houseplant-care.png",
+      "lang": "zh-Hant",
+      "title": "冬季室內植物照護：光線、暖氣與減緩澆水",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 3
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-guides--yellow-houseplant-leaves.png",
+      "lang": "zh-Hant",
+      "title": "室內植物黃葉：行動前先檢查什麼",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-legal.png",
+      "lang": "zh-Hant",
+      "title": "法律聲明",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-plants.png",
+      "lang": "zh-Hant",
+      "title": "室內植物圖鑑",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-plants--aloe-vera.png",
+      "lang": "zh-Hant",
+      "title": "蘆薈照護",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-plants--chlorophytum-comosum.png",
+      "lang": "zh-Hant",
+      "title": "吊蘭照護",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-plants--dracaena-trifasciata.png",
+      "lang": "zh-Hant",
+      "title": "虎尾蘭照護",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-plants--epipremnum-aureum.png",
+      "lang": "zh-Hant",
+      "title": "黃金葛照護",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-plants--ficus-elastica.png",
+      "lang": "zh-Hant",
+      "title": "橡膠樹照護",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-plants--ficus-lyrata.png",
+      "lang": "zh-Hant",
+      "title": "琴葉榕照護",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-plants--finder.png",
+      "lang": "zh-Hant",
+      "title": "哪種室內植物適合您？",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-plants--goeppertia.png",
+      "lang": "zh-Hant",
+      "title": "竹芋照護",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-plants--monstera-deliciosa.png",
+      "lang": "zh-Hant",
+      "title": "龜背芋照護",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-plants--phalaenopsis.png",
+      "lang": "zh-Hant",
+      "title": "蝴蝶蘭照護",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-plants--philodendron-hederaceum.png",
+      "lang": "zh-Hant",
+      "title": "心葉蔓綠絨照護",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-plants--spathiphyllum.png",
+      "lang": "zh-Hant",
+      "title": "白鶴芋照護",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-plants--zamioculcas-zamiifolia.png",
+      "lang": "zh-Hant",
+      "title": "金錢樹照護",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-press.png",
+      "lang": "zh-Hant",
+      "title": "Lilora 媒體資源",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-privacy.png",
+      "lang": "zh-Hant",
+      "title": "隱私權政策",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 1
+    },
+    {
+      "file": "assets/brand/share/zh-Hant-support.png",
+      "lang": "zh-Hant",
+      "title": "為您的綠意生活提供一點協助。",
+      "font": "CJK",
+      "fontSize": 68,
+      "lines": 2
+    }
+  ],
+  "counts": {
+    "qr": 40,
+    "pdf": 20,
+    "share": 571,
+    "icon": 1,
+    "retained": 368,
+    "generated": 264
+  },
+  "preservation": {
+    "gitCommit": "eb32a28b52fc6d6444c9e2b8407df9f2a84364da",
+    "shareInputsCompared": [
+      "image",
+      "lang",
+      "title",
+      "description"
+    ],
+    "retainedSharePng": 343,
+    "retainedQrSvg": 16,
+    "retainedPdf": 8,
+    "retainedTouchIcon": 1,
+    "retainedFiles": [
+      "assets/brand/share/en-default.png",
+      "assets/brand/share/tr-default.png",
+      "assets/brand/share/es-default.png",
+      "assets/brand/share/de-default.png",
+      "assets/brand/share/pt-default.png",
+      "assets/brand/share/fr-default.png",
+      "assets/brand/share/en-home.png",
+      "assets/brand/share/en-404.png",
+      "assets/brand/share/en-about.png",
+      "assets/brand/share/en-blog.png",
+      "assets/brand/share/en-blog--autumn-plant-reset.png",
+      "assets/brand/share/en-blog--bottom-watering.png",
+      "assets/brand/share/en-blog--brown-leaf-tips.png",
+      "assets/brand/share/en-blog--buying-a-healthy-houseplant.png",
+      "assets/brand/share/en-blog--check-before-you-water.png",
+      "assets/brand/share/en-blog--cleaning-houseplant-leaves.png",
+      "assets/brand/share/en-blog--do-houseplants-purify-air.png",
+      "assets/brand/share/en-blog--grow-lights-for-houseplants.png",
+      "assets/brand/share/en-blog--keeping-a-plant-care-journal.png",
+      "assets/brand/share/en-blog--leggy-houseplants.png",
+      "assets/brand/share/en-blog--mold-on-houseplant-soil.png",
+      "assets/brand/share/en-blog--moving-house-with-plants.png",
+      "assets/brand/share/en-blog--tap-water-for-houseplants.png",
+      "assets/brand/share/en-blog--terracotta-vs-plastic-pots.png",
+      "assets/brand/share/en-compare.png",
+      "assets/brand/share/en-compare--lilora-vs-picturethis.png",
+      "assets/brand/share/en-compare--lilora-vs-planta.png",
+      "assets/brand/share/en-contact.png",
+      "assets/brand/share/de-home.png",
+      "assets/brand/share/de-about.png",
+      "assets/brand/share/de-blog.png",
+      "assets/brand/share/de-blog--autumn-plant-reset.png",
+      "assets/brand/share/de-blog--bottom-watering.png",
+      "assets/brand/share/de-blog--brown-leaf-tips.png",
+      "assets/brand/share/de-blog--buying-a-healthy-houseplant.png",
+      "assets/brand/share/de-blog--check-before-you-water.png",
+      "assets/brand/share/de-blog--cleaning-houseplant-leaves.png",
+      "assets/brand/share/de-blog--do-houseplants-purify-air.png",
+      "assets/brand/share/de-blog--grow-lights-for-houseplants.png",
+      "assets/brand/share/de-blog--keeping-a-plant-care-journal.png",
+      "assets/brand/share/de-blog--leggy-houseplants.png",
+      "assets/brand/share/de-blog--mold-on-houseplant-soil.png",
+      "assets/brand/share/de-blog--moving-house-with-plants.png",
+      "assets/brand/share/de-blog--tap-water-for-houseplants.png",
+      "assets/brand/share/de-blog--terracotta-vs-plastic-pots.png",
+      "assets/brand/share/de-compare.png",
+      "assets/brand/share/de-compare--lilora-vs-picturethis.png",
+      "assets/brand/share/de-compare--lilora-vs-planta.png",
+      "assets/brand/share/de-contact.png",
+      "assets/brand/share/de-download.png",
+      "assets/brand/share/de-editorial.png",
+      "assets/brand/share/de-guides.png",
+      "assets/brand/share/de-guides--fertilizing-houseplants.png",
+      "assets/brand/share/de-guides--houseplant-humidity.png",
+      "assets/brand/share/de-guides--houseplant-pests.png",
+      "assets/brand/share/de-guides--indoor-plant-light-guide.png",
+      "assets/brand/share/de-guides--overwatering-vs-underwatering.png",
+      "assets/brand/share/de-guides--pet-safe-houseplants.png",
+      "assets/brand/share/de-guides--potting-mix-and-drainage.png",
+      "assets/brand/share/de-guides--propagating-cuttings.png",
+      "assets/brand/share/de-guides--root-rot.png",
+      "assets/brand/share/de-guides--shared-plant-care.png",
+      "assets/brand/share/de-guides--watering-houseplants.png",
+      "assets/brand/share/de-guides--when-to-repot-houseplants.png",
+      "assets/brand/share/de-guides--winter-houseplant-care.png",
+      "assets/brand/share/de-guides--yellow-houseplant-leaves.png",
+      "assets/brand/share/de-legal.png",
+      "assets/brand/share/de-plants.png",
+      "assets/brand/share/de-plants--aloe-vera.png",
+      "assets/brand/share/de-plants--chlorophytum-comosum.png",
+      "assets/brand/share/de-plants--dracaena-trifasciata.png",
+      "assets/brand/share/de-plants--epipremnum-aureum.png",
+      "assets/brand/share/de-plants--ficus-elastica.png",
+      "assets/brand/share/de-plants--ficus-lyrata.png",
+      "assets/brand/share/de-plants--finder.png",
+      "assets/brand/share/de-plants--goeppertia.png",
+      "assets/brand/share/de-plants--monstera-deliciosa.png",
+      "assets/brand/share/de-plants--phalaenopsis.png",
+      "assets/brand/share/de-plants--philodendron-hederaceum.png",
+      "assets/brand/share/de-plants--spathiphyllum.png",
+      "assets/brand/share/de-plants--zamioculcas-zamiifolia.png",
+      "assets/brand/share/de-press.png",
+      "assets/brand/share/de-privacy.png",
+      "assets/brand/share/de-support.png",
+      "assets/brand/share/en-download.png",
+      "assets/brand/share/en-editorial.png",
+      "assets/brand/share/es-home.png",
+      "assets/brand/share/es-about.png",
+      "assets/brand/share/es-blog.png",
+      "assets/brand/share/es-blog--autumn-plant-reset.png",
+      "assets/brand/share/es-blog--bottom-watering.png",
+      "assets/brand/share/es-blog--brown-leaf-tips.png",
+      "assets/brand/share/es-blog--buying-a-healthy-houseplant.png",
+      "assets/brand/share/es-blog--check-before-you-water.png",
+      "assets/brand/share/es-blog--cleaning-houseplant-leaves.png",
+      "assets/brand/share/es-blog--do-houseplants-purify-air.png",
+      "assets/brand/share/es-blog--grow-lights-for-houseplants.png",
+      "assets/brand/share/es-blog--keeping-a-plant-care-journal.png",
+      "assets/brand/share/es-blog--leggy-houseplants.png",
+      "assets/brand/share/es-blog--mold-on-houseplant-soil.png",
+      "assets/brand/share/es-blog--moving-house-with-plants.png",
+      "assets/brand/share/es-blog--tap-water-for-houseplants.png",
+      "assets/brand/share/es-blog--terracotta-vs-plastic-pots.png",
+      "assets/brand/share/es-compare.png",
+      "assets/brand/share/es-compare--lilora-vs-picturethis.png",
+      "assets/brand/share/es-compare--lilora-vs-planta.png",
+      "assets/brand/share/es-contact.png",
+      "assets/brand/share/es-download.png",
+      "assets/brand/share/es-editorial.png",
+      "assets/brand/share/es-guides.png",
+      "assets/brand/share/es-guides--fertilizing-houseplants.png",
+      "assets/brand/share/es-guides--houseplant-humidity.png",
+      "assets/brand/share/es-guides--houseplant-pests.png",
+      "assets/brand/share/es-guides--indoor-plant-light-guide.png",
+      "assets/brand/share/es-guides--overwatering-vs-underwatering.png",
+      "assets/brand/share/es-guides--pet-safe-houseplants.png",
+      "assets/brand/share/es-guides--potting-mix-and-drainage.png",
+      "assets/brand/share/es-guides--propagating-cuttings.png",
+      "assets/brand/share/es-guides--root-rot.png",
+      "assets/brand/share/es-guides--shared-plant-care.png",
+      "assets/brand/share/es-guides--watering-houseplants.png",
+      "assets/brand/share/es-guides--when-to-repot-houseplants.png",
+      "assets/brand/share/es-guides--winter-houseplant-care.png",
+      "assets/brand/share/es-guides--yellow-houseplant-leaves.png",
+      "assets/brand/share/es-legal.png",
+      "assets/brand/share/es-plants.png",
+      "assets/brand/share/es-plants--aloe-vera.png",
+      "assets/brand/share/es-plants--chlorophytum-comosum.png",
+      "assets/brand/share/es-plants--dracaena-trifasciata.png",
+      "assets/brand/share/es-plants--epipremnum-aureum.png",
+      "assets/brand/share/es-plants--ficus-elastica.png",
+      "assets/brand/share/es-plants--ficus-lyrata.png",
+      "assets/brand/share/es-plants--finder.png",
+      "assets/brand/share/es-plants--goeppertia.png",
+      "assets/brand/share/es-plants--monstera-deliciosa.png",
+      "assets/brand/share/es-plants--phalaenopsis.png",
+      "assets/brand/share/es-plants--philodendron-hederaceum.png",
+      "assets/brand/share/es-plants--spathiphyllum.png",
+      "assets/brand/share/es-plants--zamioculcas-zamiifolia.png",
+      "assets/brand/share/es-press.png",
+      "assets/brand/share/es-privacy.png",
+      "assets/brand/share/es-support.png",
+      "assets/brand/share/fr-home.png",
+      "assets/brand/share/fr-about.png",
+      "assets/brand/share/fr-blog.png",
+      "assets/brand/share/fr-blog--autumn-plant-reset.png",
+      "assets/brand/share/fr-blog--bottom-watering.png",
+      "assets/brand/share/fr-blog--brown-leaf-tips.png",
+      "assets/brand/share/fr-blog--buying-a-healthy-houseplant.png",
+      "assets/brand/share/fr-blog--check-before-you-water.png",
+      "assets/brand/share/fr-blog--cleaning-houseplant-leaves.png",
+      "assets/brand/share/fr-blog--do-houseplants-purify-air.png",
+      "assets/brand/share/fr-blog--grow-lights-for-houseplants.png",
+      "assets/brand/share/fr-blog--keeping-a-plant-care-journal.png",
+      "assets/brand/share/fr-blog--leggy-houseplants.png",
+      "assets/brand/share/fr-blog--mold-on-houseplant-soil.png",
+      "assets/brand/share/fr-blog--moving-house-with-plants.png",
+      "assets/brand/share/fr-blog--tap-water-for-houseplants.png",
+      "assets/brand/share/fr-blog--terracotta-vs-plastic-pots.png",
+      "assets/brand/share/fr-compare.png",
+      "assets/brand/share/fr-compare--lilora-vs-picturethis.png",
+      "assets/brand/share/fr-compare--lilora-vs-planta.png",
+      "assets/brand/share/fr-contact.png",
+      "assets/brand/share/fr-download.png",
+      "assets/brand/share/fr-editorial.png",
+      "assets/brand/share/fr-guides.png",
+      "assets/brand/share/fr-guides--fertilizing-houseplants.png",
+      "assets/brand/share/fr-guides--houseplant-humidity.png",
+      "assets/brand/share/fr-guides--houseplant-pests.png",
+      "assets/brand/share/fr-guides--indoor-plant-light-guide.png",
+      "assets/brand/share/fr-guides--overwatering-vs-underwatering.png",
+      "assets/brand/share/fr-guides--pet-safe-houseplants.png",
+      "assets/brand/share/fr-guides--potting-mix-and-drainage.png",
+      "assets/brand/share/fr-guides--propagating-cuttings.png",
+      "assets/brand/share/fr-guides--root-rot.png",
+      "assets/brand/share/fr-guides--shared-plant-care.png",
+      "assets/brand/share/fr-guides--watering-houseplants.png",
+      "assets/brand/share/fr-guides--when-to-repot-houseplants.png",
+      "assets/brand/share/fr-guides--winter-houseplant-care.png",
+      "assets/brand/share/fr-guides--yellow-houseplant-leaves.png",
+      "assets/brand/share/fr-legal.png",
+      "assets/brand/share/fr-plants.png",
+      "assets/brand/share/fr-plants--aloe-vera.png",
+      "assets/brand/share/fr-plants--chlorophytum-comosum.png",
+      "assets/brand/share/fr-plants--dracaena-trifasciata.png",
+      "assets/brand/share/fr-plants--epipremnum-aureum.png",
+      "assets/brand/share/fr-plants--ficus-elastica.png",
+      "assets/brand/share/fr-plants--ficus-lyrata.png",
+      "assets/brand/share/fr-plants--finder.png",
+      "assets/brand/share/fr-plants--goeppertia.png",
+      "assets/brand/share/fr-plants--monstera-deliciosa.png",
+      "assets/brand/share/fr-plants--phalaenopsis.png",
+      "assets/brand/share/fr-plants--philodendron-hederaceum.png",
+      "assets/brand/share/fr-plants--spathiphyllum.png",
+      "assets/brand/share/fr-plants--zamioculcas-zamiifolia.png",
+      "assets/brand/share/fr-press.png",
+      "assets/brand/share/fr-privacy.png",
+      "assets/brand/share/fr-support.png",
+      "assets/brand/share/en-guides.png",
+      "assets/brand/share/en-guides--fertilizing-houseplants.png",
+      "assets/brand/share/en-guides--houseplant-humidity.png",
+      "assets/brand/share/en-guides--houseplant-pests.png",
+      "assets/brand/share/en-guides--indoor-plant-light-guide.png",
+      "assets/brand/share/en-guides--overwatering-vs-underwatering.png",
+      "assets/brand/share/en-guides--pet-safe-houseplants.png",
+      "assets/brand/share/en-guides--potting-mix-and-drainage.png",
+      "assets/brand/share/en-guides--propagating-cuttings.png",
+      "assets/brand/share/en-guides--root-rot.png",
+      "assets/brand/share/en-guides--shared-plant-care.png",
+      "assets/brand/share/en-guides--watering-houseplants.png",
+      "assets/brand/share/en-guides--when-to-repot-houseplants.png",
+      "assets/brand/share/en-guides--winter-houseplant-care.png",
+      "assets/brand/share/en-guides--yellow-houseplant-leaves.png",
+      "assets/brand/share/en-legal.png",
+      "assets/brand/share/en-plants.png",
+      "assets/brand/share/en-plants--aloe-vera.png",
+      "assets/brand/share/en-plants--chlorophytum-comosum.png",
+      "assets/brand/share/en-plants--dracaena-trifasciata.png",
+      "assets/brand/share/en-plants--epipremnum-aureum.png",
+      "assets/brand/share/en-plants--ficus-elastica.png",
+      "assets/brand/share/en-plants--ficus-lyrata.png",
+      "assets/brand/share/en-plants--finder.png",
+      "assets/brand/share/en-plants--goeppertia.png",
+      "assets/brand/share/en-plants--monstera-deliciosa.png",
+      "assets/brand/share/en-plants--phalaenopsis.png",
+      "assets/brand/share/en-plants--philodendron-hederaceum.png",
+      "assets/brand/share/en-plants--spathiphyllum.png",
+      "assets/brand/share/en-plants--zamioculcas-zamiifolia.png",
+      "assets/brand/share/en-press.png",
+      "assets/brand/share/en-privacy.png",
+      "assets/brand/share/pt-home.png",
+      "assets/brand/share/pt-about.png",
+      "assets/brand/share/pt-blog.png",
+      "assets/brand/share/pt-blog--autumn-plant-reset.png",
+      "assets/brand/share/pt-blog--bottom-watering.png",
+      "assets/brand/share/pt-blog--brown-leaf-tips.png",
+      "assets/brand/share/pt-blog--buying-a-healthy-houseplant.png",
+      "assets/brand/share/pt-blog--check-before-you-water.png",
+      "assets/brand/share/pt-blog--cleaning-houseplant-leaves.png",
+      "assets/brand/share/pt-blog--do-houseplants-purify-air.png",
+      "assets/brand/share/pt-blog--grow-lights-for-houseplants.png",
+      "assets/brand/share/pt-blog--keeping-a-plant-care-journal.png",
+      "assets/brand/share/pt-blog--leggy-houseplants.png",
+      "assets/brand/share/pt-blog--mold-on-houseplant-soil.png",
+      "assets/brand/share/pt-blog--moving-house-with-plants.png",
+      "assets/brand/share/pt-blog--tap-water-for-houseplants.png",
+      "assets/brand/share/pt-blog--terracotta-vs-plastic-pots.png",
+      "assets/brand/share/pt-compare.png",
+      "assets/brand/share/pt-compare--lilora-vs-picturethis.png",
+      "assets/brand/share/pt-compare--lilora-vs-planta.png",
+      "assets/brand/share/pt-contact.png",
+      "assets/brand/share/pt-download.png",
+      "assets/brand/share/pt-editorial.png",
+      "assets/brand/share/pt-guides.png",
+      "assets/brand/share/pt-guides--fertilizing-houseplants.png",
+      "assets/brand/share/pt-guides--houseplant-humidity.png",
+      "assets/brand/share/pt-guides--houseplant-pests.png",
+      "assets/brand/share/pt-guides--indoor-plant-light-guide.png",
+      "assets/brand/share/pt-guides--overwatering-vs-underwatering.png",
+      "assets/brand/share/pt-guides--pet-safe-houseplants.png",
+      "assets/brand/share/pt-guides--potting-mix-and-drainage.png",
+      "assets/brand/share/pt-guides--propagating-cuttings.png",
+      "assets/brand/share/pt-guides--root-rot.png",
+      "assets/brand/share/pt-guides--shared-plant-care.png",
+      "assets/brand/share/pt-guides--watering-houseplants.png",
+      "assets/brand/share/pt-guides--when-to-repot-houseplants.png",
+      "assets/brand/share/pt-guides--winter-houseplant-care.png",
+      "assets/brand/share/pt-guides--yellow-houseplant-leaves.png",
+      "assets/brand/share/pt-legal.png",
+      "assets/brand/share/pt-plants.png",
+      "assets/brand/share/pt-plants--aloe-vera.png",
+      "assets/brand/share/pt-plants--chlorophytum-comosum.png",
+      "assets/brand/share/pt-plants--dracaena-trifasciata.png",
+      "assets/brand/share/pt-plants--epipremnum-aureum.png",
+      "assets/brand/share/pt-plants--ficus-elastica.png",
+      "assets/brand/share/pt-plants--ficus-lyrata.png",
+      "assets/brand/share/pt-plants--finder.png",
+      "assets/brand/share/pt-plants--goeppertia.png",
+      "assets/brand/share/pt-plants--monstera-deliciosa.png",
+      "assets/brand/share/pt-plants--phalaenopsis.png",
+      "assets/brand/share/pt-plants--philodendron-hederaceum.png",
+      "assets/brand/share/pt-plants--spathiphyllum.png",
+      "assets/brand/share/pt-plants--zamioculcas-zamiifolia.png",
+      "assets/brand/share/pt-press.png",
+      "assets/brand/share/pt-privacy.png",
+      "assets/brand/share/pt-support.png",
+      "assets/brand/share/en-support.png",
+      "assets/brand/share/tr-home.png",
+      "assets/brand/share/tr-about.png",
+      "assets/brand/share/tr-blog.png",
+      "assets/brand/share/tr-blog--autumn-plant-reset.png",
+      "assets/brand/share/tr-blog--bottom-watering.png",
+      "assets/brand/share/tr-blog--brown-leaf-tips.png",
+      "assets/brand/share/tr-blog--buying-a-healthy-houseplant.png",
+      "assets/brand/share/tr-blog--check-before-you-water.png",
+      "assets/brand/share/tr-blog--cleaning-houseplant-leaves.png",
+      "assets/brand/share/tr-blog--do-houseplants-purify-air.png",
+      "assets/brand/share/tr-blog--grow-lights-for-houseplants.png",
+      "assets/brand/share/tr-blog--keeping-a-plant-care-journal.png",
+      "assets/brand/share/tr-blog--leggy-houseplants.png",
+      "assets/brand/share/tr-blog--mold-on-houseplant-soil.png",
+      "assets/brand/share/tr-blog--moving-house-with-plants.png",
+      "assets/brand/share/tr-blog--tap-water-for-houseplants.png",
+      "assets/brand/share/tr-blog--terracotta-vs-plastic-pots.png",
+      "assets/brand/share/tr-compare.png",
+      "assets/brand/share/tr-compare--lilora-vs-picturethis.png",
+      "assets/brand/share/tr-compare--lilora-vs-planta.png",
+      "assets/brand/share/tr-contact.png",
+      "assets/brand/share/tr-download.png",
+      "assets/brand/share/tr-editorial.png",
+      "assets/brand/share/tr-guides.png",
+      "assets/brand/share/tr-guides--fertilizing-houseplants.png",
+      "assets/brand/share/tr-guides--houseplant-humidity.png",
+      "assets/brand/share/tr-guides--houseplant-pests.png",
+      "assets/brand/share/tr-guides--indoor-plant-light-guide.png",
+      "assets/brand/share/tr-guides--overwatering-vs-underwatering.png",
+      "assets/brand/share/tr-guides--pet-safe-houseplants.png",
+      "assets/brand/share/tr-guides--potting-mix-and-drainage.png",
+      "assets/brand/share/tr-guides--propagating-cuttings.png",
+      "assets/brand/share/tr-guides--root-rot.png",
+      "assets/brand/share/tr-guides--shared-plant-care.png",
+      "assets/brand/share/tr-guides--watering-houseplants.png",
+      "assets/brand/share/tr-guides--when-to-repot-houseplants.png",
+      "assets/brand/share/tr-guides--winter-houseplant-care.png",
+      "assets/brand/share/tr-guides--yellow-houseplant-leaves.png",
+      "assets/brand/share/tr-legal.png",
+      "assets/brand/share/tr-plants.png",
+      "assets/brand/share/tr-plants--aloe-vera.png",
+      "assets/brand/share/tr-plants--chlorophytum-comosum.png",
+      "assets/brand/share/tr-plants--dracaena-trifasciata.png",
+      "assets/brand/share/tr-plants--epipremnum-aureum.png",
+      "assets/brand/share/tr-plants--ficus-elastica.png",
+      "assets/brand/share/tr-plants--ficus-lyrata.png",
+      "assets/brand/share/tr-plants--finder.png",
+      "assets/brand/share/tr-plants--goeppertia.png",
+      "assets/brand/share/tr-plants--monstera-deliciosa.png",
+      "assets/brand/share/tr-plants--phalaenopsis.png",
+      "assets/brand/share/tr-plants--philodendron-hederaceum.png",
+      "assets/brand/share/tr-plants--spathiphyllum.png",
+      "assets/brand/share/tr-plants--zamioculcas-zamiifolia.png",
+      "assets/brand/share/tr-press.png",
+      "assets/brand/share/tr-privacy.png",
+      "assets/brand/share/tr-support.png",
+      "assets/brand/qr/es-home.svg",
+      "assets/brand/qr/es-download.svg",
+      "assets/brand/qr/es-a6.svg",
+      "assets/brand/qr/es-a4.svg",
+      "assets/brand/qr/de-home.svg",
+      "assets/brand/qr/de-download.svg",
+      "assets/brand/qr/de-a6.svg",
+      "assets/brand/qr/de-a4.svg",
+      "assets/brand/qr/pt-home.svg",
+      "assets/brand/qr/pt-download.svg",
+      "assets/brand/qr/pt-a6.svg",
+      "assets/brand/qr/pt-a4.svg",
+      "assets/brand/qr/fr-home.svg",
+      "assets/brand/qr/fr-download.svg",
+      "assets/brand/qr/fr-a6.svg",
+      "assets/brand/qr/fr-a4.svg",
+      "assets/brand/print/lilora-es-a6.pdf",
+      "assets/brand/print/lilora-es-a4.pdf",
+      "assets/brand/print/lilora-de-a6.pdf",
+      "assets/brand/print/lilora-de-a4.pdf",
+      "assets/brand/print/lilora-pt-a6.pdf",
+      "assets/brand/print/lilora-pt-a4.pdf",
+      "assets/brand/print/lilora-fr-a6.pdf",
+      "assets/brand/print/lilora-fr-a4.pdf",
+      "assets/apple-touch-icon.png"
+    ],
+    "fingerprints": "Original fingerprints retained for original bytes; generated assets retain portable fingerprints."
+  },
+  "finalValidation": {
+    "allPngFullyDecoded": 571,
+    "touchIconDimensions": [
+      180,
+      180
+    ],
+    "svgPayloadsDecoded": 40,
+    "pdfPayloadsDecoded": 20,
+    "onePagePdfs": 20,
+    "unchangedExistingInputsPreserved": true
+  },
+  "rendererSha256": "cc40463a71d6074023120568926cf657deac83e12089e7c39748057b1bd061be",
+  "cjkFont": {
+    "file": "assets/fonts/DroidSansFallback.ttf",
+    "bytes": 3556308,
+    "sha256": "ee38813ea00c3e32add4268fff7fff9e39417b4913cb13be2415164a47807cc2",
+    "license": "Apache-2.0",
+    "provenance": "Unmodified fitz.Font(\"cjk\").buffer from local PyMuPDF 1.26.6; see assets/fonts/README.md."
+  },
+  "verificationCommand": "python3 scripts/promotion-assets-portable.py --verify-only",
+  "pngWrites": "Complete encoded buffers are published by atomic rename; final validation loads all pixels.",
+  "limitations": [
+    "QR decoding validates clean rendered export pixels, not physical camera scans.",
+    "Portable Latin body typography uses locally installed DejaVu Sans; unchanged existing Chromium assets were preserved.",
+    "The npm/Chromium/jsQR promotion test was unavailable; equivalent offline rendered-pixel, text, media-box and image checks passed."
+  ]
+}

@@ -9,6 +9,7 @@ import {
 import { dirname } from "node:path";
 import { execFileSync } from "node:child_process";
 import { sharedCareDiagram } from "./shared-care-diagram.mjs";
+import { readingMinutes } from "./reading-time.mjs";
 import {
   promotionCopy,
   shareImagePath,
@@ -195,11 +196,9 @@ const coverOf = (a) =>
     ? `/assets/images/covers/${a.slug}.svg`
     : "";
 const topicLabel = (a, t) => (a.type === "post" ? t.blogCategories : t.guideCategories)[a.category] || "";
-const readingMinutes = (c) =>
-  Math.max(1, Math.round([c.answerHtml, ...c.sections.map((x) => x.html)].join(" ").replace(/<[^>]+>/g, " ").split(/\s+/).filter(Boolean).length / 220));
 const postCard = (a, l, size = "card") => {
   const c = a[l], t = locales[l], cover = coverOf(a), h = size === "feature" ? "h2" : "h3";
-  return `<article class="post-card post-card-${size}" lang="${htmlLang(l)}"><a href="${articlePath(a, l)}">${cover ? `<span class="post-cover"><img src="${cover}" width="1200" height="675" alt="" aria-hidden="true" ${size === "feature" ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"></span>` : ""}<span class="post-meta">${topicLabel(a, t) ? `<span class="post-topic">${escape(topicLabel(a, t))}</span>` : ""}<span>${escape(t.minRead.replace("{n}", readingMinutes(c)))}</span></span><${h}>${escape(c.title)}</${h}>${size === "mini" ? "" : `<span class="post-excerpt">${escape(c.description)}</span>`}</a></article>`;
+  return `<article class="post-card post-card-${size}" lang="${htmlLang(l)}"><a href="${articlePath(a, l)}">${cover ? `<span class="post-cover"><img src="${cover}" width="1200" height="675" alt="" aria-hidden="true" ${size === "feature" ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"></span>` : ""}<span class="post-meta">${topicLabel(a, t) ? `<span class="post-topic">${escape(topicLabel(a, t))}</span>` : ""}<span>${escape(t.minRead.replace("{n}", readingMinutes(c, l)))}</span></span><${h}>${escape(c.title)}</${h}>${size === "mini" ? "" : `<span class="post-excerpt">${escape(c.description)}</span>`}</a></article>`;
 };
 // "Summarize with" row: plain links that open each assistant with a visible prompt
 // naming the canonical URL. No script, no tracking, nothing hidden in the page.

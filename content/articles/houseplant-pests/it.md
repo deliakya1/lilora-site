@@ -55,7 +55,7 @@ Non abbiamo aggiunto fotografie qui. Il riconoscimento richiede immagini accurat
 3. Annota data, parassita, intervento e ciò che osservi una settimana dopo.
 4. Ripeti i controlli: un solo intervento raramente elimina del tutto un’infestazione.
 
-Prodotti, principi attivi e usi consentiti cambiano da paese a paese. Non forniamo dosi: l’etichetta del prodotto acquistato è l’unica istruzione affidabile. Tieni i prodotti lontani da bambini e animali; in caso di ingestione contatta un medico o un veterinario. In Turchia le persone possono chiamare il centro antiveleni 114 (UZEM). Queste sono informazioni generali, non consigli medici o veterinari.
+Prodotti, principi attivi e usi consentiti cambiano da paese a paese. Non forniamo dosi: l’etichetta del prodotto acquistato è l’unica istruzione affidabile. Tieni i prodotti lontani da bambini e animali; in caso di ingestione contatta un medico o un veterinario. Per le persone, contatta il centro antiveleni locale; per gli animali, rivolgiti a un veterinario o a un servizio antiveleni veterinario. Queste sono informazioni generali, non consigli medici o veterinari.
 
 Se la pianta presenta anche foglie gialle, consulta [foglie gialle delle piante da appartamento](/it/guides/yellow-houseplant-leaves/). Le piante riportate in casa dopo l’estate richiedono controlli aggiuntivi: leggi [i preparativi autunnali](/it/blog/autumn-plant-reset/).
 

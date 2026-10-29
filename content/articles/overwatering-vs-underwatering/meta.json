@@ -56,5 +56,17 @@
   },
   "fr": {
     "description": "Flétrissement et feuilles jaunes peuvent venir d’un excès ou d’un manque d’eau. Vérifiez substrat, poids du pot et racines avant de changer."
+  },
+  "ja": {
+    "description": "しおれや黄色い葉は、水のやりすぎでも水不足でも起こります。管理を変える前に、用土、鉢の重さ、根を確かめる方法を説明します。"
+  },
+  "ko": {
+    "description": "시듦과 노란 잎은 물이 너무 많거나 부족할 때 모두 나타납니다. 관리 방법을 바꾸기 전에 흙, 화분 무게, 뿌리를 확인하세요."
+  },
+  "it": {
+    "description": "Troppa e poca acqua possono dare sintomi simili. Controlla umidità, peso del vaso e radici prima di decidere se annaffiare o aspettare."
+  },
+  "zh-Hant": {
+    "description": "萎蔫不一定缺水。用介質深層濕度、盆重、積水與根系分辨澆水過多或不足，再依物種、光線與季節決定行動。"
   }
 }

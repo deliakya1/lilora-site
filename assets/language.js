@@ -3,7 +3,10 @@
  'use strict';
  const config=JSON.parse(document.getElementById('site-locale').textContent);
  const key='lilora.language.v1',dismissKey='lilora.language.dismissed.v1',marker='lilora_lang';
- const options=config.languageOptions,languages=options.map(option=>option.code),valid=value=>languages.includes(value);
+ // Previously cached HTML has no registry yet. Its six-language native links
+ // remain usable while the new static documents propagate through caches.
+ const options=config.languageOptions||Object.keys(config.suggestions).map(code=>({code,tag:code==='pt'?'pt-BR':code,path:code==='tr'?'/':`/${code}/`,matches:[code.toLowerCase()]}));
+ const languages=options.map(option=>option.code),valid=value=>languages.includes(value);
  const fromTag=value=>{
   const tag=String(value).toLowerCase();
   // Traditional Chinese has a script, not a generic Chinese fallback. An explicit
@@ -48,7 +51,7 @@
  }
  const saved=read('sessionStorage')||read('localStorage');
  if(valid(saved)||explicitChoice||read('sessionStorage',dismissKey)==='1')return;
- const browser=(navigator.languages||[navigator.language]).map(fromTag).find(valid)||config.defaultLanguage;
+ const browser=(navigator.languages||[navigator.language]).map(fromTag).find(valid)||config.defaultLanguage||'en';
  if(browser===config.language)return;
  const selected=options.find(option=>option.code===browser);
  const t=config.suggestions[browser],bar=document.createElement('aside');bar.className='language-suggestion';bar.lang=selected.tag;bar.setAttribute('aria-label',t.suggestion);

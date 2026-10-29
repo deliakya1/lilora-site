@@ -6,7 +6,7 @@ import QRCode from "qrcode";
 
 const root = process.cwd();
 const require = createRequire(import.meta.url);
-import { languages, prefix } from './locale-registry.mjs';
+import { languages, prefix, isCJK } from './locale-registry.mjs';
 import { extraCopies } from './locale-extras.mjs';
 const origin = "https://lilora.app";
 const ink = "#1E2620";
@@ -207,11 +207,13 @@ const atmosphere = existsSync(imagePath) ? data(imagePath, "image/webp") : null;
 const inputs = [
   fileBytes(fontPath),
   fileBytes(iconPath),
+  fileBytes("assets/fonts/DroidSansFallback.ttf"),
   atmosphere ? fileBytes(imagePath) : "optional-image-unavailable",
 ];
-const fontStyle = `@font-face{font-family:Newsreader;src:url("${font}") format("woff");font-weight:500;font-display:block}`;
+const cjkFont = data("assets/fonts/DroidSansFallback.ttf", "font/ttf");
+const fontStyle = `@font-face{font-family:LiloraCJK;src:url("${cjkFont}") format("truetype");font-weight:100 900;font-display:block}@font-face{font-family:Newsreader;src:url("${font}") format("woff");font-weight:500;font-display:block}`;
 const html = (lang, css, body) =>
-  `<!doctype html><html lang="${lang === "pt" ? "pt-BR" : lang}"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Lilora</title><style>${fontStyle}*{box-sizing:border-box}body{margin:0;color:${ink};background:${paper};font-family:Arial,Helvetica,sans-serif}h1,h2,.wordmark{font-family:Newsreader,Georgia,serif;font-weight:500}img{display:block}a{color:inherit;text-decoration:none}${css}</style><body>${body}</body></html>`;
+  `<!doctype html><html lang="${lang === "pt" ? "pt-BR" : lang}"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Lilora</title><style>${fontStyle}*{box-sizing:border-box}body{margin:0;color:${ink};background:${paper};font-family:Arial,Helvetica,LiloraCJK,sans-serif}h1,h2,.wordmark{font-family:Newsreader,Georgia,LiloraCJK,serif;font-weight:500}${isCJK(lang) ? "h1,h2{font-family:LiloraCJK,sans-serif;line-height:1.35;letter-spacing:normal}" : ""}img{display:block}a{color:inherit;text-decoration:none}${css}</style><body>${body}</body></html>`;
 const render = async (document) => {
   await page.setContent(document, { waitUntil: "load" });
   await page.evaluate(() => document.fonts.ready);
@@ -285,7 +287,7 @@ try {
         .status strong{font-weight:600;display:block;margin-bottom:1mm}
         .closing{display:flex;align-items:center;gap:${compact ? "4mm" : "10mm"};margin-top:auto;padding-top:3mm}
         .qr{width:${compact ? "30mm" : "48mm"};height:${compact ? "30mm" : "48mm"};flex:none}
-        .scan{font-family:Newsreader,Georgia,serif;font-size:${compact ? "15pt" : "26pt"};line-height:1.15;margin:0 0 3mm}
+        .scan{font-family:Newsreader,Georgia,LiloraCJK,serif;font-size:${compact ? "15pt" : "26pt"};line-height:1.15;margin:0 0 3mm}
         .url{font-size:${compact ? "8pt" : "12pt"};word-break:break-word}
         .platforms{font-size:${compact ? "7pt" : "10pt"};margin:${compact ? "3mm" : "7mm"} 0 0;line-height:1.4}
         .plant{height:${compact ? "33mm" : "42mm"};width:100%;object-fit:cover;margin-top:${compact ? "4mm" : "8mm"};object-position:center 58%}
@@ -381,7 +383,7 @@ try {
   }
   save(cachePath, JSON.stringify(nextCache, null, 2) + "\n");
   console.log(
-    `Promotion assets: ${qrManifest.length} QR codes, 12 print PDFs, ${share.pages.length + share.defaults.length} share cards. ${generated.length} files written; unchanged renders reused.`,
+    `Promotion assets: ${qrManifest.length} QR codes, ${languages.length * 2} print PDFs, ${share.pages.length + share.defaults.length} share cards. ${generated.length} files written; unchanged renders reused.`,
   );
 } finally {
   await browser.close();

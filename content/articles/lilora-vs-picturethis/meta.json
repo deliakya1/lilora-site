@@ -72,5 +72,33 @@
     "imageAlt": "Visuel Lilora pour l’App Store avec un vrai écran de collection et des fiches d’exemple (app en anglais)",
     "caption": "Visuel Lilora pour l’App Store avec un vrai écran de l’app et des fiches d’exemple. L’app est disponible en anglais et en turc. Ce n’est pas une capture de l’app concurrente.",
     "seoTitle": "Lilora vs PictureThis : identification et entretien"
+  },
+  "ja": {
+    "description": "LiloraとPictureThisを、識別、通知、植物一覧、家族でのお世話について比較します。公式資料と、料金を見る際の注意点を示します。",
+    "seoTitle": "LiloraとPictureThis：植物識別とお世話を比較",
+    "image": "/assets/editorial/lilora-collection-en.webp",
+    "imageAlt": "実際の植物一覧画面とサンプル記録を使ったLiloraのストア用画像",
+    "caption": "サンプル記録を表示した実際のアプリ画面によるLiloraのストア用画像です。比較対象のアプリのスクリーンショットではありません。"
+  },
+  "ko": {
+    "description": "식물 식별, 알림, 식물 목록, 가정 내 공동 관리에서 Lilora와 PictureThis를 비교합니다. 공식 출처와 가격 확인 시 유의점도 안내합니다.",
+    "seoTitle": "Lilora와 PictureThis: 식물 식별과 관리 비교",
+    "image": "/assets/editorial/lilora-collection-en.webp",
+    "imageAlt": "실제 식물 목록 화면과 예시 기록을 담은 Lilora 스토어 홍보 이미지",
+    "caption": "예시 기록이 담긴 실제 앱 화면으로 만든 Lilora 스토어 홍보 이미지입니다. 비교 대상 앱의 스크린샷이 아닙니다."
+  },
+  "it": {
+    "description": "Confronta le funzioni documentate di Lilora e PictureThis: riconoscimento, registri, promemoria e acquisti, con limiti e disponibilità dichiarati.",
+    "seoTitle": "Lilora e PictureThis: identificazione e cura delle piante",
+    "image": "/assets/editorial/lilora-collection-en.webp",
+    "imageAlt": "Immagine per lo store di Lilora con una schermata reale della collezione e registrazioni di piante di esempio",
+    "caption": "Immagine per lo store di Lilora, tratta da una schermata reale dell’app con registrazioni di esempio. Non è una schermata dell’app concorrente."
+  },
+  "zh-Hant": {
+    "seoTitle": "Lilora 與 PictureThis：辨識和植物照護",
+    "image": "/assets/editorial/lilora-collection-en.webp",
+    "imageAlt": "Lilora 的商店宣傳圖，使用真實收藏畫面與範例植物紀錄",
+    "caption": "Lilora 的商店宣傳圖，使用真實應用程式畫面與範例紀錄，並非競爭應用程式的截圖。",
+    "description": "依官方資料比較 Lilora 與 PictureThis 的照片辨識、照護提醒、收藏與家庭紀錄，並說明價格和上架狀態的限制。"
   }
 }

@@ -46,7 +46,7 @@ Si moltiplica facilmente dalle piantine o per divisione. Fissa una piantina su s
 
 ## Animali e persone
 
-L’[ASPCA Animal Poison Control Center](https://www.aspca.org/) classifica il falangio come non tossico per gatti e cani e NC State Extension fa lo stesso. Non tossico non significa che possa essere mangiato liberamente: il materiale vegetale può irritare lo stomaco e i gatti sono spesso attratti dalle foglie pendenti. Appendilo fuori portata se il gatto lo mastica. Se un animale sta male, contatta un veterinario. In Turchia, il numero antiveleni per persone è 114 (UZEM). Sono informazioni generali, non consigli medici o veterinari. Per confrontare altre piante, leggi la [guida su piante e animali](/it/guides/pet-safe-houseplants/) o le [schede delle non tossiche](/it/plants/#petNonToxic).
+L’[ASPCA Animal Poison Control Center](https://www.aspca.org/) classifica il falangio come non tossico per gatti e cani e NC State Extension fa lo stesso. Non tossico non significa che possa essere mangiato liberamente: il materiale vegetale può irritare lo stomaco e i gatti sono spesso attratti dalle foglie pendenti. Appendilo fuori portata se il gatto lo mastica. Se un animale sta male, contatta un veterinario. Per le persone, contatta il centro antiveleni locale, un servizio distinto dall’assistenza veterinaria. Sono informazioni generali, non consigli medici o veterinari. Per confrontare altre piante, leggi la [guida su piante e animali](/it/guides/pet-safe-houseplants/) o le [schede delle non tossiche](/it/plants/#petNonToxic).
 
 ## Domande frequenti
 

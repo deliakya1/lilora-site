@@ -275,3 +275,29 @@ test('a missing translation links to its language home without carrying an unrel
   assert.equal(fixture.suggestion.textContent, fixture.config.suggestions.de.suggestionHome);
   cleanLinks(fixture);
 });
+
+for (const [browserTag, expected] of [
+  ['ja-JP', 'ja'], ['ko-KR', 'ko'], ['it-IT', 'it'],
+  ['zh-Hant', 'zh-Hant'], ['zh-Hant-HK', 'zh-Hant'],
+  ['zh-TW', 'zh-Hant'], ['zh-HK', 'zh-Hant'], ['zh-MO', 'zh-Hant'],
+  ['zh-Hans', 'en'], ['zh-Hans-HK', 'en'], ['zh-CN', 'en'], ['xx', 'en'],
+]) test(`${browserTag}: suggestions respect the supported language and Chinese writing system`, () => {
+  const fixture = page({ browser: [browserTag] });
+  assert.equal(fixture.url.pathname, '/support/', 'English URL remains authoritative');
+  assert.deepEqual(fixture.navigation, [], 'Language detection must not redirect');
+  if (expected === 'en') assert.equal(fixture.suggestion, undefined);
+  else {
+    assert.equal(new URL(fixture.suggestion.href).pathname, prefix(expected) + 'support/');
+    fixture.activate(fixture.suggestion);
+    assert.equal(fixture.localStorage.values.get(preferenceKey), expected);
+  }
+  cleanLinks(fixture);
+});
+
+test('Traditional Chinese selection persists its complete script code and canonical lower-case URL', () => {
+  const fixture = page();
+  const result = fixture.activate(fixture.link('zh-Hant'));
+  assert.equal(result.destination.pathname, '/zh-hant/support/');
+  assert.equal(fixture.localStorage.values.get(preferenceKey), 'zh-Hant');
+  assert.equal(fixture.sessionStorage.values.get(preferenceKey), 'zh-Hant');
+});

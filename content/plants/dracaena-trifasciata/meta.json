@@ -113,5 +113,61 @@
       "petSafetySource": "https://www.aspca.org/",
       "careLevel": "Facile"
     }
+  },
+  "ja": {
+    "description": "サンスベリアの育て方。弱い光への耐性、水やりの間に完全に乾かす管理、ASPCAによる猫・犬への有毒の掲載を説明します。",
+    "imageAlt": "屋外の土に育つ、黄色い縁と灰緑色の横縞がある直立した剣状のサンスベリアの葉",
+    "caption": "写真：<a href=\"https://www.inaturalist.org/observations/297571150\"><em>Dracaena trifasciata</em></a>、撮影：Bruno - Yolande Zanette。iNaturalistより、<a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>。サイズ変更済み。",
+    "atAGlance": {
+      "light": "とても弱い光に耐える。もう少し明るい方がよく育つ",
+      "watering": "水やりの間に用土を乾かす。冬はごくまれに与える",
+      "humidity": "室内の乾いた空気に耐える",
+      "temperature": "通常の室温。10℃（50℉）前後の一時的な涼しさにも耐える",
+      "petSafety": "ASPCAは猫・犬に有毒と掲載",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "育てやすい"
+    }
+  },
+  "ko": {
+    "description": "산세베리아 관리: 약한 빛을 견디며 물주기 사이 흙을 말려야 합니다. ASPCA의 고양이와 개에 대한 독성 분류도 확인하세요.",
+    "imageAlt": "야외 흙에서 곧게 자란 칼 모양 산세베리아 잎. 노란 가장자리와 회녹색 줄무늬가 보입니다",
+    "caption": "사진: <a href=\"https://www.inaturalist.org/observations/297571150\"><em>Dracaena trifasciata</em></a> — 촬영: Bruno - Yolande Zanette, iNaturalist 제공, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. 크기를 조정했습니다.",
+    "atAGlance": {
+      "light": "매우 약한 빛을 견딥니다. 좀 더 밝은 곳에서 더 잘 자랍니다",
+      "watering": "물주기 사이 흙을 말리세요. 겨울에는 드물게 물을 주세요",
+      "humidity": "건조한 실내 공기를 견딥니다",
+      "temperature": "실내 온도. 약 10 °C(50 °F)의 짧은 서늘함을 견딥니다",
+      "petSafety": "ASPCA가 고양이와 개에게 유독한 식물로 분류했습니다",
+      "careLevel": "쉬움",
+      "petSafetySource": "https://www.aspca.org/"
+    }
+  },
+  "it": {
+    "imageAlt": "Foglie erette a forma di spada con bordi gialli e fasce grigio-verdi, nel terreno all’aperto",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/297571150\"><em>Dracaena trifasciata</em></a> di Bruno - Yolande Zanette, tramite iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Ridimensionata.",
+    "atAGlance": {
+      "light": "Tollera pochissima luce; cresce meglio con maggiore luminosità",
+      "watering": "Lascia asciugare tra le annaffiature; acqua rara in inverno",
+      "humidity": "Tollera l’aria secca di casa",
+      "temperature": "Temperatura ambiente; tollera periodi intorno a 10 °C (50 °F)",
+      "petSafety": "Elencata dall’ASPCA come tossica per gatti e cani",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Facile"
+    },
+    "description": "Cura della sansevieria: tollera poca luce, richiede asciugatura tra le annaffiature ed è elencata dall’ASPCA come tossica per gatti e cani."
+  },
+  "zh-Hant": {
+    "imageAlt": "虎尾蘭直立的劍形葉片，帶有綠色斑紋與黃色葉緣",
+    "caption": "照片： <a href=\"https://www.inaturalist.org/observations/297571150\"><em>Dracaena trifasciata</em></a>，攝影：Bruno - Yolande Zanette，來源：iNaturalist， <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. 已調整尺寸。",
+    "atAGlance": {
+      "light": "耐很低光線；較明亮處長得更好，也可接受部分直射光",
+      "watering": "整個根區乾透再澆；冬季可能間隔一至兩個月",
+      "humidity": "耐乾燥室內空氣",
+      "temperature": "可耐約 10 °C（50 °F），不耐霜凍",
+      "petSafety": "ASPCA 列為對貓狗有毒",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "容易"
+    },
+    "description": "虎尾蘭照護指南：深層乾透再澆水、冬季減水、光照適應與繁殖，並解釋學名變更及對貓狗的毒性。"
   }
 }
