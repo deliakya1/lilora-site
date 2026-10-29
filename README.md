@@ -48,9 +48,12 @@ Set `CHROMIUM_PATH` if needed. Production has no runtime dependency or client fr
 preferences can show a dismissible suggestion, never an automatic navigation.
 The first supported `navigator.languages` entry is used; regional Portuguese and
 Spanish map to their shared prefix, unsupported preferences fall back to English.
-Manual choices use local/session storage; session dismissal is separate. A temporary
-URL marker lets deliberate switches survive blocked storage. There is no IP lookup
-or crawler special case. Native language links and disclosures work without JS.
+Manual choices use local/session storage; session dismissal is separate. Rendered
+language links remain free of the `lilora_lang` query marker. A temporary marker is
+added only during deliberate click/keyboard/middle-click activation when preference
+storage cannot carry the choice into the destination. Existing markers are consumed
+without navigation. There is no IP lookup or crawler special case. Native language
+links and disclosures work without JS.
 
 Only real article/plant translations receive reciprocal hreflang. `html lang` is
 `pt-BR` for `/pt/` and so is its hreflang (head, language links, sitemaps); x-default uses the English counterpart.
@@ -1210,3 +1213,85 @@ was 0.028 and the other three pages were 0. These are local lab measurements.
 
 CI impact: one implementation push and the existing GitHub Pages build/deploy after
 squash. No new dependency or workflow, mobile/native build, service or paid call.
+
+## Maintenance — 29 October 2026 — clean language links and indexing audit
+
+The owner supplied four Search Console exports dated 29 October, with a report
+snapshot last updated on 23 October. Their 152 rows were checked against published
+website commit `b296aa7ffa5204d236e71155e52b5bf1c4b19358`. The source snapshot was
+obtained through its successful Pages artifact and verified against every Git blob;
+the executor cannot clone the repository directly.
+
+| Report | Export rows | Source finding |
+| --- | ---: | --- |
+| Page with redirect | 113 | Every URL has `lilora_lang`; 101 are current page variants and 12 also use retired journal paths. |
+| Alternative page with proper canonical tag | 20 | Every URL has `lilora_lang`; 18 are current page variants and 2 also use retired journal paths. |
+| Excluded by noindex | 2 | Intentional French journal-to-blog redirect wrappers; both current blog articles are indexable in source. |
+| Crawled, currently not indexed | 17 | Nine clean HTML pages, one language-query variant, six Atom feeds and one artwork credits file. |
+
+All 145 HTML rows map to an existing clean canonical destination in the correct
+language, present in its sitemap and without an HTML `noindex` directive. The
+nine clean pages in the last report also have native incoming links and complete
+static content. The six feeds and credits document are not sitemap landing pages.
+This audit does not establish Google's current indexed status or its selected
+canonical, and source inspection cannot verify production response headers.
+
+The actual defect was in `assets/language.js`: it added `?lilora_lang=` to
+every rendered language-picker and suggestion link. Native HTML and canonicals
+were already clean, so static HTML checks did not catch the duplicate URLs exposed
+after JavaScript rendering. Language links now omit that marker. Ordinary choices
+use verified local/session storage; only a deliberate activation adds a transient
+fallback when storage cannot carry the preference. Modified/middle/new-tab
+activations account for session-only storage. Cleanup restores the clean anchor
+after the activation. Existing markers are still consumed, and a blocked History
+API no longer prevents the other controls from initializing. The requested
+language, existing query values, translated-page fragments and native navigation
+remain authoritative. With both stores blocked, context-menu opening still selects
+the correct URL language but may show the suggestion again; it cannot pass an
+activation marker without changing the crawlable native link.
+
+Intentional journal redirects and their `noindex` directives are retained.
+The two noindex records point to:
+- `/fr/blog/keeping-a-plant-care-journal/`
+- `/fr/blog/autumn-plant-reset/`
+
+The nine clean pages for subsequent owner-side URL Inspection are:
+- `/en/blog/leggy-houseplants/`
+- `/en/blog/terracotta-vs-plastic-pots/`
+- `/pt/editorial/`
+- `/fr/blog/do-houseplants-purify-air/`
+- `/de/blog/check-before-you-water/`
+- `/de/blog/terracotta-vs-plastic-pots/`
+- `/de/blog/cleaning-houseplant-leaves/`
+- `/en/plants/finder/`
+- `/en/guides/fertilizing-houseplants/`
+
+Validation on 29 October:
+- 28 dependency-free behavior tests in `scripts/language-links.test.mjs` pass.
+  The original implementation fails the initial 26-case regression suite.
+- 43 existing static tests pass across site, SEO, plant and article suites,
+  checking all 336 canonical routes. JavaScript syntax and diff whitespace pass.
+- The managed browser reproduced the original rendered-marker problem, then
+  confirmed clean links and real native navigation through all six languages on
+  support pages, preserving `?campaign=care#main`.
+- HTML/content generation completed for all 336 pages. Full `npm run check`
+  could not finish: `npm ci` was denied by the environment's npm-registry gateway,
+  leaving the unchanged promotion renderer's `qrcode` dependency unavailable.
+  The full local Chromium suites and fresh Lighthouse measurements were not run.
+  These limits are not recorded as passing checks.
+- Generated HTML, existing assets, robots, redirects, feeds and all seven sitemap
+  files remain byte-identical. Source-snapshot date drift in rebuilt sitemaps was
+  excluded from the change; no research dates or lastmod values were refreshed.
+- Direct production HTTP observation remains unavailable from this executor.
+  A Pages deployment receipt must be distinguished from live DOM and Google indexing
+  verification. No Search Console validation or indexing request was submitted.
+
+Google's [canonical guidance](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls)
+recommends consistent links to the preferred URL. Its
+[Page indexing report documentation](https://support.google.com/webmasters/answer/7440203?hl=en)
+explains that intentional alternates/redirects can remain excluded and that a
+crawled page is not guaranteed indexing. Do not remove useful canonical/noindex
+rules or rewrite content merely to reduce the report counters.
+
+Scope: language script, regression tests and this record. Existing GitHub Pages
+hosting and deployment only; no new dependency, workflow, app build or service.
