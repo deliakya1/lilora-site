@@ -1164,3 +1164,49 @@ throttling and external HTTPS blocked, 28 October 2026 07:37 UTC: TR home
 
 CI impact: one implementation push and the existing GitHub Pages build/deploy after
 squash. No new dependency or workflow, mobile/native build, service or paid call.
+
+## Maintenance — 29 October 2026 — keyboard access to loaded comments
+
+The comments trigger previously lost focus when disabled and removed, leaving
+keyboard readers on the document body after success, empty results or an error.
+It now remains focusable while loading, with repeated activation guarded. Once
+the result appears, focus moves to the labelled result list only if the reader
+is still on the trigger. Readers who move into the form keep their focus, as do
+readers editing a comment when the existing publication event refreshes the list.
+Errors retain a keyboard-reachable retry button. The focused result uses the
+existing focus colour and outline style. This follows W3C's guidance on
+[persistent keyboard focus](https://www.w3.org/WAI/ARIA/apg/practices/keyboard-interface/)
+and [logical focus order](https://www.w3.org/WAI/WCAG22/Understanding/focus-order.html),
+checked 29 October 2026.
+
+`node scripts/comments-check.cjs` passes 96 interaction cases and 36 automated
+accessibility checks across all six languages at 390/1440 px. It covers loaded
+and empty lists, HTTP/network/JSON errors, retries, duplicate activation, delayed
+responses after focus moves, and the existing publication-refresh event. All 144
+endpoint responses are mocked; no production comments are read or submitted.
+The original focus loss was reproduced before the fix. These are browser and
+automated accessibility checks, not a claim of testing a particular screen reader.
+
+`npm run check` passed (build and 46 Node tests). TR/DE result and error layouts
+were checked at 320/390/768/1440 px, with representative screenshots visually
+reviewed and no overflow. Only the comment script, scoped comment styles, test
+and this maintenance entry change. Generated pages and six existing sitemaps stay
+byte-identical; the build's unrelated pre-existing git-date drift is excluded.
+
+All 14 existing browser suites also passed, including 1,344 responsive checks
+across 336 routes, 1,080 contents checks across 180 article pages, 122 accessibility
+checks, language/consent/forms/404 and both prior navigation regressions. Direct
+production HTTP/DOM observation is not claimed; prior domain-access denials are
+not bypassed. The PR records the exact Pages deployment receipt after merge.
+Intentional redirects and indexing directives stay intact; Search Console
+exclusions still require the actual affected URLs. No PR approval review is
+submitted under the standing website publishing authorization.
+
+Mobile Lighthouse 13.5.0, local gzip server with `max-age=600`, simulated
+throttling and external HTTPS blocked, 29 October 2026 07:38–07:39 UTC:
+TR home 99/100/100/100; EN watering guide, support and check-before-you-water
+post 100/100/100/100 (performance/accessibility/best practices/SEO). Guide CLS
+was 0.028 and the other three pages were 0. These are local lab measurements.
+
+CI impact: one implementation push and the existing GitHub Pages build/deploy after
+squash. No new dependency or workflow, mobile/native build, service or paid call.
