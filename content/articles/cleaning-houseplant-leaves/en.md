@@ -6,7 +6,7 @@ Dust on leaves is more than a looks problem: it blocks some of the light a plant
 
 The University of Minnesota points out that dust can block light when plants need it most, at the end of a dim winter. [University of Minnesota Extension: spring houseplant care](https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/houseplants/spring-houseplant-care) Clemson's Home & Garden Information Center adds that clean leaves favour healthy growth and that cleaning helps control insects. [Clemson HGIC: indoor plants, cleaning](https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/)
 
-Cleaning is also the best moment to inspect a plant closely. Many pests start small on the undersides of leaves; our guide to [common houseplant pests](/en/guides/houseplant-pests/) shows what to look for.
+Cleaning is also the best moment to inspect a plant closely. Many pests start small on the undersides of leaves; our guide to [common houseplant pests](/guides/houseplant-pests/) shows what to look for.
 
 ## Large, smooth leaves
 
@@ -33,7 +33,7 @@ African violets and other plants with hairy leaves should not be wiped with a we
 
 Commercial leaf shine sprays make leaves glossy, but both sources we checked advise against them. The University of Minnesota says they are not necessary and can clog leaf pores, [University of Minnesota Extension: spring houseplant care](https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/houseplants/spring-houseplant-care) and Clemson says they are generally not recommended because the waxy residue may affect air exchange. [Clemson HGIC: indoor plants, cleaning](https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/) Home remedies such as milk, oil or mayonnaise leave residues too. Plain water is enough.
 
-If you share plant care at home, a leaf clean is worth noting in your [plant care journal](/en/blog/keeping-a-plant-care-journal/) so nobody repeats it the next day.
+If you share plant care at home, a leaf clean is worth noting in your [plant care journal](/blog/keeping-a-plant-care-journal/) so nobody repeats it the next day.
 
 ## Common questions
 

@@ -14,25 +14,25 @@ Another owner might want to explore several tools in one app: schedules, identif
 
 ## What each app describes
 
-Lilora describes photos, notes and care history, optional Pl@ntNet-powered identification, reminders to check plants and a private household with shared records. Its first-release focus is inventory, care and identification; it does not include a light meter or disease diagnosis. [Lilora overview](https://lilora.app/en/) · [Lilora support](https://lilora.app/en/support/)
+Lilora describes photos, notes and care history, optional Pl@ntNet-powered identification, reminders to check plants and a private household with shared records. Its first-release focus is inventory, care and identification; it does not include a light meter or disease diagnosis. [Lilora overview](https://lilora.app/) · [Lilora support](https://lilora.app/support/)
 
 Planta describes plant organization, a journal, photo identification, personalized care schedules, a light meter and Dr. Planta symptom guidance. It also offers Care Share for family members and plant sitters. Availability depends on the feature and plan. [Planta’s official feature overview](https://getplanta.com/)
 
 ## Reminders and records answer different questions
 
-A reminder answers “When should I look?” A completed care entry answers “What did I actually do?” Lilora distinguishes a check from watering: after looking at the plant and soil, record watering or a check that needed no water. [How Lilora’s checks work](https://lilora.app/en/support/)
+A reminder answers “When should I look?” A completed care entry answers “What did I actually do?” Lilora distinguishes a check from watering: after looking at the plant and soil, record watering or a check that needed no water. [How Lilora’s checks work](https://lilora.app/support/)
 
 When evaluating any app, open one plant, find its most recent care entry, record today’s actual outcome, and return to the overview. Ask whether you can understand the record without remembering the day yourself. This is a suggested personal test, not a test result for either app.
 
 ## Shared care deserves a closer look
 
-Lilora’s household model shares plants, photos and care history with members. Planta also supports shared care: its help centre describes premium invitations for family and plant sitters, with different capabilities for each role. Sharing is an overlap, not an exclusive Lilora feature. [Lilora support](https://lilora.app/en/support/) · [Planta Help Center](https://support.getplanta.com/)
+Lilora’s household model shares plants, photos and care history with members. Planta also supports shared care: its help centre describes premium invitations for family and plant sitters, with different capabilities for each role. Sharing is an overlap, not an exclusive Lilora feature. [Lilora support](https://lilora.app/support/) · [Planta Help Center](https://support.getplanta.com/)
 
 Decide who needs to see the plants, who should change them, and how you will check the latest record. A household member and a friend helping for a weekend may need different access.
 
 ## Compare the offer you can actually buy
 
-Lilora describes free manual species entry, three initial photo identifications, a pack of 10 and a Plus monthly allowance of 30. Its support page directs readers to Apple for local prices. There is no verified public checkout price to compare while launch is pending. [Lilora purchases](https://lilora.app/en/support/)
+Lilora describes free manual species entry, three initial photo identifications, a pack of 10 and a Plus monthly allowance of 30. Its support page directs readers to Apple for local prices. There is no verified public checkout price to compare while launch is pending. [Lilora purchases](https://lilora.app/support/)
 
 Planta’s U.S. listing includes one-month prices of $7.99 and $9.99 and 12-month prices of $35.99 and $47.99. These are listing examples, not a promise of eligibility. Its help centre identifies identification and the light meter among premium features. [App Store listing](https://apps.apple.com/us/app/planta-plant-garden-care/id1410126781) · [Free and premium access](https://support.getplanta.com/do-planta-offer-a-free-trial-of-premium/)
 
@@ -56,4 +56,4 @@ Both products describe sharing. Compare actual membership rules and paid-plan re
 
 ### Can I download Lilora today?
 
-As of this article’s review date, Lilora is awaiting App Store review. No release date is promised. [Explore Lilora’s current product description](https://lilora.app/en/support/).
+As of this article’s review date, Lilora is awaiting App Store review. No release date is promised. [Explore Lilora’s current product description](https://lilora.app/support/).

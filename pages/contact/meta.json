@@ -22,5 +22,21 @@
   "fr": {
     "title": "Contacter Lilora",
     "description": "Écrivez-nous pour l’app, la vie privée, la presse, une correction ou un partenariat, via le formulaire ou support@lilora.app. Réponse en anglais ou turc."
+  },
+  "ja": {
+    "title": "Liloraへのお問い合わせ",
+    "description": "アプリのサポート、プライバシー、報道、訂正、協業について、フォームまたはメールでお問い合わせください。英語・トルコ語で対応します。"
+  },
+  "ko": {
+    "title": "Lilora에 문의",
+    "description": "앱 지원, 개인정보, 보도, 수정, 협업에 관해 양식이나 support@lilora.app으로 문의하세요. 영어 또는 터키어로 답변합니다."
+  },
+  "it": {
+    "title": "Contatta Lilora",
+    "description": "Contatta Lilora per assistenza, privacy, stampa, correzioni o collaborazioni tramite il modulo o via email. Rispondiamo in inglese o turco."
+  },
+  "zh-Hant": {
+    "title": "聯絡 Lilora",
+    "description": "透過表單或 support@lilora.app 聯絡 Lilora，詢問應用程式支援、隱私、媒體、更正或合作事宜。我們以英文或土耳其文回覆。"
   }
 }

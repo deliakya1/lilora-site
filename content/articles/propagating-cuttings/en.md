@@ -4,7 +4,7 @@ Take a healthy stem tip with a few nodes (the points where leaves join the stem)
 
 ## What a cutting needs
 
-<figure style="margin:24px 0"><img src="/assets/images/home/notebook-404-v1-960.webp" width="960" height="640" alt="Ink and watercolour drawing of a variegated pothos with trailing stems in a terracotta pot" loading="lazy" decoding="async" style="display:block;width:100%;height:auto;border-radius:4px"><figcaption style="font-size:14px;margin-top:8px">Illustration generated for Lilora in a herbarium drawing style. <a href="/en/editorial/#imagery">About our images</a></figcaption></figure>
+<figure style="margin:24px 0"><img src="/assets/images/home/notebook-404-v1-960.webp" width="960" height="640" alt="Ink and watercolour drawing of a variegated pothos with trailing stems in a terracotta pot" loading="lazy" decoding="async" style="display:block;width:100%;height:auto;border-radius:4px"><figcaption style="font-size:14px;margin-top:8px">Illustration generated for Lilora in a herbarium drawing style. <a href="/editorial/#imagery">About our images</a></figcaption></figure>
 
 A cutting is a copy of the parent plant. It needs at least one node, because new roots usually grow from there, plus a few leaves to make energy. The University of Vermont describes a node as the bump where the leaf meets the stem, and suggests a tip cutting of about 8–15 cm with several nodes. [University of Vermont Extension: propagating houseplants](https://www.uvm.edu/extension/news/more-please-propagating-houseplants)
 
@@ -32,7 +32,7 @@ Water rooting suits many trailing and climbing plants, such as pothos (Epipremnu
 
 Pot the cutting once the roots are a few centimetres long, rather than waiting for a large tangle. Keep the new pot slightly moist for the first weeks while the roots adjust.
 
-Care for a rooted pothos is covered in our [pothos profile](/en/plants/epipremnum-aureum/).
+Care for a rooted pothos is covered in our [pothos profile](/plants/epipremnum-aureum/).
 
 ## Rooting in mix
 
@@ -50,9 +50,9 @@ The RHS propagation pages describe several techniques, including heel cuttings f
 
 ## Aftercare
 
-Once potted, treat the young plant like any other: check the mix before watering, give it suitable light, and wait until it is growing before feeding. Our guides to [watering without a rigid schedule](/en/guides/watering-houseplants/), [indoor light](/en/guides/indoor-plant-light-guide/) and [potting mix and drainage](/en/guides/potting-mix-and-drainage/) cover the basics, and [when to repot](/en/guides/when-to-repot-houseplants/) explains the next step up.
+Once potted, treat the young plant like any other: check the mix before watering, give it suitable light, and wait until it is growing before feeding. Our guides to [watering without a rigid schedule](/guides/watering-houseplants/), [indoor light](/guides/indoor-plant-light-guide/) and [potting mix and drainage](/guides/potting-mix-and-drainage/) cover the basics, and [when to repot](/guides/when-to-repot-houseplants/) explains the next step up.
 
-A cutting is also a way to save part of a plant whose roots have rotted, if a stem is still healthy; see [root rot in houseplants](/en/guides/root-rot/).
+A cutting is also a way to save part of a plant whose roots have rotted, if a stem is still healthy; see [root rot in houseplants](/guides/root-rot/).
 
 ## Common questions
 

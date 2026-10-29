@@ -1,3 +1,4 @@
+import { extraCopies } from './locale-extras.mjs';
 import {
   readFileSync,
   writeFileSync,
@@ -8,6 +9,7 @@ import {
 import { dirname } from "node:path";
 import { execFileSync } from "node:child_process";
 import { sharedCareDiagram } from "./shared-care-diagram.mjs";
+import { readingMinutes } from "./reading-time.mjs";
 import {
   promotionCopy,
   shareImagePath,
@@ -140,6 +142,7 @@ const plantGuides = (l) => {
 };
 // Guides name the species profiles that genuinely apply (meta.json "plants"); plant pages list the same pairing in reverse.
 const topicLabels = {
+  ...extraCopies('topicLabels'),
   tr: ["Bu konuyla ilgili bitki profilleri", "Bu bitki için bakım konuları"],
   en: ["Plant profiles for this topic", "Care topics for this plant"],
   es: ["Fichas de plantas sobre este tema", "Temas de cuidado para esta planta"],
@@ -193,11 +196,9 @@ const coverOf = (a) =>
     ? `/assets/images/covers/${a.slug}.svg`
     : "";
 const topicLabel = (a, t) => (a.type === "post" ? t.blogCategories : t.guideCategories)[a.category] || "";
-const readingMinutes = (c) =>
-  Math.max(1, Math.round([c.answerHtml, ...c.sections.map((x) => x.html)].join(" ").replace(/<[^>]+>/g, " ").split(/\s+/).filter(Boolean).length / 220));
 const postCard = (a, l, size = "card") => {
   const c = a[l], t = locales[l], cover = coverOf(a), h = size === "feature" ? "h2" : "h3";
-  return `<article class="post-card post-card-${size}" lang="${htmlLang(l)}"><a href="${articlePath(a, l)}">${cover ? `<span class="post-cover"><img src="${cover}" width="1200" height="675" alt="" aria-hidden="true" ${size === "feature" ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"></span>` : ""}<span class="post-meta">${topicLabel(a, t) ? `<span class="post-topic">${escape(topicLabel(a, t))}</span>` : ""}<span>${escape(t.minRead.replace("{n}", readingMinutes(c)))}</span></span><${h}>${escape(c.title)}</${h}>${size === "mini" ? "" : `<span class="post-excerpt">${escape(c.description)}</span>`}</a></article>`;
+  return `<article class="post-card post-card-${size}" lang="${htmlLang(l)}"><a href="${articlePath(a, l)}">${cover ? `<span class="post-cover"><img src="${cover}" width="1200" height="675" alt="" aria-hidden="true" ${size === "feature" ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"></span>` : ""}<span class="post-meta">${topicLabel(a, t) ? `<span class="post-topic">${escape(topicLabel(a, t))}</span>` : ""}<span>${escape(t.minRead.replace("{n}", readingMinutes(c, l)))}</span></span><${h}>${escape(c.title)}</${h}>${size === "mini" ? "" : `<span class="post-excerpt">${escape(c.description)}</span>`}</a></article>`;
 };
 // "Summarize with" row: plain links that open each assistant with a visible prompt
 // naming the canonical URL. No script, no tracking, nothing hidden in the page.
@@ -224,7 +225,7 @@ const comments = (a, l, path) => {
   const t = locales[l], e = escape(commentsConfig.endpoint);
   const consent = escape(t.commentsConsent).replace("{privacy}", `<a href="${prefix(l)}privacy/#website-comments">${escape(t.commentsPrivacy)}</a>`);
   const states = ["sent", "published", "invalid", "limited", "error", "sending"].map((k) => `data-${k}="${escape(t["comments" + k[0].toUpperCase() + k.slice(1)])}"`).join(" ");
-  return `<section class="comments" id="comments"><h2>${escape(t.commentsTitle)}</h2><p class="comments-note">${escape(t.commentsNote)}</p><button type="button" class="comments-load" data-endpoint="${e}" data-page="${escape(path)}" data-lang="${htmlLang(l)}" data-empty="${escape(t.commentsEmpty)}" data-error="${escape(t.commentsLoadError)}">${escape(t.commentsLoad)}</button><ol class="comments-list" hidden></ol><form class="contact-form comment-form" method="post" action="${e}" ${states}><h3>${escape(t.commentsFormTitle)}</h3><input type="hidden" name="page" value="${escape(path)}"><input type="hidden" name="started" value=""><div class="contact-trap" aria-hidden="true"><label>Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div><div class="contact-field"><label for="comment-name">${escape(t.commentsName)}</label><input id="comment-name" name="name" type="text" autocomplete="nickname" maxlength="60" required></div><div class="contact-field"><label for="comment-message">${escape(t.commentsMessage)}</label><textarea id="comment-message" name="message" rows="5" minlength="2" maxlength="2000" aria-describedby="comment-message-hint" required></textarea><p class="contact-hint" id="comment-message-hint">${escape(t.commentsHint)}</p></div><div class="contact-consent"><input id="comment-consent" name="consent" type="checkbox" value="yes" required><label for="comment-consent">${consent}</label></div><p class="contact-status" role="status" aria-live="polite" hidden></p><button class="button" type="submit">${escape(t.commentsSubmit)}</button></form></section><script defer src="/assets/comments.js"></script>`;
+  return `<section class="comments" id="comments"><h2>${escape(t.commentsTitle)}</h2><p class="comments-note">${escape(t.commentsNote)}</p><button type="button" class="comments-load" data-endpoint="${e}" data-page="${escape(path)}" data-lang="${htmlLang(l)}" data-empty="${escape(t.commentsEmpty)}" data-error="${escape(t.commentsLoadError)}">${escape(t.commentsLoad)}</button><ol class="comments-list" hidden></ol><form class="contact-form comment-form" method="post" action="${e}" ${states}><h3>${escape(t.commentsFormTitle)}</h3><input type="hidden" name="page" value="${escape(path)}"><input type="hidden" name="language" value="${l}"><input type="hidden" name="started" value=""><div class="contact-trap" aria-hidden="true"><label>Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div><div class="contact-field"><label for="comment-name">${escape(t.commentsName)}</label><input id="comment-name" name="name" type="text" autocomplete="nickname" maxlength="60" required></div><div class="contact-field"><label for="comment-message">${escape(t.commentsMessage)}</label><textarea id="comment-message" name="message" rows="5" minlength="2" maxlength="2000" aria-describedby="comment-message-hint" required></textarea><p class="contact-hint" id="comment-message-hint">${escape(t.commentsHint)}</p></div><div class="contact-consent"><input id="comment-consent" name="consent" type="checkbox" value="yes" required><label for="comment-consent">${consent}</label></div><p class="contact-status" role="status" aria-live="polite" hidden></p><button class="button" type="submit">${escape(t.commentsSubmit)}</button></form></section><script defer src="/assets/comments.js"></script>`;
 };
 for (const a of articles)
   for (const l of languages) {
@@ -495,12 +496,16 @@ const redirects = existsSync("content/redirects.json")
   : {};
 for (const [from, to] of Object.entries(redirects)) {
   if (!routes.some((r) => r.path === to)) throw Error(`Redirect target ${to} for ${from} is not a page.`);
+  if (routes.some((r) => r.path === from)) throw Error(`Redirect ${from} would overwrite a canonical page.`);
   mkdirSync("." + from, { recursive: true });
   writeFileSync(
     "." + from + "index.html",
-    `<!doctype html>\n<html lang="${htmlLang(routes.find((r) => r.path === to).lang)}"><head><meta charset="utf-8"><title>lilora</title><meta name="robots" content="noindex"><link rel="canonical" href="${origin}${to}"><meta http-equiv="refresh" content="0; url=${to}"></head><body><p><a href="${to}">${origin}${to}</a></p></body></html>\n`,
+    `<!doctype html>\n<html lang="${htmlLang(routes.find((r) => r.path === to).lang)}"><head><meta charset="utf-8"><title>lilora</title><meta name="robots" content="noindex"><link rel="canonical" href="${origin}${to}"><script src="/assets/redirect.js"></script><meta http-equiv="refresh" content="0; url=${to}"></head><body><p><a href="${to}">${origin}${to}</a></p></body></html>\n`,
   );
 }
+// Existing English feed subscriptions continue to receive the canonical feed.
+mkdirSync('en', { recursive: true });
+writeFileSync('en/feed.xml', readFileSync('feed.xml'));
 const record = "editorial/routes.json";
 if (existsSync(record))
   for (const old of JSON.parse(readFileSync(record)))

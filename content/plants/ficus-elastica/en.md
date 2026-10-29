@@ -6,13 +6,13 @@ The rubber plant is a fig from the eastern Himalaya to western Malesia, grown in
 
 Indoors it prefers bright indirect light with protection from strong afternoon sun. Variegated and dark-leaved cultivars still need good light; variegated leaves need more than plain green ones. In low light, stems stretch and lower leaves fall. [NC State Extension](https://plants.ces.ncsu.edu/plants/ficus-elastica/) · [RHS](https://www.rhs.org.uk/plants/ornamental-figs/growing-guide)
 
-The [indoor light guide](/en/guides/indoor-plant-light-guide/) explains how to judge a window.
+The [indoor light guide](/guides/indoor-plant-light-guide/) explains how to judge a window.
 
 ## How to check before watering
 
 Water regularly in spring and summer, letting the mix dry slightly between waterings. From autumn to late winter, when growth slows, keep it only just moist. Overwatering is the most common cause of leaf drop in figs, so check below the surface before each watering. [NC State Extension](https://plants.ces.ncsu.edu/plants/ficus-elastica/) · [RHS](https://www.rhs.org.uk/plants/ornamental-figs/growing-guide)
 
-See the [watering guide](/en/guides/watering-houseplants/).
+See the [watering guide](/guides/watering-houseplants/).
 
 ## Potting mix and pot
 
@@ -32,7 +32,7 @@ Feed from spring to late summer with a high-nitrogen fertilizer at the label rat
 - **Pests:** mealybugs, scale and spider mites.
 - **Leggy stems:** too little light; prune in late winter or early spring just above a leaf.
 
-The [yellow-leaf checks](/en/guides/yellow-houseplant-leaves/) help separate normal ageing from a problem.
+The [yellow-leaf checks](/guides/yellow-houseplant-leaves/) help separate normal ageing from a problem.
 
 ## Propagation
 

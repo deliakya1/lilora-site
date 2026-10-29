@@ -6,13 +6,13 @@ Heartleaf philodendron is a climbing aroid from Mexico and tropical America with
 
 It prefers medium light and survives long periods in very low light. The Missouri Botanical Garden suggests bright indirect light and avoiding full sun; in conditions that are too dark, stems become spindly with widely spaced leaves. [NC State Extension](https://plants.ces.ncsu.edu/plants/philodendron-hederaceum/) · [Missouri Botanical Garden](https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=b611)
 
-See the [indoor light guide](/en/guides/indoor-plant-light-guide/).
+See the [indoor light guide](/guides/indoor-plant-light-guide/).
 
 ## How to check before watering
 
 Keep the mix slightly moist during growth and water less in winter. Before watering, check the top few centimetres: if they feel dry, water thoroughly and let it drain; if still damp, wait. Root rot can develop in overly wet mix. [NC State Extension](https://plants.ces.ncsu.edu/plants/philodendron-hederaceum/)
 
-The [watering guide](/en/guides/watering-houseplants/) explains other moisture clues.
+The [watering guide](/guides/watering-houseplants/) explains other moisture clues.
 
 ## Potting mix and pot
 
@@ -32,7 +32,7 @@ Feed during spring and summer with a balanced houseplant fertilizer at the label
 - **Leaf spots and root rot:** often linked to overly wet mix.
 - **Pests:** aphids, spider mites, mealybugs and scale.
 
-Read the [yellow-leaf checks](/en/guides/yellow-houseplant-leaves/) before changing care.
+Read the [yellow-leaf checks](/guides/yellow-houseplant-leaves/) before changing care.
 
 ## Propagation
 

@@ -14,7 +14,7 @@ An identification result helps you investigate a name. A notebook helps you reme
 
 ## The documented features
 
-Lilora describes optional Pl@ntNet-powered suggestions, reviewed before saving; photos, notes and history; check-first reminders; and a private household that shares plant records. Disease diagnosis is outside its described first release. [Lilora overview](https://lilora.app/en/) · [Lilora support](https://lilora.app/en/support/)
+Lilora describes optional Pl@ntNet-powered suggestions, reviewed before saving; photos, notes and history; check-first reminders; and a private household that shares plant records. Disease diagnosis is outside its described first release. [Lilora overview](https://lilora.app/) · [Lilora support](https://lilora.app/support/)
 
 PictureThis describes photo identification, a collection and wishlist, watering and fertilizing reminders, problem-assessment tools and expert consultation. Check its current sharing options for your particular needs: a capability not established by our sources is not necessarily absent. [PictureThis product page](https://www.picturethisai.com/app) · [FAQ](https://www.picturethisai.com/faq)
 
@@ -24,7 +24,7 @@ This article does not rank accuracy. A fair performance comparison would need a 
 
 Ask practical questions: Can you review a result before accepting it? Correct a name? Keep records without running another identification? What happens when the image is unclear?
 
-Lilora allows free manual species entry and asks you to review suggestions. PictureThis’s FAQ explains identification corrections and says identification needs a network connection. These details help you plan a workflow without assuming either product always gets a photo right. [Lilora identification](https://lilora.app/en/support/) · [PictureThis FAQ](https://www.picturethisai.com/faq)
+Lilora allows free manual species entry and asks you to review suggestions. PictureThis’s FAQ explains identification corrections and says identification needs a network connection. These details help you plan a workflow without assuming either product always gets a photo right. [Lilora identification](https://lilora.app/support/) · [PictureThis FAQ](https://www.picturethisai.com/faq)
 
 Do not use an app result as permission to eat an unfamiliar plant or mushroom. PictureThis’s FAQ also cautions against tasting unfamiliar plants without professional help. [PictureThis safety guidance](https://www.picturethisai.com/faq)
 
@@ -32,7 +32,7 @@ Do not use an app result as permission to eat an unfamiliar plant or mushroom. P
 
 It would be misleading to call PictureThis only an identifier. Its FAQ documents watering and fertilizing reminders; its listing describes a collection. [PictureThis FAQ](https://www.picturethisai.com/faq) · [App Store description](https://apps.apple.com/us/app/picturethis-plant-identifier/id1252497129)
 
-Lilora puts photos, notes and care history in a notebook that can belong to a private household. Guest records stay on the device; signed-in household records are shared with members. Its check-first wording asks you to look before deciding what to record. [Lilora storage and care](https://lilora.app/en/support/)
+Lilora puts photos, notes and care history in a notebook that can belong to a private household. Guest records stay on the device; signed-in household records are shared with members. Its check-first wording asks you to look before deciding what to record. [Lilora storage and care](https://lilora.app/support/)
 
 For your own evaluation, choose an ordinary week. Can you find a plant quickly? Can another carer understand the latest record? Can you tell a completed action from a reminder? These are suggested questions, not results from our testing.
 
@@ -40,7 +40,7 @@ For your own evaluation, choose an ordinary week. Can you find a plant quickly? 
 
 The U.S. PictureThis listing includes multiple products named “PictureThis Pro,” including $39.99 entries. The label alone does not establish a billing period. Read the offer shown to your Apple account. [PictureThis App Store listing](https://apps.apple.com/us/app/picturethis-plant-identifier/id1252497129)
 
-Lilora describes three initial identifications, a pack of 10 and a monthly Plus allowance of 30. Manual entry remains available without buying identifications. Regional prices are shown by Apple; we do not claim Lilora is less expensive. [Lilora purchases](https://lilora.app/en/support/)
+Lilora describes three initial identifications, a pack of 10 and a monthly Plus allowance of 30. Manual entry remains available without buying identifications. Regional prices are shown by Apple; we do not claim Lilora is less expensive. [Lilora purchases](https://lilora.app/support/)
 
 Check what the first charge covers, whether it renews, and what remains usable without a paid plan. A free download and a free trial are not the same promise.
 
@@ -62,4 +62,4 @@ We have no comparative test supporting that claim and make no accuracy ranking.
 
 ### Where can I get Lilora?
 
-Lilora is awaiting App Store review as of 16 October 2026. A public download will be linked when availability is verified. [See how Lilora works](https://lilora.app/en/support/).
+Lilora is awaiting App Store review as of 16 October 2026. A public download will be linked when availability is verified. [See how Lilora works](https://lilora.app/support/).

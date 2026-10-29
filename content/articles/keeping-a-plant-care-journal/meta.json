@@ -48,5 +48,17 @@
   "fr": {
     "description": "Que noter pour chaque plante, une mise en page simple, comment relire ses notes après une saison, et s’il vaut mieux du papier ou une app.",
     "seoTitle": "Tenir un carnet d’entretien des plantes"
+  },
+  "ja": {
+    "description": "植物ごとに残す内容、簡単なノートの構成、季節が過ぎてから記録を読み返す方法と、紙とアプリの選び方を紹介します。"
+  },
+  "ko": {
+    "description": "식물별로 기록할 내용, 간단한 기록 양식, 한 계절 뒤 메모를 읽는 법을 알아보세요. 종이와 앱 중 무엇이 맞는지도 살펴봅니다."
+  },
+  "it": {
+    "description": "Un diario breve registra controlli, annaffiature e cambiamenti. Scopri cosa annotare, come usare le foto e come leggere le abitudini stagionali."
+  },
+  "zh-Hant": {
+    "description": "用簡短日期、觀察和行動建立植物照護日誌，記下檢查、澆水與環境變化，並比較紙本及共同照護應用程式。"
   }
 }

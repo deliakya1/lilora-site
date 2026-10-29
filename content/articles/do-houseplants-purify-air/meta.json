@@ -49,5 +49,17 @@
   "fr": {
     "description": "L’étude de la NASA derrière les plantes dépolluantes utilisait des chambres étanches. Ce qu’une revue de 2019 a montré pour les logements, et ce qui aide.",
     "seoTitle": "Les plantes purifient-elles vraiment l’air ?"
+  },
+  "ja": {
+    "description": "空気をきれいにする植物リストの元になったNASA研究は密閉容器の実験でした。2019年のレビューと、実際の室内空気の改善方法を説明します。"
+  },
+  "ko": {
+    "description": "공기 정화 식물 목록의 근거가 된 NASA 연구는 밀폐 공간에서 진행됐습니다. 2019년 검토가 실제 주택에 대해 밝힌 점과 도움이 되는 방법입니다."
+  },
+  "it": {
+    "description": "Gli esperimenti in camere sigillate non descrivono una casa. Scopri cosa dicono gli studi sulle piante e perché la ventilazione conta di più."
+  },
+  "zh-Hant": {
+    "description": "室內植物能否淨化空氣？了解 NASA 密閉箱實驗、2019 年研究回顧與真實住宅的差異，以及通風為何更有效。"
   }
 }

@@ -3,6 +3,7 @@
 // Run after a merge has been deployed: `node scripts/indexnow.mjs [--since YYYY-MM-DD] [--dry-run]`.
 // Google does not use IndexNow; it reads the sitemap index instead.
 import { readFileSync, readdirSync } from "node:fs";
+import { languages } from './locale-registry.mjs';
 
 const host = "lilora.app";
 const keyFile = readdirSync(".").find((name) => /^[0-9a-f]{32}\.txt$/.test(name));
@@ -10,7 +11,7 @@ if (!keyFile) throw Error("IndexNow key file missing at the site root");
 const key = readFileSync(keyFile, "utf8").trim();
 const args = process.argv.slice(2);
 const since = args.includes("--since") ? args[args.indexOf("--since") + 1] : "";
-const urls = ["tr", "en", "es", "de", "pt", "fr"].flatMap((l) =>
+const urls = languages.flatMap((l) =>
   [...readFileSync(`sitemap-${l}.xml`, "utf8").matchAll(/<url><loc>([^<]+)<\/loc>(?:<lastmod>([^<]+)<\/lastmod>)?/g)]
     .filter(([, , lastmod]) => !since || (lastmod && lastmod >= since))
     .map(([, loc]) => loc),

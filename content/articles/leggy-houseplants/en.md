@@ -15,9 +15,9 @@ The University of Minnesota notes that many houseplants stretch towards limited 
 
 ## Step one: more light
 
-Pruning alone will not help if the plant stays in the same dim spot; the new shoots will stretch again. Move it closer to a window, or to a brighter one. If you are moving a plant into much stronger light, do it gradually over one to two weeks so the leaves do not scorch. [University of Minnesota Extension: spring houseplant care](https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/houseplants/spring-houseplant-care) Our [indoor plant light guide](/en/guides/indoor-plant-light-guide/) explains how to read the light in a room.
+Pruning alone will not help if the plant stays in the same dim spot; the new shoots will stretch again. Move it closer to a window, or to a brighter one. If you are moving a plant into much stronger light, do it gradually over one to two weeks so the leaves do not scorch. [University of Minnesota Extension: spring houseplant care](https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/houseplants/spring-houseplant-care) Our [indoor plant light guide](/guides/indoor-plant-light-guide/) explains how to read the light in a room.
 
-If there is no brighter spot, a grow light can make up the difference. Clemson University's Home & Garden Information Center notes that extending the light period can compensate for weak light, and that 16 hours of light and 8 of darkness suits most plants. [Clemson HGIC: indoor plants, light requirements](https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/) Our post on [grow lights for houseplants](/en/blog/grow-lights-for-houseplants/) covers the set-up.
+If there is no brighter spot, a grow light can make up the difference. Clemson University's Home & Garden Information Center notes that extending the light period can compensate for weak light, and that 16 hours of light and 8 of darkness suits most plants. [Clemson HGIC: indoor plants, light requirements](https://hgic.clemson.edu/factsheet/indoor-plants-cleaning-fertilizing-containers-light-requirements/) Our post on [grow lights for houseplants](/blog/grow-lights-for-houseplants/) covers the set-up.
 
 Turning the pot a quarter turn every week or two also helps the plant grow evenly instead of leaning one way.
 
@@ -34,7 +34,7 @@ How to cut:
 
 ## Step three: root the cuttings
 
-Many trailing and soft-stemmed plants, such as pothos, philodendron, tradescantia and many begonias, root easily from stem cuttings. Our guide to [propagating houseplants from cuttings](/en/guides/propagating-cuttings/) covers water and soil methods. Planting the rooted cuttings back into the same pot is a simple way to make a sparse plant look full again.
+Many trailing and soft-stemmed plants, such as pothos, philodendron, tradescantia and many begonias, root easily from stem cuttings. Our guide to [propagating houseplants from cuttings](/guides/propagating-cuttings/) covers water and soil methods. Planting the rooted cuttings back into the same pot is a simple way to make a sparse plant look full again.
 
 ## Keep it compact from now on
 
@@ -42,7 +42,7 @@ Once the plant is in better light, a few habits keep it bushy:
 
 - Turn the pot a quarter turn every week or two so all sides get light.
 - In the growing season, trim the tip of a stem that is getting long, just above a node, rather than waiting for a big cut. [University of Minnesota Extension: spring houseplant care](https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/houseplants/spring-houseplant-care)
-- Feed only while the plant is actively growing and at or below the label rate; extra fertiliser in dim light does not replace light. See [feeding houseplants](/en/guides/fertilizing-houseplants/).
+- Feed only while the plant is actively growing and at or below the label rate; extra fertiliser in dim light does not replace light. See [feeding houseplants](/guides/fertilizing-houseplants/).
 - Expect some stretch every winter and plan a light trim for early spring.
 
 ## Common questions

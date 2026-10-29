@@ -4,9 +4,9 @@ Bitkilerini taşınma planına birkaç hafta önceden dahil et. Zararlılara kar
 
 ## İki ila dört hafta önce
 
-<figure style="margin:24px 0"><img src="/assets/images/home/download-window-v1-960.webp" width="960" height="1440" alt="Gün ışığında ince bir tül perdenin yanında pişmiş toprak saksıda bir kauçuk bitkisi ve ahşap taburede bir salon sarmaşığı" loading="lazy" decoding="async" style="display:block;width:100%;max-width:420px;height:auto;border-radius:4px"><figcaption style="font-size:14px;margin-top:8px">Lilora için üretilmiş bir illüstrasyon; belirli bir bitkinin fotoğrafı değildir. <a href="/editorial/#imagery">Görseller hakkında</a></figcaption></figure>
+<figure style="margin:24px 0"><img src="/assets/images/home/download-window-v1-960.webp" width="960" height="1440" alt="Gün ışığında ince bir tül perdenin yanında pişmiş toprak saksıda bir kauçuk bitkisi ve ahşap taburede bir salon sarmaşığı" loading="lazy" decoding="async" style="display:block;width:100%;max-width:420px;height:auto;border-radius:4px"><figcaption style="font-size:14px;margin-top:8px">Lilora için üretilmiş bir illüstrasyon; belirli bir bitkinin fotoğrafı değildir. <a href="/tr/editorial/#imagery">Görseller hakkında</a></figcaption></figure>
 
-1. **Nelerin taşınacağına karar ver.** Büyük, kırılgan ya da zorlanan bitkileri bir arkadaşına vermek, kendine de bir çelik ayırmak daha iyi olabilir. [Ev bitkilerini çelikle çoğaltma](/guides/propagating-cuttings/) rehberine bak.
+1. **Nelerin taşınacağına karar ver.** Büyük, kırılgan ya da zorlanan bitkileri bir arkadaşına vermek, kendine de bir çelik ayırmak daha iyi olabilir. [Ev bitkilerini çelikle çoğaltma](/tr/guides/propagating-cuttings/) rehberine bak.
 2. **Zararlılara bak.** Yeni evine bir istila taşımak istemezsin. Yaprakların altını ve yaprak koltuklarını incele, etkilenen bitkiyi ayrı tut. [Minnesota Üniversitesi Extension: ev bitkisi zararlıları](https://extension.umn.edu/news/houseplant-pests)
 3. **Saksı değiştirmekten şimdilik kaçın;** saksı çatlamadıysa. Yeni saksılanmış bitki zaten uyum sağlamaya çalışıyordur; taşınma bu strese eklenir.
 4. **Sınır geçiyorsan kurallara bak.** AB’de, AB dışından gelen bitkiler ve bitkisel ürünler kişisel bagajda bile genellikle bitki sağlık sertifikası gerektirir. Diğer ülkelerin kendi kuralları var; toplamadan önce gideceğin yerin bitki sağlığı otoritesine danış. [EFSA: seyahat ve bitkiler](https://www.efsa.europa.eu/en/plh4l/travelling-and-plants)
@@ -31,15 +31,15 @@ Uç sıcaklıklar ve ani değişiklikler ev bitkilerinde yaprak dökümüne, kah
 ## Yeni evde
 
 - Bitkileri aynı gün çıkar. Ambalajları aç ve hava almalarını sağla.
-- Önceden aldıkları ışığa olabildiğince yakın bir yer bul, sonra ayarla. Loş bir yerden ani olarak güçlü doğrudan güneşe geçmek yaprakları yakabilir; ışığı kademeli artır. [Illinois Üniversitesi Extension: bitkileri içeri taşımak](https://extension.illinois.edu/blogs/good-growing/2022-09-09-tips-moving-houseplants-indoors-and-overwinter-care) Yeni pencereleri değerlendirmek için [ev bitkileri için ışık rehberimize](/guides/indoor-plant-light-guide/) bak.
-- Sulamadan önce harcı kontrol et. Yeni odalar saksıları farklı hızda kurutur; eski düzeni sürdürmek yerine kontrole yeniden başla. [Sabit takvime bağlı kalmadan sulama](/guides/watering-houseplants/) rehberine bak.
+- Önceden aldıkları ışığa olabildiğince yakın bir yer bul, sonra ayarla. Loş bir yerden ani olarak güçlü doğrudan güneşe geçmek yaprakları yakabilir; ışığı kademeli artır. [Illinois Üniversitesi Extension: bitkileri içeri taşımak](https://extension.illinois.edu/blogs/good-growing/2022-09-09-tips-moving-houseplants-indoors-and-overwinter-care) Yeni pencereleri değerlendirmek için [ev bitkileri için ışık rehberimize](/tr/guides/indoor-plant-light-guide/) bak.
+- Sulamadan önce harcı kontrol et. Yeni odalar saksıları farklı hızda kurutur; eski düzeni sürdürmek yerine kontrole yeniden başla. [Sabit takvime bağlı kalmadan sulama](/tr/guides/watering-houseplants/) rehberine bak.
 - Birkaç hafta besleme ve saksı değiştirme. Önce köklerin yerleşmesine izin ver.
 
-İlk haftalarda biraz sararma veya yaprak dökümü yaygındır. Kötüleşme sürüyorsa [sararan yapraklarda neye bakmalı](/guides/yellow-houseplant-leaves/) rehberiyle incelemeye değer.
+İlk haftalarda biraz sararma veya yaprak dökümü yaygındır. Kötüleşme sürüyorsa [sararan yapraklarda neye bakmalı](/tr/guides/yellow-houseplant-leaves/) rehberiyle incelemeye değer.
 
 ## Taşınma sırasında başkası bakacaksa
 
-Bitkiler bir süre bir arkadaşında kalacak ya da ayrı taşınacaksa açık notlar bırak: bitkinin adı, harcın nasıl kontrol edileceği, en son ne zaman sulandığı ve pörsürse ne yapılacağı. RHS, sen yokken bakımı düzenlemek için pratik öneriler sunuyor. [RHS: tatilde bakım](https://www.rhs.org.uk/plants/types/houseplants/holiday-care) [Bitki bakımını paylaşmak](/guides/shared-plant-care/) rehberimizde basit bir devir listesi de var.
+Bitkiler bir süre bir arkadaşında kalacak ya da ayrı taşınacaksa açık notlar bırak: bitkinin adı, harcın nasıl kontrol edileceği, en son ne zaman sulandığı ve pörsürse ne yapılacağı. RHS, sen yokken bakımı düzenlemek için pratik öneriler sunuyor. [RHS: tatilde bakım](https://www.rhs.org.uk/plants/types/houseplants/holiday-care) [Bitki bakımını paylaşmak](/tr/guides/shared-plant-care/) rehberimizde basit bir devir listesi de var.
 
 Lilora’da odaların adını değiştirebilir, bitkileri odalar arasında taşıyabilirsin; her taşıma bitkinin geçmişinde görünür. Böylece eski evde hangi bitkinin hangi pencereyi sevdiğini hatırlamak kolaylaşır.
 

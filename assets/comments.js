@@ -19,7 +19,7 @@ const loadComments = async (section) => {
     return li;
   };
   try {
-    const response = await fetch(`${d.endpoint}?page=${encodeURIComponent(d.page)}`, { cache: "no-store" });
+    const response = await fetch(`${d.endpoint}?page=${encodeURIComponent(d.page)}&language=${encodeURIComponent(d.lang)}`, { cache: "no-store" });
     if (!response.ok) throw new Error(String(response.status));
     const { comments = [] } = await response.json();
     const date = new Intl.DateTimeFormat(d.lang, { dateStyle: "long" });

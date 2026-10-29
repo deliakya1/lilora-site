@@ -4,7 +4,7 @@ Bottom watering means standing the pot in a saucer or bowl of water so the mix s
 
 ## How to do it
 
-1. Check that the plant actually needs water: push a finger into the mix and lift the pot. Our guide to [watering houseplants without a rigid schedule](/en/guides/watering-houseplants/) explains the check.
+1. Check that the plant actually needs water: push a finger into the mix and lift the pot. Our guide to [watering houseplants without a rigid schedule](/guides/watering-houseplants/) explains the check.
 2. Fill a saucer, bowl or sink with a few centimetres of room-temperature water.
 3. Stand the pot in it. The pot must have a drainage hole.
 4. Wait until the surface of the mix feels damp. University of Wisconsin–Madison Extension suggests 20 to 30 minutes for African violets before removing any excess water. [University of Wisconsin–Madison Extension: houseplant care](https://hort.extension.wisc.edu/articles/houseplant-care/)
@@ -22,11 +22,11 @@ The University of Maryland describes the same method: water is absorbed and draw
 
 Colorado State University Extension says that, generally speaking, it is better to water from the top, because subirrigation can lead to soluble salts accumulating in and on the surface of the mix. High salt levels reduce water uptake and root growth. [Colorado State University Extension: watering houseplants](https://planttalk.colostate.edu/topics/houseplants/1318-houseplants-watering/) The University of Maryland also notes that fertiliser salts can collect as a white crust on the surface, especially on bottom-watered plants. [University of Maryland Extension: fertilizer toxicity or high soluble salts](https://extension.umd.edu/resource/fertilizer-toxicity-or-high-soluble-salts-indoor-plants)
 
-The fix is simple: if you mostly water from below, water thoroughly from the top every so often and let it drain, so the excess salts wash out. [Colorado State University Extension: watering houseplants](https://planttalk.colostate.edu/topics/houseplants/1318-houseplants-watering/) Our post on [tap water for houseplants](/en/blog/tap-water-for-houseplants/) covers how often to flush.
+The fix is simple: if you mostly water from below, water thoroughly from the top every so often and let it drain, so the excess salts wash out. [Colorado State University Extension: watering houseplants](https://planttalk.colostate.edu/topics/houseplants/1318-houseplants-watering/) Our post on [tap water for houseplants](/blog/tap-water-for-houseplants/) covers how often to flush.
 
 ## Don't leave it soaking
 
-The commonest mistake is forgetting the pot in the water. Iowa State warns that plants should not stay in saucers of water for long periods, as they may rot, and that the top 2–3 cm of mix should dry before the next soak. [Iowa State University Extension: all about African violets](https://yardandgarden.extension.iastate.edu/how-to/all-about-african-violets) Constantly wet roots run short of air; see [root rot in houseplants](/en/guides/root-rot/) if a plant wilts in wet mix.
+The commonest mistake is forgetting the pot in the water. Iowa State warns that plants should not stay in saucers of water for long periods, as they may rot, and that the top 2–3 cm of mix should dry before the next soak. [Iowa State University Extension: all about African violets](https://yardandgarden.extension.iastate.edu/how-to/all-about-african-violets) Constantly wet roots run short of air; see [root rot in houseplants](/guides/root-rot/) if a plant wilts in wet mix.
 
 ## Combining both methods
 

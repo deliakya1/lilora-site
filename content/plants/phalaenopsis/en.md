@@ -6,13 +6,13 @@ Moth orchids (*Phalaenopsis*) grow on trees in tropical and subtropical Asia and
 
 Give bright, indirect light. NC State suggests an east windowsill, or a well-shaded west or south window. The RHS advises bright light in winter to encourage flowering and keeping plants out of direct summer sun, which can scorch leaves. [NC State Extension](https://plants.ces.ncsu.edu/plants/phalaenopsis/) · [RHS](https://www.rhs.org.uk/plants/phalaenopsis/growing-guide)
 
-Dark green, floppy leaves suggest too little light; yellowish or scorched leaves can mean too much. See the [indoor light guide](/en/guides/indoor-plant-light-guide/).
+Dark green, floppy leaves suggest too little light; yellowish or scorched leaves can mean too much. See the [indoor light guide](/guides/indoor-plant-light-guide/).
 
 ## How to check before watering
 
 Water when the bark is starting to dry. Roots that look silvery through a clear pot and a lighter pot are useful clues; green, plump roots have recently been watered. Water in the morning with tepid water, preferably rainwater, either from above or by standing the pot in a bowl, then drain thoroughly. Never leave it standing in water, and never let the roots dry out completely. [NC State Extension](https://plants.ces.ncsu.edu/plants/phalaenopsis/) · [RHS](https://www.rhs.org.uk/plants/phalaenopsis/growing-guide)
 
-Mature plants may need water about weekly in the growing season and less in winter, but let the bark tell you. The [watering guide](/en/guides/watering-houseplants/) explains why.
+Mature plants may need water about weekly in the growing season and less in winter, but let the bark tell you. The [watering guide](/guides/watering-houseplants/) explains why.
 
 ## Potting mix and pot
 

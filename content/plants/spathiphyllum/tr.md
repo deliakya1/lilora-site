@@ -6,13 +6,13 @@ Barış çiçeği, tropik Amerika ve Batı Pasifik adaları kökenli, gölgeyi s
 
 Yarı gölgeden koyu gölgeye kadar olan yerleri sever; NC State doğrudan güneşe konmamasını söylüyor. RHS yarı gölgede aydınlık bir yer öneriyor ve güneşli pencere önlerinden kaçınmayı tavsiye ediyor. Karanlık bir köşeye göre daha aydınlık bir yerde genellikle daha iyi çiçek açar. [NC State Extension](https://plants.ces.ncsu.edu/plants/spathiphyllum/) · [RHS](https://www.rhs.org.uk/getmedia/d02059a1-4e2c-45c3-956b-da5cc90db7f1/Indoor-plants-resources.pdf)
 
-Gölgeyle gerçekten karanlık bir yeri ayırt etmek için [ışık rehberine](/guides/indoor-plant-light-guide/) bak.
+Gölgeyle gerçekten karanlık bir yeri ayırt etmek için [ışık rehberine](/tr/guides/indoor-plant-light-guide/) bak.
 
 ## Sulamadan önce kontrol
 
 Harcı nemli ama çamurlaşmamış tut ve sulamalar arasında biraz kurumasına izin ver. Sukulentlerden çok daha hızlı kuruduğu için sık kontrol et. Harcın üstü yeni kurumuş ve saksı hafiflemişse iyice sula ya da NC State'in iyi sonuç verdiğini söylediği gibi alttan sula, sonra tamamen süzdür. [NC State Extension](https://plants.ces.ncsu.edu/plants/spathiphyllum/)
 
-Barış çiçeği kuruyunca belirgin şekilde boynunu büker ama ıslak kökler de aynı görüntüyü verebilir. Su vermeden önce harcı yokla. Nasıl yapacağını [sulama rehberi](/guides/watering-houseplants/) anlatıyor.
+Barış çiçeği kuruyunca belirgin şekilde boynunu büker ama ıslak kökler de aynı görüntüyü verebilir. Su vermeden önce harcı yokla. Nasıl yapacağını [sulama rehberi](/tr/guides/watering-houseplants/) anlatıyor.
 
 ## Harç ve saksı
 
@@ -30,7 +30,7 @@ Kaynaklar ayrıntıda ayrışıyor. NC State önerilen dozun dörtte biriyle gü
 
 NC State'e göre yaklaşık 4–16 °C arasındaki soğuk ve cereyanlı ortam büyümeyi belirgin biçimde yavaşlatır; 4 °C'nin altında uzun süre kalmak yapraklara, gövdelere ve köklere zarar verebilir. Kışın bitkiyi soğuk pencere ve kapılardan uzak, ılık bir odada tut ve sabit bir günde sulamak yerine harcı kontrol etmeyi sürdür; yavaşlayan büyüme genellikle daha yavaş kuruma demektir. NC State, gerekiyorsa saksı değişimini şubat ya da martta yapmayı öneriyor. [NC State Extension](https://plants.ces.ncsu.edu/plants/spathiphyllum/)
 
-Isıtılan odalar çoğu zaman kurudur ve NC State düşük nemi kahverengi yaprak uçlarıyla ilişkilendiriyor. Yazın bitkiyi doğrudan güneşten koru; güneş de uçları kahverengileştirir. [Kış bakımı rehberine](/guides/winter-houseplant-care/) ve [nem rehberine](/guides/houseplant-humidity/) bak. Lilora'da hatırlatma bir kontrol çağrısıdır, sulama emri değil: suladığını ya da ertelediğini kaydedersin; böylece soğuk aylarda harcın daha yavaş kuruduğu kendi geçmişinde görünür.
+Isıtılan odalar çoğu zaman kurudur ve NC State düşük nemi kahverengi yaprak uçlarıyla ilişkilendiriyor. Yazın bitkiyi doğrudan güneşten koru; güneş de uçları kahverengileştirir. [Kış bakımı rehberine](/tr/guides/winter-houseplant-care/) ve [nem rehberine](/tr/guides/houseplant-humidity/) bak. Lilora'da hatırlatma bir kontrol çağrısıdır, sulama emri değil: suladığını ya da ertelediğini kaydedersin; böylece soğuk aylarda harcın daha yavaş kuruduğu kendi geçmişinde görünür.
 
 ## Sık görülen sorunlar
 
@@ -38,7 +38,7 @@ Isıtılan odalar çoğu zaman kurudur ve NC State düşük nemi kahverengi yapr
 - **Unlu bit:** evde en sık görülen zararlı; yaprakları nemli bezle sil.
 - **Çiçek açmaması:** çoğu zaman ışık az.
 
-Diğer yaprak değişimleri için [sararan yaprak kontrollerine](/guides/yellow-houseplant-leaves/) bak.
+Diğer yaprak değişimleri için [sararan yaprak kontrollerine](/tr/guides/yellow-houseplant-leaves/) bak.
 
 ## Çoğaltma
 
@@ -46,7 +46,7 @@ Saksı değişiminde kalabalık öbeği böl; her parçada kök ve birkaç yapra
 
 ## Evcil hayvanlar ve insanlar
 
-[ASPCA Animal Poison Control Center](https://www.aspca.org/), barış çiçeğini çözünmeyen kalsiyum oksalatlar nedeniyle kedi ve köpekler için toksik olarak listeler. Saydığı belirtiler ağızda tahriş, ağız, dil ve dudaklarda yanma ve tahriş, aşırı salya, kusma ve yutma güçlüğüdür. Adına rağmen gerçek bir zambak (*Lilium*) değildir. Evcil hayvanın bitkiyi çiğnerse bir veterinere veya hayvan zehir danışma hizmetine başvur. İnsanlarda zehirlenme şüphesinde Türkiye'de 114 UZEM'i ara. Bu genel bilgidir; veteriner veya tıbbi tavsiye değildir. Başka bitkilerle karşılaştırmak için [evcil hayvan dostu bitkiler rehberine](/guides/pet-safe-houseplants/) ya da [bitki kütüphanesindeki toksik olmayan profillere](/plants/#petNonToxic) bak.
+[ASPCA Animal Poison Control Center](https://www.aspca.org/), barış çiçeğini çözünmeyen kalsiyum oksalatlar nedeniyle kedi ve köpekler için toksik olarak listeler. Saydığı belirtiler ağızda tahriş, ağız, dil ve dudaklarda yanma ve tahriş, aşırı salya, kusma ve yutma güçlüğüdür. Adına rağmen gerçek bir zambak (*Lilium*) değildir. Evcil hayvanın bitkiyi çiğnerse bir veterinere veya hayvan zehir danışma hizmetine başvur. İnsanlarda zehirlenme şüphesinde Türkiye'de 114 UZEM'i ara. Bu genel bilgidir; veteriner veya tıbbi tavsiye değildir. Başka bitkilerle karşılaştırmak için [evcil hayvan dostu bitkiler rehberine](/tr/guides/pet-safe-houseplants/) ya da [bitki kütüphanesindeki toksik olmayan profillere](/tr/plants/#petNonToxic) bak.
 
 ## Sık sorulan sorular
 

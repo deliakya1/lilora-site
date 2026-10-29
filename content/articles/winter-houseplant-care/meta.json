@@ -61,5 +61,17 @@
   "fr": {
     "description": "Moins de lumière, air sec du chauffage et croissance ralentie : comment adapter l’emplacement, l’arrosage et l’engrais de vos plantes en hiver.",
     "seoTitle": "Plantes d’intérieur en hiver : lumière, chauffage, arrosage"
+  },
+  "ja": {
+    "description": "少ない光、暖房による乾燥、ゆっくりした成長。北半球・南半球それぞれの冬に、観葉植物の光、水やり、肥料を調整する方法です。"
+  },
+  "ko": {
+    "description": "줄어든 빛, 난방으로 건조한 공기, 느린 생장에 맞춰 겨울철 실내식물의 빛과 물주기, 비료를 조정하는 방법입니다. 남반구에도 적용됩니다."
+  },
+  "it": {
+    "description": "In inverno adatta luce, acqua e concime alla crescita più lenta. Proteggi le piante da termosifoni, correnti e vetri freddi e controlla il substrato."
+  },
+  "zh-Hant": {
+    "description": "冬季室內植物照護指南：改善光線、避開暖氣與冷風，依介質決定澆水並暫緩施肥換盆，兼顧不同半球與氣候。"
   }
 }

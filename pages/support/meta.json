@@ -28,5 +28,25 @@
     "title": "Un peu d’aide pour vos plantes.",
     "seoTitle": "Aide Lilora : questions fréquentes et contact",
     "description": "Réponses sur Lilora : langue, stockage des plantes, suppression du compte, rappels, identification et achats, et comment nous contacter."
+  },
+  "ja": {
+    "title": "植物との暮らしをお手伝い。",
+    "seoTitle": "Liloraサポート：よくある質問とお問い合わせ",
+    "description": "Liloraの言語、植物の保存場所、アカウントの削除、リマインダー、写真識別、購入について、よくある質問にお答えします。"
+  },
+  "ko": {
+    "title": "식물을 돌보는 데 필요한 작은 도움.",
+    "description": "언어, 식물 기록 저장 위치, 계정 삭제, 알림, 사진 식별과 구매 등 Lilora에 관한 자주 묻는 질문에 답합니다.",
+    "seoTitle": "Lilora 지원: 자주 묻는 질문과 문의"
+  },
+  "it": {
+    "title": "Un piccolo aiuto per il tuo giardino.",
+    "seoTitle": "Assistenza Lilora: domande frequenti e contatti",
+    "description": "Risposte su lingua, archiviazione delle piante, eliminazione dell’account, promemoria, riconoscimento e acquisti nell’app Lilora per iOS."
+  },
+  "zh-Hant": {
+    "title": "為您的綠意生活提供一點協助。",
+    "seoTitle": "Lilora 支援：常見問題與聯絡方式",
+    "description": "解答 Lilora 常見問題，包括切換語言、植物資料儲存位置、刪除帳號、提醒、照片辨識與購買，並提供聯絡支援的方式。"
   }
 }

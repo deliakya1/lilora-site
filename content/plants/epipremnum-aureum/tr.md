@@ -6,13 +6,13 @@ Salon sarmaşığı, Society Adaları kökenli, sarkarak ya da tırmanarak büy�
 
 En iyi parlak, dolaylı ışıkta büyür: aydınlık ama güneşin saatlerce yaprağa vurmadığı bir yer. Uzun süre az ışıkta yaşayabildiği için ofislerde sık görülür. Loş bir köşede yaprakların küçüldüğünü, boğum aralarının uzadığını ve sarı-beyaz desenin azaldığını görürsün. [NC State Extension](https://plants.ces.ncsu.edu/plants/epipremnum-aureum/)
 
-Alacalı bir bitki düz yeşile dönüyorsa onu pencereye biraz yaklaştır ve sonraki birkaç yaprağı izle. [Işık rehberimiz](/guides/indoor-plant-light-guide/) bir yerin gün boyu aldığı ışığı nasıl okuyacağını anlatıyor.
+Alacalı bir bitki düz yeşile dönüyorsa onu pencereye biraz yaklaştır ve sonraki birkaç yaprağı izle. [Işık rehberimiz](/tr/guides/indoor-plant-light-guide/) bir yerin gün boyu aldığı ışığı nasıl okuyacağını anlatıyor.
 
 ## Sulamadan önce kontrol
 
 Salon sarmaşığı, sulamalar arasında kuruyan, iyi süzülen bir harç ister. Parmağını harca bastır: üstteki birkaç santimetre kuruysa ve saksı son sulamaya göre belirgin şekilde hafiflediyse, drenaj deliklerinden su gelene kadar yavaşça sula, sonra tabağı boşalt. Harç hâlâ serin ve nemliyse bekle, birkaç gün sonra yeniden bak. [NC State Extension](https://plants.ces.ncsu.edu/plants/epipremnum-aureum/)
 
-Hatırlatma, bakman için bir işarettir; bitkinin susadığını kanıtlamaz. Saksı ağırlığı ve diğer ipuçları için [sulama rehberine](/guides/watering-houseplants/) bak.
+Hatırlatma, bakman için bir işarettir; bitkinin susadığını kanıtlamaz. Saksı ağırlığı ve diğer ipuçları için [sulama rehberine](/tr/guides/watering-houseplants/) bak.
 
 ## Harç ve saksı
 
@@ -30,7 +30,7 @@ Büyüme döneminde yaklaşık iki ayda bir, etiketteki dozda saksı bitkisi gü
 
 NC State kışı dinlenme dönemi olarak ele alıyor: ilkbahara kadar gübreyi bırak ve iyi süzülen harcın sulamalar arasında kurumasına izin vermeyi sürdür. Büyüme yavaşladığı için kuruma uzar, yani sulama araları açılır. NC State aşırı sulamayı kök çürüklüğü ve yaprak kenarlarının kararmasıyla ilişkilendiriyor; bu, yaz düzeni loş bir kışa taşındığında daha olasıdır. [NC State Extension](https://plants.ces.ncsu.edu/plants/epipremnum-aureum/)
 
-Salon sarmaşığı az ışıkta uzun süre yaşayabilir ama NC State az ışığın alacayı soldurabileceğini belirtiyor; karanlık aylarda pencereye daha yakın bir yer yardımcı olur. Soğuk cam ve kalorifer için [kış bakımı rehberine](/guides/winter-houseplant-care/) bak. Lilora'da hatırlatma bir kontrol çağrısıdır, sulama emri değil: suladığını ya da ertelediğini kaydedersin; böylece soğuk aylarda harcın daha yavaş kuruduğu kendi geçmişinde görünür.
+Salon sarmaşığı az ışıkta uzun süre yaşayabilir ama NC State az ışığın alacayı soldurabileceğini belirtiyor; karanlık aylarda pencereye daha yakın bir yer yardımcı olur. Soğuk cam ve kalorifer için [kış bakımı rehberine](/tr/guides/winter-houseplant-care/) bak. Lilora'da hatırlatma bir kontrol çağrısıdır, sulama emri değil: suladığını ya da ertelediğini kaydedersin; böylece soğuk aylarda harcın daha yavaş kuruduğu kendi geçmişinde görünür.
 
 ## Sık görülen sorunlar
 
@@ -38,7 +38,7 @@ Salon sarmaşığı az ışıkta uzun süre yaşayabilir ama NC State az ışı�
 - **Alacanın kaybolması:** çoğunlukla yetersiz ışık.
 - **Zararlılar:** gövde boyunca ve yaprak altlarında unlu bit, kabuklu bit ve trips ara.
 
-Tek bir sarı yaprak nedeni tek başına göstermez. Aynı anda birçok şeyi değiştirmeden önce [sararan yaprak kontrollerini](/guides/yellow-houseplant-leaves/) uygula.
+Tek bir sarı yaprak nedeni tek başına göstermez. Aynı anda birçok şeyi değiştirmeden önce [sararan yaprak kontrollerini](/tr/guides/yellow-houseplant-leaves/) uygula.
 
 ## Çoğaltma
 
@@ -46,7 +46,7 @@ Gövde çeliğiyle kolayca köklenir. En az bir boğumu (yaprakla hava kökünü
 
 ## Evcil hayvanlar ve insanlar
 
-[ASPCA Animal Poison Control Center](https://www.aspca.org/), salon sarmaşığını (golden pothos) kedi ve köpekler için toksik olarak listeler. NC State Extension toksik maddeyi kalsiyum oksalat kristalleri olarak belirtir; ağızda tahriş ve şişlik, salya artışı, yutma güçlüğü ve kusma gibi belirtiler sayar; özsuyu da cildi tahriş edebilir. Sarkan dalları ulaşılamayacak yerde tut. Evcil hayvanın bitkiyi çiğnerse bir veterinere veya hayvan zehir danışma hizmetine başvur. İnsanlarda zehirlenme şüphesinde Türkiye'de 114 Ulusal Zehir Danışma Merkezi'ni (UZEM) ara; UZEM bir veteriner hizmeti değildir. Bu genel bilgidir; veteriner veya tıbbi tavsiye değildir. Başka bitkilerle karşılaştırmak için [evcil hayvan dostu bitkiler rehberine](/guides/pet-safe-houseplants/) ya da [bitki kütüphanesindeki toksik olmayan profillere](/plants/#petNonToxic) bak.
+[ASPCA Animal Poison Control Center](https://www.aspca.org/), salon sarmaşığını (golden pothos) kedi ve köpekler için toksik olarak listeler. NC State Extension toksik maddeyi kalsiyum oksalat kristalleri olarak belirtir; ağızda tahriş ve şişlik, salya artışı, yutma güçlüğü ve kusma gibi belirtiler sayar; özsuyu da cildi tahriş edebilir. Sarkan dalları ulaşılamayacak yerde tut. Evcil hayvanın bitkiyi çiğnerse bir veterinere veya hayvan zehir danışma hizmetine başvur. İnsanlarda zehirlenme şüphesinde Türkiye'de 114 Ulusal Zehir Danışma Merkezi'ni (UZEM) ara; UZEM bir veteriner hizmeti değildir. Bu genel bilgidir; veteriner veya tıbbi tavsiye değildir. Başka bitkilerle karşılaştırmak için [evcil hayvan dostu bitkiler rehberine](/tr/guides/pet-safe-houseplants/) ya da [bitki kütüphanesindeki toksik olmayan profillere](/tr/plants/#petNonToxic) bak.
 
 ## Sık sorulan sorular
 

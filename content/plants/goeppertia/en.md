@@ -6,13 +6,13 @@ The plants sold as calatheas mostly belong to *Goeppertia* now; many were moved 
 
 Give indirect, medium to low light. Direct sun scorches and fades the patterned leaves. A bright room away from the sunbeam, or a north-facing window, often suits them. Leaves fold up at night and open by day, which gives the family its “prayer plant” name. [NC State Extension](https://plants.ces.ncsu.edu/plants/goeppertia/)
 
-Use the [indoor light guide](/en/guides/indoor-plant-light-guide/) to check a spot.
+Use the [indoor light guide](/guides/indoor-plant-light-guide/) to check a spot.
 
 ## How to check before watering
 
 Keep the mix moist and well drained, but not wet or soggy. Check the surface often: water when the top of the mix has just started to dry, before the whole pot dries out. NC State recommends distilled water or rainwater rather than tap water, which can damage the leaves. [NC State Extension](https://plants.ces.ncsu.edu/plants/goeppertia/)
 
-Curling or yellowing leaves can point to underwatering; drooping with rotting stems points to too much water or cold. Check the mix before acting. The [watering guide](/en/guides/watering-houseplants/) explains how.
+Curling or yellowing leaves can point to underwatering; drooping with rotting stems points to too much water or cold. Check the mix before acting. The [watering guide](/guides/watering-houseplants/) explains how.
 
 ## Potting mix and pot
 
@@ -33,7 +33,7 @@ Feed lightly during spring and summer with a diluted houseplant fertilizer, and 
 - **Rotting stems and drooping:** overwatering or cold.
 - **Pests:** spider mites, mealybugs, scale and aphids. Grey mould can appear in still, damp air; remove affected parts and improve ventilation.
 
-The [yellow-leaf checks](/en/guides/yellow-houseplant-leaves/) help you compare several clues.
+The [yellow-leaf checks](/guides/yellow-houseplant-leaves/) help you compare several clues.
 
 ## Propagation
 

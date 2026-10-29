@@ -49,5 +49,18 @@
   "fr": {
     "description": "Ce qu’il faut vérifier avant d’acheter une plante d’intérieur : feuilles, ravageurs, racines et pot. Puis comment l’isoler deux semaines à la maison.",
     "seoTitle": "Choisir une plante d’intérieur en bonne santé"
+  },
+  "ja": {
+    "description": "購入前に観葉植物の葉、害虫、根、鉢を確認する方法と、新しい株を2週間離して管理し、家に慣らす手順を紹介します。"
+  },
+  "ko": {
+    "description": "실내식물을 사기 전에 잎, 해충, 뿌리, 화분을 확인하세요. 새 식물을 2주간 따로 두고 집에 적응시키는 방법도 안내합니다."
+  },
+  "it": {
+    "seoTitle": "Come scegliere una pianta da appartamento sana",
+    "description": "Scegli una pianta sana controllando foglie, parassiti, vaso e radici. Ecco come isolarla e aiutarla ad ambientarsi nelle prime settimane a casa."
+  },
+  "zh-Hant": {
+    "description": "選購健康室內植物的檢查步驟：觀察葉片、害蟲、根系與介質，回家後隔離並適應光線，避免急著換盆或澆水。"
   }
 }

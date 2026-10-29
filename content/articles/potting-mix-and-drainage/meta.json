@@ -53,5 +53,17 @@
   },
   "fr": {
     "description": "Un trou de drainage, un substrat pour pots et pas de couche de graviers : ce qu’il faut à un pot et comment rempoter pas à pas."
+  },
+  "ja": {
+    "description": "排水穴、適した鉢植え用土、砂利の層を作らないこと。観葉植物の鉢に必要な条件と、植え付けの手順を説明します。"
+  },
+  "ko": {
+    "description": "배수구, 알맞은 화분용 배양토, 자갈층 없는 화분. 실내식물 화분에 필요한 조건과 단계별 심기 방법을 안내합니다."
+  },
+  "it": {
+    "description": "Un vaso forato e un substrato adatto aiutano le radici. Scopri perché la ghiaia sul fondo non migliora il drenaggio e come scegliere le dimensioni."
+  },
+  "zh-Hant": {
+    "description": "花盆排水與介質指南：選有孔容器、合適尺寸和介質，了解碎石層為何無助排水，以及安全換盆和套盆使用方法。"
   }
 }

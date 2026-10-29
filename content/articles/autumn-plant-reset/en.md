@@ -4,7 +4,7 @@ As days shorten, houseplant care shifts down a gear. Bring summering plants back
 
 ## Bring outdoor plants in before the cold
 
-<figure style="margin:24px 0"><img src="/assets/images/home/plant-shelf-v1-960.webp" width="960" height="640" alt="A trailing pothos in a white pot and a rubber plant in a terracotta pot on a low oak shelf in warm light" loading="lazy" decoding="async" style="display:block;width:100%;height:auto;border-radius:4px"><figcaption style="font-size:14px;margin-top:8px">Illustration generated for Lilora, not a photograph of a particular plant. <a href="/en/editorial/#imagery">About our images</a></figcaption></figure>
+<figure style="margin:24px 0"><img src="/assets/images/home/plant-shelf-v1-960.webp" width="960" height="640" alt="A trailing pothos in a white pot and a rubber plant in a terracotta pot on a low oak shelf in warm light" loading="lazy" decoding="async" style="display:block;width:100%;height:auto;border-radius:4px"><figcaption style="font-size:14px;margin-top:8px">Illustration generated for Lilora, not a photograph of a particular plant. <a href="/editorial/#imagery">About our images</a></figcaption></figure>
 
 Most houseplants are tropical. Many are harmed by cool nights well before frost; Illinois Extension suggests moving them in when night temperatures fall to about 13 °C, and earlier for the most cold-sensitive tropicals, which can be damaged at around 10 °C. [Illinois Extension: bring houseplants indoors before the first frost](https://extension.illinois.edu/news-releases/bring-houseplants-indoors-first-frost)
 
@@ -24,9 +24,9 @@ Plants that spent summer in bright outdoor light will find a room much darker. M
 
 ## What to watch in the first weeks
 
-A few yellow leaves after the move indoors are common while plants adjust to lower light. Watch for steady leaf loss, soft stems or pests that appear a week or two later. If leaves change colour, use [yellow houseplant leaves: what to check](/en/guides/yellow-houseplant-leaves/), and for anything that crawls, start with [common houseplant pests](/en/guides/houseplant-pests/).
+A few yellow leaves after the move indoors are common while plants adjust to lower light. Watch for steady leaf loss, soft stems or pests that appear a week or two later. If leaves change colour, use [yellow houseplant leaves: what to check](/guides/yellow-houseplant-leaves/), and for anything that crawls, start with [common houseplant pests](/guides/houseplant-pests/).
 
-Water carefully in this period. A plant in a dimmer room uses less water than it did outdoors, and pots no longer dry in the wind and sun. [Overwatered or underwatered?](/en/guides/overwatering-vs-underwatering/) explains how to tell.
+Water carefully in this period. A plant in a dimmer room uses less water than it did outdoors, and pots no longer dry in the wind and sun. [Overwatered or underwatered?](/guides/overwatering-vs-underwatering/) explains how to tell.
 
 ## Climates that do not fit the calendar
 
@@ -34,7 +34,7 @@ If you live somewhere with mild winters, or in the tropics, the change may be sm
 
 ## Why write it down
 
-An autumn reset changes several things at once: position, light, temperature and watering. If a plant struggles in November, a short record of what changed and when is the quickest way to find out why. In Lilora, a room change appears in the plant's history, and checks and waterings are separate records, so the autumn slowdown is visible rather than guessed. For the months ahead, see [winter houseplant care](/en/guides/winter-houseplant-care/).
+An autumn reset changes several things at once: position, light, temperature and watering. If a plant struggles in November, a short record of what changed and when is the quickest way to find out why. In Lilora, a room change appears in the plant's history, and checks and waterings are separate records, so the autumn slowdown is visible rather than guessed. For the months ahead, see [winter houseplant care](/guides/winter-houseplant-care/).
 
 ## Common questions
 

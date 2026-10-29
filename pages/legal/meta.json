@@ -22,5 +22,21 @@
   "fr": {
     "title": "Mentions légales",
     "description": "Informations sur l’éditeur, le contact et l’hébergement du site de Lilora : mentions légales, responsable de publication et services utilisés."
+  },
+  "ja": {
+    "title": "運営者情報",
+    "description": "Liloraウェブサイトの提供者、連絡先、ホスティングについての情報です。運営責任者と、サイトを支えるサービスをご案内します。"
+  },
+  "ko": {
+    "title": "법적 고지",
+    "description": "Lilora 웹사이트의 운영자, 연락처, 호스팅 정보를 확인하세요. 책임 주체와 사이트 운영에 사용되는 서비스를 안내합니다."
+  },
+  "it": {
+    "title": "Note legali",
+    "description": "Editore, contatti e hosting del sito Lilora: le note legali, chi è responsabile della pubblicazione e i servizi che fanno funzionare il sito."
+  },
+  "zh-Hant": {
+    "title": "法律聲明",
+    "description": "Lilora 網站的發行者、聯絡方式及託管資訊：了解網站由誰負責、使用哪些服務，以及相關法律聲明與隱私資訊。"
   }
 }

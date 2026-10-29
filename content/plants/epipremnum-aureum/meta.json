@@ -112,5 +112,61 @@
       "petSafetySource": "https://www.aspca.org/",
       "careLevel": "Facile"
     }
+  },
+  "ja": {
+    "description": "ポトスの育て方。明るい間接光、毎回の水やり前の確認、つるの挿し木と、ASPCAによる猫・犬への毒性情報を紹介します。",
+    "imageAlt": "屋外の木の幹を登る、黄色い斑のあるハート形の葉を付けたポトスのつる",
+    "caption": "写真：<a href=\"https://www.inaturalist.org/observations/333665480\"><em>Epipremnum aureum</em></a>、撮影：Jenny Saito。iNaturalistより、<a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>。サイズ変更済み。",
+    "atAGlance": {
+      "light": "明るい間接光。弱い光にも耐えるが斑が減ることがある",
+      "watering": "用土の上部が乾き、鉢が軽くなってから与える",
+      "humidity": "通常の室内湿度。とても乾く部屋では加湿器や小石のトレーが役立つ",
+      "temperature": "暖かい室温。熱帯のつる植物で霜には耐えられない",
+      "petSafety": "ASPCAは猫・犬に有毒と掲載",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "育てやすい"
+    }
+  },
+  "ko": {
+    "description": "스킨답서스 관리: 밝은 간접광, 매번 물주기 전 확인, 늘어진 줄기의 삽목과 고양이·개에 관한 ASPCA 분류를 알아보세요.",
+    "imageAlt": "야외 나무줄기를 타고 오르는 스킨답서스 덩굴. 하트 모양 잎에 노란 무늬가 있습니다",
+    "caption": "사진: <a href=\"https://www.inaturalist.org/observations/333665480\"><em>Epipremnum aureum</em></a> — 촬영: Jenny Saito, iNaturalist 제공, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. 크기를 조정했습니다.",
+    "atAGlance": {
+      "light": "밝은 간접광. 약한 빛도 견디지만 무늬가 줄어들 수 있습니다",
+      "watering": "흙의 윗부분이 마르고 화분이 가벼워졌을 때 물을 주세요",
+      "humidity": "일반적인 실내 습도. 매우 건조하면 가습기나 자갈 받침이 도움이 됩니다",
+      "temperature": "따뜻한 실내 온도. 서리를 견디지 못하는 열대 덩굴식물입니다",
+      "petSafety": "ASPCA가 고양이와 개에게 유독한 식물로 분류했습니다",
+      "careLevel": "쉬움",
+      "petSafetySource": "https://www.aspca.org/"
+    }
+  },
+  "it": {
+    "imageAlt": "Tralci di pothos con foglie a cuore striate di giallo che si arrampicano su un tronco all’aperto",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/333665480\"><em>Epipremnum aureum</em></a> di Jenny Saito, tramite iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Ridimensionata.",
+    "atAGlance": {
+      "light": "Luce intensa indiretta; tollera meno luce ma può perdere variegatura",
+      "watering": "Annaffia quando la parte superiore asciuga e il vaso è più leggero",
+      "humidity": "Normale aria di casa; umidificatore o ciottoli nelle stanze molto secche",
+      "temperature": "Stanza calda; rampicante tropicale non resistente al gelo",
+      "petSafety": "Elencato dall’ASPCA come tossico per gatti e cani",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Facile"
+    },
+    "description": "Cura del pothos: luce indiretta, controllo prima dell’acqua, talee dei fusti e informazioni ASPCA per gatti e cani, con problemi comuni."
+  },
+  "zh-Hant": {
+    "imageAlt": "黃金葛心形綠葉帶有黃色斑紋，沿枝條垂下",
+    "caption": "照片： <a href=\"https://www.inaturalist.org/observations/333665480\"><em>Epipremnum aureum</em></a>，攝影：Jenny Saito，來源：iNaturalist， <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. 已調整尺寸。",
+    "atAGlance": {
+      "light": "明亮間接光最佳；耐低光，但斑紋可能減少",
+      "watering": "上方幾公分乾燥、花盆變輕後澆透並瀝乾",
+      "humidity": "一般室內濕度；很乾時可提高濕度",
+      "temperature": "溫暖房間；冬季避開冷窗與冷風",
+      "petSafety": "ASPCA 列為對貓狗有毒",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "容易"
+    },
+    "description": "黃金葛照護指南：明亮間接光、介質與盆重檢查、冬季減水、莖插繁殖，以及斑紋消失和對貓狗的毒性。"
   }
 }

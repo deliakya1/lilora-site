@@ -22,5 +22,21 @@
   "fr": {
     "title": "Principes éditoriaux",
     "description": "Comment Lilora recherche, rédige avec l’aide de l’IA, vérifie, date et met à jour ses guides et comparatifs d’apps, et comment les images sont signalées."
+  },
+  "ja": {
+    "title": "編集方針",
+    "description": "Liloraの植物ガイドとアプリ比較の調査、AIを使った下書き、事実確認、日付の更新、画像の表示について、編集方針を説明します。"
+  },
+  "ko": {
+    "title": "콘텐츠 작성 원칙",
+    "description": "Lilora의 식물 안내와 앱 비교를 위한 조사, AI 초안, 사실 확인, 날짜와 업데이트, 이미지 표시 원칙을 설명합니다."
+  },
+  "it": {
+    "title": "Criteri editoriali",
+    "description": "Come Lilora ricerca, scrive con l’aiuto dell’IA, verifica e aggiorna guide e confronti tra app, indica le date e descrive le immagini usate."
+  },
+  "zh-Hant": {
+    "title": "編輯原則",
+    "description": "了解 Lilora 如何研究資料、運用 AI 協助起草、核實內容、標示及更新植物指南與應用程式比較的日期，以及如何說明圖片來源。"
   }
 }

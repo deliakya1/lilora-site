@@ -51,5 +51,18 @@
   "fr": {
     "description": "Rentrer les plantes avant le froid, chercher les ravageurs, redistribuer les fenêtres, espacer l’arrosage : une courte liste d’automne.",
     "seoTitle": "Le ménage d’automne des plantes d’intérieur"
+  },
+  "ja": {
+    "description": "寒い夜の前に植物を室内へ取り込み、害虫を確認し、窓辺を見直して水やりを調整する、観葉植物のための秋のチェックリストです。"
+  },
+  "ko": {
+    "description": "추운 밤이 오기 전에 식물을 들이고, 해충을 확인하고, 창가 자리를 조정하며 물주기를 줄여 보세요. 실내식물을 위한 짧은 가을 점검표입니다."
+  },
+  "it": {
+    "seoTitle": "Piante da appartamento in autunno: cosa controllare",
+    "description": "Prepara le piante all’autunno: controlla parassiti e luce, riportale in casa prima del freddo e adatta acqua e concime alle nuove condizioni."
+  },
+  "zh-Hant": {
+    "description": "室內植物秋季調整清單：搬入時機、蟲害隔離、光線重分配與減水停肥，並說明不同半球和氣候的季節差異。"
   }
 }

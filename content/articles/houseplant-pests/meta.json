@@ -67,5 +67,21 @@
   "fr": {
     "description": "Identifier moucherons des terreaux, tétranyques, cochenilles et thrips avant de traiter, en commençant par l’étape la moins nocive.",
     "seoTitle": "Ravageurs des plantes d’intérieur : les identifier"
+  },
+  "ja": {
+    "description": "キノコバエ、ハダニ、コナカイガラムシ、カイガラムシ、アザミウマを処置の前に見分け、影響の少ない方法から対処するガイドです。",
+    "seoTitle": "観葉植物のよくある害虫：見分け方と対処法"
+  },
+  "ko": {
+    "description": "처리 전에 뿌리파리, 응애, 깍지벌레류, 총채벌레를 구분하세요. 피해가 가장 적은 방법부터 시작하는 실내식물 해충 안내입니다.",
+    "seoTitle": "실내식물의 흔한 해충: 구별과 대처"
+  },
+  "it": {
+    "description": "Riconosci moscerini, acari, cocciniglie e tripidi. Isola la pianta e parti dai metodi meno dannosi prima di usare un prodotto secondo etichetta.",
+    "seoTitle": "Parassiti delle piante: riconoscerli e intervenire"
+  },
+  "zh-Hant": {
+    "seoTitle": "室內植物常見害蟲：辨認與處理",
+    "description": "辨認蕈蚋、葉蟎、粉介殼蟲、介殼蟲與薊馬，從隔離和手動移除開始，並依產品標籤安排處理與後續檢查。"
   }
 }

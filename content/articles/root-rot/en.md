@@ -17,7 +17,7 @@ Waterlogging alone also damages roots, and its symptoms look much the same. The 
 - A stem base that darkens or softens
 - Mix that stays wet for days and may smell sour
 
-University of Maryland Extension describes stunting, yellowing and wilting even when the mix moisture is adequate. These signs overlap with underwatering, cold and pests, so do not diagnose from leaves alone. [University of Maryland Extension: root rots of indoor plants](https://extension.umd.edu/resource/root-rots-indoor-plants) Start with the checks in [overwatered or underwatered?](/en/guides/overwatering-vs-underwatering/)
+University of Maryland Extension describes stunting, yellowing and wilting even when the mix moisture is adequate. These signs overlap with underwatering, cold and pests, so do not diagnose from leaves alone. [University of Maryland Extension: root rots of indoor plants](https://extension.umd.edu/resource/root-rots-indoor-plants) Start with the checks in [overwatered or underwatered?](/guides/overwatering-vs-underwatering/)
 
 ## How to check the roots
 
@@ -35,17 +35,17 @@ Healthy roots are usually firm and white or pale, often with many fine feeder ro
 6. Keep the plant in good indirect light, out of cold draughts, and do not fertilise until new growth appears.
 7. Wash the old pot and tools before using them again. [Utah State University Extension: Pythium root rot](https://extension.usu.edu/planthealth/ipm/ornamental-pest-guide/diseases/pythium-root-rot)
 
-If almost every root is rotten, recovery is unlikely, and discarding the plant with its mix is often the practical choice. If a stem still has firm, healthy growth, a cutting may give you a new plant; see [propagating houseplants from cuttings](/en/guides/propagating-cuttings/).
+If almost every root is rotten, recovery is unlikely, and discarding the plant with its mix is often the practical choice. If a stem still has firm, healthy growth, a cutting may give you a new plant; see [propagating houseplants from cuttings](/guides/propagating-cuttings/).
 
 We do not suggest fungicide treatments here. Products and their approval differ by country; if you consider one, use only a product labelled for houseplants and follow the label exactly.
 
 ## How to prevent it next time
 
-- Water when the mix needs it, not by calendar. Our [watering guide](/en/guides/watering-houseplants/) shows how to check.
+- Water when the mix needs it, not by calendar. Our [watering guide](/guides/watering-houseplants/) shows how to check.
 - Use a pot with a drainage hole and empty saucers and outer pots after watering.
-- Use a free-draining mix suited to the plant; see [potting mix and drainage](/en/guides/potting-mix-and-drainage/).
+- Use a free-draining mix suited to the plant; see [potting mix and drainage](/guides/potting-mix-and-drainage/).
 - Expect slower drying in winter light and cool rooms.
-- Repot into a modestly larger pot when roots need it, as described in [when to repot](/en/guides/when-to-repot-houseplants/).
+- Repot into a modestly larger pot when roots need it, as described in [when to repot](/guides/when-to-repot-houseplants/).
 
 Writing down each check helps here. In Lilora, "Checked, no water needed" and "Watered" are separate records, so a pot that stayed wet for ten days shows up as a run of checks rather than disappearing from memory.
 
@@ -61,7 +61,7 @@ Do not leave roots exposed for long. Trim, repot in fresh mix, and control moist
 
 ### My plant wilts but the roots look fine. What now?
 
-Then root rot is unlikely. Check light, temperature, pests and recent changes; see [yellow houseplant leaves](/en/guides/yellow-houseplant-leaves/).
+Then root rot is unlikely. Check light, temperature, pests and recent changes; see [yellow houseplant leaves](/guides/yellow-houseplant-leaves/).
 
 ### Is hydrogen peroxide a good treatment?
 

@@ -1,3 +1,4 @@
+const { options, languages, prefix: localePrefix } = require('./locale-registry.cjs');
 // Contact form in a real browser. The Supabase endpoint is intercepted; no message is sent.
 const {chromium}=require('playwright-core');
 const http=require('node:http');
@@ -19,7 +20,7 @@ const endpoint='https://mpswscvxcoixnlltahqn.supabase.co/functions/v1/website-co
  const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',headless:true,args:['--no-sandbox']});
  let count=0;
  try{
-  for(const [lang,prefix] of [['tr','/'],['en','/en/'],['es','/es/'],['de','/de/'],['pt','/pt/'],['fr','/fr/']])for(const width of [390,1440]){
+  for(const [lang,prefix] of options.map(({code,path})=>[code,path]))for(const width of [390,1440]){
    const context=await browser.newContext({viewport:{width,height:900}});
    await context.addInitScript(()=>localStorage.setItem('lilora.cookie-preferences.v2',JSON.stringify({version:2,analytics:false,savedAt:Date.now()})));
    const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
@@ -67,15 +68,18 @@ const endpoint='https://mpswscvxcoixnlltahqn.supabase.co/functions/v1/website-co
    assert.deepEqual(errors,[]);
    await context.close();count++;
   }
-  // Without JavaScript the form still posts natively to the endpoint.
-  const context=await browser.newContext({javaScriptEnabled:false,reducedMotion:'reduce'});const page=await context.newPage();
-  let posted=null;await page.route(endpoint,route=>{posted=route.request().postData();route.fulfill({status:303,headers:{location:origin+'/en/contact/?form=sent#contact-form'}});});
-  await page.goto(origin+'/en/contact/');
-  await page.fill('#contact-name','Ada');await page.fill('#contact-email','ada@example.com');
-  await page.fill('#contact-message','A question without JavaScript.');await page.check('#contact-consent');
-  await Promise.all([page.waitForURL(/form=sent/),page.locator('.contact-form button[type="submit"]').click()]);
-  assert.match(posted,/consent=yes/);assert.match(posted,/language=en/);
-  await context.close();count++;
+  // Without JavaScript every translated form still posts natively to the intercepted endpoint.
+  for(const lang of languages){
+   const context=await browser.newContext({javaScriptEnabled:false,reducedMotion:'reduce'});const page=await context.newPage();
+   let posted=null;await page.route(endpoint,route=>{posted=route.request().postData();route.fulfill({status:303,headers:{location:origin+localePrefix(lang)+'contact/?form=sent#contact-form'}});});
+   await page.goto(origin+localePrefix(lang)+'contact/');
+   await page.fill('#contact-name','Ada');await page.fill('#contact-email','ada@example.com');
+   await page.fill('#contact-message','A question without JavaScript.');await page.check('#contact-consent');
+   await Promise.all([page.waitForURL(/form=sent/),page.locator('.contact-form button[type="submit"]').click()]);
+   const postedFields=new URLSearchParams(posted);
+   assert.equal(postedFields.get('consent'),'yes');assert.equal(postedFields.get('language'),lang);
+   await context.close();count++;
+  }
  }finally{await browser.close();server.close();}
- console.log(`${count} contact form checks passed: six languages, two widths, validation, sending, rate limit, redirect status and no-JS post.`);
+ console.log(`${count} contact form checks passed: ${languages.length} languages, two widths, validation, sending, rate limit, redirect status and no-JS post.`);
 })().catch(e=>{console.error(e);process.exit(1);});

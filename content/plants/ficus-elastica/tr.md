@@ -6,13 +6,13 @@ Kauçuk bitkisi, doğu Himalayalardan batı Malezya bölgesine uzanan alanda do�
 
 Evde, sert öğleden sonra güneşinden korunan parlak dolaylı ışığı sever. Alacalı ve koyu yapraklı çeşitler de iyi ışık ister; alacalı yapraklar düz yeşillerden daha fazlasına ihtiyaç duyar. Az ışıkta gövdeler uzar, alt yapraklar dökülür. [NC State Extension](https://plants.ces.ncsu.edu/plants/ficus-elastica/) · [RHS](https://www.rhs.org.uk/plants/ornamental-figs/growing-guide)
 
-Bir pencereyi nasıl değerlendireceğini [ışık rehberi](/guides/indoor-plant-light-guide/) anlatıyor.
+Bir pencereyi nasıl değerlendireceğini [ışık rehberi](/tr/guides/indoor-plant-light-guide/) anlatıyor.
 
 ## Sulamadan önce kontrol
 
 İlkbahar ve yazın düzenli sula, sulamalar arasında harç biraz kurusun. Büyümenin yavaşladığı sonbahardan kış sonuna kadar harcı ancak hafif nemli tut. Ficuslarda yaprak dökmenin en yaygın nedeni fazla sulamadır; bu yüzden her sulamadan önce yüzeyin altını kontrol et. [NC State Extension](https://plants.ces.ncsu.edu/plants/ficus-elastica/) · [RHS](https://www.rhs.org.uk/plants/ornamental-figs/growing-guide)
 
-[Sulama rehberine](/guides/watering-houseplants/) bak.
+[Sulama rehberine](/tr/guides/watering-houseplants/) bak.
 
 ## Harç ve saksı
 
@@ -32,7 +32,7 @@ NC State iyi süzülen, toprak bazlı bir saksı harcı öneriyor. Kauçuk bitki
 - **Zararlılar:** unlu bit, kabuklu bit ve kırmızı örümcek.
 - **Uzayıp seyrelen gövdeler:** az ışık; kış sonu veya ilkbahar başında bir yaprağın hemen üstünden buda.
 
-Normal yaşlanmayı bir sorundan ayırmak için [sararan yaprak kontrollerine](/guides/yellow-houseplant-leaves/) bak.
+Normal yaşlanmayı bir sorundan ayırmak için [sararan yaprak kontrollerine](/tr/guides/yellow-houseplant-leaves/) bak.
 
 ## Çoğaltma
 

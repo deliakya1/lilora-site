@@ -1,3 +1,4 @@
+const { languages, prefix, htmlLang } = require('./locale-registry.cjs');
 // Selected library filters must remain identifiable to assistive technology.
 // Local static fixture only: no production requests, analytics hits or submissions.
 const { chromium } = require('playwright-core');
@@ -23,10 +24,10 @@ const path = require('node:path');
   const browser = await chromium.launch({ executablePath: process.env.CHROMIUM_PATH || '/usr/bin/chromium', headless: true, args: ['--no-sandbox'] });
   const errors = [], external = [];
   let checks = 0;
-  const languages = ['tr', 'en', 'es', 'de', 'pt', 'fr'], widths = [390, 1440];
+  const widths = [390, 1440];
   try {
     for (const lang of languages) for (const width of widths) for (const javaScriptEnabled of [true, false]) {
-      const context = await browser.newContext({ viewport: { width, height: 900 }, locale: lang, reducedMotion: 'reduce', javaScriptEnabled });
+      const context = await browser.newContext({ viewport: { width, height: 900 }, locale: htmlLang(lang), reducedMotion: 'reduce', javaScriptEnabled });
       await context.route('**/*', route => {
         if (route.request().url().startsWith(origin + '/')) return route.continue();
         external.push(route.request().url()); return route.abort();
@@ -36,7 +37,7 @@ const path = require('node:path');
       });
       const page = await context.newPage();
       page.on('pageerror', error => errors.push(error.message));
-      const url = `${origin}${lang === 'tr' ? '/' : `/${lang}/`}plants/`;
+      const url = `${origin}${prefix(lang)}plants/`;
       await page.goto(url);
       const chips = page.locator('.plant-chip');
       const filters = await chips.evaluateAll(items => items.map(item => item.dataset.filter));

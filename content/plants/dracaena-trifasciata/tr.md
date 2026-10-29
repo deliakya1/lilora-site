@@ -6,13 +6,13 @@ Uzun süre *Sansevieria trifasciata* adıyla satılan paşa kılıcı bugün *Dr
 
 Çok az ışığa dayanır; bu yüzden koridorlar ve pencereden uzak odalar için kullanışlıdır. Yine de biraz doğrudan güneş dahil daha aydınlık bir yerde daha düzenli büyür. Bitkiyi loş bir köşeden güneşli bir pencere önüne taşıyacaksan yapraklar yanmasın diye bunu yavaş yavaş yap. [NC State Extension](https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/)
 
-“Az ışığın” neden hiçbir zaman “ışıksız” demek olmadığını [ışık rehberi](/guides/indoor-plant-light-guide/) anlatıyor.
+“Az ışığın” neden hiçbir zaman “ışıksız” demek olmadığını [ışık rehberi](/tr/guides/indoor-plant-light-guide/) anlatıyor.
 
 ## Sulamadan önce kontrol
 
 İlkbahardan sonbahara kadar sulamalar arasında harcın kurumasını bekle. Yalnızca üste değil, saksının derinine bak: bütün kök bölgesi kuru, saksı da hafif olmalı. NC State kışın yalnızca bir iki ayda bir sulamayı öneriyor; bunu üst sınır olarak düşün, yine de önce kontrol et. [NC State Extension](https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/)
 
-Suladığında harcı iyice ıslat ve tamamen süzülmesini bekle. Saksıyı asla suda bekletme. Saksı ağırlığını nasıl okuyacağını [sulama rehberi](/guides/watering-houseplants/) gösteriyor.
+Suladığında harcı iyice ıslat ve tamamen süzülmesini bekle. Saksıyı asla suda bekletme. Saksı ağırlığını nasıl okuyacağını [sulama rehberi](/tr/guides/watering-houseplants/) gösteriyor.
 
 ## Harç ve saksı
 
@@ -30,7 +30,7 @@ Yavaş büyüdüğü için besin ihtiyacı azdır. Büyüme döneminde bir iki k
 
 Büyüme mevsiminde harcın sulamalar arasında kurumasına izin ver. NC State kışın yalnızca bir iki ayda bir suya ihtiyaç duyabileceğini söylüyor; bunu takvim değil, ne kadar yavaş kuruduğunun bir işareti olarak gör ve yine de önce bütün kök bölgesinin kuru olduğunu kontrol et. Yaklaşık 10 °C'lik serin odalara ve kuru havaya dayanır ama aşırı sulama kökleri çürütür; soğuk ve ıslak harç en riskli birleşimdir. [NC State Extension](https://plants.ces.ncsu.edu/plants/dracaena-trifasciata/)
 
-NC State günün bir bölümünde 2–6 saat doğrudan güneşi ideal sayıyor; bitki loş yerlere de dayanır ama orada daha yavaş büyür ve kurur. [Kış bakımı rehberine](/guides/winter-houseplant-care/) bak. Lilora'da hatırlatma bir kontrol çağrısıdır, sulama emri değil: suladığını ya da ertelediğini kaydedersin; böylece soğuk aylarda harcın daha yavaş kuruduğu kendi geçmişinde görünür.
+NC State günün bir bölümünde 2–6 saat doğrudan güneşi ideal sayıyor; bitki loş yerlere de dayanır ama orada daha yavaş büyür ve kurur. [Kış bakımı rehberine](/tr/guides/winter-houseplant-care/) bak. Lilora'da hatırlatma bir kontrol çağrısıdır, sulama emri değil: suladığını ya da ertelediğini kaydedersin; böylece soğuk aylarda harcın daha yavaş kuruduğu kendi geçmişinde görünür.
 
 ## Sık görülen sorunlar
 
@@ -38,7 +38,7 @@ NC State günün bir bölümünde 2–6 saat doğrudan güneşi ideal sayıyor; 
 - **Unlu bit ve kırmızı örümcek:** yaprak diplerini incele.
 - **Buruşuk yapraklar:** uzun bir kuraklıktan sonra görülebilir; yine de bol sulamadan önce köklere bak.
 
-Bakımı değiştirmeden önce [sararan yaprak kontrollerine](/guides/yellow-houseplant-leaves/) göz at.
+Bakımı değiştirmeden önce [sararan yaprak kontrollerine](/tr/guides/yellow-houseplant-leaves/) göz at.
 
 ## Çoğaltma
 
@@ -46,7 +46,7 @@ Kalabalıklaşan bir öbeği saksı değişiminde böl; her parçada kök ve yap
 
 ## Evcil hayvanlar ve insanlar
 
-[ASPCA Animal Poison Control Center](https://www.aspca.org/), paşa kılıcını (mother-in-law's tongue) kedi ve köpekler için toksik olarak listeler. Toksik madde olarak saponinleri, belirti olarak bulantı, kusma ve ishali sayar. Evcil hayvanın bitkiyi çiğnerse bir veterinere veya hayvan zehir danışma hizmetine başvur. İnsanlarda zehirlenme şüphesinde Türkiye'de 114 UZEM'i ara. Bu genel bilgidir; veteriner veya tıbbi tavsiye değildir. Başka bitkilerle karşılaştırmak için [evcil hayvan dostu bitkiler rehberine](/guides/pet-safe-houseplants/) ya da [bitki kütüphanesindeki toksik olmayan profillere](/plants/#petNonToxic) bak.
+[ASPCA Animal Poison Control Center](https://www.aspca.org/), paşa kılıcını (mother-in-law's tongue) kedi ve köpekler için toksik olarak listeler. Toksik madde olarak saponinleri, belirti olarak bulantı, kusma ve ishali sayar. Evcil hayvanın bitkiyi çiğnerse bir veterinere veya hayvan zehir danışma hizmetine başvur. İnsanlarda zehirlenme şüphesinde Türkiye'de 114 UZEM'i ara. Bu genel bilgidir; veteriner veya tıbbi tavsiye değildir. Başka bitkilerle karşılaştırmak için [evcil hayvan dostu bitkiler rehberine](/tr/guides/pet-safe-houseplants/) ya da [bitki kütüphanesindeki toksik olmayan profillere](/tr/plants/#petNonToxic) bak.
 
 ## Sık sorulan sorular
 

@@ -60,5 +60,17 @@
   "fr": {
     "description": "L’eau du robinet convient à la plupart des plantes. Quand l’eau adoucie, le chlore, le fluor, le calcaire ou l’eau froide posent problème, et que faire.",
     "seoTitle": "L’eau du robinet convient-elle aux plantes ?"
+  },
+  "ja": {
+    "description": "多くの観葉植物には水道水を使えます。軟水器の水、塩素、フッ化物、硬水の塩類、冷水が問題になる場合と、代替方法を説明します。"
+  },
+  "ko": {
+    "description": "수돗물은 대부분의 실내식물에 적합합니다. 연수, 염소, 불소, 경수의 염류, 찬물이 문제가 되는 경우와 대안을 알아보세요."
+  },
+  "it": {
+    "description": "Acqua del rubinetto, addolcitori, fluoruri e sali: cosa sapere per le piante da appartamento e quando cambiare acqua o lavare il substrato."
+  },
+  "zh-Hant": {
+    "description": "自來水通常適合室內植物，但軟水機、氯氟敏感與礦物累積值得注意。了解水溫、雨水選擇及定期沖洗方法。"
   }
 }

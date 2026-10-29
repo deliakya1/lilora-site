@@ -4,7 +4,7 @@ Alttan sulama, saksıyı su dolu bir altlığa ya da kaba koyup toprağın suyu 
 
 ## Nasıl yapılır?
 
-1. Bitkinin gerçekten suya ihtiyacı olduğunu kontrol et: parmağını toprağa bastır ve saksıyı kaldır. Kontrolü [ev bitkilerini sabit bir takvime bağlı kalmadan sulamak](/guides/watering-houseplants/) rehberi anlatıyor.
+1. Bitkinin gerçekten suya ihtiyacı olduğunu kontrol et: parmağını toprağa bastır ve saksıyı kaldır. Kontrolü [ev bitkilerini sabit bir takvime bağlı kalmadan sulamak](/tr/guides/watering-houseplants/) rehberi anlatıyor.
 2. Bir altlığa, kaseye ya da lavaboya birkaç santim oda sıcaklığında su koy.
 3. Saksıyı içine yerleştir. Saksının mutlaka drenaj deliği olmalı.
 4. Toprağın yüzeyi nemli hissedilene kadar bekle. Wisconsin–Madison Üniversitesi Extension, Afrika menekşeleri için fazla suyu almadan önce 20 ila 30 dakika öneriyor. [Wisconsin–Madison Üniversitesi Extension: ev bitkisi bakımı](https://hort.extension.wisc.edu/articles/houseplant-care/)
@@ -22,11 +22,11 @@ Maryland Üniversitesi de aynı yöntemi anlatıyor: su emilip toprağa çekilir
 
 Colorado State Üniversitesi Extension, genel olarak üstten sulamanın daha iyi olduğunu, çünkü alttan sulamanın toprağın içinde ve yüzeyinde çözünür tuzların birikmesine yol açabileceğini söylüyor. Yüksek tuz düzeyi su alımını ve kök büyümesini azaltır. [Colorado State Üniversitesi Extension: ev bitkilerini sulamak](https://planttalk.colostate.edu/topics/houseplants/1318-houseplants-watering/) Maryland Üniversitesi de gübre tuzlarının özellikle alttan sulanan bitkilerde yüzeyde beyaz bir kabuk olarak toplanabileceğini belirtiyor. [Maryland Üniversitesi Extension: gübre zehirlenmesi ve yüksek çözünür tuzlar](https://extension.umd.edu/resource/fertilizer-toxicity-or-high-soluble-salts-indoor-plants)
 
-Çözümü basit: çoğunlukla alttan suluyorsan, fazla tuzlar yıkansın diye ara sıra üstten bol su verip süzülmesini bekle. [Colorado State Üniversitesi Extension: ev bitkilerini sulamak](https://planttalk.colostate.edu/topics/houseplants/1318-houseplants-watering/) Ne sıklıkla yıkayacağını [ev bitkileri için musluk suyu](/blog/tap-water-for-houseplants/) yazısı anlatıyor.
+Çözümü basit: çoğunlukla alttan suluyorsan, fazla tuzlar yıkansın diye ara sıra üstten bol su verip süzülmesini bekle. [Colorado State Üniversitesi Extension: ev bitkilerini sulamak](https://planttalk.colostate.edu/topics/houseplants/1318-houseplants-watering/) Ne sıklıkla yıkayacağını [ev bitkileri için musluk suyu](/tr/blog/tap-water-for-houseplants/) yazısı anlatıyor.
 
 ## Suda unutma
 
-En sık yapılan hata saksıyı suyun içinde unutmaktır. Iowa State, bitkilerin çürüyebileceği için uzun süre su dolu altlıklarda kalmaması gerektiği ve bir sonraki alttan sulamadan önce toprağın üstteki 2–3 cm'sinin kuruması gerektiği konusunda uyarıyor. [Iowa State Üniversitesi Extension: Afrika menekşeleri hakkında](https://yardandgarden.extension.iastate.edu/how-to/all-about-african-violets) Sürekli ıslak kökler havasız kalır; ıslak toprakta pörsüyen bir bitki için [ev bitkilerinde kök çürüklüğü](/guides/root-rot/) rehberine bak.
+En sık yapılan hata saksıyı suyun içinde unutmaktır. Iowa State, bitkilerin çürüyebileceği için uzun süre su dolu altlıklarda kalmaması gerektiği ve bir sonraki alttan sulamadan önce toprağın üstteki 2–3 cm'sinin kuruması gerektiği konusunda uyarıyor. [Iowa State Üniversitesi Extension: Afrika menekşeleri hakkında](https://yardandgarden.extension.iastate.edu/how-to/all-about-african-violets) Sürekli ıslak kökler havasız kalır; ıslak toprakta pörsüyen bir bitki için [ev bitkilerinde kök çürüklüğü](/tr/guides/root-rot/) rehberine bak.
 
 ## İki yöntemi birlikte kullanmak
 

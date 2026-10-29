@@ -78,5 +78,29 @@
     "imageAlt": "Visuel Lilora pour l’App Store avec un vrai écran de collection et des fiches d’exemple (app en anglais)",
     "caption": "Visuel Lilora pour l’App Store avec un vrai écran de l’app et des fiches d’exemple. L’app est disponible en anglais et en turc. Ce n’est pas une capture de l’app concurrente.",
     "seoTitle": "Lilora vs Planta : choisir sa routine d’entretien"
+  },
+  "ja": {
+    "description": "LiloraとPlantaを、通知、共有記録、識別、料金で比較します。公式資料に基づき、Liloraの公開状況も正確にお伝えします。",
+    "image": "/assets/editorial/lilora-collection-en.webp",
+    "imageAlt": "実際の植物一覧画面とサンプル記録を使ったLiloraのストア用画像",
+    "caption": "サンプル記録を表示した実際のアプリ画面によるLiloraのストア用画像です。比較対象のアプリのスクリーンショットではありません。"
+  },
+  "ko": {
+    "description": "알림, 공동 기록, 식별, 가격을 기준으로 Lilora와 Planta를 비교합니다. 공식 출처와 정확한 출시 현황을 바탕으로 살펴봅니다.",
+    "image": "/assets/editorial/lilora-collection-en.webp",
+    "imageAlt": "실제 식물 목록 화면과 예시 기록을 담은 Lilora 스토어 홍보 이미지",
+    "caption": "예시 기록이 담긴 실제 앱 화면으로 만든 Lilora 스토어 홍보 이미지입니다. 비교 대상 앱의 스크린샷이 아닙니다."
+  },
+  "it": {
+    "description": "Confronta Lilora e Planta per routine, promemoria, registri condivisi e strumenti. Funzioni e prezzi documentati, senza prove pratiche inventate.",
+    "image": "/assets/editorial/lilora-collection-en.webp",
+    "imageAlt": "Immagine per lo store di Lilora con una schermata reale della collezione e registrazioni di piante di esempio",
+    "caption": "Immagine per lo store di Lilora, tratta da una schermata reale dell’app con registrazioni di esempio. Non è una schermata dell’app concorrente."
+  },
+  "zh-Hant": {
+    "image": "/assets/editorial/lilora-collection-en.webp",
+    "imageAlt": "Lilora 的商店宣傳圖，使用真實收藏畫面與範例植物紀錄",
+    "caption": "Lilora 的商店宣傳圖，使用真實應用程式畫面與範例紀錄，並非競爭應用程式的截圖。",
+    "description": "依官方資料比較 Lilora 與 Planta 的提醒、共同照護、植物辨識與價格，說明功能差異、付費方案及審核狀態。"
   }
 }

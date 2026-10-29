@@ -2,12 +2,11 @@
 // JavaScript off: source metadata, headings, answers, citations, navigation, language links and CTAs.
 // JavaScript on: the same main text with and without a consent choice, and no client-side API request.
 const {chromium}=require('playwright-core'),assert=require('node:assert/strict');
-const origin='http://127.0.0.1:4173',languages=['tr','en','es','de','pt','fr'];
-const prefix=lang=>lang==='tr'?'/':'/'+lang+'/';
+const {languages,prefix,htmlLang,languageOfPath,isCJK,descRange,defaultLanguage}=require('./locale-registry.cjs');
+const origin='http://127.0.0.1:4173';
 const templates={home:'',guidesHub:'guides/',guide:'guides/watering-houseplants/',plantsHub:'plants/',plant:'plants/monstera-deliciosa/',journalHub:'blog/',post:'blog/check-before-you-water/',compareHub:'compare/',comparison:'compare/lilora-vs-planta/',support:'support/',privacy:'privacy/',contact:'contact/',about:'about/',legal:'legal/',download:'download/',editorial:'editorial/',press:'press/'};
-const representative=['home','guide','plantsHub','plant','post','support'];
 const articles=['guide','post','comparison'],hubs=['guidesHub','plantsHub','journalHub','compareHub'];
-const pages=languages.flatMap(lang=>Object.keys(templates).filter(name=>['tr','en'].includes(lang)||representative.includes(name)).map(name=>({lang,name,path:prefix(lang)+templates[name]})));
+const pages=languages.flatMap(lang=>Object.keys(templates).map(name=>({lang,name,path:prefix(lang)+templates[name]})));
 const consent=analytics=>localStorage.setItem('lilora.cookie-preferences.v2',JSON.stringify({version:2,analytics,savedAt:Date.now()}));
 // Visible main text, one trimmed line per entry; closed <details> bodies stay in the HTML but are not counted here.
 // The share control is a JavaScript-only enhancement (hidden without JS), so it is left out of the comparison.
@@ -23,11 +22,17 @@ const mainLines=page=>page.locator('main').evaluate(main=>{for(const el of main.
    const label=`${path} (${name}, JS off)`,response=await page.goto(origin+path);assert.equal(response.status(),200,label);
    const html=await response.text();
    // Source HTML: metadata and structured data are present before any script runs.
-   assert.match(html,/<title>[^<]{10,}<\/title>/,label+' title');
-   assert.match(html,/<meta name="description" content="[^"]{100,}">/,label+' description');
+   assert.match(html,/<title>[^<]+<\/title>/,label+' title in source');
+   assert.equal(await page.locator('head title').count(),1,label+' unique title element');
+   const titleLength=Array.from((await page.title()).trim()).length;
+   assert.ok(titleLength>=(isCJK(lang)?2:10)&&titleLength<=60,label+' localized title length');
+   assert.match(html,/<meta name="description" content="[^"]+">/,label+' description in source');
+   const description=await page.locator('head meta[name="description"]').getAttribute('content');
+   const [descriptionMin,descriptionMax]=descRange(lang),descriptionLength=Array.from(description||'').length;
+   assert.ok(descriptionLength>=descriptionMin&&descriptionLength<=descriptionMax,label+' localized description length');
    assert.ok(html.includes(`<link rel="canonical" href="https://lilora.app${path}">`),label+' canonical');
-   assert.ok(html.includes(`hreflang="${lang==='pt'?'pt-BR':lang}" href="https://lilora.app${path}"`),label+' self hreflang');
-   if(html.includes('hreflang="en" href'))assert.ok(html.includes('hreflang="x-default"'),label+' x-default');
+   assert.ok(html.includes(`hreflang="${htmlLang(lang)}" href="https://lilora.app${path}"`),label+' self hreflang');
+   assert.equal(await page.locator('head link[hreflang="x-default"]').getAttribute('href'),'https://lilora.app'+prefix(defaultLanguage)+templates[name],label+' default-language counterpart');
    const schema=[...html.matchAll(/<script type="application\/ld\+json">(.*?)<\/script>/gs)].map(m=>JSON.parse(m[1]));
    if(name!=='home')assert.ok(schema.some(s=>s['@type']==='BreadcrumbList'),label+' BreadcrumbList');
    if(name==='home')assert.ok(['Organization','WebSite'].every(type=>schema.some(s=>s['@type']===type)),label+' home schema');
@@ -36,18 +41,25 @@ const mainLines=page=>page.locator('main').evaluate(main=>{for(const el of main.
    // Rendered without JavaScript: one visible H1 that is in the source, and substantive main text.
    const h1=page.locator('main h1');assert.equal(await h1.count(),1,label);assert.ok(await h1.isVisible(),label+' h1 visible');
    const lines=await mainLines(page);offText[path]=lines;
-   assert.ok(lines.join(' ').length>=(name==='legal'?200:400),label+' main text');
-   // Navigation: same-language header links, all six native language links and a working cookie-preferences fallback.
+   // CJK conveys the same content in fewer characters; structural and JS-parity checks remain identical.
+   const minimumText=name==='legal'?(isCJK(lang)?100:200):(isCJK(lang)?200:400);
+   assert.ok(lines.join(' ').length>=minimumText,label+' main text');
+   // Navigation: same-language header links, every registered native language link and a cookie-preferences fallback.
    const nav=await page.locator('.desktop-nav a[href]:visible').evaluateAll(as=>as.map(a=>a.getAttribute('href')));
-   assert.ok(nav.length>=4&&nav.every(href=>lang==='tr'?!/^\/(en|es|de|pt|fr)\//.test(href):href.startsWith(prefix(lang))),label+' header nav');
-   const languageLinks=await page.locator('.language-picker a.language[hreflang]').evaluateAll(as=>as.map(a=>a.getAttribute('href')));
-   assert.equal(languageLinks.length,6,label+' language links');assert.ok(languageLinks.every(href=>href.startsWith('/')),label+' language hrefs');
+   assert.ok(nav.length>=4&&nav.every(href=>href.startsWith(prefix(lang))&&languageOfPath(new URL(href,origin).pathname)===lang),label+' header nav');
+   const languageLinks=await page.locator('.language-picker a.language[hreflang]').evaluateAll(as=>as.map(a=>({href:a.getAttribute('href'),tag:a.getAttribute('hreflang')})));
+   assert.equal(languageLinks.length,languages.length,label+' language links');
+   assert.deepEqual(languageLinks.map(link=>link.tag).sort(),languages.map(htmlLang).sort(),label+' language tags');
+   for(const language of languages){
+    const link=languageLinks.find(link=>link.tag===htmlLang(language));
+    assert.equal(link.href,prefix(language)+templates[name],label+' clean translated counterpart '+language);
+   }
    assert.equal(await page.locator('.footer a.cookie-settings').getAttribute('href'),prefix(lang)+'privacy/#website-analytics',label+' cookie link');
    const internal=await page.locator('main a[href^="/"]:visible').count();assert.ok(internal>=(articles.includes(name)?2:1),label+' contextual internal links');
    // Template content: answers, citations, care summaries, hub listings and an honest app CTA.
    if(articles.includes(name)){
     const answer=page.locator('main .short-answer');assert.ok(await answer.isVisible(),label+' short answer');
-    assert.ok((await answer.innerText()).length>=80,label+' short answer text');
+    assert.ok((await answer.innerText()).length>=(isCJK(lang)?40:80),label+' short answer text');
    }
    if(articles.includes(name)||name==='plant'){
     const sources=page.locator(name==='plant'?'main':'main .sources');assert.ok(await sources.isVisible(),label+' sources');
@@ -64,11 +76,11 @@ const mainLines=page=>page.locator('main').evaluate(main=>{for(const el of main.
   }
   // Native disclosures still open the phone menu and the language list without JavaScript.
   await page.setViewportSize({width:390,height:900});
-  for(const lang of ['tr','en'])for(const name of ['home','guide']){
+  for(const lang of languages)for(const name of ['home','guide']){
    const path=prefix(lang)+templates[name];await page.goto(origin+path);
    await page.locator('.mobile-menu summary').click();
    assert.ok(await page.locator('.mobile-nav a[href]:visible').count()>=4,path+' mobile nav');
-   assert.equal(await page.locator('.mobile-languages a.language[hreflang]:visible').count(),6,path+' mobile languages');
+   assert.equal(await page.locator('.mobile-languages a.language[hreflang]:visible').count(),languages.length,path+' mobile languages');
    await page.locator('.mobile-menu summary').click();checks++;
   }
   await off.close();
@@ -93,5 +105,5 @@ const mainLines=page=>page.locator('main').evaluate(main=>{for(const el of main.
    assert.deepEqual(errors,[]);await on.close();
   }
  }finally{await browser.close();}
- console.log(`${checks} no-JavaScript checks passed: ${pages.length} pages (17 templates in TR/EN, 6 in ES/DE/PT/FR), source metadata, rendered content, mobile disclosures and JS-on parity.`);
+ console.log(`${checks} no-JavaScript checks passed: ${pages.length} pages (${Object.keys(templates).length} templates in all ${languages.length} languages), source metadata, rendered content, mobile disclosures and JS-on parity.`);
 })().catch(e=>{console.error(e);process.exit(1);});

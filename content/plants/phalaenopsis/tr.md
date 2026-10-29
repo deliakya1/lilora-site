@@ -6,13 +6,13 @@ Evlerde en sık görülen orkide olan kelebek orkide (*Phalaenopsis*), tropik ve
 
 Parlak, dolaylı ışık ver. NC State doğu pencere önünü ya da iyi gölgelenmiş bir batı veya güney penceresini öneriyor. RHS, çiçeklenmeyi desteklemek için kışın aydınlık bir yer, yazın ise yaprakları yakabilen doğrudan güneşten uzak bir yer öneriyor. [NC State Extension](https://plants.ces.ncsu.edu/plants/phalaenopsis/) · [RHS](https://www.rhs.org.uk/plants/phalaenopsis/growing-guide)
 
-Koyu yeşil ve sarkık yapraklar az ışığa, sarımsı ya da yanık yapraklar fazla ışığa işaret edebilir. [Işık rehberine](/guides/indoor-plant-light-guide/) bak.
+Koyu yeşil ve sarkık yapraklar az ışığa, sarımsı ya da yanık yapraklar fazla ışığa işaret edebilir. [Işık rehberine](/tr/guides/indoor-plant-light-guide/) bak.
 
 ## Sulamadan önce kontrol
 
 Kabuk kurumaya başladığında sula. Şeffaf saksıdan gümüşi görünen kökler ve hafiflemiş bir saksı işe yarar ipuçlarıdır; yeşil, dolgun kökler yakın zamanda su almıştır. Sabah, tercihen yağmur suyu olan ılık suyla ya üstten sula ya da saksıyı bir kaba oturt, sonra iyice süzdür. Saksıyı asla suda bekletme, kökleri de hiçbir zaman tamamen kurutma. [NC State Extension](https://plants.ces.ncsu.edu/plants/phalaenopsis/) · [RHS](https://www.rhs.org.uk/plants/phalaenopsis/growing-guide)
 
-Olgun bitkiler büyüme döneminde yaklaşık haftada bir, kışın daha az suya ihtiyaç duyabilir; ama karar kabuğun durumuna göre verilir. Nedenini [sulama rehberi](/guides/watering-houseplants/) açıklıyor.
+Olgun bitkiler büyüme döneminde yaklaşık haftada bir, kışın daha az suya ihtiyaç duyabilir; ama karar kabuğun durumuna göre verilir. Nedenini [sulama rehberi](/tr/guides/watering-houseplants/) açıklıyor.
 
 ## Harç ve saksı
 

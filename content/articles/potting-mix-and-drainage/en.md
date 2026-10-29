@@ -4,7 +4,7 @@ A houseplant pot needs a drainage hole, a potting mix made for containers (not g
 
 ## Why the drainage hole matters
 
-<figure style="margin:24px 0"><img src="/assets/images/home/download-window-v1-960.webp" width="960" height="1440" alt="A tall rubber plant in a terracotta pot on a saucer and a pothos on a wooden stool beside a sheer curtain" loading="lazy" decoding="async" style="display:block;width:100%;max-width:420px;height:auto;border-radius:4px"><figcaption style="font-size:14px;margin-top:8px">Illustration generated for Lilora, not a photograph of a particular plant. <a href="/en/editorial/#imagery">About our images</a></figcaption></figure>
+<figure style="margin:24px 0"><img src="/assets/images/home/download-window-v1-960.webp" width="960" height="1440" alt="A tall rubber plant in a terracotta pot on a saucer and a pothos on a wooden stool beside a sheer curtain" loading="lazy" decoding="async" style="display:block;width:100%;max-width:420px;height:auto;border-radius:4px"><figcaption style="font-size:14px;margin-top:8px">Illustration generated for Lilora, not a photograph of a particular plant. <a href="/editorial/#imagery">About our images</a></figcaption></figure>
 
 Roots need air as well as water. After watering, excess water must be able to leave the pot; otherwise the mix stays saturated, roots are starved of air and root rot becomes more likely. The RHS stresses drainage holes and emptying saucers for exactly this reason. [RHS: how to grow houseplants](https://www.rhs.org.uk/plants/types/houseplants/growing-guide)
 
@@ -37,7 +37,7 @@ Choose a pot only a little wider than the old one, about 2.5–5 cm larger in di
 
 Unglazed terracotta lets water evaporate through its walls, so the mix dries faster. Plastic and glazed ceramic hold moisture longer. Neither is better in general; it changes how often you will need to water.
 
-A decorative pot without a hole is fine as an outer cover (cachepot). Lift the inner pot out to water, or empty the outer pot every time. This simple step prevents much of the trouble described in [root rot in houseplants](/en/guides/root-rot/).
+A decorative pot without a hole is fine as an outer cover (cachepot). Lift the inner pot out to water, or empty the outer pot every time. This simple step prevents much of the trouble described in [root rot in houseplants](/guides/root-rot/).
 
 ## How to pot up, step by step
 
@@ -47,7 +47,7 @@ A decorative pot without a hole is fine as an outer cover (cachepot). Lift the i
 4. Set the plant in at the same depth as before, fill around the sides and firm gently without packing hard.
 5. Water until it drains, then empty the saucer.
 
-Our guide on [when to repot](/en/guides/when-to-repot-houseplants/) explains the signs that a plant needs a new pot, and [how to water without a rigid schedule](/en/guides/watering-houseplants/) covers watering afterwards.
+Our guide on [when to repot](/guides/when-to-repot-houseplants/) explains the signs that a plant needs a new pot, and [how to water without a rigid schedule](/guides/watering-houseplants/) covers watering afterwards.
 
 ## Common questions
 
@@ -65,4 +65,4 @@ Over time it breaks down and holds more water and less air. Repotting into fresh
 
 ### How do I know if my pot drains well?
 
-Water slowly: excess water should run out of the hole soon after the mix is soaked, then stop. If it pools on top or never drains, check the hole and the mix. See [overwatered or underwatered?](/en/guides/overwatering-vs-underwatering/)
+Water slowly: excess water should run out of the hole soon after the mix is soaked, then stop. If it pools on top or never drains, check the hole and the mix. See [overwatered or underwatered?](/guides/overwatering-vs-underwatering/)

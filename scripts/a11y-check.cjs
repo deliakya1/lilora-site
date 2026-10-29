@@ -1,3 +1,4 @@
+const { options, languages, htmlLang, prefix: localePrefix, defaultLanguage } = require('./locale-registry.cjs');
 // WCAG 2.2 AA in a real browser: axe on every page type, plus keyboard, focus,
 // 200% text and reduced-motion checks that axe cannot judge on its own.
 const {chromium}=require('playwright-core');
@@ -21,11 +22,11 @@ const pageTypes=['','download/','press/','guides/','guides/root-rot/','blog/','b
  const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',headless:true,args:['--no-sandbox']});
  let count=0;const violations=[];
  try{
-  for(const [lang,prefix] of [['tr','/'],['de','/de/'],['en','/en/']])for(const width of [390,1440]){
-   const context=await browser.newContext({viewport:{width,height:900},locale:lang==='tr'?'tr-TR':lang==='de'?'de-DE':'en-GB'});
+  for(const [lang,prefix] of options.map(({code,path})=>[code,path]))for(const width of [390,1440]){
+   const context=await browser.newContext({viewport:{width,height:900},locale:htmlLang(lang)});
    await context.addInitScript(()=>localStorage.setItem('lilora.cookie-preferences.v2',JSON.stringify({version:2,analytics:false,savedAt:Date.now()})));
    const page=await context.newPage();
-   for(const route of [...pageTypes.map(p=>prefix+p),...(lang==='en'&&width===390?['/missing-page/']:[])]){
+   for(const route of [...pageTypes.map(p=>prefix+p),...(lang===defaultLanguage&&width===390?['/missing-page/']:[])]){
     await page.goto(origin+route);
     await page.addScriptTag({content:axeSource});
     const result=await page.evaluate(()=>axe.run(document,{runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21a','wcag21aa','wcag22aa']},resultTypes:['violations']}));
@@ -57,11 +58,11 @@ const pageTypes=['','download/','press/','guides/','guides/root-rot/','blog/','b
   }
   // Reduced motion turns off smooth scrolling and image hover transitions.
   const reduced=await browser.newContext({reducedMotion:'reduce'});const p=await reduced.newPage();
-  await p.goto(origin+'/en/plants/');
+  await p.goto(origin+localePrefix(defaultLanguage)+'plants/');
   assert.equal(await p.evaluate(()=>getComputedStyle(document.documentElement).scrollBehavior),'auto');
   assert.equal(await p.evaluate(()=>getComputedStyle(document.querySelector('.plant-card-photo img')).transitionDuration),'0s');
   await reduced.close();count++;
  }finally{await browser.close();server.close();}
  if(violations.length){console.error(violations.join('\n'));process.exit(1);}
- console.log(`${count} accessibility checks passed: axe WCAG 2.2 AA on ${pageTypes.length} page types plus 404 in TR/DE/EN at 390/1440, skip link, focus, keyboard menus, 200% text and reduced motion.`);
+ console.log(`${count} accessibility checks passed: axe WCAG 2.2 AA on ${pageTypes.length} page types in ${languages.join('/')} at 390/1440 plus the multilingual 404, skip link, focus, keyboard menus, 200% text and reduced motion.`);
 })().catch(e=>{console.error(e);process.exit(1);});

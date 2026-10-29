@@ -3,7 +3,17 @@
  'use strict';
  const config=JSON.parse(document.getElementById('site-locale').textContent);
  const key='lilora.language.v1',dismissKey='lilora.language.dismissed.v1',marker='lilora_lang';
- const languages=['tr','en','es','de','pt','fr'],valid=value=>languages.includes(value);
+ // Previously cached HTML has no registry yet. Its six-language native links
+ // remain usable while the new static documents propagate through caches.
+ const options=config.languageOptions||Object.keys(config.suggestions).map(code=>({code,tag:code==='pt'?'pt-BR':code,path:code==='tr'?'/':`/${code}/`,matches:[code.toLowerCase()]}));
+ const languages=options.map(option=>option.code),valid=value=>languages.includes(value);
+ const fromTag=value=>{
+  const tag=String(value).toLowerCase();
+  // Traditional Chinese has a script, not a generic Chinese fallback. An explicit
+  // Hans preference must never be treated as Hant, including Hans-HK variants.
+  if(/^zh-hans(?:-|$)/.test(tag))return undefined;
+  return options.find(option=>option.matches.some(match=>tag===match||tag.startsWith(match+'-')))?.code;
+ };
  const read=(store,k=key)=>{try{return window[store].getItem(k);}catch{return null;}};
  const remember=value=>{
   const saved={localStorage:false,sessionStorage:false};
@@ -36,15 +46,16 @@
   link.addEventListener('click',choose);link.addEventListener('auxclick',choose);
  };
  for(const link of document.querySelectorAll('a.language[hreflang]')){
-  const lang=link.hreflang.split('-')[0];if(!valid(lang))continue;
+  const lang=fromTag(link.hreflang);if(!valid(lang))continue;
   prepareLink(link,lang,new URL(link.href,location.href));
  }
  const saved=read('sessionStorage')||read('localStorage');
  if(valid(saved)||explicitChoice||read('sessionStorage',dismissKey)==='1')return;
- const browser=(navigator.languages||[navigator.language]).map(value=>String(value).toLowerCase().split('-')[0]).find(valid)||'en';
+ const browser=(navigator.languages||[navigator.language]).map(fromTag).find(valid)||config.defaultLanguage||'en';
  if(browser===config.language)return;
- const t=config.suggestions[browser],bar=document.createElement('aside');bar.className='language-suggestion';bar.lang=browser==='pt'?'pt-BR':browser;bar.setAttribute('aria-label',t.suggestion);
- const link=document.createElement('a');const target=new URL(config.alternates[browser]||(browser==='tr'?'/':'/'+browser+'/'),location.origin);
+ const selected=options.find(option=>option.code===browser);
+ const t=config.suggestions[browser],bar=document.createElement('aside');bar.className='language-suggestion';bar.lang=selected.tag;bar.setAttribute('aria-label',t.suggestion);
+ const link=document.createElement('a');const target=new URL(config.alternates[browser]||selected.path,location.origin);
  prepareLink(link,browser,target);link.textContent=config.alternates[browser]?t.suggestion:t.suggestionHome;
  const close=document.createElement('button');close.type='button';close.textContent='×';close.setAttribute('aria-label',t.dismiss);close.addEventListener('click',()=>{bar.remove();try{sessionStorage.setItem(dismissKey,'1');}catch{}});
  bar.append(link,close);

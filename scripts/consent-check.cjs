@@ -1,3 +1,4 @@
+const { languages, prefix, htmlLang } = require('./locale-registry.cjs');
 const {chromium}=require('playwright-core');
 const fs=require('node:fs');
 const assert=require('node:assert/strict');
@@ -6,11 +7,11 @@ const base='http://127.0.0.1:4173';
 (async()=>{
  const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',headless:true,args:['--no-sandbox']});
  let checks=0;
- for(const lang of ['en','tr','es','de','pt','fr']) for(const width of [320,1440]){
-  const context=await browser.newContext({locale:lang==='tr'?'tr-TR':'en-US',viewport:{width,height:850}});const requests=[];const errors=[];
+ for(const lang of languages) for(const width of [320,1440]){
+  const context=await browser.newContext({locale:htmlLang(lang),viewport:{width,height:850}});const requests=[];const errors=[];
   await context.route(/https:\/\/.*google.*/,route=>{requests.push(route.request().url());return route.fulfill({contentType:'text/javascript',body:''});});
   const page=await context.newPage();page.on('pageerror',e=>errors.push(e.message));
-  const home=lang==='tr'?'/':'/'+lang+'/';
+  const home=prefix(lang);
   await page.goto(base+home+'?email=private@example.com#secret');
   assert.equal(requests.length,0);assert.ok(await page.locator('.cookie-banner').isVisible());
   assert.equal(await page.locator('#lilora-google-tag').count(),0);
@@ -40,7 +41,7 @@ const base='http://127.0.0.1:4173';
   await page.locator('a[data-analytics-cta]:visible').first().click();
   events=await page.evaluate(()=>window.dataLayer.map(x=>Array.from(x)));
   assert.equal(events.filter(x=>x[1]==='app_info_click').length,1);assert.equal(events.filter(x=>x[1]==='app_store_click').length,0);assert.equal(events.filter(x=>x[1]==='page_view').length,1);
-  const info=events.find(x=>x[1]==='app_info_click')[2];assert.equal(info.page_type,'home');assert.ok(info.language.startsWith(lang));assert.ok(/^[a-z0-9-]+$/.test(info.cta_placement));assert.deepEqual(Object.keys(info).sort(),['cta_placement','destination_path','language','page_path','page_type']);
+  const info=events.find(x=>x[1]==='app_info_click')[2];assert.equal(info.page_type,'home');assert.equal(info.language,htmlLang(lang));assert.ok(/^[a-z0-9-]+$/.test(info.cta_placement));assert.deepEqual(Object.keys(info).sort(),['cta_placement','destination_path','language','page_path','page_type']);
   // Store clicks count only for the exact listing; other App Store or external links send nothing.
   await page.evaluate(()=>{for(const href of ['https://apps.apple.com/app/other/id1','https://apps.apple.com/app/id6818604360','https://example.com/']){const a=document.createElement('a');a.href=href;a.dataset.analyticsCta='test-store';a.textContent='x';a.addEventListener('click',e=>e.preventDefault());document.body.append(a);a.click();a.remove();}});
   events=await page.evaluate(()=>window.dataLayer.map(x=>Array.from(x)));
@@ -61,17 +62,18 @@ const base='http://127.0.0.1:4173';
  const context=await browser.newContext();const calls=[];
  await context.route(/https:\/\/.*google.*/,r=>{calls.push(r.request().url());return r.fulfill({body:''});});
  await context.addInitScript(()=>{Storage.prototype.getItem=()=>{throw new Error('blocked')};Storage.prototype.setItem=()=>{throw new Error('blocked')};});
- const p=await context.newPage();await p.goto(base+'/en/');assert.equal(calls.length,0);
+ const p=await context.newPage();await p.goto(base+prefix('en'));assert.equal(calls.length,0);
  await p.locator('.cookie-banner [data-action="preferences"]').click();assert.ok((await p.locator('.cookie-storage-message').innerText()).includes('cannot save'));
  await p.locator('.cookie-dialog [data-action="accept"]').click();assert.equal(await p.locator('#lilora-google-tag').count(),1);
  await p.reload();assert.equal(await p.locator('#lilora-google-tag').count(),0);assert.ok(await p.locator('.cookie-banner').isVisible());
  await context.close();
  // Revoke in one tab immediately stops the second tab's opted-in integration.
  const tabs=await browser.newContext();await tabs.route(/https:\/\/.*google.*/,r=>r.fulfill({body:''}));
- const a=await tabs.newPage();await a.goto(base+'/en/');await a.locator('.cookie-banner [data-action="accept"]').click();
- const b=await tabs.newPage();await b.goto(base+'/');assert.equal(await b.locator('#lilora-google-tag').count(),1);
+ const a=await tabs.newPage();await a.goto(base+prefix('en'));await a.locator('.cookie-banner [data-action="accept"]').click();
+ assert.notEqual(prefix('en'),prefix('tr'),'revocation exercises different locale paths');
+ const b=await tabs.newPage();await b.goto(base+prefix('tr'));assert.equal(await b.locator('#lilora-google-tag').count(),1);
  await a.locator('.cookie-settings').click();await Promise.all([b.waitForEvent('load'),a.locator('[data-action="withdraw"]').click()]);assert.equal(await b.locator('#lilora-google-tag').count(),0);
  await browser.close();
- const report={localeAndViewportRuns:checks,locales:['en','tr','es','de','pt','fr'],widths:[320,1440],tests:['no requests initially or after rejection','equal accept/reject paths','versioned saved preference','native dialog focus containment and Escape restoration','opt-in loads one tag','one pageview per navigation','no duplicate handlers','sanitized page URL','advertising consent denied','withdrawal and owned-cookie cleanup','cross-page persistence','storage-unavailable fallback','cross-tab revocation'],googleRequests:'Intercepted locally; no production analytics hits sent'};
+ const report={localeAndViewportRuns:checks,locales:languages,widths:[320,1440],tests:['no requests initially or after rejection','equal accept/reject paths','versioned saved preference','native dialog focus containment and Escape restoration','opt-in loads one tag','one pageview per navigation','no duplicate handlers','sanitized page URL','advertising consent denied','withdrawal and owned-cookie cleanup','cross-page persistence','storage-unavailable fallback','cross-tab revocation'],googleRequests:'Intercepted locally; no production analytics hits sent'};
  fs.mkdirSync('.test-results',{recursive:true});fs.writeFileSync('.test-results/consent-report.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));
 })().catch(e=>{console.error(e);process.exit(1)});

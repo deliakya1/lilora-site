@@ -22,5 +22,21 @@
   "fr": {
     "title": "Lilora : ressources presse",
     "description": "Descriptions, fiche produit, véritables visuels de l’app et supports Lilora à imprimer. En cours d’examen pour l’App Store."
+  },
+  "ja": {
+    "title": "Liloraの報道向け資料",
+    "description": "Liloraの紹介文、製品情報、実際のアプリ画像、印刷して共有できるカードを掲載しています。アプリは現在App Storeで審査中です。"
+  },
+  "ko": {
+    "title": "Lilora 보도 자료",
+    "description": "보도와 공유에 사용할 소개 문구, 제품 정보, 실제 앱 이미지, 인쇄용 Lilora 카드를 제공합니다. Lilora는 App Store 심사 중입니다."
+  },
+  "it": {
+    "title": "Risorse stampa di Lilora",
+    "description": "Descrizioni, informazioni, immagini reali dell’app e materiali stampabili di Lilora per la stampa. Revisione sull’App Store ancora in corso."
+  },
+  "zh-Hant": {
+    "title": "Lilora 媒體資源",
+    "description": "提供 Lilora 簡介、產品資訊、真實應用程式圖片與可列印卡片，供報導和分享使用。Lilora 目前正在接受 App Store 審核。"
   }
 }

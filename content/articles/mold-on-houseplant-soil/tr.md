@@ -15,7 +15,7 @@ Aynı rehber onları teşvik eden koşulları da sıralıyor: yüksek nem, nemli
 - **Küf** yumuşak, pamuksu ya da ağ gibidir; çoğunlukla lekeler hâlinde görülür ve silinince gider. Genellikle sürekli nemli kalan toprakta çıkar.
 - **Tuz kabuğu** sert, beyazdan griye ve kristal gibidir. Su buharlaşıp çözünmüş tuzları geride bıraktıkça toprağın yüzeyinde ve saksının ağzında oluşur. [Colorado State Üniversitesi Extension: saksı toprağından tuzları yıkamak](https://planttalk.colostate.edu/topics/houseplants/1339-leaching-salts-potting-mixes/)
 
-Kabuksa çözüm toprağı kurutmak değil, bol suyla yıkamaktır. Nasıl yapılacağını [kahverengi yaprak uçları](/blog/brown-leaf-tips/) yazısı anlatıyor.
+Kabuksa çözüm toprağı kurutmak değil, bol suyla yıkamaktır. Nasıl yapılacağını [kahverengi yaprak uçları](/tr/blog/brown-leaf-tips/) yazısı anlatıyor.
 
 ## Küf için ne yapmalı?
 
@@ -24,11 +24,11 @@ Kabuksa çözüm toprağı kurutmak değil, bol suyla yıkamaktır. Nasıl yapı
 3. Saksıya daha fazla ışık ve hava ver. Florida Üniversitesi yüzeyin kuruması için toprağı hafifçe karıştırmayı ve iç mekândaki saksıları daha az nemli ya da daha serin bir yere almayı öneriyor. [UF/IFAS: saksı bitkilerinde sık görülen mantarlar](https://ask.ifas.ufl.edu/publication/PP377)
 4. Sulamadan sonra saksı altlığını boşalt ve drenaj deliğinin tıkalı olmadığını kontrol et.
 
-Toprağın gerçekten ne zaman suya ihtiyaç duyduğuna karar vermek için [ev bitkilerini sabit bir takvime bağlı kalmadan sulamak](/guides/watering-houseplants/) rehberine bakabilirsin.
+Toprağın gerçekten ne zaman suya ihtiyaç duyduğuna karar vermek için [ev bitkilerini sabit bir takvime bağlı kalmadan sulamak](/tr/guides/watering-houseplants/) rehberine bakabilirsin.
 
 ## Görüntüden fazlası olduğunda
 
-Küfün kendisi bitkiye nadiren zarar verir, ama arkasındaki ıslak koşullar verebilir. Toprak ıslakken bitki pörsüyorsa, yapraklar alttan yukarıya sararıyorsa ya da gövdenin dibi yumuşaksa köklere bak; bkz. [ev bitkilerinde kök çürüklüğü](/guides/root-rot/). Yoğun bir mantar tabakası yüzeyin suyu itmesine de yol açabilir; su toprağa işlemek yerine saksının kenarlarından akar. [UF/IFAS: saksı bitkilerinde sık görülen mantarlar](https://ask.ifas.ufl.edu/publication/PP377) Bu durumda üst tabakayı değiştir ya da bitkiyi taze toprağa al; temel bilgiler [saksı toprağı ve drenaj](/guides/potting-mix-and-drainage/) rehberinde.
+Küfün kendisi bitkiye nadiren zarar verir, ama arkasındaki ıslak koşullar verebilir. Toprak ıslakken bitki pörsüyorsa, yapraklar alttan yukarıya sararıyorsa ya da gövdenin dibi yumuşaksa köklere bak; bkz. [ev bitkilerinde kök çürüklüğü](/tr/guides/root-rot/). Yoğun bir mantar tabakası yüzeyin suyu itmesine de yol açabilir; su toprağa işlemek yerine saksının kenarlarından akar. [UF/IFAS: saksı bitkilerinde sık görülen mantarlar](https://ask.ifas.ufl.edu/publication/PP377) Bu durumda üst tabakayı değiştir ya da bitkiyi taze toprağa al; temel bilgiler [saksı toprağı ve drenaj](/tr/guides/potting-mix-and-drainage/) rehberinde.
 
 Parlak sarı, sümüksü kümeler genellikle cıvık mantarlardır (miksomisetler). Missouri Botanik Bahçesi bunların bitki paraziti olmadığını ve kendiliğinden kaybolduğunu, en fazla küçük bitkileri örtebileceğini belirtiyor. [Missouri Botanik Bahçesi: cıvık mantarlar](https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/insects-pests-and-problems/diseases/slime-molds)
 

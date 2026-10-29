@@ -1,29 +1,5 @@
 [
   {
-    "lang": "tr",
-    "format": "a6",
-    "file": "/assets/brand/print/lilora-tr-a6.pdf",
-    "pageMillimetres": [
-      105,
-      148
-    ],
-    "qrMillimetres": 30,
-    "qrUrl": "https://lilora.app/download/?utm_source=qr&utm_medium=a6&utm_campaign=prelaunch",
-    "status": "prelaunch"
-  },
-  {
-    "lang": "tr",
-    "format": "a4",
-    "file": "/assets/brand/print/lilora-tr-a4.pdf",
-    "pageMillimetres": [
-      210,
-      297
-    ],
-    "qrMillimetres": 48,
-    "qrUrl": "https://lilora.app/download/?utm_source=qr&utm_medium=a4&utm_campaign=prelaunch",
-    "status": "prelaunch"
-  },
-  {
     "lang": "en",
     "format": "a6",
     "file": "/assets/brand/print/lilora-en-a6.pdf",
@@ -32,7 +8,7 @@
       148
     ],
     "qrMillimetres": 30,
-    "qrUrl": "https://lilora.app/en/download/?utm_source=qr&utm_medium=a6&utm_campaign=prelaunch",
+    "qrUrl": "https://lilora.app/download/?utm_source=qr&utm_medium=a6&utm_campaign=prelaunch",
     "status": "prelaunch"
   },
   {
@@ -44,7 +20,31 @@
       297
     ],
     "qrMillimetres": 48,
-    "qrUrl": "https://lilora.app/en/download/?utm_source=qr&utm_medium=a4&utm_campaign=prelaunch",
+    "qrUrl": "https://lilora.app/download/?utm_source=qr&utm_medium=a4&utm_campaign=prelaunch",
+    "status": "prelaunch"
+  },
+  {
+    "lang": "tr",
+    "format": "a6",
+    "file": "/assets/brand/print/lilora-tr-a6.pdf",
+    "pageMillimetres": [
+      105,
+      148
+    ],
+    "qrMillimetres": 30,
+    "qrUrl": "https://lilora.app/tr/download/?utm_source=qr&utm_medium=a6&utm_campaign=prelaunch",
+    "status": "prelaunch"
+  },
+  {
+    "lang": "tr",
+    "format": "a4",
+    "file": "/assets/brand/print/lilora-tr-a4.pdf",
+    "pageMillimetres": [
+      210,
+      297
+    ],
+    "qrMillimetres": 48,
+    "qrUrl": "https://lilora.app/tr/download/?utm_source=qr&utm_medium=a4&utm_campaign=prelaunch",
     "status": "prelaunch"
   },
   {
@@ -141,6 +141,102 @@
     ],
     "qrMillimetres": 48,
     "qrUrl": "https://lilora.app/fr/download/?utm_source=qr&utm_medium=a4&utm_campaign=prelaunch",
+    "status": "prelaunch"
+  },
+  {
+    "lang": "ja",
+    "format": "a6",
+    "file": "/assets/brand/print/lilora-ja-a6.pdf",
+    "pageMillimetres": [
+      105,
+      148
+    ],
+    "qrMillimetres": 30,
+    "qrUrl": "https://lilora.app/ja/download/?utm_source=qr&utm_medium=a6&utm_campaign=prelaunch",
+    "status": "prelaunch"
+  },
+  {
+    "lang": "ja",
+    "format": "a4",
+    "file": "/assets/brand/print/lilora-ja-a4.pdf",
+    "pageMillimetres": [
+      210,
+      297
+    ],
+    "qrMillimetres": 48,
+    "qrUrl": "https://lilora.app/ja/download/?utm_source=qr&utm_medium=a4&utm_campaign=prelaunch",
+    "status": "prelaunch"
+  },
+  {
+    "lang": "ko",
+    "format": "a6",
+    "file": "/assets/brand/print/lilora-ko-a6.pdf",
+    "pageMillimetres": [
+      105,
+      148
+    ],
+    "qrMillimetres": 30,
+    "qrUrl": "https://lilora.app/ko/download/?utm_source=qr&utm_medium=a6&utm_campaign=prelaunch",
+    "status": "prelaunch"
+  },
+  {
+    "lang": "ko",
+    "format": "a4",
+    "file": "/assets/brand/print/lilora-ko-a4.pdf",
+    "pageMillimetres": [
+      210,
+      297
+    ],
+    "qrMillimetres": 48,
+    "qrUrl": "https://lilora.app/ko/download/?utm_source=qr&utm_medium=a4&utm_campaign=prelaunch",
+    "status": "prelaunch"
+  },
+  {
+    "lang": "it",
+    "format": "a6",
+    "file": "/assets/brand/print/lilora-it-a6.pdf",
+    "pageMillimetres": [
+      105,
+      148
+    ],
+    "qrMillimetres": 30,
+    "qrUrl": "https://lilora.app/it/download/?utm_source=qr&utm_medium=a6&utm_campaign=prelaunch",
+    "status": "prelaunch"
+  },
+  {
+    "lang": "it",
+    "format": "a4",
+    "file": "/assets/brand/print/lilora-it-a4.pdf",
+    "pageMillimetres": [
+      210,
+      297
+    ],
+    "qrMillimetres": 48,
+    "qrUrl": "https://lilora.app/it/download/?utm_source=qr&utm_medium=a4&utm_campaign=prelaunch",
+    "status": "prelaunch"
+  },
+  {
+    "lang": "zh-Hant",
+    "format": "a6",
+    "file": "/assets/brand/print/lilora-zh-Hant-a6.pdf",
+    "pageMillimetres": [
+      105,
+      148
+    ],
+    "qrMillimetres": 30,
+    "qrUrl": "https://lilora.app/zh-hant/download/?utm_source=qr&utm_medium=a6&utm_campaign=prelaunch",
+    "status": "prelaunch"
+  },
+  {
+    "lang": "zh-Hant",
+    "format": "a4",
+    "file": "/assets/brand/print/lilora-zh-Hant-a4.pdf",
+    "pageMillimetres": [
+      210,
+      297
+    ],
+    "qrMillimetres": 48,
+    "qrUrl": "https://lilora.app/zh-hant/download/?utm_source=qr&utm_medium=a4&utm_campaign=prelaunch",
     "status": "prelaunch"
   }
 ]

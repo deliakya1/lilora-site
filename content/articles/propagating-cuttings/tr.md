@@ -4,7 +4,7 @@ Birkaç boğumu (yaprağın gövdeye bağlandığı noktaları) olan sağlıklı
 
 ## Bir çeliğin nelere ihtiyacı var
 
-<figure style="margin:24px 0"><img src="/assets/images/home/notebook-404-v1-960.webp" width="960" height="640" alt="Pişmiş toprak saksıda sarkan sürgünleriyle alacalı bir salon sarmaşığının mürekkep ve suluboya çizimi" loading="lazy" decoding="async" style="display:block;width:100%;height:auto;border-radius:4px"><figcaption style="font-size:14px;margin-top:8px">Lilora için herbaryum çizimi tarzında üretilmiş bir illüstrasyon. <a href="/editorial/#imagery">Görseller hakkında</a></figcaption></figure>
+<figure style="margin:24px 0"><img src="/assets/images/home/notebook-404-v1-960.webp" width="960" height="640" alt="Pişmiş toprak saksıda sarkan sürgünleriyle alacalı bir salon sarmaşığının mürekkep ve suluboya çizimi" loading="lazy" decoding="async" style="display:block;width:100%;height:auto;border-radius:4px"><figcaption style="font-size:14px;margin-top:8px">Lilora için herbaryum çizimi tarzında üretilmiş bir illüstrasyon. <a href="/tr/editorial/#imagery">Görseller hakkında</a></figcaption></figure>
 
 Çelik, ana bitkinin bir kopyasıdır. En az bir boğum gerekir, çünkü yeni kökler genellikle oradan çıkar; enerji üretmesi için de birkaç yaprak gerekir. Vermont Üniversitesi boğumu yaprağın gövdeyle birleştiği kabarıklık olarak tarif ediyor ve birkaç boğum içeren yaklaşık 8–15 cm’lik bir uç çeliği öneriyor. [Vermont Üniversitesi Extension: ev bitkilerini çoğaltma](https://www.uvm.edu/extension/news/more-please-propagating-houseplants)
 
@@ -32,7 +32,7 @@ Suda köklendirme, salon sarmaşığı (Epipremnum), kalp yapraklı filodendron 
 
 Kökler büyük bir yumak olmasını beklemeden, birkaç santimetre uzadığında çeliği saksıya al. Kökler alışırken ilk haftalarda yeni saksının harcını hafif nemli tut.
 
-Köklenen salon sarmaşığının bakımını [salon sarmaşığı profilimizde](/plants/epipremnum-aureum/) anlattık.
+Köklenen salon sarmaşığının bakımını [salon sarmaşığı profilimizde](/tr/plants/epipremnum-aureum/) anlattık.
 
 ## Harçta köklendirme
 
@@ -50,9 +50,9 @@ RHS’nin çoğaltma sayfaları, bazı bitkiler için topuklu çelik dahil birç
 
 ## Sonraki bakım
 
-Saksıya alındıktan sonra genç bitkiye diğerleri gibi bak: sulamadan önce harcı kontrol et, uygun ışık ver ve büyümeye başlayana kadar besleme. [Sabit takvime bağlı kalmadan sulama](/guides/watering-houseplants/), [ışık](/guides/indoor-plant-light-guide/) ve [saksı harcı ve drenaj](/guides/potting-mix-and-drainage/) rehberlerimiz temel bilgileri veriyor; [ne zaman saksı değiştirmeli](/guides/when-to-repot-houseplants/) ise bir sonraki adımı anlatıyor.
+Saksıya alındıktan sonra genç bitkiye diğerleri gibi bak: sulamadan önce harcı kontrol et, uygun ışık ver ve büyümeye başlayana kadar besleme. [Sabit takvime bağlı kalmadan sulama](/tr/guides/watering-houseplants/), [ışık](/tr/guides/indoor-plant-light-guide/) ve [saksı harcı ve drenaj](/tr/guides/potting-mix-and-drainage/) rehberlerimiz temel bilgileri veriyor; [ne zaman saksı değiştirmeli](/tr/guides/when-to-repot-houseplants/) ise bir sonraki adımı anlatıyor.
 
-Çelik, kökleri çürümüş ama gövdesi hâlâ sağlıklı olan bir bitkiyi kurtarmanın da bir yoludur; [ev bitkilerinde kök çürüklüğü](/guides/root-rot/) rehberine bak.
+Çelik, kökleri çürümüş ama gövdesi hâlâ sağlıklı olan bir bitkiyi kurtarmanın da bir yoludur; [ev bitkilerinde kök çürüklüğü](/tr/guides/root-rot/) rehberine bak.
 
 ## Sık sorulan sorular
 

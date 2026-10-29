@@ -4,7 +4,7 @@ Bir ev bitkisi saksısının drenaj deliğine, saksılar için hazırlanmış bi
 
 ## Drenaj deliği neden önemli
 
-<figure style="margin:24px 0"><img src="/assets/images/home/download-window-v1-960.webp" width="960" height="1440" alt="İnce bir tül perdenin yanında tabaklı pişmiş toprak saksıda uzun bir kauçuk bitkisi ve ahşap taburede bir salon sarmaşığı" loading="lazy" decoding="async" style="display:block;width:100%;max-width:420px;height:auto;border-radius:4px"><figcaption style="font-size:14px;margin-top:8px">Lilora için üretilmiş bir illüstrasyon; belirli bir bitkinin fotoğrafı değildir. <a href="/editorial/#imagery">Görseller hakkında</a></figcaption></figure>
+<figure style="margin:24px 0"><img src="/assets/images/home/download-window-v1-960.webp" width="960" height="1440" alt="İnce bir tül perdenin yanında tabaklı pişmiş toprak saksıda uzun bir kauçuk bitkisi ve ahşap taburede bir salon sarmaşığı" loading="lazy" decoding="async" style="display:block;width:100%;max-width:420px;height:auto;border-radius:4px"><figcaption style="font-size:14px;margin-top:8px">Lilora için üretilmiş bir illüstrasyon; belirli bir bitkinin fotoğrafı değildir. <a href="/tr/editorial/#imagery">Görseller hakkında</a></figcaption></figure>
 
 Köklerin sudan başka havaya da ihtiyacı vardır. Sulamadan sonra fazla su saksıdan çıkabilmelidir; çıkamazsa harç suya doymuş kalır, kökler havasız kalır ve kök çürüklüğü olasılığı artar. RHS drenaj deliklerinin ve tabakları boşaltmanın önemini tam da bu nedenle vurguluyor. [RHS: ev bitkileri nasıl yetiştirilir](https://www.rhs.org.uk/plants/types/houseplants/growing-guide)
 
@@ -37,7 +37,7 @@ Pek çok kişi turbalıkları korumak için artık torfsuz ürünleri tercih edi
 
 Sırsız pişmiş toprak saksı, suyun duvarlarından buharlaşmasına izin verdiği için harcın daha hızlı kurumasını sağlar. Plastik ve sırlı seramik nemi daha uzun tutar. Hiçbiri genel olarak daha iyi değildir; yalnızca ne sıklıkla sulaman gerekeceğini değiştirir.
 
-Deliksiz dekoratif bir saksı, dış saksı olarak kullanılabilir. Sulamak için iç saksıyı çıkar ya da dış saksıyı her seferinde boşalt. Bu basit adım, [ev bitkilerinde kök çürüklüğü](/guides/root-rot/) rehberinde anlattığımız sorunların çoğunu önler.
+Deliksiz dekoratif bir saksı, dış saksı olarak kullanılabilir. Sulamak için iç saksıyı çıkar ya da dış saksıyı her seferinde boşalt. Bu basit adım, [ev bitkilerinde kök çürüklüğü](/tr/guides/root-rot/) rehberinde anlattığımız sorunların çoğunu önler.
 
 ## Adım adım saksıya dikim
 
@@ -47,7 +47,7 @@ Deliksiz dekoratif bir saksı, dış saksı olarak kullanılabilir. Sulamak içi
 4. Bitkiyi eskisiyle aynı derinliğe yerleştir, kenarları doldur ve sıkıştırmadan hafifçe bastır.
 5. Su alttan süzülene kadar sula, sonra tabağı boşalt.
 
-Bir bitkinin yeni saksıya ihtiyaç duyduğunu gösteren işaretleri [ne zaman saksı değiştirmeli](/guides/when-to-repot-houseplants/) rehberinde, sonraki sulamayı ise [sabit takvime bağlı kalmadan sulama](/guides/watering-houseplants/) rehberinde anlattık.
+Bir bitkinin yeni saksıya ihtiyaç duyduğunu gösteren işaretleri [ne zaman saksı değiştirmeli](/tr/guides/when-to-repot-houseplants/) rehberinde, sonraki sulamayı ise [sabit takvime bağlı kalmadan sulama](/tr/guides/watering-houseplants/) rehberinde anlattık.
 
 ## Sık sorulan sorular
 
@@ -65,4 +65,4 @@ Zamanla parçalanır; daha çok su, daha az hava tutar. Birkaç yılda bir ya da
 
 ### Saksımın suyu iyi geçirip geçirmediğini nasıl anlarım?
 
-Yavaşça sula: harç doyduktan kısa süre sonra fazla su delikten çıkmalı, sonra akış durmalı. Su üstte birikiyor ya da hiç süzülmüyorsa deliği ve harcı kontrol et. [Fazla mı suladın, az mı?](/guides/overwatering-vs-underwatering/) rehberine bak.
+Yavaşça sula: harç doyduktan kısa süre sonra fazla su delikten çıkmalı, sonra akış durmalı. Su üstte birikiyor ya da hiç süzülmüyorsa deliği ve harcı kontrol et. [Fazla mı suladın, az mı?](/tr/guides/overwatering-vs-underwatering/) rehberine bak.

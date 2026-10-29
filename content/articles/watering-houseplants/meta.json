@@ -55,5 +55,17 @@
   },
   "fr": {
     "description": "Vérifiez le terreau, le poids du pot et le drainage pour décider quand arroser. Une routine pratique qui suit votre plante, pas un calendrier rigide."
+  },
+  "ja": {
+    "description": "用土、鉢の重さ、排水を確認して、水やりの時期を判断します。固定した日程ではなく、植物の状態に合わせる実用的な手順です。"
+  },
+  "ko": {
+    "description": "흙, 화분 무게, 배수를 확인해 물을 줄 시점을 판단하세요. 고정된 달력이 아니라 식물의 상태를 따르는 실용적인 방법입니다."
+  },
+  "it": {
+    "description": "Controlla substrato, peso del vaso e drenaggio prima di annaffiare. Una routine pratica che segue le esigenze della pianta, non un calendario."
+  },
+  "zh-Hant": {
+    "description": "室內植物澆水不必照日曆。依物種需求檢查介質深度與盆重，澆透瀝乾，並隨光線、季節和環境調整檢查。"
   }
 }

@@ -6,13 +6,13 @@ Kurdele çiçeği (örümcek bitkisi), tropik ve güney Afrika kökenli, hoşgö
 
 Orta ışığı sever, gölgeye dayanır ama doğrudan güneşi sevmez. Aydınlık bir pencereden biraz geride bir yer ya da iyi aydınlanan bir raf ona uyar. Alacalı formlar, iyi dolaylı ışıkta çizgilerini daha iyi korur. [NC State Extension](https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/)
 
-Daha fazlası için [ışık rehberine](/guides/indoor-plant-light-guide/) bak.
+Daha fazlası için [ışık rehberine](/tr/guides/indoor-plant-light-guide/) bak.
 
 ## Sulamadan önce kontrol
 
 En iyi nemli toprakta büyür ve kısa kuraklıklara dayanır. Büyüme döneminde harcın yüzeyi kuruyunca sula; kışın sulamayı azalt. Kalın beyaz kökleri su depoladığı için biraz kuru bir saksı, sürekli ıslak bir saksıdan daha az risklidir. [NC State Extension](https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/)
 
-Dokunmayla saksı ağırlığını nasıl birleştireceğini [sulama rehberi](/guides/watering-houseplants/) anlatıyor.
+Dokunmayla saksı ağırlığını nasıl birleştireceğini [sulama rehberi](/tr/guides/watering-houseplants/) anlatıyor.
 
 ## Harç ve saksı
 
@@ -30,7 +30,7 @@ Orta nem yeterlidir; çok kuru havada nemlendirici veya çakıllı tepsi yardım
 
 NC State kışın sulamanın azaltılmasını ve bitkinin 7 °C'nin üstünde tutulmasını öneriyor. En iyi eşit nemli harçta büyür ama kuraklığa dayanır; serin aylarda sulamadan önce kontrol et ve üst kısmın biraz daha kurumasına izin ver. [NC State Extension](https://plants.ces.ncsu.edu/plants/chlorophytum-comosum/)
 
-Kısa günlerin yararlı bir yanı var: NC State, bitki en az üç hafta boyunca günde 12 saatten az ışık aldığında sürgün oluştuğunu belirtiyor; bu yüzden yavrular çoğu zaman sonbahardan sonra görünür. Yazın dayanamadığı doğrudan güneşten uzak tut. [Kış bakımı rehberine](/guides/winter-houseplant-care/) bak. Lilora'da hatırlatma bir kontrol çağrısıdır, sulama emri değil: suladığını ya da ertelediğini kaydedersin; böylece soğuk aylarda harcın daha yavaş kuruduğu kendi geçmişinde görünür.
+Kısa günlerin yararlı bir yanı var: NC State, bitki en az üç hafta boyunca günde 12 saatten az ışık aldığında sürgün oluştuğunu belirtiyor; bu yüzden yavrular çoğu zaman sonbahardan sonra görünür. Yazın dayanamadığı doğrudan güneşten uzak tut. [Kış bakımı rehberine](/tr/guides/winter-houseplant-care/) bak. Lilora'da hatırlatma bir kontrol çağrısıdır, sulama emri değil: suladığını ya da ertelediğini kaydedersin; böylece soğuk aylarda harcın daha yavaş kuruduğu kendi geçmişinde görünür.
 
 ## Sık görülen sorunlar
 
@@ -38,7 +38,7 @@ Kısa günlerin yararlı bir yanı var: NC State, bitki en az üç hafta boyunca
 - **Harç ıslakken soluk, sarkık yapraklar:** drenajı kontrol et.
 - **Yavru vermemesi:** bitkiler genellikle birkaç hafta kısa gün ve kesintisiz uzun geceden sonra uzun sap verir; fazla gübre de yavruları azaltır.
 
-Daha geniş bir kontrol listesi için [sararan yaprak kontrollerine](/guides/yellow-houseplant-leaves/) bak.
+Daha geniş bir kontrol listesi için [sararan yaprak kontrollerine](/tr/guides/yellow-houseplant-leaves/) bak.
 
 ## Çoğaltma
 
@@ -46,7 +46,7 @@ Yavrularla ya da bölerek kolayca çoğalır. Yavruyu ana bitkiye bağlıyken ne
 
 ## Evcil hayvanlar ve insanlar
 
-[ASPCA Animal Poison Control Center](https://www.aspca.org/), kurdele çiçeğini kedi ve köpekler için toksik değil olarak listeler; NC State Extension da aynı şekilde etiketler. Toksik değil, evcil hayvanın onu serbestçe yiyebileceği anlamına gelmez: bitki çiğnemek yine de mideyi bozabilir ve kediler sarkan yapraklara sık sık ilgi gösterir. Kedin çiğniyorsa bitkiyi ulaşamayacağı bir yere as. Evcil hayvanın rahatsız görünürse veterinere başvur. İnsanlarda zehirlenme şüphesinde Türkiye'de 114 UZEM'i ara. Bu genel bilgidir; veteriner veya tıbbi tavsiye değildir. Başka bitkilerle karşılaştırmak için [evcil hayvan dostu bitkiler rehberine](/guides/pet-safe-houseplants/) ya da [bitki kütüphanesindeki toksik olmayan profillere](/plants/#petNonToxic) bak.
+[ASPCA Animal Poison Control Center](https://www.aspca.org/), kurdele çiçeğini kedi ve köpekler için toksik değil olarak listeler; NC State Extension da aynı şekilde etiketler. Toksik değil, evcil hayvanın onu serbestçe yiyebileceği anlamına gelmez: bitki çiğnemek yine de mideyi bozabilir ve kediler sarkan yapraklara sık sık ilgi gösterir. Kedin çiğniyorsa bitkiyi ulaşamayacağı bir yere as. Evcil hayvanın rahatsız görünürse veterinere başvur. İnsanlarda zehirlenme şüphesinde Türkiye'de 114 UZEM'i ara. Bu genel bilgidir; veteriner veya tıbbi tavsiye değildir. Başka bitkilerle karşılaştırmak için [evcil hayvan dostu bitkiler rehberine](/tr/guides/pet-safe-houseplants/) ya da [bitki kütüphanesindeki toksik olmayan profillere](/tr/plants/#petNonToxic) bak.
 
 ## Sık sorulan sorular
 

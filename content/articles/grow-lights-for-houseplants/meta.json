@@ -49,5 +49,18 @@
   "fr": {
     "description": "Une lampe de croissance simple : quelle LED, à quelle distance des feuilles, combien d’heures par jour, et pourquoi programmateur et nuits noires comptent.",
     "seoTitle": "Lampes de croissance pour plantes d’intérieur"
+  },
+  "ja": {
+    "description": "観葉植物の育成ライトをシンプルに使う方法。LEDの選び方、葉との距離、点灯時間、タイマーと暗い夜が大切な理由を紹介します。"
+  },
+  "ko": {
+    "description": "실내식물용 조명의 간단한 설치법입니다. LED 선택, 잎과의 거리, 하루 사용 시간, 타이머와 밤의 어둠이 중요한 이유를 알아보세요."
+  },
+  "it": {
+    "seoTitle": "Lampade per piante: distanza, durata e timer",
+    "description": "Scegli una lampada LED per le piante, imposta distanza e timer e osserva la crescita. Una guida pratica alla luce supplementare in casa."
+  },
+  "zh-Hant": {
+    "description": "植物燈入門指南：選擇廣光譜 LED、設定距離與照明時數、保留黑暗期，並依葉片反應和水分需求逐步調整。"
   }
 }

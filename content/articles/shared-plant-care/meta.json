@@ -52,5 +52,21 @@
   "fr": {
     "category": "Entretien partagé",
     "description": "Partagez l’entretien des plantes à la maison : historique clair des vérifications et arrosages, répartition simple et passation avant un départ."
+  },
+  "ja": {
+    "description": "確認と水やりの明確な記録、簡単な担当分け、旅行前の実用的な引き継ぎで、パートナーや同居人と植物のお世話を共有しましょう。",
+    "category": "植物のお世話を共有する"
+  },
+  "ko": {
+    "description": "확인과 물주기 기록, 간단한 역할 분담, 여행 전 인계 방법으로 배우자나 동거인과 식물 관리를 나누는 실용적인 안내입니다.",
+    "category": "함께하는 식물 관리"
+  },
+  "it": {
+    "description": "Condividi un solo registro per pianta, distingui controlli e annaffiature e organizza il passaggio di consegne senza ripetere le stesse cure.",
+    "category": "Cura condivisa delle piante"
+  },
+  "zh-Hant": {
+    "category": "共同植物照護",
+    "description": "共同照護植物的實用流程：每株共用紀錄，區分檢查、澆水和延後，約定下次負責人，並在旅行前完成清楚交接。"
   }
 }

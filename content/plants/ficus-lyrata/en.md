@@ -6,13 +6,13 @@ Fiddle-leaf fig is a West and Central African tree grown indoors for its large, 
 
 It prefers bright indirect light and benefits from protection from strong afternoon sun. The RHS notes that some figs tolerate a few hours of morning or evening sun, mainly in winter. Too little light leads to slow growth and leaf drop; a sudden move into hot sun can scorch. [NC State Extension](https://plants.ces.ncsu.edu/plants/ficus-lyrata/) · [RHS](https://www.rhs.org.uk/plants/ornamental-figs/growing-guide)
 
-See the [indoor light guide](/en/guides/indoor-plant-light-guide/).
+See the [indoor light guide](/guides/indoor-plant-light-guide/).
 
 ## How to check before watering
 
 In spring and summer, water when the mix has dried slightly, using room-temperature water; in winter keep it only just moist. NC State describes the plant as sensitive to overwatering, and the RHS calls overwatering the most common cause of leaf drop in figs. Check a few centimetres down and lift the pot if you can. [RHS](https://www.rhs.org.uk/plants/ornamental-figs/growing-guide)
 
-Our [watering guide](/en/guides/watering-houseplants/) explains moisture checks.
+Our [watering guide](/guides/watering-houseplants/) explains moisture checks.
 
 ## Potting mix and pot
 
@@ -33,7 +33,7 @@ The RHS suggests a high-nitrogen fertilizer from spring to late summer, at the l
 - **Brown spots:** temperature swings near vents, or excess water; check roots.
 - **Pests:** scale, aphids, mealybugs, thrips and spider mites.
 
-Use the [yellow-leaf checks](/en/guides/yellow-houseplant-leaves/) before acting.
+Use the [yellow-leaf checks](/guides/yellow-houseplant-leaves/) before acting.
 
 ## Propagation
 

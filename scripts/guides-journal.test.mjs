@@ -3,8 +3,8 @@ import assert from "node:assert/strict";
 import { readFileSync, existsSync } from "node:fs";
 import { articlePath } from "./layout.mjs";
 
-// Prompt 06: eight care guides and four journal posts in all six languages.
-const languages = ["tr", "en", "es", "de", "pt", "fr"];
+// Prompt 06: eight care guides and four journal posts in all supported languages.
+import { languages, prefix, htmlLang, languageOptions, descriptionRange, isCJK, languageOfPath } from './locale-registry.mjs';
 const pieces = {
   "overwatering-vs-underwatering": "guide",
   "root-rot": "guide",
@@ -28,7 +28,7 @@ const built = (article, lang) =>
   readFileSync("." + articlePath(article, lang) + "index.html", "utf8");
 const words = (text) => text.split(/\s+/).filter(Boolean).length;
 
-test("all twelve pieces exist in six languages with the right type", () => {
+test("all twelve pieces exist in every supported language with the right type", () => {
   for (const [slug, type] of Object.entries(pieces)) {
     const article = articles.find((a) => a.slug === slug);
     assert.ok(article, slug);
@@ -37,9 +37,9 @@ test("all twelve pieces exist in six languages with the right type", () => {
       assert.ok(article[lang], `${slug}/${lang}`);
       assert.ok(article[lang].description.length <= 165, `${slug}/${lang} description length`);
       assert.ok(article[lang].sections.length >= 6, `${slug}/${lang} sections`);
-      assert.ok(article[lang].answer.length > 100, `${slug}/${lang} short answer`);
+      assert.ok(article[lang].answer.length > (isCJK(lang) ? 50 : 100), `${slug}/${lang} short answer`);
       assert.ok(
-        words(article[lang].sections.map((s) => s.html.replace(/<[^>]+>/g, " ")).join(" ")) >= 400,
+        (isCJK(lang) ? article[lang].sections.map(s => s.html.replace(/<[^>]+>/g, "")).join("").length >= 800 : words(article[lang].sections.map(s => s.html.replace(/<[^>]+>/g, " ")).join(" ")) >= 400),
         `${slug}/${lang} body length`,
       );
       assert.ok(
@@ -74,12 +74,9 @@ test("internal links resolve, stay in language where possible, and reach at leas
       assert.ok(guides.size >= 3, `${slug}/${lang}: ${guides.size} internal article links`);
       for (const link of links) {
         assert.ok(existsSync("." + link.split("#")[0] + (link.endsWith("/") ? "index.html" : "")), `${slug}/${lang}: ${link}`);
-        const prefix = lang === "tr" ? "/" : `/${lang}/`;
-        if (!link.startsWith(prefix) && /\/(guides|blog)\//.test(link)) {
-          // Cross-language links are only allowed as labelled English fallbacks.
-          assert.ok(link.startsWith("/en/"), `${slug}/${lang}: ${link}`);
-          const target = link.replace(/^\/en\//, prefix);
-          assert.ok(!existsSync("." + target + "index.html"), `${slug}/${lang}: ${link} has a ${lang} version`);
+        const home = prefix(lang);
+        if (languageOfPath(link) !== lang && /\/(guides|blog)\//.test(link)) {
+          assert.fail(`${slug}/${lang}: ${link} must use the available ${lang} translation`);
         }
       }
     }
@@ -96,9 +93,9 @@ test("no English body under another language", () => {
         .replace(/\[[^\]]*\]\([^)]*\)/g, "")
         .replace(/<[^>]+>/g, " ");
       const hits = (text.match(english) || []).length;
-      assert.ok(hits / words(text) < 0.01, `${slug}/${lang}: ${hits} English function words`);
+      assert.ok((isCJK(lang) ? (text.match(english) || []).join("").length / Math.max(text.replace(/[^\p{L}]/gu, "").length, 1) : hits / words(text)) < 0.01, `${slug}/${lang}: ${hits} English function words`);
       const page = built(articles.find((a) => a.slug === slug), lang);
-      assert.match(page, new RegExp(`<html lang="${lang === "pt" ? "pt-BR" : lang}"`));
+      assert.match(page, new RegExp(`<html lang="${htmlLang(lang)}"`));
     }
   }
 });
@@ -116,7 +113,7 @@ test("every article image has alt text, size, a visible credit and a CREDITS.md 
         assert.ok(existsSync("." + src), src);
         assert.ok(credits.includes(src), `${src} missing from CREDITS.md`);
         assert.ok(credits.includes(slug), `${slug} missing from CREDITS.md`);
-        assert.match(figure, /<figcaption[^>]*>[^<]+<a href="\/(?:[a-z]{2}\/)?editorial\/#imagery">/, `${slug}/${lang} credit`);
+        assert.match(figure, /<figcaption[^>]*>[^<]+<a href="\/(?:[a-z]{2}(?:-[a-z]+)?\/)?editorial\/#imagery">/, `${slug}/${lang} credit`);
       }
     }
   }
@@ -128,13 +125,13 @@ test("new pieces avoid banned brand words and filler conclusions", () => {
 });
 
 test("hubs and sitemap include every new page", () => {
-  const sitemap = ["tr", "en", "es", "de", "pt", "fr"].map((l) => readFileSync(`sitemap-${l}.xml`, "utf8")).join("\n");
+  const sitemap = languages.map((l) => readFileSync(`sitemap-${l}.xml`, "utf8")).join("\n");
   for (const slug of Object.keys(pieces)) {
     const article = articles.find((a) => a.slug === slug);
     for (const lang of languages) {
       const path = articlePath(article, lang);
       assert.ok(sitemap.includes(`<loc>https://lilora.app${path}</loc>`), path);
-      const hub = (lang === "tr" ? "" : lang + "/") + (article.type === "post" ? "blog" : "guides") + "/index.html";
+      const hub = prefix(lang).slice(1) + (article.type === "post" ? "blog" : "guides") + "/index.html";
       assert.ok(readFileSync(hub, "utf8").includes(`href="${path}"`), `${hub}: ${path}`);
     }
   }

@@ -55,5 +55,17 @@
   "fr": {
     "description": "Brumiser change à peine l’humidité. Ce que plateaux de galets, regroupement, humidificateur et bon emplacement peuvent ou non apporter.",
     "seoTitle": "Humidité de l’air pour plantes d’intérieur : ce qui aide"
+  },
+  "ja": {
+    "description": "霧吹きでは湿度はほとんど変わりません。小石のトレー、寄せ置き、加湿器、置き場所の変更でできることと、できないことを説明します。"
+  },
+  "ko": {
+    "description": "분무는 습도를 거의 바꾸지 못합니다. 자갈 받침, 식물 모아 두기, 가습기, 자리 변경이 할 수 있는 일과 한계를 알아보세요."
+  },
+  "it": {
+    "description": "Nebulizzare e usare ciottoli modifica poco l’umidità. Scopri quando servono misurazioni, una posizione diversa o un umidificatore per le piante."
+  },
+  "zh-Hant": {
+    "description": "了解室內植物濕度需求：先測量，再評估噴霧、卵石托盤、集中擺放與加濕器，並排查褐尖的其他原因。"
   }
 }

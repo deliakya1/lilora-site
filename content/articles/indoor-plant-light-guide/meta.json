@@ -53,5 +53,17 @@
   "fr": {
     "description": "Distinguez soleil direct, lumière vive indirecte et faible luminosité, puis observez un emplacement toute la journée avant de choisir une plante.",
     "seoTitle": "Lumière des plantes d’intérieur : choisir l’emplacement"
+  },
+  "ja": {
+    "description": "直射日光、明るい間接光、弱い光の違いを理解し、窓辺を観察して、植物の必要とする条件に合う室内の置き場所を選びましょう。"
+  },
+  "ko": {
+    "description": "직사광, 밝은 간접광, 약한 빛을 이해해 보세요. 창가의 빛을 관찰하고 식물의 필요에 맞춰 자리를 고르는 방법을 안내합니다."
+  },
+  "it": {
+    "description": "Valuta la luce che raggiunge le foglie, oltre all’esposizione della finestra. Una guida a sole diretto, luce indiretta e posizioni poco luminose."
+  },
+  "zh-Hant": {
+    "description": "依葉片實際受光選位置：了解直射光、明亮間接光與低光，觀察窗向、遮蔭和季節，必要時評估植物燈。"
   }
 }

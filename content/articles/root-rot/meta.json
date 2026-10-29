@@ -59,5 +59,17 @@
   "fr": {
     "description": "Reconnaître la pourriture des racines, examiner les racines, couper les parties abîmées, rempoter dans un substrat neuf et éviter la récidive.",
     "seoTitle": "Pourriture des racines : signes, causes et que faire"
+  },
+  "ja": {
+    "description": "観葉植物の根腐れを見分け、根を確認し、傷んだ部分を切って新しい用土へ植え替える方法と、再発を防ぐ管理を説明します。"
+  },
+  "ko": {
+    "description": "실내식물의 뿌리 썩음을 알아보고, 뿌리를 확인하고, 손상된 부분을 자른 뒤 새 흙에 옮겨 심는 방법과 재발 방지법을 알아보세요."
+  },
+  "it": {
+    "description": "Una pianta può appassire anche nel terriccio bagnato. Scopri come controllare le radici, rimuovere il marciume e prevenire nuovi ristagni."
+  },
+  "zh-Hant": {
+    "description": "室內植物爛根的辨認與處理：檢查根色和硬度、剪除腐根、換新介質，並改善澆水、排水和工具清潔來預防復發。"
   }
 }

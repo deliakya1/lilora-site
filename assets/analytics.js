@@ -109,7 +109,7 @@
     script.src='https://www.googletagmanager.com/gtag/js?id='+id;
     document.head.append(script);
   }
-  const privacy=(locale.language==='tr'?'/':'/'+locale.language+'/')+'privacy/#website-analytics';
+  const privacy=(locale.basePath||(locale.language==='en'?'/':`/${locale.language.toLowerCase()}/`))+'privacy/#website-analytics';
   const banner=document.createElement('section');
   banner.className='cookie-banner';banner.setAttribute('aria-label',t.title);
   banner.innerHTML=`<p>${t.shortIntro}</p><div class="cookie-actions"><button type="button" data-action="accept">${t.shortAccept}</button><button type="button" data-action="reject">${t.shortReject}</button><button type="button" data-action="preferences" aria-haspopup="dialog">${t.shortPreferences}</button></div>`;
@@ -204,7 +204,8 @@
   // Only the exact listing may count as a store click; App Store is not live yet.
   const storeListing=/^\/(?:[a-z]{2}\/)?app\/(?:[a-z0-9-]+\/)?id6818604360\/?$/;
   function pageType(path) {
-    const rest=path.replace(/^\/(?:en|es|de|pt|fr)(?=\/)/,'');
+    const language=locale.languageOptions?.find(option=>option.path!=='/'&&path.startsWith(option.path));
+    const rest=language?'/'+path.slice(language.path.length):path;
     if(rest==='/'||rest==='')return 'home';
     const section=rest.split('/')[1];
     const types={guides:'guide',plants:'plant',blog:'blog',compare:'compare',download:'download',support:'support',about:'about',editorial:'editorial',press:'press'};

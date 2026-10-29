@@ -116,5 +116,61 @@
       "petSafetySource": "https://www.aspca.org/",
       "careLevel": "Facile"
     }
+  },
+  "ja": {
+    "description": "ヒメカズラの育て方。適度な光、軽く湿った用土、簡単な挿し木、つるを垂らす・登らせる管理と、ASPCAのペット情報を紹介します。",
+    "imageAlt": "光沢のあるハート形の葉を付け、木の幹を登るヒメカズラのつる",
+    "caption": "写真：<a href=\"https://www.inaturalist.org/observations/395545545\"><em>Philodendron hederaceum</em></a>、撮影：Marcio Santos Ferreira。iNaturalistより、<a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>。サイズ変更済み。",
+    "atAGlance": {
+      "light": "中程度の間接光。弱い光でも育つが茎が間延びする",
+      "watering": "生育中は軽い湿り気を保つ。上部を確認し、冬は水を減らす",
+      "humidity": "乾いた空気に耐えるが、中程度の湿度を好む",
+      "temperature": "一般的な室温",
+      "petSafety": "ASPCAは猫・犬に有毒と掲載",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "育てやすい"
+    }
+  },
+  "ko": {
+    "description": "하트잎 필로덴드론 관리: 중간 정도의 빛, 약간 촉촉한 흙, 쉬운 줄기 삽목, 늘어지거나 오르는 생장과 ASPCA 독성 분류입니다.",
+    "imageAlt": "나무줄기를 타고 오르는 하트잎 필로덴드론. 윤기 나는 하트 모양 잎이 보입니다",
+    "caption": "사진: <a href=\"https://www.inaturalist.org/observations/395545545\"><em>Philodendron hederaceum</em></a> — 촬영: Marcio Santos Ferreira, iNaturalist 제공, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. 크기를 조정했습니다.",
+    "atAGlance": {
+      "light": "중간 정도의 간접광. 약한 빛에서도 살지만 줄기가 길어집니다",
+      "watering": "생장기에는 약간 촉촉하게 유지하세요. 흙 윗부분을 확인하고 겨울에는 물을 줄이세요",
+      "humidity": "건조한 공기를 견디지만 중간 정도의 습도를 좋아합니다",
+      "temperature": "일반적인 실내 온도",
+      "petSafety": "ASPCA가 고양이와 개에게 유독한 식물로 분류했습니다",
+      "careLevel": "쉬움",
+      "petSafetySource": "https://www.aspca.org/"
+    }
+  },
+  "it": {
+    "imageAlt": "Foglie lucide a forma di cuore su un filodendro che si arrampica lungo un tronco",
+    "caption": "Foto: <a href=\"https://www.inaturalist.org/observations/395545545\"><em>Philodendron hederaceum</em></a> di Marcio Santos Ferreira, tramite iNaturalist, <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Ridimensionata.",
+    "atAGlance": {
+      "light": "Luce indiretta media; con poca luce i fusti si allungano",
+      "watering": "Substrato leggermente umido durante la crescita; meno acqua in inverno",
+      "humidity": "Tollera aria secca, ma preferisce umidità media",
+      "temperature": "Normali temperature di casa; evita freddo e fonti di calore",
+      "petSafety": "Tossico per cani e gatti secondo ASPCA",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "Facile"
+    },
+    "description": "Cura del filodendro a foglia di cuore: luce, controllo del substrato, talee e problemi comuni. Indicazioni pratiche e rischi per cani e gatti."
+  },
+  "zh-Hant": {
+    "imageAlt": "心葉蔓綠絨的亮澤心形葉片沿著樹幹攀爬",
+    "caption": "照片： <a href=\"https://www.inaturalist.org/observations/395545545\"><em>Philodendron hederaceum</em></a>，攝影：Marcio Santos Ferreira，來源：iNaturalist， <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. 已調整尺寸。",
+    "atAGlance": {
+      "light": "中等間接光；耐低光，但莖可能徒長",
+      "watering": "生長期保持微濕，檢查表層，冬季少澆",
+      "humidity": "耐乾燥空氣，偏好中等濕度",
+      "temperature": "一般室內溫度",
+      "petSafety": "ASPCA 列為對貓狗有毒",
+      "petSafetySource": "https://www.aspca.org/",
+      "careLevel": "容易"
+    },
+    "description": "心葉蔓綠絨照護指南：中等間接光、微濕介質、垂吊或攀爬與莖插繁殖，並說明常見問題及對貓狗的毒性。"
   }
 }

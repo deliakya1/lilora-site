@@ -12,13 +12,13 @@ Bazı ev bitkileri musluk suyundaki florüre ya da klora hassastır. [Clemson HG
 
 Clemson'un önerisi sulama kaplarını doldurup suyu kullanmadan önce 24 saat oda sıcaklığında bekletmek. [Clemson HGIC: ev bitkisi hastalıkları ve bozuklukları](https://hgic.clemson.edu/factsheet/houseplant-diseases-disorders/) Kolay bir alışkanlık: sulamadan hemen sonra kabı yeniden doldur, bir dahaki sefere hazır olsun. Bekletmenin florürü giderdiğini söyleyen kurumsal bir kaynak bulamadık; bu yüzden sürekli kahverengileşen hassas bir bitki için toplanmış yağmur suyu ya da filtrelenmiş su denemeye değer.
 
-Kahverengi uçların başka nedenleri de var, özellikle kuru hava ve düzensiz sulama; önce bunları elemek için [kahverengi yaprak uçları](/blog/brown-leaf-tips/) yazısına bakabilirsin.
+Kahverengi uçların başka nedenleri de var, özellikle kuru hava ve düzensiz sulama; önce bunları elemek için [kahverengi yaprak uçları](/tr/blog/brown-leaf-tips/) yazısına bakabilirsin.
 
 ## Mineraller her sudan birikir
 
 Toprak her kuruduğunda çözünmüş tuzlar geride kalır ve daha yoğun hâle gelir. Maryland Üniversitesi, saksının en az iki katı hacimde suyla, su alttan akana kadar üstten sulamayı ve bu yıkamayı dört ila altı ayda bir ve gübrelemeden önce yapmayı öneriyor. [Maryland Üniversitesi Extension: iç mekân bitkilerini sulamak](https://extension.umd.edu/resource/watering-indoor-plants)
 
-Birikmenin görünen işareti toprağın ya da saksı kenarının üstündeki beyazımsı kabuktur. [Colorado State Üniversitesi Extension: saksı toprağından tuzları yıkamak](https://planttalk.colostate.edu/topics/houseplants/1339-leaching-salts-potting-mixes/) Yumuşak, pamuksu bir tabaka başka bir şeydir; bkz. [saksı toprağında beyaz küf](/blog/mold-on-houseplant-soil/).
+Birikmenin görünen işareti toprağın ya da saksı kenarının üstündeki beyazımsı kabuktur. [Colorado State Üniversitesi Extension: saksı toprağından tuzları yıkamak](https://planttalk.colostate.edu/topics/houseplants/1339-leaching-salts-potting-mixes/) Yumuşak, pamuksu bir tabaka başka bir şeydir; bkz. [saksı toprağında beyaz küf](/tr/blog/mold-on-houseplant-soil/).
 
 ## Sıcaklık
 
@@ -26,7 +26,7 @@ Soğuk su yaprakları lekeleyebilir. Iowa State, Afrika menekşesinin yapraklar�
 
 ## Yağmur suyu ve diğer seçenekler
 
-Temiz bir kapta toplanan yağmur suyu doğal olarak yumuşaktır ve hassas bitkilere uygundur; yeni ilaçlanmış bir çatıdan gelmediği sürece. Şişelenmiş kaynak suyu da çoğu zaman mineral içerir, yani kendiliğinden daha iyi değildir. Hangisini kullanırsan kullan, asıl etken yine nasıl ve ne zaman suladığındır; bunu [ev bitkilerini sabit bir takvime bağlı kalmadan sulamak](/guides/watering-houseplants/) rehberi anlatıyor.
+Temiz bir kapta toplanan yağmur suyu doğal olarak yumuşaktır ve hassas bitkilere uygundur; yeni ilaçlanmış bir çatıdan gelmediği sürece. Şişelenmiş kaynak suyu da çoğu zaman mineral içerir, yani kendiliğinden daha iyi değildir. Hangisini kullanırsan kullan, asıl etken yine nasıl ve ne zaman suladığındır; bunu [ev bitkilerini sabit bir takvime bağlı kalmadan sulamak](/tr/guides/watering-houseplants/) rehberi anlatıyor.
 
 ## Sık sorulan sorular
 
@@ -40,4 +40,4 @@ Mineral bakımından fakirdir, ama hazneler ve borular kir ve mikrop barındıra
 
 ### Suyum çok sert. Ne yapmalıyım?
 
-Saksıları yukarıda anlatıldığı gibi birkaç ayda bir iyice yıka, etiketteki oranda ya da daha az besle ve kabuk sürekli geri geliyorsa bitkiyi taze toprağa al. Bkz. [ev bitkilerini beslemek](/guides/fertilizing-houseplants/).
+Saksıları yukarıda anlatıldığı gibi birkaç ayda bir iyice yıka, etiketteki oranda ya da daha az besle ve kabuk sürekli geri geliyorsa bitkiyi taze toprağa al. Bkz. [ev bitkilerini beslemek](/tr/guides/fertilizing-houseplants/).

@@ -4,7 +4,7 @@ Bir oda istediğin bitkiler için fazla karanlıksa ya da kış günleri kısays
 
 ## Bitkinin buna ihtiyacı var mı?
 
-Işığın sınırlayıcı etken olduğunu gösteren işaretler arasında yavaş ve zayıf büyüme, yapraklar arasında uzun boşluklar ve pencereye doğru belirgin biçimde eğilen gövdeler var. RHS de lamba altındaki bitkilerde koyu yeşil yapraklarla birlikte zayıf büyümeyi daha fazla ışık gerektiğinin işareti olarak sayıyor. [RHS: iç mekân bitkileri için yapay aydınlatma](https://www.rhs.org.uk/plants/types/houseplants/artificial-lighting) Bir şey almadan önce evdeki en aydınlık pencereyi dene; nasıl değerlendireceğini [iç mekân bitki ışığı rehberi](/guides/indoor-plant-light-guide/), uzamış büyümeyi de [boy atıp seyrelen ev bitkileri](/blog/leggy-houseplants/) yazısı anlatıyor.
+Işığın sınırlayıcı etken olduğunu gösteren işaretler arasında yavaş ve zayıf büyüme, yapraklar arasında uzun boşluklar ve pencereye doğru belirgin biçimde eğilen gövdeler var. RHS de lamba altındaki bitkilerde koyu yeşil yapraklarla birlikte zayıf büyümeyi daha fazla ışık gerektiğinin işareti olarak sayıyor. [RHS: iç mekân bitkileri için yapay aydınlatma](https://www.rhs.org.uk/plants/types/houseplants/artificial-lighting) Bir şey almadan önce evdeki en aydınlık pencereyi dene; nasıl değerlendireceğini [iç mekân bitki ışığı rehberi](/tr/guides/indoor-plant-light-guide/), uzamış büyümeyi de [boy atıp seyrelen ev bitkileri](/tr/blog/leggy-houseplants/) yazısı anlatıyor.
 
 ## Hangi tür ışık?
 
@@ -28,7 +28,7 @@ Ucuz bir priz zamanlayıcısı hatırlama işini senin yerine yapar; ışıklar 
 
 ## Değişen diğer şeyleri de ayarla
 
-Daha fazla ışık daha hızlı büyüme demektir; daha hızlı büyüyen bitki daha fazla su ve büyüme mevsiminde daha fazla besin kullanır. Lamba altındaki ilk haftalarda toprağı daha sık kontrol et; kontrolün nasıl yapılacağını [ev bitkilerini sabit bir takvime bağlı kalmadan sulamak](/guides/watering-houseplants/) rehberi anlatıyor. Bir bitkiyi loş bir köşeden güçlü bir lambanın altına alıyorsan süreyi bir iki haftaya yayarak artır.
+Daha fazla ışık daha hızlı büyüme demektir; daha hızlı büyüyen bitki daha fazla su ve büyüme mevsiminde daha fazla besin kullanır. Lamba altındaki ilk haftalarda toprağı daha sık kontrol et; kontrolün nasıl yapılacağını [ev bitkilerini sabit bir takvime bağlı kalmadan sulamak](/tr/guides/watering-houseplants/) rehberi anlatıyor. Bir bitkiyi loş bir köşeden güçlü bir lambanın altına alıyorsan süreyi bir iki haftaya yayarak artır.
 
 ## Sık sorulan sorular
 

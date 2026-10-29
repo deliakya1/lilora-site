@@ -6,13 +6,13 @@ The ZZ plant is a drought-tolerant aroid from eastern and southern Africa. Its t
 
 ZZ does best in bright, indirect light and tolerates shade, so it is often chosen for offices and darker rooms. Avoid placing it in strong direct sun: NC State notes that leaves can scald and brown. In low light it grows slowly and may lean toward the window. [NC State Extension](https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/)
 
-Use the [indoor light guide](/en/guides/indoor-plant-light-guide/) to judge a position.
+Use the [indoor light guide](/guides/indoor-plant-light-guide/) to judge a position.
 
 ## How to check before watering
 
 Water only when the mix has dried out completely. Check down to the lower part of the pot; a dry surface over wet roots is the classic mistake. NC State suggests around once a month in winter and about twice a month in summer, but only when the soil is dry, so treat those as rough limits, not a schedule. [NC State Extension](https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/)
 
-ZZ does not tolerate wet feet. Drain it fully and empty the saucer. See the [watering guide](/en/guides/watering-houseplants/) for pot-weight checks.
+ZZ does not tolerate wet feet. Drain it fully and empty the saucer. See the [watering guide](/guides/watering-houseplants/) for pot-weight checks.
 
 ## Potting mix and pot
 
@@ -32,7 +32,7 @@ NC State suggests a balanced liquid houseplant fertilizer once or twice a year. 
 - **Brown, scorched patches:** too much direct sun.
 - **Scale insects:** NC State notes them as the main pest to watch for.
 
-Read the [yellow-leaf checks](/en/guides/yellow-houseplant-leaves/) before acting on one symptom.
+Read the [yellow-leaf checks](/guides/yellow-houseplant-leaves/) before acting on one symptom.
 
 ## Propagation
 

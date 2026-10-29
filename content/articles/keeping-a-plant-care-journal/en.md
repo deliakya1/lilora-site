@@ -4,7 +4,7 @@ A plant care journal is a dated list of what you saw and what you did: checked, 
 
 ## Why bother writing it down
 
-<figure style="margin:24px 0"><img src="/assets/images/home/notebook-404-v1-960.webp" width="960" height="640" alt="Ink and watercolour drawing of a variegated pothos in a terracotta pot on a plain paper background" loading="lazy" decoding="async" style="display:block;width:100%;height:auto;border-radius:4px"><figcaption style="font-size:14px;margin-top:8px">Illustration generated for Lilora in a herbarium drawing style. <a href="/en/editorial/#imagery">About our images</a></figcaption></figure>
+<figure style="margin:24px 0"><img src="/assets/images/home/notebook-404-v1-960.webp" width="960" height="640" alt="Ink and watercolour drawing of a variegated pothos in a terracotta pot on a plain paper background" loading="lazy" decoding="async" style="display:block;width:100%;height:auto;border-radius:4px"><figcaption style="font-size:14px;margin-top:8px">Illustration generated for Lilora in a herbarium drawing style. <a href="/editorial/#imagery">About our images</a></figcaption></figure>
 
 Memory is bad at intervals. "I watered it last week" is often ten days, and in a shared home it might have been someone else. Garden journals have long been recommended by extension services for exactly this reason: over time a record shows which plants thrived, which struggled, and what you did differently. [Iowa State University Extension: garden journaling](https://yardandgarden.extension.iastate.edu/how-to/garden-journaling) Penn State Extension's Master Gardeners describe the same habit, including the value of noting impressions as well as facts. [Penn State Extension: keeping a garden journal](https://extension.psu.edu/keeping-a-garden-journal)
 
@@ -48,13 +48,13 @@ A photo every few weeks in the same spot and light shows slow changes that are h
 - Look at what happened in the week before a problem started: a move, a missed check, a feed, a cold night.
 - Note which plants never needed much: they are often the ones that suffer from extra water.
 
-Use those patterns to adjust your checks, not to set a rigid schedule; see [how to water without a rigid schedule](/en/guides/watering-houseplants/). When a problem appears, your notes are exactly what our guides ask you to gather: [yellow houseplant leaves](/en/guides/yellow-houseplant-leaves/), [overwatered or underwatered?](/en/guides/overwatering-vs-underwatering/) and [common houseplant pests](/en/guides/houseplant-pests/).
+Use those patterns to adjust your checks, not to set a rigid schedule; see [how to water without a rigid schedule](/guides/watering-houseplants/). When a problem appears, your notes are exactly what our guides ask you to gather: [yellow houseplant leaves](/guides/yellow-houseplant-leaves/), [overwatered or underwatered?](/guides/overwatering-vs-underwatering/) and [common houseplant pests](/guides/houseplant-pests/).
 
 ## Paper or app?
 
 Paper is free, private, quick to start and pleasant to keep. Its weak points are sharing and searching: two people in different rooms cannot both see it, and finding "the last time I fed the fern" takes leafing through.
 
-An app helps most when several people care for the same plants. Lilora is built around this kind of record: each plant has a name, a room, a photo and notes, and every check and watering is saved as its own entry with who did it and when, with an optional note. A shared household sees the same history. Whichever you choose, the habit is what counts. For households, our [shared plant care guide](/en/guides/shared-plant-care/) has more.
+An app helps most when several people care for the same plants. Lilora is built around this kind of record: each plant has a name, a room, a photo and notes, and every check and watering is saved as its own entry with who did it and when, with an optional note. A shared household sees the same history. Whichever you choose, the habit is what counts. For households, our [shared plant care guide](/guides/shared-plant-care/) has more.
 
 ## Common questions
 

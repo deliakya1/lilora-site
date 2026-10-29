@@ -48,5 +48,17 @@
   },
   "fr": {
     "description": "Intégrer ses plantes au déménagement : ravageurs, arrosage, emballage, transport, règles aux frontières et nouvelle lumière."
+  },
+  "ja": {
+    "description": "植物も引っ越し計画に含めましょう。害虫の確認、水やり、梱包、運搬、国境の規則、新居の光に慣らす方法を紹介します。"
+  },
+  "ko": {
+    "description": "이사 계획에 식물도 포함하세요. 해충 확인, 물주기, 포장, 운송, 국경 규정과 새집의 빛에 적응시키는 방법을 안내합니다."
+  },
+  "it": {
+    "description": "Prepara le piante al trasloco: controlli, imballaggio, protezione dal caldo e dal freddo e ambientamento nella nuova casa, con attenzione alle frontiere."
+  },
+  "zh-Hant": {
+    "description": "帶植物搬家的完整準備：提前查蟲與跨境規則、澆水和包裝、避免運輸溫差，以及新家的光線適應與照護交接。"
   }
 }

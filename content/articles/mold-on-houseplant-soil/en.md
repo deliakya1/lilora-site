@@ -15,7 +15,7 @@ The two are easy to confuse:
 - **Mould** is soft and fuzzy or web-like, often appears in patches and wipes away. It usually shows up on mix that stays damp.
 - **Salt crust** is hard, white to grey and crystalline. It forms on the surface of the mix and around the rim of the pot as water evaporates and leaves dissolved salts behind. [Colorado State University Extension: leaching salts from potting mixes](https://planttalk.colostate.edu/topics/houseplants/1339-leaching-salts-potting-mixes/)
 
-If it is crust, the answer is flushing the mix with plenty of water, not drying it out. Our post on [brown leaf tips](/en/blog/brown-leaf-tips/) explains how.
+If it is crust, the answer is flushing the mix with plenty of water, not drying it out. Our post on [brown leaf tips](/blog/brown-leaf-tips/) explains how.
 
 ## What to do about mould
 
@@ -24,11 +24,11 @@ If it is crust, the answer is flushing the mix with plenty of water, not drying 
 3. Give the pot more light and air. The University of Florida suggests raking the surface so it dries, and moving indoor pots to a less humid or cooler spot. [UF/IFAS: mushrooms commonly encountered in potted plants](https://ask.ifas.ufl.edu/publication/PP377)
 4. Empty the saucer after watering and check that the drainage hole is not blocked.
 
-Our guide to [watering houseplants without a rigid schedule](/en/guides/watering-houseplants/) helps you decide when the mix actually needs water.
+Our guide to [watering houseplants without a rigid schedule](/guides/watering-houseplants/) helps you decide when the mix actually needs water.
 
 ## When it is more than cosmetic
 
-Mould itself rarely harms the plant, but the wet conditions behind it can. If the plant wilts while the mix is wet, leaves yellow from the bottom up or the stem feels soft at the base, check the roots; see [root rot in houseplants](/en/guides/root-rot/). A heavy mat of fungus can also make the surface repel water, so water runs down the sides of the pot instead of soaking in. [UF/IFAS: mushrooms commonly encountered in potted plants](https://ask.ifas.ufl.edu/publication/PP377) In that case, replace the top layer or repot into fresh mix; [potting mix and drainage](/en/guides/potting-mix-and-drainage/) covers the basics.
+Mould itself rarely harms the plant, but the wet conditions behind it can. If the plant wilts while the mix is wet, leaves yellow from the bottom up or the stem feels soft at the base, check the roots; see [root rot in houseplants](/guides/root-rot/). A heavy mat of fungus can also make the surface repel water, so water runs down the sides of the pot instead of soaking in. [UF/IFAS: mushrooms commonly encountered in potted plants](https://ask.ifas.ufl.edu/publication/PP377) In that case, replace the top layer or repot into fresh mix; [potting mix and drainage](/guides/potting-mix-and-drainage/) covers the basics.
 
 Bright yellow, slimy blobs are usually slime moulds. The Missouri Botanical Garden notes that they are not plant parasites and disappear on their own; at most they smother small plants. [Missouri Botanical Garden: slime molds](https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/insects-pests-and-problems/diseases/slime-molds)
 

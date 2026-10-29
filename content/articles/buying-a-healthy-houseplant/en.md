@@ -4,7 +4,7 @@ Most pests arrive in a home on a new plant, so a few minutes of checking in the 
 
 ## Before you go: know your spot
 
-Choose for the place, not just the plant. Note how much light the spot gets, whether it is near a radiator or a draughty door, and whether cats or dogs can reach it. Our [indoor plant light guide](/en/guides/indoor-plant-light-guide/) helps you judge the light, and [houseplants and pets](/en/guides/pet-safe-houseplants/) explains how to check a plant's botanical name before it comes home.
+Choose for the place, not just the plant. Note how much light the spot gets, whether it is near a radiator or a draughty door, and whether cats or dogs can reach it. Our [indoor plant light guide](/guides/indoor-plant-light-guide/) helps you judge the light, and [houseplants and pets](/guides/pet-safe-houseplants/) explains how to check a plant's botanical name before it comes home.
 
 ## The leaves and stems
 
@@ -16,7 +16,7 @@ Choose for the place, not just the plant. Note how much light the spot gets, whe
 
 ## Signs of pests
 
-Check the undersides of leaves and the growing tips closely. [University of Wisconsin–Madison Extension: houseplant care](https://hort.extension.wisc.edu/articles/houseplant-care/) The RHS singles out scale insects and mealybugs, which suck sap and are difficult to get rid of. [RHS: how to choose healthy plants](https://www.rhs.org.uk/plants/how-to-choose-healthy-plants) The University of Minnesota adds sticky honeydew on leaves or the shelf, fine webbing, and the rims, crevices and bottoms of pots as places to look; a small magnifier helps. [University of Minnesota Extension: insects on indoor plants](https://extension.umn.edu/product-and-houseplant-pests/insects-indoor-plants) Our guide to [common houseplant pests](/en/guides/houseplant-pests/) shows what each looks like.
+Check the undersides of leaves and the growing tips closely. [University of Wisconsin–Madison Extension: houseplant care](https://hort.extension.wisc.edu/articles/houseplant-care/) The RHS singles out scale insects and mealybugs, which suck sap and are difficult to get rid of. [RHS: how to choose healthy plants](https://www.rhs.org.uk/plants/how-to-choose-healthy-plants) The University of Minnesota adds sticky honeydew on leaves or the shelf, fine webbing, and the rims, crevices and bottoms of pots as places to look; a small magnifier helps. [University of Minnesota Extension: insects on indoor plants](https://extension.umn.edu/product-and-houseplant-pests/insects-indoor-plants) Our guide to [common houseplant pests](/guides/houseplant-pests/) shows what each looks like.
 
 ## The pot and roots
 
@@ -34,7 +34,7 @@ Flowers are not a sign of health in themselves, so do not choose on blooms alone
 
 1. **Keep it apart.** Isolate a new plant for one to two weeks so any pest problem has time to show. [University of Minnesota Extension: insects on indoor plants](https://extension.umn.edu/product-and-houseplant-pests/insects-indoor-plants) A different room is best.
 2. **Inspect again** at the end of that period, including the undersides of leaves and the saucer.
-3. **Do not repot straight away** unless roots are circling badly or the pot has no drainage hole. Let it adjust to your light and temperature first; see [when to repot a houseplant](/en/guides/when-to-repot-houseplants/).
+3. **Do not repot straight away** unless roots are circling badly or the pot has no drainage hole. Let it adjust to your light and temperature first; see [when to repot a houseplant](/guides/when-to-repot-houseplants/).
 4. **Check before watering.** Shop plants are often watered on a schedule; feel the mix and water only when it needs it.
 
 Dropping a few leaves after the move is common while a plant adjusts to lower light than a greenhouse. Watch the new growth rather than worrying about one or two old leaves.
@@ -51,4 +51,4 @@ You can, but protect it from cold on the way home and expect slower growth until
 
 ### What if pests show up during isolation?
 
-Keep it isolated, identify the pest, and treat it before it joins your other plants. The [pests guide](/en/guides/houseplant-pests/) starts with the least harmful options.
+Keep it isolated, identify the pest, and treat it before it joins your other plants. The [pests guide](/guides/houseplant-pests/) starts with the least harmful options.

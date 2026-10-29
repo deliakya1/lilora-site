@@ -26,7 +26,7 @@ Even an older estimate quoted by the University of Illinois, around 70 spider pl
 
 ## Good reasons to keep plants anyway
 
-None of this is a case against houseplants. Iowa State notes there are still many reasons to grow them: they beautify a home and let you garden even in the depth of winter. [Iowa State University Extension: do houseplants improve indoor air quality?](https://yardandgarden.extension.iastate.edu/faq/do-houseplants-actually-improve-indoor-air-quality) Choose plants for your light and your habits; our [indoor plant light guide](/en/guides/indoor-plant-light-guide/) and [how to choose a healthy houseplant](/en/blog/buying-a-healthy-houseplant/) are good places to start. If you have pets, check [houseplants and pets](/en/guides/pet-safe-houseplants/) too, since several plants on "air-purifying" lists are not safe for cats.
+None of this is a case against houseplants. Iowa State notes there are still many reasons to grow them: they beautify a home and let you garden even in the depth of winter. [Iowa State University Extension: do houseplants improve indoor air quality?](https://yardandgarden.extension.iastate.edu/faq/do-houseplants-actually-improve-indoor-air-quality) Choose plants for your light and your habits; our [indoor plant light guide](/guides/indoor-plant-light-guide/) and [how to choose a healthy houseplant](/blog/buying-a-healthy-houseplant/) are good places to start. If you have pets, check [houseplants and pets](/guides/pet-safe-houseplants/) too, since several plants on "air-purifying" lists are not safe for cats.
 
 ## Common questions
 
@@ -40,4 +40,4 @@ Lab studies rank species differently, but at home the effect of any of them is n
 
 ### Do plants raise humidity?
 
-A little, through the water they release, but a few plants change room humidity very little. See [humidity for houseplants](/en/guides/houseplant-humidity/).
+A little, through the water they release, but a few plants change room humidity very little. See [humidity for houseplants](/guides/houseplant-humidity/).

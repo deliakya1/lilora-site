@@ -54,5 +54,21 @@
   "fr": {
     "description": "Comment arroser une plante par le bas, quelles plantes en profitent, combien de temps laisser le pot dans l’eau et pourquoi arroser aussi par le haut.",
     "seoTitle": "Arroser les plantes par le bas : quand ça aide"
+  },
+  "ja": {
+    "description": "観葉植物に下から水を吸わせる手順、向いている植物、浸す時間と、ときどき上からも水を与える理由を紹介します。",
+    "seoTitle": "観葉植物の底面からの水やり：役立つ場面と手順"
+  },
+  "ko": {
+    "description": "실내식물에 저면관수하는 방법, 적합한 식물, 화분을 물에 담가 두는 시간, 가끔은 위에서 물을 줘야 하는 이유를 알아보세요.",
+    "seoTitle": "실내식물 저면관수: 도움이 되는 경우"
+  },
+  "it": {
+    "description": "Scopri quando annaffiare dal basso, come capire se il substrato è umido e perché alternare il metodo con lavaggi dall’alto contro i sali.",
+    "seoTitle": "Annaffiare dal basso: quando aiuta le piante"
+  },
+  "zh-Hant": {
+    "seoTitle": "室內植物底部澆水：適用時機與做法",
+    "description": "底部澆水的完整方法：何時適合、浸泡多久、如何瀝乾與避免鹽分累積，以及搭配上方沖洗的注意事項。"
   }
 }

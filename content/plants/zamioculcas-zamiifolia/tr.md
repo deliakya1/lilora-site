@@ -6,13 +6,13 @@ ZZ bitkisi, Doğu ve Güney Afrika kökenli, kuraklığa dayanıklı bir bitkidi
 
 En iyi parlak, dolaylı ışıkta büyür ve gölgeye dayanır; bu yüzden ofisler ve loş odalar için sık seçilir. Güçlü doğrudan güneşe koyma: NC State yaprakların haşlanıp kahverengileşebileceğini belirtiyor. Az ışıkta yavaş büyür ve pencereye doğru eğilebilir. [NC State Extension](https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/)
 
-Bir yeri değerlendirmek için [ışık rehberini](/guides/indoor-plant-light-guide/) kullan.
+Bir yeri değerlendirmek için [ışık rehberini](/tr/guides/indoor-plant-light-guide/) kullan.
 
 ## Sulamadan önce kontrol
 
 Yalnızca harç tamamen kuruduğunda sula. Saksının alt kısmına kadar kontrol et; ıslak kökler üstünde kuru bir yüzey en klasik hatadır. NC State kışın yaklaşık ayda bir, yazın yaklaşık ayda iki kez ama yalnızca toprak kuruyken sulamayı öneriyor; bunları takvim değil, kaba sınırlar olarak düşün. [NC State Extension](https://plants.ces.ncsu.edu/plants/zamioculcas-zamiifolia/)
 
-ZZ ıslak ayağa dayanamaz. İyice süzdür ve tabağı boşalt. Saksı ağırlığı kontrolü için [sulama rehberine](/guides/watering-houseplants/) bak.
+ZZ ıslak ayağa dayanamaz. İyice süzdür ve tabağı boşalt. Saksı ağırlığı kontrolü için [sulama rehberine](/tr/guides/watering-houseplants/) bak.
 
 ## Harç ve saksı
 
@@ -32,7 +32,7 @@ NC State yılda bir iki kez dengeli sıvı saksı bitkisi gübresi öneriyor. Fa
 - **Kahverengi, yanık lekeler:** fazla doğrudan güneş.
 - **Kabuklu bitler:** NC State dikkat edilmesi gereken başlıca zararlı olarak bunları sayıyor.
 
-Tek bir belirtiye göre davranmadan önce [sararan yaprak kontrollerini](/guides/yellow-houseplant-leaves/) oku.
+Tek bir belirtiye göre davranmadan önce [sararan yaprak kontrollerini](/tr/guides/yellow-houseplant-leaves/) oku.
 
 ## Çoğaltma
 

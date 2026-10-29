@@ -50,5 +50,21 @@
   "fr": {
     "description": "Avant d’adopter une plante, trouvez son nom botanique, consultez la liste de l’ASPCA et choisissez un endroit sûr. Ce que veut dire « non toxique ».",
     "seoTitle": "Plantes d’intérieur et animaux : que vérifier avant"
+  },
+  "ja": {
+    "description": "植物を迎える前に学名とASPCAのリストを確認し、ペットが届かない場所を決めましょう。「無毒」の意味も説明します。",
+    "seoTitle": "観葉植物とペット：購入前に確認すること"
+  },
+  "ko": {
+    "description": "식물을 들이기 전에 학명을 확인하고 ASPCA 목록을 살펴본 뒤 반려동물이 닿지 못할 자리를 정하세요. 무독성의 의미도 설명합니다.",
+    "seoTitle": "실내식물과 반려동물: 구매 전 확인할 것"
+  },
+  "it": {
+    "description": "Verifica il nome botanico e le informazioni ASPCA prima di portare una pianta in una casa con animali. Tossicità, limiti e controlli pratici.",
+    "seoTitle": "Piante e animali: cosa controllare prima di comprare"
+  },
+  "zh-Hant": {
+    "seoTitle": "室內植物與寵物：購買前的安全檢查",
+    "description": "帶植物回家前先核對學名與 ASPCA 貓狗清單，理解有毒、無毒和未列出的差異，並安排位置與誤食時的聯絡方式。"
   }
 }

@@ -57,5 +57,17 @@
   "fr": {
     "description": "Rempotez quand les racines ou le terreau le demandent, pas selon un calendrier. Comment vérifier, choisir la taille du pot et rempoter avec soin.",
     "seoTitle": "Quand et comment rempoter une plante d’intérieur"
+  },
+  "ja": {
+    "description": "根を調べ、適切な大きさの鉢を選び、元の植え付けの深さを保つ。一般的な葉もの観葉植物を丁寧に植え替えるためのガイドです。"
+  },
+  "ko": {
+    "description": "뿌리를 살피고 적절한 화분 크기를 고른 뒤 원래 심긴 깊이를 유지하세요. 일반적인 실내 관엽식물을 위한 신중한 분갈이 안내입니다."
+  },
+  "it": {
+    "description": "Rinvasa quando radici o substrato lo richiedono. Riconosci gli indizi, scegli un vaso poco più grande e conserva la corretta profondità di impianto."
+  },
+  "zh-Hant": {
+    "description": "依根系和介質判斷換盆時機，選稍大有孔花盆並保留原深度，了解準備、操作、換盆後澆水和施肥觀察。"
   }
 }

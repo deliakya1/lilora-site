@@ -49,5 +49,17 @@
   "fr": {
     "description": "La poussière prive les plantes de lumière. Essuyer les grandes feuilles, rincer les petites plantes, brosser les feuilles poilues et éviter les lustrants.",
     "seoTitle": "Nettoyer les feuilles des plantes d’intérieur"
+  },
+  "ja": {
+    "description": "ほこりは室内植物に必要な光を遮ります。大きな葉の拭き方、小さな株の洗い方、毛のある葉の掃除と、葉のつや出し剤を避ける理由を紹介します。"
+  },
+  "ko": {
+    "description": "먼지는 실내식물에 필요한 빛을 막습니다. 큰 잎 닦기, 작은 식물 씻기, 털이 있는 잎 털기와 잎 광택제를 피해야 하는 이유를 알아보세요."
+  },
+  "it": {
+    "description": "Pulisci foglie lisce, piccole o pelose con metodi delicati. Scopri perché rimuovere la polvere aiuta la luce e quando evitare i lucidanti."
+  },
+  "zh-Hant": {
+    "description": "室內植物葉片清潔指南：大葉用濕布、小葉沖洗、毛葉用軟刷；了解灰塵對光線的影響，以及為何不需要亮光劑。"
   }
 }
