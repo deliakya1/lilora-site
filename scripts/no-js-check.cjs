@@ -70,8 +70,9 @@ const mainLines=page=>page.locator('main').evaluate(main=>{for(const el of main.
     assert.ok((await glance.innerText()).split('\n').filter(Boolean).length>=6,label+' care summary rows');
    }
    if(hubs.includes(name))assert.ok(await page.locator(`main a[href^="${prefix(lang)}${templates[name]}"]:visible`).count()>=2,label+' hub items');
-   if(['home','download','guide','plant'].includes(name))assert.ok(await page.locator(`a[data-analytics-cta][href^="${prefix(lang)}"]:visible`).count()>=1,label+' app CTA');
-   assert.equal(await page.locator('a[href*="id6818604360"]').count(),0,label+' no store link before launch');
+   // Live: the App Store action works without JavaScript and always uses the canonical listing URL.
+   if(['home','download','guide','plant'].includes(name))assert.ok(await page.locator('a[data-analytics-cta][href="https://apps.apple.com/app/id6818604360"]:visible').count()>=1,label+' App Store CTA');
+   assert.deepEqual([...new Set(await page.locator('a[href*="id6818604360"]').evaluateAll(links=>links.map(a=>a.href)))],['https://apps.apple.com/app/id6818604360'],label+' canonical store link');
    checks++;
   }
   // Native disclosures still open the phone menu and the language list without JavaScript.

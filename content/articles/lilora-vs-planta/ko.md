@@ -4,7 +4,7 @@ Lilora는 가정의 식물 노트를 중심으로 식물, 사진, 관리 기록�
 
 ## 비교 범위
 
-2026년 10월 16일 기준으로 Lilora는 App Store 심사를 기다리고 있습니다. Planta에는 미국 App Store 공개 목록이 있습니다. 이 글은 문서에 명시된 기능을 비교하며 직접 사용한 성능 시험이 아닙니다. 비교 대상 중 하나인 Lilora가 발행했습니다. 기능과 혜택은 국가, 플랫폼, 요금제에 따라 달라질 수 있습니다. [App Store의 Planta](https://apps.apple.com/us/app/planta-plant-garden-care/id1410126781)
+Lilora는 2026년 10월 30일부터 App Store에서 제공되고 있습니다. Planta에는 미국 App Store 공개 목록이 있습니다. 이 글은 문서에 명시된 기능을 비교하며 직접 사용한 성능 시험이 아닙니다. 비교 대상 중 하나인 Lilora가 발행했습니다. 기능과 혜택은 국가, 플랫폼, 요금제에 따라 달라질 수 있습니다. [App Store의 Planta](https://apps.apple.com/us/app/planta-plant-garden-care/id1410126781)
 
 ## 어떤 일을 돕는 앱이 필요한지부터 생각하세요
 
@@ -32,7 +32,7 @@ Lilora의 가구 방식은 식물, 사진, 관리 이력을 구성원과 공유�
 
 ## 실제로 구매할 수 있는 상품을 비교하세요
 
-Lilora는 무료 수동 종 입력, 최초 사진 식별 3회, 10회 묶음, 매월 30회가 제공되는 Plus를 설명합니다. 지원 페이지는 현지 가격을 Apple에서 확인하도록 안내합니다. 출시 대기 중에는 비교할 수 있는 검증된 공개 결제 가격이 없습니다. [Lilora 구매 안내](https://lilora.app/ko/support/)
+Lilora는 무료 수동 종 입력, 최초 사진 식별 3회, 10회 묶음, 매월 30회가 제공되는 Plus를 설명합니다. 지원 페이지는 현지 가격을 Apple에서 확인하도록 안내합니다. 미국 App Store 목록에는 10회 묶음이 $1.99, Lilora Plus Monthly가 $2.99로 표시됩니다(2026년 10월 30일 확인). [Lilora 구매 안내](https://lilora.app/ko/support/)
 
 Planta의 미국 앱 목록에는 1개월 $7.99와 $9.99, 12개월 $35.99와 $47.99 항목이 있습니다. 이는 목록에 표시된 예시이며 누구나 해당 가격을 적용받는다는 약속이 아닙니다. 도움말 센터는 식별과 조도계를 프리미엄 기능에 포함합니다. [App Store 목록](https://apps.apple.com/us/app/planta-plant-garden-care/id1410126781) · [무료·프리미엄 이용 범위](https://support.getplanta.com/do-planta-offer-a-free-trial-of-premium/)
 
@@ -41,7 +41,7 @@ Planta의 미국 앱 목록에는 1개월 $7.99와 $9.99, 12개월 $35.99와 $47
 ## 어떤 방식을 후보로 삼을까요?
 
 - 지금 폭넓은 관리 도구를 평가하고 싶다면 Planta의 현재 앱 목록과 본인에게 제공되는 기능을 확인하세요.
-- 가정의 식물 노트, 먼저 확인하는 습관, 공유 기록이 필요에 맞는다면 심사 대기 중인 Lilora의 설명된 사용 흐름을 살펴보세요.
+- 가정의 식물 노트, 먼저 확인하는 습관, 공유 기록이 필요에 맞는다면 Lilora의 설명된 사용 흐름을 살펴보세요.
 - 유료 요금제를 비교하기 전에 필수 작업 세 가지를 적으세요. 거의 쓰지 않을 기능보다 그 작업에 더 큰 비중을 두세요.
 
 ## 자주 묻는 질문
@@ -56,4 +56,4 @@ Planta의 미국 앱 목록에는 1개월 $7.99와 $9.99, 12개월 $35.99와 $47
 
 ### 지금 Lilora를 다운로드할 수 있나요?
 
-이 글의 검토일 기준으로 Lilora는 App Store 심사를 기다리고 있습니다. 출시일을 약속하지 않습니다. [Lilora의 현재 제품 설명 보기](https://lilora.app/ko/support/).
+Lilora는 2026년 10월 30일부터 App Store에서 제공되고 있습니다. 앱은 현재 영어와 터키어로 제공됩니다. [Lilora의 현재 제품 설명 보기](https://lilora.app/ko/support/).

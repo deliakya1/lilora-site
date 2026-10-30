@@ -8,7 +8,7 @@
   "blog": "網誌",
   "app": "應用程式",
   "support": "支援",
-  "getApp": "認識應用程式",
+  "getApp": "下載應用程式",
   "about": "關於 Lilora",
   "press": "媒體資源",
   "learn": "學習",
@@ -32,7 +32,7 @@
   "copyFailed": "無法複製連結。網址：",
   "home": "首頁",
   "empty": "新文章將顯示在這裡。",
-  "status": "Lilora 正在接受 App Store 審核。",
+  "status": "Lilora 已在 App Store 推出，支援 iPhone 與 iPad。",
   "appLanguages": "應用程式目前提供英文和土耳其文。",
   "suggestion": "本頁亦有繁體中文版。",
   "dismiss": "關閉語言建議",
@@ -132,5 +132,9 @@
   "commentsLimited": "短時間內送出的留言過多，請一小時後再試。",
   "commentsError": "目前無法送出留言，請稍後再試。",
   "commentsSending": "正在傳送…",
-  "commentsPublished": "謝謝，你的留言已顯示在本頁。"
+  "commentsPublished": "謝謝，你的留言已顯示在本頁。",
+  "openAppStore": "在 App Store 開啟",
+  "appStoreBadgeAlt": "在 App Store 下載",
+  "trademark": "Apple、Apple 標誌、iPhone 和 iPad 是 Apple Inc. 在美國及其他國家和地區註冊的商標。App Store 是 Apple Inc. 的服務標章。",
+  "appStoreQrAlt": "在 App Store 開啟 Lilora 的 QR 碼"
 }

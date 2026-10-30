@@ -41,7 +41,7 @@ Ortak bir evde bu daha da önemlidir. Sıradaki kişi, birinin bu sabah zaten ba
 
 ## Bir hatırlatmanın yapamayacakları
 
-Hatırlatma bir uyarıdır, teşhis değildir. Oda sıcaklığını, pencereni ya da saksıyı değiştirdiğin günü bilmez. Lilora’da hatırlatmalar, zamanı geldiği gün yerel saatle 09.00’da gelir. İsteyenler için isteğe bağlı bir sulama hatırlatması da var; uygulama onun yanında açıkça şunu yazar: “İsteğe bağlı. Lilora, bitkinin suya ihtiyacı olup olmadığını bilemez; önce toprağı kontrol et.” Su verme kararı bitkiye bakan kişide kalır. Lilora şu anda App Store incelemesinde; burada anlatılanlar incelemeye gönderilen uygulamayı tarif ediyor.
+Hatırlatma bir uyarıdır, teşhis değildir. Oda sıcaklığını, pencereni ya da saksıyı değiştirdiğin günü bilmez. Lilora’da hatırlatmalar, zamanı geldiği gün yerel saatle 09.00’da gelir. İsteyenler için isteğe bağlı bir sulama hatırlatması da var; uygulama onun yanında açıkça şunu yazar: “İsteğe bağlı. Lilora, bitkinin suya ihtiyacı olup olmadığını bilemez; önce toprağı kontrol et.” Su verme kararı bitkiye bakan kişide kalır.
 
 ## Sık sorulan sorular
 

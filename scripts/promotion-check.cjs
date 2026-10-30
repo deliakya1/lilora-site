@@ -18,9 +18,9 @@ const credits = fs.readFileSync('assets/images/CREDITS.md', 'utf8');
 const output = '.test-results/promotion';
 fs.mkdirSync(output, { recursive: true });
 
-// Existing comparisons may cite competitors' public store pages. Lilora itself
-// must not advertise an unverified public listing during this prelaunch work.
-const forbidden = /apps\.apple\.com[^\s"'<>]*6818604360|Download_on_the_App_Store_Badge|download-on-the-app-store|apple-itunes-app/i;
+// Lilora is live: every Lilora store link uses the one canonical listing URL.
+const storeUrl = JSON.parse(fs.readFileSync('config/app-store.json', 'utf8')).url;
+const storeLinks = /https:\/\/apps\.apple\.com\/[^\s"'<>)]*6818604360[^\s"'<>)]*/g;
 const errors = [];
 const external = new Set();
 const generatedUsed = new Set();
@@ -30,7 +30,8 @@ function watch(page) {
   page.on('pageerror', (error) => errors.push(error.message));
   page.on('request', (request) => {
     const url = request.url();
-    if (/^https?:/.test(url) && new URL(url).origin !== siteOrigin) external.add(url);
+    // A QR scan of /download/ is sent on to the listing: intended navigation, not a page-load request.
+    if (/^https?:/.test(url) && new URL(url).origin !== siteOrigin && url !== storeUrl) external.add(url);
   });
 }
 
@@ -86,8 +87,10 @@ async function loadLazyImages(page, route) {
       await open(page, route);
       assert.equal(await page.locator('html').getAttribute('lang'), htmlLang(lang), route);
       assert.equal(await page.locator('h1').count(), 1, route);
-      assert.ok(await page.locator(`header.header a[data-analytics-cta][href="${prefix(lang)}download/"]`).count() >= 1, `${route}: local header download CTA`);
-      assert.ok(!forbidden.test(await page.content()), `${route}: prelaunch badge, store link or Smart App Banner`);
+      assert.ok(await page.locator(`header.header a[data-analytics-cta][href="${storeUrl}"]`).count() >= 1, `${route}: header App Store CTA`);
+      const html = await page.content();
+      assert.ok(html.includes('<meta name="apple-itunes-app" content="app-id=6818604360">'), `${route}: Smart App Banner`);
+      for (const [url] of html.matchAll(storeLinks)) assert.equal(url, storeUrl, `${route}: canonical App Store URL`);
       assert.equal(await page.locator('meta[name="twitter:card"]').getAttribute('content'), 'summary_large_image', route);
       const og = await page.locator('meta[property="og:image"]').getAttribute('content');
       assert.equal(new URL(og).origin, 'https://lilora.app', route);
@@ -116,7 +119,7 @@ async function loadLazyImages(page, route) {
           await allImages(page, route);
           const emptyContentAlts = await page.locator('main img').evaluateAll((images) => images.filter((image) => !image.getAttribute('alt')?.trim() && image.getAttribute('aria-hidden') !== 'true' && image.getAttribute('role') !== 'presentation').map((image) => image.getAttribute('src')));
           assert.deepEqual(emptyContentAlts, [], `${route}: content images need explicit localized alternatives`);
-          const appImages = await page.locator('main img').evaluateAll((images) => images.filter((image) => /\/app-|\/lilora-iphone-/.test(image.getAttribute('src') || '')).map((image) => image.getAttribute('src')));
+          const appImages = await page.locator('main img').evaluateAll((images) => images.filter((image) => /\/images\/home\/app-|\/lilora-iphone-/.test(image.getAttribute('src') || '')).map((image) => image.getAttribute('src')));
           assert.ok(appImages.length > 0, `${route}: genuine app artwork`);
           assert.ok(appImages.every((src) => src.includes(lang === 'tr' ? '-tr-' : '-en-')), `${route}: artwork language`);
           if (!['tr', 'en'].includes(lang)) {
@@ -142,7 +145,7 @@ async function loadLazyImages(page, route) {
             assert.equal(await qr.count(), 1, `${route}: QR block`);
             assert.equal(await qr.isVisible(), width >= 900, `${route}: QR visible only on wide screens`);
             if (width === 390) assert.ok(await page.locator('main a[data-analytics-cta]:visible').count() > 0, `${route}: visible mobile/action button`);
-            if (kind === 'download' && width === 390) assert.equal(await page.locator('.promo-mobile-cta').isVisible(), true, `${route}: phone download-status button`);
+            if (kind === 'download' && width === 390) assert.equal(await page.locator('.app-store-action a').isVisible(), true, `${route}: phone App Store action`);
           }
           await loadLazyImages(page, route);
           assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), `${route}: loaded-image overflow`);
@@ -187,7 +190,7 @@ async function loadLazyImages(page, route) {
     await open(failurePage, prefix('en'));
     assert.equal(await failurePage.locator('h1').innerText(), homeCopy.en.title);
     assert.equal(await failurePage.locator('a[data-analytics-cta="home-hero"]').isVisible(), true, 'Illustration failures must not hide the download CTA');
-    assert.equal(await failurePage.locator('a[data-analytics-cta="home-hero"]').getAttribute('href'), prefix('en') + 'download/');
+    assert.equal(await failurePage.locator('a[data-analytics-cta="home-hero"]').getAttribute('href'), storeUrl);
     await failureContext.close();
 
     assert.deepEqual(errors, [], 'Browser JavaScript errors');

@@ -8,7 +8,7 @@
   "blog": "Blog",
   "app": "L’app",
   "support": "Assistenza",
-  "getApp": "Scopri l’app",
+  "getApp": "Scarica l’app",
   "about": "Informazioni su Lilora",
   "press": "Stampa",
   "learn": "Impara",
@@ -32,7 +32,7 @@
   "copyFailed": "Impossibile copiare il link. Indirizzo:",
   "home": "Home",
   "empty": "I nuovi articoli appariranno qui.",
-  "status": "Lilora è in fase di revisione sull’App Store.",
+  "status": "Lilora è disponibile sull’App Store per iPhone e iPad.",
   "appLanguages": "L’app è attualmente disponibile in inglese e turco.",
   "suggestion": "Questa pagina è disponibile anche in italiano.",
   "dismiss": "Chiudi il suggerimento sulla lingua",
@@ -132,5 +132,9 @@
   "commentsLimited": "Sono stati inviati troppi commenti in poco tempo. Riprova tra un’ora.",
   "commentsError": "Al momento non è possibile inviare il commento. Riprova più tardi.",
   "commentsSending": "Invio in corso…",
-  "commentsPublished": "Grazie. Il tuo commento è ora visibile su questa pagina."
+  "commentsPublished": "Grazie. Il tuo commento è ora visibile su questa pagina.",
+  "openAppStore": "Apri nell’App Store",
+  "appStoreBadgeAlt": "Scarica su App Store",
+  "trademark": "Apple, il logo Apple, iPhone e iPad sono marchi di Apple Inc., registrati negli Stati Uniti e in altri paesi e aree geografiche. App Store è un marchio di servizi di Apple Inc.",
+  "appStoreQrAlt": "Codice QR che apre Lilora sull’App Store"
 }

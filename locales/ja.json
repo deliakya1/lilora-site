@@ -8,7 +8,7 @@
   "blog": "ブログ",
   "app": "アプリについて",
   "support": "サポート",
-  "getApp": "アプリをチェック",
+  "getApp": "アプリをダウンロード",
   "about": "Liloraについて",
   "press": "プレス向け情報",
   "learn": "知る・学ぶ",
@@ -32,7 +32,7 @@
   "copyFailed": "リンクをコピーできませんでした。アドレス：",
   "home": "ホーム",
   "empty": "新しい記事はここに掲載されます。",
-  "status": "Liloraは現在、App Storeで審査中です。",
+  "status": "LiloraはiPhone・iPad向けにApp Storeで配信中です。",
   "appLanguages": "アプリは現在、英語とトルコ語に対応しています。",
   "suggestion": "このページは日本語でも読めます。",
   "dismiss": "言語の提案を閉じる",
@@ -132,5 +132,9 @@
   "commentsLimited": "短時間に多くのコメントが送信されました。1時間後に再度お試しください。",
   "commentsError": "現在、コメントを送信できません。時間をおいて再度お試しください。",
   "commentsSending": "送信中…",
-  "commentsPublished": "ありがとうございます。コメントをこのページに掲載しました。"
+  "commentsPublished": "ありがとうございます。コメントをこのページに掲載しました。",
+  "openAppStore": "App Storeで開く",
+  "appStoreBadgeAlt": "App Storeからダウンロード",
+  "trademark": "Apple、Appleのロゴ、iPhone、iPadは、米国その他の国や地域で登録されたApple Inc.の商標です。App Storeは、Apple Inc.のサービスマークです。",
+  "appStoreQrAlt": "App StoreでLiloraを開くQRコード"
 }

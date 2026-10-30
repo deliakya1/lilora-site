@@ -14,7 +14,7 @@ const walk = (dir) => {
     const full = join(dir, name);
     if (statSync(full).isDirectory()) walk(full);
     // Redirect pages for moved URLs (content/redirects.json) are not indexable routes.
-    else if (name === "index.html" && !readFileSync(full, "utf8").includes('http-equiv="refresh"')) pages.push(full.replace(/^\.\//, ""));
+    else if (name === "index.html" && !readFileSync(full, "utf8").includes('http-equiv="refresh" content="0;')) pages.push(full.replace(/^\.\//, ""));
   }
 };
 walk(".");
@@ -83,7 +83,7 @@ test("canonical URLs are self-referencing, slash-terminated and free of index.ht
 });
 
 test("structured data stays within the allowed types and matches the page", () => {
-  const allowed = new Set(["Organization", "WebSite", "Article", "BlogPosting", "BreadcrumbList"]);
+  const allowed = new Set(["Organization", "WebSite", "Article", "BlogPosting", "BreadcrumbList", "MobileApplication"]);
   for (const f of pages) {
     const s = read(f);
     const blocks = [...s.matchAll(/<script type="application\/ld\+json">(.*?)<\/script>/gs)].map((m) => JSON.parse(m[1]));
@@ -91,6 +91,12 @@ test("structured data stays within the allowed types and matches the page", () =
     for (const b of blocks) {
       assert.ok(allowed.has(b["@type"]), `${f}: ${b["@type"]}`);
       assert.ok(!("potentialAction" in b), `${f}: SearchAction without site search`);
+      // The live listing: free with in-app purchases, never rating markup.
+      if (b["@type"] === "MobileApplication") {
+        assert.equal(b.url, "https://apps.apple.com/app/id6818604360", f);
+        assert.equal(b.offers.price, "0", f);
+        assert.ok(!("aggregateRating" in b) && !("review" in b), `${f}: rating markup`);
+      }
       if (b["@type"] === "BreadcrumbList") assert.equal(b.itemListElement.at(-1).item, "https://lilora.app" + pathOf(f), f);
       if (b["@type"] === "Article" || b["@type"] === "BlogPosting") {
         assert.equal(b.author["@type"], "Organization");

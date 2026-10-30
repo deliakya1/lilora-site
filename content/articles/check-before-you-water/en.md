@@ -41,7 +41,7 @@ In a shared household this matters even more. Whoever checks next can see that s
 
 ## What a reminder cannot do
 
-A reminder is a prompt, not a diagnosis. It does not know your room temperature, your window or the day you repotted. Reminders in Lilora arrive at 9:00 local time on the day they are due. There is also an optional watering reminder for people who want one, and the app says plainly next to it: "Lilora cannot tell whether a plant needs water; check the soil first." The decision about water stays with the person looking at the plant. Lilora is currently in App Store review, so this describes the app as submitted.
+A reminder is a prompt, not a diagnosis. It does not know your room temperature, your window or the day you repotted. Reminders in Lilora arrive at 9:00 local time on the day they are due. There is also an optional watering reminder for people who want one, and the app says plainly next to it: "Lilora cannot tell whether a plant needs water; check the soil first." The decision about water stays with the person looking at the plant.
 
 ## Common questions
 

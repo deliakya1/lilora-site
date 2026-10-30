@@ -359,7 +359,7 @@
       "path": "/de/download/",
       "lang": "de",
       "title": "Ein gemeinsames Notizbuch für deine Pflanzen",
-      "description": "Lilora für iPhone und iPad: Pflanzen und Pflege kostenlos von Hand erfassen, gemeinsam betreuen und auf Wunsch per Foto bestimmen. Die App wird geprüft.",
+      "description": "Lilora für iPhone und iPad ist im App Store: Pflanzen und Pflege kostenlos von Hand erfassen, gemeinsam betreuen und auf Wunsch per Foto bestimmen.",
       "image": "/assets/brand/share/de-download.png"
     },
     {
@@ -583,7 +583,7 @@
       "path": "/de/press/",
       "lang": "de",
       "title": "Lilora für die Presse",
-      "description": "Beschreibungen, Produktdaten, echte App-Bilder und Druckvorlagen für Lilora. Die App befindet sich in Prüfung für den App Store.",
+      "description": "Beschreibungen, Produktdaten, echte App-Bilder und Druckvorlagen für Lilora. Die App ist jetzt im App Store für iPhone und iPad erhältlich.",
       "image": "/assets/brand/share/de-press.png"
     },
     {
@@ -604,7 +604,7 @@
       "path": "/download/",
       "lang": "en",
       "title": "A shared notebook for your plants",
-      "description": "Meet Lilora for iPhone and iPad: free manual plant records and shared care, with optional photo identification. App Store review is in progress.",
+      "description": "Lilora for iPhone and iPad is on the App Store: free manual plant records and shared care, with optional photo identification.",
       "image": "/assets/brand/share/en-download.png"
     },
     {
@@ -765,7 +765,7 @@
       "path": "/es/download/",
       "lang": "es",
       "title": "Un cuaderno compartido para tus plantas",
-      "description": "Conoce Lilora para iPhone y iPad: registro manual gratuito y cuidados compartidos, con identificación opcional por foto. En revisión para el App Store.",
+      "description": "Lilora para iPhone y iPad ya está en el App Store: registro manual gratuito y cuidados compartidos, con identificación opcional por foto.",
       "image": "/assets/brand/share/es-download.png"
     },
     {
@@ -989,7 +989,7 @@
       "path": "/es/press/",
       "lang": "es",
       "title": "Recursos de prensa de Lilora",
-      "description": "Descripciones, datos del producto, imágenes reales de la app y materiales imprimibles de Lilora. En revisión para el App Store.",
+      "description": "Descripciones, datos del producto, imágenes reales de la app y materiales imprimibles de Lilora. Ya disponible en el App Store para iPhone y iPad.",
       "image": "/assets/brand/share/es-press.png"
     },
     {
@@ -1157,7 +1157,7 @@
       "path": "/fr/download/",
       "lang": "fr",
       "title": "Un carnet partagé pour vos plantes",
-      "description": "Découvrez Lilora pour iPhone et iPad : suivi manuel gratuit et soins partagés, avec identification photo facultative. En cours d’examen pour l’App Store.",
+      "description": "Lilora pour iPhone et iPad est sur l’App Store : suivi manuel gratuit et soins partagés, avec identification photo facultative.",
       "image": "/assets/brand/share/fr-download.png"
     },
     {
@@ -1381,7 +1381,7 @@
       "path": "/fr/press/",
       "lang": "fr",
       "title": "Lilora : ressources presse",
-      "description": "Descriptions, fiche produit, véritables visuels de l’app et supports Lilora à imprimer. En cours d’examen pour l’App Store.",
+      "description": "Descriptions, fiche produit, véritables visuels de l’app et supports Lilora à imprimer. Disponible sur l’App Store pour iPhone et iPad.",
       "image": "/assets/brand/share/fr-press.png"
     },
     {
@@ -1654,7 +1654,7 @@
       "path": "/it/download/",
       "lang": "it",
       "title": "Un diario condiviso per le tue piante",
-      "description": "Scopri Lilora per iPhone e iPad: diario gratuito e cura condivisa, con riconoscimento fotografico facoltativo. Revisione App Store in corso.",
+      "description": "Lilora per iPhone e iPad è sull’App Store: diario gratuito e cura condivisa, con riconoscimento fotografico facoltativo.",
       "image": "/assets/brand/share/it-download.png"
     },
     {
@@ -1878,7 +1878,7 @@
       "path": "/it/press/",
       "lang": "it",
       "title": "Risorse stampa di Lilora",
-      "description": "Descrizioni, informazioni, immagini reali dell’app e materiali stampabili di Lilora per la stampa. Revisione sull’App Store ancora in corso.",
+      "description": "Descrizioni, informazioni, immagini reali dell’app e materiali stampabili di Lilora per la stampa. Disponibile sull’App Store per iPhone e iPad.",
       "image": "/assets/brand/share/it-press.png"
     },
     {
@@ -2046,7 +2046,7 @@
       "path": "/ja/download/",
       "lang": "ja",
       "title": "みんなで使える、植物のノート",
-      "description": "無料の植物の手入力とお世話の共有、任意の写真識別を備えたiPhone・iPad向けLiloraをご紹介します。現在App Storeで審査中です。",
+      "description": "iPhone・iPad向けLiloraはApp Storeで配信中です。植物の手入力とお世話の共有は無料、写真識別は任意です。",
       "image": "/assets/brand/share/ja-download.png"
     },
     {
@@ -2270,7 +2270,7 @@
       "path": "/ja/press/",
       "lang": "ja",
       "title": "Liloraの報道向け資料",
-      "description": "Liloraの紹介文、製品情報、実際のアプリ画像、印刷して共有できるカードを掲載しています。アプリは現在App Storeで審査中です。",
+      "description": "Liloraの紹介文、製品情報、実際のアプリ画像、印刷して共有できるカードを掲載しています。アプリはApp Storeで配信中です。",
       "image": "/assets/brand/share/ja-press.png"
     },
     {
@@ -2438,7 +2438,7 @@
       "path": "/ko/download/",
       "lang": "ko",
       "title": "함께 쓰는 식물 노트",
-      "description": "iPhone 및 iPad용 Lilora를 알아보세요. 직접 기록하는 식물 관리와 공동 관리는 무료이며 사진 식별은 선택 사항입니다. App Store 심사 중입니다.",
+      "description": "iPhone 및 iPad용 Lilora가 App Store에 출시되었습니다. 직접 기록하는 식물 관리와 공동 관리는 무료이며 사진 식별은 선택 사항입니다.",
       "image": "/assets/brand/share/ko-download.png"
     },
     {
@@ -2662,7 +2662,7 @@
       "path": "/ko/press/",
       "lang": "ko",
       "title": "Lilora 보도 자료",
-      "description": "보도와 공유에 사용할 소개 문구, 제품 정보, 실제 앱 이미지, 인쇄용 Lilora 카드를 제공합니다. Lilora는 App Store 심사 중입니다.",
+      "description": "보도와 공유에 사용할 소개 문구, 제품 정보, 실제 앱 이미지, 인쇄용 Lilora 카드를 제공합니다. Lilora는 App Store에서 제공됩니다.",
       "image": "/assets/brand/share/ko-press.png"
     },
     {
@@ -2788,7 +2788,7 @@
       "path": "/press/",
       "lang": "en",
       "title": "Lilora press resources",
-      "description": "Descriptions, product facts, real app artwork and printable Lilora cards for press and sharing. Lilora is in App Store review.",
+      "description": "Descriptions, product facts, real app artwork and printable Lilora cards for press and sharing. Lilora is available on the App Store for iPhone and iPad.",
       "image": "/assets/brand/share/en-press.png"
     },
     {
@@ -2949,7 +2949,7 @@
       "path": "/pt/download/",
       "lang": "pt",
       "title": "Um caderno compartilhado para suas plantas",
-      "description": "Conheça o Lilora para iPhone e iPad: registros manuais gratuitos, cuidados compartilhados e identificação opcional por foto. Em análise na App Store.",
+      "description": "O Lilora para iPhone e iPad está na App Store: registros manuais gratuitos, cuidados compartilhados e identificação opcional por foto.",
       "image": "/assets/brand/share/pt-download.png"
     },
     {
@@ -3173,7 +3173,7 @@
       "path": "/pt/press/",
       "lang": "pt",
       "title": "Lilora para a imprensa",
-      "description": "Descrições, informações do produto, imagens reais do app e materiais do Lilora para impressão. Em análise para a App Store.",
+      "description": "Descrições, informações do produto, imagens reais do app e materiais do Lilora para impressão. Já disponível na App Store para iPhone e iPad.",
       "image": "/assets/brand/share/pt-press.png"
     },
     {
@@ -3348,7 +3348,7 @@
       "path": "/tr/download/",
       "lang": "tr",
       "title": "Bitkilerin için ortak bir bakım defteri",
-      "description": "iPhone ve iPad için Lilora’yı tanı: ücretsiz elle bitki kaydı ve ortak bakım, isteğe bağlı fotoğrafla bitki tanıma. App Store incelemesi sürüyor.",
+      "description": "iPhone ve iPad için Lilora App Store’da: ücretsiz elle bitki kaydı ve ortak bakım, isteğe bağlı fotoğrafla bitki tanıma.",
       "image": "/assets/brand/share/tr-download.png"
     },
     {
@@ -3572,7 +3572,7 @@
       "path": "/tr/press/",
       "lang": "tr",
       "title": "Lilora basın kaynakları",
-      "description": "Basın ve paylaşım için Lilora açıklamaları, ürün bilgileri, gerçek uygulama görselleri ve yazdırılabilir kartlar. Lilora, App Store incelemesinde.",
+      "description": "Basın ve paylaşım için Lilora açıklamaları, ürün bilgileri, gerçek uygulama görselleri ve yazdırılabilir kartlar. Lilora, App Store’da.",
       "image": "/assets/brand/share/tr-press.png"
     },
     {
@@ -3726,7 +3726,7 @@
       "path": "/zh-hant/compare/lilora-vs-planta/",
       "lang": "zh-Hant",
       "title": "Lilora 與 Planta：選擇植物照護流程",
-      "description": "依官方資料比較 Lilora 與 Planta 的提醒、共同照護、植物辨識與價格，說明功能差異、付費方案及審核狀態。",
+      "description": "依官方資料比較 Lilora 與 Planta 的提醒、共同照護、植物辨識與價格，說明功能差異、付費方案及上架狀態。",
       "image": "/assets/brand/share/zh-Hant-compare--lilora-vs-planta.png"
     },
     {
@@ -3740,7 +3740,7 @@
       "path": "/zh-hant/download/",
       "lang": "zh-Hant",
       "title": "一起記錄植物的生活與照護",
-      "description": "認識 iPhone 與 iPad 版 Lilora：免費手動植物記錄與共同照護，以及選用的照片辨識功能。目前正在接受 App Store 審核。",
+      "description": "iPhone 與 iPad 版 Lilora 已在 App Store 推出：免費手動植物記錄與共同照護，以及選用的照片辨識功能。",
       "image": "/assets/brand/share/zh-Hant-download.png"
     },
     {
@@ -3964,7 +3964,7 @@
       "path": "/zh-hant/press/",
       "lang": "zh-Hant",
       "title": "Lilora 媒體資源",
-      "description": "提供 Lilora 簡介、產品資訊、真實應用程式圖片與可列印卡片，供報導和分享使用。Lilora 目前正在接受 App Store 審核。",
+      "description": "提供 Lilora 簡介、產品資訊、真實應用程式圖片與可列印卡片，供報導和分享使用。Lilora 已在 App Store 推出。",
       "image": "/assets/brand/share/zh-Hant-press.png"
     },
     {

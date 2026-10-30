@@ -41,7 +41,7 @@ En una casa compartida esto importa aún más. Quien compruebe después ve que a
 
 ## Lo que un recordatorio no puede hacer
 
-Un recordatorio es un aviso, no un diagnóstico. No conoce la temperatura de tu casa, tu ventana ni el día que trasplantaste. En Lilora, los recordatorios llegan a las 9:00 hora local el día que tocan. Para quien lo quiera hay además un recordatorio de riego opcional, y la app explica junto a él que Lilora no puede saber si una planta necesita agua y que conviene comprobar primero el sustrato. La decisión sobre el agua es de quien mira la planta. Lilora está pendiente de revisión en el App Store; este texto describe la app tal como se ha enviado.
+Un recordatorio es un aviso, no un diagnóstico. No conoce la temperatura de tu casa, tu ventana ni el día que trasplantaste. En Lilora, los recordatorios llegan a las 9:00 hora local el día que tocan. Para quien lo quiera hay además un recordatorio de riego opcional, y la app explica junto a él que Lilora no puede saber si una planta necesita agua y que conviene comprobar primero el sustrato. La decisión sobre el agua es de quien mira la planta.
 
 ## Preguntas frecuentes
 

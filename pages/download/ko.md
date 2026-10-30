@@ -6,17 +6,15 @@
 </header>
 <section class="promo-split wrap" aria-labelledby="download-status">
   <div class="promo-panel">
-    <p class="eyebrow">App Store 심사 중</p>
-    <h2 id="download-status">App Store 심사 중</h2>
-    <p class="intro">Lilora는 App Store 심사 중입니다. 출시되면 이 페이지에서 App Store로 바로 이동할 수 있습니다.</p>
-    <p>아직 일반 다운로드는 제공되지 않습니다. 이 링크를 저장하거나 QR 코드를 스캔하여 iPhone 또는 iPad에서 같은 페이지를 열 수 있습니다.</p>
-    <section id="launch-signup" class="launch-signup" aria-labelledby="launch-signup-title"><h3 id="launch-signup-title">Lilora 출시 소식을 받아보세요.</h3><p>이메일 주소를 남기면 다운로드 링크를 보내 드립니다.</p><form class="contact-form launch-form" method="post" action="https://mpswscvxcoixnlltahqn.supabase.co/functions/v1/website-launch-signup" data-sent="완료했습니다. Lilora가 출시되면 이 주소로 다운로드 링크를 보내 드립니다. 이미 등록된 주소는 중복 추가하지 않았습니다." data-invalid="유효한 이메일 주소를 입력하고 동의 항목을 체크해 주세요." data-limited="짧은 시간에 신청이 너무 많이 이루어졌습니다. 한 시간 뒤에 다시 시도해 주세요." data-error="지금은 신청을 저장할 수 없습니다. 잠시 뒤 다시 시도해 주세요." data-sending="보내는 중…"><input type="hidden" name="language" value="ko"><input type="hidden" name="page" value="/ko/download/"><input type="hidden" name="started" value=""><div class="contact-trap" aria-hidden="true"><label>웹사이트 <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div><div class="contact-field"><label for="launch-email">이메일 주소</label><input id="launch-email" name="email" type="email" autocomplete="email" maxlength="254" required></div><div class="contact-consent"><input id="launch-consent" name="consent" type="checkbox" value="yes" required><label for="launch-consent">Lilora가 출시되면 다운로드 링크가 담긴 이메일 한 통을 받는 데 동의합니다. 뉴스레터는 보내지 않습니다. 자세한 내용은 <a href="/ko/privacy/#launch-notice">개인정보 처리방침</a>을 참고하세요.</label></div><p class="contact-status" role="status" aria-live="polite" hidden></p><button class="button" type="submit">출시 이메일 받기</button></form></section>
+    <p class="eyebrow">App Store에서 제공 중</p>
+    <h2 id="download-status">Lilora를 App Store에서 만나 보세요</h2>
+    <p class="intro">Lilora는 iPhone 및 iPad에서 사용할 수 있습니다. 아래를 탭하면 App Store에서 열립니다.</p>
+    {{APP_STORE_BADGE:download}}
+    <p>식물과 관리 기록을 직접 입력하는 기능은 무료입니다. 선택 사항인 사진 식별의 가격은 App Store에서 현지 통화로 표시됩니다.</p>
     <div class="promo-qr">
-      <img src="/assets/brand/qr/ko-download.svg" width="256" height="256" alt="Lilora 한국어 다운로드 페이지를 여는 QR 코드">
-      <h3>휴대전화에 이 페이지를 저장하세요</h3><p>iPhone 또는 iPad로 스캔하세요. Lilora가 출시되어도 링크는 그대로 유지됩니다.</p>
-
+      {{APP_STORE_QR}}
+      <h3>iPhone 또는 iPad에서 열기</h3><p>iPhone 또는 iPad 카메라로 스캔하면 App Store에서 Lilora가 열립니다.</p>
     </div>
-    <div class="promo-mobile-cta"><a class="button" href="/ko/download/#download-status" data-analytics-cta="download-status">다운로드 현황 보기</a></div>
   </div>
   <figure class="promo-atmosphere"><img src="/assets/images/home/download-window-v1-640.webp" srcset="/assets/images/home/download-window-v1-320.webp 320w, /assets/images/home/download-window-v1-640.webp 640w, /assets/images/home/download-window-v1-960.webp 960w" sizes="(max-width: 700px) 100vw, 40vw" width="640" height="960" alt="햇빛이 드는 창가의 고무나무와 늘어진 스킨답서스 일러스트" decoding="async"><figcaption>Lilora를 위해 생성한 설명용 식물 장면입니다.</figcaption></figure>
 </section>
@@ -32,7 +30,7 @@
   <p>가격은 App Store에서 현지 통화로 표시합니다. 식별 횟수를 구매하지 않아도 관리 기록을 계속 남길 수 있습니다.</p>
 </section>
 <section class="promo-band wrap" aria-labelledby="download-guides">
-  <div><h2 id="download-guides">기다리는 동안 읽어 보세요</h2><p>물을 주기 전에 무엇을 살펴볼지, 실내 빛을 어떻게 판단할지, 유용한 관리 기록을 어떻게 남길지 알아보세요.</p></div>
+  <div><h2 id="download-guides">시작하기 전에 읽어 보세요</h2><p>물을 주기 전에 무엇을 살펴볼지, 실내 빛을 어떻게 판단할지, 유용한 관리 기록을 어떻게 남길지 알아보세요.</p></div>
   <div class="promo-actions"><a class="button outline" href="/ko/guides/">관리 안내 읽기</a><a class="text-link" href="/ko/support/">Lilora 관련 질문</a><a class="text-link" href="/ko/about/">Lilora 소개</a></div>
 </section>
 </div>

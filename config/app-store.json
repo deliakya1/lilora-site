@@ -1,0 +1,13 @@
+{
+  "status": "live",
+  "liveSince": "2026-10-30",
+  "appId": "6818604360",
+  "url": "https://apps.apple.com/app/id6818604360",
+  "names": {
+    "default": "Lilora: Plant Identifier",
+    "tr": "Lilora: Bitki Tanıma ve Bakım"
+  },
+  "category": "LifestyleApplication",
+  "badgeDir": "assets/brand/app-store-badge",
+  "qr": "assets/brand/app-store/qr/lilora-app-store-qr-white-icon.jpg"
+}

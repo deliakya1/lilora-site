@@ -551,3 +551,11 @@ html:lang(ja),html:lang(zh-Hant){line-break:strict}
 /* A writing system has no single national flag. */
 .flag-zh-Hant::before{content:"文";font-size:16px;color:var(--color-text-primary)}
 .footer-language>nav{max-height:min(70vh,30rem);overflow-y:auto}
+
+/* Apple's App Store badge: original artwork, 40 px high, clear space of one quarter of its height. */
+.app-store-action { margin: 1rem 0 1rem -10px; }
+.app-store-badge { display: inline-block; padding: 10px; line-height: 0; }
+.app-store-badge img { display: block; height: 40px; width: auto; }
+.footer-bottom .trademark { font-size: 0.75rem; max-width: 60ch; }
+.app-note-qr { display: none; }
+@media (min-width: 900px) { .app-note-qr { display: block; width: 120px; height: 120px; margin-top: 1rem; } }

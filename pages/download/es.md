@@ -2,21 +2,19 @@
 <header class="promo-header wrap">
   <p class="eyebrow">Consigue Lilora</p>
   <h1>Un cuaderno compartido para tus plantas</h1>
-  <p class="dek">Para iPhone y iPad · La app está en inglés y turco.</p>
+  <p class="dek" data-app-language-disclosure>Para iPhone y iPad · La app está en inglés y turco.</p>
 </header>
 <section class="promo-split wrap" aria-labelledby="download-status">
   <div class="promo-panel">
-    <p class="eyebrow">En revisión para el App Store</p>
-    <h2 id="download-status">En revisión para el App Store</h2>
-    <p class="intro">Lilora está en revisión para el App Store. Cuando se publique, esta página te llevará directamente al App Store.</p>
-    <p>Todavía no hay una descarga pública disponible. Guarda este enlace o escanea el código QR para abrir la misma página en tu iPhone o iPad.</p>
-    <section id="launch-signup" class="launch-signup" aria-labelledby="launch-signup-title"><h3 id="launch-signup-title">Entérate cuando Lilora esté disponible.</h3><p>Deja tu correo y te enviaremos el enlace de descarga.</p><form class="contact-form launch-form" method="post" action="https://mpswscvxcoixnlltahqn.supabase.co/functions/v1/website-launch-signup" data-sent="Listo. Enviaremos el enlace de descarga a esta dirección cuando Lilora se publique. Si la dirección ya estaba en la lista, no la hemos añadido dos veces." data-invalid="Escribe un correo válido y marca la casilla de consentimiento." data-limited="Se han hecho demasiados registros en poco tiempo. Vuelve a intentarlo en una hora." data-error="No hemos podido guardar tu registro. Vuelve a intentarlo en un momento." data-sending="Enviando…"><input type="hidden" name="language" value="es"><input type="hidden" name="page" value="/es/download/"><input type="hidden" name="started" value=""><div class="contact-trap" aria-hidden="true"><label>Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div><div class="contact-field"><label for="launch-email">Tu correo electrónico</label><input id="launch-email" name="email" type="email" autocomplete="email" maxlength="254" required></div><div class="contact-consent"><input id="launch-consent" name="consent" type="checkbox" value="yes" required><label for="launch-consent">Acepto recibir un único correo con el enlace de descarga cuando Lilora se publique. Sin boletín; más detalles en la <a href="/es/privacy/#launch-notice">política de privacidad</a>.</label></div><p class="contact-status" role="status" aria-live="polite" hidden></p><button class="button" type="submit">Avisarme del lanzamiento</button></form></section>
+    <p class="eyebrow">En el App Store</p>
+    <h2 id="download-status">Lilora ya está en el App Store</h2>
+    <p class="intro">Lilora está disponible para iPhone y iPad. Toca abajo para abrirla en el App Store.</p>
+    {{APP_STORE_BADGE:download}}
+    <p>El registro manual de plantas y cuidados es gratuito. El App Store muestra en tu moneda el precio de las identificaciones opcionales.</p>
     <div class="promo-qr">
-      <img src="/assets/brand/qr/es-download.svg" width="256" height="256" alt="Código QR que abre la página de descarga de Lilora en español">
-      <h3>Guarda esta página en tu teléfono</h3><p>Escanea con tu iPhone o iPad. El enlace seguirá siendo el mismo cuando se publique Lilora.</p>
-      <small class="app-language-note">La app está en inglés y turco.</small>
+      {{APP_STORE_QR}}
+      <h3>Ábrelo en tu iPhone o iPad</h3><p>Escanea con la cámara de tu iPhone o iPad para abrir Lilora en el App Store.</p>
     </div>
-    <div class="promo-mobile-cta"><a class="button" href="/es/download/#download-status" data-analytics-cta="download-status">Ver el estado de la descarga</a><small class="app-language-note">La app está en inglés y turco.</small></div>
   </div>
   <figure class="promo-atmosphere"><img src="/assets/images/home/download-window-v1-640.webp" srcset="/assets/images/home/download-window-v1-320.webp 320w, /assets/images/home/download-window-v1-640.webp 640w, /assets/images/home/download-window-v1-960.webp 960w" sizes="(max-width: 700px) 100vw, 40vw" width="640" height="960" alt="Ilustración de un ficus elástico y un poto colgante junto a una ventana soleada" decoding="async"><figcaption>Escena ilustrativa de plantas generada para Lilora.</figcaption></figure>
 </section>
@@ -32,7 +30,7 @@
   <p>El App Store muestra los precios en tu moneda. Puedes seguir registrando cuidados sin comprar identificaciones.</p>
 </section>
 <section class="promo-band wrap" aria-labelledby="download-guides">
-  <div><h2 id="download-guides">Algo para leer mientras esperas</h2><p>Aprende qué observar antes de regar, cómo valorar la luz dentro de casa y qué anotar para que un registro de cuidados sea útil.</p></div>
+  <div><h2 id="download-guides">Algo para leer antes de empezar</h2><p>Aprende qué observar antes de regar, cómo valorar la luz dentro de casa y qué anotar para que un registro de cuidados sea útil.</p></div>
   <div class="promo-actions"><a class="button outline" href="/es/guides/">Leer las guías</a><a class="text-link" href="/es/support/">Preguntas sobre Lilora</a><a class="text-link" href="/es/about/">Sobre Lilora</a></div>
 </section>
 </div>

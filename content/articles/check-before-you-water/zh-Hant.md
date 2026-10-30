@@ -41,7 +41,7 @@ University of Maryland Extension 同時介紹觸摸與重量測試；植物使�
 
 ## 提醒做不到什麼
 
-提醒是提示，不是診斷。它不知道室溫、窗戶或哪天換了盆。Lilora 的提醒在到期日當地時間上午 9:00 出現。需要的人也可開啟選用的澆水提醒；旁邊明確寫著 <span lang="en">“Lilora cannot tell whether a plant needs water; check the soil first.”</span>（Lilora 無法判斷植物是否需要水，請先檢查土壤）。是否澆水由觀察植物的人決定。Lilora 目前正在 App Store 審核中，因此這裡描述的是送審版本。
+提醒是提示，不是診斷。它不知道室溫、窗戶或哪天換了盆。Lilora 的提醒在到期日當地時間上午 9:00 出現。需要的人也可開啟選用的澆水提醒；旁邊明確寫著 <span lang="en">“Lilora cannot tell whether a plant needs water; check the soil first.”</span>（Lilora 無法判斷植物是否需要水，請先檢查土壤）。是否澆水由觀察植物的人決定。
 
 ## 常見問答
 

@@ -9,7 +9,7 @@
     ],
     "qrMillimetres": 30,
     "qrUrl": "https://lilora.app/download/?utm_source=qr&utm_medium=a6&utm_campaign=prelaunch",
-    "status": "prelaunch"
+    "status": "live"
   },
   {
     "lang": "en",
@@ -21,7 +21,7 @@
     ],
     "qrMillimetres": 48,
     "qrUrl": "https://lilora.app/download/?utm_source=qr&utm_medium=a4&utm_campaign=prelaunch",
-    "status": "prelaunch"
+    "status": "live"
   },
   {
     "lang": "tr",
@@ -33,7 +33,7 @@
     ],
     "qrMillimetres": 30,
     "qrUrl": "https://lilora.app/tr/download/?utm_source=qr&utm_medium=a6&utm_campaign=prelaunch",
-    "status": "prelaunch"
+    "status": "live"
   },
   {
     "lang": "tr",
@@ -45,7 +45,7 @@
     ],
     "qrMillimetres": 48,
     "qrUrl": "https://lilora.app/tr/download/?utm_source=qr&utm_medium=a4&utm_campaign=prelaunch",
-    "status": "prelaunch"
+    "status": "live"
   },
   {
     "lang": "es",
@@ -57,7 +57,7 @@
     ],
     "qrMillimetres": 30,
     "qrUrl": "https://lilora.app/es/download/?utm_source=qr&utm_medium=a6&utm_campaign=prelaunch",
-    "status": "prelaunch"
+    "status": "live"
   },
   {
     "lang": "es",
@@ -69,7 +69,7 @@
     ],
     "qrMillimetres": 48,
     "qrUrl": "https://lilora.app/es/download/?utm_source=qr&utm_medium=a4&utm_campaign=prelaunch",
-    "status": "prelaunch"
+    "status": "live"
   },
   {
     "lang": "de",
@@ -81,7 +81,7 @@
     ],
     "qrMillimetres": 30,
     "qrUrl": "https://lilora.app/de/download/?utm_source=qr&utm_medium=a6&utm_campaign=prelaunch",
-    "status": "prelaunch"
+    "status": "live"
   },
   {
     "lang": "de",
@@ -93,7 +93,7 @@
     ],
     "qrMillimetres": 48,
     "qrUrl": "https://lilora.app/de/download/?utm_source=qr&utm_medium=a4&utm_campaign=prelaunch",
-    "status": "prelaunch"
+    "status": "live"
   },
   {
     "lang": "pt",
@@ -105,7 +105,7 @@
     ],
     "qrMillimetres": 30,
     "qrUrl": "https://lilora.app/pt/download/?utm_source=qr&utm_medium=a6&utm_campaign=prelaunch",
-    "status": "prelaunch"
+    "status": "live"
   },
   {
     "lang": "pt",
@@ -117,7 +117,7 @@
     ],
     "qrMillimetres": 48,
     "qrUrl": "https://lilora.app/pt/download/?utm_source=qr&utm_medium=a4&utm_campaign=prelaunch",
-    "status": "prelaunch"
+    "status": "live"
   },
   {
     "lang": "fr",
@@ -129,7 +129,7 @@
     ],
     "qrMillimetres": 30,
     "qrUrl": "https://lilora.app/fr/download/?utm_source=qr&utm_medium=a6&utm_campaign=prelaunch",
-    "status": "prelaunch"
+    "status": "live"
   },
   {
     "lang": "fr",
@@ -141,7 +141,7 @@
     ],
     "qrMillimetres": 48,
     "qrUrl": "https://lilora.app/fr/download/?utm_source=qr&utm_medium=a4&utm_campaign=prelaunch",
-    "status": "prelaunch"
+    "status": "live"
   },
   {
     "lang": "ja",
@@ -153,7 +153,7 @@
     ],
     "qrMillimetres": 30,
     "qrUrl": "https://lilora.app/ja/download/?utm_source=qr&utm_medium=a6&utm_campaign=prelaunch",
-    "status": "prelaunch"
+    "status": "live"
   },
   {
     "lang": "ja",
@@ -165,7 +165,7 @@
     ],
     "qrMillimetres": 48,
     "qrUrl": "https://lilora.app/ja/download/?utm_source=qr&utm_medium=a4&utm_campaign=prelaunch",
-    "status": "prelaunch"
+    "status": "live"
   },
   {
     "lang": "ko",
@@ -177,7 +177,7 @@
     ],
     "qrMillimetres": 30,
     "qrUrl": "https://lilora.app/ko/download/?utm_source=qr&utm_medium=a6&utm_campaign=prelaunch",
-    "status": "prelaunch"
+    "status": "live"
   },
   {
     "lang": "ko",
@@ -189,7 +189,7 @@
     ],
     "qrMillimetres": 48,
     "qrUrl": "https://lilora.app/ko/download/?utm_source=qr&utm_medium=a4&utm_campaign=prelaunch",
-    "status": "prelaunch"
+    "status": "live"
   },
   {
     "lang": "it",
@@ -201,7 +201,7 @@
     ],
     "qrMillimetres": 30,
     "qrUrl": "https://lilora.app/it/download/?utm_source=qr&utm_medium=a6&utm_campaign=prelaunch",
-    "status": "prelaunch"
+    "status": "live"
   },
   {
     "lang": "it",
@@ -213,7 +213,7 @@
     ],
     "qrMillimetres": 48,
     "qrUrl": "https://lilora.app/it/download/?utm_source=qr&utm_medium=a4&utm_campaign=prelaunch",
-    "status": "prelaunch"
+    "status": "live"
   },
   {
     "lang": "zh-Hant",
@@ -225,7 +225,7 @@
     ],
     "qrMillimetres": 30,
     "qrUrl": "https://lilora.app/zh-hant/download/?utm_source=qr&utm_medium=a6&utm_campaign=prelaunch",
-    "status": "prelaunch"
+    "status": "live"
   },
   {
     "lang": "zh-Hant",
@@ -237,6 +237,6 @@
     ],
     "qrMillimetres": 48,
     "qrUrl": "https://lilora.app/zh-hant/download/?utm_source=qr&utm_medium=a4&utm_campaign=prelaunch",
-    "status": "prelaunch"
+    "status": "live"
   }
 ]

@@ -4,7 +4,7 @@ Lilora centres on a household plant notebook: keeping plants, photos and care re
 
 ## What this comparison covers
 
-As of 16 October 2026, Lilora is awaiting App Store review. Planta has a public U.S. App Store listing. This article compares documented features; it is not a hands-on performance test. It is published by Lilora, one of the products discussed. Features and offers may change by country, platform and plan. [Planta on the App Store](https://apps.apple.com/us/app/planta-plant-garden-care/id1410126781)
+Lilora has been available on the App Store since 30 October 2026. Planta has a public U.S. App Store listing. This article compares documented features; it is not a hands-on performance test. It is published by Lilora, one of the products discussed. Features and offers may change by country, platform and plan. [Planta on the App Store](https://apps.apple.com/us/app/planta-plant-garden-care/id1410126781)
 
 ## Start with the job you want help doing
 
@@ -32,7 +32,7 @@ Decide who needs to see the plants, who should change them, and how you will che
 
 ## Compare the offer you can actually buy
 
-Lilora describes free manual species entry, three initial photo identifications, a pack of 10 and a Plus monthly allowance of 30. Its support page directs readers to Apple for local prices. There is no verified public checkout price to compare while launch is pending. [Lilora purchases](https://lilora.app/support/)
+Lilora describes free manual species entry, three initial photo identifications, a pack of 10 and a Plus monthly allowance of 30. Its support page directs readers to Apple for local prices. Its U.S. App Store listing shows $1.99 for the pack of 10 and $2.99 for Lilora Plus Monthly (checked 30 October 2026). [Lilora purchases](https://lilora.app/support/)
 
 Planta’s U.S. listing includes one-month prices of $7.99 and $9.99 and 12-month prices of $35.99 and $47.99. These are listing examples, not a promise of eligibility. Its help centre identifies identification and the light meter among premium features. [App Store listing](https://apps.apple.com/us/app/planta-plant-garden-care/id1410126781) · [Free and premium access](https://support.getplanta.com/do-planta-offer-a-free-trial-of-premium/)
 
@@ -41,7 +41,7 @@ Check the total charge, renewal period and included features on your purchase sc
 ## Which approach belongs on your shortlist?
 
 - To evaluate a broad care toolkit now, inspect Planta’s current listing and the features available to you.
-- If a household notebook, check-first routine and shared record match your needs, explore Lilora’s described workflow while review is pending.
+- If a household notebook, check-first routine and shared record match your needs, explore Lilora’s described workflow.
 - Write down three essential tasks before comparing paid plans. Give them more weight than features you are unlikely to use.
 
 ## Common questions
@@ -56,4 +56,4 @@ Both products describe sharing. Compare actual membership rules and paid-plan re
 
 ### Can I download Lilora today?
 
-As of this article’s review date, Lilora is awaiting App Store review. No release date is promised. [Explore Lilora’s current product description](https://lilora.app/support/).
+Lilora has been available on the App Store since 30 October 2026. [Explore Lilora’s current product description](https://lilora.app/support/).

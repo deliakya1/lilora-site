@@ -5,6 +5,8 @@ const copy = JSON.parse(readFileSync("pages/home/copy.json", "utf8"));
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) =>
   ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 import { prefix } from './locale-registry.mjs';
+import { appStore, appStoreBadge, appStoreQr } from "./app-store.mjs";
+const locales = Object.fromEntries(Object.keys(copy).map((l) => [l, JSON.parse(readFileSync(`locales/${l}.json`, "utf8"))]));
 const illustration = (name, alt, caption, eager = false) => {
   const path = `/assets/images/home/${name}-640.webp`;
   if (!existsSync(`.${path}`)) return "";
@@ -28,7 +30,7 @@ const metadata = {};
 for (const [lang, t] of Object.entries(copy)) {
   const home = prefix(lang);
   const note = `<small class="promo-language">${esc(t.appLanguages)}</small>`;
-  const cta = (place) => `<div class="promo-cta"><a class="button" href="${home}download/" data-analytics-cta="home-${place}">${esc(t.getApp)}<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>${note}</div>`;
+  const cta = (place) => `<div class="promo-cta"><a class="button" href="${appStore.url}" data-analytics-cta="home-${place}">${esc(t.getApp)}<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>${note}</div>`;
   const caption = `${t.artCaptionEN} ${t.sampleCaption}`;
   const art = (id, alt, eager, sizes) => artwork(lang, id, alt,
     ["identify", "shared-care"].includes(id) ? `${t.artCaptionEN} ${t.introCaption}` : caption, eager, sizes);
@@ -62,7 +64,7 @@ for (const [lang, t] of Object.entries(copy)) {
   <section class="promo-free"><div class="wrap promo-free-inner"><header class="promo-section-heading"><h2>${esc(t.freeTitle)}</h2><p>${esc(t.freeIntro)}</p></header><div><dl class="promo-plan-list">${t.plans.map(p => `<div><dt>${esc(p.title)}</dt><dd>${esc(p.text)}</dd></div>`).join("")}</dl><p class="promo-pricing-note">${esc(t.pricingNote)}</p></div></div></section>
   {{HOME_EDITORIAL}}
   <section class="wrap promo-faq"><h2>${esc(t.faqTitle)}</h2><div>${t.faq.map(f => `<details><summary>${esc(f.question)}</summary><p>${esc(f.answer)}</p></details>`).join("")}<a class="text-link" href="${home}support/">${esc(t.supportLink)} <span aria-hidden="true">→</span></a></div></section>
-  <section class="promo-band"><div class="wrap promo-band-inner"><div><h2>${esc(t.closingTitle)}</h2><p>${esc(t.closingText)}</p>${cta("closing")}<p class="promo-status">${esc(t.status)}</p></div><figure class="promo-qr"><img src="/assets/brand/qr/${lang}-home.svg" width="256" height="256" alt="${esc(t.qrAlt)}" loading="lazy"><figcaption>${esc(t.qrCaption)}</figcaption></figure></div></section>
+  <section class="promo-band"><div class="wrap promo-band-inner"><div><h2>${esc(t.closingTitle)}</h2><p>${esc(t.closingText)}</p>${appStoreBadge(lang, locales[lang], "home-closing")}${note}<p class="promo-status">${esc(t.status)}</p></div><figure class="promo-qr">${appStoreQr(locales[lang])}<figcaption>${esc(t.qrCaption)}</figcaption></figure></div></section>
   </div>`;
   writeFileSync(`pages/home/${lang}.md`, body + "\n");
   metadata[lang] = { title: t.title, seoTitle: t.seoTitle, description: t.dek };

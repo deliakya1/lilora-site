@@ -41,7 +41,7 @@ Numa casa compartilhada, isso pesa ainda mais. Quem for verificar depois vê que
 
 ## O que um lembrete não consegue fazer
 
-Um lembrete é um aviso, não um diagnóstico. Ele não sabe a temperatura da sua casa, como é a sua janela nem o dia em que você trocou o vaso. No Lilora, os lembretes chegam às 9h, no horário local, no dia em que vencem. Para quem quiser, há também um lembrete de rega opcional, e o app explica ao lado dele que o Lilora não tem como saber se a planta precisa de água e que é melhor verificar o substrato antes. A decisão sobre a água é de quem está olhando a planta. O Lilora está aguardando a análise da App Store; este texto descreve o app como foi enviado.
+Um lembrete é um aviso, não um diagnóstico. Ele não sabe a temperatura da sua casa, como é a sua janela nem o dia em que você trocou o vaso. No Lilora, os lembretes chegam às 9h, no horário local, no dia em que vencem. Para quem quiser, há também um lembrete de rega opcional, e o app explica ao lado dele que o Lilora não tem como saber se a planta precisa de água e que é melhor verificar o substrato antes. A decisão sobre a água é de quem está olhando a planta.
 
 ## Perguntas frequentes
 

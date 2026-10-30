@@ -41,7 +41,7 @@ Dans un foyer partagé, c’est encore plus utile. La personne qui vérifie ensu
 
 ## Ce qu’un rappel ne peut pas faire
 
-Un rappel est une invitation, pas un diagnostic. Il ne connaît ni la température de votre logement, ni votre fenêtre, ni le jour où vous avez rempoté. Dans Lilora, les rappels arrivent à 9 h, heure locale, le jour où ils sont dus. Pour qui le souhaite, il existe aussi un rappel d’arrosage facultatif, et l’app précise à côté que Lilora ne peut pas savoir si une plante a besoin d’eau et qu’il faut d’abord vérifier le substrat. La décision d’arroser revient à la personne qui regarde la plante. Lilora est en attente de validation par l’App Store ; ce texte décrit l’app telle qu’elle a été soumise.
+Un rappel est une invitation, pas un diagnostic. Il ne connaît ni la température de votre logement, ni votre fenêtre, ni le jour où vous avez rempoté. Dans Lilora, les rappels arrivent à 9 h, heure locale, le jour où ils sont dus. Pour qui le souhaite, il existe aussi un rappel d’arrosage facultatif, et l’app précise à côté que Lilora ne peut pas savoir si une plante a besoin d’eau et qu’il faut d’abord vérifier le substrat. La décision d’arroser revient à la personne qui regarde la plante.
 
 ## Questions fréquentes
 
