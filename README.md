@@ -1222,7 +1222,7 @@ that also fails on unmodified main in this environment.
   posts are a follow-up.
 - Known, unrelated: `scripts/foundation-check.cjs` already failed on `main` before this
   change (it expects the mobile-menu CTA to be `app-info`; the header CTA is `header`
-  since SEO-10).
+  since SEO-10). Resolved; see the 30 October 2026 maintenance note.
 
 ## Maintenance — 27 October 2026 — malformed fragment recovery
 
@@ -1463,6 +1463,16 @@ real contact message, signup or comment was submitted by the tests.
 CI impact: one coherent website PR update runs the existing bounded Linux
 website checks, followed by the existing GitHub Pages deployment on merge.
 No mobile/native workflow, new paid service, DNS or store change is required.
+
+## Maintenance — 30 October 2026 — foundation check menu timing
+
+`scripts/foundation-check.cjs` failed in CI on PR #47 with `'false' !== 'true'`
+while the site itself was correct. The check read the mobile menu's
+`aria-expanded` right after clicking it, but `assets/navigation.js` updates that
+attribute from the `details` `toggle` event, which the browser fires as a later
+task. On the slower runner the read happened first. The check now waits (up to
+5 seconds) for `aria-expanded="true"` and still fails if it never appears. No
+site output changed. Locally: 480 foundation layouts passed in all ten languages.
 
 ## Prompt 08 — 30 October 2026: launch switch
 
