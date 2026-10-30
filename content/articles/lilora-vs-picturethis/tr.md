@@ -4,7 +4,7 @@ Bitkileri tanımak ve onlar hakkında bilgi edinmek önceliğinse PictureThis’
 
 ## Bu karşılaştırmanın kapsamı
 
-16 Ekim 2026 itibarıyla Lilora App Store incelemesini bekliyor. PictureThis’in ABD App Store sayfası yayında. Bu, belgelenen yeteneklerin karşılaştırmasıdır; uygulamalı doğruluk testi değildir. Yayıncı, karşılaştırılan ürünlerden biri olan Lilora’dır. Özellik, fiyat ve teklifler değişebilir. [PictureThis App Store sayfası](https://apps.apple.com/us/app/picturethis-plant-identifier/id1252497129)
+Lilora 30 Ekim 2026’dan beri App Store’da. PictureThis’in ABD App Store sayfası yayında. Bu, belgelenen yeteneklerin karşılaştırmasıdır; uygulamalı doğruluk testi değildir. Yayıncı, karşılaştırılan ürünlerden biri olan Lilora’dır. Özellik, fiyat ve teklifler değişebilir. [PictureThis App Store sayfası](https://apps.apple.com/us/app/picturethis-plant-identifier/id1252497129)
 
 ## Bir isim hikâyenin başlangıcıdır
 
@@ -47,7 +47,7 @@ Lilora ilk üç bitki tanıma hakkı, 10’luk paket ve aylık 30 tanıma hakkı
 ## Pratik seçim yöntemi
 
 - “Bu hangi bitki, nereden bilgi edinirim?” sorusu için PictureThis’in tanıma ve bilgi araçlarını incele.
-- “Bitkilerimize ne oldu, kim bakım yaptı?” sorusu için Lilora’nın ortak günlük yaklaşımına bak; yayın bekleniyor.
+- “Bitkilerimize ne oldu, kim bakım yaptı?” sorusu için Lilora’nın ortak günlük yaklaşımına bak.
 - İkisi de önemliyse fotoğraftan kayda ve sonraki kontrole kadar bütün akışı değerlendir.
 
 ## Sık sorulanlar
@@ -62,4 +62,4 @@ Bu iddiayı destekleyen karşılaştırmalı testimiz yok; doğruluk sıralamas�
 
 ### Lilora’yı nereden indirebilirim?
 
-16 Ekim 2026 itibarıyla App Store incelemesi sürüyor. Erişim doğrulandığında indirme bağlantısı eklenecek. [Lilora nasıl çalışır?](https://lilora.app/support/)
+Lilora 30 Ekim 2026’dan beri App Store’da. [Lilora nasıl çalışır?](https://lilora.app/support/)

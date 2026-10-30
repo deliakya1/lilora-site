@@ -1463,3 +1463,43 @@ real contact message, signup or comment was submitted by the tests.
 CI impact: one coherent website PR update runs the existing bounded Linux
 website checks, followed by the existing GitHub Pages deployment on merge.
 No mobile/native workflow, new paid service, DNS or store change is required.
+
+## Prompt 08 — 30 October 2026: launch switch
+
+Lilora's public listing was verified on 30 October 2026 in the U.S. and Turkish
+storefronts. `config/app-store.json` is the single source for the status, app id
+and canonical URL `https://apps.apple.com/app/id6818604360` (Apple sends each
+visitor to their own storefront). `scripts/app-store.mjs` reads it for every
+template.
+
+- Header, home hero and closing, article CTA box, press and about pages open the
+  listing directly with `data-analytics-cta`, so the existing consent-gated
+  `app_store_click` event fires. The footer keeps a link to `/download/`.
+- `/download/` in every language shows the App Store action and the QR code. Scans
+  of the printed QR codes (`?utm_source=qr`) go straight on to the listing through
+  `assets/store-redirect.js`; other visitors read the page and tap once. A timed
+  meta refresh was rejected: axe flags it (WCAG 2.2.1). The launch sign-up form is
+  removed (the privacy section stays while sign-up rows are retained).
+- Smart App Banner `<meta name="apple-itunes-app" content="app-id=6818604360">` on
+  every page. `MobileApplication` data on home and download: free offer, no rating
+  markup.
+- Apple's trademark notice is in every footer, translated sentence only.
+- All "in App Store review" copy is replaced in ten languages, including the two
+  comparison articles (Lilora's U.S. prices checked on the listing) and the print
+  PDFs. QR codes and their URLs are unchanged. Share cards draw only titles, so they
+  were not re-rendered except where page metadata changed.
+- Badges: `{{APP_STORE_BADGE:placement}}` renders Apple's original SVG from
+  `assets/brand/app-store-badge/<lang>.svg` at 40 px high with 10 px clear space.
+  Owner-supplied black badges cover all ten languages (`pt` uses Apple's PTBR file).
+  `zh-Hant` uses Apple's Simplified Chinese badge by the owner's decision of 30 October
+  2026 until a Traditional Chinese file is supplied; replace
+  `app-store-badge/zh-Hant.svg` then. A language without a file falls back to a text
+  "Open on the App Store" button. Never redraw a badge.
+  Campaign links (pt/ct) are added only with real values.
+- Desktop QR: Apple's QR code (`apple.co/4yUrU3L`, white with the app icon) replaces
+  the page QR on home and download and appears in the article CTA box at 900 px and
+  wider. The language QR SVGs stay in the print PDFs.
+- All supplied launch assets (badges in every supplied language, five QR variants,
+  1024 px app icon) are archived in `assets/brand/app-store/` (see its README).
+
+<!-- site-prompt-08: done -->

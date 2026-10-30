@@ -32,7 +32,7 @@
   "copyFailed": "Bağlantı kopyalanamadı. Adres:",
   "home": "Ana sayfa",
   "empty": "Yeni yazılar burada yer alacak.",
-  "status": "Lilora, App Store incelemesinde.",
+  "status": "Lilora, iPhone ve iPad için App Store’da.",
   "appLanguages": "Uygulama şu anda Türkçe ve İngilizce.",
   "suggestion": "Bu sayfanın Türkçesi de var.",
   "dismiss": "Dil önerisini kapat",
@@ -132,5 +132,9 @@
   "commentsLimited": "Kısa sürede çok fazla yorum gönderildi. Lütfen bir saat sonra tekrar dene.",
   "commentsError": "Yorum şu anda gönderilemedi. Lütfen daha sonra tekrar dene.",
   "commentsSending": "Gönderiliyor…",
-  "commentsPublished": "Teşekkürler. Yorumun artık bu sayfada."
+  "commentsPublished": "Teşekkürler. Yorumun artık bu sayfada.",
+  "openAppStore": "App Store’da aç",
+  "appStoreBadgeAlt": "App Store’dan İndirin",
+  "trademark": "Apple, Apple logosu, iPhone ve iPad, Apple Inc.’in ABD’de ve diğer ülke ve bölgelerde tescilli ticari markalarıdır. App Store, Apple Inc.’in hizmet markasıdır.",
+  "appStoreQrAlt": "Lilora’yı App Store’da açan QR kodu"
 }

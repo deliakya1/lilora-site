@@ -4,7 +4,7 @@ PictureThis is worth examining when recognizing plants and exploring plant infor
 
 ## What this comparison covers
 
-As of 16 October 2026, Lilora is awaiting App Store review. PictureThis has a public U.S. App Store listing. This compares documented capabilities, not hands-on accuracy. It is published by Lilora, one of the products discussed. Features, prices and offers may change. [PictureThis on the App Store](https://apps.apple.com/us/app/picturethis-plant-identifier/id1252497129)
+Lilora has been available on the App Store since 30 October 2026. PictureThis has a public U.S. App Store listing. This compares documented capabilities, not hands-on accuracy. It is published by Lilora, one of the products discussed. Features, prices and offers may change. [PictureThis on the App Store](https://apps.apple.com/us/app/picturethis-plant-identifier/id1252497129)
 
 ## A name is the beginning of a plant’s story
 
@@ -47,7 +47,7 @@ Check what the first charge covers, whether it renews, and what remains usable w
 ## A practical way to choose
 
 - For “What plant is this, and where can I learn more?”, investigate PictureThis’s identification and reference tools.
-- For “What happened to our plants, and who cared for them?”, explore Lilora’s household-notebook approach while launch is pending.
+- For “What happened to our plants, and who cared for them?”, explore Lilora’s household-notebook approach.
 - If both matter, compare the full process from photo to record to next care check. Do not choose entirely from a camera demonstration.
 
 ## Common questions
@@ -62,4 +62,4 @@ We have no comparative test supporting that claim and make no accuracy ranking.
 
 ### Where can I get Lilora?
 
-Lilora is awaiting App Store review as of 16 October 2026. A public download will be linked when availability is verified. [See how Lilora works](https://lilora.app/support/).
+Lilora has been available on the App Store since 30 October 2026. [See how Lilora works](https://lilora.app/support/).

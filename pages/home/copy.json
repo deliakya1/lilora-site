@@ -6,7 +6,7 @@
     "dek": "Hangi bitki nerede, en son kim kontrol etti, ne zaman sulandı? Fotoğrafları, notları ve bakım geçmişini Lilora’da bir arada tut.",
     "getApp": "Uygulamayı edin",
     "seeHow": "Nasıl çalıştığını gör",
-    "status": "App Store incelemesinde",
+    "status": "App Store’da",
     "devices": "iPhone ve iPad",
     "appLanguages": "Uygulama Türkçe ve İngilizce",
     "artCaptionEN": "Uygulama Türkçe gösteriliyor.",
@@ -93,7 +93,7 @@
     "faq": [
       {
         "question": "Lilora’yı şu anda indirebilir miyim?",
-        "answer": "Henüz değil. Lilora, App Store incelemesinde. Uygulama yayımlandığında bu sitenin indirme sayfası seni doğrudan App Store’a götürecek."
+        "answer": "Evet. Lilora, iPhone ve iPad için App Store’da. Elle bitki ekleme ve bakım kaydı ücretsiz."
       },
       {
         "question": "Hangi cihazlarda ve dillerde çalışıyor?",
@@ -114,9 +114,9 @@
     ],
     "supportLink": "Destek sayfasındaki tüm yanıtlar",
     "closingTitle": "Bir sonraki kontrol, iyi bir kayıtla başlasın.",
-    "closingText": "Lilora’nın indirme sayfasını telefonunda aç. Uygulama yayımlandığında aynı adres seni App Store’a götürecek.",
+    "closingText": "Lilora’yı App Store’da aç ya da kodu iPhone veya iPad’inle tara.",
     "qrAlt": "Türkçe Lilora indirme sayfasını açan QR kodu",
-    "qrCaption": "Telefonunla tara; indirme sayfasını aç.",
+    "qrCaption": "Telefonunla tara; Lilora’yı App Store’da aç.",
     "illustrationCaption": "Yapay zekâyla oluşturulmuş illüstrasyon.",
     "imageAlts": {
       "hero": "Doğal pencere ışığında, sade bir ev köşesindeki saksı bitkileri",
@@ -136,7 +136,7 @@
     "dek": "Which room, who last checked, when it was watered. Keep your plants’ photos, notes and care history together in Lilora, on iPhone and iPad.",
     "getApp": "Get the app",
     "seeHow": "See how it works",
-    "status": "In App Store review",
+    "status": "On the App Store",
     "devices": "iPhone & iPad",
     "appLanguages": "App in English and Turkish",
     "artCaptionEN": "App shown in English.",
@@ -223,7 +223,7 @@
     "faq": [
       {
         "question": "Can I download Lilora now?",
-        "answer": "Not yet. Lilora is in App Store review. When it is released, this site’s download page will take you straight to the App Store."
+        "answer": "Yes. Lilora is available on the App Store for iPhone and iPad. Manual plants and care records are free."
       },
       {
         "question": "Which devices and languages does it support?",
@@ -244,9 +244,9 @@
     ],
     "supportLink": "Find more answers in support",
     "closingTitle": "Give the next check a useful history.",
-    "closingText": "Open Lilora’s download page on your phone. When the app is released, the same address will take you to the App Store.",
+    "closingText": "Open Lilora on the App Store, or scan the code with your iPhone or iPad.",
     "qrAlt": "QR code opening Lilora’s English download page",
-    "qrCaption": "Scan with your phone to open the download page.",
+    "qrCaption": "Scan with your phone to open Lilora on the App Store.",
     "illustrationCaption": "AI-generated illustration.",
     "imageAlts": {
       "hero": "Potted houseplants in a quiet home corner with natural window light",
@@ -264,9 +264,9 @@
     "title": "Las plantas de casa, en un cuaderno compartido.",
     "seoTitle": "App de cuidado de plantas para toda la casa",
     "dek": "En qué habitación están, quién las revisó y cuándo se regaron. Reúne las fotos, las notas y el historial de cuidados de tus plantas en Lilora.",
-    "getApp": "Obtener la app",
+    "getApp": "Consigue la app",
     "seeHow": "Ver cómo funciona",
-    "status": "En revisión en el App Store",
+    "status": "En el App Store",
     "devices": "iPhone y iPad",
     "appLanguages": "La app está en inglés y turco",
     "artCaptionEN": "App mostrada en inglés.",
@@ -353,7 +353,7 @@
     "faq": [
       {
         "question": "¿Ya puedo descargar Lilora?",
-        "answer": "Todavía no. Lilora está en revisión en el App Store. Cuando se publique, la página de descarga de este sitio te llevará directamente al App Store."
+        "answer": "Sí. Lilora está disponible en el App Store para iPhone y iPad. Los registros manuales de plantas y cuidados son gratuitos."
       },
       {
         "question": "¿En qué dispositivos e idiomas funciona?",
@@ -374,9 +374,9 @@
     ],
     "supportLink": "Más respuestas en soporte",
     "closingTitle": "Que la próxima revisión tenga un buen historial.",
-    "closingText": "Abre la página de descarga de Lilora en tu teléfono. Cuando se publique la app, la misma dirección te llevará al App Store.",
+    "closingText": "Abre Lilora en el App Store o escanea el código con tu iPhone o iPad.",
     "qrAlt": "Código QR que abre la página de descarga de Lilora en español",
-    "qrCaption": "Escanea con tu teléfono para abrir la página de descarga.",
+    "qrCaption": "Escanea con tu teléfono para abrir Lilora en el App Store.",
     "illustrationCaption": "Ilustración generada con IA.",
     "imageAlts": {
       "hero": "Plantas en macetas en un rincón tranquilo con luz natural de una ventana",
@@ -394,9 +394,9 @@
     "title": "Ein gemeinsames Notizbuch für eure Pflanzen.",
     "seoTitle": "Pflanzenpflege-App für gemeinsame Haushalte",
     "dek": "In welchem Zimmer, zuletzt von wem geprüft und wann gegossen? Lilora hält Fotos, Notizen und Pflegeeinträge eurer Pflanzen zusammen.",
-    "getApp": "Zur App",
+    "getApp": "App laden",
     "seeHow": "So funktioniert’s",
-    "status": "In Prüfung im App Store",
+    "status": "Im App Store",
     "devices": "iPhone und iPad",
     "appLanguages": "Die App ist auf Englisch und Türkisch",
     "artCaptionEN": "Die App wird auf Englisch gezeigt.",
@@ -483,7 +483,7 @@
     "faq": [
       {
         "question": "Kann ich Lilora schon herunterladen?",
-        "answer": "Noch nicht. Lilora wird derzeit im App Store geprüft. Nach der Veröffentlichung führt dich die Downloadseite dieser Website direkt zum App Store."
+        "answer": "Ja. Lilora ist im App Store für iPhone und iPad erhältlich. Pflanzen und Pflege von Hand zu erfassen ist kostenlos."
       },
       {
         "question": "Welche Geräte und Sprachen werden unterstützt?",
@@ -504,9 +504,9 @@
     ],
     "supportLink": "Weitere Antworten im Support",
     "closingTitle": "Damit die nächste Kontrolle auf Erfahrung aufbaut.",
-    "closingText": "Öffne Liloras Downloadseite auf deinem Telefon. Sobald die App veröffentlicht ist, führt dich dieselbe Adresse zum App Store.",
+    "closingText": "Öffne Lilora im App Store oder scanne den Code mit deinem iPhone oder iPad.",
     "qrAlt": "QR-Code zur deutschen Downloadseite von Lilora",
-    "qrCaption": "Mit dem Telefon scannen und die Downloadseite öffnen.",
+    "qrCaption": "Mit dem Telefon scannen und Lilora im App Store öffnen.",
     "illustrationCaption": "Mit KI erstellte Illustration.",
     "imageAlts": {
       "hero": "Zimmerpflanzen in Töpfen in einer ruhigen Ecke mit natürlichem Fensterlicht",
@@ -524,9 +524,9 @@
     "title": "As plantas da casa, num caderno compartilhado.",
     "seoTitle": "App de cuidados com plantas para a casa toda",
     "dek": "Em qual cômodo, quem conferiu por último e quando recebeu água. Reúna fotos, anotações e o histórico de cuidados das suas plantas no Lilora.",
-    "getApp": "Obter o app",
+    "getApp": "Baixe o app",
     "seeHow": "Veja como funciona",
-    "status": "Em análise na App Store",
+    "status": "Na App Store",
     "devices": "iPhone e iPad",
     "appLanguages": "O app está em inglês e turco",
     "artCaptionEN": "App exibido em inglês.",
@@ -613,7 +613,7 @@
     "faq": [
       {
         "question": "Já posso baixar o Lilora?",
-        "answer": "Ainda não. O Lilora está em análise na App Store. Quando o app for lançado, a página de download deste site levará você diretamente à App Store."
+        "answer": "Sim. O Lilora está disponível na App Store para iPhone e iPad. Os registros manuais de plantas e cuidados são gratuitos."
       },
       {
         "question": "Quais dispositivos e idiomas são compatíveis?",
@@ -634,9 +634,9 @@
     ],
     "supportLink": "Mais respostas no suporte",
     "closingTitle": "Que o próximo cuidado comece com um bom histórico.",
-    "closingText": "Abra a página de download do Lilora no seu telefone. Quando o app for lançado, o mesmo endereço levará você à App Store.",
+    "closingText": "Abra o Lilora na App Store ou escaneie o código com seu iPhone ou iPad.",
     "qrAlt": "Código QR que abre a página de download do Lilora em português",
-    "qrCaption": "Escaneie com o telefone para abrir a página de download.",
+    "qrCaption": "Escaneie com o telefone para abrir o Lilora na App Store.",
     "illustrationCaption": "Ilustração gerada com IA.",
     "imageAlts": {
       "hero": "Plantas em vasos num canto tranquilo com luz natural da janela",
@@ -654,9 +654,9 @@
     "title": "Les plantes de la maison, un carnet partagé.",
     "seoTitle": "Appli d’entretien des plantes pour toute la maison",
     "dek": "Dans quelle pièce, vérifiée par qui, arrosée quand ? Gardez les photos, les notes et l’historique d’entretien de vos plantes au même endroit, dans Lilora.",
-    "getApp": "Obtenir l’app",
+    "getApp": "Télécharger l’app",
     "seeHow": "Voir comment ça marche",
-    "status": "En cours d’examen sur l’App Store",
+    "status": "Sur l’App Store",
     "devices": "iPhone et iPad",
     "appLanguages": "L’app est en anglais et en turc",
     "artCaptionEN": "App présentée en anglais.",
@@ -743,7 +743,7 @@
     "faq": [
       {
         "question": "Puis-je déjà télécharger Lilora ?",
-        "answer": "Pas encore. Lilora est en cours d’examen sur l’App Store. Dès sa publication, la page de téléchargement de ce site vous conduira directement à l’App Store."
+        "answer": "Oui. Lilora est disponible sur l’App Store pour iPhone et iPad. Le suivi manuel des plantes et des soins est gratuit."
       },
       {
         "question": "Quels appareils et quelles langues sont pris en charge ?",
@@ -764,9 +764,9 @@
     ],
     "supportLink": "Plus de réponses dans l’aide",
     "closingTitle": "Un historique utile pour le prochain soin.",
-    "closingText": "Ouvrez la page de téléchargement de Lilora sur votre téléphone. Une fois l’app publiée, la même adresse vous conduira à l’App Store.",
+    "closingText": "Ouvrez Lilora sur l’App Store ou scannez le code avec votre iPhone ou iPad.",
     "qrAlt": "Code QR ouvrant la page de téléchargement de Lilora en français",
-    "qrCaption": "Scannez avec votre téléphone pour ouvrir la page de téléchargement.",
+    "qrCaption": "Scannez avec votre téléphone pour ouvrir Lilora sur l’App Store.",
     "illustrationCaption": "Illustration générée par IA.",
     "imageAlts": {
       "hero": "Des plantes en pot dans un coin calme, à la lumière naturelle d’une fenêtre",
@@ -784,9 +784,9 @@
     "title": "みんなで使える、植物のノート。",
     "seoTitle": "家族で植物のお世話を共有するアプリ",
     "dek": "どの部屋にあり、誰が最後に確認し、いつ水を与えたか。iPhone・iPadのLiloraで、植物の写真、メモ、お世話の履歴をまとめましょう。",
-    "getApp": "アプリについて",
+    "getApp": "アプリをダウンロード",
     "seeHow": "使い方を見る",
-    "status": "App Storeで審査中",
+    "status": "App Storeで配信中",
     "devices": "iPhone・iPad",
     "appLanguages": "アプリは英語・トルコ語対応",
     "artCaptionEN": "アプリは英語で表示しています。",
@@ -873,7 +873,7 @@
     "faq": [
       {
         "question": "今すぐLiloraをダウンロードできますか？",
-        "answer": "まだできません。LiloraはApp Storeで審査中です。公開後は、このサイトのダウンロードページからApp Storeへ直接進めます。"
+        "answer": "はい。LiloraはiPhone・iPad向けにApp Storeで配信中です。植物とお世話の手入力は無料です。"
       },
       {
         "question": "対応する端末と言語は何ですか？",
@@ -894,9 +894,9 @@
     ],
     "supportLink": "サポートでほかの回答を読む",
     "closingTitle": "次の確認に役立つ履歴を。",
-    "closingText": "スマートフォンでLiloraのダウンロードページを開きましょう。アプリ公開後は、同じアドレスからApp Storeへ進めます。",
+    "closingText": "App StoreでLiloraを開くか、iPhoneまたはiPadでコードを読み取ってください。",
     "qrAlt": "Liloraの日本語ダウンロードページを開くQRコード",
-    "qrCaption": "スマートフォンで読み取ると、ダウンロードページが開きます。",
+    "qrCaption": "スマートフォンで読み取ると、App StoreでLiloraが開きます。",
     "illustrationCaption": "AIで生成したイラストです。",
     "imageAlts": {
       "hero": "窓から自然光が差す、静かな家の一角にある観葉植物の鉢",
@@ -914,9 +914,9 @@
     "title": "함께 쓰는 식물 노트.",
     "seoTitle": "함께 돌보는 가정을 위한 식물 관리 앱",
     "dek": "어느 방에 있는지, 누가 마지막으로 확인했는지, 언제 물을 줬는지. iPhone과 iPad의 Lilora에 식물 사진, 메모, 관리 이력을 모아 보세요.",
-    "getApp": "앱 알아보기",
+    "getApp": "앱 다운로드",
     "seeHow": "사용 방법 보기",
-    "status": "App Store 심사 중",
+    "status": "App Store에서 제공 중",
     "devices": "iPhone 및 iPad",
     "appLanguages": "앱 언어: 영어와 터키어",
     "artCaptionEN": "앱은 영어로 표시되어 있습니다.",
@@ -1003,7 +1003,7 @@
     "faq": [
       {
         "question": "지금 Lilora를 다운로드할 수 있나요?",
-        "answer": "아직은 아닙니다. Lilora는 App Store 심사 중입니다. 출시되면 이 사이트의 다운로드 페이지에서 App Store로 바로 이동할 수 있습니다."
+        "answer": "네. Lilora는 App Store에서 iPhone 및 iPad용으로 다운로드할 수 있습니다. 식물과 관리 기록을 직접 입력하는 기능은 무료입니다."
       },
       {
         "question": "어떤 기기와 언어를 지원하나요?",
@@ -1024,9 +1024,9 @@
     ],
     "supportLink": "지원 페이지에서 더 알아보기",
     "closingTitle": "다음 확인에 도움이 되는 이력을 남기세요.",
-    "closingText": "휴대전화에서 Lilora 다운로드 페이지를 열어 보세요. 앱이 출시되면 같은 주소에서 App Store로 이동할 수 있습니다.",
+    "closingText": "App Store에서 Lilora를 열거나 iPhone 또는 iPad로 코드를 스캔하세요.",
     "qrAlt": "Lilora 한국어 다운로드 페이지를 여는 QR 코드",
-    "qrCaption": "휴대전화로 스캔하여 다운로드 페이지를 여세요.",
+    "qrCaption": "휴대전화로 스캔하면 App Store에서 Lilora가 열립니다.",
     "illustrationCaption": "AI로 생성한 일러스트입니다.",
     "imageAlts": {
       "hero": "자연광이 드는 조용한 집 안 구석의 실내 화분 식물",
@@ -1044,9 +1044,9 @@
     "title": "Un diario condiviso per le tue piante.",
     "seoTitle": "App per la cura condivisa delle piante",
     "dek": "In quale stanza, chi ha controllato per ultimo e quando ha annaffiato. Riunisci foto, note e cronologia delle tue piante in Lilora, su iPhone e iPad.",
-    "getApp": "Scopri l’app",
+    "getApp": "Scarica l’app",
     "seeHow": "Scopri come funziona",
-    "status": "In fase di revisione sull’App Store",
+    "status": "Sull’App Store",
     "devices": "iPhone e iPad",
     "appLanguages": "App in inglese e turco",
     "artCaptionEN": "App mostrata in inglese.",
@@ -1133,7 +1133,7 @@
     "faq": [
       {
         "question": "Posso scaricare Lilora adesso?",
-        "answer": "Non ancora. Lilora è in fase di revisione sull’App Store. Quando uscirà, la pagina di download di questo sito ti porterà direttamente all’App Store."
+        "answer": "Sì. Lilora è disponibile sull’App Store per iPhone e iPad. Il diario manuale delle piante e delle cure è gratuito."
       },
       {
         "question": "Quali dispositivi e lingue supporta?",
@@ -1154,9 +1154,9 @@
     ],
     "supportLink": "Trova altre risposte nell’assistenza",
     "closingTitle": "Dai al prossimo controllo una cronologia utile.",
-    "closingText": "Apri sul telefono la pagina di download di Lilora. Quando l’app sarà disponibile, lo stesso indirizzo ti porterà all’App Store.",
+    "closingText": "Apri Lilora sull’App Store o scansiona il codice con il tuo iPhone o iPad.",
     "qrAlt": "Codice QR che apre la pagina di download di Lilora in italiano",
-    "qrCaption": "Scansiona con il telefono per aprire la pagina di download.",
+    "qrCaption": "Scansiona con il telefono per aprire Lilora sull’App Store.",
     "illustrationCaption": "Illustrazione generata con IA.",
     "imageAlts": {
       "hero": "Piante in vaso in un angolo tranquillo di casa, illuminate dalla luce naturale della finestra",
@@ -1174,9 +1174,9 @@
     "title": "一起記錄植物的生活與照護。",
     "seoTitle": "適合共同生活家庭的植物照護應用程式",
     "dek": "放在哪個房間、誰上次檢查、何時澆水。在 iPhone 與 iPad 上用 Lilora，把植物照片、筆記與照護歷程放在一起。",
-    "getApp": "取得應用程式",
+    "getApp": "下載應用程式",
     "seeHow": "了解使用方式",
-    "status": "App Store 審核中",
+    "status": "已在 App Store 推出",
     "devices": "iPhone 與 iPad",
     "appLanguages": "應用程式提供英文與土耳其文",
     "artCaptionEN": "圖中應用程式為英文介面。",
@@ -1263,7 +1263,7 @@
     "faq": [
       {
         "question": "現在可以下載 Lilora 嗎？",
-        "answer": "還不行。Lilora 正在接受 App Store 審核。正式推出後，本網站的下載頁面會直接帶您前往 App Store。"
+        "answer": "可以。Lilora 已在 App Store 推出，支援 iPhone 與 iPad。手動記錄植物與照護完全免費。"
       },
       {
         "question": "支援哪些裝置與語言？",
@@ -1284,9 +1284,9 @@
     ],
     "supportLink": "到支援頁面尋找更多解答",
     "closingTitle": "讓下次檢查有實用的歷程可查。",
-    "closingText": "在手機上開啟 Lilora 下載頁面。應用程式推出後，同一個網址會帶您前往 App Store。",
+    "closingText": "在 App Store 開啟 Lilora，或用 iPhone 或 iPad 掃描這個代碼。",
     "qrAlt": "開啟 Lilora 繁體中文下載頁面的 QR 碼",
-    "qrCaption": "用手機掃描以開啟下載頁面。",
+    "qrCaption": "用手機掃描，即可在 App Store 開啟 Lilora。",
     "illustrationCaption": "AI 生成插圖。",
     "imageAlts": {
       "hero": "自然窗光下，安靜居家角落裡的室內盆栽",

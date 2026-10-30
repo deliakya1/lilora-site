@@ -4,7 +4,7 @@ Lilora gira en torno a un cuaderno de plantas para el hogar: plantas, fotos y re
 
 ## Qué cubre esta comparación
 
-A 16 de octubre de 2026, Lilora está pendiente de revisión en el App Store. Planta tiene una ficha pública en el App Store de Estados Unidos. Este artículo compara funciones documentadas; no es una prueba práctica de rendimiento. Lo publica Lilora, uno de los productos comparados. Las funciones y ofertas pueden cambiar según el país, la plataforma y el plan. [Planta en la App Store](https://apps.apple.com/us/app/planta-plant-garden-care/id1410126781)
+Lilora está disponible en el App Store desde el 30 de octubre de 2026. Planta tiene una ficha pública en el App Store de Estados Unidos. Este artículo compara funciones documentadas; no es una prueba práctica de rendimiento. Lo publica Lilora, uno de los productos comparados. Las funciones y ofertas pueden cambiar según el país, la plataforma y el plan. [Planta en la App Store](https://apps.apple.com/us/app/planta-plant-garden-care/id1410126781)
 
 ## Empieza por la tarea en la que quieres ayuda
 
@@ -32,7 +32,7 @@ Decide quién necesita ver las plantas, quién debe poder cambiarlas y cómo vai
 
 ## Compara la oferta que realmente puedes comprar
 
-Lilora describe la introducción manual de especies gratuita, tres identificaciones por foto iniciales, un paquete de 10 y una asignación mensual Plus de 30. Su página de soporte remite a Apple para los precios locales. No hay un precio público verificado con el que comparar mientras el lanzamiento está pendiente. [Compras en Lilora](https://lilora.app/es/support/)
+Lilora describe la introducción manual de especies gratuita, tres identificaciones por foto iniciales, un paquete de 10 y una asignación mensual Plus de 30. Su página de soporte remite a Apple para los precios locales. Su ficha del App Store de Estados Unidos muestra 1,99 US$ por el paquete de 10 y 2,99 US$ por Lilora Plus Monthly (consultado el 30 de octubre de 2026). [Compras en Lilora](https://lilora.app/es/support/)
 
 La ficha estadounidense de Planta incluye precios mensuales de 7,99 US$ y 9,99 US$, y anuales de 35,99 US$ y 47,99 US$. Son ejemplos de la ficha, no una garantía de que puedas acceder a ellos. Su centro de ayuda incluye la identificación y el medidor de luz entre las funciones premium. [Ficha en la App Store](https://apps.apple.com/us/app/planta-plant-garden-care/id1410126781) · [Acceso gratuito y premium](https://support.getplanta.com/do-planta-offer-a-free-trial-of-premium/)
 
@@ -41,7 +41,7 @@ Comprueba en la pantalla de compra el cargo total, el periodo de renovación y l
 ## ¿Qué enfoque va a tu lista?
 
 - Para evaluar ya un conjunto amplio de herramientas, revisa la ficha actual de Planta y las funciones que tengas disponibles.
-- Si un cuaderno del hogar, una rutina de revisar primero y un registro compartido encajan contigo, explora el funcionamiento que describe Lilora mientras se revisa (la app está en inglés y turco).
+- Si un cuaderno del hogar, una rutina de revisar primero y un registro compartido encajan contigo, explora el funcionamiento que describe Lilora (la app está en inglés y turco).
 - Apunta tres tareas imprescindibles antes de comparar planes de pago. Dales más peso que a funciones que probablemente no usarás.
 
 ## Preguntas frecuentes
@@ -56,4 +56,4 @@ Los dos productos describen opciones para compartir. Compara las reglas reales d
 
 ### ¿Puedo descargar Lilora hoy?
 
-En la fecha de revisión de este artículo, Lilora está pendiente de revisión en el App Store. No se promete ninguna fecha de lanzamiento. La app estará en inglés y turco. [Consulta la descripción actual de Lilora](https://lilora.app/es/support/).
+Lilora está disponible en el App Store desde el 30 de octubre de 2026. La app está disponible actualmente en inglés y turco. [Consulta la descripción actual de Lilora](https://lilora.app/es/support/).

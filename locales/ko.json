@@ -8,7 +8,7 @@
   "blog": "블로그",
   "app": "앱",
   "support": "지원",
-  "getApp": "앱 알아보기",
+  "getApp": "앱 다운로드",
   "about": "Lilora 소개",
   "press": "보도 자료",
   "learn": "알아보기",
@@ -32,7 +32,7 @@
   "copyFailed": "링크를 복사하지 못했습니다. 주소:",
   "home": "홈",
   "empty": "새 글이 이곳에 표시됩니다.",
-  "status": "Lilora는 App Store 심사 중입니다.",
+  "status": "Lilora는 App Store에서 iPhone 및 iPad용으로 제공됩니다.",
   "appLanguages": "앱은 현재 영어와 터키어로 제공됩니다.",
   "suggestion": "이 페이지는 한국어로도 제공됩니다.",
   "dismiss": "언어 제안 닫기",
@@ -132,5 +132,9 @@
   "commentsLimited": "짧은 시간에 댓글을 너무 많이 보냈습니다. 한 시간 뒤에 다시 시도해 주세요.",
   "commentsError": "지금은 댓글을 보낼 수 없습니다. 나중에 다시 시도해 주세요.",
   "commentsSending": "보내는 중…",
-  "commentsPublished": "감사합니다. 댓글이 이 페이지에 공개되었습니다."
+  "commentsPublished": "감사합니다. 댓글이 이 페이지에 공개되었습니다.",
+  "openAppStore": "App Store에서 열기",
+  "appStoreBadgeAlt": "App Store에서 다운로드하기",
+  "trademark": "Apple, Apple 로고, iPhone 및 iPad는 미국과 기타 국가 및 지역에서 등록된 Apple Inc.의 상표입니다. App Store는 Apple Inc.의 서비스 마크입니다.",
+  "appStoreQrAlt": "App Store에서 Lilora를 여는 QR 코드"
 }

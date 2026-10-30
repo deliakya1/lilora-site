@@ -41,7 +41,7 @@ In una casa condivisa conta ancora di più. Chi controlla dopo può vedere che q
 
 ## Cosa non può fare un promemoria
 
-Un promemoria è un invito, non una diagnosi. Non conosce la temperatura della stanza, la finestra o il giorno del rinvaso. I promemoria di Lilora arrivano alle 9:00, ora locale, nel giorno previsto. Esiste anche un promemoria facoltativo per l’annaffiatura; accanto, l’app avverte chiaramente: <span lang="en">“Lilora cannot tell whether a plant needs water; check the soil first.”</span>, cioè Lilora non può sapere se la pianta ha bisogno d’acqua: controlla prima il terriccio. La decisione rimane a chi osserva la pianta. Lilora è attualmente in revisione sull’App Store: questa descrizione riguarda la versione inviata.
+Un promemoria è un invito, non una diagnosi. Non conosce la temperatura della stanza, la finestra o il giorno del rinvaso. I promemoria di Lilora arrivano alle 9:00, ora locale, nel giorno previsto. Esiste anche un promemoria facoltativo per l’annaffiatura; accanto, l’app avverte chiaramente: <span lang="en">“Lilora cannot tell whether a plant needs water; check the soil first.”</span>, cioè Lilora non può sapere se la pianta ha bisogno d’acqua: controlla prima il terriccio. La decisione rimane a chi osserva la pianta.
 
 ## Domande frequenti
 

@@ -1,3 +1,4 @@
+import { appStore, appStoreBadge, appStoreQr, mobileApplication } from "./app-store.mjs";
 import { extraCopies } from './locale-extras.mjs';
 import {
   readFileSync,
@@ -164,7 +165,7 @@ const plantTopics = (p, l) => {
     : "";
 };
 const appNote = (l) =>
-  `<aside class="app-note"><p class="eyebrow">lilora</p><h2>${escape(promotionCopy[l].recordTitle)}</h2><p>${escape(promotionCopy[l].recordBody)}</p><p>${locales[l].status}</p>${!["tr", "en"].includes(l) ? `<p>${locales[l].appLanguages}</p>` : ""}<a class="button" data-analytics-cta="article" href="${prefix(l)}download/">${locales[l].getApp}</a></aside>`;
+  `<aside class="app-note"><p class="eyebrow">lilora</p><h2>${escape(promotionCopy[l].recordTitle)}</h2><p>${escape(promotionCopy[l].recordBody)}</p><p>${locales[l].status}</p>${!["tr", "en"].includes(l) ? `<p>${locales[l].appLanguages}</p>` : ""}${appStoreBadge(l, locales[l], "article")}${appStoreQr(locales[l], 120, "app-note-qr")}</aside>`;
 const homeEditorial = (l) => {
   const t = locales[l], copy = promotionCopy[l];
   const latest = articles
@@ -350,9 +351,11 @@ for (const slug of staticSlugs) {
       ...meta[l],
       alternates,
       sources: [`pages/${slug}/meta.json`, `pages/${slug}/${l}.md`, ...(slug === "home" ? ["pages/home/copy.json"] : [])],
+      storeRedirect: slug === "download",
       schema:
         slug === "home"
           ? [
+              mobileApplication(l, origin, meta[l].description),
               { "@context": "https://schema.org", ...organization },
               {
                 "@context": "https://schema.org",
@@ -364,11 +367,15 @@ for (const slug of staticSlugs) {
                 publisher: { "@id": organization["@id"] },
               },
             ]
-          : [breadcrumbs([[locales[l].home, prefix(l)], [meta[l].title, path]])],
-      body: readFileSync(`pages/${slug}/${l}.md`, "utf8").replace(
-        "{{HOME_EDITORIAL}}",
-        () => homeEditorial(l),
-      ),
+          : [
+              breadcrumbs([[locales[l].home, prefix(l)], [meta[l].title, path]]),
+              ...(slug === "download" ? [mobileApplication(l, origin, meta[l].description)] : []),
+            ],
+      body: readFileSync(`pages/${slug}/${l}.md`, "utf8")
+        .replace("{{HOME_EDITORIAL}}", () => homeEditorial(l))
+        .replace(/\{\{APP_STORE_BADGE:([a-z-]+)\}\}/g, (_, place) => appStoreBadge(l, locales[l], place))
+        .replaceAll("{{APP_STORE_URL}}", appStore.url)
+        .replaceAll("{{APP_STORE_QR}}", () => appStoreQr(locales[l])),
     });
   }
 }

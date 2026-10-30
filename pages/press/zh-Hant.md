@@ -5,9 +5,9 @@
 <div class="promo-split wrap">
   <div class="prose">
     <section aria-labelledby="short-description"><h2 id="short-description">簡短介紹</h2><p class="intro">Lilora 是 iPhone 與 iPad 上可共用的室內植物筆記。將植物、房間、照片、筆記與照護歷程放在一起，並分開紀錄檢查和澆水。</p></section>
-    <section aria-labelledby="long-description"><h2 id="long-description">完整介紹</h2><p>Lilora 協助同住的人留下實用的植物紀錄。每株植物都可以有名字、房間、照片與筆記。提醒是請您檢查；是否需要水，由照護植物的人判斷。檢查與澆水分開紀錄，讓其他人看見誰在何時做了什麼。</p><p>手動新增植物與照護功能免費。不用帳號也能開始，紀錄儲存在您的裝置。帳號提供私人家庭群組共享，以及選用的 Pl@ntNet 照片辨識。辨識候選結果需要您確認。每個帳號有 3 次免費辨識，可選購 10 次組合，或每月提供 30 次的 Lilora Plus Monthly；每月次數不會累計至下個月。</p><p>應用程式適用於 iPhone 與 iPad，提供英文與土耳其文介面。Lilora 正在接受 App Store 審核，目前尚未公開提供。</p></section>
+    <section aria-labelledby="long-description"><h2 id="long-description">完整介紹</h2><p>Lilora 協助同住的人留下實用的植物紀錄。每株植物都可以有名字、房間、照片與筆記。提醒是請您檢查；是否需要水，由照護植物的人判斷。檢查與澆水分開紀錄，讓其他人看見誰在何時做了什麼。</p><p>手動新增植物與照護功能免費。不用帳號也能開始，紀錄儲存在您的裝置。帳號提供私人家庭群組共享，以及選用的 Pl@ntNet 照片辨識。辨識候選結果需要您確認。每個帳號有 3 次免費辨識，可選購 10 次組合，或每月提供 30 次的 Lilora Plus Monthly；每月次數不會累計至下個月。</p><p>應用程式適用於 iPhone 與 iPad，提供英文與土耳其文介面。Lilora 已在 App Store 推出，支援 iPhone 與 iPad。</p></section>
   </div>
-  <aside class="promo-panel" aria-labelledby="product-facts"><h2 id="product-facts">產品資訊</h2><dl class="promo-facts"><div><dt>發行者</dt><dd>Umut OREN · 土耳其</dd></div><div><dt>平台</dt><dd>iPhone &amp; iPad</dd></div><div><dt>應用程式語言</dt><dd data-app-language-disclosure>應用程式提供英文與土耳其文。</dd></div><div><dt>收費方式</dt><dd>手動新增植物與照護免費；辨識組合與月訂閱為選用項目。當地價格由 App Store 顯示。</dd></div><div><dt>狀態</dt><dd>App Store 審核中</dd></div><div><dt>聯絡</dt><dd><a href="/zh-hant/contact/#press">媒體與支援聯絡方式</a></dd></div></dl></aside>
+  <aside class="promo-panel" aria-labelledby="product-facts"><h2 id="product-facts">產品資訊</h2><dl class="promo-facts"><div><dt>發行者</dt><dd>Umut OREN · 土耳其</dd></div><div><dt>平台</dt><dd>iPhone &amp; iPad</dd></div><div><dt>應用程式語言</dt><dd data-app-language-disclosure>應用程式提供英文與土耳其文。</dd></div><div><dt>收費方式</dt><dd>手動新增植物與照護免費；辨識組合與月訂閱為選用項目。當地價格由 App Store 顯示。</dd></div><div><dt>狀態</dt><dd><a href="{{APP_STORE_URL}}" data-analytics-cta="press-status">已在 App Store 推出</a></dd></div><div><dt>聯絡</dt><dd><a href="/zh-hant/contact/#press">媒體與支援聯絡方式</a></dd></div></dl></aside>
 </div>
 <section class="wrap promo-section" aria-labelledby="app-artwork">
   <h2 id="app-artwork">原始應用程式圖片</h2><p>將真實應用程式截圖（包括初次使用介紹畫面）編排為商店宣傳圖片。植物與照護畫面使用範例紀錄。每個 PNG 都保留完整原始構圖，請選擇所需語言與裝置。</p>
@@ -20,12 +20,12 @@
   <img class="press-icon" src="/assets/icon.png" width="180" height="180" alt="Lilora 植物標籤造型應用程式圖示" loading="lazy" decoding="async">
 </section>
 <section class="promo-panel wrap" aria-labelledby="print-files">
-  <h2 id="print-files">列印與分享</h2><p>每個檔案包含連到繁體中文下載頁面的 QR 碼，以及目前的審核狀態。請以實際大小列印，以保留 QR 碼的尺寸與周圍留白。</p>
+  <h2 id="print-files">列印與分享</h2><p>每個檔案都有一個 QR 碼，會透過繁體中文下載頁面在 App Store 開啟 Lilora。請以實際大小列印，以保留 QR 碼的尺寸與周圍留白。</p>
   <div class="promo-actions"><a class="button outline" href="/assets/brand/print/lilora-zh-Hant-a6.pdf" download>A6 卡片（PDF）</a><a class="button outline" href="/assets/brand/print/lilora-zh-Hant-a4.pdf" download>A4 海報（PDF）</a></div>
-  <p class="fine-print">這些是推出前的素材。應用程式推出後，再印製前請更新狀態文字；現有 QR 碼仍可使用。</p>
+  <p class="fine-print">推出前印製的卡片仍可使用：QR 碼現在會開啟 App Store。</p>
 </section>
 <section class="promo-band wrap" aria-labelledby="press-contact">
   <div><h2 id="press-contact">準備報導 Lilora？</h2><p>如有問題、需要圖片細節或產品資訊，請使用聯絡頁面的媒體聯絡方式。</p></div>
-  <div class="promo-actions"><a class="button outline" href="/zh-hant/contact/#press">聯絡 Lilora</a><div class="app-cta"><a class="button" href="/zh-hant/download/" data-analytics-cta="press-download">取得應用程式</a></div></div>
+  <div class="promo-actions"><a class="button outline" href="/zh-hant/contact/#press">聯絡 Lilora</a><div class="app-cta">{{APP_STORE_BADGE:press-download}}</div></div>
 </section>
 </div>

@@ -4,7 +4,7 @@ Lilora, bitkileri, fotoğrafları ve bakım kayıtlarını bir arada tutan ortak
 
 ## Bu karşılaştırmanın kapsamı
 
-16 Ekim 2026 itibarıyla Lilora App Store incelemesini bekliyor. Planta’nın ABD App Store sayfası yayında. Bu yazı belgelenmiş özellikleri karşılaştırır; uygulamalı performans testi değildir. Yayıncı, karşılaştırılan ürünlerden biri olan Lilora’dır. Özellik ve teklifler ülkeye, platforma ve plana göre değişebilir. [Planta App Store sayfası](https://apps.apple.com/us/app/planta-plant-garden-care/id1410126781)
+Lilora 30 Ekim 2026’dan beri App Store’da. Planta’nın ABD App Store sayfası yayında. Bu yazı belgelenmiş özellikleri karşılaştırır; uygulamalı performans testi değildir. Yayıncı, karşılaştırılan ürünlerden biri olan Lilora’dır. Özellik ve teklifler ülkeye, platforma ve plana göre değişebilir. [Planta App Store sayfası](https://apps.apple.com/us/app/planta-plant-garden-care/id1410126781)
 
 ## Hangi iş için yardım istiyorsun?
 
@@ -32,7 +32,7 @@ Kimin bitkileri göreceğini, kimin değiştireceğini ve son kaydı nasıl kont
 
 ## Gerçek satın alma teklifini karşılaştır
 
-Lilora ücretsiz elle tür girişi, ilk üç fotoğraftan bitki tanıma hakkı, 10 tanıma hakkı içeren paket ve aylık 30 tanıma içeren Plus seçeneğini açıklar. Yerel fiyat Apple ekranında gösterilir. Yayın beklenirken karşılaştırılabilecek doğrulanmış herkese açık satın alma fiyatı yoktur. [Lilora satın almaları](https://lilora.app/support/)
+Lilora ücretsiz elle tür girişi, ilk üç fotoğraftan bitki tanıma hakkı, 10 tanıma hakkı içeren paket ve aylık 30 tanıma içeren Plus seçeneğini açıklar. Yerel fiyat Apple ekranında gösterilir. ABD App Store sayfasında 10’lu paket 1,99 ABD doları, Lilora Plus Monthly 2,99 ABD dolarıdır (30 Ekim 2026’da kontrol edildi). [Lilora satın almaları](https://lilora.app/support/)
 
 Planta’nın ABD listesinde bir aylık 7,99 ve 9,99 ABD doları; 12 aylık 35,99 ve 47,99 ABD doları örnekleri bulunur. Bunlar herkese sunulacağı garanti edilen teklifler değildir. Tanıma ve ışık ölçer premium özellikler arasındadır. [App Store](https://apps.apple.com/us/app/planta-plant-garden-care/id1410126781) · [Ücretsiz ve premium erişim](https://support.getplanta.com/do-planta-offer-a-free-trial-of-premium/)
 
@@ -41,7 +41,7 @@ Toplam ücret, yenileme süresi ve dahil özellikleri ödeme ekranında oku. Ayl
 ## Kısa listeni nasıl oluşturmalı?
 
 - Geniş bakım araçlarını şimdi değerlendirmek için Planta’nın güncel sayfasını ve erişebildiğin özellikleri incele.
-- Ortak günlük, önce kontrol etme alışkanlığı ve bakım geçmişi sana uygunsa Lilora’nın açıklanan işleyişine bak; mağaza incelemesi sürüyor.
+- Ortak günlük, önce kontrol etme alışkanlığı ve bakım geçmişi sana uygunsa Lilora’nın açıklanan işleyişine bak.
 - Ücretli planlardan önce üç temel işini yaz. Kullanmayacağın özelliklerden daha fazla ağırlık ver.
 
 ## Sık sorulanlar
@@ -56,4 +56,4 @@ Hayır. Açıklanan ilk sürüm bitki envanteri, ortak kayıtlar, hatırlatmalar
 
 ### Lilora bugün indirilebilir mi?
 
-Bu yazının gözden geçirme tarihinde App Store incelemesini bekliyor. Yayın tarihi sözü verilmiyor. [Güncel ürün açıklaması](https://lilora.app/support/).
+Lilora 30 Ekim 2026’dan beri App Store’da. [Güncel ürün açıklaması](https://lilora.app/support/).

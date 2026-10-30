@@ -5,9 +5,9 @@
 <div class="promo-split wrap">
   <div class="prose">
     <section aria-labelledby="short-description"><h2 id="short-description">短い紹介文</h2><p class="intro">Liloraは、iPhoneとiPad向けの、共有できる観葉植物ノートです。植物、部屋、写真、メモ、お世話の履歴をまとめ、確認と水やりを別々に記録できます。</p></section>
-    <section aria-labelledby="long-description"><h2 id="long-description">詳しい紹介文</h2><p>Liloraは、同じ家で暮らす人が、植物について役立つ記録を残すためのアプリです。植物ごとに名前、部屋、写真、メモを付けられます。リマインダーは確認を促し、水が必要かは世話をする人が判断します。確認と水やりの記録を分けることで、ほかの人も、誰がいつ何をしたかを見られます。</p><p>手入力の植物とお世話の記録は無料です。アカウントなしで始められ、その場合、記録は端末内に保存されます。アカウントを作ると、非公開の世帯での共有と、Pl@ntNetによる任意の写真識別を使えます。識別候補は、自分で確認して選びます。各アカウントに無料の識別3回があり、10回パック、または毎月30回のLilora Plus Monthlyを追加できます。月間回数の繰り越しはありません。</p><p>アプリはiPhoneとiPad向けで、表示言語は英語とトルコ語です。LiloraはApp Storeで審査中のため、まだ一般公開されていません。</p></section>
+    <section aria-labelledby="long-description"><h2 id="long-description">詳しい紹介文</h2><p>Liloraは、同じ家で暮らす人が、植物について役立つ記録を残すためのアプリです。植物ごとに名前、部屋、写真、メモを付けられます。リマインダーは確認を促し、水が必要かは世話をする人が判断します。確認と水やりの記録を分けることで、ほかの人も、誰がいつ何をしたかを見られます。</p><p>手入力の植物とお世話の記録は無料です。アカウントなしで始められ、その場合、記録は端末内に保存されます。アカウントを作ると、非公開の世帯での共有と、Pl@ntNetによる任意の写真識別を使えます。識別候補は、自分で確認して選びます。各アカウントに無料の識別3回があり、10回パック、または毎月30回のLilora Plus Monthlyを追加できます。月間回数の繰り越しはありません。</p><p>アプリはiPhoneとiPad向けで、表示言語は英語とトルコ語です。LiloraはiPhone・iPad向けにApp Storeで配信中です。</p></section>
   </div>
-  <aside class="promo-panel" aria-labelledby="product-facts"><h2 id="product-facts">製品情報</h2><dl class="promo-facts"><div><dt>提供者</dt><dd>Umut OREN · トルコ</dd></div><div><dt>対応端末</dt><dd>iPhone・iPad</dd></div><div><dt>アプリの言語</dt><dd data-app-language-disclosure>英語とトルコ語です。</dd></div><div><dt>料金体系</dt><dd>植物の手入力とお世話の記録は無料です。任意の識別パックと月額サブスクリプションがあります。地域の価格はApp Storeに表示されます。</dd></div><div><dt>提供状況</dt><dd>App Storeで審査中</dd></div><div><dt>連絡先</dt><dd><a href="/ja/contact/#press">報道・サポート窓口</a></dd></div></dl></aside>
+  <aside class="promo-panel" aria-labelledby="product-facts"><h2 id="product-facts">製品情報</h2><dl class="promo-facts"><div><dt>提供者</dt><dd>Umut OREN · トルコ</dd></div><div><dt>対応端末</dt><dd>iPhone・iPad</dd></div><div><dt>アプリの言語</dt><dd data-app-language-disclosure>英語とトルコ語です。</dd></div><div><dt>料金体系</dt><dd>植物の手入力とお世話の記録は無料です。任意の識別パックと月額サブスクリプションがあります。地域の価格はApp Storeに表示されます。</dd></div><div><dt>提供状況</dt><dd><a href="{{APP_STORE_URL}}" data-analytics-cta="press-status">App Storeで配信中</a></dd></div><div><dt>連絡先</dt><dd><a href="/ja/contact/#press">報道・サポート窓口</a></dd></div></dl></aside>
 </div>
 <section class="wrap promo-section" aria-labelledby="app-artwork">
   <h2 id="app-artwork">オリジナルのアプリ画像</h2><p>初回案内を含む実際のアプリ画面を、ストア用画像として構成しています。植物とお世話の画面にはサンプル記録を使用しています。各PNGには元の構図をすべて収めています。必要な言語と端末を選んでください。</p>
@@ -20,12 +20,12 @@
   <img class="press-icon" src="/assets/icon.png" width="180" height="180" alt="植物ラベルをかたどったLiloraのアプリアイコン" loading="lazy" decoding="async">
 </section>
 <section class="promo-panel wrap" aria-labelledby="print-files">
-  <h2 id="print-files">印刷して共有する</h2><p>各ファイルには、日本語のダウンロードページを開くQRコードと、現在の審査状況が記載されています。QRコードの大きさと周囲の余白を保つため、実際のサイズで印刷してください。</p>
+  <h2 id="print-files">印刷して共有する</h2><p>各ファイルには、日本語のダウンロードページを経由してApp StoreでLiloraを開くQRコードが記載されています。QRコードの大きさと周囲の余白を保つため、実際のサイズで印刷してください。</p>
   <div class="promo-actions"><a class="button outline" href="/assets/brand/print/lilora-ja-a6.pdf" download>A6カード（PDF）</a><a class="button outline" href="/assets/brand/print/lilora-ja-a4.pdf" download>A4ポスター（PDF）</a></div>
-  <p class="fine-print">公開前の資料です。アプリ公開後に追加印刷する場合は、提供状況を更新した文面を使ってください。既存のQRコードは引き続き使えます。</p>
+  <p class="fine-print">公開前に印刷したカードも引き続き使えます。QRコードからApp Storeが開きます。</p>
 </section>
 <section class="promo-band wrap" aria-labelledby="press-contact">
   <div><h2 id="press-contact">Liloraについて記事を書かれますか？</h2><p>質問、画像の詳細、製品情報については、お問い合わせページの報道向け窓口をご利用ください。</p></div>
-  <div class="promo-actions"><a class="button outline" href="/ja/contact/#press">Liloraに問い合わせる</a><div class="app-cta"><a class="button" href="/ja/download/" data-analytics-cta="press-download">アプリについて</a></div></div>
+  <div class="promo-actions"><a class="button outline" href="/ja/contact/#press">Liloraに問い合わせる</a><div class="app-cta">{{APP_STORE_BADGE:press-download}}</div></div>
 </section>
 </div>

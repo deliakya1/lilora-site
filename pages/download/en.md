@@ -6,17 +6,15 @@
 </header>
 <section class="promo-split wrap" aria-labelledby="download-status">
   <div class="promo-panel">
-    <p class="eyebrow">In App Store review</p>
-    <h2 id="download-status">In App Store review</h2>
-    <p class="intro">Lilora is in App Store review. When it is live, this page will take you straight to the App Store.</p>
-    <p>There is no public download yet. You can keep this link or scan the QR code to open the same page on your iPhone or iPad.</p>
-    <section id="launch-signup" class="launch-signup" aria-labelledby="launch-signup-title"><h3 id="launch-signup-title">Hear when Lilora is out.</h3><p>Leave your email address and we’ll send you the download link.</p><form class="contact-form launch-form" method="post" action="https://mpswscvxcoixnlltahqn.supabase.co/functions/v1/website-launch-signup" data-sent="Done. We’ll send the download link to this address when Lilora is released. If the address was already on the list, we haven’t added it twice." data-invalid="Please enter a valid email address and tick the consent box." data-limited="Too many sign-ups in a short time. Please try again in an hour." data-error="We couldn’t save your sign-up right now. Please try again shortly." data-sending="Sending…"><input type="hidden" name="language" value="en"><input type="hidden" name="page" value="/download/"><input type="hidden" name="started" value=""><div class="contact-trap" aria-hidden="true"><label>Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div><div class="contact-field"><label for="launch-email">Your email address</label><input id="launch-email" name="email" type="email" autocomplete="email" maxlength="254" required></div><div class="contact-consent"><input id="launch-consent" name="consent" type="checkbox" value="yes" required><label for="launch-consent">I agree to receive one email with the download link when Lilora is released. No newsletter; details in the <a href="/privacy/#launch-notice">privacy policy</a>.</label></div><p class="contact-status" role="status" aria-live="polite" hidden></p><button class="button" type="submit">Get the launch email</button></form></section>
+    <p class="eyebrow">On the App Store</p>
+    <h2 id="download-status">Lilora is on the App Store</h2>
+    <p class="intro">Lilora is available for iPhone and iPad. Tap below to open it on the App Store.</p>
+    {{APP_STORE_BADGE:download}}
+    <p>Manual plants and care records are free. The App Store shows prices for optional identifications in your currency.</p>
     <div class="promo-qr">
-      <img src="/assets/brand/qr/en-download.svg" width="256" height="256" alt="QR code opening the English Lilora download page">
-      <h3>Keep this page on your phone</h3><p>Scan with your iPhone or iPad. This link stays the same when Lilora launches.</p>
-
+      {{APP_STORE_QR}}
+      <h3>Open it on your iPhone or iPad</h3><p>Scan with your iPhone or iPad camera to open Lilora on the App Store.</p>
     </div>
-    <div class="promo-mobile-cta"><a class="button" href="/download/#download-status" data-analytics-cta="download-status">View download status</a></div>
   </div>
   <figure class="promo-atmosphere"><img src="/assets/images/home/download-window-v1-640.webp" srcset="/assets/images/home/download-window-v1-320.webp 320w, /assets/images/home/download-window-v1-640.webp 640w, /assets/images/home/download-window-v1-960.webp 960w" sizes="(max-width: 700px) 100vw, 40vw" width="640" height="960" alt="Illustration of a rubber plant and trailing pothos beside a sunlit window" decoding="async"><figcaption>An illustrative plant scene, generated for Lilora.</figcaption></figure>
 </section>
@@ -32,7 +30,7 @@
   <p>Prices are shown by the App Store in your currency. You can keep recording care without buying identifications.</p>
 </section>
 <section class="promo-band wrap" aria-labelledby="download-guides">
-  <div><h2 id="download-guides">Something to read while you wait</h2><p>Learn what to notice before watering, how to think about indoor light, and how to leave a useful care record.</p></div>
+  <div><h2 id="download-guides">Something to read before you start</h2><p>Learn what to notice before watering, how to think about indoor light, and how to leave a useful care record.</p></div>
   <div class="promo-actions"><a class="button outline" href="/guides/">Read the guides</a><a class="text-link" href="/support/">Questions about Lilora</a><a class="text-link" href="/about/">About Lilora</a></div>
 </section>
 </div>

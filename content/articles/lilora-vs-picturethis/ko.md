@@ -4,7 +4,7 @@
 
 ## 비교 범위
 
-2026년 10월 16일 기준으로 Lilora는 App Store 심사를 기다리고 있습니다. PictureThis에는 미국 App Store 공개 목록이 있습니다. 이 글은 문서에 명시된 기능을 비교하며, 직접 사용한 정확도 시험이 아닙니다. 비교 대상 중 하나인 Lilora가 발행했습니다. 기능, 가격, 혜택은 달라질 수 있습니다. [App Store의 PictureThis](https://apps.apple.com/us/app/picturethis-plant-identifier/id1252497129)
+Lilora는 2026년 10월 30일부터 App Store에서 제공되고 있습니다. PictureThis에는 미국 App Store 공개 목록이 있습니다. 이 글은 문서에 명시된 기능을 비교하며, 직접 사용한 정확도 시험이 아닙니다. 비교 대상 중 하나인 Lilora가 발행했습니다. 기능, 가격, 혜택은 달라질 수 있습니다. [App Store의 PictureThis](https://apps.apple.com/us/app/picturethis-plant-identifier/id1252497129)
 
 ## 이름은 식물 이야기의 시작입니다
 
@@ -47,7 +47,7 @@ Lilora는 최초 식별 3회, 10회 묶음, 매월 30회가 제공되는 Plus를
 ## 실제로 선택하는 방법
 
 - ‘이 식물은 무엇이고 어디서 더 알아볼 수 있을까?’가 궁금하다면 PictureThis의 식별·정보 도구를 살펴보세요.
-- ‘우리 식물에 무슨 일이 있었고 누가 돌봤을까?’가 중요하다면 출시를 기다리는 동안 Lilora의 가정용 식물 노트 방식을 살펴보세요.
+- ‘우리 식물에 무슨 일이 있었고 누가 돌봤을까?’가 중요하다면 Lilora의 가정용 식물 노트 방식을 살펴보세요.
 - 둘 다 중요하다면 사진 촬영부터 기록, 다음 관리 확인까지 전체 과정을 비교하세요. 카메라 시연만으로 결정하지 마세요.
 
 ## 자주 묻는 질문
@@ -62,4 +62,4 @@ Lilora는 최초 식별 3회, 10회 묶음, 매월 30회가 제공되는 Plus를
 
 ### Lilora는 어디서 받을 수 있나요?
 
-2026년 10월 16일 기준으로 Lilora는 App Store 심사를 기다리고 있습니다. 공개 배포가 확인되면 다운로드 링크를 제공합니다. [Lilora 사용 방식 보기](https://lilora.app/ko/support/).
+Lilora는 2026년 10월 30일부터 App Store에서 제공되고 있습니다. 앱은 현재 영어와 터키어로 제공됩니다. [Lilora 사용 방식 보기](https://lilora.app/ko/support/).

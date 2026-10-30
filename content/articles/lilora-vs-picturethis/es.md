@@ -4,7 +4,7 @@ PictureThis merece una mirada si reconocer plantas y explorar información sobre
 
 ## Qué cubre esta comparación
 
-A 16 de octubre de 2026, Lilora está pendiente de revisión en el App Store. PictureThis tiene una ficha pública en el App Store de Estados Unidos. Se comparan capacidades documentadas, no la precisión en una prueba práctica. Lo publica Lilora, uno de los productos comparados. Las funciones, los precios y las ofertas pueden cambiar. [PictureThis en la App Store](https://apps.apple.com/us/app/picturethis-plant-identifier/id1252497129)
+Lilora está disponible en el App Store desde el 30 de octubre de 2026. PictureThis tiene una ficha pública en el App Store de Estados Unidos. Se comparan capacidades documentadas, no la precisión en una prueba práctica. Lo publica Lilora, uno de los productos comparados. Las funciones, los precios y las ofertas pueden cambiar. [PictureThis en la App Store](https://apps.apple.com/us/app/picturethis-plant-identifier/id1252497129)
 
 ## Un nombre es el comienzo de la historia de una planta
 
@@ -47,7 +47,7 @@ Comprueba qué cubre el primer cargo, si se renueva y qué sigue funcionando sin
 ## Una forma práctica de elegir
 
 - Para «¿Qué planta es y dónde aprendo más?», investiga las herramientas de identificación y consulta de PictureThis.
-- Para «¿Qué ha pasado con nuestras plantas y quién las ha cuidado?», explora el enfoque de cuaderno del hogar de Lilora mientras el lanzamiento está pendiente (la app está en inglés y turco).
+- Para «¿Qué ha pasado con nuestras plantas y quién las ha cuidado?», explora el enfoque de cuaderno del hogar de Lilora (la app está en inglés y turco).
 - Si te importan ambas cosas, compara el proceso completo, de la foto al registro y a la siguiente revisión. No elijas solo por una demostración de la cámara.
 
 ## Preguntas frecuentes
@@ -62,4 +62,4 @@ No tenemos ninguna prueba comparativa que lo respalde y no hacemos ninguna clasi
 
 ### ¿Dónde consigo Lilora?
 
-A 16 de octubre de 2026, Lilora está pendiente de revisión en el App Store. Enlazaremos una descarga pública cuando su disponibilidad esté verificada. La app estará en inglés y turco. [Mira cómo funciona Lilora](https://lilora.app/es/support/).
+Lilora está disponible en el App Store desde el 30 de octubre de 2026. La app está disponible actualmente en inglés y turco. [Mira cómo funciona Lilora](https://lilora.app/es/support/).

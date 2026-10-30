@@ -82,7 +82,7 @@ test('all four translations retain article sections, institutional citations and
     }
   }
   for (const language of languages) {
-    for (const page of ['contact/', 'download/', 'blog/check-before-you-water/']) {
+    for (const page of ['contact/', 'blog/check-before-you-water/']) {
       const html = read('.' + prefix(language) + page + 'index.html');
       assert.ok(html.includes(`name="language" value="${language}"`), `${language}/${page}: server language`);
     }

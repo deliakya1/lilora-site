@@ -8,7 +8,7 @@ const root=process.cwd();
 const crawl=(dir)=>readdirSync(dir,{withFileTypes:true}).flatMap(x=>x.name.startsWith('.')||['node_modules','scripts','pages'].includes(x.name)?[]:x.isDirectory()?crawl(dir+'/'+x.name):x.name.endsWith('.html')&&!/^(google[0-9a-f]+|yandex_[0-9a-f]+|pinterest-[0-9a-f]+)\.html$/.test(x.name)?[dir+'/'+x.name]:[]);
 // google<token>.html, yandex_<token>.html and pinterest-<token>.html are search-engine ownership files, not pages.
 // Redirect pages for moved URLs (content/redirects.json) are not pages in their own right.
-const files=crawl(root).filter(f=>!readFileSync(f,'utf8').includes('http-equiv="refresh"'));
+const files=crawl(root).filter(f=>!readFileSync(f,'utf8').includes('http-equiv="refresh" content="0;'));
 const content=JSON.parse(readFileSync('editorial/articles.json'));
 const datedContent=[...content,...JSON.parse(readFileSync('editorial/plants.json'))];
 const allSitemaps=()=>languages.map(l=>readFileSync(`sitemap-${l}.xml`,'utf8')).join('\n');
@@ -39,8 +39,12 @@ test('canonical, reciprocal hreflang, truthful JSON-LD and sitemap',()=>{
 });
 test('availability and owner-supplied consent-gated analytics are explicit',()=>{
  assert.match(readFileSync('assets/analytics-config.js','utf8'),/LILORA_ANALYTICS_ID = 'G-2CYS6B75ET'/);
- for(const lang of ['en','tr']){const home=prefix(lang).slice(1);assert.match(readFileSync(home+'index.html','utf8'),lang==='en'?/(?:awaiting|in) App Store review/i:/App Store inceleme(?:sinde|sini bekliyor)/);}
- assert.doesNotMatch(files.map(f=>readFileSync(f,'utf8')).join(''),/Download on the App Store|AggregateRating|gtag\/js\?id=/);
+ for(const lang of ['en','tr']){const home=prefix(lang).slice(1);assert.match(readFileSync(home+'index.html','utf8'),lang==='en'?/available on the App Store/:/App Store’da/);}
+ const all=files.map(f=>readFileSync(f,'utf8')).join('');
+ assert.doesNotMatch(all,/(?:awaiting|in) App Store review|App Store inceleme(?:sinde|sini bekliyor)|AggregateRating|gtag\/js\?id=/i);
+ // The live listing: Smart App Banner on every page and one canonical App Store URL.
+ for(const f of files)assert.match(readFileSync(f,'utf8'),/<meta name="apple-itunes-app" content="app-id=6818604360">/,f);
+ for(const [url] of all.matchAll(/https:\/\/apps\.apple\.com\/[^"'\s<)]*6818604360[^"'\s<)]*/g))assert.equal(url,'https://apps.apple.com/app/id6818604360');
 });
 
 test('published short answers retain Markdown source links as usable citations',()=>{

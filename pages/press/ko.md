@@ -5,9 +5,9 @@
 <div class="promo-split wrap">
   <div class="prose">
     <section aria-labelledby="short-description"><h2 id="short-description">짧은 소개</h2><p class="intro">Lilora는 iPhone과 iPad에서 함께 쓰는 실내 식물 노트입니다. 식물, 방, 사진, 메모, 관리 이력을 한곳에 모으고 확인과 물주기를 별도로 기록합니다.</p></section>
-    <section aria-labelledby="long-description"><h2 id="long-description">자세한 소개</h2><p>Lilora는 함께 사는 사람들이 유용한 식물 기록을 남기도록 돕습니다. 식물마다 이름, 방, 사진, 메모를 둘 수 있습니다. 알림은 확인을 권하고, 실제로 물이 필요한지는 돌보는 사람이 결정합니다. 확인과 물주기는 별도로 기록되어 다른 사람도 누가 언제 무엇을 했는지 볼 수 있습니다.</p><p>수동으로 식물을 등록하고 관리하는 기능은 무료입니다. 계정 없이 시작할 수 있으며 기록은 기기에 저장됩니다. 계정을 만들면 비공개 가구 공유와 선택적 Pl@ntNet 사진 식별을 이용할 수 있습니다. 식별 후보는 사용자의 확인이 필요합니다. 계정마다 무료 식별 3회가 제공되며, 선택적으로 10회 묶음이나 매월 30회를 제공하는 Lilora Plus Monthly를 구매할 수 있습니다. 월별 횟수는 이월되지 않습니다.</p><p>앱은 iPhone과 iPad용이며 영어와 튀르키예어 인터페이스를 제공합니다. Lilora는 App Store 심사 중으로 아직 공개 배포되지 않았습니다.</p></section>
+    <section aria-labelledby="long-description"><h2 id="long-description">자세한 소개</h2><p>Lilora는 함께 사는 사람들이 유용한 식물 기록을 남기도록 돕습니다. 식물마다 이름, 방, 사진, 메모를 둘 수 있습니다. 알림은 확인을 권하고, 실제로 물이 필요한지는 돌보는 사람이 결정합니다. 확인과 물주기는 별도로 기록되어 다른 사람도 누가 언제 무엇을 했는지 볼 수 있습니다.</p><p>수동으로 식물을 등록하고 관리하는 기능은 무료입니다. 계정 없이 시작할 수 있으며 기록은 기기에 저장됩니다. 계정을 만들면 비공개 가구 공유와 선택적 Pl@ntNet 사진 식별을 이용할 수 있습니다. 식별 후보는 사용자의 확인이 필요합니다. 계정마다 무료 식별 3회가 제공되며, 선택적으로 10회 묶음이나 매월 30회를 제공하는 Lilora Plus Monthly를 구매할 수 있습니다. 월별 횟수는 이월되지 않습니다.</p><p>앱은 iPhone과 iPad용이며 영어와 튀르키예어 인터페이스를 제공합니다. Lilora는 App Store에서 iPhone 및 iPad용으로 제공됩니다.</p></section>
   </div>
-  <aside class="promo-panel" aria-labelledby="product-facts"><h2 id="product-facts">제품 정보</h2><dl class="promo-facts"><div><dt>제공자</dt><dd>Umut OREN · 튀르키예</dd></div><div><dt>플랫폼</dt><dd>iPhone &amp; iPad</dd></div><div><dt>앱 언어</dt><dd data-app-language-disclosure>앱은 영어와 튀르키예어로 제공됩니다.</dd></div><div><dt>요금 방식</dt><dd>수동 식물 등록과 관리는 무료이며, 식별 묶음과 월간 구독은 선택 사항입니다. 지역별 가격은 App Store에 표시됩니다.</dd></div><div><dt>상태</dt><dd>App Store 심사 중</dd></div><div><dt>문의</dt><dd><a href="/ko/contact/#press">보도·지원 문의</a></dd></div></dl></aside>
+  <aside class="promo-panel" aria-labelledby="product-facts"><h2 id="product-facts">제품 정보</h2><dl class="promo-facts"><div><dt>제공자</dt><dd>Umut OREN · 튀르키예</dd></div><div><dt>플랫폼</dt><dd>iPhone &amp; iPad</dd></div><div><dt>앱 언어</dt><dd data-app-language-disclosure>앱은 영어와 튀르키예어로 제공됩니다.</dd></div><div><dt>요금 방식</dt><dd>수동 식물 등록과 관리는 무료이며, 식별 묶음과 월간 구독은 선택 사항입니다. 지역별 가격은 App Store에 표시됩니다.</dd></div><div><dt>상태</dt><dd><a href="{{APP_STORE_URL}}" data-analytics-cta="press-status">App Store에서 제공 중</a></dd></div><div><dt>문의</dt><dd><a href="/ko/contact/#press">보도·지원 문의</a></dd></div></dl></aside>
 </div>
 <section class="wrap promo-section" aria-labelledby="app-artwork">
   <h2 id="app-artwork">원본 앱 이미지</h2><p>온보딩 화면을 포함한 실제 앱 캡처를 스토어용 이미지로 구성했습니다. 식물과 관리 화면에는 예시 기록을 사용합니다. 각 PNG는 원래 구성을 온전히 유지합니다. 필요한 언어와 기기를 고르세요.</p>
@@ -20,12 +20,12 @@
   <img class="press-icon" src="/assets/icon.png" width="180" height="180" alt="식물 이름표 모양의 Lilora 앱 아이콘" loading="lazy" decoding="async">
 </section>
 <section class="promo-panel wrap" aria-labelledby="print-files">
-  <h2 id="print-files">인쇄하고 공유하기</h2><p>각 파일에는 한국어 다운로드 페이지로 연결되는 QR 코드와 현재 심사 상태가 들어 있습니다. QR 코드 크기와 주변 여백을 유지하려면 실제 크기로 인쇄하세요.</p>
+  <h2 id="print-files">인쇄하고 공유하기</h2><p>각 파일에는 한국어 다운로드 페이지를 거쳐 App Store에서 Lilora를 여는 QR 코드가 들어 있습니다. QR 코드 크기와 주변 여백을 유지하려면 실제 크기로 인쇄하세요.</p>
   <div class="promo-actions"><a class="button outline" href="/assets/brand/print/lilora-ko-a6.pdf" download>A6 카드(PDF)</a><a class="button outline" href="/assets/brand/print/lilora-ko-a4.pdf" download>A4 포스터(PDF)</a></div>
-  <p class="fine-print">출시 전 자료입니다. 앱이 출시되면 추가 인쇄 전에 상태 문구를 업데이트하세요. 기존 QR 코드는 계속 작동합니다.</p>
+  <p class="fine-print">출시 전에 인쇄한 카드도 계속 사용할 수 있습니다. QR 코드를 스캔하면 이제 App Store가 열립니다.</p>
 </section>
 <section class="promo-band wrap" aria-labelledby="press-contact">
   <div><h2 id="press-contact">Lilora에 대해 소개하시나요?</h2><p>질문, 이미지 세부 사항, 제품 정보는 문의 페이지의 보도 문의를 이용하세요.</p></div>
-  <div class="promo-actions"><a class="button outline" href="/ko/contact/#press">Lilora에 문의하기</a><div class="app-cta"><a class="button" href="/ko/download/" data-analytics-cta="press-download">앱 받기</a></div></div>
+  <div class="promo-actions"><a class="button outline" href="/ko/contact/#press">Lilora에 문의하기</a><div class="app-cta">{{APP_STORE_BADGE:press-download}}</div></div>
 </section>
 </div>

@@ -6,17 +6,15 @@
 </header>
 <section class="promo-split wrap" aria-labelledby="download-status">
   <div class="promo-panel">
-    <p class="eyebrow">In fase di revisione sull’App Store</p>
-    <h2 id="download-status">In fase di revisione sull’App Store</h2>
-    <p class="intro">Lilora è in fase di revisione sull’App Store. Quando sarà disponibile, questa pagina ti porterà direttamente all’App Store.</p>
-    <p>Il download pubblico non è ancora disponibile. Puoi conservare questo link o scansionare il codice QR per aprire la stessa pagina sul tuo iPhone o iPad.</p>
-    <section id="launch-signup" class="launch-signup" aria-labelledby="launch-signup-title"><h3 id="launch-signup-title">Scopri quando esce Lilora.</h3><p>Lascia il tuo indirizzo email e ti invieremo il link per il download.</p><form class="contact-form launch-form" method="post" action="https://mpswscvxcoixnlltahqn.supabase.co/functions/v1/website-launch-signup" data-sent="Fatto. Invieremo il link per il download a questo indirizzo quando uscirà Lilora. Se era già nell’elenco, non lo abbiamo aggiunto due volte." data-invalid="Inserisci un indirizzo email valido e seleziona la casella del consenso." data-limited="Troppe iscrizioni in poco tempo. Riprova tra un’ora." data-error="Al momento non siamo riusciti a salvare l’iscrizione. Riprova tra poco." data-sending="Invio in corso…"><input type="hidden" name="language" value="it"><input type="hidden" name="page" value="/it/download/"><input type="hidden" name="started" value=""><div class="contact-trap" aria-hidden="true"><label>Sito web <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div><div class="contact-field"><label for="launch-email">Il tuo indirizzo email</label><input id="launch-email" name="email" type="email" autocomplete="email" maxlength="254" required></div><div class="contact-consent"><input id="launch-consent" name="consent" type="checkbox" value="yes" required><label for="launch-consent">Acconsento a ricevere una sola email con il link per il download quando uscirà Lilora. Nessuna newsletter; dettagli nell’<a href="/it/privacy/#launch-notice">informativa sulla privacy</a>.</label></div><p class="contact-status" role="status" aria-live="polite" hidden></p><button class="button" type="submit">Ricevi l’email di lancio</button></form></section>
+    <p class="eyebrow">Sull’App Store</p>
+    <h2 id="download-status">Lilora è sull’App Store</h2>
+    <p class="intro">Lilora è disponibile per iPhone e iPad. Tocca qui sotto per aprirla sull’App Store.</p>
+    {{APP_STORE_BADGE:download}}
+    <p>Il diario manuale delle piante e delle cure è gratuito. L’App Store mostra nella tua valuta i prezzi dei riconoscimenti facoltativi.</p>
     <div class="promo-qr">
-      <img src="/assets/brand/qr/it-download.svg" width="256" height="256" alt="Codice QR che apre la pagina di download di Lilora in italiano">
-      <h3>Conserva questa pagina sul telefono</h3><p>Scansiona con il tuo iPhone o iPad. Il link rimarrà lo stesso al lancio di Lilora.</p>
-
+      {{APP_STORE_QR}}
+      <h3>Aprilo su iPhone o iPad</h3><p>Scansiona con la fotocamera di iPhone o iPad per aprire Lilora sull’App Store.</p>
     </div>
-    <div class="promo-mobile-cta"><a class="button" href="/it/download/#download-status" data-analytics-cta="download-status">Vedi lo stato del download</a></div>
   </div>
   <figure class="promo-atmosphere"><img src="/assets/images/home/download-window-v1-640.webp" srcset="/assets/images/home/download-window-v1-320.webp 320w, /assets/images/home/download-window-v1-640.webp 640w, /assets/images/home/download-window-v1-960.webp 960w" sizes="(max-width: 700px) 100vw, 40vw" width="640" height="960" alt="Illustrazione di un ficus elastica e un pothos ricadente accanto a una finestra soleggiata" decoding="async"><figcaption>Una scena illustrata con piante, generata per Lilora.</figcaption></figure>
 </section>
@@ -32,7 +30,7 @@
   <p>L’App Store mostra i prezzi nella tua valuta. Puoi continuare a registrare le cure senza acquistare identificazioni.</p>
 </section>
 <section class="promo-band wrap" aria-labelledby="download-guides">
-  <div><h2 id="download-guides">Qualcosa da leggere nell’attesa</h2><p>Scopri cosa osservare prima di annaffiare, come valutare la luce in casa e come lasciare una registrazione utile delle cure.</p></div>
+  <div><h2 id="download-guides">Qualcosa da leggere prima di iniziare</h2><p>Scopri cosa osservare prima di annaffiare, come valutare la luce in casa e come lasciare una registrazione utile delle cure.</p></div>
   <div class="promo-actions"><a class="button outline" href="/it/guides/">Leggi le guide</a><a class="text-link" href="/it/support/">Domande su Lilora</a><a class="text-link" href="/it/about/">Informazioni su Lilora</a></div>
 </section>
 </div>

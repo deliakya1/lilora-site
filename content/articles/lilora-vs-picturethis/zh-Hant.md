@@ -4,7 +4,7 @@
 
 ## 本文比較範圍
 
-截至 2026 年 10 月 16 日，Lilora 正等待 App Store 審核，PictureThis 已有美國 App Store 公開頁面。本文比較文件記載的功能，不是實測辨識準確率。發布者 Lilora 是受比較產品之一。功能、價格與優惠可能改變。[PictureThis on the App Store](https://apps.apple.com/us/app/picturethis-plant-identifier/id1252497129)
+Lilora 自 2026 年 10 月 30 日起已在 App Store 推出；PictureThis 已有美國 App Store 公開頁面。本文比較文件記載的功能，不是實測辨識準確率。發布者 Lilora 是受比較產品之一。功能、價格與優惠可能改變。[PictureThis on the App Store](https://apps.apple.com/us/app/picturethis-plant-identifier/id1252497129)
 
 ## 名字只是植物故事的開頭
 
@@ -47,7 +47,7 @@ Lilora 說明提供起始 3 次辨識、10 次套組，以及每月 30 次的 Pl
 ## 實際選擇方式
 
 - 想問「這是什麼植物，哪裡能深入了解？」可研究 PictureThis 的辨識與參考工具。
-- 想問「我們的植物發生了什麼，誰照顧過？」可在等待上架期間了解 Lilora 的家庭筆記方式。
+- 想問「我們的植物發生了什麼，誰照顧過？」可以了解 Lilora 的家庭筆記方式。
 - 兩者都重要，就比較從照片、紀錄到下一次檢查的完整流程，不只看相機示範。
 
 ## 常見問答
@@ -62,4 +62,4 @@ Lilora 說明提供起始 3 次辨識、10 次套組，以及每月 30 次的 Pl
 
 ### 哪裡能取得 Lilora？
 
-截至 2026 年 10 月 16 日，Lilora 等待 App Store 審核。確認可用後會提供公開下載連結。[See how Lilora works](https://lilora.app/zh-hant/support/)。
+Lilora 自 2026 年 10 月 30 日起已在 App Store 推出。 應用程式目前提供英文和土耳其文。 [See how Lilora works](https://lilora.app/zh-hant/support/)。

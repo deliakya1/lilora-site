@@ -41,7 +41,7 @@ In einem gemeinsamen Haushalt zählt das noch mehr. Wer als Nächstes nachsieht,
 
 ## Was eine Erinnerung nicht kann
 
-Eine Erinnerung ist ein Anstoß, keine Diagnose. Sie kennt weder deine Raumtemperatur noch dein Fenster noch den Tag, an dem du umgetopft hast. Erinnerungen kommen in Lilora am Fälligkeitstag um 9:00 Uhr Ortszeit. Für alle, die eine möchten, gibt es zusätzlich eine optionale Gießerinnerung, und die App schreibt daneben ausdrücklich, dass Lilora nicht erkennen kann, ob eine Pflanze Wasser braucht, und man zuerst die Erde prüfen soll. Die Entscheidung übers Wasser bleibt bei dem Menschen, der die Pflanze ansieht. Lilora befindet sich derzeit in der Prüfung durch den App Store; dieser Text beschreibt die eingereichte App.
+Eine Erinnerung ist ein Anstoß, keine Diagnose. Sie kennt weder deine Raumtemperatur noch dein Fenster noch den Tag, an dem du umgetopft hast. Erinnerungen kommen in Lilora am Fälligkeitstag um 9:00 Uhr Ortszeit. Für alle, die eine möchten, gibt es zusätzlich eine optionale Gießerinnerung, und die App schreibt daneben ausdrücklich, dass Lilora nicht erkennen kann, ob eine Pflanze Wasser braucht, und man zuerst die Erde prüfen soll. Die Entscheidung übers Wasser bleibt bei dem Menschen, der die Pflanze ansieht.
 
 ## Häufige Fragen
 

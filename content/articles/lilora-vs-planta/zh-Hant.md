@@ -4,7 +4,7 @@ Lilora 以家庭植物筆記為核心，把植物、照片與照護紀錄放在�
 
 ## 本文比較範圍
 
-截至 2026 年 10 月 16 日，Lilora 等待 App Store 審核；Planta 已有美國 App Store 公開頁面。本文比較文件記載的功能，並非實際效能測試。發布者 Lilora 是受比較產品之一。功能和方案可能依國家、平台與方案不同。[Planta on the App Store](https://apps.apple.com/us/app/planta-plant-garden-care/id1410126781)
+Lilora 自 2026 年 10 月 30 日起已在 App Store 推出；Planta 已有美國 App Store 公開頁面。本文比較文件記載的功能，並非實際效能測試。發布者 Lilora 是受比較產品之一。功能和方案可能依國家、平台與方案不同。[Planta on the App Store](https://apps.apple.com/us/app/planta-plant-garden-care/id1410126781)
 
 ## 先想需要協助的工作
 
@@ -32,7 +32,7 @@ Lilora 的家庭群組讓成員共用植物、照片與照護歷史。Planta 也
 
 ## 比較你實際能買的方案
 
-Lilora 說明可免費手動輸入物種、提供起始 3 次照片辨識、10 次套組與 Plus 每月 30 次額度。支援頁請讀者以 Apple 顯示的當地價格為準。尚未上架時，沒有可驗證的公開結帳價格能拿來比較。[Lilora purchases](https://lilora.app/zh-hant/support/)
+Lilora 說明可免費手動輸入物種、提供起始 3 次照片辨識、10 次套組與 Plus 每月 30 次額度。支援頁請讀者以 Apple 顯示的當地價格為準。美國 App Store 頁面列出 10 次套組 US$1.99、Lilora Plus Monthly US$2.99（2026 年 10 月 30 日查核）。[Lilora purchases](https://lilora.app/zh-hant/support/)
 
 Planta 美國商店頁列出一個月 US$7.99、US$9.99，以及十二個月 US$35.99、US$47.99 等價格。這些只是頁面範例，不保證你能取得。說明中心將辨識與測光器列為付費功能。[App Store listing](https://apps.apple.com/us/app/planta-plant-garden-care/id1410126781) · [Free and premium access](https://support.getplanta.com/do-planta-offer-a-free-trial-of-premium/)
 
@@ -41,7 +41,7 @@ Planta 美國商店頁列出一個月 US$7.99、US$9.99，以及十二個月 US$
 ## 哪一種值得列入考慮？
 
 - 想現在評估完整照護工具，可查看 Planta 目前頁面及你可用的功能。
-- 若家庭筆記、先檢查流程與共同紀錄符合需求，可在審核期間探索 Lilora 公開描述的流程。
+- 若家庭筆記、先檢查流程與共同紀錄符合需求，可以探索 Lilora 公開描述的流程。
 - 比較付費方案前，寫下三項必要工作，讓它們比不太會用的功能更有權重。
 
 ## 常見問答
@@ -56,4 +56,4 @@ Planta 美國商店頁列出一個月 US$7.99、US$9.99，以及十二個月 US$
 
 ### 今天能下載 Lilora 嗎？
 
-截至本文審閱日期，Lilora 等待 App Store 審核，沒有承諾發布日期。[Explore Lilora’s current product description](https://lilora.app/zh-hant/support/)。
+Lilora 自 2026 年 10 月 30 日起已在 App Store 推出。 應用程式目前提供英文和土耳其文。 [Explore Lilora’s current product description](https://lilora.app/zh-hant/support/)。
