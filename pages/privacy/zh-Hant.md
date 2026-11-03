@@ -1,4 +1,4 @@
-<section class="document-heading wrap"><p class="eyebrow">LILORA / 隱私權</p><h1>隱私權政策</h1><p class="intro">Lilora 如何處理您的資訊。</p></section><article class="document wrap"><p><time datetime="2026-10-23">最後更新：2026 年 10 月 23 日。</time></p>
+<section class="document-heading wrap"><p class="eyebrow">LILORA / 隱私權</p><h1>隱私權政策</h1><p class="intro">Lilora 如何處理您的資訊。</p></section><article class="document wrap"><p><time datetime="2026-11-03">2026-11-03</time></p>
 <section aria-labelledby="summary"><h2 id="summary">重點摘要</h2>
 <ul><li>不需要帳號，也能在裝置上保留訪客筆記。</li><li>建立帳號需要電子郵件地址；家庭群組的紀錄只與其成員分享。</li><li>照片與照片辨識均為選用。選擇繼續後，辨識功能會將移除中繼資料的照片傳送至位於法國的 Pl@ntNet。</li><li>購買由 Apple 處理。我們收到的是交易紀錄，不是您的付款卡資料。</li><li>登入電子郵件使用 Resend。部分供應商在土耳其與歐盟以外處理資料。</li><li>網站分析在您同意前保持關閉；您可以撤回選擇。</li><li>您可以在設定中刪除帳號，並聯絡我們行使隱私權利。</li><li>透過網站聯絡表單傳送的訊息保留 12 個月，之後自動刪除。</li></ul></section>
 <section aria-labelledby="controller"><h2 id="controller">負責人</h2>
@@ -18,6 +18,7 @@
 <p>我們會保留與您帳號連結的每次辨識紀錄，包括請求時間、您同意的說明版本、候選植物種類名稱，以及是否使用了一次辨識額度。這些紀錄用於計算辨識次數、避免同一張照片被重複扣次，並確認您從候選結果中選擇的種類。</p>
 <p>除非您選定結果，否則候選資料不會加入植物。</p>
 <p>應用程式會說明照片將傳送進行 AI 分析，請您檢查結果，並告知找到匹配結果會使用一次辨識額度，沒有匹配或發生錯誤則不扣次。您可選擇英文按鈕 <span lang="en">Continue with AI</span>（繼續使用 AI）或 <span lang="en">Not now</span>（暫時不要）。這是您允許執行選用請求的決定；該畫面並未指明 GDPR 或 KVKK 的跨境傳輸機制。不使用辨識功能不影響手動植物照護。您可以隨時停止提交新照片，也可聯絡我們詢問先前的資料。</p></section>
+<section aria-labelledby="connected-features"><h2 id="connected-features">通知與連線功能</h2><p>植物日誌可包含附日期的照片及筆記。訪客記錄保留在裝置；家庭記錄透過 Supabase 同步並分享給成員。離線變更及刪除會等待同步。配對的 Apple Watch 會收到最多 60 株植物名稱、識別碼、待檢查日期、數量和更新時間的唯讀副本，不包含帳號憑證、照片或筆記。超過 24 小時的副本會隱藏。快取資料可能保留在配對手錶上，直到之後成功更新並取代為止。</p><p>已登入家庭儲存未支援物種時，會傳送物種名稱、植物／來源識別碼、操作識別碼、目錄／應用程式版本及語言，以安排未來指南的優先順序。需求關聯到家庭，成員刪除帳號後可能仍保留。刪除家庭會移除其貢獻和操作，但編輯用物種記錄可能保留。維護程序會移除超過 90 天的操作，以及 180 天後沒有需求或參照的新物種記錄；這不保證立即刪除。</p></section>
 <section aria-labelledby="purchases"><h2 id="purchases">購買</h2>
 <p>辨識組合與 Lilora Plus 訂閱透過 Apple 的 App Store 銷售。付款由 Apple 處理，我們不會收到您的付款卡或 Apple 帳號資料。為將辨識額度加入您的帳號，應用程式會將 App Store 簽署的交易資料（例如商品、交易 ID 與購買日期）傳給我們，Apple 也會傳送續訂、退款與取消通知。我們將這些紀錄與帳號一起保留，用於顯示餘額、回復購買項目，以及避免同一筆購買被重複使用。</p>
 </section>
@@ -34,7 +35,7 @@
 <section aria-labelledby="permissions"><h2 id="permissions">權限</h2>
 <ul>
 <li><strong>相機與照片圖庫：</strong>只有點選英文操作 <span lang="en">Take photo</span>（拍照）或 <span lang="en">Choose photo</span>（選擇照片）時才會請求，以便新增植物照片或進行辨識。訪客照片留在裝置上；家庭群組照片上傳到私人群組儲存空間。用於辨識的照片會依上方說明傳送。</li>
-<li><strong>通知：</strong>只有在開啟提醒時請求。提醒在您的裝置上排程，不會將通知資料傳送給我們。</li>
+<li>通知為選用功能。訪客提醒保留在裝置上。已登入家庭的提醒會儲存 Expo 推播權杖、帳號與家庭關聯、安裝識別碼及驗證雜湊、時區、語言、提醒時間和傳送偏好。Expo 與 Apple Push Notification service（APNs）會收到權杖及通知內容。傳送和操作記錄用於避免重複提醒。你可在應用程式或系統設定關閉提醒。排程清理會在 30 天後移除已完成的傳送及操作記錄，90 天後移除非使用中登錄及日期鍵值；傳送需在過去 30 天內有活動。</li>
 </ul>
 <p>您可隨時在 iOS「設定」中變更這些權限。</p>
 </section>
