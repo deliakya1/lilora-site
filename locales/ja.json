@@ -136,5 +136,8 @@
   "openAppStore": "App Storeで開く",
   "appStoreBadgeAlt": "App Storeからダウンロード",
   "trademark": "Apple、Appleのロゴ、iPhone、iPadは、米国その他の国や地域で登録されたApple Inc.の商標です。App Storeは、Apple Inc.のサービスマークです。",
-  "appStoreQrAlt": "App StoreでLiloraを開くQRコード"
+  "appStoreQrAlt": "App StoreでLiloraを開くQRコード",
+  "appTagline": "植物ケアアプリ",
+  "downloadTitle": "Liloraをダウンロード",
+  "downloadPriceNote": "無料ダウンロード・任意のアプリ内課金あり"
 }

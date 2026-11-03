@@ -559,3 +559,23 @@ html:lang(ja),html:lang(zh-Hant){line-break:strict}
 .footer-bottom .trademark { font-size: 0.75rem; max-width: 60ch; }
 .app-note-qr { display: none; }
 @media (min-width: 900px) { .app-note-qr { display: block; width: 120px; height: 120px; margin-top: 1rem; } }
+
+/* A persistent, native download action on small screens, above page content.
+   The top edge leaves cookie choices, forms and the back-to-top control clear. */
+.mobile-download{display:none}
+.app-store-badge:focus-visible{outline:3px solid var(--color-border-focus);outline-offset:2px;border-radius:4px}
+.footer-column .app-store-action{margin:8px 0 0 -10px}
+@media(max-width:767px){
+ html{scroll-padding-top:112px}
+ .mobile-download{display:block;position:sticky;top:0;z-index:26;background:var(--color-bg-canvas);border-bottom:1px solid var(--color-border-default)}
+ .mobile-download-inner{display:flex;align-items:center;justify-content:space-between;gap:8px;padding-block:4px}
+ .mobile-download-identity{display:flex;align-items:center;gap:10px;min-width:0}
+ .mobile-download-identity img{flex:none;border-radius:8px}
+ .mobile-download-identity strong{display:block;font-size:16px;line-height:1.4}
+ .mobile-download-identity span{display:block;font-size:12px;line-height:1.4;color:var(--color-text-secondary);overflow-wrap:anywhere}
+ .mobile-download .app-store-action{margin:0 -10px 0 0;flex:none}
+ .mobile-download .app-store-badge{vertical-align:middle}
+ body:has(.mobile-menu[open]) .mobile-download{visibility:hidden}
+}
+@media(max-width:380px){.mobile-download-identity img{display:none}}
+@media print{.mobile-download,.footer .app-store-action{display:none!important}}

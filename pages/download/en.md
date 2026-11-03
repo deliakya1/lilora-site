@@ -1,7 +1,7 @@
 <div class="promo-page">
 <header class="promo-header wrap">
-  <p class="eyebrow">Get Lilora</p>
-  <h1>A shared notebook for your plants</h1>
+  <p class="eyebrow">Plant care app</p>
+  <h1>Download Lilora</h1>
   <p class="dek">For iPhone and iPad · The app is in English and Turkish.</p>
 </header>
 <section class="promo-split wrap" aria-labelledby="download-status">
@@ -16,13 +16,13 @@
       <h3>Open it on your iPhone or iPad</h3><p>Scan with your iPhone or iPad camera to open Lilora on the App Store.</p>
     </div>
   </div>
-  <figure class="promo-atmosphere"><img src="/assets/images/home/download-window-v1-640.webp" srcset="/assets/images/home/download-window-v1-320.webp 320w, /assets/images/home/download-window-v1-640.webp 640w, /assets/images/home/download-window-v1-960.webp 960w" sizes="(max-width: 700px) 100vw, 40vw" width="640" height="960" alt="Illustration of a rubber plant and trailing pothos beside a sunlit window" decoding="async"><figcaption>An illustrative plant scene, generated for Lilora.</figcaption></figure>
+  <figure class="promo-artwork"><img src="/assets/images/home/app-en-collection-480.webp" srcset="/assets/images/home/app-en-collection-320.webp 320w, /assets/images/home/app-en-collection-480.webp 480w, /assets/images/home/app-en-collection-720.webp 720w" sizes="(max-width: 700px) 72vw, 300px" width="1320" height="2868" alt="Lilora plant collection with sample plants and room labels" fetchpriority="high" decoding="async"><figcaption>Real app artwork with sample records. App shown in English.</figcaption></figure>
 </section>
 <section class="promo-split wrap" aria-labelledby="what-you-get">
   <div><p class="eyebrow">Lilora</p><h2 id="what-you-get">A record you can come back to</h2>
     <article class="promo-feature"><h3>Your plants, in one place</h3><p>Keep plants, rooms, photos and notes together. Add a plant by hand, even if you do not know its species.</p></article><article class="promo-feature"><h3>A check is not always a watering</h3><p>Reminders ask you to check. Record watering and checks separately, so the next person can see what happened and when.</p></article><article class="promo-feature"><h3>Start on your own, or share care</h3><p>Start without an account; guest records stay on your device. An account lets you share a private household and use photo identification.</p></article>
   </div>
-  <figure class="promo-artwork"><img src="/assets/images/home/app-en-collection-480.webp" srcset="/assets/images/home/app-en-collection-320.webp 320w, /assets/images/home/app-en-collection-480.webp 480w, /assets/images/home/app-en-collection-720.webp 720w" sizes="(max-width: 700px) 72vw, 300px" width="1320" height="2868" alt="Lilora plant collection with sample plants and room labels" loading="lazy" decoding="async"><figcaption>Real app artwork with sample records. App shown in English.</figcaption></figure>
+  <figure class="promo-atmosphere"><img src="/assets/images/home/download-window-v1-640.webp" srcset="/assets/images/home/download-window-v1-320.webp 320w, /assets/images/home/download-window-v1-640.webp 640w, /assets/images/home/download-window-v1-960.webp 960w" sizes="(max-width: 700px) 100vw, 40vw" width="640" height="960" alt="Illustration of a rubber plant and trailing pothos beside a sunlit window" loading="lazy" decoding="async"><figcaption>An illustrative plant scene, generated for Lilora.</figcaption></figure>
 </section>
 <section class="promo-panel wrap" aria-labelledby="free-care">
   <h2 id="free-care">Manual care stays free</h2><p>Manual plants, rooms, photos, notes and care history are free. Photo identification is optional, uses Pl@ntNet and offers suggestions for you to confirm.</p>

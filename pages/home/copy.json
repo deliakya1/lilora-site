@@ -1,10 +1,10 @@
 {
   "tr": {
-    "eyebrow": "Evdeki bitkilerin için bir defter",
-    "title": "Birlikte yaşadığın bitkiler, ortak bir defter.",
+    "eyebrow": "iPhone ve iPad için bitki bakım uygulaması",
+    "title": "Bitki bakımın, tek bir uygulamada.",
     "seoTitle": "Evdeki bitkiler için ortak bakım uygulaması",
-    "dek": "Hangi bitki nerede, en son kim kontrol etti, ne zaman sulandı? Fotoğrafları, notları ve bakım geçmişini Lilora’da bir arada tut.",
-    "getApp": "Uygulamayı edin",
+    "dek": "Fotoğraftan bitki tanı, kontrol hatırlatmaları oluştur ve bakım notlarını bir arada tut. Lilora’yı iPhone veya iPad’ine indir, bakımı evdekilerle paylaş.",
+    "getApp": "Uygulamayı indir",
     "seeHow": "Nasıl çalıştığını gör",
     "status": "App Store’da",
     "devices": "iPhone ve iPad",
@@ -97,7 +97,7 @@
       },
       {
         "question": "Hangi cihazlarda ve dillerde çalışıyor?",
-        "answer": "Lilora, iPhone ve iPad için hazırlanıyor. Uygulama Türkçe ve İngilizce; web sitesi on dilde."
+        "answer": "Lilora, iPhone ve iPad için yayında. Uygulama Türkçe ve İngilizce; web sitesi on dilde."
       },
       {
         "question": "Bitki bakımı için abonelik gerekiyor mu?",
@@ -127,14 +127,14 @@
     },
     "todayImageAlt": "Lilora’nın Bugün ekranında kontrol zamanı gelen bitkiler ve “Suladım” ile “Suya ihtiyacı yok” seçenekleri",
     "introCaption": "Gerçek uygulamanın tanıtım ekranı.",
-    "heroCaption": "Solda yapay zekâyla oluşturulmuş illüstrasyon; sağda gerçek uygulama ekranından hazırlanmış, örnek bitki kayıtları içeren mağaza görseli. Uygulama Türkçe gösteriliyor."
+    "heroCaption": "Gerçek uygulama ekranından hazırlanmış mağaza görseli; örnek bitki kayıtları içerir. Uygulama Türkçe gösteriliyor."
   },
   "en": {
-    "eyebrow": "A houseplant notebook",
-    "title": "A shared notebook for your plants.",
+    "eyebrow": "Plant care app for iPhone & iPad",
+    "title": "Your plants, cared for in one app.",
     "seoTitle": "Plant care app for shared households",
-    "dek": "Which room, who last checked, when it was watered. Keep your plants’ photos, notes and care history together in Lilora, on iPhone and iPad.",
-    "getApp": "Get the app",
+    "dek": "Identify plants from a photo, set check reminders and keep care notes together. Download Lilora for iPhone and iPad and share care with your household.",
+    "getApp": "Download the app",
     "seeHow": "See how it works",
     "status": "On the App Store",
     "devices": "iPhone & iPad",
@@ -227,7 +227,7 @@
       },
       {
         "question": "Which devices and languages does it support?",
-        "answer": "Lilora is being prepared for iPhone and iPad. The app is in English and Turkish; the website is in ten languages."
+        "answer": "Lilora is available for iPhone and iPad. The app is in English and Turkish; the website is in ten languages."
       },
       {
         "question": "Do I need a subscription for plant care?",
@@ -257,14 +257,14 @@
     },
     "todayImageAlt": "Lilora Today screen showing plants due for a check and the “Watered” and “No water needed” actions",
     "introCaption": "Real app introduction screen.",
-    "heroCaption": "Left: AI-generated illustration. Right: store artwork made from a real app screen with sample plant records. App shown in English."
+    "heroCaption": "Store artwork made from a real app screen with sample plant records. App shown in English."
   },
   "es": {
-    "eyebrow": "Un cuaderno para tus plantas",
-    "title": "Las plantas de casa, en un cuaderno compartido.",
+    "eyebrow": "App de plantas para iPhone y iPad",
+    "title": "Tus plantas, en una sola app.",
     "seoTitle": "App de cuidado de plantas para toda la casa",
-    "dek": "En qué habitación están, quién las revisó y cuándo se regaron. Reúne las fotos, las notas y el historial de cuidados de tus plantas en Lilora.",
-    "getApp": "Consigue la app",
+    "dek": "Identifica plantas por foto, programa recordatorios de revisión y guarda sus cuidados. Descarga Lilora para iPhone y iPad y comparte el cuidado en casa.",
+    "getApp": "Descargar la app",
     "seeHow": "Ver cómo funciona",
     "status": "En el App Store",
     "devices": "iPhone y iPad",
@@ -357,7 +357,7 @@
       },
       {
         "question": "¿En qué dispositivos e idiomas funciona?",
-        "answer": "Lilora se está preparando para iPhone y iPad. La app está en inglés y turco; el sitio web está en diez idiomas."
+        "answer": "Lilora está disponible para iPhone y iPad. La app está en inglés y turco; el sitio web está en diez idiomas."
       },
       {
         "question": "¿Necesito una suscripción para cuidar mis plantas?",
@@ -387,14 +387,14 @@
     },
     "todayImageAlt": "Pantalla “Today” de Lilora con plantas pendientes de revisión y las opciones “Watered” y “No water needed”",
     "introCaption": "Pantalla real de presentación de la app.",
-    "heroCaption": "Izquierda: ilustración generada con IA. Derecha: imagen para la tienda creada a partir de una pantalla real de la app, con registros de ejemplo. App mostrada en inglés."
+    "heroCaption": "Imagen para la tienda creada a partir de una pantalla real de la app, con registros de plantas de ejemplo. App mostrada en inglés."
   },
   "de": {
-    "eyebrow": "Ein Notizbuch für Zimmerpflanzen",
-    "title": "Ein gemeinsames Notizbuch für eure Pflanzen.",
+    "eyebrow": "Pflanzenpflege-App für iPhone und iPad",
+    "title": "Deine Pflanzen. Eine App.",
     "seoTitle": "Pflanzenpflege-App für gemeinsame Haushalte",
-    "dek": "In welchem Zimmer, zuletzt von wem geprüft und wann gegossen? Lilora hält Fotos, Notizen und Pflegeeinträge eurer Pflanzen zusammen.",
-    "getApp": "App laden",
+    "dek": "Pflanzen per Foto bestimmen, ans Prüfen denken und Pflege festhalten. Lade Lilora für iPhone und iPad und teile die Pflege mit deinem Haushalt.",
+    "getApp": "App herunterladen",
     "seeHow": "So funktioniert’s",
     "status": "Im App Store",
     "devices": "iPhone und iPad",
@@ -487,7 +487,7 @@
       },
       {
         "question": "Welche Geräte und Sprachen werden unterstützt?",
-        "answer": "Lilora wird für iPhone und iPad vorbereitet. Die App ist auf Englisch und Türkisch, die Website in zehn Sprachen."
+        "answer": "Lilora ist für iPhone und iPad verfügbar. Die App ist auf Englisch und Türkisch, die Website in zehn Sprachen."
       },
       {
         "question": "Brauche ich für die Pflanzenpflege ein Abo?",
@@ -517,14 +517,14 @@
     },
     "todayImageAlt": "Lilora-Bildschirm „Today“ mit Pflanzen zur Kontrolle und den Aktionen „Watered“ und „No water needed“",
     "introCaption": "Echter Einführungsbildschirm der App.",
-    "heroCaption": "Links: mit KI erstellte Illustration. Rechts: Store-Grafik aus einem echten App-Bildschirm mit Beispieleinträgen. Die App wird auf Englisch gezeigt."
+    "heroCaption": "Store-Grafik aus einem echten App-Bildschirm mit beispielhaften Pflanzeneinträgen. Die App wird auf Englisch gezeigt."
   },
   "pt": {
-    "eyebrow": "Um caderno para suas plantas",
-    "title": "As plantas da casa, num caderno compartilhado.",
+    "eyebrow": "App de plantas para iPhone e iPad",
+    "title": "Suas plantas em um só app.",
     "seoTitle": "App de cuidados com plantas para a casa toda",
-    "dek": "Em qual cômodo, quem conferiu por último e quando recebeu água. Reúna fotos, anotações e o histórico de cuidados das suas plantas no Lilora.",
-    "getApp": "Baixe o app",
+    "dek": "Identifique plantas por foto, crie lembretes de verificação e registre os cuidados. Baixe o Lilora para iPhone e iPad e compartilhe o cuidado em casa.",
+    "getApp": "Baixar o app",
     "seeHow": "Veja como funciona",
     "status": "Na App Store",
     "devices": "iPhone e iPad",
@@ -617,7 +617,7 @@
       },
       {
         "question": "Quais dispositivos e idiomas são compatíveis?",
-        "answer": "O Lilora está sendo preparado para iPhone e iPad. O app está em inglês e turco; o site está em dez idiomas."
+        "answer": "O Lilora está disponível para iPhone e iPad. O app está em inglês e turco; o site está em dez idiomas."
       },
       {
         "question": "Preciso de uma assinatura para cuidar das plantas?",
@@ -647,13 +647,13 @@
     },
     "todayImageAlt": "Tela “Today” do Lilora com plantas que precisam ser conferidas e as opções “Watered” e “No water needed”",
     "introCaption": "Tela real de apresentação do app.",
-    "heroCaption": "À esquerda: ilustração gerada com IA. À direita: imagem para a loja criada a partir de uma tela real do app, com registros de exemplo. App exibido em inglês."
+    "heroCaption": "Imagem para a loja criada a partir de uma tela real do app, com registros de plantas de exemplo. App exibido em inglês."
   },
   "fr": {
-    "eyebrow": "Un carnet pour vos plantes",
-    "title": "Les plantes de la maison, un carnet partagé.",
+    "eyebrow": "App pour plantes sur iPhone et iPad",
+    "title": "Vos plantes, dans une seule app.",
     "seoTitle": "Appli d’entretien des plantes pour toute la maison",
-    "dek": "Dans quelle pièce, vérifiée par qui, arrosée quand ? Gardez les photos, les notes et l’historique d’entretien de vos plantes au même endroit, dans Lilora.",
+    "dek": "Identifiez vos plantes en photo, créez des rappels et gardez une trace des soins. Téléchargez Lilora sur iPhone et iPad pour partager leur entretien.",
     "getApp": "Télécharger l’app",
     "seeHow": "Voir comment ça marche",
     "status": "Sur l’App Store",
@@ -747,7 +747,7 @@
       },
       {
         "question": "Quels appareils et quelles langues sont pris en charge ?",
-        "answer": "Lilora est conçue pour iPhone et iPad. L’app est en anglais et en turc ; le site est proposé en dix langues."
+        "answer": "Lilora est disponible sur iPhone et iPad. L’app est en anglais et en turc ; le site est proposé en dix langues."
       },
       {
         "question": "Faut-il un abonnement pour l’entretien des plantes ?",
@@ -777,13 +777,13 @@
     },
     "todayImageAlt": "Écran « Today » de Lilora montrant les plantes à vérifier et les actions « Watered » et « No water needed »",
     "introCaption": "Véritable écran de présentation de l’app.",
-    "heroCaption": "À gauche : illustration générée par IA. À droite : visuel pour la boutique créé à partir d’un véritable écran de l’app, avec des fiches d’exemple. App présentée en anglais."
+    "heroCaption": "Visuel pour la boutique créé à partir d’un véritable écran de l’app, avec des fiches de plantes d’exemple. App présentée en anglais."
   },
   "ja": {
-    "eyebrow": "観葉植物のノート",
-    "title": "みんなで使える、植物のノート。",
+    "eyebrow": "iPhone・iPad向け植物ケアアプリ",
+    "title": "植物のお世話を、ひとつのアプリで。",
     "seoTitle": "家族で植物のお世話を共有するアプリ",
-    "dek": "どの部屋にあり、誰が最後に確認し、いつ水を与えたか。iPhone・iPadのLiloraで、植物の写真、メモ、お世話の履歴をまとめましょう。",
+    "dek": "写真で植物を調べ、確認のリマインダーを設定し、お世話を記録。iPhone・iPadにLiloraをダウンロードして、家族と植物のケアを共有しましょう。",
     "getApp": "アプリをダウンロード",
     "seeHow": "使い方を見る",
     "status": "App Storeで配信中",
@@ -877,7 +877,7 @@
       },
       {
         "question": "対応する端末と言語は何ですか？",
-        "answer": "LiloraはiPhoneとiPad向けに準備中です。アプリは英語とトルコ語に、ウェブサイトは10言語に対応しています。"
+        "answer": "LiloraはiPhoneとiPadで利用できます。アプリは英語とトルコ語に、ウェブサイトは10言語に対応しています。"
       },
       {
         "question": "植物のお世話にサブスクリプションは必要ですか？",
@@ -907,13 +907,13 @@
     },
     "todayImageAlt": "確認が必要な植物と、Watered・No water neededの操作を英語で表示したLiloraのToday画面",
     "introCaption": "実際のアプリの初回案内画面です。",
-    "heroCaption": "左：AIで生成したイラスト。右：サンプルの植物記録を表示した実際のアプリ画面によるストア用画像。アプリは英語で表示しています。"
+    "heroCaption": "サンプルの植物記録を表示した実際のアプリ画面による、ストア用画像です。 アプリは英語で表示しています。"
   },
   "ko": {
-    "eyebrow": "실내식물 노트",
-    "title": "함께 쓰는 식물 노트.",
+    "eyebrow": "iPhone 및 iPad용 식물 관리 앱",
+    "title": "식물 관리를 하나의 앱에서.",
     "seoTitle": "함께 돌보는 가정을 위한 식물 관리 앱",
-    "dek": "어느 방에 있는지, 누가 마지막으로 확인했는지, 언제 물을 줬는지. iPhone과 iPad의 Lilora에 식물 사진, 메모, 관리 이력을 모아 보세요.",
+    "dek": "사진으로 식물을 식별하고, 확인 알림을 설정하고, 관리 기록을 모아 보세요. iPhone과 iPad에 Lilora를 다운로드하여 가족과 식물 관리를 공유하세요.",
     "getApp": "앱 다운로드",
     "seeHow": "사용 방법 보기",
     "status": "App Store에서 제공 중",
@@ -1007,7 +1007,7 @@
       },
       {
         "question": "어떤 기기와 언어를 지원하나요?",
-        "answer": "Lilora는 iPhone과 iPad용으로 준비 중입니다. 앱은 영어와 터키어, 웹사이트는 10개 언어로 제공됩니다."
+        "answer": "Lilora는 iPhone과 iPad에서 이용할 수 있습니다. 앱은 영어와 터키어, 웹사이트는 10개 언어로 제공됩니다."
       },
       {
         "question": "식물 관리에 구독이 필요한가요?",
@@ -1037,13 +1037,13 @@
     },
     "todayImageAlt": "확인할 식물과 물 줌·물 필요 없음 동작을 보여 주는 Lilora 오늘 화면",
     "introCaption": "실제 앱 시작 화면입니다.",
-    "heroCaption": "왼쪽: AI로 생성한 일러스트. 오른쪽: 예시 식물 기록이 담긴 실제 앱 화면으로 만든 스토어 홍보 이미지. 앱은 영어로 표시되어 있습니다."
+    "heroCaption": "예시 식물 기록이 담긴 실제 앱 화면으로 만든 스토어 홍보 이미지입니다. 앱은 영어로 표시되어 있습니다."
   },
   "it": {
-    "eyebrow": "Un diario per le piante di casa",
-    "title": "Un diario condiviso per le tue piante.",
+    "eyebrow": "App per le piante su iPhone e iPad",
+    "title": "Le tue piante, in una sola app.",
     "seoTitle": "App per la cura condivisa delle piante",
-    "dek": "In quale stanza, chi ha controllato per ultimo e quando ha annaffiato. Riunisci foto, note e cronologia delle tue piante in Lilora, su iPhone e iPad.",
+    "dek": "Identifica le piante da foto, imposta promemoria e registra le cure. Scarica Lilora per iPhone e iPad e condividi la cura delle piante con chi vive con te.",
     "getApp": "Scarica l’app",
     "seeHow": "Scopri come funziona",
     "status": "Sull’App Store",
@@ -1137,7 +1137,7 @@
       },
       {
         "question": "Quali dispositivi e lingue supporta?",
-        "answer": "Lilora è in preparazione per iPhone e iPad. L’app è in inglese e turco; il sito è in dieci lingue."
+        "answer": "Lilora è disponibile per iPhone e iPad. L’app è in inglese e turco; il sito è in dieci lingue."
       },
       {
         "question": "Serve un abbonamento per curare le piante?",
@@ -1167,13 +1167,13 @@
     },
     "todayImageAlt": "Schermata Today di Lilora con piante da controllare e azioni “Watered” (Annaffiata) e “No water needed” (Non serve acqua)",
     "introCaption": "Schermata introduttiva reale dell’app.",
-    "heroCaption": "A sinistra: illustrazione generata con IA. A destra: immagine per lo store tratta da una schermata reale dell’app con registrazioni di piante di esempio. App mostrata in inglese."
+    "heroCaption": "Immagine per lo store tratta da una schermata reale dell’app con registrazioni di piante di esempio. App mostrata in inglese."
   },
   "zh-Hant": {
-    "eyebrow": "室內植物筆記",
-    "title": "一起記錄植物的生活與照護。",
+    "eyebrow": "iPhone 與 iPad 植物照護應用程式",
+    "title": "植物照護，一個 App 就能記錄。",
     "seoTitle": "適合共同生活家庭的植物照護應用程式",
-    "dek": "放在哪個房間、誰上次檢查、何時澆水。在 iPhone 與 iPad 上用 Lilora，把植物照片、筆記與照護歷程放在一起。",
+    "dek": "拍照辨識植物、設定檢查提醒，集中記錄照護筆記。在 iPhone 或 iPad 下載 Lilora，與家人一起照顧植物。",
     "getApp": "下載應用程式",
     "seeHow": "了解使用方式",
     "status": "已在 App Store 推出",
@@ -1267,7 +1267,7 @@
       },
       {
         "question": "支援哪些裝置與語言？",
-        "answer": "Lilora 正在準備於 iPhone 與 iPad 上推出。應用程式提供英文與土耳其文；網站提供十種語言。"
+        "answer": "Lilora 已推出 iPhone 與 iPad 版本。應用程式提供英文與土耳其文；網站提供十種語言。"
       },
       {
         "question": "照護植物需要訂閱嗎？",
@@ -1297,6 +1297,6 @@
     },
     "todayImageAlt": "Lilora 的英文 Today（今日）畫面，顯示待檢查植物及 Watered（已澆水）、No water needed（不需澆水）操作",
     "introCaption": "真實應用程式介紹畫面。",
-    "heroCaption": "左：AI 生成插圖。右：以真實應用程式畫面及範例植物記錄製作的商店宣傳圖片。應用程式為英文介面。"
+    "heroCaption": "以真實應用程式畫面及範例植物記錄製作的商店宣傳圖片。 圖中應用程式為英文介面。"
   }
 }

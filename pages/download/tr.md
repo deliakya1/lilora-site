@@ -1,7 +1,7 @@
 <div class="promo-page">
 <header class="promo-header wrap">
-  <p class="eyebrow">Lilora’yı edin</p>
-  <h1>Bitkilerin için ortak bir bakım defteri</h1>
+  <p class="eyebrow">Bitki bakım uygulaması</p>
+  <h1>Lilora’yı indir</h1>
   <p class="dek">iPhone ve iPad için · Uygulama Türkçe ve İngilizce.</p>
 </header>
 <section class="promo-split wrap" aria-labelledby="download-status">
@@ -16,13 +16,13 @@
       <h3>iPhone veya iPad’inde aç</h3><p>iPhone veya iPad’inin kamerasıyla tara; Lilora App Store’da açılsın.</p>
     </div>
   </div>
-  <figure class="promo-atmosphere"><img src="/assets/images/home/download-window-v1-640.webp" srcset="/assets/images/home/download-window-v1-320.webp 320w, /assets/images/home/download-window-v1-640.webp 640w, /assets/images/home/download-window-v1-960.webp 960w" sizes="(max-width: 700px) 100vw, 40vw" width="640" height="960" alt="Güneş alan bir pencere yanında kauçuk bitkisi ve aşağı doğru uzanan salon sarmaşığını gösteren illüstrasyon" decoding="async"><figcaption>Lilora için üretilmiş temsili bir bitki sahnesi.</figcaption></figure>
+  <figure class="promo-artwork"><img src="/assets/images/home/app-tr-collection-480.webp" srcset="/assets/images/home/app-tr-collection-320.webp 320w, /assets/images/home/app-tr-collection-480.webp 480w, /assets/images/home/app-tr-collection-720.webp 720w" sizes="(max-width: 700px) 72vw, 300px" width="1320" height="2868" alt="Örnek bitkiler ve oda etiketleriyle Lilora bitki koleksiyonu" fetchpriority="high" decoding="async"><figcaption>Örnek kayıtlarla gerçek uygulama ekranından hazırlanmış mağaza görseli. Uygulama Türkçe gösteriliyor.</figcaption></figure>
 </section>
 <section class="promo-split wrap" aria-labelledby="what-you-get">
   <div><p class="eyebrow">Lilora</p><h2 id="what-you-get">Bir sonraki bakımda dönüp bakabileceğin kayıtlar</h2>
     <article class="promo-feature"><h3>Bitkilerin bir arada</h3><p>Bitkilerini, odalarını, fotoğraflarını ve notlarını bir arada tut. Türünü bilmesen de bitkini elle ekleyebilirsin.</p></article><article class="promo-feature"><h3>Her kontrol sulamayla bitmez</h3><p>Hatırlatmalar bitkini kontrol etmeni ister. Sulamayı ve kontrolü ayrı kaydet; senden sonra bakan kişi ne zaman ne yapıldığını görsün.</p></article><article class="promo-feature"><h3>Tek başına başla, bakımı paylaş</h3><p>Hesap açmadan başlayabilirsin; misafir kayıtların cihazında kalır. Hesap açınca özel bir evde bakımı paylaşabilir ve fotoğrafla bitki tanımayı kullanabilirsin.</p></article>
   </div>
-  <figure class="promo-artwork"><img src="/assets/images/home/app-tr-collection-480.webp" srcset="/assets/images/home/app-tr-collection-320.webp 320w, /assets/images/home/app-tr-collection-480.webp 480w, /assets/images/home/app-tr-collection-720.webp 720w" sizes="(max-width: 700px) 72vw, 300px" width="1320" height="2868" alt="Örnek bitkiler ve oda etiketleriyle Lilora bitki koleksiyonu" loading="lazy" decoding="async"><figcaption>Örnek kayıtlarla gerçek uygulama ekranından hazırlanmış mağaza görseli. Uygulama Türkçe gösteriliyor.</figcaption></figure>
+  <figure class="promo-atmosphere"><img src="/assets/images/home/download-window-v1-640.webp" srcset="/assets/images/home/download-window-v1-320.webp 320w, /assets/images/home/download-window-v1-640.webp 640w, /assets/images/home/download-window-v1-960.webp 960w" sizes="(max-width: 700px) 100vw, 40vw" width="640" height="960" alt="Güneş alan bir pencere yanında kauçuk bitkisi ve aşağı doğru uzanan salon sarmaşığını gösteren illüstrasyon" loading="lazy" decoding="async"><figcaption>Lilora için üretilmiş temsili bir bitki sahnesi.</figcaption></figure>
 </section>
 <section class="promo-panel wrap" aria-labelledby="free-care">
   <h2 id="free-care">Elle bitki kaydı ve bakım ücretsiz</h2><p>Elle eklediğin bitkiler, odalar, fotoğraflar, notlar ve bakım geçmişi ücretsiz. Fotoğrafla bitki tanıma isteğe bağlıdır; Pl@ntNet kullanır ve onaylaman için öneriler sunar.</p>

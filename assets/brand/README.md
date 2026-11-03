@@ -1,7 +1,7 @@
 # Lilora promotion assets
 
-The website is in its prelaunch state. These files do not announce public
-App Store availability. Promotional copy follows the ten website languages in
+Lilora is available on the App Store. The verified listing and original store
+badges are configured in `config/app-store.json`. Legacy printed QR URLs remain valid. Promotional copy follows the ten website languages in
 [`config/languages.json`](../../config/languages.json); the mobile app itself
 remains English/Turkish. English page destinations use `/`, Turkish uses `/tr/`,
 and Traditional Chinese uses `/zh-hant/`. File names retain the registry code,
