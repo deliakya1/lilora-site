@@ -136,5 +136,8 @@
   "openAppStore": "App Store에서 열기",
   "appStoreBadgeAlt": "App Store에서 다운로드하기",
   "trademark": "Apple, Apple 로고, iPhone 및 iPad는 미국과 기타 국가 및 지역에서 등록된 Apple Inc.의 상표입니다. App Store는 Apple Inc.의 서비스 마크입니다.",
-  "appStoreQrAlt": "App Store에서 Lilora를 여는 QR 코드"
+  "appStoreQrAlt": "App Store에서 Lilora를 여는 QR 코드",
+  "appTagline": "식물 관리 앱",
+  "downloadTitle": "Lilora 다운로드",
+  "downloadPriceNote": "무료 다운로드 · 선택적 앱 내 구입"
 }

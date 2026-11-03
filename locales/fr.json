@@ -136,5 +136,8 @@
   "openAppStore": "Ouvrir dans l’App Store",
   "appStoreBadgeAlt": "Télécharger dans l’App Store",
   "trademark": "Apple, le logo Apple, iPhone et iPad sont des marques d’Apple Inc., déposées aux États-Unis et dans d’autres pays et régions. App Store est une marque de service d’Apple Inc.",
-  "appStoreQrAlt": "Code QR qui ouvre Lilora sur l’App Store"
+  "appStoreQrAlt": "Code QR qui ouvre Lilora sur l’App Store",
+  "appTagline": "App d’entretien des plantes",
+  "downloadTitle": "Téléchargez Lilora",
+  "downloadPriceNote": "Téléchargement gratuit · Achats intégrés facultatifs"
 }

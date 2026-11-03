@@ -57,8 +57,8 @@
     {
       "path": "/",
       "lang": "en",
-      "title": "A shared notebook for your plants.",
-      "description": "Which room, who last checked, when it was watered. Keep your plants’ photos, notes and care history together in Lilora, on iPhone and iPad.",
+      "title": "Your plants, cared for in one app.",
+      "description": "Identify plants from a photo, set check reminders and keep care notes together. Download Lilora for iPhone and iPad and share care with your household.",
       "image": "/assets/brand/share/en-home.png"
     },
     {
@@ -211,8 +211,8 @@
     {
       "path": "/de/",
       "lang": "de",
-      "title": "Ein gemeinsames Notizbuch für eure Pflanzen.",
-      "description": "In welchem Zimmer, zuletzt von wem geprüft und wann gegossen? Lilora hält Fotos, Notizen und Pflegeeinträge eurer Pflanzen zusammen.",
+      "title": "Deine Pflanzen. Eine App.",
+      "description": "Pflanzen per Foto bestimmen, ans Prüfen denken und Pflege festhalten. Lade Lilora für iPhone und iPad und teile die Pflege mit deinem Haushalt.",
       "image": "/assets/brand/share/de-home.png"
     },
     {
@@ -617,8 +617,8 @@
     {
       "path": "/es/",
       "lang": "es",
-      "title": "Las plantas de casa, en un cuaderno compartido.",
-      "description": "En qué habitación están, quién las revisó y cuándo se regaron. Reúne las fotos, las notas y el historial de cuidados de tus plantas en Lilora.",
+      "title": "Tus plantas, en una sola app.",
+      "description": "Identifica plantas por foto, programa recordatorios de revisión y guarda sus cuidados. Descarga Lilora para iPhone y iPad y comparte el cuidado en casa.",
       "image": "/assets/brand/share/es-home.png"
     },
     {
@@ -1009,8 +1009,8 @@
     {
       "path": "/fr/",
       "lang": "fr",
-      "title": "Les plantes de la maison, un carnet partagé.",
-      "description": "Dans quelle pièce, vérifiée par qui, arrosée quand ? Gardez les photos, les notes et l’historique d’entretien de vos plantes au même endroit, dans Lilora.",
+      "title": "Vos plantes, dans une seule app.",
+      "description": "Identifiez vos plantes en photo, créez des rappels et gardez une trace des soins. Téléchargez Lilora sur iPhone et iPad pour partager leur entretien.",
       "image": "/assets/brand/share/fr-home.png"
     },
     {
@@ -1506,8 +1506,8 @@
     {
       "path": "/it/",
       "lang": "it",
-      "title": "Un diario condiviso per le tue piante.",
-      "description": "In quale stanza, chi ha controllato per ultimo e quando ha annaffiato. Riunisci foto, note e cronologia delle tue piante in Lilora, su iPhone e iPad.",
+      "title": "Le tue piante, in una sola app.",
+      "description": "Identifica le piante da foto, imposta promemoria e registra le cure. Scarica Lilora per iPhone e iPad e condividi la cura delle piante con chi vive con te.",
       "image": "/assets/brand/share/it-home.png"
     },
     {
@@ -1898,8 +1898,8 @@
     {
       "path": "/ja/",
       "lang": "ja",
-      "title": "みんなで使える、植物のノート。",
-      "description": "どの部屋にあり、誰が最後に確認し、いつ水を与えたか。iPhone・iPadのLiloraで、植物の写真、メモ、お世話の履歴をまとめましょう。",
+      "title": "植物のお世話を、ひとつのアプリで。",
+      "description": "写真で植物を調べ、確認のリマインダーを設定し、お世話を記録。iPhone・iPadにLiloraをダウンロードして、家族と植物のケアを共有しましょう。",
       "image": "/assets/brand/share/ja-home.png"
     },
     {
@@ -2290,8 +2290,8 @@
     {
       "path": "/ko/",
       "lang": "ko",
-      "title": "함께 쓰는 식물 노트.",
-      "description": "어느 방에 있는지, 누가 마지막으로 확인했는지, 언제 물을 줬는지. iPhone과 iPad의 Lilora에 식물 사진, 메모, 관리 이력을 모아 보세요.",
+      "title": "식물 관리를 하나의 앱에서.",
+      "description": "사진으로 식물을 식별하고, 확인 알림을 설정하고, 관리 기록을 모아 보세요. iPhone과 iPad에 Lilora를 다운로드하여 가족과 식물 관리를 공유하세요.",
       "image": "/assets/brand/share/ko-home.png"
     },
     {
@@ -2801,8 +2801,8 @@
     {
       "path": "/pt/",
       "lang": "pt",
-      "title": "As plantas da casa, num caderno compartilhado.",
-      "description": "Em qual cômodo, quem conferiu por último e quando recebeu água. Reúna fotos, anotações e o histórico de cuidados das suas plantas no Lilora.",
+      "title": "Suas plantas em um só app.",
+      "description": "Identifique plantas por foto, crie lembretes de verificação e registre os cuidados. Baixe o Lilora para iPhone e iPad e compartilhe o cuidado em casa.",
       "image": "/assets/brand/share/pt-home.png"
     },
     {
@@ -3200,8 +3200,8 @@
     {
       "path": "/tr/",
       "lang": "tr",
-      "title": "Birlikte yaşadığın bitkiler, ortak bir defter.",
-      "description": "Hangi bitki nerede, en son kim kontrol etti, ne zaman sulandı? Fotoğrafları, notları ve bakım geçmişini Lilora’da bir arada tut.",
+      "title": "Bitki bakımın, tek bir uygulamada.",
+      "description": "Fotoğraftan bitki tanı, kontrol hatırlatmaları oluştur ve bakım notlarını bir arada tut. Lilora’yı iPhone veya iPad’ine indir, bakımı evdekilerle paylaş.",
       "image": "/assets/brand/share/tr-home.png"
     },
     {
@@ -3592,8 +3592,8 @@
     {
       "path": "/zh-hant/",
       "lang": "zh-Hant",
-      "title": "一起記錄植物的生活與照護。",
-      "description": "放在哪個房間、誰上次檢查、何時澆水。在 iPhone 與 iPad 上用 Lilora，把植物照片、筆記與照護歷程放在一起。",
+      "title": "植物照護，一個 App 就能記錄。",
+      "description": "拍照辨識植物、設定檢查提醒，集中記錄照護筆記。在 iPhone 或 iPad 下載 Lilora，與家人一起照顧植物。",
       "image": "/assets/brand/share/zh-Hant-home.png"
     },
     {

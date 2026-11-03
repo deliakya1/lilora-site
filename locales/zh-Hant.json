@@ -136,5 +136,8 @@
   "openAppStore": "在 App Store 開啟",
   "appStoreBadgeAlt": "在 App Store 下載",
   "trademark": "Apple、Apple 標誌、iPhone 和 iPad 是 Apple Inc. 在美國及其他國家和地區註冊的商標。App Store 是 Apple Inc. 的服務標章。",
-  "appStoreQrAlt": "在 App Store 開啟 Lilora 的 QR 碼"
+  "appStoreQrAlt": "在 App Store 開啟 Lilora 的 QR 碼",
+  "appTagline": "植物照護應用程式",
+  "downloadTitle": "下載 Lilora",
+  "downloadPriceNote": "免費下載 · 提供選用 App 內購買"
 }

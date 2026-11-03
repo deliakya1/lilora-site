@@ -8,7 +8,7 @@
   "blog": "Blog",
   "app": "O app",
   "support": "Suporte",
-  "getApp": "Baixe o app",
+  "getApp": "Baixar o app",
   "about": "Sobre o Lilora",
   "press": "Imprensa",
   "learn": "Aprenda",
@@ -136,5 +136,8 @@
   "openAppStore": "Abrir na App Store",
   "appStoreBadgeAlt": "Baixar na App Store",
   "trademark": "Apple, o logotipo da Apple, iPhone e iPad são marcas comerciais da Apple Inc., registradas nos EUA e em outros países e regiões. App Store é uma marca de serviço da Apple Inc.",
-  "appStoreQrAlt": "Código QR que abre o Lilora na App Store"
+  "appStoreQrAlt": "Código QR que abre o Lilora na App Store",
+  "appTagline": "App de cuidados com plantas",
+  "downloadTitle": "Baixe o Lilora",
+  "downloadPriceNote": "Download grátis · Compras opcionais no app"
 }

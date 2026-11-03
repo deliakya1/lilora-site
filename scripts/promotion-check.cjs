@@ -141,11 +141,11 @@ async function loadLazyImages(page, route) {
             assert.ok((await page.locator('main').innerText()).includes(homeCopy[lang].artCaptionEN), `${route}: localized artwork caption`);
           }
           if (kind !== 'press') {
-            const qr = page.locator('.promo-qr');
-            assert.equal(await qr.count(), 1, `${route}: QR block`);
-            assert.equal(await qr.isVisible(), width >= 900, `${route}: QR visible only on wide screens`);
+            const qr = page.locator('main .promo-qr');
+            assert.equal(await qr.count(), kind === 'home' ? 2 : 1, `${route}: QR blocks`);
+            for (const code of await qr.all()) assert.equal(await code.isVisible(), width > 900, `${route}: QR visible only on wide screens`);
             if (width === 390) assert.ok(await page.locator('main a[data-analytics-cta]:visible').count() > 0, `${route}: visible mobile/action button`);
-            if (kind === 'download' && width === 390) assert.equal(await page.locator('.app-store-action a').isVisible(), true, `${route}: phone App Store action`);
+            if (kind === 'download' && width === 390) assert.equal(await page.locator('main .app-store-action a').first().isVisible(), true, `${route}: phone App Store action`);
           }
           await loadLazyImages(page, route);
           assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), `${route}: loaded-image overflow`);

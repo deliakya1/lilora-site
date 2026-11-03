@@ -5,7 +5,8 @@ Turkish under `/tr/`. The current content set contains **560 canonical pages:
 56 pages in each language**. The existing GitHub Pages deployment serves committed
 static files from `main`. `CNAME` stays `lilora.app`; `.nojekyll` stays in place.
 The mobile app supports **English and Turkish only**; additional
-website languages do not imply additional app languages or public App Store availability.
+website languages do not imply additional app languages. Lilora is available on the App Store;
+`config/app-store.json` owns the verified listing URL.
 
 ## Language and route architecture
 
@@ -187,9 +188,9 @@ translation counterpart or changing research dates.
 - A reminder prompts a check, not automatic watering. Do not diagnose from one sign.
 - Keep review dates tied to real research or substantive revisions. Do not rotate
   dates or churn pages to simulate freshness. Avoid thin competitor doorway pages.
-- Current availability is awaiting App Store review. Use information/support CTAs.
-  Do not insert a download badge or App Store destination until the exact public
-  listing is verified. Update all affected availability wording after verification.
+- Current availability is live on the App Store (verified 30 October 2026).
+  Use the original localized badges and canonical destination from `config/app-store.json`.
+  Keep free manual care and optional identification purchases clear.
 - Preserve useful source-backed answers. Article and BreadcrumbList metadata match
   visible content. No fabricated Review ratings, FAQ rich-result promises or special
   AI-ranking files. Search inclusion and answer-engine citations are not guaranteed.
@@ -228,7 +229,8 @@ Checked by `scripts/seo.test.mjs` (part of `npm test`) and `scripts/a11y-check.c
 - Structured data is limited to `Organization`, `WebSite` (home, no SearchAction),
   `Article`/`BlogPosting` (guides, posts, comparisons, plant profiles; author is the
   Lilora organisation; real published/reviewed dates) and `BreadcrumbList`. No Review,
-  Rating, FAQPage, HowTo or MobileApplication markup before launch.
+  Rating, FAQPage or HowTo markup. Home and download pages include truthful
+  MobileApplication markup for the live listing.
 - Every guide, post and comparison links back to its hub and to three related pages;
   every page has at least one inbound internal link.
 - One canonical Atom feed per language at its registry prefix plus `feed.xml`,
@@ -1513,3 +1515,22 @@ template.
   1024 px app icon) are archived in `assets/brand/app-store/` (see its README).
 
 <!-- site-prompt-08: done -->
+
+## App download visibility — 3 November 2026
+
+The home page now identifies Lilora as an iPhone/iPad plant-care app immediately,
+with the original localized App Store badge, free-download/optional-purchase
+wording, two approved app artworks and a desktop scan code. A second badge follows
+the free-care explanation. Every page has a footer badge and a compact mobile
+App Store strip that stays at the top while reading; cookie controls remain at the
+bottom. The strip works without JavaScript and stays behind the mobile menu.
+Download pages lead with app artwork instead of atmosphere imagery. All ten home
+FAQs now describe the released app, retaining the English/Turkish app-language limit.
+
+All 560 canonical pages are regenerated from their shared sources; the ten home
+share cards match their new headlines. No new artwork, dependency or hosting
+service is required. Original badges and artwork are preserved. Run the existing
+browser suites and `scripts/download-check.cjs` for first-viewport and sticky CTA
+visibility at 320px, keyboard focus, obstruction and no-JavaScript coverage in
+every language. The build and 99 Node tests plus five importer tests passed locally;
+CI additionally runs the full browser and mobile Lighthouse release gates.

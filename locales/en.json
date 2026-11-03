@@ -8,7 +8,7 @@
   "blog": "Blog",
   "app": "The app",
   "support": "Support",
-  "getApp": "Get the app",
+  "getApp": "Download the app",
   "about": "About Lilora",
   "press": "Press",
   "learn": "Learn",
@@ -136,5 +136,8 @@
   "openAppStore": "Open on the App Store",
   "appStoreBadgeAlt": "Download on the App Store",
   "trademark": "Apple, the Apple logo, iPhone and iPad are trademarks of Apple Inc., registered in the U.S. and other countries and regions. App Store is a service mark of Apple Inc.",
-  "appStoreQrAlt": "QR code that opens Lilora on the App Store"
+  "appStoreQrAlt": "QR code that opens Lilora on the App Store",
+  "appTagline": "Plant care app",
+  "downloadTitle": "Download Lilora",
+  "downloadPriceNote": "Free to download · Optional in-app purchases"
 }

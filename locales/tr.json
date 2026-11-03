@@ -8,7 +8,7 @@
   "blog": "Blog",
   "app": "Uygulama",
   "support": "Destek",
-  "getApp": "Uygulamayı edin",
+  "getApp": "Uygulamayı indir",
   "about": "Lilora hakkında",
   "press": "Basın",
   "learn": "Öğren",
@@ -136,5 +136,8 @@
   "openAppStore": "App Store’da aç",
   "appStoreBadgeAlt": "App Store’dan İndirin",
   "trademark": "Apple, Apple logosu, iPhone ve iPad, Apple Inc.’in ABD’de ve diğer ülke ve bölgelerde tescilli ticari markalarıdır. App Store, Apple Inc.’in hizmet markasıdır.",
-  "appStoreQrAlt": "Lilora’yı App Store’da açan QR kodu"
+  "appStoreQrAlt": "Lilora’yı App Store’da açan QR kodu",
+  "appTagline": "Bitki bakım uygulaması",
+  "downloadTitle": "Lilora’yı indir",
+  "downloadPriceNote": "Ücretsiz indir · İsteğe bağlı uygulama içi satın alımlar"
 }
