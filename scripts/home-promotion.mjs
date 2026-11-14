@@ -39,32 +39,26 @@ for (const [lang, t] of Object.entries(copy)) {
     ["identify", "shared-care"].includes(id) ? `${t.artCaptionEN} ${t.introCaption}` : caption, eager, sizes);
   // Two phone screens share one row on narrow screens, so each is about half the width.
   const pairSizes = "(min-width: 900px) 260px, (min-width: 600px) 240px, 44vw";
-  const atmosphere = (id, alt) => illustration(id, alt, t.illustrationCaption);
-  const extras = {
-    collection: ["plant-shelf-v1", t.imageAlts.shelf],
-    reminders: ["care-corner-v1", t.imageAlts.careCorner],
-    history: ["leaf-study-v1", t.imageAlts.leafStudy],
-    "shared-care": ["shared-table-v1", t.imageAlts.sharedTable],
-  };
-  const featureRows = t.features.map((f, i) => `<article class="promo-feature">
-    <div class="promo-feature-copy"><p class="promo-index">${String(i + 1).padStart(2, "0")}</p><h3>${esc(f.title)}</h3><p>${esc(f.text)}</p>${extras[f.id] ? atmosphere(...extras[f.id]) : ""}</div>
-    ${art(f.id, f.imageAlt)}
+  const featureRows = t.features.map((f, i) => `<article class="promo-feature-card">
+    <p class="promo-index" aria-hidden="true">${String(i + 1).padStart(2, "0")}</p><h3>${esc(f.title)}</h3><p>${esc(f.text)}</p>
   </article>`).join("");
   const howImages = [t.features.find(f => f.id === "reminders"), t.features.find(f => f.id === "history")];
   const body = `<div class="promo-home">
   <section class="promo-hero wrap">
     <div class="promo-hero-copy"><div class="promo-app-identity"><img src="/assets/icon-144.png" width="56" height="56" alt="" aria-hidden="true"><div><span class="promo-app-name">Lilora</span><p class="eyebrow">${esc(t.eyebrow)}</p></div></div><h1>${esc(t.title)}</h1><p class="promo-dek">${esc(t.dek)}</p>
+    <p class="promo-free-promise">${esc(t.freeTitle)} · ${esc(t.features.find(f => f.id === "guest").title)}</p>
     <div class="promo-actions">${cta("hero")}<a class="text-link" href="#how-it-works">${esc(t.seeHow)} <span aria-hidden="true">↓</span></a></div>
     <figure class="promo-qr promo-hero-qr">${appStoreQr(locales[lang], 120)}<figcaption>${esc(t.qrCaption)}</figcaption></figure></div>
     ${heroMedia(lang, t)}
   </section>
+  <nav class="promo-paths wrap" aria-label="${esc(t.seeHow)}"><a href="#how-it-works">${esc(t.seeHow)} <span aria-hidden="true">↗</span></a><a href="#free-care">${esc(t.freeTitle)} <span aria-hidden="true">↗</span></a><a href="${home}guides/">${esc(t.guidesTitle)} <span aria-hidden="true">↗</span></a></nav>
   <section class="promo-how" id="how-it-works"><div class="wrap promo-how-inner">
     <div class="promo-section-heading"><p class="eyebrow">${esc(t.howEyebrow)}</p><h2>${esc(t.howTitle)}</h2><p>${esc(t.howIntro)}</p>
     <ol class="promo-steps">${t.steps.map((s, i) => `<li><span class="promo-step-number" aria-hidden="true">${i + 1}</span><div><h3>${esc(s.title)}</h3><p>${esc(s.text)}</p></div></li>`).join("")}</ol></div>
     <div class="promo-screen-pair">${art("care", t.todayImageAlt, false, pairSizes)}${art("history", howImages[1].imageAlt, false, pairSizes)}</div>
   </div></section>
-  <section class="wrap promo-features" id="features"><header class="promo-section-heading"><p class="eyebrow">Lilora</p><h2>${esc(t.featuresTitle)}</h2></header>${featureRows}</section>
-  <section class="promo-free"><div class="wrap promo-free-inner"><header class="promo-section-heading"><h2>${esc(t.freeTitle)}</h2><p>${esc(t.freeIntro)}</p>${cta("plans")}</header><div><dl class="promo-plan-list">${t.plans.map(p => `<div><dt>${esc(p.title)}</dt><dd>${esc(p.text)}</dd></div>`).join("")}</dl><p class="promo-pricing-note">${esc(t.pricingNote)}</p></div></div></section>
+  <section class="wrap promo-features" id="features"><header class="promo-section-heading"><p class="eyebrow">Lilora</p><h2>${esc(t.featuresTitle)}</h2></header><div class="promo-feature-grid">${featureRows}</div></section>
+  <section class="promo-free" id="free-care"><div class="wrap promo-free-inner"><header class="promo-section-heading"><h2>${esc(t.freeTitle)}</h2><p>${esc(t.freeIntro)}</p>${cta("plans")}</header><div><dl class="promo-plan-list">${t.plans.map(p => `<div><dt>${esc(p.title)}</dt><dd>${esc(p.text)}</dd></div>`).join("")}</dl><p class="promo-pricing-note">${esc(t.pricingNote)}</p></div></div></section>
   {{HOME_EDITORIAL}}
   <section class="wrap promo-faq"><h2>${esc(t.faqTitle)}</h2><div>${t.faq.map(f => `<details><summary>${esc(f.question)}</summary><p>${esc(f.answer)}</p></details>`).join("")}<a class="text-link" href="${home}support/">${esc(t.supportLink)} <span aria-hidden="true">→</span></a></div></section>
   <section class="promo-band"><div class="wrap promo-band-inner"><div><h2>${esc(t.closingTitle)}</h2><p>${esc(t.closingText)}</p>${appStoreBadge(lang, locales[lang], "home-closing")}${note}<p class="promo-status">${esc(t.status)}</p></div><figure class="promo-qr">${appStoreQr(locales[lang])}<figcaption>${esc(t.qrCaption)}</figcaption></figure></div></section>
