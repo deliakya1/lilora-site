@@ -10,6 +10,11 @@ const { mkdirSync } = require('node:fs');
         const page = await browser.newPage({ viewport: { width, height: 1000 }, locale: lang, reducedMotion: 'reduce' });
         await page.goto('http://127.0.0.1:4173' + path);
         await page.evaluate(() => document.fonts.ready);
+        await page.evaluate(async () => {
+          const images = [...document.images];
+          images.forEach(image => { image.loading = 'eager'; });
+          await Promise.all(images.map(image => image.decode()));
+        });
         await page.screenshot({ path: `.test-results/previews/${lang}-${width}.png`, fullPage: true });
         await page.close();
       }

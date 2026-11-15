@@ -128,6 +128,8 @@ async function loadLazyImages(page, route) {
             assert.ok((await disclosure.innerText()).trim().length > 0, `${route}: app-language disclosure text`);
           }
           if (kind === 'home') {
+            assert.ok(!(await page.locator('main').innerText()).includes('undefined'), `${route}: no missing copy`);
+            assert.equal((await page.locator('.promo-paths a').last().innerText()).replace('↗', '').trim(), locales[lang].guides, `${route}: localized guide link`);
             assert.equal(await page.locator('h1').innerText(), homeCopy[lang].title, `${route}: own-language title`);
             assert.equal(await page.locator('.promo-features .promo-feature-card').count(), 6, `${route}: six product features`);
             assert.equal(await page.locator('.home-editorial .story-card, .home-editorial .post-card').count(), 3, `${route}: latest three guides`);

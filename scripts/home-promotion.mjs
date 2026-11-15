@@ -51,7 +51,7 @@ for (const [lang, t] of Object.entries(copy)) {
     <figure class="promo-qr promo-hero-qr">${appStoreQr(locales[lang], 120)}<figcaption>${esc(t.qrCaption)}</figcaption></figure></div>
     ${heroMedia(lang, t)}
   </section>
-  <nav class="promo-paths wrap" aria-label="${esc(t.seeHow)}"><a href="#how-it-works">${esc(t.seeHow)} <span aria-hidden="true">↗</span></a><a href="#free-care">${esc(t.freeTitle)} <span aria-hidden="true">↗</span></a><a href="${home}guides/">${esc(t.guidesTitle)} <span aria-hidden="true">↗</span></a></nav>
+  <nav class="promo-paths wrap" aria-label="${esc(t.seeHow)}"><a href="#how-it-works">${esc(t.seeHow)} <span aria-hidden="true">↗</span></a><a href="#free-care">${esc(t.freeTitle)} <span aria-hidden="true">↗</span></a><a href="${home}guides/">${esc(locales[lang].guides)} <span aria-hidden="true">↗</span></a></nav>
   <section class="promo-how" id="how-it-works"><div class="wrap promo-how-inner">
     <div class="promo-section-heading"><p class="eyebrow">${esc(t.howEyebrow)}</p><h2>${esc(t.howTitle)}</h2><p>${esc(t.howIntro)}</p>
     <ol class="promo-steps">${t.steps.map((s, i) => `<li><span class="promo-step-number" aria-hidden="true">${i + 1}</span><div><h3>${esc(s.title)}</h3><p>${esc(s.text)}</p></div></li>`).join("")}</ol></div>
