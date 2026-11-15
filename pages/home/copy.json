@@ -1,9 +1,9 @@
 {
   "tr": {
     "eyebrow": "iPhone ve iPad için bitki bakım uygulaması",
-    "title": "Bitki bakımın, tek bir uygulamada.",
-    "seoTitle": "Evdeki bitkiler için ortak bakım uygulaması",
-    "dek": "Fotoğraftan bitki tanı, kontrol hatırlatmaları oluştur ve bakım notlarını bir arada tut. Lilora’yı iPhone veya iPad’ine indir, bakımı evdekilerle paylaş.",
+    "title": "Hangi bitkiyle ne zaman ilgilendin?",
+    "seoTitle": "Ücretsiz bitki bakım ve sulama takip uygulaması",
+    "dek": "Sulama ve kontrol geçmişini gör, bakım hatırlatmaları oluştur, evdekilerle aynı kaydı paylaş. Lilora ile ilk bitkini ücretsiz ekle; hesap açmadan başla.",
     "getApp": "Uygulamayı indir",
     "seeHow": "Nasıl çalıştığını gör",
     "status": "App Store’da",
@@ -113,8 +113,8 @@
       }
     ],
     "supportLink": "Destek sayfasındaki tüm yanıtlar",
-    "closingTitle": "Bir sonraki kontrol, iyi bir kayıtla başlasın.",
-    "closingText": "Lilora’yı App Store’da aç ya da kodu iPhone veya iPad’inle tara.",
+    "closingTitle": "İlk bitkinle başla.",
+    "closingText": "Bitkini ekle, yerini seç ve bugünkü bakımını kaydet. Günlük bakım için satın alma gerekmez.",
     "qrAlt": "Türkçe Lilora indirme sayfasını açan QR kodu",
     "qrCaption": "Telefonunla tara; Lilora’yı App Store’da aç.",
     "illustrationCaption": "Yapay zekâyla oluşturulmuş illüstrasyon.",
@@ -131,9 +131,9 @@
   },
   "en": {
     "eyebrow": "Plant care app for iPhone & iPad",
-    "title": "Your plants, cared for in one app.",
-    "seoTitle": "Plant care app for shared households",
-    "dek": "Identify plants from a photo, set check reminders and keep care notes together. Download Lilora for iPhone and iPad and share care with your household.",
+    "title": "Know what your plants need next.",
+    "seoTitle": "Free plant care app & watering tracker for iPhone",
+    "dek": "Track watering, set care reminders and share plant history with your household. Add your first plant for free in Lilora. No account needed to start.",
     "getApp": "Download the app",
     "seeHow": "See how it works",
     "status": "On the App Store",
@@ -243,8 +243,8 @@
       }
     ],
     "supportLink": "Find more answers in support",
-    "closingTitle": "Give the next check a useful history.",
-    "closingText": "Open Lilora on the App Store, or scan the code with your iPhone or iPad.",
+    "closingTitle": "Start with your first plant.",
+    "closingText": "Add a plant, choose its room and record today’s care. No purchase needed for everyday plant care.",
     "qrAlt": "QR code opening Lilora’s English download page",
     "qrCaption": "Scan with your phone to open Lilora on the App Store.",
     "illustrationCaption": "AI-generated illustration.",

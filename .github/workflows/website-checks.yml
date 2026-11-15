@@ -96,6 +96,20 @@ jobs:
           cp assets/fonts/DroidSansFallback.ttf "$font_dir/"
           fc-cache -f "$font_dir"
 
+      - name: Build website and promotion assets
+        timeout-minutes: 15
+        run: npm run build
+
+      - name: Retain generated promotion assets
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: promotion-assets-${{ github.event.pull_request.number }}-${{ github.run_attempt }}
+          retention-days: 7
+          path: |
+            assets/brand/share/en-home.png
+            assets/brand/share/tr-home.png
+            assets/brand/asset-fingerprints.json
+
       - name: Complete npm test suite on committed outputs
         timeout-minutes: 10
         run: |
@@ -138,6 +152,7 @@ jobs:
           else:
               raise SystemExit('Static server did not become ready within 30 seconds')
           PY
+          node scripts/release-previews.cjs
           # The glob includes every existing browser suite, excluding the registry helper.
           # Contact/comment suites intercept their endpoints; they send no real submissions.
           for suite in scripts/*-check.cjs; do
@@ -162,3 +177,4 @@ jobs:
             .test-results/lighthouse/
             .test-results/**/report.json
             .test-results/*-report.json
+            .test-results/previews/
