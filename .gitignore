@@ -2,3 +2,25 @@ node_modules/
 .test-results/
 .openai/
 __pycache__/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p8
+*.p12
+*.pfx
+*.mobileprovision
+*service-account*.json
+*serviceAccount*.json
+credentials.json
+.npmrc
+.DS_Store
+
+# Private operational records belong in the private app repository or Notion
+.private/
+docs/internal/
+docs/releases/
+*.log
