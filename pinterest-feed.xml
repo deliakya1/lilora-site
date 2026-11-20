@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Lilora Houseplant Care</title>
+    <link>https://lilora.app/</link>
+    <description>Plant care guides from Lilora on watering, light, and repotting.</description>
+    <language>en</language>
+    <item>
+      <title>How to water houseplants without a rigid schedule</title>
+      <link>https://lilora.app/guides/watering-houseplants/</link>
+      <guid isPermaLink="true">https://lilora.app/guides/watering-houseplants/</guid>
+      <description>Check the potting mix, feel the weight of the pot, and let excess water drain. Use these cues to decide when your houseplant needs water.</description>
+      <media:content url="https://lilora.app/assets/brand/share/en-guides--watering-houseplants.png" type="image/png" medium="image" width="1200" height="630" />
+    </item>
+  </channel>
+</rss>
