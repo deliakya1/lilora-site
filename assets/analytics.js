@@ -95,7 +95,14 @@
       analytics_storage:'granted', ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied'
     });
     window.gtag('js', new Date());
+    // Attribute only the two factory links after consent. Keep the full URL and referrer private.
+    const source=new URLSearchParams(location.search).get('via');
+    const factoryGuide=/^\/guides\/[a-z0-9-]+\/$/.test(location.pathname);
+    const campaign=factoryGuide && (source==='threads'||source==='pinterest')
+      ? {campaign_source:source,campaign_medium:'social',campaign_name:'lilora_weekly'}
+      : {};
     window.gtag('config', id, {
+      ...campaign,
       send_page_view:false, allow_google_signals:false, allow_ad_personalization_signals:false,
       page_location:location.origin+location.pathname, page_referrer:'', page_title:document.title,
       cookie_expires:15552000, cookie_update:false, cookie_flags:'SameSite=Lax;Secure'
