@@ -75,6 +75,21 @@ const base='http://127.0.0.1:4173';
  assert.notEqual(prefix('en'),prefix('tr'),'revocation exercises different locale paths');
  const b=await tabs.newPage();await b.goto(base+prefix('tr'));assert.equal(await b.locator('#lilora-google-tag').count(),1);
  await a.locator('.cookie-settings').click();await Promise.all([b.waitForEvent('load'),a.locator('[data-action="withdraw"]').click()]);assert.equal(await b.locator('#lilora-google-tag').count(),0);
+ // Only the two factory sources are attributed, and only after consent.
+ for(const source of ['threads','pinterest','unknown']){
+  const ctx=await browser.newContext();
+  await ctx.route(/https:\/\/.*google.*/,r=>r.fulfill({body:''}));
+  const page=await ctx.newPage();
+  await page.goto(base+'/guides/indoor-plant-light-guide/?via='+source+'&email=private@example.com');
+  assert.equal(await page.locator('#lilora-google-tag').count(),0);
+  await page.locator('.cookie-banner [data-action="accept"]').click();
+  const config=await page.evaluate(()=>Array.from(window.dataLayer.find(x=>x[0]==='config'))[2]);
+  assert.equal(config.campaign_source,source==='unknown'?undefined:source);
+  assert.equal(config.campaign_name,source==='unknown'?undefined:'lilora_weekly');
+  assert.equal(config.page_location.includes('?'),false);
+  assert.equal(config.page_referrer,'');
+  await ctx.close();
+ }
  await browser.close();
  const report={localeAndViewportRuns:checks,locales:languages,widths:[320,1440],tests:['no requests initially or after rejection','equal accept/reject paths','versioned saved preference','native dialog focus containment and Escape restoration','opt-in loads one tag','one pageview per navigation','no duplicate handlers','sanitized page URL','advertising consent denied','withdrawal and owned-cookie cleanup','cross-page persistence','storage-unavailable fallback','cross-tab revocation'],googleRequests:'Intercepted locally; no production analytics hits sent'};
  fs.mkdirSync('.test-results',{recursive:true});fs.writeFileSync('.test-results/consent-report.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));
