@@ -277,6 +277,8 @@ for (const a of articles)
         .join("")}</div></section></div>`,
     });
   }
+// These three botanical names are also covered by Lilora's offline catalogue in 1.3.0.
+const inAppCareGuides = new Set(["epipremnum-aureum", "ficus-elastica", "monstera-deliciosa"]);
 for (const a of plants)
   for (const l of languages) {
     if (!a[l]) continue;
@@ -291,6 +293,7 @@ for (const a of plants)
       seoTitle: c.seoTitle,
       description: c.description,
       alternates: counterparts(a, plantPath),
+      appArgument: inAppCareGuides.has(a.slug) ? origin + path : undefined,
       sources: contentSources("plants", a.slug, l),
       images: a.image ? [absolute(a.image)] : [],
       schema: [

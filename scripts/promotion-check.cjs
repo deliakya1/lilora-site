@@ -89,7 +89,7 @@ async function loadLazyImages(page, route) {
       assert.equal(await page.locator('h1').count(), 1, route);
       assert.ok(await page.locator(`header.header a[data-analytics-cta][href="${storeUrl}"]`).count() >= 1, `${route}: header App Store CTA`);
       const html = await page.content();
-      assert.ok(html.includes('<meta name="apple-itunes-app" content="app-id=6818604360">'), `${route}: Smart App Banner`);
+      assert.match(html, /<meta name="apple-itunes-app" content="app-id=6818604360(?:, app-argument=https:\/\/lilora\.app\/[^"]+)?">/, `${route}: Smart App Banner`);
       for (const [url] of html.matchAll(storeLinks)) assert.equal(url, storeUrl, `${route}: canonical App Store URL`);
       assert.equal(await page.locator('meta[name="twitter:card"]').getAttribute('content'), 'summary_large_image', route);
       const og = await page.locator('meta[property="og:image"]').getAttribute('content');
