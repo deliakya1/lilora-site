@@ -66,3 +66,17 @@ test('Turkish 114 UZEM line appears only in Turkish and English pet text and nev
   for(const sentence of body.split(/(?<=[.;])\s/).filter(x=>/\b114\b/.test(x)))if(/\b(?:pets?|animals?|hayvan\w*|kedi\w*|köpek\w*)\b/i.test(sentence))assert.match(sentence,/\bnot\b|değil/,`${item.slug}/${lang}: ${sentence}`);
  }
 });
+
+test('exact app species pass their localized canonical URL to the app banner', () => {
+  const webOnly = new Set(['goeppertia', 'phalaenopsis', 'spathiphyllum']);
+  assert.equal(plants.filter(plant => !webOnly.has(plant.slug)).length, 9);
+  for (const plant of plants) {
+    for (const lang of languages) {
+      const route = `${prefix(lang)}plants/${plant.slug}/`;
+      const page = readFileSync(`.${route}index.html`, 'utf8');
+      const argument = webOnly.has(plant.slug) ? '' : `, app-argument=https://lilora.app${route}`;
+      assert.ok(page.includes(`<meta name="apple-itunes-app" content="app-id=6818604360${argument}">`), route);
+      assert.ok(page.includes('https://apps.apple.com/app/id6818604360'), route);
+    }
+  }
+});

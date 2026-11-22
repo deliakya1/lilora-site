@@ -277,6 +277,18 @@ for (const a of articles)
         .join("")}</div></section></div>`,
     });
   }
+// These articles have exact species matches in the Lilora 1.3.0 offline catalogue.
+const inAppCareGuides = new Set([
+  "aloe-vera",
+  "chlorophytum-comosum",
+  "dracaena-trifasciata",
+  "epipremnum-aureum",
+  "ficus-elastica",
+  "ficus-lyrata",
+  "monstera-deliciosa",
+  "philodendron-hederaceum",
+  "zamioculcas-zamiifolia",
+]);
 for (const a of plants)
   for (const l of languages) {
     if (!a[l]) continue;
@@ -291,6 +303,7 @@ for (const a of plants)
       seoTitle: c.seoTitle,
       description: c.description,
       alternates: counterparts(a, plantPath),
+      appArgument: inAppCareGuides.has(a.slug) ? origin + path : undefined,
       sources: contentSources("plants", a.slug, l),
       images: a.image ? [absolute(a.image)] : [],
       schema: [

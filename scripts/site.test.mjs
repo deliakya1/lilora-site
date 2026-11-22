@@ -43,7 +43,7 @@ test('availability and owner-supplied consent-gated analytics are explicit',()=>
  const all=files.map(f=>readFileSync(f,'utf8')).join('');
  assert.doesNotMatch(all,/(?:awaiting|in) App Store review|App Store inceleme(?:sinde|sini bekliyor)|AggregateRating|gtag\/js\?id=/i);
  // The live listing: Smart App Banner on every page and one canonical App Store URL.
- for(const f of files)assert.match(readFileSync(f,'utf8'),/<meta name="apple-itunes-app" content="app-id=6818604360">/,f);
+ for(const f of files)assert.match(readFileSync(f,'utf8'),/<meta name="apple-itunes-app" content="app-id=6818604360(?:, app-argument=https:\/\/lilora\.app\/[^"]+)?">/,f);
  for(const [url] of all.matchAll(/https:\/\/apps\.apple\.com\/[^"'\s<)]*6818604360[^"'\s<)]*/g))assert.equal(url,'https://apps.apple.com/app/id6818604360');
 });
 
