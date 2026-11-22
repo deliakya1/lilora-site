@@ -277,8 +277,18 @@ for (const a of articles)
         .join("")}</div></section></div>`,
     });
   }
-// These three botanical names are also covered by Lilora's offline catalogue in 1.3.0.
-const inAppCareGuides = new Set(["epipremnum-aureum", "ficus-elastica", "monstera-deliciosa"]);
+// These articles have exact species matches in the Lilora 1.3.0 offline catalogue.
+const inAppCareGuides = new Set([
+  "aloe-vera",
+  "chlorophytum-comosum",
+  "dracaena-trifasciata",
+  "epipremnum-aureum",
+  "ficus-elastica",
+  "ficus-lyrata",
+  "monstera-deliciosa",
+  "philodendron-hederaceum",
+  "zamioculcas-zamiifolia",
+]);
 for (const a of plants)
   for (const l of languages) {
     if (!a[l]) continue;
