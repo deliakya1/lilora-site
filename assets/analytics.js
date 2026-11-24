@@ -103,6 +103,10 @@
       : {};
     window.gtag('config', id, {
       ...campaign,
+      ...(source==='instagram' && new URLSearchParams(location.search).get('campaign')==='weekly' &&
+        (factoryGuide || location.pathname==='/guides/')
+        ? {campaign_source:'instagram',campaign_medium:'social',campaign_name:'lilora_weekly'}
+        : {}),
       send_page_view:false, allow_google_signals:false, allow_ad_personalization_signals:false,
       page_location:location.origin+location.pathname, page_referrer:'', page_title:document.title,
       cookie_expires:15552000, cookie_update:false, cookie_flags:'SameSite=Lax;Secure'
