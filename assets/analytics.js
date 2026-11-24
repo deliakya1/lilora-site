@@ -95,10 +95,11 @@
       analytics_storage:'granted', ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied'
     });
     window.gtag('js', new Date());
-    // Attribute only the two factory links after consent. Keep the full URL and referrer private.
+    // Attribute only factory campaign links after consent. Keep the full URL and referrer private.
     const source=new URLSearchParams(location.search).get('via');
     const factoryGuide=/^\/guides\/[a-z0-9-]+\/$/.test(location.pathname);
-    const campaign=factoryGuide && (source==='threads'||source==='pinterest')
+    const instagramGuideIndex=source==='instagram' && location.pathname==='/guides/';
+    const campaign=(factoryGuide && ['threads','pinterest','instagram'].includes(source)) || instagramGuideIndex
       ? {campaign_source:source,campaign_medium:'social',campaign_name:'lilora_weekly'}
       : {};
     window.gtag('config', id, {
